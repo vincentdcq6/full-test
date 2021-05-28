@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="gradientcolormiddle" xml:lang="en-US">
+   <title id="title__Toc50995208">GRADIENTCOLORMIDDLE system variable</title>
+   <conbody>
+      <section><title>Background gradient color middle</title><p>Specifies the default middle color for gradient backgrounds. This only applies if GRADIENTMODE is set to Three-color gradient.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/string" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>RGB:250,250,250”</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_export_document_details_and_revisions">
+    <title>Export document details and revisions</title>
+    <taskbody>
+        <context>
+            <p>You can export document details and revisions to an Excel file:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Dashboard</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Documents</uicontrol>
+                    <image href="../IMAGES_temp/documents_icon.PNG" id="image_fww_gs2_fpb" scope="external" /> in the
+                    tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>ellipsis</uicontrol> button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_qyq_yz2_fpb" scope="external" /> at the top
+                    of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Export to .xls</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Export to .xls</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the options you want to export:</cmd>
+                <info>
+                    <ul id="ul_hm4_s1f_fpb">
+                        <li>Document details</li>
+                        <li>Revisions</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>If applicable, select <uicontrol>Download subfolders as well</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Download</uicontrol>.</cmd>
+                <stepresult>An Excel file including the selected options is saved to your download
+                    folder.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <image href="../IMAGES_temp/close_icon.PNG" id="image_qch_dcf_fpb" scope="external" /> to
+                    close the <wintitle>Export to .xls</wintitle> window.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_wlr_mh3_jpb">
+            <note>If you export a complete project, or folders including subfolders, you will
+                receive the Excel file by email.</note>
+        </postreq>
+    </taskbody>
+</task>

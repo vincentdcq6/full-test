@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="concept_atj_34b_smb">
+   <title>Overview of install options</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <ul id="ul_pqn_34b_smb">
+         <li><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> comes as a single download file
+            for all license levels, including <b conkeyref="product_names_warehouse/b_czf_4n2_1nb" />.</li>
+         <li>When you install a new <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> version
+            for the first time, you can run a 30-day trial mode.</li>
+         <li>You can install each new major version next to a previous major version.</li>
+      </ul>
+      <section id="section_rgt_3hb_cnb">
+         <title>Interactive installation</title>
+         <p>In case of a normal (non-silent) installation, the user provides the necessary installation input via dialog boxes.</p>
+         <p>The user interface of Windows Installer queries the target system and displays Setup Wizard. Setup Wizard enables the user to change various options that affect the installation.</p>
+      </section>
+      <section id="section_xrl_khb_cnb">
+         <title>Silent installation</title>
+         <p>In case of a silent or quiet installation, the Setup Wizard user interface is disabled and the actions during the user interface sequence are not performed.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="GD_overview_of_licensing_options" />
+         <link keyref="GD_interactive_installation" />
+         <link keyref="GD_silent_installation_windows_only" />
+      </linklist>
+   </related-links>
+</concept>
+

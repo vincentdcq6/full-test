@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_restore_an_archived_project">
+    <title>Restore an archived project</title>
+    <taskbody>
+        <context>
+            <p>You can restore an archived project:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Log into Bricsys 24/7 on the <xref href="https://my.bricsys247.com/app/" format="html" scope="external">login page</xref>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>My projects</uicontrol>
+                    <image href="../IMAGES_temp/my_projects.PNG" id="image_nqm_13t_1pb" scale="75" scope="external" />.</cmd>
+            </step>
+            <step>
+                <cmd>Select project status <uicontrol>Archived</uicontrol> from the drop-down menu
+                    below the project bar.</cmd>
+                <info>
+                    <div>
+                        <fig id="fig_cgf_vlg_bpb">
+                            <title>Project status</title>
+                            <image href="../IMAGES_temp/project_status_archived.PNG" id="image_dgf_vlg_bpb" scope="external" />
+                        </fig>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Select a project in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Restore project</uicontrol>
+                    <image href="../IMAGES_temp/restore_project_button.PNG" id="image_lrh_bmg_bpb" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Restore project(s)</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the project is successfully
+                        restored.<note type="tip">Select project status
+                            <uicontrol>Active</uicontrol> to display the active
+                    projects.</note></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

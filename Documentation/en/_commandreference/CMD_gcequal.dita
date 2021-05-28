@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gcequal">
+   <title>GCEQUAL command</title>
+   <shortdesc>Creates an equal geometric constraint on 2D entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create an equal constraint to ensure circular entities maintain equal radii or linear entities maintain equal lengths. </p>
+      <section id="section_yhc_zlc_x4b">
+         <title>Methods to create an equal constraint</title>
+         <p>There are two methods to begin creating an equal constraint:<ul id="ul_it2_xlc_x4b">
+               <li>Select first entity</li>
+               <li>Multiple</li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select first entity</dt>
+                  <dd>Begin creating an equal constraint by selecting an arc, circle, line, or polyline segment then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select second entity</dt>
+                  <dd outputclass="indent1">Select a similar entity to make equal to the first. The first entity maintains its radius or length while the radius or length of the second entity updates to match the first entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Multiple</dt>
+                  <dd>Begin creating more than one equal constraint by specifying the Multiple option then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select first entity</dt>
+                  <dd outputclass="indent1">Select an arc, circle, line, or polyline segment.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select entity to make equal to the first</dt>
+                  <dd outputclass="indent1">Select a similar entity to make equal to the first. Continue selecting similar entities until you press Enter to end the command. The first entity maintains its radius or length while the radius or length of all subsequent entities update to match the first entity.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

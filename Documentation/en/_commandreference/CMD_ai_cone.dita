@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_ai_cone">
+   <title>AI_CONE command</title>
+   <shortdesc>Creates a 3D polygon mesh in the shape of a cone.</shortdesc>
+   <conbody>
+      <fig id="fig_zsh_cxp_x4b"><!--Insert License Level--></fig>
+      <fig id="fig_zs2_fxp_x4b">
+         <image outputclass="indent1" id="image_at2_fxp_x4b" scope="external"><!--Insert link to Tool icon--></image>
+      </fig>
+      <p><!--Alias:--></p>
+      <p>Create a 3D polygon mesh in the shape of a circular or elliptical cone. Choose from a combination of options including center, radius, diameter, height, axis endpoints, apex, and number of segments.</p>
+      <fig id="fig_hsb_jwq_cpb">
+         <image href="https://static.bricsys.com/help/en_US/CMD_AI_CONE_01_V21.png" id="image_v1l_tlq_x4b" scope="external" />
+         <image href="https://static.bricsys.com/help/en_US/CMD_AI_CONE_01_V21.png" id="image_ewg_tlq_x4b" scope="external"><!--to be replaced by _02 version--></image>
+         <image href="https://static.bricsys.com/help/en_US/CMD_AI_CONE_03_V21.png" id="image_jz4_rlq_x4b" scope="external" />
+      </fig>
+      <section id="section_gth_ylq_x4b">
+         <title>Methods to create a cone</title>
+         <p>There are two methods to begin creating a cone:<ul id="ul_w1m_ylq_x4b">
+               <li>Center of base of cone </li>
+               <li>Elliptical </li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Center of base of cone </dt>
+                  <dd>Begin creating a circular cone by specifying the center of the base then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Radius of base </dt>
+                  <dd outputclass="indent1">Specify the radius of the base of the cone.</dd>
+                  <dd outputclass="indent1">Additional option: [Diameter] </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Height of cone </dt>
+                  <dd outputclass="indent1">Specify the height of the cone. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Number of segments</dt>
+                  <dd outputclass="indent1">Specify the number of isolines used to simulate the cone’s curved surface. The default is 16. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Elliptical</dt>
+                  <dd>Begin creating an elliptical cone by specifying the first end of the ellipse axis then: </dd>
+                  <dd>Additional option: [Center] </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Second end of ellipse axis</dt>
+                  <dd outputclass="indent1">Specify the second end of the ellipse axis.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Other axis </dt>
+                  <dd outputclass="indent1">Specify the radius of the other axis. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Height of cone</dt>
+                  <dd outputclass="indent1">Specify the height of the cone. </dd>
+                  <dd outputclass="indent1">Additional option: [Apex]</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Number of segments </dt>
+                  <dd outputclass="indent1">Specify the number of isolines used to simulate the cone’s curved surface. The default is 16. </dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+      <section id="section_apw_mmq_x4b">
+         <title>Options within the AI_CONE command </title>
+         <p>After you begin creating a cone, the following options may be available:</p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Diameter </dt>
+                  <dd>Specify the diameter of the cone’s base or top. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Center</dt>
+                  <dd>Specify the center of an elliptical base. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Apex</dt>
+                  <dd>Specify the location for the top of the cone.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_cone" />
+         <link keyref="CMD_aibox" />
+         <link keyref="CMD_aicylinder" />
+         <link keyref="CMD_aidish" />
+         <link keyref="CMD_aidome" />
+         <link keyref="CMD_aipyramid" />
+         <link keyref="CMD_aisphere" />
+         <link keyref="CMD_aitorus" />
+         <link keyref="CMD_ai_wedge" />
+         <link keyref="CMD_edgesurf" />
+         <link keyref="CMD_revsurf" />
+         <link keyref="CMD_rulesurf" />
+         <link keyref="CMD_tabsurf" />
+      </linklist> 
+</related-links>
+</concept>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_landxmlimport">
+   <title>LANDXMLIMPORT command</title>
+   <shortdesc>Opens the Open Land XML File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_openlandxmlfile" /> to select an xml file to import. After
+         choosing Open in the Dialog Box, you are prompted at the Command line:</p>
+      <p>
+         <dl>
+            <dlentry>
+               <dt>Draw Breaklines as Polylines</dt>
+               <dd>Specifies if breaklines are imported as polylines.</dd>
+            </dlentry>
+         </dl>
+      </p>
+   </conbody>
+</concept>

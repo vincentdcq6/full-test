@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
+<map title="Installation and licensing">
+  <title>Installation and licensing</title>
+  <topicref href="empty%20titles/BCAD_installation_and_licensing_title.dita" keys="GD_installation_and_licensing">
+    <topicref href="_guides/BCAD_installation_and_licensing/GD_system_requirements.dita" keys="GD_system_requirements" />
+    <topicref href="_guides/BCAD_installation_and_licensing/GD_downloading_bricscad.dita" keys="GD_downloading_bricscad" chunk="to-content">
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_downloading_recent_release_of_bricscad.dita" keys="GD_downloading_recent_release_of_bricscad" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_download_an_old_release_of_bricscad.dita" keys="GD_download_an_old_release_of_bricscad" />
+    </topicref>
+    <topicref href="_guides/BCAD_installation_and_licensing/GD_trial_mode.dita" keys="GD_trial_mode" />
+    <topicref href="_guides/BCAD_installation_and_licensing/GD_safe_mode.dita" keys="GD_safe_mode" />
+    <topicref href="_guides/BCAD_installation_and_licensing/GD_communicator_for_bricscad.dita" keys="GD_communicator_for_bricscad" />
+    <topicref href="_guides/BCAD_installation_and_licensing/GD_installing_bricscad.dita" keys="GD_installing_bricscad" chunk="to-content">
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_overview_of_install_options.dita" navtitle="Overview of install options" keys="GD_overview_of_install_options" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_interactive_installation.dita" keys="GD_interactive_installation" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_silent_installation_windows_only.dita" keys="GD_silent_installation_windows_only" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_deployment.dita" keys="GD_deployment" toc="no" print="no" />
+    </topicref>
+    <topicref href="_guides/BCAD_installation_and_licensing/GD_activating_and_licensing.dita" keys="GD_activating_and_licensing">
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_overview_of_licensing_options.dita" keys="GD_overview_of_licensing_options" chunk="to-content">
+        <topicref href="_guides/BCAD_installation_and_licensing/GD_license_levels.dita" keys="GD_license_levels" />
+        <topicref href="_guides/BCAD_installation_and_licensing/GD_license_types.dita" keys="GD_license_types" />
+        <topicref href="_guides/BCAD_installation_and_licensing/GD_additional_license_options.dita" keys="GD_additional_license_options" />
+      </topicref>
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_activate_a_single_or_volume_license_automatically_online.dita" keys="GD_activate_a_single_or_volume_license_automatically_online" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_activate_a_single_or_volume_license_manually_offline.dita" keys="GD_activate_a_single_or_volume_license_manually_offline" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_activate_a_network_license_automatically_online.dita" keys="GD_activate_a_network_license_automatically_online" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_activate_a_network_license_manually_offline.dita" keys="GD_activate_a_network_license_manually_offline" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_activate_a_trial_license_automatically_online.dita" keys="GD_activate_a_trial_license_automatically_online" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_activate_a_trial_license_manually_offline.dita" keys="GD_activate_a_trial_license_manually_offline" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_to_use_a_network_license_on_a_client_computer.dita" keys="GD_to_use_a_network_license_on_a_client_computer" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_to_roam_a_network_license_on_a_client_computer.dita" keys="GD_to_roam_a_network_license_on_a_client_computer" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_to_return_a_roamed_network_license_to_the_server.dita" keys="GD_to_return_a_roamed_network_license_to_the_server" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_proxy_settings.dita" keys="GD_proxy_settings" />
+    </topicref>
+    <topicref href="_guides/BCAD_installation_and_licensing/GD_setting_up_a_network_license_server.dita" keys="GD_setting_up_a_network_license_server">
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_network_license_server.dita" keys="GD_network_license_server" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_set_up_a_windows_network_license_server.dita" keys="GD_set_up_a_windows_network_license_server" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_set_up_a_linux_network_license_server.dita" keys="GD_set_up_a_linux_network_license_server" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_roaming.dita" keys="GD_roaming" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_network_license_server_administration.dita" keys="GD_network_license_server_administration" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_license_pooling.dita" keys="GD_license_pooling" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_advanced_configurations.dita" keys="GD_advanced_configurations" />
+    </topicref>
+    <topicref href="_guides/BCAD_installation_and_licensing/GD_managing_licenses.dita" keys="GD_managing_licenses">
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_modify_a_bricscad_license.dita" keys="GD_modify_a_bricscad_license" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_deactivate_or_revoke_a_bricscad_license.dita" keys="GD_deactivate_or_revoke_a_bricscad_license" />
+      <topicref href="_guides/BCAD_installation_and_licensing/GD_migrate_my_license_to_another_computer.dita" keys="GD_migrate_my_license_to_another_computer" />
+    </topicref>
+  </topicref>
+</map>

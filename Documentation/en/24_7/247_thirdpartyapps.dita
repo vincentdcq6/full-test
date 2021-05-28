@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_third_party_apps">
+    <title>Third-party apps</title>
+    <conbody>
+        <p>We recommend the following third-party apps:<ul id="ul_xkh_yzm_r4b">
+                <li>LetsBuild</li>
+                <li>TIQ</li>
+                <li>SmartCheckups</li>
+                <li>C-SITE</li>
+                <li>KYP Project</li>
+                <li>ArchiSnapper</li>
+            </ul></p>
+    </conbody>
+</concept>

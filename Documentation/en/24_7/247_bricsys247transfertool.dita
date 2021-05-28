@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_bricsys_24_7_transfer_tool">
+    <title>Bricsys 24/7 Transfer Tool</title>
+    <conbody>
+        <p>The Bricsys 24/7 Transfer Tool is a local desktop application with extended Bricsys 24/7
+            functionality.</p>
+        <p>You can download the tool <xref href="https://www.bricsys.com/en-intl/247/applications/" format="html" scope="external">here</xref>.</p>
+    </conbody>
+</concept>

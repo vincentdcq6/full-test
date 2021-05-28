@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="trimmode" xml:lang="en-US">
+   <title id="title__Toc50995752">TRIMMODE system variable</title>
+   <conbody>
+      <section><title>Trim mode</title><p>Specifies whether the length of the selected entities or polyline segments for chamfers and fillets are adjusted (trimmed or lengthened).</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/boolean" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p conkeyref="system_variable_warehouse/on" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Don’t trim selected edges to the endpoints of chamfer lines and fillet arcs</p>
+                           <p>On (1): Trim selected edges to the endpoints of chamfer lines and fillet arcs</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p>
+         <p>
+            <fig id="fig_oqr_1th_p4b">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_trimmode_01_V21.png" id="image_pqr_1th_p4b" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

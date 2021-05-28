@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_3dentitysnaps">
+    <title>3D entity snaps</title>
+    <shortdesc>In addition to the 2D entity snaps, a series of 3D entity snap modes apply to points
+        on 3D entities such as solids, surfaces, splines and meshes.</shortdesc>
+    <conbody>
+        <p>The current 3D entity snap modes are saved through the 3DOSMODE system variable as the
+            sum of the bitcodes of the selected snap modes.</p>
+        <p>
+            <table id="table_rkj_qxp_qpb">
+                <tgroup cols="4">
+                    <colspec colnum="1" colname="col1" rowsep="1" colsep="1" colwidth="1*" />
+                    <colspec colnum="2" colname="col2" rowsep="1" colsep="1" colwidth="1*" />
+                    <colspec colnum="3" colname="col3" rowsep="1" colsep="1" colwidth="1*" />
+                    <colspec colnum="4" colname="col4" rowsep="1" colsep="1" colwidth="3*" />
+                    <thead>
+                        <row>
+                            <entry>Name</entry>
+                            <entry>Icon</entry>
+                            <entry>Marker</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Center</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/3dsnap_center.png" id="image_hjr_3cs_4pb" scope="external" outputclass="icon" />
+                            </entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/3dsnap_center_marker.png" id="image_w1m_bvp_qpb" scope="external" outputclass="icon" /></entry>
+                            <entry>Snaps to the center of 3D faces.</entry>
+                        </row>
+                        <row>
+                            <entry>Intersection</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/3dsnap_intersection.png" scope="external" id="image_dwk_xxp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/3dsnap_intersection_marker.png" scope="external" id="image_nfd_vyp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry>Snaps to the intersections of linear entities, edges, and polar
+                                or entity snap tracking lines with faces.</entry>
+                        </row>
+                        <row>
+                            <entry>Knot</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/3dsnap_knot.png" scope="external" id="image_ofg_yxp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/3dsnap_knot_marker.png" scope="external" id="image_kmm_wyp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry>Snaps to knots (fit points) on splines.</entry>
+                        </row>
+                        <row>
+                            <entry>Midpoint</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/3dsnap_midpoint.png" scope="external" id="image_cfw_yxp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/3dsnap_midpoint_marker.png" scope="external" id="image_fbh_xyp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry>Snaps to the midpoint of a face edge.</entry>
+                        </row>
+                        <row>
+                            <entry>Nearest</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/3dsnap_nearest.png" scope="external" id="image_y1b_1yp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/3dsnap_nearest_marker.png" scope="external" id="image_ldc_yyp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry>Snaps to a point on the face of a 3D entity that is nearest to
+                                the cursor.</entry>
+                        </row>
+                        <row>
+                            <entry>None</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_none.png" scope="external" id="image_k4p_cyp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry> </entry>
+                            <entry>Disables all 3D snap modes.</entry>
+                        </row>
+                        <row>
+                            <entry>Perpendicular</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/3dsnap_perpendicular.png" scope="external" id="image_ehw_1yp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/3dsnap_perpendicular_marker.png" scope="external" id="image_gdw_yyp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry>Snaps to a point perpendicular to a face on a 3D entity.</entry>
+                        </row>
+                        <row>
+                            <entry>Vertex</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/3dsnap_vertex.png" scope="external" id="image_b5n_byp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/3dsnap_vertex_marker.png" scope="external" id="image_yg4_zyp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry>Snaps to the closest vertex of a 3D entity and the control
+                                vertices of splines.</entry>
+                        </row>
+                        <row>
+                            <entry>Point Cloud</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/3dsnap_pointcloud.png" scope="external" id="image_vx1_cyp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/3dsnap_intersection_marker.png" scope="external" id="image_t2j_1zp_qpb" outputclass="icon" />
+                            </entry>
+                            <entry>Snaps to point cloud points.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <section id="section_byk_czp_qpb">
+            <title>Setting the 3D Entity Snap modes</title>
+            <ul id="ul_awp_czp_qpb">
+                <li>
+                    <p>Click the buttons on the <uicontrol>3D Entity Snaps</uicontrol> toolbar.</p>
+                    <p>The buttons of the currently active entity snap modes are pressed.</p>
+                </li>
+                <li>When no command is running, clicking a tool button toggles the snap mode on/off.</li>
+                <li>When executing a command, clicking a tool button sets the snap mode for the next
+                    point, temporarily disabling all other selected snap modes.</li>
+                <li>Run the 3DSONAP or -3DOSNAP the commands.</li>
+                <li>Shift + Right click, hover over <uicontrol>3d Entity Snap</uicontrol> in the
+                    context menu and click the 3D entity snap option on the flyout menu.</li>
+            </ul>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_3dosnap" />
+            <link keyref="CMD_-3dosnap" />
+            <link keyref="CMD_zcenter" />
+            <link keyref="CMD_zintersection" />
+            <link keyref="CMD_zknot" />
+            <link keyref="CMD_zmidpoint" />
+            <link keyref="CMD_znearest" />
+            <link keyref="CMD_znone" />
+            <link keyref="CMD_zperpendicular" />
+            <link keyref="CMD_zvertex" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_3dosmode" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="GD_2dentitysnaps" />
+            <link keyref="drawing_title" />
+        </linklist>
+    </related-links>
+</concept>

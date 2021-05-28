@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="auditctl" xml:lang="en-US">
+   <title id="title__Toc50994811">AUDITCTL system variable</title>
+   <conbody>
+      <section><title>Audit control</title><p>Toggles the creation of audit report (ADT) files by the AUDIT command. When you turn on the AUDITCTL settings variable, Audit creates an ASCII file describing problems and the action taken. This report, with the file extension .adt, is placed in the same directory as the current drawing.</p>
+         <p><table id="table_owj_ggz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="newCol2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/boolean" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p conkeyref="system_variable_warehouse/off" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Don’t write ADT files</p>
+                           <p>On (1): Write ADT files</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

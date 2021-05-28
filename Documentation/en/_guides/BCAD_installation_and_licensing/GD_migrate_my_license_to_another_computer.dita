@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="migrate_my_license_to_another_computer">
+   <title>Migrating a license to another computer</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <steps id="ol_nwj_hwh_smb">
+         <step>
+            <cmd>Deactivate the license on the old computer.</cmd>
+         </step>
+         <step>
+            <cmd>Launch <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> on the new
+               computer.</cmd>
+         </step>
+         <step>
+            <cmd>Activate a single or volume license automatically on the new computer.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_activate_a_single_or_volume_license_automatically_online" />
+         <link keyref="GD_deactivate_or_revoke_a_bricscad_license" />
+      </linklist>
+   </related-links>
+</task>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="timezone" xml:lang="en-US">
+   <title id="title__Toc50995735">TIMEZONE system variable</title>
+   <conbody>
+      <section><title>Timezone</title><p>Specifies the time zone for the sun in the drawing. Setting a geographic location also sets the time zone.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>-12000 to 13000</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>-8000</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>-12000: (GMT-12:00) International Date Line West</p>
+                           <p>-11000: (GMT-11:00) Midway Island, Samoa</p>
+                           <p>-10000: (GMT-10:00) Hawaii</p>
+                           <p>-9000: (GMT-09:00) Alaska</p>
+                           <p>-8000: (GMT-08:00) Pacific Time (US &amp; Canada); Tijuana</p>
+                           <p>-7000: (GMT-07:00) Mountain Time (US &amp; Canada)</p>
+                           <p>-7001: (GMT-07:00) Arizona</p>
+                           <p>-7002: (GMT-07:00) Chihuahua, La Paz, Mazatlan</p>
+                           <p>-6000: (GMT-06:00) Central Time (US &amp; Canada)</p>
+                           <p>-6001: (GMT-06:00) Central America</p>
+                           <p>-6002: (GMT-06:00) Guadalajara, Mexico City, Monterrey</p>
+                           <p>-6003: (GMT-06:00) Saskatchewan</p>
+                           <p>-5000: (GMT-05:00) Eastern Time (US &amp; Canada)</p>
+                           <p>-5001: (GMT-05:00) Indiana (East)</p>
+                           <p>-5002: (GMT-05:00) Bogota, Lima, Quito</p>
+                           <p>-4000: (GMT-04:00) Atlantic Time (Canada)</p>
+                           <p>-4001: (GMT-04:00) Caracas, La Paz</p>
+                           <p>-4002: (GMT-04:00) Santiago</p>
+                           <p>-3300: (GMT-03:30) Newfoundland</p>
+                           <p>-3000: (GMT-03:00) Brasilia</p>
+                           <p>-3001: (GMT-03:00) Buenos Aires, Georgetown</p>
+                           <p>-3002: (GMT-03:00) Greenland</p>
+                           <p>-2000: (GMT-02:00) Mid-Atlantic</p>
+                           <p>-1000: (GMT-01:00) Azores</p>
+                           <p>-1001: (GMT-01:00) Cape Verde Is.</p>
+                           <p>0: (UTC) Universal Coordinated Time</p>
+                           <p>1: (GMT) Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London</p>
+                           <p>2: (GMT) Casablanca, Monrovia</p>
+                           <p>1000: (GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</p>
+                           <p>1001: (GMT+01:00) Brussels, Copenhagen, Madrid, Paris</p>
+                           <p>1002: (GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</p>
+                           <p>1003: (GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</p>
+                           <p>1004: (GMT+01:00) West Central Africa</p>
+                           <p>2000: (GMT+02:00) Athens, Beirut, Istanbul, Minsk</p>
+                           <p>2001: (GMT+02:00) Bucharest</p>
+                           <p>2002: (GMT+02:00) Cairo</p>
+                           <p>2003: (GMT+02:00) Harare, Pretoria</p>
+                           <p>2004: (GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</p>
+                           <p>2005: (GMT+02:00) Jerusalem</p>
+                           <p>3000: (GMT+03:00) Moscow, St. Petersburg, Volgograd</p>
+                           <p>3001: (GMT+03:00) Kuwait, Riyadh</p>
+                           <p>3002: (GMT+03:00) Baghdad</p>
+                           <p>3003: (GMT+03:00) Nairobi</p>
+                           <p>3300: (GMT+03:30) Tehran</p>
+                           <p>4000: (GMT+04:00) Abu Dhabi, Muscat</p>
+                           <p>4001: (GMT+04:00) Baku, Tbilisi, Yerevan</p>
+                           <p>4300: (GMT+04:30) Kabul</p>
+                           <p>5000: (GMT+05:00) Ekaterinburg</p>
+                           <p>5001: (GMT+05:00) Islamabad, Karachi, Tashkent</p>
+                           <p>5300: (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</p>
+                           <p>5450: (GMT+05:45) Kathmandu</p>
+                           <p>6000: (GMT+06:00) Almaty, Novosibirsk</p>
+                           <p>6001: (GMT+06:00) Astana, Dhaka</p>
+                           <p>6002: (GMT+06:00) Sri Jayawardenepura</p>
+                           <p>6300: (GMT+06:30) Rangoon</p>
+                           <p>7000: (GMT+07:00) Bangkok, Hanoi, Jakarta</p>
+                           <p>7001: (GMT+07:00) Krasnoyarsk</p>
+                           <p>8000: (GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</p>
+                           <p>8001: (GMT+08:00) Kuala Lumpur, Singapore</p>
+                           <p>8002: (GMT+08:00) Taipei</p>
+                           <p>8003: (GMT+08:00) Irkutsk, Ulaan Bataar</p>
+                           <p>8004: (GMT+08:00) Perth</p>
+                           <p>9000: (GMT+09:00) Osaka, Sapporo, Tokyo</p>
+                           <p>9001: (GMT+09:00) Seoul</p>
+                           <p>9002: (GMT+09:00) Yakutsk</p>
+                           <p>9300: (GMT+09:30) Adelaide</p>
+                           <p>9301: (GMT+09:30) Darwin</p>
+                           <p>10000: (GMT+10:00) Canberra, Melbourne, Sydney</p>
+                           <p>10001: (GMT+10:00) Guam, Port Moresby</p>
+                           <p>10002: (GMT+10:00) Brisbane</p>
+                           <p>10003: (GMT+10:00) Hobart</p>
+                           <p>10004: (GMT+10:00) Vladivostok</p>
+                           <p>11000: (GMT+11:00) Magadan, Solomon Is., New Caledonia</p>
+                           <p>12000: (GMT+12:00) Auckland, Wellington</p>
+                           <p>12001: (GMT+12:00) Fiji, Kamchatka, Marshall Is.</p>
+                           <p>13000: (GMT+13:00) Nuku'alofa</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

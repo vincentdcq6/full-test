@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="_3dcomparemode" xml:lang="en-US">
+   <title id="title__Toc50994777">3DCOMPAREMODE system variable</title>
+   <conbody>
+      <section>
+         <title>Compare visualization mode</title>
+         <p>The value of the <xref format="html" href="https://help.bricsys.com/hc/en-us/articles/360006555294" scope="external">3DCOMPAREMODE</xref> (needs link) system variable controls the display in the viewports of the Comparison layout.</p>
+         <p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p>
+            <table id="o25_dqx_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/registry" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>3</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: First model on the left, second model on the right.</p>
+                           <p>1: First model with differences on the left, second model on the right.</p>
+                           <p>2: First model on the left, second model with differences on the right.</p>
+                           <p>3: First model with differences on the left, second model with differences on the right.</p>
+                           <p>4: Both models with all differences in one viewport.</p>
+                           <p>5: Both models with all differences in one viewport.</p>
+                           <p>6: Both models with all differences in one viewport.</p>
+                           <p>7: Both models with all differences in one viewport.</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </conbody>
+</concept>

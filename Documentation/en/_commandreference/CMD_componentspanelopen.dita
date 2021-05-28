@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_componentspanelopen">
+   <title>COMPONENTSPANELOPEN command</title>
+   <shortdesc>Opens the Components Panel.</shortdesc>
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V21/Common/command-reference-lite-pro-mechanical-bim.png" id="image_rsx_tpl_f4b" scope="external" />
+      </fig>
+      <fig id="fig_ffx_yxf_ynb"><!--image icon--></fig>
+      <section id="section_svs_5md_f4b">
+         <p>Open the Components Panel<!--link--> to display it in the current workspace. The Components Panel appears at the same size and location that it did before it was closed or collapsed. You can move, resize, and stack it with <xref keyref="UI_panels" />.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_componentspanelclose" />
+      </linklist>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="UI_panels" />
+         <!--Workspaces (link)-->
+      </linklist>
+   </related-links>
+</concept>

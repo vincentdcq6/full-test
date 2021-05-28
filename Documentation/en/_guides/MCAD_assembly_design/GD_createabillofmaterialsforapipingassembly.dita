@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_createabillofmaterialsforapipingassembly">
+    <title>Create a Bill of Materials for a piping assembly</title>
+    <conbody>
+        <p>In a BOM you may want all pipes of the same type and size (PartNumber), but with
+            different lengths, listed as the same part</p>
+        <p>Use the Aggregate function of the BOM Manager to combine all such parts in a single row
+            with their total length.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="arraytype" xml:lang="en-US">
+   <title id="title__Toc50994807">ARRAYTYPE system variable</title>
+   <conbody>
+      <section><title>Array type</title><p>Specifies the default associative array type.</p>
+         <p><table id="table_vpv_1gz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Rectangular array</p>
+                           <p>1: Path array</p>
+                           <p>2: Polar array</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_attachments">
+    <title>Attachments panel</title>
+    <shortdesc>The Attachments panel offers a central location for viewing and managing attached
+        drawings, images, PDF files, and point clouds.</shortdesc>
+    <conbody>
+        <p>It includes 9 areas.</p>
+        <fig id="fig_x2g_pkk_mpb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_attachments_01_V21.png" id="image_qvj_pkk_mpb" scope="external" />
+            <ol id="ol_xsn_skk_mpb">
+                <li>Attachment list</li>
+                <li>Properties</li>
+                <li>Attach DWG</li>
+                <li>Attach Image</li>
+                <li>Attach PDF</li>
+                <li>Attach Point Cloud</li>
+                <li>Detach</li>
+                <li>Refresh</li>
+                <li>Menu</li>
+            </ol>
+        </fig>
+        <section id="section_tvz_xkk_mpb">
+            <title>Attachment list</title>
+            <p>Displays a list of attached files and their properties. Column headers describe
+                the properties of each attachment. You may sort the attachment list in order or
+                reverse order for any of the properties by clicking once or twice on the column
+                header. A right-click menu on the column headers enables you to customize them. A
+                right-click menu on the attachments offers additional
+                tools.<!--Import/Link to CM (Context Menus) for the Attachments panel--></p>
+        </section>
+        <section id="section_hcn_ykk_mpb">
+            <title>Name</title>
+            <p>Specifies the attachment name. By default, the attachment name is the same as the
+                file name. To rename an attachment, double-click the name and enter the new name.
+                Renaming an attachment does not change the file name. </p>
+        </section>
+        <section id="section_dj1_zkk_mpb">
+            <title>Load</title>
+            <p>Specifies the load status of the attachments. Attachments with the Load property
+                enabled are loaded and displayed in the drawing editor. Attachments with the Load
+                property disabled maintain their attachment information, such as scale and location,
+                but are not loaded or displayed in the drawing editor. </p>
+        </section>
+        <section id="section_vzy_zkk_mpb">
+            <title>Size</title>
+            <p>Specifies the file size of the attachments.</p>
+        </section>
+        <section id="section_tzh_1lk_mpb">
+            <title>References</title>
+            <p>Specifies how many times the attachments are referenced in the current drawing.</p>
+        </section>
+        <section id="section_yrs_1lk_mpb">
+            <title>Type</title>
+            <p>Specifies the attachment type. Click the attachment type to toggle between Attach and
+                Overlay.<!--Eventually this should link to an article that describes the difference between Attach and Overlay.--></p>
+        </section>
+        <section id="section_ts2_blk_mpb">
+            <title>Date</title>
+            <p>Specifies the date the attached files were last saved.</p>
+        </section>
+        <section id="section_jkp_blk_mpb">
+            <title>Saved Path</title>
+            <p>Specifies the path, including location and file name, of the attachments. To change
+                the saved path, click it and enter the new path or select the Browse button to
+                display the Select reference file dialog box. The Browse button is only displayed
+                after you click on the saved path.</p>
+        </section>
+        <section id="section_sny_blk_mpb">
+            <title>Found Path</title>
+            <p>Specifies the path, including location and file name, of the attachments. The Found
+                path may or may not be the same as the Saved path.</p>
+            <!--This should eventually link to an article explaining the difference between Saved and Found paths. For example, it may depend on the path type (relative or absolute) and may also depend on the XLOADPATH system variable. This will take more research. This could be a good task for a student intern and there may already be a similar article in our existing Help... somewhere.-->
+        </section>
+        <section id="section_ghr_dlk_mpb">
+            <title>Properties</title>
+            <p>Displays the properties of the selected attachment in a row format. These are the
+                same properties displayed in the Attachments list with a column format.</p>
+        </section>
+        <section id="section_gfg_2lk_mpb">
+            <title>Attach DWG</title>
+            <p>Displays the Open File to Attach dialog box like the XRef command.</p>
+        </section>
+        <section id="section_kbq_2lk_mpb">
+            <title>Attach Image</title>
+            <p>Displays the Select Image File dialog box like the ImageAttach command.</p>
+        </section>
+        <section id="section_lq2_flk_mpb">
+            <title>Attach PDF</title>
+            <p>Displays the Select PDF Underlay File dialog box like the PDFAttach command.</p>
+        </section>
+        <section id="section_r5r_flk_mpb">
+            <title>Attach Point Cloud</title>
+            <p>Displays the Preprocessed Point Cloud Data File dialog box like
+                the PointCloudAttach command.</p>
+        </section>
+        <section id="section_e5g_glk_mpb">
+            <title>Detach</title>
+            <p>Detaches the selected attachment from the drawing.</p>
+        </section>
+        <section id="section_zzv_glk_mpb">
+            <title>Refresh</title>
+            <p>Updates the display.</p>
+        </section>
+        <section id="section_cjg_hlk_mpb">
+            <title>Menu</title>
+            <p>
+                <div conkeyref="CM_attachmentsmenu/div_r2x_ywk_mpb" id="div_efk_4fl_mpb" />
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_attachmentspanelclose" />
+            <link keyref="CMD_attachmentspanelopen" />
+            <link keyref="CMD_imageattach" />
+            <link keyref="CMD_pdfattach" />
+            <link keyref="CMD_pointcloudattach" />
+            <link keyref="CMD_xref" />
+            <link keyref="CMD_-xref" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="DB_selectreferencefile" />
+            <link keyref="UI_panels" />
+        </linklist>
+    </related-links>
+</concept>

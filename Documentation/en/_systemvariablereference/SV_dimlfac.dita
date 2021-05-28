@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dimlfac" xml:lang="en-US">
+   <title id="title__Toc50994999">DIMLFAC system variable</title>
+   <conbody>
+      <section><title>Dim scale linear</title><p>Specifies the scale factor for linear dimensions. Linear dimensions (incl. radius, diameter and ordinate dimensions), are multiplied by DIMLFAC. Positive values apply to dimensions in both model space and paper space; negative values apply to paper space dimensions only.</p><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/real" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>1.0</p></entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

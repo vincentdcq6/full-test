@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_standardrepresentationofthreadindrawingviews">
+    <title>Standard representation of thread in drawing views</title>
+    <conbody>
+        <p>Drawing views of your assemblies, generated with the <cmdname>VIEWBASE</cmdname> command,
+            contain thread annotations for standard parts as thin lines for side views, and as a
+            270-degree thin arc for top/bottom views.</p>
+        <p>
+            <fig id="fig_ohd_mcc_jpb">
+                <title>Example</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360007249879/mceclip2.png" id="image_phd_mcc_jpb" scope="external" />
+            </fig>
+        </p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

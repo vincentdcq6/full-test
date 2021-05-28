@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="panels">
+   <title>Panels</title>
+   <shortdesc>Panels are dockable dialogs.</shortdesc>
+   <conbody>
+      <p>The available panels are: <ul id="ul_kxs_skw_3pb">
+            <li>Animation Editor panel</li>
+            <li>Attachments</li>
+            <li>BIM BCF</li>
+            <li>BIM compositions</li>
+            <li>BIM profiles</li>
+            <li>BIM project browser</li>
+            <li>BOM manager</li>
+            <li>Bricsys 24/7</li>
+            <li>Commandline</li>
+            <li>Content browser</li>
+            <li>Details</li>
+            <li>Drawing customizations</li>
+            <li>Layers</li>
+            <li>Library</li>
+            <li>Mechanical browser</li>
+            <li>Parameters and constraints</li>
+            <li>Properties</li>
+            <li>Render materials</li>
+            <li>Report</li>
+            <li>Ribbon</li>
+            <li>Sheet Sets</li>
+            <li>Structure</li>
+            <li>Tips</li>
+            <li>Tool palettes</li>
+         </ul></p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_-toolpanel" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006811333-Dockable-Panels" format="html" scope="external"><linktext>Dockable panels</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006811333-Dockable-Panels#to-open-or-close-a-panel" format="html" scope="external"><linktext>To open or close a panel</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006811333-Dockable-Panels#to-set-the-stack-type" format="html" scope="external"><linktext>To set the stack type</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006811333-Dockable-Panels#to-dock-a-floating-panel" format="html" scope="external"><linktext>To dock a floating panel</linktext></link>-->
+         <link keyref="UI_panels" />
+      </linklist>
+   </related-links>
+</concept>

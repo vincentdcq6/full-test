@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_layerp">
+   <title>LAYERP command</title>
+   <shortdesc>Restores layer properties to their previous state. </shortdesc>
+   <conbody>
+      <p><!--<p>Insert License Level</p>--><!--<p> Insert link to Tool icon</p>--><!--<p>Alias:</p>--></p>
+      <p>Restore layer properties to their previous state one change at a time. This command only works when the LAYERPMODE system variable is enabled. </p>
+      <p>There are no prompts. The Command line indicates: Previous layer settings were restored. </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_layer" />
+         <!---LAYER command link-->
+         <link keyref="CMD_layon" />
+         <link keyref="CMD_layoff" />
+         <link keyref="CMD_laythw" />
+         <link keyref="CMD_layfrz" />
+         <link keyref="CMD_laylck" />
+         <link keyref="CMD_layulk" />
+         <link keyref="CMD_layiso" />
+         <link keyref="CMD_layuniso" />
+         <link keyref="CMD_laycur" />
+         <link keyref="CMD_layerp" />
+         <link keyref="CMD_layerstate" />
+      </linklist>
+      <linklist>
+         <title>Related Variables</title>
+         <!--LAYERLOCKFADECTL System Variable link-->
+         <link keyref="SV_layerpmode" />
+      </linklist>
+   </related-links>
+</concept>

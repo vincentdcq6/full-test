@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="redhilitepartial_selectededgeglow_color" xml:lang="en-US">
+   <title id="title__Toc50995578">REDHILITEPARTIAL_SELECTEDEDGEGLOW_COLOR system variable</title>
+   <conbody>
+      <section>
+         <title>Glow color</title>
+         <p>Specifies the color of the glow.</p>
+         <p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/string" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>White (Settings dialog) </p>
+                           <p>#FFFFFF (Command line)</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <fig id="fig_l2h_grh_p4b">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_redhilitepartialselectededgeglowcolor_01_V21.png" id="image_m2h_grh_p4b" scope="external" />
+               <image href="https://static.bricsys.com/help/en_INTL/SV_redhilitepartialselectededgeglowcolor_02_V21.png" id="image_n5s_sn4_nnb" scope="external" />
+            </fig>
+         </p>
+      </section>
+   </conbody>
+</concept>

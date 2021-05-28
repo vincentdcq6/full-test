@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_update_access_rights">
+    <title>Update access rights</title>
+    <conbody>
+        <p>Follow the instructions in <xref keyref="247_editfolderaccess" /> to update the access
+            rights.</p>
+    </conbody>
+</concept>

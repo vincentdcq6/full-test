@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_create3dconstraintsbetweenpipingstandardpartsmanually">
+    <title>Create 3D constraints between piping standard parts manually</title>
+    <conbody>
+        <p>Piping standard parts have a set of wireframe entities (points and lines) on the
+            STD_PARTS_PIPING_CONNECTION layer, which is switched off by default.</p>
+        <p><b>Constraining a fitting</b></p>
+        <p>To constrain a fitting (elbow, reducer, flange, ...) with another fitting or a pipe,
+            create 2 Coincident 3D constraints between:<ul id="ul_il4_dvz_kpb">
+                <li>2 points of the fittings, which should coincide</li>
+                <li>2 lines of the fittings, which should be collinear.</li>
+            </ul></p>
+        <p><b>Constraining a pipe</b></p>
+        <p>Constraining pipes is more complex because a pipe can have any length. If a pipe is
+            already constrained with a fitting at one side using 2 Coincident 3D constraints, then
+            constraining it from the other side should be different.</p>
+        <p>You must create:<ul id="ul_jlf_kvz_kpb">
+                <li>A Coincident 3D constraint between the line, which represents the axis of the
+                    pipe, and the corresponding line of the other fitting</li>
+                <li>A geometry-driven Distance 3D constraint between the planar face of the pipe on
+                    the opposite (already constrained) side and the corresponding point of the
+                    fitting, which is being connected.</li>
+            </ul></p>
+        <p>You must then type the name of the distance constraint in the expression field for the
+            Length parameter of the pipe. Because geometry-driven constraints allow controlling of a
+            particular dimension, the pipe will always have the correct length, and such a
+            parametrization will not limit any further editing of your assembly using direct
+            manipulation of additional non-geometry-driven dimensional constraints.</p>
+    </conbody>
+</concept>

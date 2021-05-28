@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_dynamicdimensions">
+    <title>Dynamic dimensions</title>
+    <shortdesc>Dynamic dimensions provide an interface at the cursor position to specify the length
+        and angle of the linear entity being created or grip-edited.</shortdesc>
+    <conbody>
+        <p>As such, dynamic dimensions help you to focus on the drawing area.</p>
+        <p>The behavior and appearance of dynamic dimensions is controlled through a series of
+            system variables and user preferences.</p>
+        <section id="section_uxd_1kr_qpb">
+            <title>Defining the Dynamic Dimensions Settings</title>
+            <p>Right click the <uicontrol>DYN</uicontrol> field in the Status Bar, then
+                    choose <uicontrol>Settings</uicontrol> in the context menu.
+                    The <uicontrol>Dynamic input</uicontrol> settings in
+                    the <uicontrol>Settings</uicontrol> dialog display.</p>
+            <p>
+                <table id="table_ztz_ckr_qpb">
+                    <tgroup cols="3">
+                        <colspec colnum="1" colname="col1" rowsep="1" colsep="1" colwidth="1*" />
+                        <colspec colnum="2" colname="col2" rowsep="1" colsep="1" colwidth="1*" />
+                        <colspec colnum="3" colname="col3" rowsep="1" colsep="1" colwidth="3*" />
+                        <thead>
+                            <row>
+                                <entry>Name</entry>
+                                <entry>Title</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>DYNMODE</entry>
+                                <entry>Dynamic input mode</entry>
+                                <entry>
+                                    <p>Controls whether and when dynamic dimensions display:</p>
+                                    <ul id="ul_a5z_ckr_qpb">
+                                        <li>Editable dynamic dimensions: when creating or
+                                            manipulating entities.</li>
+                                        <li>Tracking dynamic dimensions: when using entity snap
+                                            tracking.</li>
+                                    </ul>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>DYNDIGRIP</entry>
+                                <entry>Show dynamic dimensions</entry>
+                                <entry>
+                                    <p>Defines which dynamic dimensions display when creating or
+                                        grip editing entities, depending on the value of the
+                                        DYNDIVIS system variable</p>
+                                    <p>Resulting length: total length of the line or polyline
+                                        segment <fig id="fig_epm_5kr_qpb">
+                                            <image href="https://static.bricsys.com/help/en_INTL/GD_dynamicdimensions_01_V21.png" id="image_hgt_5kr_qpb" scope="external" />
+                                        </fig>
+                                    </p>
+                                    <p>Extended length: incremental length of the line<fig id="fig_z5k_2lr_qpb">
+                                            <image href="https://static.bricsys.com/help/en_INTL/GD_dynamicdimensions_02_V21.png" scope="external" id="image_avk_2lr_qpb" />
+                                        </fig></p>
+                                    <p>Absolute angle: angle relative to the X-axis of the current
+                                            UCS<fig id="fig_xrm_flr_qpb">
+                                            <image href="https://static.bricsys.com/help/en_INTL/GD_dynamicdimensions_03_V21.png" scope="external" id="image_yrm_flr_qpb" />
+                                        </fig>
+                                    </p>
+                                    <p>Relative angle: angle relative to the original angle of the
+                                        linear entity <fig id="fig_q2m_glr_qpb">
+                                            <image href="https://static.bricsys.com/help/en_INTL/GD_dynamicdimensions_04_V21.png" scope="external" id="image_r2m_glr_qpb" />
+                                        </fig></p>
+                                    <p>Arc radius: radius of arcs and circles <fig id="fig_js2_hlr_qpb">
+                                            <image href="https://static.bricsys.com/help/en_INTL/GD_dynamicdimensions_05_V21.png" scope="external" id="image_ks2_hlr_qpb" />
+                                        </fig></p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>DYNDIVIS</entry>
+                                <entry>Dynamic dimension visibility</entry>
+                                <entry>Defines the number of dynamic dimensions that display when
+                                    creating or grip editing entities.</entry>
+                            </row>
+                            <row>
+                                <entry>DYNPICOORDS</entry>
+                                <entry>Default mode for dynamic coordinates input</entry>
+                                <entry>Specifies the default mode in which coordinates are entered
+                                    during dynamic input: Relative or Absolute.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+            <p>
+                <note>
+                    <ul id="ul_p1h_tqr_qpb">
+                        <li>The appearance of dynamic dimensions (color, linetype, position and
+                            transparencey) is controlled by a set of user preferences:
+                            DynDimColorHover, DynDimColorHot, DynDimDistance, DynDimLinetype,
+                            DynImputTransparence.</li>
+                        <li>If bitcode 16 (= format dynamic dimensions) of the PROPUNITS system
+                            variable is set, dynamic dimensions are formatted using a dedicated
+                            unit.</li>
+                        <li>Automatic unit conversion during length input can be used when bitcode 1
+                            of PROPUNITS (Format length properties) is set. For example,
+                            when INSUNITS is set to <b>mm</b>, entering <b>2m</b> in a length
+                            property field will result in entering [2000.0000 mm]. Entering
+                                <b>1ft</b> gives [304.8000 mm]. If no unit is specified in the entry
+                            field, the unit as specified by INSUNITS is used.</li>
+                    </ul>
+                </note>
+            </p>
+        </section>
+        <section id="section_grb_vqr_qpb">
+            <title>Using dynamic dimensions when creating entities</title>
+            <p>
+                <ol id="ol_bps_vqr_qpb">
+                    <li>Launch the command to create a 2D entity (e.g. LINE and DYNDIVIS = 1 or 2).</li>
+                    <li>
+                        <p>Specify the first point, then move the cursor to display the dynamic
+                            dimensions.</p>
+                        <p>The <uicontrol>Length</uicontrol> dynamic dimension highlights.</p>
+                    </li>
+                    <li>Do one of the following:<ul id="ul_eps_vqr_qpb">
+                            <li>Type the desired length of the line, then press the TAB key to jump
+                                to the <b>Angle</b> dynamic dimension.
+                                        <p>The <uicontrol>Length</uicontrol> dynamic dimension is
+                                    locked and displays in red and
+                                    the <uicontrol>Angle</uicontrol> dynamic dimension is selected.</p></li>
+                            <li>Type the desired length of the line, then click to create the line
+                                at the angle defined by the cursor position.</li>
+                            <li>Press he TAB key to jump to the <uicontrol>Angle</uicontrol> dynamic
+                                dimension.</li>
+                        </ul></li>
+                    <li>Do one of the following: <ul id="ul_gps_vqr_qpb">
+                            <li>Type the desired angle, then press the Enter key to create the line.</li>
+                            <li>Type the desired angle, then press the TAB key to return to
+                                    the <uicontrol>Length</uicontrol> dynamic dimension.</li>
+                            <li>Press the Enter key to create the line at the angle defined by the
+                                cursor position.</li>
+                            <li>Press the TAB key to return to
+                                the <uicontrol>Length</uicontrol> dynamic dimension.</li>
+                        </ul></li>
+                </ol>
+            </p>
+            <p>
+                <note>
+                    <ul id="ul_l3b_grr_qpb">
+                        <li>If DYNDIVIS = 0, only one dynamic dimension displays. Press the TAB key
+                            to display the next field.</li>
+                        <li>If you type a value in the <uicontrol>Length</uicontrol> field, and add
+                            a comma (,) the content of the <b>Length</b> field is copied to the
+                            command line and the @-character is placed in front automatically, which
+                            allows you to specify the next point using relative coordinates with
+                            respect to the previous point.</li>
+                    </ul>
+                </note>
+            </p>
+        </section>
+        <section id="section_rhc_hrr_qpb">
+            <title>Using dynamic dimensions to grip-edit entities</title>
+            <p>
+                <ol id="ol_bpp_hrr_qpb">
+                    <li>
+                        <p>Select the entity or entities.</p>
+                        <p>All grips on the selected entities display.</p>
+                    </li>
+                    <li>
+                        <p>Click the grip you want to edit, then move the cursor.</p>
+                        <p>Depending on the value of the DYNDIVIS system variable one, two or all
+                            dynamic dimensions display simultaneously .</p>
+                        <p>The first dynamic dimension highlights.</p>
+                    </li>
+                    <li>Do one of the following: <ul id="ul_epp_hrr_qpb">
+                            <li>
+                                <p>Type the desired value for the currently highlighted dynamic
+                                    dimension, then press the TAB key to jump to the next dynamic
+                                    dimension.</p>
+                                <p>The dynamic dimension is locked and displays in red.</p>
+                            </li>
+                            <li>
+                                <p>Type the desired value for the currently highlighted dynamic
+                                    dimension, then press Enter to stop.</p>
+                            </li>
+                            <li>
+                                <p>Press the TAB key to jump to the next dynamic dimension.</p>
+                            </li>
+                        </ul></li>
+                    <li>Repeat step 3 or press Enter to stop.</li>
+                </ol>
+            </p>
+        </section>
+        <section id="section_ubm_mrr_qpb">
+            <title>Using dynamic dimensions to measure entities</title>
+            <p>The following procedure applies to the 2DWireframe visual style only.</p>
+            <ol id="ol_cws_dsr_qpb">
+                <li>
+                    <p>Select the entity or entities.</p>
+                    <p>All grips on the selected entities display.</p>
+                </li>
+                <li>
+                    <p>Hover the cursor over a grip.</p>
+                    <p>The grip highlights and all dimensions related to the selected grip display. </p>
+                    <p>Dynamic dimensions used to measure a rectangle<fig id="fig_k4b_fsr_qpb">
+                            <image href="https://static.bricsys.com/help/en_INTL/GD_dynamicdimensions_06_V21.png" scope="external" id="image_l4b_fsr_qpb" />
+                        </fig></p>
+                    <p>Dynamic dimensions used to measure a line<fig id="fig_yz3_wtr_qpb">
+                            <image href="https://static.bricsys.com/help/en_INTL/GD_dynamicdimensions_07_V21.png" scope="external" id="image_w52_hsr_qpb" />
+                        </fig></p>
+                </li>
+                <li>(option) Click to start editing the selected grip.</li>
+            </ol>
+        </section>
+        <section id="section_own_4sr_qpb">
+            <title>Using dynamic dimensions with tracking points</title>
+            <p>If the <uicontrol>Tracking dynamic dimensions</uicontrol> option of
+                the DYNMODE system variable is set, dynamic dimensions display when entity snap
+                tracking points or temporary tracking points are acquired.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_dynmode" />
+            <link keyref="SV_dyndigrip" />
+            <link keyref="SV_dyndivis" />
+            <link keyref="SV_dyndimcolorhover" />
+            <link keyref="SV_dyndimcolorhot" />
+            <link keyref="SV_dyndimdistance" />
+            <link keyref="SV_dyndimlinetype" />
+            <link keyref="SV_dyninputtransparency" />
+            <link keyref="SV_propunits" />
+            <link keyref="SV_insunits" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="GD_entitysnaptracking" />
+            <link keyref="GD_polartracking" />
+        </linklist>
+    </related-links>
+</concept>

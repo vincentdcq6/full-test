@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_view_annotations">
+    <title>View annotations</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click the annotations icon <image href="../IMAGES_temp/annotations_icon.PNG" id="image_dns_sdv_54b" scale="75" scope="external" /> in the menu bar to open the annotation
+                    pane.</cmd>
+            </step>
+            <step>
+                <cmd>Select an annotation to display the corresponding comment.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_u1t_yzw_54b">
+            <note>Annotations are revision-based. This means you can not see the annotations of
+                previous revisions when viewing the latest version of the document.</note>
+        </postreq>
+    </taskbody>
+</task>

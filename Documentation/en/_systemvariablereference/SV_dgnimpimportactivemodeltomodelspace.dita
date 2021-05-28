@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dgnimpimportactivemodeltomodelspace" xml:lang="en-US">
+   <title id="title__Toc50995097">DGNIMPIMPORTACTIVEMODELTOMODELSPACE system variable</title>
+   <conbody>
+      <section><title>Import active model to Model Space</title><p>Specifies how active spaces are handled. If on, BricsCAD imports the active dgn model to dwg Model Space. Otherwise BricsCAD imports the first dgn design model from the model table to the dwg Model Space. Microstation uses the phrase “design model” for model space, and “active model” for the current view of a model.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/boolean" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p conkeyref="system_variable_warehouse/on" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Import the first design model from the model table to the model space</p>
+                           <p>On (1): Import the active model to model space</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

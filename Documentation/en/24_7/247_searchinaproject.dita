@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_search_in_a_project">
+    <title>Search in a project</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Enter the first 3 characters of the document or folder name you are looking for
+                    in the search bar.</cmd>
+                <stepresult>The results appear in a pop up window.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the applicable document or folder.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_bnq_gpp_bpb">
+            <note>You can use wild cards in the search function:<ul id="ul_tkz_tpp_bpb">
+                    <li>The asterisk (*) wild card matches a sequence of characters.</li>
+                    <li>The question mark (?) wild card matches any character.</li>
+                </ul></note>
+        </postreq>
+    </taskbody>
+</task>

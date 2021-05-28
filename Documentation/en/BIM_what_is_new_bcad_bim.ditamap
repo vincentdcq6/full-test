@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title>What's new</title>
+  <topicref href="empty%20titles/BIM_whats_new_in_bricscad_v21_bim_title.dita" navtitle="What's new in BricsCAD V21 BIM" keys="whats_new_in_bricscad_v21_bim_title">
+    <topicref href="_guides/BIM_whats_new_V21/NFG_overview.dita" navtitle="Overview" keys="NFG_overview_bim"></topicref>
+    <topicref href="_guides/BIM_whats_new_V21/NFG_modeling_techniques.dita" navtitle="Modeling Techniques" keys="NFG_modeling_techniques" />
+    <topicref href="_guides/BIM_whats_new_V21/NFG_building_data.dita" navtitle="Building Data" keys="NFG_building_data"></topicref>
+    <topicref href="_guides/BIM_whats_new_V21/NFG_project_collaboration.dita" navtitle="Project Collaboration" keys="NFG_project_collaboration" />
+    <topicref href="_guides/BIM_whats_new_V21/NFG_design_documentation.dita" navtitle="Design Documentation" keys="NFG_design_documentation" />
+    <topicref href="_guides/BIM_whats_new_V21/NFG_point_clouds.dita" navtitle="Point clouds" keys="NFG_point_clouds" />
+  </topicref>
+</map>

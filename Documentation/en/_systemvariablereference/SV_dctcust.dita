@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dctcust" xml:lang="en-US">
+   <title id="title__Toc50994946">DCTCUST system variable</title>
+   <conbody>
+      <section><title>Custom spelling dictionary</title><p>Stores the path and file name of the current custom spelling dictionary. During a spelling check, the SPELL command matches the words in the drawing or the current selection set to the words in the current main dictionary and the current custom dictionary. Custom dictionaries are used for discipline-specific words, such as medical or mechanical.</p><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/string" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

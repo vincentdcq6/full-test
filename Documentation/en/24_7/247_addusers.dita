@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_add_users">
+    <title>Add users and send an invitation mail</title>
+    <taskbody>
+        <context id="context_pb2_trf_fpb">
+            <p>You can add users to the project:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_yz5_lwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Users</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Invite users</uicontrol>
+                    <image href="../IMAGES_temp/invite_users.PNG" id="image_ahn_vsf_fpb" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Invite users</wintitle> window appears.<div>
+                        <fig id="fig_mc2_qtf_fpb">
+                            <title>Invite users</title>
+                            <image href="../IMAGES_temp/invite_users_window.PNG" id="image_nc2_qtf_fpb" width="120mm" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Search for existing contacts, or create new ones:</cmd>
+                <info>
+                    <ul id="ul_fym_y5f_fpb">
+                        <li>Select the option button next to <uicontrol>Create user from
+                                contact</uicontrol>, if you want to add an existing user:<ol id="ol_lfd_rvf_fpb">
+                                <li>Enter the name of an existing contact.</li>
+                                <li>Select the contact name.<div>The contact appears in the contact
+                                        pane.</div></li>
+                            </ol></li>
+                        <li>Select the option button next to <uicontrol>Add new contact</uicontrol>,
+                            if you want to add a new user.<ol id="ol_is2_1wf_fpb">
+                                <li>Enter the contact details.<note>First name, last name and email
+                                        address are required fields.</note></li>
+                                <li>Click <image href="../IMAGES_temp/plus_icon.PNG" id="image_irp_cwf_fpb" scope="external" />.<div>The contact appears in the
+                                        contact pane</div></li>
+                            </ol></li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Enable <uicontrol>Send invitation mail</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Assign roles</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the applicable role(s) to assign roles to the created users.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add users</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_on4_ywf_fpb">Pop up windows inform you that the users are successfully
+            added to the project, and that the invitation mail is sent.</result>
+        <postreq id="postreq_xh3_txf_fpb">
+            <note type="tip">If the project has an address book, you can add the user(s) to the
+                address book.</note>
+        </postreq>
+    </taskbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_addausertoanaddressbook" />
+        </linklist>
+    </related-links>
+</task>

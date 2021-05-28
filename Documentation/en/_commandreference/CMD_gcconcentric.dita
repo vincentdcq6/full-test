@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gcconcentric">
+   <title>GCCONCENTRIC command</title>
+   <shortdesc>Creates a concentric geometric constraint on 2D entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a concentric constraint to ensure two circular or elliptical entities remain concentric.</p>
+      <section id="section_bjy_plc_x4b">
+         <title>Method to create a concentric constraint</title>
+         <p>There is one method to begin creating a concentric constraint:<ul id="ul_jft_4lc_x4b">
+               <li>Select first entity</li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select first entity</dt>
+                  <dd>Begin creating a concentric constraint by selecting a circular or elliptical entity then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select second entity</dt>
+                  <dd outputclass="indent1">Select a circular or elliptical entity to make concentric with the first entity. The first entity maintains its position while the second entity moves, as necessary, to become concentric.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

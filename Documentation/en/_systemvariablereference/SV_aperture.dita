@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="aperture_16" xml:lang="en-US">
+   <title id="title__Toc50994802">APERTURE system variable</title>
+   <conbody>
+      <section>
+         <title>Entity snap aperture</title>
+         <p>Specifies the size (in pixels) of the entity snap aperture box. Values between 1 and 50 are accepted. The program searches the area inside the rectangular aperture cursor for geometric features, such as endpoints and mid points. A large aperture cursor makes it easier for you to hover over geometric features, but then the program may find too many matching entity snap points; a smaller one may be more difficult for you to position over geometry, but is more precise at snapping to geometric features.</p>
+         <p>
+            <table id="table_yck_2zy_fnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/registry" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>10</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <fig id="fig_wgg_czy_fnb">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_aperture_01_V21.png" id="image_xgg_czy_fnb" scope="external" />
+            </fig>
+         </p>
+      </section>
+   </conbody>
+</concept>

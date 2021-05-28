@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gcvertical">
+   <title>GCVERTICAL command</title>
+   <shortdesc>Creates a vertical geometric constraint on 2D entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a vertical constraint to ensure a linear entity or pair of points remains parallel to the y-axis.</p>
+      <section id="section_ppx_5mc_x4b">
+         <title>Methods to create a vertical constraint</title>
+         <p>There are two methods to begin creating a vertical constraint. </p>
+         <ul id="ul_ssn_tmc_x4b">
+            <li>Select an entity</li>
+            <li>2 Points</li>
+         </ul>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select an entity</dt>
+                  <dd>Create a vertical constraint by selecting a linear entity to make parallel to the y-axis.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>2 Points</dt>
+                  <dd>Begin creating a vertical constraint by specifying the first point to make parallel to the y-axis then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select Second Point: </dt>
+                  <dd outputclass="indent1">Specify the second point to make horizontal to the y-axis. The first point maintains its position while the second point moves to become vertical with the first point.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

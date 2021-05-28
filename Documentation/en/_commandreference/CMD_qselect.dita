@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_qselect">
+   <title>QSELECT command</title>
+   <shortdesc>Opens the Properties panel in Quick select mode.</shortdesc>
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V21/Common/command-reference-lite-pro-mechanical-bim.png" id="image_rsx_tpl_f4b" scope="external" outputclass="license" />
+      </fig>
+      <fig id="fig_ffx_yxf_ynb">
+         <image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/properties.png" scope="external" id="image_zch_vqd_f4b" outputclass="icon" />
+      </fig>
+      <section id="section_svs_5md_f4b">
+         <p>Open the Properties panel in <uicontrol>Quick Select</uicontrol> mode to display it in
+            the current workspace. The Properties Panel appears at the same size and location that
+            it did before it was closed or collapsed. Like any other dockable panel, the Properties
+            panel can be either floating, docked or stacked.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_propertiesclose" />
+         <link keyref="CMD_properties" />
+      </linklist>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="PNL_properties" />
+         <link keyref="UI_panels" />
+         <!--Workspaces (link)-->
+      </linklist>
+   </related-links>
+</concept>

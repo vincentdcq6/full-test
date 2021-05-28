@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_mail">
+   <title>MAIL command</title>
+   <shortdesc>Opens the default email client.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Open the default email client to automatically start a new email with the current drawing
+         attached. It opens in an external application window, allowing it to remain open while you
+         work on your drawings in BricsCAD. You can move and resize it with standard application
+         window controls.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_etransmit" />
+      </linklist>
+   </related-links>
+</concept>

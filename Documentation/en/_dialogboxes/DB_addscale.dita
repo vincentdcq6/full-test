@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_addscale_0">
+    <title>Add scale dialog box</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>The Add Scale dialog box allows you to add a new scale factor to the list.</p>
+        <p>It includes 2 areas.</p>
+        <fig id="fig_csm_zmg_npb">
+            <image href="https://static.bricsys.com/help/en_US/DB_addscale_01_V21.png" id="image_sry_13g_npb" scope="external" />
+            <ol id="ol_jn3_tzl_mpb">
+                <li>Scale name</li>
+                <li>Scale properties</li>
+            </ol>
+        </fig>
+        <section id="section_dxj_gng_npb">
+            <title>Scale name </title>
+            <p>Specifies the scale name as it will appear in the scale list.</p>
+        </section>
+        <section id="section_hq5_gng_npb">
+            <title>Scale properties</title>
+            <p>Specifies the scale factor in paper (size when plotted) and drawing units.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_objectscale" />
+            <link keyref="CMD_-objectscale" />
+            <link keyref="CMD_pagesetup" />
+            <link keyref="CMD_print" />
+            <link keyref="CMD_scalelistedit" />
+            <link keyref="CMD_-scalelistedit" />
+        </linklist>
+    </related-links>
+</concept>

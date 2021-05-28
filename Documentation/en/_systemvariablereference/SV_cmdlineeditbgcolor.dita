@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="cmdlineeditbgcolor" xml:lang="en-US">
+   <title id="title__Toc50994923">CMDLINEEDITBGCOLOR system variable</title>
+   <conbody>
+      <section><title>Command line edit background color</title><p>Specifies the background color of the Command Bar's edit field. Color may be represented as a name (for standard colors) or as RGB values. At the Command line, color may be entered as a name (for standard colors), RGB values, or HTML color.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/string" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>50 54 56 (Settings dialog)</p>
+                           <p>#323638 (Command line)</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

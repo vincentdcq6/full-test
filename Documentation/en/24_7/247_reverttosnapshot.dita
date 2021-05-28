@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_revert_to_snapshot">
+    <title>Revert to a snapshot</title>
+    <taskbody>
+        <context>
+            <p>You can revert to a snapshot to restore access rights:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_lps_hwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Project setup</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>ellipsis</uicontrol> button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_u1c_fbs_v4b" scale="75" scope="external" />
+                    at the top of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Revert to snapshot</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Revert to snapshot</wintitle> window opens. @@@ title is
+                    missing in the new interface</stepresult>
+            </step>
+            <step>
+                <cmd>Select the applicable snapshot.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Revert</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_d1d_ptn_dpb">A pop up window informs you that the folder access is
+            reverted.</result>
+    </taskbody>
+</task>

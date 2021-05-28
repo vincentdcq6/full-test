@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title>What's new</title>
+  <topicref href="empty%20titles/MCAD_whats_new_in_bricscad_v21_mechanical_title.dita" navtitle="What's new in BricsCAD V21 Mechanical" keys="whats_new_in_bricscad_v21_mechanical_title">
+    <topicref href="_guides/MCAD_whats_new_V21/NFG_overview.dita" navtitle="Overview" keys="NFG_overview_mechanical" />
+    <topicref href="_guides/MCAD_whats_new_V21/NFG_bom_manager.dita" navtitle="BOM Manager" keys="NFG_bom_manager"></topicref>
+    <topicref href="_guides/MCAD_whats_new_V21/NFG_parts_libraries.dita" navtitle="Parts Libraries" keys="NFG_parts_libraries"></topicref>
+    <topicref href="_guides/MCAD_whats_new_V21/NFG_parameters_and_constraints.dita" navtitle="Parameters and Constraints" keys="NFG_parameters_and_constraints" />
+    <topicref href="_guides/MCAD_whats_new_V21/NFG_standard_parts.dita" navtitle="Standard parts" keys="NFG_standard_parts" />
+    <topicref href="_guides/MCAD_whats_new_V21/NFG_sheet_metal.dita" navtitle="Sheet Metal" keys="NFG_sheet_metal" />
+  </topicref>
+</map>

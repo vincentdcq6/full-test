@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_svgoptions">
+   <title>SVGOPTIONS command</title>
+   <shortdesc>Opens the Settings Dialog Box with the <uicontrol>SVG export</uicontrol> category expanded.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> with the <uicontrol>SVG export</uicontrol> category
+         expanded to view and modify relevant system variables.</p>
+
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_svglineweightscale" />
+         <link keyref="SV_svgprecision" />
+         <link keyref="SV_svgimagebase" />
+         <link keyref="SV_svgimageurl" />
+         <link keyref="SV_svgdefaultimageextension" />
+         <link keyref="SV_svggenericfontfamily" />
+         <link keyref="SV_svgoutputheight" />
+         <link keyref="SV_svgoutputwidth" />
+         <link keyref="SV_svgscalefactor" />
+         <link keyref="SV_svgblendedgradients" />
+      </linklist>
+   </related-links>
+</concept>

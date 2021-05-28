@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_2dentitysnaps">
+    <title>2D entity snaps</title>
+    <shortdesc>Entity snaps enable you to quickly select exact geometric points on existing entities
+        without having to know the exact coordinates of those points.</shortdesc>
+    <conbody>
+        <p>With entity snaps, you can select the end point of a line or arc, the center point of a
+            circle, the intersection of any two entities, or any other geometrically significant
+            position. You can also use entity snaps to draw entities that are tangent or
+            perpendicular to an existing entity. You can use entity snaps any time you need to
+            specify a point.</p>
+        <p>You can work with entity snaps in one of two ways:</p>
+        <ul id="ul_cgh_s4q_4pb">
+            <li>Enable a running entity snap that remains in effect until you turn it off by
+                choosing an entity snap when no other command is active.</li>
+            <li>Enable a one-time entity snap for a single selection by choosing an entity snap when
+                another command is active. You can also use a one-time entity snap to override a
+                running entity snap.</li>
+        </ul>
+        <p>When using entity snaps, the program recognizes only visible entities or visible portions
+            of entities. You cannot snap to entities on layers that have been turned off or to the
+            blank portions of dashed lines.</p>
+        <p>If the APBOX system variable is on, the entity Snap Aperture Box is added to the
+            crosshairs when one or more entity snaps are active.</p>
+        <p>When you move the cross hairs, the program snaps to the snap point closest to the center
+            of the Snap Aperture Box. The <uicontrol>Snap Marker</uicontrol> indicates the current
+            snap point.</p>
+        <p>The DRAGSNAP system variable controls the snap behavior while dragging, providing an
+            increased WYSIWIG experience. DRAGSNAP controls whether rubber band dynamics are
+            displayed at the current cursor location or at the current entity snap location.
+            DRAGSNAP applies to all modify commands that display dynamics, such as COPY, PASTECLIP,
+            PASTEBLOCK, MOVE, ROTATE, MIRROR, SCALE and STRETCH.</p>
+        <ul id="ul_dgh_s4q_4pb">
+            <li>DRAGSNAP = 0 (Default): dragged entities display at the cursor location.</li>
+            <li>DRAGSNAP = 1: dragged entities display at the current entity snap location.</li>
+        </ul>
+        <p>The OSOPTIONS system variable suppresses entity snaps on certain entity types. The value
+            is stored as a bitcode using the sum of the values of the selected options.</p>
+        <ul id="ul_fgh_s4q_4pb">
+            <li>1: Entity snapping is disabled for hatch entities.</li>
+            <li>2: Entity snapping is disabled for geometry with negative Z values when using a
+                dynamic UCS.</li>
+            <li>4: Entity snapping is disabled for endpoints of dimension extension lines.</li>
+        </ul>
+        <p>
+            <note> Press the TAB key, without moving the mouse, to cycle through all possible entity
+                snaps available at the current cursor position.</note>
+        </p>
+        <section id="section_gtc_x4q_4pb">
+            <title>Defining the 2D Entity Snap system variables</title>
+            <p>Right click the ESNAP field in the Status bar then choose settings in the context
+                menu. The Settings dialog box displays with the 2D and 3D entity snaps settings
+                expanded.</p>
+        </section>
+        <section id="section_b1p_y4q_4pb">
+            <title>2D Entity Snap options</title>
+            <p>
+                <table id="table_ng2_z4q_4pb">
+                    <tgroup cols="2">
+                        <colspec colnum="1" colname="col1" rowsep="1" colsep="1" />
+                        <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                        <thead>
+                            <row>
+                                <entry><b>Icon</b>
+                                </entry>
+                                <entry><b>Description</b>
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnapz.png" scope="external" id="image_qps_qcs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry>Sets the OSNAPZ system variable to Ignore entity snap
+                                    elevation, replacing the Z coordinate of the snapped point with
+                                    the current value of the ELEVATION system variable. <fig id="fig_nbf_tsq_4pb">
+                                        <image href="https://static.bricsys.com/help/en_US/GD_2dentitysnaps_01_V21.png" id="image_izx_ssq_4pb" scope="external" />
+                                    </fig>
+                                    <p>The 3d snap marker (1) displays the identified 3d point, the
+                                        snap marker (2) displays at the current Elevation
+                                        height.</p></entry>
+                            </row>
+                            <row>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_hatch.png" scope="external" id="image_khb_1ds_4pb" outputclass="icon" />
+                                </entry>
+                                <entry>Disables the Ignore hatches option of the OSOPTIONS system
+                                    variable, thus allowing to snap to hatches.</entry>
+                            </row>
+                            <row>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_negative_z.png" scope="external" id="image_jb4_bds_4pb" outputclass="icon" />
+                                </entry>
+                                <entry>Disables the Entity snap to negative-z option of the
+                                    OSOPTIONS system variable, thus allowing entity snaps with a
+                                    negative z-value when a Dynamic UCS is active.</entry>
+                            </row>
+                            <row>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_dim_ext.png" scope="external" id="image_ypq_2ds_4pb" outputclass="icon" />
+                                </entry>
+                                <entry>Disables the Ignore endpoints of dimension extension lines
+                                    option of the OSOPTIONS system variable, thus allowing entity
+                                    snaps to dimension extension lines.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_o3p_qtq_4pb">
+            <title>Entity Snap Modes</title>
+            <p>
+                <table id="table_h4c_rtq_4pb">
+                    <tgroup cols="6">
+                        <colspec colnum="1" colname="col1" rowsep="1" colsep="1" colwidth="1*" />
+                        <colspec colnum="2" colname="col2" rowsep="1" colsep="1" colwidth="1*" />
+                        <colspec colnum="3" colname="col3" rowsep="1" colsep="1" colwidth="1*" />
+                        <colspec colnum="4" colname="col4" colsep="1" rowsep="1" colwidth="1*" />
+                        <colspec colnum="5" colname="col5" rowsep="1" colsep="1" colwidth="1*" />
+                        <colspec colnum="6" colname="col6" rowsep="1" colsep="1" colwidth="3*" />
+                        <thead>
+                            <row>
+                                <entry>Name</entry>
+                                <entry>Icon</entry>
+                                <entry>Marker</entry>
+                                <entry>Context menu shortcut* </entry>
+                                <entry>Transparent shortcut** </entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>TK</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_tk.png" id="image_hjr_3cs_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Extension_Marker.png" id="image_w1m_bvp_qpb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry> </entry>
+                                <entry>tk</entry>
+                                <entry>Use temporary tracking points. Prompts you to identify
+                                    temporary points; press Enter to accept the last temporary
+                                    point.</entry>
+                            </row>
+                            <row>
+                                <entry>MTP</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_m2p.png" scope="external" id="image_xlf_nfs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry> </entry>
+                                <entry>2</entry>
+                                <entry>mtp</entry>
+                                <entry>Snaps to a point in the middle between two points. Prompts
+                                    you to identify two points.</entry>
+                            </row>
+                            <row>
+                                <entry>ENDPOINT</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_endpoint.png" scope="external" id="image_dr2_qfs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Endpoint_Marker.png" id="image_q5g_tns_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>E</entry>
+                                <entry>end</entry>
+                                <entry>Snaps to the nearest endpoint of an entity or polyline
+                                    segment.</entry>
+                            </row>
+                            <row>
+                                <entry>MIDPOINT</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_midpoint.png" scope="external" id="image_hzn_tfs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Midpoint_Marker.png" id="image_kyc_xns_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>M</entry>
+                                <entry>mid</entry>
+                                <entry>Snaps to the midpoint of an entity or polyline segment.</entry>
+                            </row>
+                            <row>
+                                <entry>NEAREST</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_nearest.png" scope="external" id="image_eyw_5fs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Nearest_Marker.png" id="image_scd_yns_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>N</entry>
+                                <entry>nea</entry>
+                                <entry>Snaps to the nearest point on an entity.</entry>
+                            </row>
+                            <row>
+                                <entry>CENTER</entry>
+                                <entry>
+                                    <image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_center.png" scope="external" id="image_ut1_wfs_4pb" outputclass="icon" /></entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Center_Marker.png" id="image_tby_4ns_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>C</entry>
+                                <entry>cen</entry>
+                                <entry>Snaps to the center point of an arc, circle, polygon, ellipse
+                                    or elliptical arc.</entry>
+                            </row>
+                            <row>
+                                <entry>GEOMETRIC CENTER</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_gcenter.png" scope="external" id="image_p14_xfs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Center_Marker.png" id="image_u4k_zns_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>G</entry>
+                                <entry>gce</entry>
+                                <entry>Snaps to the centroid of any closed polylines and splines,
+                                    planar 3d polylines, regions and planar faces of 3D solids.</entry>
+                            </row>
+                            <row>
+                                <entry>PERPENDICULAR</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_perpendicular.png" scope="external" id="image_qvl_yfs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Perpendicular_Marker.png" id="image_tx5_14s_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>P</entry>
+                                <entry>per</entry>
+                                <entry>Snaps to the perpendicular point of another entity. You can
+                                    snap to an arc, circle, ellipse, line, polyline, infinite line,
+                                    ray, spline or edge of a plane to form a perpendicular alignment
+                                    with that entity or with an extension of that entity.</entry>
+                            </row>
+                            <row>
+                                <entry>PARALLEL</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_parallel.png" scope="external" id="image_ucj_zfs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Parallel_Marker.png" id="image_chf_c4s_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>L</entry>
+                                <entry>par</entry>
+                                <entry>Displays a tracking line parallel to the selected entity.</entry>
+                            </row>
+                            <row>
+                                <entry>TANGENT</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_tangent.png" scope="external" id="image_c5b_1gs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Tangent_Marker.png" id="image_o4k_c4s_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>T</entry>
+                                <entry>tan</entry>
+                                <entry>Snaps to the point on an arc, ellipse, spline or circle that,
+                                    when connected to the previous point, forms a line tangent to
+                                    that entity.</entry>
+                            </row>
+                            <row>
+                                <entry>QUADRANT</entry>
+                                <entry>
+                                    <image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_quadrant.png" scope="external" id="image_c52_bgs_4pb" outputclass="icon" /></entry>
+                                <entry>
+                                    <image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Quadrant_Marker.png" id="image_i4f_24s_4pb" scope="external" outputclass="icon" /></entry>
+                                <entry>Q</entry>
+                                <entry>qua</entry>
+                                <entry>Snaps to the closest quadrant of an arc, circle, ellipse, or
+                                    elliptical arc.</entry>
+                            </row>
+                            <row>
+                                <entry>INSERTION</entry>
+                                <entry>
+                                    <image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_insertion.png" scope="external" id="image_t12_cgs_4pb" outputclass="icon" /></entry>
+                                <entry>
+                                    <image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Insert_Marker.png" id="image_hsf_f4s_4pb" scope="external" outputclass="icon" /></entry>
+                                <entry>I</entry>
+                                <entry>ins</entry>
+                                <entry>Snaps to the insertion point of an attribute, block or text
+                                    entity.</entry>
+                            </row>
+                            <row>
+                                <entry>NODE</entry>
+                                <entry>
+                                    <image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_node.png" scope="external" id="image_op3_dgs_4pb" outputclass="icon" /></entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Point_Marker.png" id="image_vfy_g4s_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>O</entry>
+                                <entry>
+                                    <p>poi</p>
+                                    <p>nod</p>
+                                </entry>
+                                <entry>Snaps to a point entity.</entry>
+                            </row>
+                            <row>
+                                <entry>INTERSECTION</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_intersection.png" scope="external" id="image_zqc_2gs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry>
+                                    <image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Intersection_Marker.png" id="image_rnh_l4s_4pb" scope="external" outputclass="icon" /></entry>
+                                <entry>R</entry>
+                                <entry>int</entry>
+                                <entry>Snaps to the intersection of any combination of entities.</entry>
+                            </row>
+                            <row>
+                                <entry>APPARENT INTERSECTION</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_apparent.png" scope="external" id="image_oxq_kgs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_ApparentIntersection_Marker.png" id="image_cl1_kns_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>A</entry>
+                                <entry>app</entry>
+                                <entry>
+                                    <p>Snaps to the apparent intersection in the current view of two
+                                        entities that do not intersect in three-dimensional space.</p>
+                                    <p>Snaps also to the intersection of any combination of
+                                        entities.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>EXTENSION</entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_extension.png" scope="external" id="image_orn_lgs_4pb" outputclass="icon" />
+                                </entry>
+                                <entry><image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Extension_Marker.png" id="image_cvz_5ns_4pb" scope="external" outputclass="icon" />
+                                </entry>
+                                <entry>X</entry>
+                                <entry>ext</entry>
+                                <entry>Snaps to the extension of an entity or to the intersection of
+                                    the extension of two entities.</entry>
+                            </row>
+                            <row>
+                                <entry>NONE</entry>
+                                <entry>
+                                    <image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_none.png" scope="external" id="image_v4g_mgs_4pb" outputclass="icon" /></entry>
+                                <entry> </entry>
+                                <entry>Y</entry>
+                                <entry>non</entry>
+                                <entry>Turns off all entity snap modes.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+            <p>* Type this letter to quickly select the entity snap mode in the right click context
+                menu.</p>
+            <p>** Type the transparent shortcut in the command bar when a command prompts for a
+                point.</p>
+            <p>Other running entity snaps are temporarily disabled.</p>
+        </section>
+        <section id="section_t4r_c5q_4pb">
+            <title>Setting the Entity snaps</title>
+            <p>Do one of the following:</p>
+            <ul id="ul_vd2_25q_4pb">
+                <li>
+                    <p>Press and hold the Shift key, then right click and select the Entity Snap
+                        mode in the context menu.</p>
+                    <p>The icons of the currently active Entity Snap modes are outlined.</p>
+                </li>
+                <li>
+                    <p>Click the buttons on the Entity Snaps toolbar.</p>
+                    <p>The buttons of the currently active entity snap modes are pressed.</p>
+                </li>
+            </ul>
+            <p>When no command is active, the above procedures toggle the Entity Snap modes on/off.</p>
+            <p>When a command is active, the above procedures set a 'one shot' override of the
+                current Entity Snap modes.</p>
+            <p>Alternatively, you can type a single letter shortcut as indicated in the table below.</p>
+            <p>To toggle the Entity Snaps on/off:</p>
+            <ul id="ul_wd2_25q_4pb">
+                <li>Click the ESNAP field in the Status Bar.</li>
+                <li>Press the <b>F3</b> function key.</li>
+            </ul>
+        </section>
+        <section id="section_s3b_h5q_4pb">
+            <title>Working with multiple Entity Snap modes</title>
+            <p>
+                <ol id="ol_zmn_h5q_4pb">
+                    <li>
+                        <p>Move the cursor to the entity you want to snap.</p>
+                        <p>One of the active Entity Snap modes markers display.</p>
+                    </li>
+                    <li>
+                        <p>Do not move the mouse and press the TAB key.</p>
+                        <p>The entity the snap point is on highlights.</p>
+                    </li>
+                    <li>
+                        <p>Do one of the following:</p>
+                        <ul id="ul_uhz_35q_4pb">
+                            <li>
+                                <p>Click to accept the snap point.</p>
+                            </li>
+                            <li>
+                                <p>Press the TAB key.</p>
+                                <p>The next possible Entity Snap mode marker displays.</p>
+                                <p>The entity the snap point is on highlights.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>(option) Repeat step 3 until the right snap point is found.</p>
+                    </li>
+                </ol>
+            </p>
+        </section>
+        <section id="section_ert_m5q_4pb">
+            <title>Snapping to the extension of two entities</title>
+            <p>
+                <ol id="ol_bb4_n5q_4pb">
+                    <li>
+                        <p>If not already on, turn on the <b>Extension</b> Entity Snap mode.</p>
+                    </li>
+                    <li>
+                        <p>Launch an entity creation command, for example LINE.</p>
+                    </li>
+                    <li>
+                        <p>Move the cursor over the endpoint of the first entity (1).</p>
+                        <p>A small red cross indicates the entity is marked for extension.</p>
+                    </li>
+                    <li>
+                        <p>Move the cursor over the endpoint of the second entity (2).</p>
+                        <p>A small red cross indicates the entity is marked for extension.</p>
+                    </li>
+                    <li>
+                        <p>Move the cursor near the intersection of the extensions of the two
+                            entities.</p>
+                        <p>An X indicates the intersection (3).</p>
+                        <p>
+                            <fig id="fig_l4s_q5q_4pb">
+                                <image href="https://static.bricsys.com/help/en_US/GD_2dentitysnaps_02_V21.png" scope="external" id="image_zs1_lms_4pb" />
+                            </fig>
+                        </p>
+                    </li>
+                    <li>Click to accept the snap point.</li>
+                </ol>
+            </p>
+            <p>
+                <note>You can snap to the extension of lines, polylines, arcs and elliptical
+                    arcs.</note>
+            </p>
+        </section>
+        <section id="section_kqr_x5q_4pb">
+            <title>Using the Middle of 2 points snap mode</title>
+            <p>
+                <ol id="ol_ecj_y5q_4pb">
+                    <li>
+                        <p>When prompted to specify a point, do one of the following:<ul id="ul_fcj_y5q_4pb">
+                                <li>
+                                    <p>Activate the <b>Snap to the middle of 2 points</b> snap mode
+                                            (<image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_m2p.png" scope="external" id="image_qzz_v4s_4pb" outputclass="icon" />).</p>
+                                </li>
+                                <li>
+                                    <p>Type <b>mtp</b> or <b>m2p</b> in the command bar and press
+                                        Enter.</p>
+                                </li>
+                            </ul></p>
+                        <p>You are prompted: First point of mid:</p>
+                    </li>
+                    <li>
+                        <p>Specify the first point.</p>
+                        <p>You are prompted: Second point of mid:</p>
+                    </li>
+                    <li>
+                        <p>Specify the second point.</p>
+                        <p>The point in the middle of the two points is snapped.</p>
+                    </li>
+                </ol>
+            </p>
+        </section>
+        <section id="section_pk5_dvq_4pb">
+            <title>Using the Parallel entity snap mode</title>
+            <p>
+                <ol id="ol_dyj_2vq_4pb">
+                    <li>
+                        <p>Make sure Entity Snap Tracking is active.</p>
+                    </li>
+                    <li>
+                        <p>Launch an entity create command to create a linear entity (for example
+                            Line).</p>
+                    </li>
+                    <li>
+                        <p>Specify the first point of the entity.</p>
+                        <p>The line displays dynamically.</p>
+                    </li>
+                    <li>
+                        <p>Press and hold the Shift key, then right click and choose <b>Snap to
+                                parallel</b> (<image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/osnap_parallel.png" scope="external" id="image_wxt_w4s_4pb" outputclass="icon" />) in the
+                            context menu.</p>
+                    </li>
+                    <li>
+                        <p>Hover the cursor over the entity you want to draw parallel to.</p>
+                        <p>The <b>Parallel Entity Snap</b> marker (<image href="https://static.bricsys.com/help/en_INTL/Icons/markers/EntitySnap_Parallel_Marker.png" id="image_h2y_y4s_4pb" scope="external" outputclass="icon" />)
+                            displays on the selected entity.</p>
+                        <p>Wait until a small cross (+) indicates the entity is recognized.</p>
+                    </li>
+                    <li>
+                        <p>Move the cursor in order to place the dynamics of the line more or less
+                            parallel to the selected entity.</p>
+                        <p>A tracking line displays from the start point of the line.</p>
+                    </li>
+                    <li>
+                        <p>Do one of the following to specify the second point while the tracking
+                            line displays: <ul id="ul_myj_2vq_4pb">
+                                <li>
+                                    <p>Click a point.</p>
+                                </li>
+                                <li>
+                                    <p>Enter the desired length and press Enter.</p>
+                                </li>
+                                <li>
+                                    <p>Use a second entity snap tracking point, then move the cursor
+                                        to the intersection of the parallel tracking line and the
+                                        second entity snap tracking line.</p>
+                                </li>
+                            </ul></p>
+                    </li>
+                </ol>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_2dintersection" />
+            <link keyref="CMD_3dintersection" />
+            <link keyref="CMD_center" />
+            <link keyref="CMD_endpoint" />
+            <link keyref="CMD_extension" />
+            <link keyref="CMD_from" />
+            <link keyref="CMD_gcenter" />
+            <link keyref="CMD_insertion" />
+            <link keyref="CMD_intersection" />
+            <link keyref="CMD_midpoint" />
+            <link keyref="CMD_mtp" />
+            <link keyref="CMD_nearest" />
+            <link keyref="CMD_node" />
+            <link keyref="CMD_none" />
+            <link keyref="CMD_parallel" />
+            <link keyref="CMD_perpendicular" />
+            <link keyref="CMD_quadrant" />
+            <link keyref="CMD_tangent" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_3dosmode" />
+            <link keyref="SV_3dsnapmarkercolor" />
+            <link keyref="SV_apbox" />
+            <link keyref="SV_aperture" />
+            <link keyref="SV_dgnosnap" />
+            <link keyref="SV_displaysnapmarkerinallviews" />
+            <link keyref="SV_displaytooltips" />
+            <link keyref="SV_dwfosnap" />
+            <link keyref="SV_osmode" />
+            <link keyref="SV_osnapcoord" />
+            <link keyref="SV_osnapz" />
+            <link keyref="SV_osoptions" />
+            <link keyref="SV_pdfosnap" />
+            <link keyref="SV_snapmarkercolor" />
+            <link keyref="SV_snapmarkersize" />
+            <link keyref="SV_snapmarkerthickness" />
+                   </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="GD_entitysnaptracking" />
+        </linklist>
+    </related-links>
+</concept>

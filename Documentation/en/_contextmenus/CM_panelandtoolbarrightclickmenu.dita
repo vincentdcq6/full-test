@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CM_panel_and_toolbar_right_clickmenu">
+   <title>Panel and Toolbar Right-click menu</title>
+   <conbody id="conbody_k3z_rms_1pb">
+      <div id="div_xqs_kvs_1pb">
+         <p>The right-click menu enables you to control what is displayed in the current workspace. </p>
+         <fig id="fig_xk4_5dd_14b">
+            <image href="https://static.bricsys.com/help/en_US/Current/CM_paneltoolbarrightclickmenu.png" id="image_p22_tkq_znb" scope="external" />
+         </fig>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Panels</dt>
+                  <dd>Displays a list of available panels including their status. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Panel stacking</dt>
+                  <dd>Displays a list of panel stacking options.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Toolbars</dt>
+                  <dd>Displays a list of toolbars.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Toolbar size</dt>
+                  <dd>Displays a list of toolbar icon sizes.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Workspaces</dt>
+                  <dd>Displays a list of workspaces</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Menu bar</dt>
+                  <dd>Specifies the visibility of the Menu bar.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Status bar</dt>
+                  <dd>Specifies the visibility of the Status bar.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Clean Screen </dt>
+                  <dd>Enables clean screen mode.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Light/Dark Interface</dt>
+                  <dd>Switches between Light and Dark interface.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Customize</dt>
+                  <dd>Opens the Customize dialog box.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </div>
+   </conbody>
+</concept>

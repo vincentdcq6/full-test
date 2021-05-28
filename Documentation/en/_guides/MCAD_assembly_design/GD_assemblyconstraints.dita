@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_assemblyconstraints">
+    <title>Assembly Constraints</title>
+    <conbody>
+        <p>Assembly constraints are ordinary 3D Constraints, that link faces and edges of bodies to
+            represent the components of an assembly. You can link 3D Constraints at the top-level
+            and at the subcomponents level.</p>
+    </conbody>
+</concept>

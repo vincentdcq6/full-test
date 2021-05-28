@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
+<map>
+  <title>Getting started with BricsCAD</title>
+  <topicref href="_guides/BCAD_getting_started/GD_getting_started_with_bricscad.dita" keys="GD_getting_started_with_bricscad">
+    <topicref href="_guides/BCAD_getting_started/GD_launching_bricscad.dita" keys="GD_launching_bricscad">
+      <topicref href="_guides/BCAD_getting_started/GD_the_bricscad_launcher.dita" keys="GD_the_bricscad_launcher" />
+      <topicref href="_guides/BCAD_getting_started/GD_feature_comparison.dita" keys="GD_feature_comparison" />
+      <topicref href="_guides/BCAD_getting_started/GD_setting_the_license_level.dita" keys="GD_setting_the_license_level" />
+      <topicref href="_guides/BCAD_getting_started/GD_the_license_manager.dita" keys="GD_the_license_manager" />
+    </topicref>
+    <topicref href="_guides/BCAD_getting_started/GD_exploring_the_interface.dita" keys="GD_exploring_the_interface">
+      <topicref href="_guides/BCAD_getting_started/GD_the_start_tab.dita" keys="GD_the_start_tab" />
+      <topicref href="_guides/BCAD_getting_started/GD_document_tabs.dita" keys="GD_document_tabs" />
+      <topicref href="_guides/BCAD_getting_started/GD_choosing_the_workspace.dita" keys="GD_choosing_the_workspace" />
+      <topicref href="_guides/BCAD_getting_started/GD_the_drawing_area.dita" keys="GD_the_drawing_area" />
+      <topicref href="_guides/BCAD_getting_started/GD_the_command_line.dita" keys="GD_the_command_line" />
+      <topicref href="_guides/BCAD_getting_started/GD_menus.dita" keys="GD_menus" />
+      <topicref href="_guides/BCAD_getting_started/GD_toolbars.dita" keys="GD_toolbars" />
+      <topicref href="_guides/BCAD_getting_started/GD_the_ribbon.dita" keys="GD_the_ribbon" />
+      <topicref href="_guides/BCAD_getting_started/GD_the_quad_basics.dita" keys="GD_the_quad_basics" />
+      <topicref href="_guides/BCAD_getting_started/GD_right_click_menus.dita" keys="GD_right_click_menus" />
+      <topicref href="_guides/BCAD_getting_started/GD_the_status_bar.dita" keys="GD_the_status_bar" />
+      <topicref href="_guides/BCAD_getting_started/GD_panels.dita" keys="GD_panels" />
+      <topicref href="_guides/BCAD_getting_started/GD_the_clean_screen_mode.dita" keys="GD_the_clean_screen_mode" />
+    </topicref>
+    <topicref href="_guides/BCAD_getting_started/GD_working_in_bricscad.dita" keys="GD_working_in_bricscad">
+      <topicref href="_guides/BCAD_getting_started/GD_template_drawings.dita" keys="GD_template_drawings" />
+      <topicref href="_guides/BCAD_getting_started/GD_entity_creation_settings.dita" keys="GD_entity_creation_settings" />
+      <topicref href="_guides/BCAD_getting_started/GD_how_to_draw_accurately.dita" keys="GD_how_to_draw_accurately" />
+      <topicref href="_guides/BCAD_getting_started/GD_executing_commands.dita" keys="GD_executing_commands" />
+      <topicref href="_guides/BCAD_getting_started/GD_view_control.dita" keys="GD_view_control" />
+      <topicref href="_guides/BCAD_getting_started/GD_selecting_entities.dita" keys="GD_selecting_entities" />
+      <topicref href="_guides/BCAD_getting_started/GD_using_the_manipulator.dita" keys="GD_using_the_manipulator" />
+      <topicref href="_guides/BCAD_getting_started/GD_working_with_the_structure_panel.dita" keys="GD_working_with_the_structure_panel" />
+    </topicref>
+  </topicref>
+</map>

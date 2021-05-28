@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_overview_workflow">
+    <title>Overview</title>
+    <conbody>
+        <p>A workflow in a Bricsys 24/7 project is an automated process. It is, for example, used in
+            the approval cycle of a document. </p>
+        <p>A workflow has a coordinator and contains activities and transitions:<ul id="ul_bj1_5p4_z4b">
+                <li>Activities are tasks that are performed manually or automatically by the
+                    system.</li>
+                <li>Transitions are the arrows that connect activities, and allow the workflow to
+                    follow a predefined path.<div>Outgoing transitions from manual activities are
+                        the answers that a project member can select when performing the task. An
+                        outgoing transition can have multiple answers. In Bricsys 24/7, answers are
+                        referred to as states.</div></li>
+            </ul></p>
+        <p>All automatic tasks use the coordinator's access rights to perform the task. </p>
+        <p>
+            <fig id="fig_wfn_dls_y4b">
+                <title>Example of a workflow</title>
+                <image href="../IMAGES_temp/workflow_example.png" id="image_xfn_dls_y4b" width="150mm" scope="external" />
+            </fig>
+        </p>
+        <p>@@@ add a second example of a workflow</p>
+        <p>Make sure your project contains a workflow folder and you have access to the workflow
+            folder. Once this is set up, the <uicontrol>Workflow</uicontrol> tool becomes available
+            in the toolbar.</p>
+        <p>The <uicontrol>Workflow</uicontrol>
+            <image href="../IMAGES_temp/workflow_icon.PNG" id="image_lr2_jbh_dpb" scale="80" scope="external" /> tool
+            and Bricsys 24/7 Workflow Viewer allow you to add, design, edit and manage
+            workflows.</p>
+        <p>
+            <note>Every document uploaded in a workflow folder, follows the applied workflow.</note>
+        </p>
+    </conbody>
+</concept>

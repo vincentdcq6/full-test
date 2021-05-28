@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_add_a_user_to_an_address_book">
+    <title>Add a user to an address book</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_yz5_lwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Users</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select a user.</cmd>
+            </step>
+            <step>
+                <cmd>Click Add to addressbook <image href="../IMAGES_temp/add_to_address_book_button.PNG" id="image_uws_nxr_v4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Add user(s) to address book</wintitle> window
+                    appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the address book you want to add the user to.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the user is added to the address
+                    book.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

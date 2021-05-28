@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_recycle_bin">
+    <title>Recycle bin</title>
+    <conbody>
+        <p>All files and folders that are deleted in Bricsys 24/7 are moved to the recycle bin first
+            (soft delete).  In the recycle bin, you can still restore items, or delete the items
+            permanently (hard delete).</p>
+        <p>Only administrators have access to the recycle bin.</p>
+        <p>
+            <note type="important"><b>In order to delete items in the recycle bin, the option
+                        <uicontrol>Lock recycle bin</uicontrol> can not be enabled.</b></note>
+        </p>
+    </conbody>
+</concept>

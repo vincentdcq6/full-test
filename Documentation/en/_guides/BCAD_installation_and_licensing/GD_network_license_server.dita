@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="network_license_server">
+   <title>Network license server</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>To make a network license available in <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> on a client computer, the network administrator needs to install a network license
+         server from <b>Reprise Software</b> first.</p>
+      <p><b conkeyref="product_names_warehouse/b_x54_ddd_cnb" /> is a separate program which installs
+         the server. After starting the network license server, you can configure it through a web
+         interface.</p>
+      <p>Just like <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> needs a license file to
+         run, the network license server needs a network license file that you can activate online
+         or manually.</p>
+      <p>You can activate a network license only once and it is locked to the server.</p>
+      <p>Once the network license is activated and the server is started, you can use the network
+         license in <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> on a client computer.</p>
+      <p>
+         <note>Reprise Software does not offer a network license server for Mac computers. However, you can install a Windows or Linux network license server to serve licenses on Mac client computers.</note>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_set_up_a_windows_network_license_server" />
+         <link keyref="GD_set_up_a_linux_network_license_server" />
+         <link keyref="GD_network_license_server_administration" />
+         <link keyref="GD_to_use_a_network_license_on_a_client_computer" />
+         <link keyref="GD_to_roam_a_network_license_on_a_client_computer" />
+         <link keyref="GD_to_return_a_roamed_network_license_to_the_server" />
+      </linklist>
+   </related-links>
+</concept>
+

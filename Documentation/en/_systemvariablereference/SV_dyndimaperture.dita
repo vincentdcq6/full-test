@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dyndimaperture" xml:lang="en-US">
+   <title>DYNDIMAPERTURE system variable</title>
+   <conbody>
+      <section id="section_oyc_wqf_wnb">
+         <title>Dynamic dimension aperture</title>
+         <p>Specifies the radius (in pixels) around cursor. This parameter is used only when DYNMODE flag is 16 'Nearest entity dynamic dimensions'. The nearest entity is looked for between entities which intersect or are inside this radius.</p>
+         <p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/preference" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 500</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>20</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/unit" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/pixels" />
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </conbody>
+</concept>

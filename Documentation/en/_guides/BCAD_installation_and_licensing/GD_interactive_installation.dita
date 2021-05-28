@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="concept_dvn_r4b_smb">
+   <title><b>Interactive installation</b></title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <context id="context_s3l_pyx_vmb" />
+      <steps id="steps_nz5_ryx_vmb">
+         <step>
+            <cmd>Double click the installer file.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Tick the checkbox to accept the <uicontrol>License Agreement</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Do one of the following:</cmd>
+            <choices id="choices_iwr_5yx_vmb">
+               <choice>Accept the default installation folder.</choice>
+               <choice>Click the <uicontrol>Change...</uicontrol> button and select an installation folder.</choice>
+            </choices>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Install</uicontrol> to start the installation.</cmd>
+         </step>
+         <step>
+            <cmd>Choose whether to add a shortcut on the desktop and/or to display the release notes when the installation process has finished.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Finish</uicontrol> to finish the installation process.</cmd>
+         </step>
+      </steps>
+      <result id="result_j2l_bzx_vmb"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> is
+         installed.</result>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="GD_overview_of_install_options" />
+         <link keyref="GD_silent_installation_windows_only" />
+      </linklist>
+   </related-links>
+</task>

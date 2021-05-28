@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A216B4B7-553C371-22474924B23571A-55C5CF">
+   <title>Performance and compatibility</title>
+   <shortdesc>BricsCAD V21 offers new and enhanced tools to improve performance and compatibility as
+      you work individually or in a collaborative environment.</shortdesc>
+
+   <conbody>
+      <section id="section_obc_fr5_r4b">
+         <title>Selection Preview</title>
+         <p>Selection preview highlighting is deactivated during Pan operations, resulting in a smoother user-experience.</p>
+      </section>
+      <section id="section_pbc_fr5_r4b">
+         <title>Xref Loading</title>
+         <p>A new MTFLAG is added to delay the loading of Xrefs to idle time.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_PerformanceAndCompatibility_01_V21.png" id="image_qbc_fr5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_rbc_fr5_r4b">
+         <title>Multiuser Version Control (BETA)</title>
+         <p>BricsCAD V21 introduces new multi-user version control functionality as a beta technology preview. This functionality enables multiple users to work on the same drawings, simultaneously. Drawings are stored in the cloud using Bricsys 24/7 and checked in and out from each user's local machine.</p>
+         <p><b>Access</b></p>
+         <p>Since this is Beta functionality, you must request access by submitting a support request.</p>
+         <ol id="ol_sbc_fr5_r4b">
+            <li>Log into your Bricsys account.</li>
+            <li>Choose New Support Request.</li>
+            <li>Open the BricsCAD menu and choose <menucascade>
+                  <uicontrol>BricsCAD</uicontrol>
+                  <uicontrol>Version Control</uicontrol>
+               </menucascade>.</li>
+            <li>In the Subject field enter: Access to VERSIONCONTROL Beta.</li>
+            <li>Fill in the rest of the fields as needed.</li>
+            <li>Choose Send Support Request.</li>
+         </ol>
+         <p><b>VERSIONCONTROL Command</b></p>
+         <p>The new VERSIONCONTROL command offers the following options:</p>
+         <ul id="ul_tbc_fr5_r4b">
+            <li>Init</li>
+            <li>Checkout</li>
+            <li>Checkin</li>
+            <li>Update</li>
+            <li>Rename</li>
+         </ul>
+         <p>The first time you launch VERSIONCONTROL in a new BricsCAD session and choose one of the options, it prompts you to log into your Bricsys account.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_PerformanceAndCompatibility_02_V21.png" id="image_ubc_fr5_r4b" scope="external" />
+            </fig></p>
+         <p>If your account has not been granted access to the beta functionality, it directs you to a web page with instructions to request access.</p>
+         <p>If your account has access to the beta functionality, your successful login is indicated in the Command window and it prompts you to enter the name of the project on which you want to work.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_PerformanceAndCompatibility_03_V21.png" id="image_vbc_fr5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Init</b></p>
+         <p>The <uicontrol>Init</uicontrol> option enables you to create a new multi-user project. Enter a new project name, keeping in mind project names are case-sensitive. If you enter a name that already exists, it prompts you to enter a different name.</p>
+         <p><b>Checkout</b></p>
+         <p>The <uicontrol>Checkout</uicontrol> option enables you to check out a drawing from your cloud-based projects. You must specify from which project you want to check out a drawing. Enter the project name, keeping in mind project names are case-sensitive. If you enter a project name that doesn’t exist, BricsCAD displays a list of valid project names and prompts you to reenter the project name.</p>
+         <p>After entering a valid project name, you must specify a version control folder for that project. The version control folder is the location on your local machine where your drawings are stored and synced with the cloud. The default location is <filepath>drive:\Users\username\Documents\Bricsys247\projectname</filepath>. However, you can specify any location. If the location doesn’t exist, it’s created and set under version control. If the location already exists it’s set under version control. If the location is already under version control, you are prompted to specify a different location.</p>
+         <p><b>Checkin</b></p>
+         <p>The <uicontrol>Checkin</uicontrol> option enables you to check in drawings from your local, version control folder to the cloud-based project. You can check in all files in the version control folder or you can commit modified and untracked files.</p>
+         <p>After specifying what to check in, you can enter a relevant Check In message.</p>
+         <p><b>Update </b></p>
+         <p>The <uicontrol>Update</uicontrol> option enables you to sync project drawings from your local folder with the cloud.</p>
+         <p><b>Rename</b></p>
+         <p>The <uicontrol>Rename</uicontrol> option enables you to rename a drawing that’s under version control.</p>
+      </section>
+      <section id="section_wbc_fr5_r4b">
+         <title>DGN Export</title>
+         <p>A new DGNEXPORT command enables you to export the current drawing to DGN file
+            format.</p>
+      </section>
+      <section id="section_xbc_fr5_r4b">
+         <title>3D DWF Output</title>
+         <p>The 3DDWF command enables you to create 3D DWF or 3D DWFx files based on the value of
+            the new DWFFORMAT system variable.</p>
+      </section>
+      <section id="section_ybc_fr5_r4b">
+         <title>User Profile Manager</title>
+         <p>The User Profile Manager is now more powerful. It can now delete or replace existing user profiles, including the current one. Deleting the current profile doesn't completely remove it, but it does reset all settings to factory defaults.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_PerformanceAndCompatibility_04_V21.png" id="image_zbc_fr5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_acc_fr5_r4b">
+         <title>Start Menu Shortcuts</title>
+         <p>Start menu shortcuts now set the program folder instead of personal documents folder as the initial working directory. This change solves problems with installation under a system account where personal folders are not available.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_3ddwf" />
+         <link keyref="CMD_-dgnexport" />
+         <link keyref="CMD_versioncontrol" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_dwfformat" />
+      </linklist>
+   </related-links>
+</concept>

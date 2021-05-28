@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="ES_geometriccenter">
+   <title>Geometric Center entity snap</title>
+   <shortdesc>The Geometric Center entity snap enables the cursor to snap to the centroid of closed
+      entities.</shortdesc>
+   <conbody>
+      <p>Including:<ul id="ul_ldh_mgs_v4b">
+            <li>Polylines</li>
+            <li>Splines</li>
+            <li>Regions</li>
+            <li>Planar 3D faces</li>
+         </ul></p>
+      <p>
+         <fig id="fig_jyc_sbs_v4b">
+            <image href="https://static.bricsys.com/help/en_US/ES_geometric_01_V21.png" id="image_ijh_v2s_v4b" scope="external" />
+         </fig>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_osmode" />
+         <link keyref="SV_3dosmode" />
+      </linklist>
+   </related-links>
+</concept>

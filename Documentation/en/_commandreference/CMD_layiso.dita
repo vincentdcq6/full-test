@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_layiso">
+   <title>LAYISO command</title>
+   <shortdesc>Isolates the layers of selected entities.</shortdesc>
+   <conbody>
+      <p><!--<p>Insert License Level</p>--><!--<p> Insert link to Tool icon</p>--><!--<p>Alias:</p>--></p>
+      <p>Isolate the layers of selected entities lock or hide all entities except those that are on the same layers as the selected entities. </p>
+      <p>You are prompted: </p>
+      <p><b>Select entities on the layer(s) to be isolated</b>
+      </p>
+      <p>Select one or more entities on layers you want to isolate. You can continue selecting entities until you press Enter to end the command. If all selected entities are on the same layer, the Command line indicates which layer has been isolated and makes it the current layer: </p>
+      <p><b>This layer has been isolated: LayerName1. This layer is current: LayerName1. </b></p>
+      <p>If the selected entities are on more than one layer, the Command line indicates how many layers have been isolated. </p>
+      <p><b>Number of isolated layers: #. </b></p>
+      <p>If the selected entities don’t include one from the current layer, the current layer is changed to one of the isolated layers.</p>
+      <p>Additional options: [Settings/selection options (?)] </p>
+      <section id="section_wby_n1d_x4b">
+         <title>Options within the LAYISO command</title>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Settings</dt>
+                  <dd>Specify the behavior of layers that are not isolated.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Lock</dt>
+                  <dd outputclass="indent1">Lock layers that are not isolated. This is the default option. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Off</dt>
+                  <dd outputclass="indent1">Hide entities on layers that are not isolated. You can specify how entities are hidden for layout viewports. <ul id="ul_h5t_51d_x4b">
+                        <li><uicontrol>Off</uicontrol>: Freezes layers in all viewports. This is the default option. </li>
+                        <li><uicontrol>VPFreeze</uicontrol>: Freezes layers in the current viewport. </li>
+                     </ul></dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Selection options</dt>
+                  <dd><!--link to article about selection options--></dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_layer" />
+         <!---LAYER command link-->
+         <link keyref="CMD_layon" />
+         <link keyref="CMD_layoff" />
+         <link keyref="CMD_laythw" />
+         <link keyref="CMD_layfrz" />
+         <link keyref="CMD_laylck" />
+         <link keyref="CMD_layulk" />
+         <link keyref="CMD_layiso" />
+         <link keyref="CMD_layuniso" />
+         <link keyref="CMD_laycur" />
+         <link keyref="CMD_layerp" />
+         <link keyref="CMD_layerstate" />
+      </linklist>
+      <linklist>
+         <title>Related Variables</title>
+         <!--LAYERLOCKFADECTL System Variable link-->
+         <link keyref="SV_layerpmode" />
+      </linklist>
+   </related-links>
+</concept>

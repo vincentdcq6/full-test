@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_new">
+   <title>NEW command</title>
+   <shortdesc>Opens the Select Template Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_selecttemplate" /> to select a dwt or dwg file to use as a
+         template for creating a new drawing.</p>
+   </conbody>
+</concept>

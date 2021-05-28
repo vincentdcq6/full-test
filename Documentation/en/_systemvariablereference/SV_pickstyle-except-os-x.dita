@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="pickstyle-except-os-x" xml:lang="en-US">
+   <title id="title__Toc50995418">PICKSTYLE (EXCEPT OS X) system variable</title>
+   <conbody>
+      <section><title>Pick style</title><p>Specifies the selection of groups and associative hatches. The value of PICKSTYLE is stored as a bitcode using the sum of the values of all selected options.</p><p>Ctrl-H toggles PICKSTYLE 0/1 if 0 or 1 and 2/3 if 2 or 3.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/registry" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>0 to 3</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>1</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry><p>0: No group selection or associative hatch selection</p>
+                           <p>1: Group selection if a member of a selectable group is selected, all members of the group are selected</p>
+                           <p>2: Associative hatch selection the hatch and its boundary are selected, no matter what is picked (the hatch or the boundary).</p>
+                           <p>3: Group selection and associative hatch selection</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

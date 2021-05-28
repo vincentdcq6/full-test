@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="update_an_exploded_representation">
+    <title>Update an exploded representation</title>
+    <conbody>
+        <p>Execute command <cmdname>BMUPDATE</cmdname> to synchronize exploded representations with
+            the current state of the assembly.</p>
+        <p>If applicable, adjust the exploded representation. Such adjustments may be required
+            because of the addition and/or deletion of some parts.</p>
+        <p>
+            <note>The position of parts in exploded representations created in <b>Manual </b>and
+                    <b>Linear</b> modes are not updated automatically.</note>
+        </p>
+    </conbody>
+</concept>

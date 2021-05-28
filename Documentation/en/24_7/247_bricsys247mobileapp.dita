@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_bricsys_24_7_mobile_app">
+    <title>Bricsys 24/7 Mobile App</title>
+    <conbody>
+        <p>The Bricsys 24/7 Mobile App allows you to upload, view, comment and markup 2D drawings,
+            pictures, and other files. Your up-to-date projects are available anyplace. Over 70 file
+            formats are supported.</p>
+        <p>You can get the app on <xref href="https://www.bricsys.com/en-intl/247/applications/" format="html" scope="external">Google Play</xref> or download on the <xref href="https://www.bricsys.com/en-intl/247/applications/" format="html" scope="external">App Store</xref>.</p>
+        <p>
+            <fig id="fig_jx1_ybn_r4b">
+                <title>Bricsys 24/7 Mobile App</title>
+                <image href="../IMAGES_temp/247-mobile-app.png" id="image_kx1_ybn_r4b" scale="25" scope="external" />
+            </fig>
+            <note type="tip">Users can also login on a mobile device via the <xref href="https://my.bricsys247.com/app/" format="html" scope="external">Bricsys
+                    24/7 login page</xref> in any supported mobile web browser.</note>
+        </p>
+    </conbody>
+</concept>

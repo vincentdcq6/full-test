@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="centercrossgap" xml:lang="en-US">
+   <title id="title__Toc50994853">CENTERCROSSGAP system variable</title>
+   <conbody>
+      <section><title>Center mark cross gap</title><p>Specifies the gap between the center mark and its centerlines.</p><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/string" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0.05x</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <fig id="fig_hck_lmm_3nb">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_centercrossgap_01_V21.png" id="image_ick_lmm_3nb" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

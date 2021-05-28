@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="set_the_mass_units">
+    <title>Set the mass units</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Open the <wintitle>Settings</wintitle> dialog box.</cmd>
+            </step>
+            <step>
+                <cmd>Expand the <uicontrol>Property units</uicontrol> settings under
+                        <uicontrol>Drawing / Drafting / Drawing units</uicontrol>.</cmd>
+                <info>
+                    <div>
+                        <fig id="fig_y3y_mwb_jpb">
+                            <title>Settings: Property units</title>
+                            <image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/AssemblyMassProperties_Settings_PropertyUnits.png" id="image_z3y_mwb_jpb" scope="external" />
+                        </fig>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Tick the <uicontrol>Format mass properties</uicontrol> checkbox to enable
+                    formatting of mass values with appropriate units.</cmd>
+            </step>
+            <step>
+                <cmd>Select the <uicontrol>Mass units</uicontrol> field. </cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Browse</uicontrol> button <image href="https://static.bricsys.com/help/en_US/V19/Common/browse.png" id="image_y3h_jvb_jpb" scope="external" />.</cmd>
+            </step>
+            <step>
+                <cmd>Specify the desired mass units in the <wintitle>MASSUNITS</wintitle> dialog
+                    box.</cmd>
+                <info>
+                    <div>
+                        <fig id="fig_avx_dwb_jpb">
+                            <title>MASSUNITS</title>
+                            <image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/AssemblyMassProperties_Settings_MassUnits.png" id="image_bvx_dwb_jpb" scope="external" />
+                        </fig>
+                    </div>
+                    <div>
+                        <note>The <uicontrol>Mass units</uicontrol> setting affects the mass values
+                            only. Other mass properties such as density or moments of inertia will
+                            be formatted in SI units for the metric system and in imperial units for
+                            the imperial system, regardless of the value of the <uicontrol>Mass
+                                units</uicontrol> setting.</note>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Specify the desired precision in the <uicontrol>Mass precision</uicontrol>
+                    field.</cmd>
+            </step>
+            <step>
+                <cmd>Close the <wintitle>Settings</wintitle> dialog box.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

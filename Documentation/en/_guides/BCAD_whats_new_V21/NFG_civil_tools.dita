@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A58F2161-B75AC5B-3597060284AC317-801FC2">
+   <title>Civil tools</title>
+   <shortdesc>BricsCAD V21 offers many advanced tools for linear infrastructure
+      modeling.</shortdesc>
+
+   <conbody>
+      <section id="section_rq2_qn5_r4b">
+         <title>Import/Export</title>
+         <p>New and enhanced tools for importing and exporting civil data help accelerate collaboration and design processes.</p>
+         <p><b>Civil 3D Data</b></p>
+         <p>The new CIVIL3DIMPORT command enables you to create multiple civil entities in your
+            BricsCAD drawing, from an external Autodesk® Civil 3D drawing, in one operation.</p>
+         <p><b>LandXML Data</b></p>
+         <p>The LANDXMLIMPORT command and LANDXMLEXPORT command tools offer more flexibility. They
+            support new alignment curves including spiral-curve-spiral combinations and parabolas
+            for vertical alignments. Imported vertical alignments automatically create 3D
+            Alignments. And, when importing a surface with breaklines, a new option allows you to
+            specify whether the breaklines should be drawn as 3D polylines or not drawn at all.</p>
+      </section>
+      <section id="section_sq2_qn5_r4b">
+         <title>Civil Entity Properties</title>
+         <p>All Civil entities now include Name and Description properties in the Properties panel. Name and description are in the read-only mode in the Properties panel. They can be edited with the API.</p>
+         <fig>
+            <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Civil_01_V21.png" id="image_tq2_qn5_r4b" scope="external" />
+         </fig>
+         <p>Selected sub-entities of (Civil) custom entities are also displayed in the Properties panel.</p>
+      </section>
+      <section id="section_uq2_qn5_r4b">
+         <title>Civil settings</title>
+         <p>A new Civil node is included in the Settings dialog box for easy access to Civil settings.<fig id="fig_bjz_r45_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Civil_02_V21.png" id="image_vq2_qn5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_wq2_qn5_r4b">
+         <title>TIN Surfaces</title>
+         <p>New and enhanced tools for creating and editing TIN surfaces provide more flexibility and a faster workflow.</p>
+         <p><b>Associativity</b></p>
+         <p>Points and blocks are dynamically linked to the TIN surface. If a TIN surface is created from points or blocks in the drawing and some points/blocks are moved, the TIN surface automatically updates to reflect the changes.</p>
+         <p><b>Clipping</b></p>
+         <p>A new option in the TIN command and TINEDIT command enables you to clip a TIN surface
+            according to a given polyline boundary.<fig id="fig_s13_s45_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Civil_03_V21.png" id="image_xq2_qn5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Raster Images</b></p>
+         <p>The new TINASSIGNIMAGE command enables you to assign a raster image as a TIN Surface
+            material to create a realistic site model.<fig id="fig_lvn_s45_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Civil_04_V21.png" id="image_yq2_qn5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Extract</b></p>
+         <p>The TINEXTRACT command enables you to extract faces, points, contours, and the border
+            from a TIN surface, in addition to the previous ability to extract a mesh or solid.</p>
+         <fig id="fig_h4n_s2x_54b">
+            <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Civil_06_V21.png" scope="external" id="image_i4n_s2x_54b" />
+         </fig>
+         <p>You may also extract a TIN surface from a Grading or TIN Volume Surface using the TINEXTRACT command.</p>
+         <p><b>Project</b></p>
+         <p>The new TINPROJECT command enables you to project point-based entities including points,
+            blocks, and text or linear entities, including lines, polylines, and circles, to a TIN
+               Surface.<fig id="fig_v35_s45_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Civil_07_V21.png" id="image_zq2_qn5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Water Path</b></p>
+         <p>The new TINWATERDROP command enables you to draw a water drop's path from a point on a
+            TIN Surface.<fig id="fig_b41_t45_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Civil_08_V21.png" id="image_ar2_qn5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_br2_qn5_r4b">
+         <title>Alignments</title>
+         <p>The workflow for creating alignments is simplified while still offering powerful functionality and additional flexibility.</p>
+         <p>Horizontal and vertical alignment geometry is enhanced. Horizontal alignments now
+            support spirals and vertical alignments now support parabolic curves. The new
+            DEFAULTCURVETYPEHA and DEFAULTCURVETYPEVA alignment settings enable you to specify the
+            default curve type for creating new horizontal and vertical alignments.<fig id="fig_is3_t45_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Civil_10_V21.png" id="image_cr2_qn5_r4b" scope="external" />
+            </fig><fig id="fig_zd1_y2x_54b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Civil_11_V21.png" id="image_dr2_qn5_r4b" scope="external" />
+            </fig></p>
+         <p>The Properties panel displays properties for Spiral-Curve-Spiral or parabola elements.</p>
+      </section>
+      <section id="section_er2_qn5_r4b">
+         <title>Corridors</title>
+         <p>Powerful corridor tools help you create a 3D model of linear infrastructure defined by a template and 3D alignment.</p>
+         <p>The new CORRIDORTEMPLATEELEMENT command enables you to create a corridor template
+            element from closed polylines.<fig id="fig_fw5_t45_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Civil_12_V21.png" id="image_fr2_qn5_r4b" scope="external" />
+            </fig></p>
+         <p>Then use the new CORRIDORTEMPLATE command to create a corridor template from template
+               elements.<fig id="fig_yk1_545_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Civil_13_V21.png" id="image_gr2_qn5_r4b" scope="external" />
+            </fig></p>
+         <p>Finally, use the new CORRIDOR command to create a corridor from a corridor template, 3D
+            alignment and/or TIN Surface. You can create multiple regions using different corridor
+            templates. And, you can add or remove regions using the new CORRIDOREDIT command.<fig id="fig_wgg_545_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Civil_14_V21.png" id="image_hr2_qn5_r4b" scope="external" />
+            </fig></p>
+         <p>Use the Properties panel to modify data and visual style properties of the selected region.<fig id="fig_vqp_bfx_54b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Civil_15_V21.png" scope="external" id="image_wqp_bfx_54b" />
+            </fig></p>
+         <p>The new CORRIDOREXTRACT command enables you to extract a 3D solid, 3D mesh, or 3D
+            polyline from a corridor to use for various purposes. For example, you can extract
+            polylines from a corridor to use as edges for the grading. If you grip edit the
+            alignment, the corridor and its associated geometry, such as the grading, automatically
+               follows.<fig id="fig_gvl_545_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Civil_16_V21.png" id="image_ir2_qn5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_jr2_qn5_r4b">
+         <title>Gradings</title>
+         <p>The new GRADINGBALANCE command enables you to balance grading cut and fill volumes.</p>
+      </section>
+      <section id="section_kr2_qn5_r4b">
+         <title>TIN Volume Surfaces</title>
+         <p>The ARRAYASSOCIATIVITY system variable includes a new control for TIN Volume Surface
+            associativity. TIN volume surfaces automatically rebuild when their source surfaces
+            change.</p>
+      </section>
+      <section id="section_lr2_qn5_r4b">
+         <title>API Samples</title>
+         <p>The following API samples are provided: Horizontal alignment report, Color surface triangles by elevation, Color surface triangles by slope.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_civil3dimport" />
+         <link keyref="CMD_corridor" />
+         <link keyref="CMD_corridoredit" />
+         <link keyref="CMD_corridorextract" />
+         <link keyref="CMD_corridortemplate" />
+         <link keyref="CMD_corridortemplateelement" />
+         <link keyref="CMD_gradingbalance" />
+         <link keyref="CMD_landxmlexport" />
+         <link keyref="CMD_landxmlimport" />
+         <link keyref="CMD_tin" />
+         <link keyref="CMD_tinassignimage" />
+         <link keyref="CMD_tinedit" />
+         <link keyref="CMD_tinextract" />
+         <link keyref="CMD_tinproject" />
+         <link keyref="CMD_tinwaterdrop" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_arrayassociativity" />
+         <link keyref="SV_defaultcurvetypeha" />
+         <link keyref="SV_defaultcurvetypeva" />
+      </linklist>
+   </related-links>
+</concept>

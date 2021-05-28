@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_manage_the_project_administrators">
+    <title>Manage the project administrators</title>
+    <taskbody>
+        <context>
+            <p>You can manage the project administrators:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_tx5_twn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Administrators</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>manage admins</uicontrol>
+                    <image href="../IMAGES_temp/manage_admins.PNG" id="image_ixc_dkp_gpb" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>manage admins</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Manage the project administrators:</cmd>
+                <info>
+                    <ul id="ul_ws4_5wp_gpb">
+                        <li>Search for project members.</li>
+                        <li>Select the option button for each project member you want to assign as a
+                            project administrator.</li>
+                        <li>Deselect the option button for each project member you want to unassign
+                            as a project administrator.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Update</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_odv_qvp_gpb">A pop up window informs you that the role is successfully
+            updated.</result>
+    </taskbody>
+</task>

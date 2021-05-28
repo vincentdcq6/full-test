@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="svggenericfontfamily" xml:lang="en-US">
+   <title id="title__Toc50995704">SVGGENERICFONTFAMILY system variable</title>
+   <conbody>
+      <section><title>Svg Generic Font Family</title><p>Font to substitute if the correct one is missing. </p><p>The following generic font families are supported in SVG: <b>serif</b>, <b>sans-serif</b>, <b>cursive</b>, <b>fantasy</b>, <b>monospace</b>.</p><ul>
+            <li>Sans-serif - fonts without serifs, like Arial</li>
+            <li>Serif - fonts with serifs, like Times Roman</li>
+            <li>Cursive - fonts that look handwritten</li>
+            <li>Fantasy - unusual fonts</li>
+            <li>Monospace - fonts where each character takes up the same space (non-proportional spacing), such as Courier</li>
+         </ul><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: sans-serif</p>
+                           <p>1: serif</p>
+                           <p>2: cursive</p>
+                           <p>3: fantasy</p>
+                           <p>4: monospace</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

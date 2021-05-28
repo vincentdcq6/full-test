@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A464DCBA-3C3B5CB-CC2114111774544-17D903">
+   <title>Project collaboration</title>
+   <shortdesc><!--TBA--></shortdesc>
+
+   <conbody>
+      <section id="section_qzm_tby_s4b">
+         <title>IFC IMPORT/EXPORT</title>
+         <p>A mechanism has been implemented to map IFC/BIM entities to BIM/IFC entities, to control which entities are imported/exported. BricsCAD BIM also added IFC Export of Annotation entities.</p>
+         <p>You can do this mapping by using mapping files. The IfcImportMappingMath and IfcExportMappingPath user preferences set the paths to the necessary mapping files. These files are simple text files containing some rules.</p>
+         <p>This mapping can be used to export BIM entities as IFC entities of another type, or to skip certain types altogether. An example of such an export file can be:<ul id="ul_ulb_wby_s4b">
+               <li>BimDbColumn IfcMember</li>
+               <li>BimDbBeam IfcMember</li>
+               <li>BimDbFurnishingElement skip</li>
+            </ul></p>
+         <p>In this example, columns and beams in the BricsCAD BIM model will be exported as Members in the IFC file, and furnishing elements will be skipped in the export process.</p>
+         <p>A similar process can be used when importing IFC files. An example of such an import file can be:<ul id="ul_nk2_3cy_s4b">
+               <li>IfcWall BimDbSlab</li>
+               <li>IfcSlab BimDbWall</li>
+            </ul></p>
+         <p>* skip</p>
+         <p>In this case, walls will be imported as slabs and slabs will be imported as walls. No other entities will be imported, as the asterisk means that only listed entity types will be taken into account, all unlisted entity types will be skipped.</p>
+         <p>The IfcCreateUniqueGuid user preference has been added to enable/disable the creation of unique GUIDs for nested elements inside classified blocks and Xrefs.</p>
+         <p>The flow connection point is exported to IFC as IfcBuildingElementProxy. Only 2D geometry or a block reference with 2D geometry can be classified as a flow connection point.</p>
+      </section>
+      <section id="section_rzm_tby_s4b">
+         <title>Importing RVT files</title>
+         <p>When importing Revit Objects using IMPORT, you can choose for Import all the solids or only import as an Overlay. You can filter the import based on Revit Views, Categories, Levels or WorkSets.<fig id="fig_zrq_5cy_s4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_CollaborationCategories_01_V21.png" id="image_szm_tby_s4b" scope="external" />
+            </fig></p>
+         <p>This is an example for the option Categories, where you can map specific categories for your RVT import. Colors and transparencies are now imported when importing a RVT file.<fig id="fig_rs4_vcy_s4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_CollaborationRevit_01_V21.png" id="image_tzm_tby_s4b" scope="external" />
+            </fig></p>
+      </section>
+   </conbody>
+</concept>

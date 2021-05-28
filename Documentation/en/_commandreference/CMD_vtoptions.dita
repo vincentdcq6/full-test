@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_vtoptions">
+   <title>VTOPTIONS command</title>
+   <shortdesc>Opens the Settings Dialog Box with the <uicontrol>View Transition Options</uicontrol> category expanded.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> with the <uicontrol>View Transition
+            Options</uicontrol> category expanded to view and modify relevant system variables.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_vtenable" />
+         <link keyref="SV_vtduration" />
+         <link keyref="SV_vtfps" />
+      </linklist>
+   </related-links>
+</concept>

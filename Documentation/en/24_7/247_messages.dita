@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_messages">
+    <title>Messages</title>
+    <conbody>
+        <p>The <uicontrol>Message</uicontrol>
+            <image href="../IMAGES_temp/message_icon.PNG" id="image_y4b_rbh_dpb" scale="80" scope="external" />
+                tool:<ul id="ul_pcg_mj2_v4b">
+                <li>allows you to communicate effectively with project members.</li>
+                <li>allows you to send both private and public messages to other project
+                    members.</li>
+                <li>contains and safeguards all communications.</li>
+            </ul></p>
+        <p>
+            <note>You must have access to the <uicontrol>Message</uicontrol> tool to receive
+                messages. Access can only be granted by a project administrator.</note>
+        </p>
+        <p>
+            <note>Project administrators can also enable email forwarding for a specific email
+                address. This allows to send an email to the specific email address and display the
+                email in Bricsys 24/7.</note>
+        </p>
+    </conbody>
+</concept>

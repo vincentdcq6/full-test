@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_fill">
+   <title>FILL command</title>
+   <shortdesc>Toggles the FILLMODE system variable.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Toggle the FILLMODE system variable to specify the display of filled 2D entities including
+         polyline, hatch, solid, and trace entities. You can launch this command at the Command
+         prompt or within another command by preceding it with an apostrophe: 'FILLMODE. You must
+         use REGEN or REGENALL to see the change.</p>
+      <p>
+         <ul id="ul_qfh_wcv_3pb">
+            <li>On: Turns on the FILLMODE system variable </li>
+            <li>Off: Turns off the FILLMODE system variable </li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_regen" />
+         <link keyref="CMD_regenall" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_fillmode" />
+      </linklist>
+   </related-links>
+</concept>

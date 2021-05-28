@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_sheetmetalformfeatures">
+    <title>Sheet Metal Form Features</title>
+    <conbody>
+        <p>The Sheet Metal category contains a parametric library of sheet metal form features, such
+            as bridges and embosses.</p>
+        <p>
+            <fig id="fig_cxh_n3b_jpb">
+                <title>Form Features</title>
+                <image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/StandardMechanicalComponents_SheetMetalFormFeatures.png" id="image_dxh_n3b_jpb" scope="external" />
+            </fig>
+        </p>
+    </conbody>
+</concept>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="checkdwlpresence" xml:lang="en-US">
+   <title id="title__Toc50994915">CHECKDWLPRESENCE system variable</title>
+   <conbody>
+      <section><title>Check Dwl file existence before open</title><p>When trying to open a drawing, warn the user about the presence of a dwl lock file. The content of the lock files allows to inform other users trying to open that drawing, that it is in use, since when, and by whom. This is typically useful for drawings on a shared folder that can be accessed by multiple users from different operating systems.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/boolean" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>                           <p>Off (Windows)</p>
+                           <p>On (Mac &amp; Linux)</p>
+                       </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>                           <p>Off (0): Don’t check dwl file existence before opening a drawing</p>
+                           <p>On (1): Check dwl file existence before opening a drawing</p>
+                       </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

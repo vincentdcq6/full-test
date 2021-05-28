@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_xattach">
+   <title>XATTACH command</title>
+   <shortdesc>Opens the Select Reference File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_selectreferencefile" /> to select a dwg file to reference into the
+         current drawing. After selecting the file and choosing <uicontrol>Open</uicontrol>, the
+         Attach External Reference Dialog Box displays. It enables you to specify where and how to
+         attach the dwg file.</p>
+   </conbody>
+</concept>

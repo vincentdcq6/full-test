@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_add_a_workflow">
+    <title>Add a workflow</title>
+    <taskbody>
+        <context>
+            <p>You can add a workflow:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Workflow</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the applicable workflow folder in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add workflow</uicontrol>
+                    <image href="../IMAGES_temp/add_workflow_button.PNG" id="image_w2p_pmb_z4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Add workflow</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Enter a name.</cmd>
+                <info>
+                    <div>
+                        <note type="important">Every workflow name in a project must be
+                            unique.</note>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Define the coordinator role.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, enter a description.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol> to save the workflow.</cmd>
+                <stepresult>The Bricsys 24/7 Workflow Viewer opens.<div>
+                        <fig id="fig_zmm_hsg_z4b">
+                            <title>Bricsys 24/7 Workflow Viewer</title>
+                            <image href="../IMAGES_temp/Bricsys_24_7_workflow_viewer.PNG" id="image_anm_hsg_z4b" width="150mm" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Follow the instructions in <xref keyref="247_designaworkflow" /> to create a
+                    workflow.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

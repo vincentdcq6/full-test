@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="activate_a_single_or_volume_license_automatically_online">
+   <title>Activating a single or volume license automatically (online)</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <prereq>The <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> license activation requires
+         an internet connection.</prereq>
+      <steps id="ol_cp2_1xg_smb">
+         <step>
+            <cmd>Launch <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />.</cmd>
+            <info>
+               <note>When your trial period has expired, click <uicontrol>Activate
+                     License</uicontrol> on the <uicontrol>BricsCAD Launcher</uicontrol> dialog box,
+                  and proceed to step 5.</note>
+            </info>
+         </step>
+         <step>
+            <cmd>Launch the LICENSEMANAGER command.</cmd>
+            <stepresult>The Bricsys License Manager dialog displays.</stepresult>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Manage License</uicontrol>.</cmd>
+            <stepresult>The <uicontrol>Licensing Information</uicontrol> dialog displays.</stepresult>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Modify</uicontrol> button.</cmd>
+            <stepresult>The <menucascade>
+                  <uicontrol>BricsCAD License Manager</uicontrol>
+                  <uicontrol>Activate BricsCAD</uicontrol>
+               </menucascade> dialog box displays:<fig id="fig_c1c_smb_j4b">
+                  <image href="https://static.bricsys.com/help/en_US/V19/Commands/L/LicenseManager_Activate.png" id="image_a2f_smb_j4b" scope="external" />
+               </fig></stepresult>
+         </step>
+         <step>
+            <cmd>Paste your license key in the <uicontrol>License Key</uicontrol> field.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>OK</uicontrol> button.</cmd>
+            <stepresult>
+               <ul id="ul_wqq_dxg_smb">
+                  <li>Your license key is registered over the internet.</li>
+                  <li>A dialog displays when the license key is successfully activated.</li>
+               </ul>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Read the text on the dialog box and click the <uicontrol>I understand</uicontrol> button.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_licensemanager" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_overview_of_licensing_options" />
+         <link keyref="GD_activate_a_single_or_volume_license_manually_offline" />
+         <link keyref="GD_activate_a_trial_license_automatically_online" />
+         <link keyref="GD_activate_a_trial_license_manually_offline" />
+      </linklist>
+   </related-links>
+</task>
+

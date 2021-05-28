@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_edit_a_workflow">
+    <title>Edit a workflow</title>
+    <taskbody>
+        <context id="context_m4g_xj5_y4b">
+            <p>You can edit the activities and transitions of a workflow:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Workflow</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow folder in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Edit</uicontrol>
+                    <image href="../IMAGES_temp/edit_button.PNG" id="image_i2h_xk5_y4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Edit</wintitle> window appears.<fig><image href="../IMAGES_temp/Edit_window.PNG" id="image_egd_wv5_y4b" width="150mm" scope="external" /></fig></stepresult>
+            </step>
+            <step>
+                <cmd>Click on the magnifying glass in the preview pane.</cmd>
+                <stepresult>The Bricsys 24/7 Workflow Viewer opens.</stepresult>
+            </step>
+            <step>
+                <cmd>Edit the workflow.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol>
+                    <image href="../IMAGES_temp/save_in_workflow_viewer.PNG" id="image_ufs_tx5_y4b" scope="external" />.</cmd>
+                <stepresult>A pop up window informs you that the workflow is edited.</stepresult>
+            </step>
+            <step>
+                <cmd>Close the Bricsys 24/7 Workflow Viewer.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_szh_yy5_y4b">
+            <note>As an alternative, you can click on the file name of a workflow in the content
+                pane to open the Bricsys 24/7 Workflow Viewer and edit the workflow.</note>
+        </postreq>
+    </taskbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_designaworkflow" />
+        </linklist>
+    </related-links>
+</task>

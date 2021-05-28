@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="cvport" xml:lang="en-US">
+   <title id="title__Toc50994914">CVPORT system variable</title>
+   <conbody>
+      <section><title>Current viewport</title><p>Stores the identification number of the current viewport. Change this value to change the current viewport on three conditions: (1) the identification number is that of an active viewport, (2) cursor movement in that viewport is not locked by a command in progress and (3) tablet mode is off.</p><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>1 or greater</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>2</p></entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

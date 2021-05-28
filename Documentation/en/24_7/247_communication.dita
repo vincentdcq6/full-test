@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_communication">
+    <title>Communication</title>
+    <conbody>
+        <p>Communication is an important factor for project collaboration in Bricsys 24/7.</p>
+        <p>There are 4 types of communication:<ul id="ul_c4g_tbw_54b">
+                <li>Notifications</li>
+                <li>Notes</li>
+                <li>Annotations</li>
+                <li>Messages</li>
+            </ul></p>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_annotations" />
+        </linklist>
+    </related-links>
+</concept>

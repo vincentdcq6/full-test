@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="trial_mode">
+   <title>Trial mode</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> can run in trial mode for 30 days.
+         After this period, you need to activate a valid commercial license.</p>
+      <section id="section_b1w_jng_smb">
+         <title>Running BricsCAD in trial mode</title>
+         <p>Each time you start <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> in trial
+            mode, the <uicontrol>BricsCAD - Free Trial</uicontrol> dialog opens, indicating the days
+            left.</p>
+         <p>Do one of the following:</p>
+         <ul id="ul_c1w_jng_smb">
+            <li>Click the <uicontrol>Continue</uicontrol> button to open <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> in trial mode.</li>
+            <li>Click the <uicontrol>Enter License...</uicontrol> button to activate a Single or
+               Volume license or to use a Network license.</li>
+         </ul>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_activate_a_trial_license_automatically_online" />
+         <link keyref="GD_activate_a_trial_license_manually_offline" />
+         <link keyref="GD_activate_a_single_or_volume_license_automatically_online" />
+         <link keyref="GD_activate_a_network_license_automatically_online" />
+         <link keyref="GD_setting_the_license_level" />
+      </linklist>
+   </related-links>
+</concept>
+

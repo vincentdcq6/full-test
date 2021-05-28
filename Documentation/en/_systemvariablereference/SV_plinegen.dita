@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="plinegen" xml:lang="en-US">
+   <title id="title__Toc50995422">PLINEGEN system variable</title>
+   <conbody>
+      <section>
+         <title>Polyline generation</title>
+         <p>Linetypes are normally generated from vertex to vertex ( 0). Polylines of which the vertices are very close together might be rendered as a continuous line, if the linetype pattern does not fit between two subsequent vertices. When set to 1, the linetype is drawn from one end of the polyline to the other end, instead of from vertex to vertex.</p>
+         <p>
+            <fig id="fig_rym_nzy_fnb">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_plinegen_01_V21.png" id="image_sym_nzy_fnb" scope="external" />
+            </fig>
+         </p><p>
+            <table id="table_whg_pzy_fnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/boolean" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>0</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry><p>Off (0): Polylines start and end with a dash at each vertex</p>
+                           <p>On (1): Linetype in a continuous pattern around the polyline vertices</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </conbody>
+</concept>

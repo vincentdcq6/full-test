@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_transfer_folder_structures">
+    <title>Transfer folder structures</title>
+    <conbody>
+        <p>The Bricsys 24/7 Transfer Tool allows you to transfer folders or complete folder
+            structures (with or without documents) between your local file system and the Bricsys
+            24/7 service. The split screen user interface allows you to upload or download folders
+            or folder structures via drag and drop.</p>
+        <p>
+            <fig id="fig_d2l_tnx_s4b">
+                <title>Transfer folder structures</title>
+                <image href="../IMAGES_temp/247-transfer-tool.png" id="image_e2l_tnx_s4b" width="150mm" scope="external" />
+            </fig>
+        </p>
+    </conbody>
+</concept>

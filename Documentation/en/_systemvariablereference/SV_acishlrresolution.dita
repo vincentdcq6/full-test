@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="acishlrresolution" xml:lang="en-US">
+   <title id="title__Toc50994783">ACISHLRRESOLUTION system variable</title>
+   <conbody>
+      <section><title>Hidden line removal resolution</title><p>Specifies the smallest distance taken into consideration during Hidden Line Removal calculation. A negative value means that auto-calibration based on the size of the model will be used. This is highly recommended. When dealing with entities that have very small sizes the value can be set to 0.001 or smaller.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p>
+            <table id="table_dzc_ybz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/real" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>-1.0</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

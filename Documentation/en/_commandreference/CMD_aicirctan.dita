@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_ai_circtan">
+   <title>AI_CIRCTAN command</title>
+   <shortdesc>Creates a tangent circle.</shortdesc>
+   <conbody>
+      <p>Create a circle tangent to three entities that can include lines, polyline segments, polyarcs, circles, arcs, xlines or rays.</p>
+      <fig id="fig_zsh_cxp_x4b"><!--Insert License Level--></fig>
+      <fig id="fig_zs2_fxp_x4b">
+         <image outputclass="indent1" id="image_at2_fxp_x4b" scope="external"><!--Insert link to Tool icon--></image>
+      </fig>
+      <p><!--Alias:--></p>
+      <fig id="fig_wpn_d2q_x4b">
+         <image href="https://static.bricsys.com/help/en_US/CMD_AICIRCTAN_01_V21.png" id="image_zft_22q_x4b" scope="external" />
+      </fig>
+      <section id="section_rr5_g2q_x4b">
+         <title>Methods to create a tangent circle </title>
+         <p>There is one method to begin creating a circle with three tangents:</p>
+         <ul id="ul_bry_g2q_x4b">
+            <li>Enter tangent spec </li>
+         </ul>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Enter Tangent spec</dt>
+                  <dd>Begin creating a circle by selecting a tangent point on the first entity then: </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Enter second Tangent spec</dt>
+                  <dd outputclass="indent1">Select a tangent point on the second entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Enter third Tangent spec</dt>
+                  <dd outputclass="indent1">Select a tangent point on the third entity.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Comments</title>
+         <link keyref="CMD_circle" />
+         <link keyref="CMD_pline" />
+         <link keyref="CMD_arc" />
+         <link keyref="CMD_xline" />
+         <link keyref="CMD_ray" />
+      </linklist> </related-links>
+</concept>

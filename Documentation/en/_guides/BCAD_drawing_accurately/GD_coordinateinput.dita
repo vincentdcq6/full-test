@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_coordinateinput">
+    <title>Coordinate input</title>
+    <shortdesc>When you create entities in a drawing, they are located in relation to the underlying
+        Cartesian coordinate system of the drawing. A drawing has a fixed coordinate system called
+            the <b>World Coordinate System</b> (WCS).</shortdesc>
+    <conbody>
+        <p>You can also define arbitrary coordinate systems which are called user coordinate
+            systems (UCS) and can be located anywhere in the WCS and oriented in any direction.</p>
+        <p>To specify points and distances using the keyboard you can use the following formats:</p>
+        <ul id="ul_p1z_kfq_qpb">
+            <li>Cartesian coordinates: x,y,z</li>
+            <li>Cylindrical coordinates: R&lt;alpha,z</li>
+            <li>Spherical coordinates: R&lt;alpha&lt;beta</li>
+        </ul>
+        <section id="section_dd3_4fq_qpb">
+            <title>Relative coordinates</title>
+            <p>When you type the @-character in front of the entry, the coordinates are calculated
+                with respect to the previous point. This technique is called <b>Relative
+                    Coordinates</b>.</p>
+            <p>When Dynamic Dimensions are active and you type a value in the <b>Length</b> field
+                and add a comma (,) the content of the <b>Length</b> field is copied to the command
+                line and the @-character is placed in front automatically, which allows you to
+                specify the next point using relative coordinates with respect to the previous
+                point.</p>
+        </section>
+        <section id="section_kvk_pfq_qpb">
+            <title>Absolute coordinates</title>
+            <p>When a user defined coordinate system is active you can enter absolute coordinates
+                (World coordinates) if you place an asterisk (*) in front. For example, *0,0 refers
+                to the origin of the WCS (World Coordinate System).</p>
+        </section>
+        <section id="section_jx5_qfq_qpb">
+            <title>Working with Cartesian coordinates</title>
+            <p>The Cartesian coordinate system uses three perpendicular axes: the x-axis, the y-axis
+                and the z-axis. All axes originate in the origin point of the coordinate system. The
+                x-axis and the y-axis define a horizontal plane, while the x-axis and the z-axis and
+                the y-axis and the z-axis define vertical planes. A point is defined by its
+                distances to the yz-, xz- and xy- planes. These distances are called the
+                xyz-coordinates of a point. <fig id="fig_h5l_pdq_qpb">
+                    <image href="https://static.bricsys.com/help/en_INTL/GD_coordinateinput_01_V21.png" id="image_vfy_4dq_qpb" scope="external" />
+                </fig><ul id="ul_a1b_mgq_qpb">
+                    <li>Type the x-, y- and z- coordinates separated by commas to enter the absolute
+                        Cartesian coordinates of a point.</li>
+                    <li>When the z-coordinate is omitted, the point is placed in the xy-plane (Z =
+                        0).</li>
+                    <li>Type the @-character in front of the entry (@x,y), to specify the
+                        coordinates with respect to the previous point. This technique is
+                            called <b>Relative Cartesian coordinates</b>.</li>
+                </ul></p>
+        </section>
+        <section id="section_q5h_ngq_qpb">
+            <title>Working with cylindrical coordinates</title>
+            <p>A cylindrical coordinate system uses three perpendicular axes: the x-axis, the y-axis
+                and the z-axis. All axes originate in the origin point of the coordinate system. The
+                x-axis and the y-axis define a horizontal plane, while the x-axis and the z-axis and
+                the y-axis and the z-axis define vertical planes.</p>
+            <p>A point is defined using the following format: R&lt;alpha, z.</p>
+            <ul id="ul_ajm_ngq_qpb">
+                <li>R = distance to the origin in the xy-plane</li>
+                <li>&lt;alpha = the angle between R and the x-axis (positive angles are measured
+                    counter clockwise) </li>
+                <li>z = the height above the xy-plane.</li>
+                <li>When the z-coordinate is omitted, cylindrical coordinates are referred to as
+                    polar coordinates.</li>
+                <li>Type the @-character in front of the entry to calculate the coordinates with
+                    respect to the previous point.</li>
+            </ul>
+            <fig id="fig_k4w_4gq_qpb">
+                <image href="https://static.bricsys.com/help/en_INTL/GD_coordinateinput_02_V21.png" scope="external" id="image_l4w_4gq_qpb" />
+            </fig>
+        </section>
+        <section id="section_hzs_pgq_qpb">
+            <title>Working with spherical coordinates</title>
+            <p>In a cylindrical coordinate system we use three perpendicular axes: the x-axis, the
+                y-axis and the z-axis. All axes originate in the origin point of the coordinate
+                system. The x-axis and the y-axis define a horizontal plane, while the x-axis and
+                the z-axis and the y-axis and the z-axis define vertical planes.</p>
+            <p>A point is defined using the following format: R&lt;alpha&lt;beta</p>
+            <ul id="ul_nwf_qgq_qpb">
+                <li>R = distance from the origin</li>
+                <li>&lt;alpha = angle in the xy-plane (positive angles are measured counter
+                    clockwise) </li>
+                <li>&lt;beta = angle measured from the xy-plane (positive angles are measured
+                    counter clockwise, above the xy-plane) </li>
+            </ul>
+            <fig id="fig_h1s_qgq_qpb">
+                <image href="https://static.bricsys.com/help/en_INTL/GD_coordinateinput_03_V21.png" scope="external" id="image_i1s_qgq_qpb" />
+            </fig>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="GD_usercoordinatesystems" />
+            <link keyref="GD_dynamicdimensions" />
+        </linklist>
+    </related-links>
+</concept>

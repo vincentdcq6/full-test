@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_command_references_warehouse" xml:lang="en-US">
+   <title>Command References</title>
+   <prolog status="new">
+      <author>Pieterjan Vandenweghe</author>
+      <copyright status="new">
+         <copyryear status="new" year="2020" />
+         <copyrholder status="new" />
+      </copyright>
+      <metadata status="new">
+         <keywords>
+            <keyword />
+         </keywords>
+         <prodinfo status="new">
+            <prodname status="new" />
+            <vrmlist status="new">
+               <vrm modification="0" release="0" version="1" />
+            </vrmlist>
+         </prodinfo>
+      </metadata>
+      <change-historylist>
+         <change-item>
+            <change-person />
+            <change-completed />
+            <change-summary />
+         </change-item>
+      </change-historylist>
+   </prolog>
+   <conbody>
+      <dl id="dl_xfg_tn1_xmb">
+         <dlentry id="dlentry_hjt_rn1_xmb">
+            <dt id="dt_brz_jjb_xmb">Last point</dt>
+            <dd id="dd_ijt_rn1_xmb">Begin creating a polyline from the last point picked then:</dd>
+         </dlentry>
+         <dlentry id="dlentry_ywx_njb_xmb">
+            <dt id="dt_unc_4jb_xmb">Next point</dt>
+            <dd id="dd_axx_njb_xmb" />
+         </dlentry>
+         <dlentry id="dlentry_lsb_5jb_xmb">
+            <dt id="dt_msb_5jb_xmb">Set next point</dt>
+            <dd id="dd_nsb_5jb_xmb">Specify the length of the segment.</dd>
+            <dd id="dd_kxf_ckb_xmb">Picking a point only determines the length since the angle follows the previous segment.</dd>
+         </dlentry>
+         <dlentry id="dlentry_azb_m41_xmb">
+            <dt id="dt_er3_3kb_xmb">Set end of arc</dt>
+            <dd id="dd_bzb_m41_xmb">
+               <p id="p_jnv_m41_xmb">Specify the next vertex of the polyline.</p>
+            </dd>
+            <dd id="dd_isj_hkb_xmb">
+               <p id="p_knv_m41_xmb">Additional options: [Center/Radius]</p>
+            </dd>
+         </dlentry>
+         <dlentry id="dlentry_gnm_2s1_xmb">
+            <dt id="dt_hws_dmb_xmb">Undo</dt>
+            <dd id="dd_hnm_2s1_xmb">Undo the segment and continue drawing from its previous start point.</dd>
+            <dd id="dd_iws_dmb_xmb">
+               <draft-comment author="Pieterjan Vandenweghe">Is 'polyline' nodig. Kunnen we dit weglaten en dan kunnen we dit stukje tekstje hergebruiken in verschillende topics.</draft-comment>
+            </dd>
+         </dlentry>
+         <dlentry id="dlentry_xgt_dhb_xmb">
+            <dt id="dt_q3l_rmb_xmb">Close</dt>
+            <dd id="dd_ygt_dhb_xmb">Automatically draw a segment from the end point of the last segment to the start point of the first segment. This ends the command.</dd>
+         </dlentry>
+      </dl>
+   </conbody>
+</concept>

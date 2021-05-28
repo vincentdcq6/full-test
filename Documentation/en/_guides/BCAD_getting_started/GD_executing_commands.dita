@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="executing_commands">
+   <title>Executing commands</title>
+   <shortdesc>In <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> you can launch commands in
+      the following ways.</shortdesc>
+   <conbody>
+      <p>
+         <ul id="ul_odp_dnx_smb">
+            <li>Type the command in the Command Line.</li>
+            <li>Choose the command in a menu.</li>
+            <li>Click the command tool button in a toolbar.</li>
+            <li>Click the command icon in the Ribbon.</li>
+            <li>Choose the command in the Quad.</li>
+         </ul>
+      </p>
+      <section id="section_pdp_dnx_smb">
+         <title>Typing a command in the command line</title>
+         <p>If you know the command name, you can enter it in the command line. When the command
+            line is closed, keyboard entry and command prompts display in the status bar.</p>
+         <p>If the <uicontrol>Enable</uicontrol> flag of the AUTOCOMPLETEMODE system variable is
+            set, command names are automatically completed when you type.</p>
+         <p>All commands and/or system variables and/or user preferences that contain the current character string display in the suggestion list.<fig id="fig_kwt_1fg_wmb">
+               <image href="https://static.bricsys.com/help/en_US/V19/BCAD/Interface/00_AutoCompletion.png" id="image_vhv_1fg_wmb" scope="external" />
+            </fig></p>
+         <p>Do one of the following:<ul id="ul_qdp_dnx_smb">
+               <li>Press Enter if the currently highlighted command displays.</li>
+               <li>Click a command in the suggestion list.</li>
+            </ul></p>
+         <p>You can launch some commands with a command alias. For example, you can launch the LINE
+            command by entering L in the command prompt.</p>
+      </section>
+      <section id="section_rdp_dnx_smb">
+         <title>Choosing the command options</title>
+         <p>Many <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> commands provide multiple
+            options. These options appear in the command line or status bar (when the command line
+            is closed) and optionally also in a prompt menu.</p>
+         <p>Do one of the following:<ul id="ul_sdp_dnx_smb">
+               <li>Press Enter to choose the default option. The default option is located at the end of the command prompt between arrow brackets (&lt;&gt;).</li>
+               <li>Click the option in the command line.</li>
+               <li>Click the option in the prompt menu.</li>
+               <li>Type the capitalized letter of the option and press Enter or right-click.</li>
+            </ul></p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_autocompletemode" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_selecting_entities" />
+         <link keyref="GD_using_the_manipulator" />
+         <link keyref="GD_working_with_the_structure_panel" />
+         <link keyref="GD_the_command_line">
+            <linktext>The Command Line</linktext>
+         </link>
+         <link keyref="GD_menus">
+            <linktext>Menus</linktext>
+         </link>
+         <link keyref="GD_toolbars">
+            <linktext>Toolbars</linktext>
+         </link>
+         <link keyref="GD_the_ribbon">
+            <linktext>The Ribbon</linktext>
+         </link>
+         <link keyref="GD_the_quad_basics">
+            <linktext>The Quad basics</linktext>
+         </link>
+         <link keyref="GD_the_status_bar">
+            <linktext>The status bar</linktext>
+         </link>
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006741154-Prompt-Menus" format="html" scope="external"><linktext>Prompt menus</linktext></link>-->
+      </linklist>
+   </related-links>
+</concept>
+

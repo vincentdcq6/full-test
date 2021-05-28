@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_solidmodeling">
+    <title>Solid Modeling</title>
+    <conbody>
+        <p>BricsCAD Mechanical provides a rich toolset for solid modeling, including traditional 3D
+            modeling tools like Extrude or Subtract and intuitive Direct Editing tools like;
+            Push/Pull, Copy Faces and powerful 3D Constraints, which allow you to adjust the shape
+            and size of your 3D part.</p>
+        <p>3D solids tools are available on the <uicontrol>Solid</uicontrol> tab of the Mechanical
+            workspace ribbon:</p>
+        <p>
+            <fig id="fig_igd_1vn_kpb">
+                <title>Solid</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360017885359/mceclip0.png" id="image_jgd_1vn_kpb" scope="external" width="120mm" />
+            </fig>
+        </p>
+        <p>
+            <table frame="all" id="table_awj_hbt_kpb">
+                <title>Solid Modeling</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="1.21*" />
+                    <thead>
+                        <row>
+                            <entry>Tool/toolset</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Extrude</entry>
+                            <entry valign="middle" morerows="4">Create 3D solids from
+                                sketches.</entry>
+                        </row>
+                        <row>
+                            <entry>Revolve</entry>
+                        </row>
+                        <row>
+                            <entry>Loft</entry>
+                        </row>
+                        <row>
+                            <entry>Sweep</entry>
+                        </row>
+                        <row>
+                            <entry>Thicken</entry>
+                        </row>
+                        <row>
+                            <entry>Primitive toolset:<div>Box, Cylinder, Cone, Pyramid, Wedge,
+                                    Sphere, and Torus</div></entry>
+                            <entry valign="middle">Create 3D solids directly, without underlying
+                                sketches.</entry>
+                        </row>
+                        <row>
+                            <entry>Push/Pull</entry>
+                            <entry valign="middle" morerows="5">Edit 3D solids (applied to faces
+                                and/or edges).</entry>
+                        </row>
+                        <row>
+                            <entry>Move</entry>
+                        </row>
+                        <row>
+                            <entry>Rotate</entry>
+                        </row>
+                        <row>
+                            <entry>Copy Faces</entry>
+                        </row>
+                        <row>
+                            <entry>Fillet</entry>
+                        </row>
+                        <row>
+                            <entry>Chamfer</entry>
+                        </row>
+                        <row>
+                            <entry>Shell</entry>
+                            <entry morerows="5" valign="middle">Edit 3D solids.</entry>
+                        </row>
+                        <row>
+                            <entry>Slice</entry>
+                        </row>
+                        <row>
+                            <entry>Boolean toolset:<div>Union, Subtract, Intersect, and
+                                    Separate</div></entry>
+                        </row>
+                        <row>
+                            <entry>Scale</entry>
+                        </row>
+                        <row>
+                            <entry>Mirror</entry>
+                        </row>
+                        <row>
+                            <entry>Array</entry>
+                        </row>
+                        <row>
+                            <entry>Erase</entry>
+                            <entry>Can be applied to the whole 3D solid, and to a set of its faces
+                                forming a feature (for example a fillet or a hole).</entry>
+                        </row>
+                        <row>
+                            <entry>Audit</entry>
+                            <entry>Find and fix errors in imported geometry.</entry>
+                        </row>
+                        <row>
+                            <entry>Simplify</entry>
+                            <entry>Automatically recognize canonical faces (planar, cylindrical,
+                                conical, spherical, toroidal) from spline faces of your 3D solid.
+                                This is often needed before applying 3D constraints.</entry>
+                        </row>
+                        <row>
+                            <entry>Stitch</entry>
+                            <entry>Stitch touching surfaces and regions, that form a watertight
+                                boundary, into a single 3D solid.</entry>
+                        </row>
+                        <row>
+                            <entry>Deform toolset:<div>Twist, Move Point, Move Edge, and Transform
+                                    Curve </div></entry>
+                            <entry>Deform your 3D solid uniformly.</entry>
+                        </row>
+                        <row>
+                            <entry>Smart Selection</entry>
+                            <entry>Select faces and edges of your 3D solids based on particular
+                                geometric and topological criteria, such as length, area and
+                                smoothness.</entry>
+                        </row>
+                        <row>
+                            <entry>Parametrize</entry>
+                            <entry>Add 3D constraints to faces and edges of 3D solids, to align and
+                                resize them. Make your 3D part parametric.</entry>
+                        </row>
+                        <row>
+                            <entry>Design Intent</entry>
+                            <entry>Automatically apply geometric 3D constraints, such as parallel,
+                                perpendicular, coaxial, and tangent.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>
+            <note>BricsCAD is a history-free modeler; it does not create parent-child dependencies
+                between features, nor regenerates geometry on parameter change. You can embed
+                full-blown parametric control into any 3D part (including imported ones) using 3D
+                constraints.</note>
+        </p>
+    </conbody>
+</concept>

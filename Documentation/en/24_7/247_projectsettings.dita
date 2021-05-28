@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_project_settings">
+    <title>Project settings</title>
+    <conbody>
+        <p><uicontrol>Project settings</uicontrol> allows the project administrator to enter or edit
+            basic project information, change document settings and statuses, change project
+            settings, and lock the recycle bin.</p>
+        <p><uicontrol>Project settings</uicontrol> is divided into the sections:<ul id="ul_mkl_l1r_v4b">
+                <li><uicontrol>Details</uicontrol></li>
+                <li><uicontrol>Documents</uicontrol></li>
+                <li><uicontrol>Administrators</uicontrol></li>
+            </ul></p>
+        <p>For more information, see <xref keyref="247_edittheprojectsettings" />.</p>
+    </conbody>
+</concept>

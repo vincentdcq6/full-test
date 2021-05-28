@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_createlibraryblock">
+   <title>CREATELIBRARYBLOCK command</title>
+   <shortdesc>Opens the Add block to library dialog box.</shortdesc>
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V19/Common/command-reference-all.png" id="image_grw_xxf_ynb" scope="external" outputclass="license" />
+      </fig>
+      <fig id="fig_qzg_mzk_f4b">
+         <image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/mcad_create_comp.png" scope="external" id="image_rzg_mzk_f4b" outputclass="icon" />
+      </fig>
+      <p>Open the Add block to library dialog box to create a block definition and add it to the
+         library.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_librarypanelopen" />
+         <link keyref="CMD_librarypanelclose" />
+      </linklist>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="DB_addblocktolibrary">
+            <linktext>Add Block to Library Dialog Box</linktext>
+         </link>
+         <link keyref="UI_panels"><!--Workspaces (link)--></link>
+      </linklist>
+   </related-links>
+</concept>

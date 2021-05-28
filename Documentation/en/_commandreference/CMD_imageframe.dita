@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_imageframe">
+   <title>IMAGEFRAME command</title>
+   <shortdesc>Toggles the IMAGEFRAME system variable. </shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Toggle the IMAGEFRAME system variable to change the visibility and plotting for image
+         frames. You can launch this command at the Command prompt or within another command by
+         preceding it with an apostrophe: 'IMAGEFRAME.</p>
+      <p>
+         <ul id="ul_i11_gdv_3pb">
+            <li>0: sets the IMAGEFRAME system variable to 0.</li>
+            <li>1: sets the IMAGEFRAME system variable to 1.</li>
+            <li>2: sets the IMAGEFRAME system variable to 2.</li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_imageattach" />
+         <link keyref="CMD_imageclip" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_imageframe" />
+         <link keyref="SV_frame" />
+      </linklist>
+   </related-links>
+</concept>

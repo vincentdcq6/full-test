@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_holes">
+    <title>Holes</title>
+    <conbody>
+        <p>The Holes category contains a parametric library of standard holes, such as slots,
+            counterbores, and countersinks.</p>
+        <p>
+            <fig id="fig_sh4_t2b_jpb">
+                <title>Holes</title>
+                <image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/StandardMechanicalComponents_Holes.png" id="image_th4_t2b_jpb" scale="75" scope="external" />
+            </fig>
+        </p>
+        <p>There is also a subcategory of threaded holes, represented in drawing views.</p>
+    </conbody>
+</concept>

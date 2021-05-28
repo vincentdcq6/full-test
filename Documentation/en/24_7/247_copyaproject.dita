@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_copy_a_project">
+    <title>Copy a project</title>
+    <taskbody>
+        <context>
+            <p>When you manage multiple projects, some projects have similar settings and/or the
+                same structure. You can create a template project, in which you set up the folder
+                structure, roles, forms and workflows, and use this template for each new project
+                you create.</p>
+            <p>You can create a new project based on an existing project:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Log into Bricsys 24/7 on the <xref href="https://my.bricsys247.com/app/" format="html" scope="external">login page</xref>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>My projects</uicontrol>
+                    <image href="../IMAGES_temp/my_projects.PNG" id="image_nqm_13t_1pb" scale="75" scope="external" />.</cmd>
+            </step>
+            <step>
+                <cmd>Select a project in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Copy project</uicontrol>
+                    <image href="../IMAGES_temp/copy_project_button.PNG" id="image_bfv_nlt_1pb" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Copy project</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Enter the project details:</cmd>
+                <info>
+                    <ul id="ul_hfk_nws_1pb">
+                        <li>project name</li>
+                        <li>project description</li>
+                        <li>country in which the project will be carried out</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Copy project - Step 2</wintitle> window appears.<div>
+                        <fig id="fig_g42_knt_1pb">
+                            <title>Copy project - Step 2</title>
+                            <image href="../IMAGES_temp/copy_project_window_step2.PNG" id="image_h42_knt_1pb" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Select and/or deselect the options you want to copy to your new project.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that @@@ reported a bug in the new
+                    interface.</stepresult>
+            </step>
+        </steps>
+        <postreq id="postreq_o2n_5ly_1pb">
+            <note>When you copy a project, the folder structure is copied, but the documents are not
+                transferred. If you need a copy of the folders with documents included, you must
+                select the folders and documents manually, and use the copy action. It is also
+                possible to copy the documents with the Bricsys 24/7 Transfer Tool.</note>
+            <note>You can copy the forms and metadata together with the project. However, as the
+                documents are not transferred automatically, the form records will not be
+                transferred either. This does not apply to the links between forms and
+                    folders.<div>Example: When you copy a project, and select
+                        <uicontrol>Forms</uicontrol> and <uicontrol>Metadata</uicontrol>, the links
+                    between forms and folders will be copied. As a consequence, if you upload a new
+                    document in a folder with a form attached, you will be asked to enter the
+                    metadata.</div></note>
+        </postreq>
+    </taskbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_bricsys247transfertool" />
+        </linklist>
+    </related-links>
+</task>

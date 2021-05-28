@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_coordinatereferencesystem">
+    <title>Coordinate reference system</title>
+    <shortdesc>A Coordinate System is a set of mathematical rules for specifying how coordinates are
+        to be assigned to points.</shortdesc>
+    <conbody>
+        <p>The coordinate system is unrelated to the Earth. A Coordinate Reference System (CRS) is a
+            coordinate system related to the Earth through a Datum. A Geodetic Datum is a model of
+            the Earth that specifies a reference surface (Ellipsoid or Spheroid).</p>
+        <p>A projected coordinate reference system is the result of the application of a map
+            projection to a geographic coordinate reference system. A map projection is a type of
+            coordinate conversion. It uses an identified method with specific formulas and a set of
+            parameters specific to that coordinate conversion method.</p>
+        <p>Coordinates may be changed from one CRS to another through the coordinate operation. Two
+            types of coordinate operation may be distinguished:</p>
+        <ul id="ul_bnv_dfr_qpb">
+            <li><b>coordinate conversion</b>, where no change of datum is involved and the
+                parameters are chosen and thus error free.</li>
+            <li><b>coordinate transformation</b>, where the target CRS is based on a different datum
+                to the source CRS. Transformation parameters are empirically determined and thus
+                subject to measurement errors. (Geodetic, Seven parameters, Molodenksy...) </li>
+        </ul>
+        <p>Geographic datasets are defined in <b>geodatabase.xml</b>that is placed in
+                <filepath>&lt;User
+                folder&gt;\AppData\Roaming\Bricsys\BricsCAD\&lt;RELEASE&gt;\en_US\Support for
+                Windows</filepath>. The content of this file is composed of the 5 sections:</p>
+        <ol id="ol_dnv_dfr_qpb">
+            <li>CoordinateReferenceSystems</li>
+            <li>Datums</li>
+            <li>Ellipsoids</li>
+            <li>Transformations</li>
+            <li>ProjectionCode and Methods</li>
+        </ol>
+        <section id="section_kk5_1gr_qpb">
+            <title>CoordinateReferenceSystems</title>
+            <p>This section is the main XML node where all Coordinate Reference Systems are defined.
+                It has many sub-nodes called <b>CRS</b>, each XML node must define a unique
+                projected coordinate reference system and the necessary projected parameters.</p>
+            <p>The supported CRS projection types are described in
+                    the <b>ProjectionCode</b> and <b>Methods</b> sections.</p>
+            <p><b>CRS</b> node attributes:</p>
+            <p>Follow Table 1 of OGP Geomatics Guidance Note No 7, part 2</p>
+            <p>
+                <table id="table_khy_bgr_qpb">
+                    <tgroup cols="3">
+                        <colspec colnum="1" colname="col1" colsep="1" rowsep="1" colwidth="1*" />
+                        <colspec colnum="2" colname="col2" rowsep="1" colsep="1" colwidth="2*" />
+                        <colspec colnum="3" colname="col3" rowsep="1" colsep="1" colwidth="1*" />
+                        <thead>
+                            <row>
+                                <entry>Attribute name</entry>
+                                <entry>Description</entry>
+                                <entry>Units</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>epsg</entry>
+                                <entry>Unique EPSG database id.</entry>
+                                <entry>Integer</entry>
+                            </row>
+                            <row>
+                                <entry>name</entry>
+                                <entry>Human-readable name of CRS, Example: "WGS 84 -- WGS84 - World
+                                    Geodetic System 1984, used in GPS".</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>codeSpace</entry>
+                                <entry>Owner of CRS. It is option.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>x, y</entry>
+                                <entry>Orientation of projected direction. Possible values:<ul id="ol_ppb_hgr_qpb">
+                                        <li>"Westing"</li>
+                                        <li>"Easting"</li>
+                                        <li>"Southing"</li>
+                                        <li>"Northing"</li>
+                                    </ul>Directions MUST be defined.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>xAxis, yAxis</entry>
+                                <entry>Orientation of geographic direction. Possible values:<ul id="ul_tlc_jgr_qpb">
+                                        <li>"Latitude"</li>
+                                        <li> "Longitude"</li>
+                                    </ul></entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>Greenwich</entry>
+                                <entry>Greenwich Meridian relation.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>proj</entry>
+                                <entry>
+                                    <p>Projection method of CRS. Possible values: <ul id="ul_tlk_kgr_qpb">
+                                            <li>"LL", "LatLon", "LonLat" is a Geodetic
+                                                Latitude-Longitude.</li>
+                                            <li>"MercA", "Mercator_1SP" is a Mercator (variant A).</li>
+                                            <li>"MercB", "Mercator_2SP" is a Mercator (variant B).</li>
+                                            <li>"MercC" is Mercator (variant C).</li>
+                                            <li>"MercSp" is a Mercator (Spherical).</li>
+                                            <li>"MercPv" is a Popular Visualisation Pseudo Mercator.</li>
+                                            <li>"TMerc" is a Transverse Mercator.</li>
+                                            <li>"TMercSO" is a Transverse Mercator South Orientated.</li>
+                                            <li>"LCC_1SP" is a Lambert Conic Conformal 1SP.</li>
+                                            <li>"LCC_2SP" is a Lambert Conic Conformal 2SP.</li>
+                                            <li>"LCC_2SP_BE" is a Lambert Conic Conformal 2SP
+                                                Belgium.</li>
+                                        </ul></p>
+                                </entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>AngleSG</entry>
+                                <entry>Angle from Rectified to Skew Grid.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>Azimuth</entry>
+                                <entry>Azimuth of initial line.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>FE</entry>
+                                <entry>Easting at false origin, False easting.</entry>
+                                <entry>Float-Point value in CRS units</entry>
+                            </row>
+                            <row>
+                                <entry>EC</entry>
+                                <entry>Easting at projection center.</entry>
+                                <entry>Float-Point value in CRS units</entry>
+                            </row>
+                            <row>
+                                <entry>FN</entry>
+                                <entry>Northing at false origin, False northing.</entry>
+                                <entry>Float-Point value in CRS units</entry>
+                            </row>
+                            <row>
+                                <entry>FC</entry>
+                                <entry>Northing at projection center.</entry>
+                                <entry>Float-Point value in CRS units</entry>
+                            </row>
+                            <row>
+                                <entry>LonI</entry>
+                                <entry>The longitude of the western limit of the first zone of a
+                                    Transverse Mercator zoned grid system.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>Lat</entry>
+                                <entry>Latitude of natural origin, Latitude of standard parallel. It
+                                    depends on Projection method.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>Lat1</entry>
+                                <entry>Latitude of 1st standard parallel.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>Lat2</entry>
+                                <entry>Latitude of 2nd standard parallel.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>LatF</entry>
+                                <entry>Latitude of false origin.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>LatC</entry>
+                                <entry>Latitude of projection center.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>Lon</entry>
+                                <entry>Longitude of natural origin, Longitude of origin.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>LonF</entry>
+                                <entry>Longitude of false origin.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>LonC</entry>
+                                <entry>Longitude of projection center.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>SF</entry>
+                                <entry>Scale factor at natural origin.</entry>
+                                <entry>Float-Point value, unity</entry>
+                            </row>
+                            <row>
+                                <entry>SFIL</entry>
+                                <entry>Scale factor on initial line.</entry>
+                                <entry>Float-Point value, unity</entry>
+                            </row>
+                            <row>
+                                <entry>SFPSP</entry>
+                                <entry>Scale factor on pseudo standard parallel.</entry>
+                                <entry>Float-Point value, unity</entry>
+                            </row>
+                            <row>
+                                <entry>W</entry>
+                                <entry>Zone width in longitude.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>zone</entry>
+                                <entry>Zoned Grid System.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>units</entry>
+                                <entry>Units of conversion result from geographic coordinates to
+                                    projected. Example: "Meter", unit "Degree" means no conversion,
+                                    Geographic Coordinate System.</entry>
+                                <entry>String</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+            <p>Example: common attributes for all map projections based on EPSG:31468.
+                <codeblock>&lt;CRS epsg="31468" codeSpace="OGP" name="DHDN / 3-degree Gauss-Kruger zone 4" y="Easting" x="Northing" Greenwich="0" proj="TMerc" Lon="12" Lat="0" SF="1" FE="4500000" FN="0" zone="4" units="Meter"&gt;</codeblock></p>
+            <p>For each node <b>CRS</b> there should be at least one sub-node <b>Datum</b> that
+                refers via <b>epsg</b> or <b>alias</b> attributes to sub-node <b>Datum</b> in
+                    the <b>Datums</b> section. The sub-node <b>Datum</b> MUST have
+                the <b>id</b> attribute of a unique CRS name. At least one of the epsg code and the
+                alias of Datum must be valid.</p>
+            <p>
+                <table id="table_bqv_1hr_qpb">
+                    <tgroup cols="3">
+                        <colspec colnum="1" colname="col1" colsep="1" rowsep="1" colwidth="1*" />
+                        <colspec colnum="2" colname="col2" colsep="1" rowsep="1" colwidth="2*" />
+                        <colspec colnum="3" colname="col3" colsep="1" rowsep="1" colwidth="1*" />
+                        <thead>
+                            <row>
+                                <entry>Attribute name</entry>
+                                <entry>Description</entry>
+                                <entry>Units</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>epsg</entry>
+                                <entry>Unique EPSG database id. Example: "4326".</entry>
+                                <entry>Integer</entry>
+                            </row>
+                            <row>
+                                <entry>alias</entry>
+                                <entry>Unique Datum name. Example: "WGS 84".</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>id</entry>
+                                <entry>Unique CRS name: combination of Projected method and Datum.
+                                    Example: "WORLD-MERCATOR". It related to CS-MAP, AutoCAD names.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>pjcode</entry>
+                                <entry>
+                                    <p>Indicate code for the coordinate reference system projection
+                                        method types. Corresponded to AutoCAD projection codes.</p>
+                                    <p>For example, 3 - Transverse Mercator, 44 - UTM, 45 -
+                                        Transverse Mercator of Snyder formulation and etc.</p>
+                                </entry>
+                                <entry>Integer</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+            <p>Example: there are unique CRS definitions according to Datums
+                inside CRS node:<codeblock>&lt;Datum epsg="6314" alias="DHDN/3" id="DHDN/3.Gauss3d-4" pjcode="3" /&gt;
+&lt;Datum epsg="6314" alias="DHDN/2" id="DHDN/2.Gauss3d-4" pjcode="3" /&gt;
+&lt;Datum epsg="6314" alias="DHDN" id="DHDN.Gauss3d-4" pjcode="3" /&gt;</codeblock></p>
+        </section>
+        <section id="section_vs1_3hr_qpb">
+            <title>Datums</title>
+            <p>This section is a main node where all Datums are stored. Datum is a combination of
+                the Earth model (Ellipsoid or Spheroid) and the transformation method to model
+                WGS84. A <b>Datum</b> node specifies common parameters and contains at least one
+                inner sub-nodes <b>Datum</b> exactly one sub-node <b>Ellipsoid</b>. Each inner
+                    sub-node <b>Datum</b> should define a unique name within the <b>id</b> attribute
+                and may specify transformation parameters to WGS84 model via
+                    sub-node <b>Transformation</b> that refers
+                via <b>epsg</b> or <b>alias</b> attributes to a sub-node <b>Transformation</b> in
+                    the <b>Transformations</b> section.</p>
+            <p>
+                <table id="table_uzk_jhr_qpb">
+                    <tgroup cols="3">
+                        <colspec colnum="1" colname="col1" colsep="1" rowsep="1" colwidth="1*" />
+                        <colspec colnum="2" colname="col2" rowsep="1" colsep="1" colwidth="2*" />
+                        <colspec colnum="3" colname="col3" rowsep="1" colsep="1" colwidth="1*" />
+                        <thead>
+                            <row>
+                                <entry>Attribute name</entry>
+                                <entry>Description</entry>
+                                <entry>Units</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>alias</entry>
+                                <entry>Unique id. Example: "DHDN/3". It is related to CS-MAP,
+                                    AutoCAD names.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>epsg</entry>
+                                <entry>Unique EPSG database id. Example: "6314".</entry>
+                                <entry>Integer</entry>
+                            </row>
+                            <row>
+                                <entry>name</entry>
+                                <entry>Human-readable name of Datum. Example: "Deutsches
+                                    Hauptdreiecksnetz".</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>codeSpace</entry>
+                                <entry>Owner of CRS. It is optional.</entry>
+                                <entry>String</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+            <p>Example:<codeblock>&lt;Datums&gt;
+&lt;Datum epsg="6314" codeSpace="OGP" name="Deutsches Hauptdreiecksnetz "&gt;
+&lt;Datum id="DHDN/3"&gt;
+&lt;Transformation epsg="1777" alias="DHDN/3_to_WGS84" /&gt;
+&lt;/Datum&gt;
+&lt;Datum id="DHDN/2" name="Deprecated - Replaced by DHDN/3"&gt;
+&lt;Transformation epsg="1777" alias="DHDN/2_to_WGS84" /&gt;
+&lt;/Datum&gt;
+&lt;Datum id="DHDN" name="Deprecated - Replaced by DHDN/2"&gt;
+&lt;Transformation epsg="1673" alias="DHDN_to_WGS84" /&gt;
+&lt;/Datum&gt;
+&lt;Ellipsoid epsg="7004" alias="BESSEL" /&gt;
+&lt;/Datum&gt;
+â€¦
+&lt;/Datums&gt;</codeblock></p>
+        </section>
+        <section id="section_hbw_xhr_qpb">
+            <title>Ellipsoids</title>
+            <p>The Ellipsoids section is the main section where models of the Earth are defined.
+                    Each <b>Ellipsoid</b> node should define an identification by a unique name
+                    (<b>alias</b>) and a semi-major axis (<b>a</b>) and one of the following
+                attributes at least: flattering (<b>f</b>), semi-minor axis (<b>b</b>) or
+                eccentricity (<b>e</b>).</p>
+            <p>
+                <table id="table_rqv_zhr_qpb">
+                    <tgroup cols="3">
+                        <colspec colnum="1" colname="col1" colsep="1" rowsep="1" colwidth="1*" />
+                        <colspec colnum="2" colname="col2" rowsep="1" colsep="1" colwidth="2*" />
+                        <colspec colnum="3" colname="col3" rowsep="1" colsep="1" colwidth="1*" />
+                        <thead>
+                            <row>
+                                <entry>Attribute name</entry>
+                                <entry>Description</entry>
+                                <entry>Units</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>alias</entry>
+                                <entry>Unique id. Example: "WGS84". It related to CS-MAP, AutoCAD
+                                    names.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>epsg</entry>
+                                <entry>Unique EPSG database id. Example: "7030".</entry>
+                                <entry>Integer</entry>
+                            </row>
+                            <row>
+                                <entry>name</entry>
+                                <entry>Human-readable name of Datum, Example: "WGS 84".</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>codeSpace</entry>
+                                <entry>Owner of CRS. It is optional.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>a</entry>
+                                <entry>Length of the semi-major axis of the ellipsoid, the radius of
+                                    the equator.</entry>
+                                <entry>Float-Point value, strongly in Meter</entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry>Length of the semi-minor axis of the ellipsoid, the distance
+                                    along the ellipsoid axis between equator and pole.</entry>
+                                <entry>Float-Point value, strongly in Meter</entry>
+                            </row>
+                            <row>
+                                <entry>f</entry>
+                                <entry>Flattening</entry>
+                                <entry>Float-Point value, unity</entry>
+                            </row>
+                            <row>
+                                <entry>e</entry>
+                                <entry>Eccentricity</entry>
+                                <entry>Float-Point value, unity</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+            <p>Example:<codeblock>&lt;Ellipsoid epsg="7008" alias="CLRK66" name="Clarke 1866, Benoit Ratio" a="6378206.4000000004" b="6356583.7999999998" f="294.9786982139" e="0.0822718542" /&gt;</codeblock></p>
+        </section>
+        <section id="section_wqw_k3r_qpb">
+            <title>Transformations</title>
+            <p>This section is a main node where all transformation methods are defined. Supported
+                Transformation methods are described in
+                the <b>ProjectionCode</b> and <b>Methods</b> sections.</p>
+            <p>
+                <table id="table_slb_m3r_qpb">
+                    <tgroup cols="3">
+                        <colspec colnum="1" colname="col1" colsep="1" rowsep="1" colwidth="1*" />
+                        <colspec colnum="2" colname="col2" rowsep="1" colsep="1" colwidth="2*" />
+                        <colspec colnum="3" colname="col3" rowsep="1" colsep="1" colwidth="1*" />
+                        <thead>
+                            <row>
+                                <entry>Attribute name</entry>
+                                <entry>Description</entry>
+                                <entry>Units</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>alias</entry>
+                                <entry>Unique id. Example: "DHDN_to_WGS84". It related to CS-MAP,
+                                    AutoCAD names.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>epsg</entry>
+                                <entry>Unique EPSG database id. Example: "1673".</entry>
+                                <entry>Integer</entry>
+                            </row>
+                            <row>
+                                <entry>codeSpace</entry>
+                                <entry>Owner of Transformation. It is optional.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>source</entry>
+                                <entry>Source Datum.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>target</entry>
+                                <entry>Target Datum.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>use</entry>
+                                <entry>Transformation method. Supported transformations using
+                                    geocentric methods: <ul id="ul_vfx_q3r_qpb">
+                                        <li>Geocentric translations</li>
+                                        <li>Four/Six/Seven Parameter Transformation</li>
+                                        <li>Similarity Transformation</li>
+                                        <li>Position Vector transformation</li>
+                                        <li>Coordinate Frame rotation</li>
+                                    </ul></entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>method</entry>
+                                <entry>Methods of building of rotation matrix, if applicable, "PVT"
+                                    is Position Vector Transformation, "CFR" is Coordinate Frame
+                                    Rotation.</entry>
+                                <entry>String</entry>
+                            </row>
+                            <row>
+                                <entry>tX</entry>
+                                <entry>X-axis translation.</entry>
+                                <entry>Meter</entry>
+                            </row>
+                            <row>
+                                <entry>tY</entry>
+                                <entry>Y-axis translation.</entry>
+                                <entry>Meter</entry>
+                            </row>
+                            <row>
+                                <entry>tZ</entry>
+                                <entry>Z-axis translation.</entry>
+                                <entry>Meter</entry>
+                            </row>
+                            <row>
+                                <entry>rX</entry>
+                                <entry>X-axis rotation.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>rY</entry>
+                                <entry>Y-axis rotation.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>rZ</entry>
+                                <entry>Z-axis rotation.</entry>
+                                <entry>Degree</entry>
+                            </row>
+                            <row>
+                                <entry>dS</entry>
+                                <entry>Scale difference.</entry>
+                                <entry>Unity</entry>
+                            </row>
+                            <row>
+                                <entry>xp</entry>
+                                <entry>Coordinate 1 of evaluation point.</entry>
+                                <entry>Meter</entry>
+                            </row>
+                            <row>
+                                <entry>yp</entry>
+                                <entry>Coordinate 2 of evaluation point.</entry>
+                                <entry>Meter</entry>
+                            </row>
+                            <row>
+                                <entry>zp</entry>
+                                <entry>Coordinate 3 of evaluation point.</entry>
+                                <entry>Meter</entry>
+                            </row>
+                            <row>
+                                <entry>dtX</entry>
+                                <entry>Rate of change of X-axis translation.</entry>
+                                <entry>Unity</entry>
+                            </row>
+                            <row>
+                                <entry>dtY</entry>
+                                <entry>Rate of change of Y-axis translation.</entry>
+                                <entry>Unity</entry>
+                            </row>
+                            <row>
+                                <entry>dtZ</entry>
+                                <entry>Rate of change of Z-axis translation.</entry>
+                                <entry>Unity</entry>
+                            </row>
+                            <row>
+                                <entry>drX</entry>
+                                <entry>Rate of change of X-axis rotation.</entry>
+                                <entry>Unity</entry>
+                            </row>
+                            <row>
+                                <entry>drY</entry>
+                                <entry>Rate of change of Y-axis rotation.</entry>
+                                <entry>Unity</entry>
+                            </row>
+                            <row>
+                                <entry>drZ</entry>
+                                <entry>Rate of change of Z-axis rotation.</entry>
+                                <entry>Unity</entry>
+                            </row>
+                            <row>
+                                <entry>ddS</entry>
+                                <entry>Rate of change of scale difference.</entry>
+                                <entry>Unity</entry>
+                            </row>
+                            <row>
+                                <entry>t0</entry>
+                                <entry>The reference epoch for time-dependent parameters.</entry>
+                                <entry>Float point value</entry>
+                            </row>
+                            <row>
+                                <entry>fallback</entry>
+                                <entry>Alias of transformation from target datum to WGS84 datum.</entry>
+                                <entry>String</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+            <p>Example:<codeblock>&lt;Transformation epsg="1679" alias="Pulkovo42/2_to_WGS84" src="Pulkovo42/2" trd="WGS84" use="Param7" method="CFR" tx="-40.595" ty="-18.55" tz="-69.339" ds="-4.299" rx="-2.508" ry="-1.832" rz="2.611" accuracy="9" /&gt;</codeblock></p>
+        </section>
+        <section id="section_rg2_w3r_qpb">
+            <title>ProjectionCode and Methods</title>
+            <p>These sections describe the <b>ProjectionCode</b> and <b>Methods</b> that are mapped
+                to AutoCAD definitions of projections and transformations types. They are used to
+                store the definitions in an XML file of coordinate reference system definition
+                inside the <b>AcDbGeoData</b> object that represents a geographic location.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_geographiclocation" />
+            <link keyref="CMD_geoimport" />
+            <link keyref="CMD_mapconnect" />
+        </linklist>
+    </related-links>
+</concept>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_bsaveas">
+   <title>DDGRIPS command</title>
+   <shortdesc>Opens the Settings Dialog Box with the <uicontrol>Grips</uicontrol> category expanded.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> with the <uicontrol>Grips</uicontrol> category
+         expanded to view and modify relevant system variables.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_grips" />
+         <link keyref="gripblock" />
+         <link keyref="SV_gripcolor" />
+         <link keyref="SV_gripdyncolor" />
+         <link keyref="SV_griphot" />
+         <link keyref="SV_griphover" />
+         <link keyref="SV_gripobjlimit" />
+         <link keyref="SV_gripsize" />
+         <link keyref="SV_griptips" />
+         <link keyref="SV_enableattraction" />
+         <link keyref="SV_attractiondistance" />
+      </linklist>
+   </related-links>
+</concept>

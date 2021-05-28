@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="warningmessages" xml:lang="en-US">
+   <title id="title__Toc50995847">WARNINGMESSAGES system variable</title>
+   <conbody>
+      <section><title>Warning messages</title><p>Specifies whether warning messages are displayed in certain situations. The value is stored as a bitcode using the sum of the values of all selected options.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/long" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>1048575</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>1: Selecting 3D context with hardware rendering off</p>
+                           <p>2: Modifying tool property in Customize dialog</p>
+                           <p>4: Deleting sheet custom property</p>
+                           <p>8: Moving entities to frozen or off layer</p>
+                           <p>16: Saving to previous version not supporting some entities</p>
+                           <p>32: Detecting modified attachments when opening the parent drawing</p>
+                           <p>64: Creating new layer not matching the current layer filter</p>
+                           <p>128: Render: Tile sizes between 4 and 127 are processed as 128</p>
+                           <p>256: Expanding category mass in properties panel</p>
+                           <p>512: Deleting an item in Customize dialog</p>
+                           <p>1024: Publish: Save sheet list</p>
+                           <p>2048: Delete layouts in Page Setup Explorer</p>
+                           <p>4096: Mass properties calculation takes long time</p>
+                           <p>8192: Array editing state</p>
+                           <p>16384: Incompatible units</p>
+                           <p>32768: Modified block definition will cause all related block references update</p>
+                           <p>65536: A Data Link has changed, Any tables using this link may need to be updated</p>
+                           <p>131072: VIEWBASE usage for architectural drawings</p>
+                           <p>262144 Expanding a closed category in properties panel</p>
+                           <p>524288: Empty category in properties panel is removed</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

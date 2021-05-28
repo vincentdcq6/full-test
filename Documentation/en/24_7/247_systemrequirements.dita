@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_system_requirements">
+    <title>System requirements</title>
+    <shortdesc>Recommended computer environment to run Bricsys 24/7.</shortdesc>
+    <conbody>
+        <p>Operating system:<ul id="ul_lss_wk5_r4b">
+                <li>Windows, Mac, or Linux</li>
+            </ul></p>
+        <p>Browser:<ul id="ul_fhm_yl5_r4b">
+                <li>Chrome, Firefox, Internet Explorer 9 and higher, Microsoft Edge, or Safari 7 and
+                    higher</li>
+            </ul></p>
+        <p>Hardware:<ul id="ul_vhd_tl5_r4b">
+                <li>Active Internet connection</li>
+            </ul></p>
+    </conbody>
+</concept>

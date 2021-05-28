@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_edit_your_profile">
+    <title>Edit your profile</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Log into Bricsys 24/7.</cmd>
+            </step>
+            <step>
+                <cmd>Click on the profile icon/picture on the right side of the project bar.</cmd>
+            </step>
+            <step>
+                <cmd>Click on <uicontrol>Profile settings</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Edit your profile settings.</cmd>
+            </step>
+            <step>
+                <cmd>Click on <uicontrol>Save changes</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_ozl_txn_dpb">
+            <note type="important">You need administrator rights to edit your profile.</note>
+            <note>A project administrator can give access rights to edit a profile in <xref keyref="247_editarole" />.</note>
+        </postreq>
+    </taskbody>
+</task>

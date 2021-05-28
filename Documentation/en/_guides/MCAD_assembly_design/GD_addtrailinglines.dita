@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="add_trailing_lines">
+    <title>Add trailing lines</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Open the exploded representation for editing (see To edit exploded
+                    representations @@@ add link)</cmd>
+            </step>
+            <step>
+                <cmd>Execute command <cmdname>BMTRAILINGLINES</cmdname>.</cmd>
+            </step>
+            <step>
+                <cmd>Select the subset of parts to create trailing lines for, or select the entire
+                    model.</cmd>
+            </step>
+            <step>
+                <cmd>Select the points of the parts to be used in order to create the trajectory:
+                    origin or center.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, edit the resulted trailing lines.</cmd>
+            </step>
+            <step>
+                <cmd>Save changes.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_script">
+   <title>SCRIPT command</title>
+   <shortdesc>Opens the Run Script Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_runscript" /> to select an scr file to run. After choosing Open in
+         the Dialog Box, the script begins running immediately. You can press the Esc key to stop
+         it.</p>
+   </conbody>
+</concept>

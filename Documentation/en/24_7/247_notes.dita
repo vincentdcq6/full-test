@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_notes">
+    <title>Notes</title>
+    <conbody>
+        <p>Notes are visible in all the revisions of a document. You can use public or private
+            notes.</p>
+        <p>
+            <fig id="fig_sn3_qqw_54b">
+                <title>Add note</title>
+                <image placement="break" href="../IMAGES_temp/add_note.png" id="image_tn3_qqw_54b" scale="40" scope="external" />
+            </fig>
+        </p>
+        <p>When you select project members in the note, the note becomes private. Only the selected
+            projected members will be able to view the note.<note type="important">Project
+                administrators can view all (public and private) communications.</note></p>
+    </conbody>
+</concept>

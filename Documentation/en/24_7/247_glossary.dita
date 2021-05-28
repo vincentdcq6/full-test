@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_glossary">
+    <title>Glossary</title>
+    <shortdesc>A list of terminology, acronyms and abbreviations.</shortdesc>
+    <conbody>
+        <p>
+            <ul id="ul_ssn_bwt_r4b">
+                <li>binder: a folder that contains a specific collection of documents</li>
+                <li>BIM: Building Information Modeling</li>
+                <li>CDE: common data environment</li>
+                <li>DWG: a binary file format used for containing 2D and 3D design data (derived
+                    from drawing)</li>
+                <li>IFC: Industry Foundation Classes</li>
+                <li>synch: in the Bricsys 24/7 Transfer Tool, a download can be saved as a synch to
+                    remain identical in all locations</li>
+            </ul>
+        </p>
+    </conbody>
+</concept>

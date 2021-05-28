@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
+<map>
+  <title>User interface</title>
+  <topicref href="empty%20titles/BCAD_user_interface_title.dita" navtitle="User Interface" keys="user_interface_title">
+    <topicref href="_UI/UI_dialogboxes.dita" keys="UI_dialogboxes">
+      <topicref href="empty%20titles/dialog_boxes_overview.dita" keys="dialogboxesoverview_title">
+        <topicref href="_dialogboxes/DB_aboutbricscad.dita" keys="DB_aboutbricscad" />
+        <topicref href="_dialogboxes/DB_addblocktolibrary.dita" keys="DB_addblocktolibrary" />
+        <topicref href="_dialogboxes/DB_addinmanager.dita" keys="DB_addinmanager" />
+        <topicref href="_dialogboxes/DB_addplotstyletable.dita" keys="DB_addplotstyletable" />
+        <topicref href="_dialogboxes/DB_addscale.dita" keys="DB_addscale" />
+        <topicref href="_dialogboxes/DB_alloweddeviationsfromcenteraxis.dita" keys="DB_alloweddeviationsfromcenteraxis" />
+        <topicref href="_dialogboxes/DB_array.dita" keys="DB_array" />
+        <topicref href="_dialogboxes/DB_attachexternalreference.dita" keys="DB_attachexternalreference" />
+        <topicref href="_dialogboxes/DB_attachpdfunderlay.dita" keys="DB_attachpdfunderlay" />
+        <topicref href="_dialogboxes/DB_attachpointcloud.dita" keys="DB_attachpointcloud" />
+        <topicref href="_dialogboxes/DB_attachrasterimage.dita" keys="DB_attachrasterimage" />
+        <topicref href="_dialogboxes/DB_automatch.dita" keys="DB_automatch" />
+        <topicref href="_dialogboxes/DB_background.dita" keys="DB_background" />
+        <topicref href="_dialogboxes/DB_bimbcfpanelcustomlogin.dita" keys="DB_bimbcfpanelcustomlogin" />
+        <topicref href="_dialogboxes/DB_bimbcfpanelselectbcffile.dita" keys="DB_bimbcfpanelselectbcffile" />
+        <topicref href="_dialogboxes/DB_bimprojectinfo.dita" keys="DB_bimprojectinfo" />
+        <topicref href="_dialogboxes/DB_bimproperties.dita" keys="DB_bimproperties" />
+        <topicref href="_dialogboxes/DB_bladebricscadlispadvanceddevelopmentenvironment.dita" keys="DB_bladebricscadlispadvanceddevelopmentenvironment" />
+        <topicref href="_dialogboxes/DB_blockattributemanager.dita" keys="DB_blockattributemanager" />
+        <topicref href="_dialogboxes/DB_blockdefinitiondialogbox.dita" keys="DB_blockdefinitiondialogbox" />
+        <topicref href="_dialogboxes/DB_bricscadexportlayout.dita" keys="DB_bricscadexportlayout" />
+        <topicref href="_dialogboxes/DB_bricscadreload.dita" keys="DB_bricscadreload" />
+        <topicref href="_dialogboxes/DB_bricscadsave.dita" keys="DB_bricscadsave" />
+        <topicref href="_dialogboxes/DB_bricsyslicensemanager.dita" keys="DB_bricsyslicensemanager" />
+        <topicref href="_dialogboxes/DB_calculator.dita" keys="DB_calculator" />
+        <topicref href="_dialogboxes/DB_changedictionaries.dita" keys="DB_changedictionaries" />
+        <topicref href="_dialogboxes/DB_chooseacustomizationfile.dita" keys="DB_chooseacustomizationfile" />
+        <topicref href="_dialogboxes/DB_chooseafolder.dita" keys="DB_chooseafolder" />
+        <topicref href="_dialogboxes/DB_choosealinetypefile.dita" keys="DB_choosealinetypefile" />
+        <topicref href="_dialogboxes/DB_chooseinputfolder.dita" keys="DB_chooseinputfolder" />
+        <topicref href="_dialogboxes/DB_communicatorinfo.dita" keys="DB_communicatorinfo" />
+        <topicref href="_dialogboxes/DB_comparetwomodels.dita" keys="DB_comparetwomodels" />
+        <topicref href="_dialogboxes/DB_compositions.dita" keys="DB_compositions" />
+        <topicref href="_dialogboxes/DB_configurestructuretree.dita" keys="DB_configurestructuretree" />
+        <topicref href="_dialogboxes/DB_confirmdeletingselectedcacheitems.dita" keys="DB_confirmdeletingselectedcacheitems" />
+        <topicref href="_dialogboxes/DB_copypaste.dita" keys="DB_copypaste" />
+        <topicref href="_dialogboxes/DB_copyprofille.dita" keys="DB_copyprofille" />
+        <topicref href="_dialogboxes/DB_createdetail.dita" keys="DB_createdetail" />
+        <topicref href="_dialogboxes/DB_createhtmlfile.dita" keys="DB_createhtmlfile" />
+        <topicref href="_dialogboxes/DB_createnewdrawing.dita" keys="DB_createnewdrawing" />
+        <topicref href="_dialogboxes/DB_createnewsheetset.dita" keys="DB_createnewsheetset" />
+        <topicref href="_dialogboxes/DB_createoreditblockdefinition.dita" keys="DB_createoreditblockdefinition" />
+        <topicref href="_dialogboxes/DB_createprofile.dita" keys="DB_createprofile" />
+        <topicref href="_dialogboxes/DB_createsectionelevation.dita" keys="DB_createsectionelevation" />
+        <topicref href="_dialogboxes/DB_createsnapshot.dita" keys="DB_createsnapshot" />
+        <topicref href="_dialogboxes/DB_createwmffile.dita" keys="DB_createwmffile" />
+        <topicref href="_dialogboxes/DB_customizationgroups.dita" keys="DB_customizationgroups" />
+        <topicref href="_dialogboxes/DB_customize.dita" keys="DB_customize" />
+        <topicref href="_dialogboxes/DB_customproperties.dita" keys="DB_customproperties" />
+        <topicref href="_dialogboxes/DB_customproperty.dita" keys="DB_customproperty" />
+        <topicref href="_dialogboxes/DB_datalinkedit.dita" keys="DB_datalinkedit" />
+        <topicref href="_dialogboxes/DB_datalinkmanager.dita" keys="DB_datalinkmanager" />
+        <topicref href="_dialogboxes/DB_defaultscalelist.dita" keys="DB_defaultscalelist" />
+        <topicref href="_dialogboxes/DB_defineattribute.dita" keys="DB_defineattribute" />
+        <topicref href="_dialogboxes/DB_drawingexplorer.dita" keys="DB_drawingexplorer" />
+        <topicref href="_dialogboxes/DB_drawingproperties.dita" keys="DB_drawingproperties" />
+        <topicref href="_dialogboxes/DB_duplicatesheets.dita" keys="DB_duplicatesheets" />
+        <topicref href="_dialogboxes/DB_editcustomproperties.dita" keys="DB_editcustomproperties" />
+        <topicref href="_dialogboxes/DB_edithyperlink.dita" keys="DB_edithyperlink" />
+        <topicref href="_dialogboxes/DB_editscalelist.dita" keys="DB_editscalelist" />
+        <topicref href="_dialogboxes/DB_entitygrouping.dita" keys="DB_entitygrouping" />
+        <topicref href="_dialogboxes/DB_etransmit.dita" keys="DB_etransmit" />
+        <topicref href="_dialogboxes/DB_export3ddwf.dita" keys="DB_export3ddwf" />
+        <topicref href="_dialogboxes/DB_exportdrawingas.dita" keys="DB_exportdrawingas" />
+        <topicref href="_dialogboxes/DB_exportdrawingaspdfonly.dita" keys="DB_exportdrawingaspdfonly" />
+        <topicref href="_dialogboxes/DB_exportdrawingto.dita" keys="DB_exportdrawingto" />
+        <topicref href="_dialogboxes/DB_exportlayouttodrawing.dita" keys="DB_exportlayouttodrawing" />
+        <topicref href="_dialogboxes/DB_exportprofile.dita" keys="DB_exportprofile" />
+        <topicref href="_dialogboxes/DB_exportsheetsetas.dita" keys="DB_exportsheetsetas" />
+        <topicref href="_dialogboxes/DB_extractattributes.dita" keys="DB_extractattributes" />
+        <topicref href="_dialogboxes/DB_field.dita" keys="DB_field" />
+        <topicref href="_dialogboxes/DB_findandreplace.dita" keys="DB_findandreplace" />
+        <topicref href="_dialogboxes/DB_flatshot.dita" keys="DB_flatshot" />
+        <topicref href="_dialogboxes/DB_geographiclocation.dita" keys="DB_geographiclocation" />
+        <topicref href="_dialogboxes/DB_geometrictolerance.dita" keys="DB_geometrictolerance" />
+        <topicref href="_dialogboxes/DB_givenameforexportedpointcloudfile.dita" keys="DB_givenameforexportedpointcloudfile" />
+        <topicref href="_dialogboxes/DB_hatchandgradient.dita" keys="DB_hatchandgradient" />
+        <topicref href="_dialogboxes/DB_importfile.dita" keys="DB_importfile" />
+        <topicref href="_dialogboxes/DB_importpagesetups.dita" keys="DB_importpagesetups" />
+        <topicref href="_dialogboxes/DB_importprofile.dita" keys="DB_importprofile" />
+        <topicref href="_dialogboxes/DB_importsheetset.dita" keys="DB_importsheetset" />
+        <topicref href="_dialogboxes/DB_insertblock.dita" keys="DB_insertblock" />
+        <topicref href="_dialogboxes/DB_insertobject.dita" keys="DB_insertobject" />
+        <topicref href="_dialogboxes/DB_inserttable.dita" keys="DB_inserttable" />
+        <topicref href="_dialogboxes/DB_layersettings.dita" keys="DB_layersettings" />
+        <topicref href="_dialogboxes/DB_layertranslator.dita" keys="DB_layertranslator" />
+        <topicref href="_dialogboxes/DB_layoutmanager.dita" keys="DB_layoutmanager" />
+        <topicref href="_dialogboxes/DB_links.dita" keys="DB_links" />
+        <topicref href="_dialogboxes/DB_loadapplicationfiles.dita" keys="DB_loadapplicationfiles" />
+        <topicref href="_dialogboxes/DB_loaddxffile.dita" keys="DB_loaddxffile" />
+        <topicref href="_dialogboxes/DB_loadlinetypes.dita" keys="DB_loadlinetypes" />
+        <topicref href="_dialogboxes/DB_loadshapefile.dita" keys="DB_loadshapefile" />
+        <topicref href="_dialogboxes/DB_loadsheetlist.dita" keys="DB_loadsheetlist" />
+        <topicref href="_dialogboxes/DB_managevisibility.dita" keys="DB_managevisibility" />
+        <topicref href="_dialogboxes/DB_netload.dita" keys="DB_netload" />
+        <topicref href="_dialogboxes/DB_open.dita" keys="DB_open" />
+        <topicref href="_dialogboxes/DB_openanacisfile.dita" keys="DB_openanacisfile" />
+        <topicref href="_dialogboxes/DB_opendrawing.dita" keys="DB_opendrawing" />
+        <topicref href="_dialogboxes/DB_openfile.dita" keys="DB_openfile" />
+        <topicref href="_dialogboxes/DB_openlandxmlfile.dita" keys="DB_openlandxmlfile" />
+        <topicref href="_dialogboxes/DB_openlayerlistfile.dita" keys="DB_openlayerlistfile" />
+        <topicref href="_dialogboxes/DB_optimize2dlines.dita" keys="DB_optimize2dlines" />
+        <topicref href="_dialogboxes/DB_pagesetup.dita" keys="DB_pagesetup" />
+        <topicref href="_dialogboxes/DB_pastespecial.dita" keys="DB_pastespecial" />
+        <topicref href="_dialogboxes/DB_physicalmaterials.dita" keys="DB_physicalmaterials" />
+        <topicref href="_dialogboxes/DB_plotstamp.dita" keys="DB_plotstamp" />
+        <topicref href="_dialogboxes/DB_plotstyletableeditor.dita" keys="DB_plotstyletableeditor" />
+        <topicref href="_dialogboxes/DB_preprocesspointclouddatafiles.dita" keys="DB_preprocesspointclouddatafiles" />
+        <topicref href="_dialogboxes/DB_print.dita" keys="DB_print" />
+        <topicref href="_dialogboxes/DB_profiles.dita" keys="DB_profiles" />
+        <topicref href="_dialogboxes/DB_proxyinformation.dita" keys="DB_proxyinformation" />
+        <topicref href="_dialogboxes/DB_publish.dita" keys="DB_publish" />
+        <topicref href="_dialogboxes/DB_reassociateentitydata.dita" keys="DB_reassociateentitydata" />
+        <topicref href="_dialogboxes/DB_recordscript.dita" keys="DB_recordscript" />
+        <topicref href="_dialogboxes/DB_render.dita" keys="DB_render" />
+        <topicref href="_dialogboxes/DB_runbricscadvbamacro.dita" keys="DB_runbricscadvbamacro" />
+        <topicref href="_dialogboxes/DB_runscript.dita" keys="DB_runscript" />
+        <topicref href="_dialogboxes/DB_saveblock.dita" keys="DB_saveblock" />
+        <topicref href="_dialogboxes/DB_saveblockdefinition.dita" keys="DB_saveblockdefinition" />
+        <topicref href="_dialogboxes/DB_savecommunicatorinfoas.dita" keys="DB_savecommunicatorinfoas" />
+        <topicref href="_dialogboxes/DB_savedetail.dita" keys="DB_savedetail" />
+        <topicref href="_dialogboxes/DB_savedrawingas.dita" keys="DB_savedrawingas" />
+        <topicref href="_dialogboxes/DB_saveimagefile.dita" keys="DB_saveimagefile" />
+        <topicref href="_dialogboxes/DB_savepng.dita" keys="DB_savepng" />
+        <topicref href="_dialogboxes/DB_savesheetlist.dita" keys="DB_savesheetlist" />
+        <topicref href="_dialogboxes/DB_savesheetsetas.dita" keys="DB_savesheetsetas" />
+        <topicref href="_dialogboxes/DB_saveworkspace.dita" keys="DB_saveworkspace" />
+        <topicref href="_dialogboxes/DB_security1.dita" keys="DB_security1" />
+        <topicref href="_dialogboxes/DB_security2.dita" keys="DB_security2" />
+        <topicref href="_dialogboxes/DB_securityoptions.dita" keys="DB_securityoptions" />
+        <topicref href="_dialogboxes/DB_selectasheetsetfile.dita" keys="DB_selectasheetsetfile" />
+        <topicref href="_dialogboxes/DB_selectaviewpointforthiscomment.dita" keys="DB_selectaviewpointforthiscomment" />
+        <topicref href="_dialogboxes/DB_selectcolor.dita" keys="DB_selectcolor" />
+        <topicref href="_dialogboxes/DB_selectcolordependentplotstyletablefile.dita" keys="DB_selectcolordependentplotstyletablefile" />
+        <topicref href="_dialogboxes/DB_selectcustomdictionary.dita" keys="DB_selectcustomdictionary" />
+        <topicref href="_dialogboxes/DB_selectdrawingfile.dita" keys="DB_selectdrawingfile" />
+        <topicref href="_dialogboxes/DB_selectdrawings.dita" keys="DB_selectdrawings" />
+        <topicref href="_dialogboxes/DB_selectdxffile.dita" keys="DB_selectdxffile" />
+        <topicref href="_dialogboxes/DB_selectfiletoinsert.dita" keys="DB_selectfiletoinsert" />
+        <topicref href="_dialogboxes/DB_selectfirstdrawingforcomparison.dita" keys="DB_selectfirstdrawingforcomparison" />
+        <topicref href="_dialogboxes/DB_selectimagefile.dita" keys="DB_selectimagefile" />
+        <topicref href="_dialogboxes/DB_selectimagepositionfile.dita" keys="DB_selectimagepositionfile" />
+        <topicref href="_dialogboxes/DB_selectitemstodeletefromcache.dita" keys="DB_selectitemstodeletefromcache" />
+        <topicref href="_dialogboxes/DB_selectitemtoattachtothisdrawing.dita" keys="DB_selectitemtoattachtothisdrawing" />
+        <topicref href="_dialogboxes/DB_selectitemtoattachtothisdwg.dita" keys="DB_selectitemtoattachtothisdwg" />
+        <topicref href="_dialogboxes/DB_selectlicensefile.dita" keys="DB_selectlicensefile" />
+        <topicref href="_dialogboxes/DB_selectlocationtosavexmlfile.dita" keys="DB_selectlocationtosavexmlfile" />
+        <topicref href="_dialogboxes/DB_selectorcreateabricsyslibrary.dita" keys="DB_selectorcreateabricsyslibrary" />
+        <topicref href="_dialogboxes/DB_selectpagesetupfromfile.dita" keys="DB_selectpagesetupfromfile" />
+        <topicref href="_dialogboxes/DB_selectpdfunderlayfile.dita" keys="DB_selectpdfunderlayfile" />
+        <topicref href="_dialogboxes/DB_selectplotstyle.dita" navtitle="Select Plot Style dialog box" keys="DB_selectplotstyle" />
+        <topicref href="_dialogboxes/DB_selectreferencefile.dita" keys="DB_selectreferencefile" />
+        <topicref href="_dialogboxes/DB_selectseconddrawingforcomparison.dita" keys="DB_selectseconddrawingforcomparison" />
+        <topicref href="_dialogboxes/DB_selectsourcefile.dita" keys="DB_selectsourcefile" />
+        <topicref href="_dialogboxes/DB_selecttemplate.dita" keys="DB_selecttemplate" />
+        <topicref href="_dialogboxes/DB_selectvrmfile.dita" keys="DB_selectvrmfile" />
+        <topicref href="_dialogboxes/DB_selectxmlcsvfiletoimport.dita" keys="DB_selectxmlcsvfiletoimport" />
+        <topicref href="_dialogboxes/DB_selectxmlfile.dita" keys="DB_selectxmlfile" />
+        <topicref href="_dialogboxes/DB_selectxmlfiletoimport.dita" keys="DB_selectxmlfiletoimport" />
+        <topicref href="_dialogboxes/DB_settings.dita" keys="DB_settings" />
+        <topicref href="_dialogboxes/DB_settingsdgnimport.dita" keys="DB_settingsdgnimport" />
+        <topicref href="_dialogboxes/DB_settingsdrawingunits.dita" keys="DB_settingsdrawingunits" />
+        <topicref href="_dialogboxes/DB_settingsentityselection.dita" keys="DB_settingsentityselection" />
+        <topicref href="_dialogboxes/DB_settingsgrips.dita" keys="DB_settingsgrips" />
+        <topicref href="_dialogboxes/DB_settingslineweights.dita" keys="DB_settingslineweights" />
+        <topicref href="_dialogboxes/DB_settingsmodelerpropertiesforacis.dita" keys="DB_settingsmodelerpropertiesforacis" />
+        <topicref href="_dialogboxes/DB_settingspdfexport.dita" keys="DB_settingspdfexport" />
+        <topicref href="_dialogboxes/DB_settingssnaptracking.dita" keys="DB_settingssnaptracking" />
+        <topicref href="_dialogboxes/DB_settingssvgexport.dita" keys="DB_settingssvgexport" />
+        <topicref href="_dialogboxes/DB_settingsviewtransitionoptions.dita" keys="DB_settingsviewtransitionoptions" />
+        <topicref href="_dialogboxes/DB_setviewpoint.dita" keys="DB_setviewpoint" />
+        <topicref href="_dialogboxes/DB_sheetselectionsets.dita" keys="DB_sheetselectionsets" />
+        <topicref href="_dialogboxes/DB_specifypdffilename.dita" keys="DB_specifypdffilename" />
+        <topicref href="_dialogboxes/DB_spellchecking.dita" keys="DB_spellchecking" />
+        <topicref href="_dialogboxes/DB_structuretreeconfiguratiofile.dita" keys="DB_structuretreeconfiguratiofile" />
+        <topicref href="_dialogboxes/DB_usercoordinatesystem.dita" keys="DB_usercoordinatesystem" />
+        <topicref href="_dialogboxes/DB_userprofilemanger.dita" keys="DB_userprofilemanger" />
+        <topicref href="_dialogboxes/DB_vbamanager.dita" keys="DB_vbamanager" />
+        <topicref href="_dialogboxes/DB_viewsnaptshot.dita" keys="DB_viewsnaptshot" />
+        <topicref href="_dialogboxes/DB_walldetectionoptions.dita" keys="DB_walldetectionoptions" />
+        <topicref href="_dialogboxes/DB_wizardpage.dita" keys="DB_wizardpage" />
+        <topicref href="_dialogboxes/DB_workingsets.dita" keys="DB_workingsets" />
+        <topicref href="_dialogboxes/DB_writeblocktofile.dita" keys="DB_writeblocktofile" />
+      </topicref>
+    </topicref>
+    <topicref href="_UI/UI_toolbars.dita" keys="UI_toolbars">
+      <topicref href="empty%20titles/BCAD_toolbars_overview.dita" navtitle="Toolbars Overview" keys="toolbars_overview">
+        <topicref href="_toolbars/TB_blockedit.dita" navtitle="Block Edit Toolbar" keys="TB_blockedit" />
+        <topicref href="_toolbars/TB_insert.dita" navtitle="Insert Toolbar" keys="TB_insert" />
+        <topicref href="_toolbars/TB_tools.dita" navtitle="Tools  Toolbar" keys="TB_tools" />
+      </topicref>
+    </topicref>
+    <topicref href="_UI/UI_menus.dita" keys="UI_menus">
+      <topicref href="empty%20titles/BCAD_main_menus_overview.dita" navtitle="Main Menus Overview" keys="main_menus_overview">
+        <topicref href="_mainmenus/MM_insert.dita" navtitle="Insert Menu" keys="MM_insert" />
+        <topicref href="_mainmenus/MM_tools.dita" keys="MM_tools" />
+      </topicref>
+    </topicref>
+    <topicref href="_UI/UI_panels.dita" keys="UI_panels">
+      <topicref href="empty%20titles/BCAD_panels_overview.dita" keys="panelsoverview_title">
+        <topicref href="_panels/PNL_animationeditor.dita" keys="PNL_animationeditor" />
+        <topicref href="_panels/PNL_attachments.dita" keys="PNL_attachments" />
+        <topicref href="_panels/PNL_bimbcf.dita" keys="PNL_bimbcf" />
+        <topicref href="_panels/PNL_bimcompositions.dita" keys="PNL_bimcompositions" />
+        <topicref href="_panels/PNL_bimprofiles.dita" keys="PNL_bimprofiles" />
+        <topicref href="_panels/PNL_bimprojectbrowser.dita" keys="PNL_bimprojectbrowser" />
+        <topicref href="_panels/PNL_bommanager.dita" keys="PNL_bommanager" />
+        <topicref href="_panels/PNL_bricsys247.dita" keys="PNL_bricsys247" />
+        <topicref href="_panels/PNL_commandline.dita" keys="PNL_commandline" />
+        <topicref href="_panels/PNL_contentbrowser.dita" keys="PNL_contentbrowser" />
+        <topicref href="_panels/PNL_details.dita" keys="PNL_details" />
+        <topicref href="_panels/PNL_drawingcustomizations.dita" keys="PNL_drawingcustomizations" />
+        <topicref href="_panels/PNL_layer.dita" keys="PNL_layer" />
+        <topicref href="_panels/PNL_library.dita" keys="PNL_library" />
+        <topicref href="_panels/PNL_mechanicalbrowser.dita" keys="PNL_mechanicalbrowser" />
+        <topicref href="_panels/PNL_parametersandconstraints.dita" keys="PNL_parametersandconstraints"></topicref>
+        <topicref href="_panels/PNL_properties.dita" keys="PNL_properties" />
+        <topicref href="_panels/PNL_rendermaterials.dita" keys="PNL_rendermaterials" />
+        <topicref href="_panels/PNL_report.dita" keys="PNL_report"></topicref>
+        <topicref href="_panels/PNL_ribbon.dita" navtitle="Ribbon panel" keys="PNL_ribbon" />
+        <topicref href="_panels/PNL_sheetsets.dita" keys="PNL_sheetsets" />
+        <topicref href="_panels/PNL_structure.dita" keys="PNL_structure" />
+        <topicref href="_panels/PNL_tips.dita" keys="PNL_tips" />
+        <topicref href="_panels/PNL_toolpalettes.dita" keys="PNL_toolpalettes" />
+      </topicref>
+    </topicref>
+    <topicref href="_UI/UI_commandline.dita" keys="UI_commandline" />
+  </topicref>
+</map>

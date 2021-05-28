@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="crosshairdrawmode" xml:lang="en-US">
+   <title id="title__Toc50994907">CROSSHAIRDRAWMODE system variable</title>
+   <conbody>
+      <section><title>Crosshair rendering mode</title><p>Specifies the way the mouse cursor is rendered while inside the drawing window (crosshair, pickbox, etc.). If the value of CROSSHAIRDRAWMODE is 0, the crosshair is always rendered at window toolkit level. The sub-items enable a rendered cursor depending on visual style.</p><ul>
+            <li>In 2dwireframe, render the crosshair in OpengGL. Attempts to eliminate cursor duplicates or flickering, which may happen using the window toolkit.</li>
+            <li>In RedSDK visual styles, render the crosshair by RedSDK. Rendering the cursor by RedSDK tends to be faster, but some old systems might not support it.</li>
+         </ul><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>0 to 3</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0 (Mac &amp; Linux)</p>
+                           <p>2 (Windows)</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Always render crosshair at window toolkit level</p>
+                           <p>1: Render crosshair in OpenGL, for 2d drawings</p>
+                           <p>2: Render crosshair by RedSDK, for 3d drawings</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_array_0">
+    <title>Array dialog box</title>
+    <shortdesc>The Array dialog box allows you to create a 2D rectangular or polar array of
+        entities.</shortdesc>
+    <conbody>
+        <p>It includes 5 areas.</p>
+        <fig id="fig_kh3_fc3_qpb">
+            <image scope="external" id="image_rxr_b23_qpb" href="https://static.bricsys.com/help/en_US/DB_array_01_V21.png" />
+            <ol id="ol_isv_y23_qpb">
+                <li>Array Type</li>
+                <li>Select entities</li>
+                <li>Preview</li>
+                <li>Settings</li>
+                <li>Entity base point (Polar only) </li>
+            </ol>
+        </fig>
+        <section id="section_vgj_cf3_qpb">
+            <title>Array Type</title>
+            <p>Specifies whether a rectangular or polar array will be created.</p>
+        </section>
+        <section id="section_ux1_df3_qpb">
+            <title>Select entities</title>
+            <p>Temporarily closes the Array dialog box and prompts you to select entities. Press
+                Enter to complete your select and return to the Array dialog box.</p>
+        </section>
+        <section id="section_ql2_df3_qpb">
+            <title>Preview</title>
+            <p>Displays a preview of the array based on the specified settings.</p>
+        </section>
+        <section id="section_lfg_df3_qpb">
+            <title>Settings</title>
+            <p>Specifies the number and location of items in the array. The available settings
+                differ based on the array type.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Rectangular</dt>
+                        <dd>Copies the selected entities in a rectangular pattern.<fig id="fig_z5g_hf3_qpb">
+                                <image scope="external" href="https://static.bricsys.com/help/en_US/DB_array_02_V21.png" id="image_pbb_3f3_qpb" />
+                            </fig></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Count</dt>
+                        <dd outputclass="indent1">Specifies the number of rows and columns in the
+                            array.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Offset</dt>
+                        <dd outputclass="indent1">Specifies the distance between rows and columns.
+                            You can type a distance in the Offset fields or click the buttons to
+                            pick the offset distance in the drawing.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Offset field</dt>
+                        <dd outputclass="indent2">Enables you to type distances for the offsets.
+                            Positive distances add rows along the positive Y axis and add columns
+                            along the positive X axis. Negative distances add rows along the
+                            negative Y axis and add columns along the negative X axis.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Offset buttons</dt>
+                        <dd outputclass="indent2">Enables you to specify the offset distance by
+                            picking two points in the drawing. Clicking one of these buttons
+                            temporarily closes the Array dialog box and prompts you to pick
+                            points.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent3">Pick Row Offset</dt>
+                        <dd outputclass="indent3">Specifies the distance between rows. A temporary
+                            line displays between the two points you pick. The length of the line
+                            determines the offset distance. The angle of the line determines if rows
+                            are added along the positive or negative Y axis.</dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt outputclass="indent3">Pick Column Offset</dt>
+                        <dd outputclass="indent3">Specifies the distance between columns. A
+                            temporary line displays between the two points you pick. The length of
+                            the line determines the offset distance. The angle of the line
+                            determines if columns are added along the positive or negative X axis.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent3">Pick Both Offsets</dt>
+                        <dd outputclass="indent3">Specifies the distance between rows and the
+                            distance between columns. A temporary rectangle displays between the two
+                            points you pick. The length of the rectangle determines the distance
+                            between columns and the width of rectangle determines the distance
+                            between rows.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Slope Angle</dt>
+                        <dd outputclass="indent1">Specifies the angle of the array from the X axis.
+                            You can type an angle in the Angle field or click the button to pick an
+                            angle in the drawing.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Angle field</dt>
+                        <dd outputclass="indent2">Enables you to type an angle for the slope.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Pick Angle of Array button</dt>
+                        <dd outputclass="indent2">Enables you to specify the angle of the array by
+                            picking two points in the drawing. Clicking the button temporarily
+                            closes the Array dialog box and prompts you to pick points.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Polar</dt>
+                        <dd>Copies the selected entities in a circular pattern. <fig id="fig_m3k_2y3_qpb">
+                                <image href="https://static.bricsys.com/help/en_US/DB_array_03_V21.png" id="image_tqc_ry3_qpb" scope="external" />
+                            </fig></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Center</dt>
+                        <dd outputclass="indent1">Specifies the center point of the polar array. You
+                            can type coordinates in the X and Y fields or click the button to pick
+                            the center in the drawing.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">X field</dt>
+                        <dd outputclass="indent2">Enables you to type a coordinate to place the
+                            center of the array along the X axis.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Y field</dt>
+                        <dd outputclass="indent2">Enables you to type a coordinate to place the
+                            center of the array along the Y axis.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Pick Center Point button</dt>
+                        <dd outputclass="indent2">Enables you to specify the center of the array by
+                            picking a point in the drawing. Clicking the button temporarily closes
+                            the Array dialog box and prompts you to pick a point.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Angle between</dt>
+                        <dd outputclass="indent1">Specifies the angle between each item in the polar
+                            array. You can type an angle in the field, click the button to pick an
+                            angle in the drawing, or choose the Calculate option.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Angle field</dt>
+                        <dd outputclass="indent2">Enables you to type a value to specify the angle
+                            between each item of the array.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Pick Angle Between Items button</dt>
+                        <dd outputclass="indent2">Enables you to specify the angle between each time
+                            by picking a point in the drawing. Clicking the button temporarily
+                            closes the Array dialog box and prompts you to pick a point. A temporary
+                            line displays between the center point of the array and the point you
+                            pick. The angle of the line determines the angle between items.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Calculate</dt>
+                        <dd outputclass="indent2">Enables you to specify the angle between each item
+                            based on the Angle to fill and number of items. Choosing the Calculate
+                            radio button disables the Angle between options and enables the Angle to
+                            fill options.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Angle to fill</dt>
+                        <dd outputclass="indent1">Specifies the fill angle and direction for a polar
+                            array. You can type an angle in the field, click the button to pick an
+                            angle in the drawing, or choose the Calculate option.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Angle field</dt>
+                        <dd outputclass="indent2">Enables you to type a value to specify the fill
+                            angle of the array. Enter 360 for a full circle of copies. Enter a
+                            smaller number to draw a partial polar array. Positive values draw the
+                            array counterclockwise and negative values draw the array clockwise.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Pick Angle to Fill button</dt>
+                        <dd outputclass="indent2">Enables you to specify the fill angle of the array
+                            by picking a point in the drawing. Clicking the button temporarily
+                            closes the Array dialog box and prompts you to pick a point. A temporary
+                            line displays between the center point of the array and the point you
+                            pick. The angle of the line determines the fill angle.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Calculate</dt>
+                        <dd outputclass="indent2">Enables you to specify the fill angle based on the
+                            angle between items and the number of items. Choosing the Calculate
+                            radio button disables the Angle to fill options and enables the Angle
+                            between options.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Number of items</dt>
+                        <dd outputclass="indent1">Specifies the number of items in the polar array.
+                            You can type a number in the field or choose the Calculate option.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Number field</dt>
+                        <dd outputclass="indent2">Enables you to enter the number of items to
+                            include in the array.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Calculate</dt>
+                        <dd outputclass="indent2">Enables you to specify the number of items based
+                            on the angle between items and the fill angle. Choosing the Calculate
+                            radio button disables the Number of items options and enables the Angle
+                            Between and Angle to Fill options.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Rotate items as copied</dt>
+                        <dd outputclass="indent1">Specifies whether array items are rotated when
+                            they are copied to form the polar array. <ul id="ul_wp5_kz3_qpb">
+                                <li>No: does not rotate items; all copies have the same orientation
+                                    as the original item.</li>
+                                <li>Yes: rotates copies.</li>
+                            </ul></dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_yds_2f3_qpb">
+            <title>Entity base point (Polar only)</title>
+            <p>Specifies the base point of items in a polar array.</p>
+            <fig id="fig_mpr_c1j_qpb">
+                <image href="https://static.bricsys.com/help/en_US/DB_array_04_V21.png" scope="external" id="image_npr_c1j_qpb" />
+            </fig>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt outputclass="indent1">X field</dt>
+                        <dd outputclass="indent1">Enables you to type a coordinate to specify the
+                            basepoint of array items along the X axis.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Y field</dt>
+                        <dd outputclass="indent1">Enables you to type a coordinate to specify the
+                            basepoint of array items along the Y axis.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Pick base point button</dt>
+                        <dd outputclass="indent1">Enables you to specify the base point of array
+                            items by picking a point in the drawing. Clicking the button temporarily
+                            closes the Array dialog box and prompts you to pick a point.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Use Default</dt>
+                        <dd outputclass="indent1">Uses the default basepoint for array entities.
+                            Choosing the Use default option disables the other entity base point
+                            options.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_3darray" />
+            <link keyref="CMD_array" />
+            <link keyref="CMD_-array" />
+            <link keyref="CMD_arrayclassic" />
+            <link keyref="CMD_arrayedit" />
+            <link keyref="CMD_arraypath" />
+            <link keyref="CMD_arraypolar" />
+            <link keyref="CMD_arrayrect" />
+            <link keyref="CMD_minsert" />
+            
+        </linklist>
+    </related-links>
+</concept>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gctangent">
+   <title>GCTANGENT command</title>
+   <shortdesc>Creates a tangent geometric constraint on 2D entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a tangent constraint to ensure curved entities remain tangent to another curved or linear entity.</p>
+      <section id="section_dty_mnc_x4b">
+         <title>Methods to create a tangent constraint</title>
+         <p>There is one method to begin creating a tangent constraint:<ul id="ul_vb3_mnc_x4b">
+               <li>Select first entity</li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select First Entity</dt>
+                  <dd>Begin creating a tangent constraint by selecting a linear or curved entity then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select Second Entity</dt>
+                  <dd outputclass="indent1">Select a second entity to make tangent to the first. The first entity maintains its position while the second entity moves, as necessary, to become tangent to the first entity. At least one curved entity must be selected per tangent constraint.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="the_start_tab">
+   <title>The Start tab</title>
+   <shortdesc>The <uicontrol>Start</uicontrol> tab is located on top of the drawing area, before the
+      document tab(s).</shortdesc>
+   <conbody>
+      <p>In the <uicontrol>Start</uicontrol> tab you can:<ul id="ul_hlz_nzw_smb">
+            <li>
+               <p><b>Open a recent drawing</b></p>
+               <p>Click the thumbnail image of a recent file.</p>
+               <p>The number of available recent files is controlled by the value of the RECENTFILES
+                  system variable.</p>
+            </li>
+            <li>
+               <p><b>Create a new drawing</b></p>
+               <p>Click the <uicontrol>New Drawing</uicontrol> tile to create a new drawing using the current drawing template. Optionally, open the <uicontrol>Drawing Template</uicontrol> list to select a different drawing template.</p>
+            </li>
+            <li>
+               <p><b>Open a drawing</b></p>
+               <p>Displays the <uicontrol>Open Drawing</uicontrol> dialog box.</p>
+            </li>
+         </ul></p>
+      <fig id="fig_blk_4zw_smb">
+         <image href="https://static.bricsys.com/help/en_US/V20/BCAD/Getting%20Started/StartTab_Home.png" id="image_ilz_nzw_smb" scope="external" />
+      </fig>
+      <p>The <uicontrol>Start</uicontrol> tab is active by default. If you accidentally closed the
+         tab, you could reopen it with the <b>Ctrl+Home</b> keyboard shortcut or with the GOTOSTART
+         command.</p>
+      <p>
+         <note>When using the <b>Ctrl+Home</b> keyboard shortcut, make sure to turn off Num lock.</note>
+      </p>
+      <p>
+         <note>The SHOWDOCTABS system variable needs to be <b>ON</b> to display the
+               <uicontrol>Start</uicontrol> tab.</note>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_gotostart" />
+         <link keyref="CMD_gotostart" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_recentfiles" />
+         <link keyref="SV_showdoctabs" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_document_tabs" />
+      </linklist>
+   </related-links>
+</concept>

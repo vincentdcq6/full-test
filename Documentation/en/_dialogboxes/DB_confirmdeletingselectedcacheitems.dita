@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_confirmdeletingselectedcacheitems_0">
+    <title>Confirm deleting selected cache items</title>
+    <shortdesc>The Confirm deleting selected cache items dialog box enables you to review a list of
+        cached point cloud files that were selected to be deleted.</shortdesc>
+    <conbody>
+        <p>This gives you a final opportunity to cancel the operation before permanently removing
+            them from the cache.</p>
+        <p>It includes 4 areas.</p>
+        <fig id="fig_tst_xzh_lpb">
+            <image href="https://static.bricsys.com/help/en_US/DB_confirmdeletingselectedcacheitems_01_V21.png" id="image_sry_13g_npb" scope="external" />
+            <ol id="ol_zpl_yzh_lpb">
+                <li>Dataset </li>
+                <li>Size</li>
+                <li>OK</li>
+                <li>Cancel</li>
+            </ol>
+        </fig>
+        <section id="section_njr_113_lpb">
+            <title>Dataset</title>
+            <p>Displays a list of cached point cloud files that you selected to delete from the
+                cache. It includes their names and locations. </p>
+        </section>
+        <section id="section_myc_b13_lpb">
+            <title>Size</title>
+            <p>Displays the amount of cache used for each of the selected point cloud files.</p>
+        </section>
+        <section id="section_acn_b13_lpb">
+            <title>OK</title>
+            <p>Deletes the point cloud files from the cache. Any drawings that reference these files
+                will be unable to find them. </p>
+        </section>
+        <section id="section_lby_b13_lpb">
+            <title>Cancel </title>
+            <p>Closes the dialog box without deleting point cloud files from the cache. </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_-pointcloudattach" />
+            <link keyref="CMD_pointcloudattach" />
+            <link keyref="SV_pointcloudcachesize" />
+            <link keyref="CMD_pointcloudreference" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_pointcloudcachefolder" />
+        </linklist>
+    </related-links>
+</concept>

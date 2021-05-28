@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_delete_a_role">
+    <title>Delete a role</title>
+    <taskbody>
+        <context>
+            <p>You can delete a role:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_lps_hwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Roles</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select a role in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>ellipsis</uicontrol> button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_u1c_fbs_v4b" scale="75" scope="external" />
+                    at the top of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Delete</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Delete roles</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Delete</uicontrol> to delete this role.</cmd>
+            </step>
+        </steps>
+        <result id="result_xjd_l2n_dpb">A pop up window informs you that the role is
+            deleted.</result>
+    </taskbody>
+</task>

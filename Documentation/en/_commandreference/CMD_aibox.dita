@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_aibox">
+   <title>AI_BOX command</title>
+   <shortdesc>Creates a 3D polyface mesh in the shape of a box.</shortdesc>
+   <conbody>
+      <fig id="fig_zsh_cxp_x4b"><!--Insert License Level--></fig>
+      <fig id="fig_zs2_fxp_x4b">
+         <image outputclass="indent1" id="image_at2_fxp_x4b" scope="external"><!--Insert link to Tool icon--></image>
+      </fig>
+      <p><!--Alias:--></p>
+      <p>Create a 3D polyface mesh in the shape of a rectangular or square box. Choose from a combination of options including corner, length, width, height, cube, and rotation angle.</p>
+      <fig id="fig_irh_hxp_x4b">
+         <image href="https://static.bricsys.com/help/en_US/CMD_AIBOX_01_V21.png" id="image_bms_szp_x4b" scope="external" />
+      </fig>
+      <section id="section_ffx_hxp_x4b">
+         <title>Methods to create a box</title>
+         <p>here is one method to begin creating a box:<ul id="ul_hv3_3xp_x4b">
+               <li>Corner of box</li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Corner of box</dt>
+                  <dd>Begin creating a box by specifying a corner for the base of the box then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Length of side of box</dt>
+                  <dd outputclass="indent1">Specify the length of the box.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Set width of box</dt>
+                  <dd outputclass="indent1">Specify the width of the box.</dd>
+                  <dd outputclass="indent1">Additional option: [Cube]</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Height of box</dt>
+                  <dd outputclass="indent1">Specify the height of the box.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Rotation angle for box</dt>
+                  <dd outputclass="indent1">Specify the rotation angle of the base of the box in the xy-plane. The default is 0.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+      <section id="section_shs_4xp_x4b">
+         <title>Option within the AI_BOX command</title>
+         <p>After you begin creating a box, the following option may be available:</p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Cube</dt>
+                  <dd>Specify a single distance to use for the length, width, and height of the box.<fig id="fig_pbj_rxp_x4b">
+                        <image href="https://static.bricsys.com/help/en_US/CMD_AIBOX_02_V21.png" id="image_zql_pbq_x4b" scope="external" />
+                     </fig></dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands:</title>
+      </linklist>
+<link keyref="CMD_box" />
+      <link keyref="CMD_ai_cone" />  
+<link keyref="CMD_aicylinder" />
+      <link keyref="CMD_aidish" />
+      <link keyref="CMD_aidome" />
+      <link keyref="CMD_aipyramid" />
+      <link keyref="CMD_aisphere" />
+      <link keyref="CMD_aitorus" />
+      <link keyref="CMD_ai_wedge" />
+      <link keyref="CMD_edgesurf" />
+      <link keyref="CMD_revsurf" />
+      <link keyref="CMD_rulesurf" />
+      <link keyref="CMD_tabsurf" /> 
+</related-links>
+</concept>

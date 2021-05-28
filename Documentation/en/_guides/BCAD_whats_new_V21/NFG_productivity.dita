@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A527161A-523CBD3-B53C1921286683A-475271">
+   <title>Productivity</title>
+   <shortdesc><!--TBA--></shortdesc>
+
+   <conbody>
+      <section id="section_yhn_3d5_r4b">
+         <title>Move with guide curves</title>
+         <p>The new MOVEGUIDED command enables you to move selected entities using reference
+            curves.</p>
+         <p>When you launch the MOVEGUIDED Command and select the entities you want to move,
+            entities that fall completely within the selection window will be moved. Entities
+            crossing the selection window are used as reference curves. Blue vectors on
+            the selected entities represent the reference curves. As you move the selected entities
+            near geometry that matches the reference curves, they automatically snap into place.
+            Relevant geometry in the new location is automatically trimmed and geometry in the
+            original location is automatically healed. This significantly reduces the amount of
+            manual editing required!<fig id="fig_xyf_jd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_01_V21.png" id="image_zhn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>For more flexibility, you can first select the entities you want to move and then launch
+            the MOVEGUIDED command. The pre-selected entities are used for the Move selection set
+            and you are prompted to select entities to use as reference curves.</p>
+      </section>
+      <section id="section_a3n_3d5_r4b">
+         <title>Copy in a linear array</title>
+         <p>The COPY command now includes a new <uicontrol>Array</uicontrol> option enabling you to
+            copy selected entities in a linear array. The new Array option is available after you
+            specify the base point for the copy operation.<fig id="fig_v5z_jd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_02_V21.png" id="image_b3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>You specify the number of copies to array then pick a point to specify the distance and angle between the first two sets of entities or use the <uicontrol>Fit</uicontrol> option to specify the distance and angle between the first and last sets of entities.<fig id="fig_iw3_kd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_03_V21.png" id="image_c3n_3d5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_d3n_3d5_r4b">
+         <title>Undo per entity</title>
+         <p>A new History control in the Properties panel enables you to undo editing operations for
+            a selected entity. The History property only displays when you select a single entity.
+            Open the History drop-down list to undo the entity back to one of the previous steps
+            without undoing all the other commands and view operations that have been executed
+               since.<fig id="fig_wjs_kd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_04_V21.png" id="image_e3n_3d5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_f3n_3d5_r4b">
+         <title>Manipulator</title>
+         <p>Press the SHIFT key to rotate the Manipulator 90 degrees about its normal axis.<fig id="fig_u2b_ld5_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Productivity_05_V21.png" id="image_g3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>The Copy and Repeat options in the Manipulator are now visible, clickable, and localized.<fig id="fig_sgj_ld5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_06_V21.png" id="image_h3n_3d5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_i3n_3d5_r4b">
+         <title>Nearest Distance</title>
+         <p>The NEARESTDISTANCE command <!--no link to such a command, is it a SV?--> offers
+            improved performance and behavior including support for Point entities.<fig id="fig_k45_ld5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_07_V21.png" id="image_j3n_3d5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_k3n_3d5_r4b">
+         <title>Layers</title>
+         <p>BricsCAD v21 offers several layer enhancements to help increase your productivity.</p>
+         <p><b>Layer Translator</b></p>
+         <p>The new LAYTRANS command enables you quickly apply layer names and properties from
+            another drawing file to the current drawing. When you launch the LAYTRANS command, the
+            Layer Translator dialog displays. All the layer names in the current drawing are
+            displayed in the Translate From list. You can specify the layers to which you want them
+            to map by loading layer information from an existing DWG, DWS, or DWT file.<fig id="fig_bwg_md5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_08_V21.png" id="image_l3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>You can also create new layers. Simply enter the layer name and properties to which you want to map existing layer.<fig id="fig_x2n_md5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_09_V21.png" id="image_m3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>You can select one or more layers from the current drawing, the list on the left, to map to a layer from the list on the right. If you choose <uicontrol>Map Same</uicontrol>, any layer names in the current drawing with corresponding names in the list on the right will inherit the properties from the list on the right. The layer mappings you select are displayed in the Translation Mappings list.<fig id="fig_pj5_md5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_10_V21.png" id="image_n3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>Regardless of how you add layers to the Translation Mappings list, you can modify their mapping properties. Double-click on a layer or choose <uicontrol>Edit</uicontrol> to open the Edit Layer dialog box with the same options at the New Layer dialog. You can also remove layers from the Translation Mappings list or save the mapping list to use again in the future.</p>
+         <p>The Options dialog offers additional controls for layer mappings.<fig id="fig_ipb_nd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_11_V21.png" id="image_o3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Set by Layer</b></p>
+         <p>The new SETBYLAYER and -SETBYLAYER commands enable you quickly change property overrides
+            of selected entities to ByLayer.</p>
+         <p>Use the new SETBYLAYERMODE system variable to control which properties are affected by
+            the SETBYLAYER commands. The value is stored as a bitcode using the sum of the values of
+            all selected options.</p>
+         <ul id="ul_p3n_3d5_r4b">
+            <li>1: Color</li>
+            <li>2: Linetype</li>
+            <li>4: Lineweight</li>
+            <li>8: Material</li>
+            <li>16: Plot style</li>
+            <li>32: ByBlock</li>
+            <li>64: Blocks</li>
+            <li>128: Transparency</li>
+         </ul>
+         <p><b>Layer properties by Viewport</b></p>
+         <p>The VPLAYER command is enhanced in 21 allowing you to select entities on layers for
+            which you want to apply viewport overrides. After selecting which layer property you
+            want to modify for the viewport, you can type the name of the layer or press enter to
+            specify the layer by selecting an entity on that layer.<fig id="fig_wln_nd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_12_V21.png" id="image_q3n_3d5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_r3n_3d5_r4b">
+         <title>Linetypes</title>
+         <p>BricsCAD now supports selection of linetype gaps with the addition of the LTGAPSELECTION
+            system variable. With LTGAPSELECTION enabled, entities are highlighted and selected even
+            when you pick in the gap.<fig id="fig_k1v_nd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_13_V21.png" id="image_s3n_3d5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_t3n_3d5_r4b">
+         <title>Parameters &amp; Constraints</title>
+         <p>BricsCAD V21 offers powerful enhancements for creating parametric drawings and block definitions.</p>
+         <p><b>Parameters &amp; Constraints Panel</b></p>
+         <p>All BricsCAD license levels now support 2D parameters and constraints. View and modify parameters and constraints in the Parameters and Constraints panel. The panel is extended to display 3D geometric constraints, 2D dimensional constraints, parametric blocks, and arrays.<fig id="fig_cld_4d5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_14_V21.png" id="image_u3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>The right-click menu for parameters and constraints enables you to specify if parameters
+            are geometry-driven. Expressions for such parameters cannot be edited (you can switch
+            geometry-driven status off to edit them) – instead they are automatically computed from
+            3D geometry via 3D dimensional constraints that depend, directly or indirectly, on
+            geometry-driven parameters. Simple arithmetic expressions for such 3D dimensional
+            constraints are solved in dynamics when you change your geometry with direct editing
+            tools such as DMPUSHPULL or DMMOVE/DMROTATE.<fig id="fig_omm_4d5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_15_V21.png" id="image_v3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>The right-click menu also enables you to control if a parameter is exposed for editing when inserted as a block.</p>
+         <p>If you open a 3D parametric model with a BricsCAD Lite license, 3D constraints are shown in magenta. You can view and edit their expressions with BricsCAD Lite. However, the 3D model only reflects the changes after it’s opened with a BricsCAD Pro license or above.</p>
+         <p><b>Automatic Constrain</b></p>
+         <p>The new AUTOCONSTRAIN command enables you to automatically apply 2D geometric and
+            dimensional constraints to selected 2D geometry. BricsCAD fully constraints the
+            geometry, ensuring not to over-constrain it. The geometric and dimensional constraints
+            are displayed on the geometry. You can view, add, remove, and modify the parameters and
+            constraints in the Parameters and Constraints panel.<fig id="fig_zkb_pd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_16_V21.png" id="image_w3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Reference Curves</b></p>
+         <p>The new REFERENCECURVES command enables you to specify reference geometry for blocks.
+            When you select geometry to use for reference, BricsCAD creates a REFERENCE_CURVES layer
+            (if it doesn’t already exist) and adds the selected entities to that layer.</p>
+         <p>With reference curves specified in a drawing or block definition, you can automatically align the block or drawing to relevant geometry when you insert it. The number of reference curves and the distance between them determines with which geometry it can align. As the cursor approaches relevant geometry, the block can automatically flip, offering multiple insertion options. Distances between the ends of the relevant geometry and block are displayed, enabling you to enter specific values if you wish. And, if the reference curves include gaps, relevant geometry is automatically trimmed to produce matching gaps.<fig id="fig_bdk_pd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_17_V21.png" id="image_x3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>You can also use reference curves to automatically align with corners. The following example includes 4 parallel reference curves and a single corner reference curve enabling the door block to align with geometry that matches the four parallel lines and single perpendicular line.<fig id="fig_wdq_pd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_18_V21.png" id="image_y3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Visibility States</b></p>
+         <p>The new VISIBILITYSTATES command enables you to define visibility parameters and states.
+            You can create multiple visibility parameters in a drawing or block definition. And, you
+            can create multiple visibility states in each visibility parameter. When you insert the
+            drawing or block, you can change the visibility of each instance. For example, you might
+            create a door block with two visibility parameters, SwingAngle and Header.</p>
+         <p>The SwingAngle parameter includes 5 visibility states: Closed, 30, 45, 60, and 90.<fig id="fig_rhy_pd5_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Productivity_19_V21.png" id="image_z3n_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>The Header parameter includes two visibility states: <uicontrol>On</uicontrol> and <uicontrol>Off</uicontrol>.<fig id="fig_asg_qd5_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Productivity_20_V21.png" id="image_ajn_3d5_r4b" scope="external" />
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Productivity_21_V21.png" id="image_bjn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>You create all the geometry for each of the visibility states and then select the appropriate geometry to display in each state of each parameter. Geometry that doesn’t belong to a visibility state is always displayed. This door example enables 10 variations of block insertions.<fig id="fig_sls_qd5_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Productivity_22_V21.png" id="image_cjn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>You can easily change the visibility states for a selected block insertion using the Properties panel.<fig id="fig_erw_qd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_23_V21.png" id="image_djn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p><b>3D Radius Constraints</b></p>
+         <p>The DMRADIUS3D command enables you to create geometry-driven 3D radius constraints to
+            measure the radius of entities inside blocks.<fig id="fig_z5b_rd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_25_V21.png" id="image_ejn_3d5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_fjn_3d5_r4b">
+         <title>Blocks</title>
+         <p>BricsCAD V21 offers many enhancements to increase your productivity when working with blocks.</p>
+         <p><b>Block Attribute Properties</b></p>
+         <p>You can now access block attribute properties in the Properties panel. This allows you to view and edit multiple attributes at the same time. Press the Ctrl key to select one or more attributes within block instances. Open the Properties panel to display the Attributes entity type with all the relevant attribute properties.<fig id="fig_a5h_rd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_27_V21.png" id="image_gjn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Library Panel</b></p>
+         <p>The new Library panel offers a central location to access 2D and 3D block libraries. It replaces both the Components and the 2D Parametric Blocks panels from previous releases.<fig id="fig_jct_rd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_28_V21.png" id="image_hjn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>A menu in the upper right corner allows you to control which content is displayed in the Library panel. It may include pre-defined content from Bricsys libraries as well as the User Defined library with your own content.<fig id="fig_iz1_sd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_29_V21.png" id="image_ijn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>You can specify where BricsCAD looks for library content by selecting the Manage libraries option. It offers quick access to the COMPONENTSPATH setting so you can view and modify library folder locations. Another menu option automatically generates thumbnail images for any that are missing.</p>
+         <p>You can search for content by typing key words in the Search box or expand a category to
+            see all the content within that category. And you can display the content in a grid or
+            list view.<fig id="fig_vn4_r1r_cpb">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_30_V21.png" id="image_kjn_3d5_r4b" scope="external" />
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_31_V21.png" id="image_ljn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>You can easily add new block definitions to the library using the Add button at the bottom of the Library panel. Select specific entities from the drawing or use the entire drawing.<fig id="fig_kcw_td5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_32_V21.png" id="image_mjn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Block Icons</b></p>
+         <p>The new BLOCKICON command creates or updates thumbnail images that enable you to preview
+            blocks with various tools including Drawing Explorer and the Library panel.</p>
+         <p><b>Non-uniformly scaled blocks</b></p>
+         <p>The EXPLODE command and the XPLODE command now honor the EXPLMODE system variable when
+            exploding non-uniformly scaled blocks.</p>
+         <p><b>Insert </b></p>
+         <p>The INSERT command is enhanced to support parametric blocks. Block definitions
+            containing parametric entities with exposed parameters can now be parametrically changed
+            after insertion by the INSERT Command. To insert parametric BIM and Mechanical
+            components, use the BMINSERT command.</p>
+      </section>
+      <section id="section_njn_3d5_r4b">
+         <title>Drawing Optimizations</title>
+         <p>A new Drawing Optimizations ribbon panel offers tools to clean up and optimize your drawings.</p>
+         <p><b>Simplify</b></p>
+         <p>The new SIMPLIFY command reduces the number of vertices of polylines and hatch
+            boundaries without changing their general shape. Options allow you to switch between
+            simplifying and smoothening. Additional options enable you to control the amount of
+            deviation from the original entity. Simplified entities are easier to manipulate and can
+            significantly reduce file size.</p>
+         <p><b>Purge</b></p>
+         <p>The PURGE command is enhanced so the Batch, All, and Orphaned data options remove more
+            items from the drawing.</p>
+         <p><b>Audit </b></p>
+         <p>The AUDIT command is enhanced to clean up duplicate ACIS attributes. A combination of
+            AUDIT and CLEANUNUSEDVARIABLES now cleans a drawing from multiple orphan parameters.</p>
+         <p><b>Delete Duplicate Entities</b></p>
+         <p>The OVERKILL command enables you to choose if you want to delete duplicate entities or
+            move them to a specified layer. You can specify the layer name using the new
+            OVERKILLLAYER setting or leave the default name, Duplicate Entities.</p>
+         <p>A new option in the OVERKILL Command allows you to combine duplicate block definitions.
+            Choosing this option displays the Combine Duplicate Blocks dialog box where you can
+            specify any block properties you want to ignore. You can specify how closely the
+            geometry must match by entering a comparison tolerance. If BricsCAD finds more than one
+            block definition whose geometry meets the tolerance and properties criteria, it uses the
+            most recent definition to replace any instances of the older definitions. The older
+            definitions become unused and you can enable the Purge duplicate blocks option to
+            automatically purge them.<fig id="fig_fnn_5d5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_33_V21.png" id="image_ojn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Optimize</b></p>
+         <p>The new OPTIMIZE command helps you clean up 2D lines in your drawings. It displays the
+            Optimize 2D Lines dialog box where you can control which lines are affected. Specify
+            which lines BricsCAD should consider for optimization. You can select specific line
+            entities or have BricsCAD analyze and optimize all line entities in the drawing. It can
+            find and fix lines that are within a specified angle tolerance relative to horizontal,
+            vertical, or 45 degrees, in the current UCS. An additional option automatically closes
+            gaps within a specified tolerance.<fig id="fig_w1w_5d5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_34_V21.png" id="image_pjn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>The Optimize tool is useful for cleaning up any 2D lines. For example, you can use it to quickly clean up line geometry extracted from point clouds.<fig id="fig_jj2_vd5_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Productivity_35_V21.png" id="image_qjn_3d5_r4b" scope="external" />
+            </fig><fig id="fig_bzj_vd5_r4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_BricsCAD_Productivity_36_V21.png" id="image_rjn_3d5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_sjn_3d5_r4b">
+         <title>Object Linking and Embedding</title>
+         <p>The Properties panel for OLE objects is enhanced to provide additional information for
+            the selected OLE entity. The additional information may include Type, such as Embedded
+            or Static, Plot quality, and Source application.<fig id="fig_hlv_vd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_37_V21.png" id="image_tjn_3d5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_ujn_3d5_r4b">
+         <title>Images</title>
+         <p>Image manipulation is enhanced in BricsCAD V21. When you manipulate an attached image using grips and other editing tools the image content displays and updates as you edit the image frame. This enables you to position, align, and scale the image using the image content for reference. The selected image temporarily displays above any overlapping objects as you edit it.</p>
+      </section>
+      <section id="section_vjn_3d5_r4b">
+         <title>Hyperlinks</title>
+         <p>The Edit Hyperlink dialog box now enables you to link to layouts and views inside a
+            drawing. After selecting the drawing to which you want to link, choose
+               <uicontrol>Target</uicontrol> to open the Select Target View dialog box.<fig id="fig_lbf_wd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_38_V21.png" id="image_wjn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>The Select Target View dialog box displays a list of all named views and layouts in the linked drawing.<fig id="fig_bmk_wd5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_39_V21.png" id="image_xjn_3d5_r4b" scope="external" />
+            </fig></p>
+         <p>To access a hyperlink, double-click on the hyperlink in the Properties panel for the selected entity or press and hold the right mouse button and choose <uicontrol>Hyperlink</uicontrol> from the menu.</p>
+         <fig id="fig_jdp_t1r_cpb">
+            <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_40_V21.png" id="image_zjn_3d5_r4b" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Productivity_41_V21.png" id="image_akn_3d5_r4b" scope="external" />
+         </fig>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_audit" />
+         <link keyref="CMD_autoconstrain" />
+         <link keyref="CMD_blockicon" />
+         <link keyref="CMD_bminsert" />
+         <link keyref="CMD_copy" />
+         <link keyref="CMD_dmradius3d" />
+         <link keyref="CMD_explode" />
+         <link keyref="CMD_insert" />
+         <link keyref="CMD_laytrans" />
+         <link keyref="CMD_moveguided" />
+         <link keyref="CMD_optimize" />
+         <link keyref="CMD_overkill" />
+         <link keyref="CMD_purge" />
+         <link keyref="CMD_referencecurves" />
+         <link keyref="CMD_setbylayer" />
+         <link keyref="CMD_-setbylayer" />
+         <link keyref="CMD_simplify" />
+         <link keyref="CMD_visibilitystates" />
+         <link keyref="CMD_vplayer" />
+         <link keyref="CMD_xplode" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_explmode" />
+         <link keyref="SV_ltgapselection" />
+         <link keyref="SV_nearestdistance" />
+         <link keyref="SV_setbylayermode" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="PNL_properties" />
+      </linklist>
+   </related-links>
+</concept>

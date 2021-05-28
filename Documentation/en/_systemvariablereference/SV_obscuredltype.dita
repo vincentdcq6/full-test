@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="obscuredltype" xml:lang="en-US">
+   <title id="title__Toc50995380">OBSCUREDLTYPE system variable</title>
+   <conbody>
+      <section><title>Obscured linetype</title><p>Specifies the linetype of obscured lines. Unlike regular linetypes, obscured linetypes are zoom level independent.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 11</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Off</p>
+                           <p>1: Solid</p>
+                           <p>2: Dashed</p>
+                           <p>3: Dotted</p>
+                           <p>4: Short Dash</p>
+                           <p>5: Medium Dash</p>
+                           <p>6: Long Dash</p>
+                           <p>7: Double Short Dash</p>
+                           <p>8: Double Medium Dashsettings</p>
+                           <p>9: Double Long Dash</p>
+                           <p>10: Medium Long Dash</p>
+                           <p>11: Sparse Dot</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

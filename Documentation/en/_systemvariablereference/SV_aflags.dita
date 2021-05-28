@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="aflags_8" xml:lang="en-US">
+   <title id="title__Toc50994789">AFLAGS system variable</title>
+   <conbody>
+      <section><title>Attribute options</title><p>Specifies the default options for attribute creation. The value is stored as a bitcode using the sum of the values of all selected options.</p>
+         <p>
+            <table id="table_xx3_x2z_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/not_saved" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: No mode selected</p>
+                           <p>1: Invisible</p>
+                           <p>2: Constant</p>
+                           <p>4: Verify</p>
+                           <p>8: Preset</p>
+                           <p>16: Lock position</p>
+                           <p>32: Multiline</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

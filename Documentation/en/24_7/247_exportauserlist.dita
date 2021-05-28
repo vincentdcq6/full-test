@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_export_a_user_list">
+    <title>Export a user list</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_lps_hwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Users</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Export to .xls</uicontrol>
+                    <image href="../IMAGES_temp/export_to_xls_button.PNG" id="image_jmc_qzr_v4b" scale="75" scope="external" />.</cmd>
+                <stepresult>An Excel file including users and roles is saved to your download
+                    folder.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

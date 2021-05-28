@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_design_a_workflow">
+    <title>Design a workflow</title>
+    <taskbody>
+        <context>
+            <p>You can design a workflow in the Bricsys 24/7 Workflow Viewer:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Add activity</uicontrol>
+                    <image href="../IMAGES_temp/add_activity_workflow_viewer.PNG" id="image_ntt_f13_z4b" scale="80" scope="external" />. </cmd>
+                <info>
+                    <div>
+                        <fig id="fig_uf1_ll4_z4b">
+                            <title>Example of activities</title>
+                            <image href="../IMAGES_temp/activities.png" id="image_vf1_ll4_z4b" width="150mm" scope="external" />
+                        </fig>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Click on the grid to add an activity.</cmd>
+                <stepresult>The <wintitle>Activity settings</wintitle> window appears.<div>
+                        <fig id="fig_gdb_r13_z4b">
+                            <title>Activity settings</title>
+                            <image href="../IMAGES_temp/activity_settings_window.PNG" id="image_hdb_r13_z4b" scale="50" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Enter a name for the activity.</cmd>
+            </step>
+            <step>
+                <cmd>Select an action.</cmd>
+                <info>
+                    <div>An action is the type of the activity. You can choose between:<ul id="ul_gb1_2p3_z4b">
+                            <li>Assign task to somebody<div>A project member with the assigned role
+                                    receives a question and has to answer with some proposed
+                                    answers. The proposed answers are the names of the transitions
+                                    that are leaving the activity.</div></li>
+                            <li>Move item (to another folder)</li>
+                            <li>Add (the document) to binder</li>
+                            <li>Remove (the document) from binder</li>
+                            <li>Copy document (to another folder)</li>
+                            <li>Set document status</li>
+                            <li>Move to recycle bin</li>
+                            <li>Promote (last revision to) major version</li>
+                            <li>Send notification.<div>
+                                    <note>Except for <uicontrol>Assign task to somebody</uicontrol>
+                                        (manual activity), all activities are automatic.</note>
+                                </div></li>
+                        </ul></div>
+                </info>
+            </step>
+            <step>
+                <cmd>If applicable, enter the activity settings.</cmd>
+                <info>
+                    <div>The settings correspond to the selected action. </div>
+                    <div>Possible settings are:<ul id="ul_rwg_jbj_z4b">
+                            <li><uicontrol>Question</uicontrol>: Enter a question regarding the
+                                    task<div>Example: Do you approve this document?</div></li>
+                            <li><uicontrol>Choose who needs to react</uicontrol>: Assign to the role
+                                that must perform the task.</li>
+                            <li><uicontrol>More specific</uicontrol>: Specify who must perform the
+                                    task:<ul id="ul_hvq_lhj_z4b">
+                                    <li>The <uicontrol>Actor of the previous activity</uicontrol>,
+                                        or the <uicontrol>Coordinator</uicontrol> must select the
+                                        actor of this activity.</li>
+                                    <li><uicontrol>The first who reacts</uicontrol>. Everyone with
+                                        the role receives the task, but as soon as someone performs
+                                        the task, the others must not perform it any longer.</li>
+                                    <li><uicontrol>Everyone</uicontrol>: Everyone with the role
+                                        receives the task and must perform the task.</li>
+                                </ul></li>
+                            <li><uicontrol>Choose a reminder and/or a deadline
+                                    (optional)</uicontrol>:<ul id="ul_nk5_skj_z4b">
+                                    <li><uicontrol>Send reminder after</uicontrol>: After the
+                                        selected period, the selected person receives a reminder of
+                                        the task.</li>
+                                    <li><uicontrol>Act within</uicontrol>: Select a period.<div>If
+                                            the selected person does not react on time, the workflow
+                                            will continue. You can select which transition will be
+                                            followed in the transition overdue section.</div></li>
+                                </ul></li>
+                            <li><uicontrol>Select a folder</uicontrol></li>
+                            <li><uicontrol>Add current revision to binder</uicontrol></li>
+                            <li><uicontrol>Set document status to</uicontrol>:<ul id="ul_wtk_mqp_z4b">
+                                    <li>Draft</li>
+                                    <li>Proposal</li>
+                                    <li>In preparation</li>
+                                    <li>Revised</li>
+                                    <li>Approved with remarks</li>
+                                    <li>Approved</li>
+                                    <li>Final</li>
+                                    <li>Archived</li>
+                                    <li>Obsolete</li>
+                                </ul></li>
+                        </ul></div>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>The activity appears on the grid.</stepresult>
+            </step>
+            <step>
+                <cmd>If applicable, add more activities.</cmd>
+            </step>
+            <step>
+                <cmd>Add a transition:</cmd>
+                <info>
+                    <ol id="ol_ivm_qq4_z4b">
+                        <li>Click <uicontrol>Add transition</uicontrol>
+                            <image href="../IMAGES_temp/add_transition_in_workflow_viewer.PNG" id="image_bpl_4r4_z4b" scale="80" scope="external" />.</li>
+                        <li>Click on the activity where the transition must start from.<div>A blue
+                                line appears on the grid.</div></li>
+                        <li>Click on the activity where the transition must end.<div>The
+                                    <wintitle>Transition settings</wintitle> window appears.</div><div>
+                                <fig id="fig_ny4_zs4_z4b">
+                                    <title>Transition settings</title>
+                                    <image href="../IMAGES_temp/transition_settings_window.PNG" id="image_oy4_zs4_z4b" scale="50" scope="external" />
+                                </fig>
+                            </div></li>
+                        <li>Enter a status (for manual tasks only).<div>If you add a status to a
+                                transition, the actor of the activity must respond to the activity,
+                                before the workflow continues. The status that is entered in the
+                                transition will be the proposed answer for the actor. When the actor
+                                selects this proposed answer, the workflow continues.</div><div>
+                                <note>Every transition needs at least one status. The system will
+                                    automatically set the default status to:
+                                        <uicontrol>Done</uicontrol>.</note>
+                            </div></li>
+                        <li>If you want several proposed answers leading to the same activity, enter
+                            more statuses (for manual tasks only).<div>
+                                <fig id="fig_zpw_1gp_z4b">
+                                    <title>Example of multiple states in Transition settings</title>
+                                    <image href="../IMAGES_temp/transition_settings_with_states.PNG" id="image_aqw_1gp_z4b" scale="50" scope="external" />
+                                </fig>
+                            </div></li>
+                        <li>If applicable, tick the checkbox next to <uicontrol>When activity is
+                                overdue, change state of this transition to Overdue
+                                (automatically)</uicontrol>.<div>
+                                <note type="tip">You can change this to your own state.</note>
+                                <note type="important">Every transition state must be unique.</note>
+                                <note type="tip">If you selected that the actor of the task must act
+                                    within a certain period, you can mark the transition to be
+                                    followed once the deadline has passed.</note>
+                            </div></li>
+                        <li>Click <uicontrol>OK</uicontrol>.<div>The transition is added to the
+                                grid.</div></li>
+                        <li>If applicable, add more transitions.<div>
+                                <fig id="fig_ikz_z3p_z4b">
+                                    <title>Example of transitions</title>
+                                    <image href="../IMAGES_temp/transitions.png" id="image_jkz_z3p_z4b" width="150mm" scope="external" />
+                                </fig>
+                            </div></li>
+                    </ol>
+                </info>
+            </step>
+            <step>
+                <cmd>If applicable, add parallel paths if multiple activities need to start or end
+                    together:</cmd>
+                <info>
+                    <ul id="ul_ipy_th4_z4b">
+                        <li>Add <uicontrol>Start parallel paths</uicontrol>
+                            <image href="../IMAGES_temp/start_parallel_paths_in_workflow_viewer.PNG" id="image_hhr_k34_z4b" scale="80" scope="external" /> if the path of your workflow
+                            must split.<div>Example: Multiple project members must approve a
+                                document.</div></li>
+                        <li>Add <uicontrol>Synchronize parallel paths</uicontrol>
+                            <image href="../IMAGES_temp/synchronize_parallel_paths_in_workflow_viewer.PNG" id="image_bdm_z34_z4b" scale="80" scope="external" /> if 2 or more paths end
+                                together.<div>The synchronized path will await all incoming
+                                transitions to be activated, before continuing the
+                                workflow.</div><div>Example: If both contractor and engineer approve
+                                the document, continue the workflow and set the status to
+                                approved.</div><div>
+                                <fig id="fig_nvp_b34_z4b">
+                                    <title>Example of parallel paths</title>
+                                    <image href="../IMAGES_temp/parallel_paths.png" id="image_ovp_b34_z4b" width="150mm" scope="external" />
+                                </fig>
+                            </div></li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>If applicable, click <uicontrol>Move</uicontrol>
+                    <image href="../IMAGES_temp/move_in_workflow_viewer.PNG" id="image_vvm_p44_z4b" scale="80" scope="external" /> to reposition activities in order to have a better overview of
+                    your workflow.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol>
+                    <image href="../IMAGES_temp/save_in_workflow_viewer.PNG" id="image_ufs_tx5_y4b" scale="80" scope="external" />.</cmd>
+                <stepresult>A pop up window informs you that the workflow is edited.</stepresult>
+            </step>
+            <step>
+                <cmd>Close the Bricsys 24/7 Workflow Viewer.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

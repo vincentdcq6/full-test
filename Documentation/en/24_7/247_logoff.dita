@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_logoff">
+    <title>Logoff</title>
+    <taskbody>
+        <context>
+            <p>Always log off at the end of your session in Bricsys 24/7.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click on the profile icon/picture on the right side of the project bar.</cmd>
+            </step>
+            <step>
+                <cmd>Click on <uicontrol>Sign out</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_tmw_ywt_w4b">
+            <note>For security reasons, if you do not log off yourself from the session, the system
+                will log you off after one hour of inactivity.</note>
+        </postreq>
+    </taskbody>
+</task>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_edit_the_project_settings">
+    <title>Edit the project settings</title>
+    <taskbody>
+        <context>
+            <p>When a project is created, you can edit the project settings:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Select the project.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_d4m_bgn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Project settings</uicontrol> in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Details</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Add the address details:</cmd>
+                <info>
+                    <ul id="ul_yyr_jk4_bpb">
+                        <li>Building number and street name</li>
+                        <li>Postal code</li>
+                        <li>City</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save changes</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the project is successfully
+                    updated.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Documents</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select the option button of the document versioning you want to use to track
+                    the progress of a document:</cmd>
+                <info>
+                    <ul id="ul_gfc_kw4_bpb">
+                        <li>use major versioning (default)<div>Select the option you want to use
+                                from the drop-down menu.<div>Example: Version 1</div></div></li>
+                        <li>use major and minor versioning<ol id="ol_cd1_5jq_cpb">
+                                <li>Select the option you want to use from the drop-down menu next
+                                    to <uicontrol>Major versioning system</uicontrol>.</li>
+                                <li>Select the option you want to use from the drop-down menu next
+                                    to <uicontrol>Minor versioning system</uicontrol>.<div>Example:
+                                        Version 1.A</div><div>Each major version can represent a
+                                        milestone the document has reached.</div></li>
+                            </ol><div>
+                                <fig id="fig_z3h_jdp_bpb">
+                                    <title>Document versioning</title>
+                                    <image placement="break" href="../IMAGES_temp/document_versioning.PNG" id="image_ajh_jdp_bpb" scope="external" />
+                                </fig>
+                            </div></li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Enable or disable the <uicontrol>Document settings</uicontrol>:</cmd>
+                <info>
+                    <ul id="ul_vt5_brq_cpb">
+                        <li>Allow locking of documents<div>
+                                <note>A locked document can not be moved or edited.</note>
+                                <note>A locked document can be unlocked:<ul id="ul_spb_msr_cpb">
+                                        <li>by an administrator</li>
+                                        <li>by the user that locked the document</li>
+                                        <li>by uploading a new revision of the document.</li>
+                                    </ul></note>
+                            </div></li>
+                        <li>Add signature footer when printing documents:<div>An extra line is added
+                                in the footer of each document that is printed to PDF: Printed by
+                                    <varname>Firstname</varname>
+                                <varname>Lastname</varname> (<varname>date</varname>).</div></li>
+                        <li>Allow deleting of revisions<div>
+                                <div>
+                                    <note>A document needs at least one revision. If you want to
+                                        delete all revisions, you must delete the document.</note>
+                                </div>
+                            </div></li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Edit the <uicontrol>Document statuses</uicontrol>:</cmd>
+                <info>
+                    <div>The default document statuses are: draft, proposal, in preparation,
+                        revised, approved with remarks, approved, final, archived, and obsolete.<ul id="ul_gxz_2ns_cpb">
+                            <li>Hover over a status, click <image href="../IMAGES_temp/order_status_icon.PNG" id="image_dnz_jrs_cpb" scope="external" />, and drag and drop the status to change
+                                the order.</li>
+                            <li>Hover over a status and click <image href="../IMAGES_temp/edit_status_icon.PNG" id="image_acq_qps_cpb" scope="external" /> to edit the status.</li>
+                            <li>Hover over a status and click <image href="../IMAGES_temp/delete_status_icon.PNG" id="image_fh3_lps_cpb" scope="external" /> to delete a status.</li>
+                            <li>Hover over a status and click <image href="../IMAGES_temp/default_status_icon.PNG" id="image_a3v_wps_cpb" scope="external" /> to set the status as default
+                                    status.<div>When you upload a document, this will be the
+                                    selected status by default.</div></li>
+                            <li>Click <uicontrol>add status</uicontrol>
+                                <image href="../IMAGES_temp/add_status.PNG" id="image_hpt_3ns_cpb" scope="external" />,
+                                enter a name and click <uicontrol>Add</uicontrol> to create a new
+                                    status.<note>The order of the statuses in this list determines
+                                    the order of the statuses in the drop-down menu when uploading a
+                                    new document.</note></li>
+                        </ul></div>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save changes</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the project is successfully
+                    updated.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Administrators</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Enable or disable the <uicontrol>Document settings</uicontrol>:</cmd>
+                <info>
+                    <ul id="ul_mfq_sqs_cpb">
+                        <li>Administrators can view all notes, notifications and
+                                annotations.<div>When creating a new private message, project
+                                members will be informed that the message can be read by project
+                                administrators.</div></li>
+                        <li>Administrators can replace the latest document revision.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Enable <uicontrol>Lock recycle bin</uicontrol> if you do not want items to be
+                    removed from the recycle bin.</cmd>
+                <info>
+                    <p>
+                        <image placement="break" href="../IMAGES_temp/lock_recycle_bin.PNG" id="image_kf4_bdr_v4b" scope="external" />
+                    </p>
+                </info>
+                <info>
+                    <div>
+                        <note type="important">Once the recycle bin is locked, it can only be
+                            unlocked by sending a support request to our support team.</note>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save changes</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the project is successfully
+                    updated.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

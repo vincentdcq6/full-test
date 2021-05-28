@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_restore_an_item">
+    <title>Restore an item</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_tx5_twn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Recycle bin</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select an item in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>restore item</uicontrol>
+                    <image href="../IMAGES_temp/restore_item_button.PNG" id="image_tlb_qkq_v4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>restore item</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Restore</uicontrol> to restore the item.</cmd>
+                <stepresult>The item is restored to the original folder in the project.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

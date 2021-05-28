@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="quaddisplay" xml:lang="en-US">
+   <title id="title__Toc50995526">QUADDISPLAY system variable</title>
+   <conbody>
+      <section><title>Quad display</title><p>Specifies when to display the quad. When the value is 8: suppress the quad when hovering over entities that are not in the current selection set; set <b>Show Quad on right-click </b>ON to display the Quad. The value is stored as a bitcode using the sum of the values of all selected options.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>-15 to 15</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>5</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>negative: Switch off quad</p>
+                           <p>1: Display the quad when the cursor hovers on an entity</p>
+                           <p>2: Display the quad when entities are selected</p>
+                           <p>4: Display the quad on right click</p>
+                           <p>8: Suppress the quad on hover when entities are selected</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

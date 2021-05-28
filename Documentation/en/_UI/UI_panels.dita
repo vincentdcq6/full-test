@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="UI_Panels">
+   <title>Panels</title>
+   <shortdesc>Panels are interactive UI elements that can remain open while you use other commands.</shortdesc>
+   <conbody>
+      <p>They can be docked or floating and they can be stacked. And you can control the amount of data displayed on the panel. The location and size of the panel depends on the current workspace or its previous appearance.</p>
+      <section id="section_om1_cz1_g4b">
+         <title>Docked panels</title>
+         <p>You can dock panels at the top, bottom, left or right within the BricsCAD application
+            window. They can be docked alongside other panels or toolbars but are always constrained
+            by the size of the application window. The drawing area, within the BricsCAD application
+            window, automatically reduces to accommodate the docked panels. You can move a docked
+            panel using the grip bar, resize it with the stretch icon, and close it with the close
+            icon.</p>
+         <p>If the panel is docked at the top or bottom of the BricsCAD application window, the stretch icon appears when you pass the cursor over the bottom or top edge of the panel, respectively. The grip bar and close icon are located on the left edge of the panel.</p>
+         <fig id="fig_lnb_d34_znb">
+            <image href="https://static.bricsys.com/help/en_US/UI_panels_01_V21.png" id="image_l43_yf4_znb" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/UI_panels_02_V21.png" id="image_m43_yf4_znb" scope="external" />
+            <ol id="ol_b5z_1kd_f4b">
+               <li>Grip bar</li>
+               <li>Close icon</li>
+               <li>Stretch icon</li>
+            </ol>
+         </fig>
+         <p>If the panel is docked at the left or right of the application window, the stretch icon appears when you pass the cursor over the right or left edge of the panel, respectively. The grip bar and close icon are located on the top edge of the panel.</p>
+         <fig id="fig_u1z_mk4_znb">
+            <image href="https://static.bricsys.com/help/en_US/UI_panels_03_V21.png" id="image_o43_yf4_znb" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/UI_panels_04_V21.png" id="image_mwd_dj4_znb" scope="external" />
+            <ol id="ol_ub3_ckd_f4b">
+               <li>Grip bar</li>
+               <li>Close icon</li>
+               <li>Stretch icon</li>
+            </ol>
+         </fig>
+      </section>
+      <section id="section_v41_cz1_g4b">
+         <title>Floating panels</title>
+         <p>You can place a floating panel anywhere on any available monitor. They can be moved and resized beyond the boundaries of the BricsCAD application window. If a floating panel overlaps the drawing area, it floats above it, allowing the drawing area to maintain its size. You can move a floating panel using the title bar, resize it with the stretch icons, and close it with the close icon. Regardless of where a floating panel is located, the stretch icon appears when you pass the cursor over any edge of the panel. The title bar and close icons are always on the top edge of a floating panel.</p>
+         <fig id="fig_o4j_k5q_cpb">
+            <image href="https://static.bricsys.com/help/en_US/UI_panels_05_V21.png" id="image_s43_yf4_znb" scope="external" />
+            <ol id="ol_sjc_dkd_f4b">
+               <li>Title bar</li>
+               <li>Close icon</li>
+               <li>Stretch icon</li>
+            </ol>
+         </fig>
+      </section>
+      <section id="section_w41_cz1_g4b">
+         <title>Stacked panels</title>
+         <p>You can combine multiple panels into a panel stack to conserve screen space. Each panel
+            stack can be docked or floating, offering the same functionality as individually docked
+            or floating panels. You can display panel stacks with tabs or icons using options on the
+            right-click menu (STACKPANELTYPE system variable).</p>
+      </section>
+      <section id="section_x41_cz1_g4b">
+         <title>Stack with tabs</title>
+         <p>When you stack panels with tabs, each panel is displayed as a tab. Each tab displays the panel title with the current panel title in bold font. A close icon in the current panel tab allows you to close that panel without affecting the other panels in the stack. </p>
+         <fig id="fig_fr1_l5q_cpb">
+            <image href="https://static.bricsys.com/help/en_US/UI_panels_06_V21.png" id="image_w43_yf4_znb" scope="external" />
+            <ol id="ol_rdf_2kd_f4b">
+               <li>Tab title bar</li>
+               <li>Tab close icon</li>
+               <li>Tab list icon</li>
+            </ol>
+         </fig>
+         <p>The list icon to the right of the tabs enables you to view a list of stacked panels and
+            select one to make it current. The list can be especially helpful when your stack has
+            many panels, making the tab titles difficult to read.<fig id="fig_mjv_l5q_cpb">
+               <image href="https://static.bricsys.com/help/en_US/UI_panels_07_V21.png" id="image_x43_yf4_znb" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_y41_cz1_g4b">
+         <title>Stack with icons </title>
+         <p>When you stack panels with icons, each panel is displayed in a vertical icon strip. The
+            icon strip offers easy access to many stacked panels in a small amount of space. You can
+            specify the size of panel icons with the PANELBUTTONSIZE system variable. When a panel
+            is open the panel icon changes color and the name of the panel displays in the title
+            bar.</p>
+         <fig id="fig_kpk_m5q_cpb">
+            <image href="https://static.bricsys.com/help/en_US/UI_panels_08_V21.png" id="image_ap3_yf4_znb" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/UI_panels_09_V21.png" id="image_bp3_yf4_znb" scope="external" />
+            <ol id="ol_mqc_gkd_f4b">
+               <li>Icon strip</li>
+               <li>Panel icon</li>
+            </ol>
+         </fig>
+      </section>
+      <section id="section_z41_cz1_g4b">
+         <title>Panel data</title>
+         <p>Panel data is organized into categories that you can show or hide with the expand and collapse icons.</p>
+         <fig id="fig_ur2_n5q_cpb">
+            <image href="https://static.bricsys.com/help/en_US/UI_panels_10_V21.png" id="image_ep3_yf4_znb" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/UI_panels_11_V21.png" id="image_fp3_yf4_znb" scope="external" />
+            <ol id="ol_gkf_hkd_f4b">
+               <li>Expand icon</li>
+               <li>Collapse icon</li>
+            </ol>
+         </fig>
+      </section>
+      <section id="section_ap1_cz1_g4b">
+         <title>Right-click menu</title>
+         <div conkeyref="CM_panelandtoolbarrightclickmenu/div_xqs_kvs_1pb" />
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_panelbuttonsize" />
+         <link keyref="SV_stackpaneltype" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <!--To dock a panel link?-->
+         <!--To float a panel link?-->
+         <!--To stack a panel link?-->
+      </linklist>
+   </related-links>
+</concept>

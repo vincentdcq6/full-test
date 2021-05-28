@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_bminsert">
+   <title>BMINSERT command</title>
+   <shortdesc>Opens the Select File to Insert Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_selectfiletoinsert" /> to select a dwg or rfa file to insert into
+         the current drawing.</p>
+      <p>After selecting the file and choosing <uicontrol>Open</uicontrol>, the Properties panel is displayed, and you are prompted at the Command line.</p>
+      <section id="section_vkd_fst_w4b">
+         <title>Select insertion point</title>
+         <p>Specify a point in the current drawing where the entity will be inserted. You can change the insertion before it is inserted using the Properties panel and command line options.</p>
+         <p>Additional options: [Edit inserted entity/SMART insert/Rotate component/set Base point/Name/insertion Type/Flip/mUltiple/Change target 3d solids].</p>
+      </section>
+      <section id="section_rcg_hst_w4b">
+         <title>Options within the BMINSERT command</title>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Edit inserted entity</dt>
+                  <dd>Enables you to change the parameter expressions for the inserted entity. Continue editing individual parameters until you press Enter to end the option. This option is also available in the Hot Key Assistant.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Enter the parameter name or press ENTER to finish</dt>
+                  <dd outputclass="indent1">Specify the name of the parameter.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Enter expression</dt>
+                  <dd outputclass="indent1">Specify the expression for the parameter.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Smart insert</dt>
+                  <dd>Enables you to connect a Piping standard part to an existing Piping standard part. It automatically creates appropriate 3D constraints between the two parts and copies expressions for the parameters of the existing part to the new part. This option is also available in the Hot Key Assistant.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select entity to insert to or<!--TBA--></dt>
+                  <dd outputclass="indent1">Hover the cursor over the Piping standard part you want to connect to.</dd>
+                  <dd outputclass="indent1">Additional options: [switch Back/Rotate component/Flip/mUltiple/selection options (?)]</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Rotate component</dt>
+                  <dd>Enables you to change the rotation angle for the inserted entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Specify rotation angle of the insert</dt>
+                  <dd outputclass="indent1">Specify the rotation angle.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Set base point</dt>
+                  <dd>Enables you to change the basepoint for the inserted entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">New base point &lt;0,0,0&gt;</dt>
+                  <dd outputclass="indent1">Specify a new basepoint for the entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Name</dt>
+                  <dd>Enables you to change the instance name for the inserted entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Component insert name &lt;DefaultName&gt;</dt>
+                  <dd outputclass="indent1">Enter a name for the inserted entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Insertion type</dt>
+                  <dd>Enables you to change the insertion type for the inserted entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Specify component type [Local/External] &lt;External&gt;</dt>
+                  <dd outputclass="indent1">Choose Local or External<ul id="ul_rby_ywt_w4b">
+                        <li>Local: References an entity definition within the current drawing. See Block Reference.</li>
+                        <li>External: References an entity definition outside the current drawing. See External Reference.</li>
+                     </ul></dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Flip</dt>
+                  <dd>Enables you to flip the direction for the inserted entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Multiple</dt>
+                  <dd>Enables you to insert multiple copies of the same entity by specifying an insertion point for each instance or creating an Array.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select insertion point</dt>
+                  <dd outputclass="indent1">Specify a point in the current drawing where the entity will be inserted. Continue inserting entities until you press Enter to end the command.</dd>
+                  <dd outputclass="indent1">Additional options: [Edit inserted entity/Rotate/Base point/Name/Insertion Type/Flip/Array/Change target 3d solids]</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Array</dt>
+                  <dd outputclass="indent1">Enables you to create an associative array of the inserted entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent2">Specify base point for the array</dt>
+                  <dd outputclass="indent2">Specify a point.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent2">Enter the distance between columns</dt>
+                  <dd outputclass="indent2">Specify the distance between columns</dd>
+                  <dd outputclass="indent2">Additional options: [Direction] </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent2">Enter the distance between rows</dt>
+                  <dd outputclass="indent2">Additional options: [Single row/Rectangular/Direction]</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent2">Select an end point for creating array</dt>
+                  <dd outputclass="indent2">Specify a point.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent2">Accept resulting array</dt>
+                  <dd outputclass="indent2">Press Enter to accept the array.</dd>
+                  <dd outputclass="indent2">Additional options: [Base point/Columns/Rows/Accept] &lt;Accept&gt;:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Change target 3d solids</dt>
+                  <dd>Enables you to apply the inserted entity to existing 3D solids in the current drawing.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select target 3D solids</dt>
+                  <dd outputclass="indent1">Select the 3D solids to which you want</dd>
+                  <dd outputclass="indent1">Additional options: [cleaR/Select all affected 3d solids]</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select all affected 3d solids</dt>
+                  <dd outputclass="indent1">All solids intersecting or touching solids in the BC_SUBTRACT and BC_UNITE layers of the inserted entity are affected.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Clear</dt>
+                  <dd outputclass="indent1">Clears the selection set to ensure no solids are affected by the inserted entity. </dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="PNL_properties" />
+      </linklist></related-links>
+</concept>

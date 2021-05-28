@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="setting_the_license_level">
+   <title>Setting the license level</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>When running <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> in trial mode, all features are available. It runs as a <b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" /> license.</p>
+      <p>The SETLICENSELEVEL command allows you to select a lower license level.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_setlicenselevel" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_activate_a_trial_license_automatically_online" />
+         <link keyref="GD_activate_a_trial_license_manually_offline" />
+      </linklist>
+   </related-links>
+</concept>
+

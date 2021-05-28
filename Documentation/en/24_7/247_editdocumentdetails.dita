@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_edit_document_details">
+    <title>Edit document details</title>
+    <taskbody>
+        <context>
+            <p>You can edit a document:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Dashboard</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the applicable folder.</cmd>
+            </step>
+            <step>
+                <cmd>Select the document you want to edit.</cmd>
+            </step>
+            <step>
+                <cmd>Click the ellipsis button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_fmp_5vj_jpb" scope="external" /> at the top of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Edit</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Edit document details</wintitle> window
+                    appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Edit the document details:</cmd>
+                <info>
+                    <ul id="ul_gzb_l3k_jpb">
+                        <li>Name</li>
+                        <li>Status<note type="tip">The available document statuses correspond to the
+                                project settings.</note></li>
+                        <li>Description</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Edit</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_r4s_z3k_jpb">A pop up window informs you that the document is
+            successfully updated.</result>
+    </taskbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_projectsettings" />
+        </linklist>
+    </related-links>
+</task>

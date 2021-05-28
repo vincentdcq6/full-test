@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="template_drawings">
+   <title>Template drawings</title>
+   <shortdesc>A template drawing is a drawing file with file extension DWT.</shortdesc>
+   <conbody>
+      <p>It is used to create a new drawing that is a copy of the template drawing. Any drawing with
+         extension DWT is considered a template drawing. The <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> template drawings are located in the
+         template folder(s). Use the TEMPLATEFOLDER command to open the folder. If you save your
+         customized template drawings in the template folder, they are available in the Start tab to
+         create new drawings. Using properly prepared templates is essential for a productive use of
+            <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />.</p>
+      <p>A template drawing does not contain entities in model space, but contains settings according to the specific drawing and project requirements:</p>
+      <ul id="ul_dqc_xhx_smb">
+         <li>Units: imperial or metric and units display.</li>
+         <li>Layers.</li>
+         <li>Dimension and leader styles.</li>
+         <li>Text styles.</li>
+         <li>Table styles.</li>
+         <li>Multiple layouts, each with title block, paper size, printer, and plot style.</li>
+         <li>Standard blocks for notes, tables, symbols, and other entities.</li>
+      </ul>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_templatefolder" />
+         <link keyref="CMD_units" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="DB_drawingexplorer" />
+         <link keyref="GD_the_start_tab" />
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006541353-Creating-a-drawing" format="html" scope="external"><linktext>Creating a new drawing</linktext></link>-->
+      </linklist>
+   </related-links>
+</concept>

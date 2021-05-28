@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A2F7B17A-DC5CD7B-352CC15920A4042-726B5C">
+   <title>Modeling</title>
+   <shortdesc>BricsCAD V21 offers many enhancements to 3D modeling tools to help simplify and
+      automate the modeling process.</shortdesc>
+
+   <conbody>
+      <section id="section_xcq_hk5_r4b">
+         <title>Dynamic UCS</title>
+         <p>Dynamic UCS is now supported by the PLAN command. This allows you to select a face for
+            the current UCS and immediately display it in plan view.</p>
+      </section>
+      <section id="section_ycq_hk5_r4b">
+         <title>Direct modeling</title>
+         <p><b>Threads</b></p>
+         <p>The new DMTHREAD command enables you to add a standard parametric thread to a
+            cylindrical face of your 3D solid. You can edit the properties of the thread using the
+            Mechanical Browser.<fig id="fig_x1h_kk5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling01.png" id="image_zcq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>Drawing views created with the VIEWBASE command, the VIEWPROJ command or the VIEWSECTION
+            command represent the threads following drafting standards. The following image show
+            views of a cylinder before and after adding threads.</p>
+         <fig>
+            <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling02.png" id="image_adq_hk5_r4b" scope="external" />
+         </fig>
+         <p><b>Chamfers</b></p>
+         <p>The DMCHAMFER command offers more flexibility with new asymmetrical, angular, variable
+            symmetrical, variable asymmetrical and variable angular modes.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling03.png" id="image_bdq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Fillets</b></p>
+         <p>The DMFILLET command offers more flexibility with a new variable radius mode.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling04.png" id="image_cdq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Push Pull</b></p>
+         <p>The DMPUSHPULL command includes an option to specify subtract mode (on/off), which is
+            also controlled by DMPUSHPULLSUBTRACT system variable.</p>
+         <p>It also allows you to switch the starting point of the dynamic dimensions on cylindrical faces. Press the Tab key to switch between radial and offset dimensions.</p>
+      </section>
+      <section id="section_ddq_hk5_r4b">
+         <title>Broken views</title>
+         <p>The new VIEWBREAK command enables you to break an associative drawing view of your 3D
+            model created with the VIEWBASE command, the VIEWPROJ command, or the VIEWSECTION
+            command and automatically include break symbols. You can change the appearance of a
+            selected broken view symbol using the Properties panel. The VIEWBREAK command correctly
+            supports dimensions you put on the drawing view before breaking. They remain associative
+            with your 3D model and the drawing view.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling05.png" id="image_edq_hk5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_fdq_hk5_r4b">
+         <title>3D Entity snaps</title>
+         <p>Easily toggle 3D entity snaps on and off by pressing the F4 function key.</p>
+      </section>
+      <section id="section_gdq_hk5_r4b">
+         <title>3D Polyline</title>
+         <p>The vertices of 3D polylines now support sub-entity selection, the Properties panal, and
+            nearest distance.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling06.png" id="image_hdq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>Additional enhancements to 3D Polylines enable you to apply 3D constraints to their vertices and edges.</p>
+      </section>
+      <section id="section_idq_hk5_r4b">
+         <title>Parametric blockify</title>
+         <p>The new PARAMETRICBLOCKIFY command enables you to quickly convert model entities to
+            parametric blocks. Select a parametric block or parametrized entities as input geometry
+            to compare against other geometry in the drawing. Matching geometry is automatically
+            converted to parametric blocks.</p>
+      </section>
+      <section id="section_jdq_hk5_r4b">
+         <title>3D display</title>
+         <p>Material glossiness has been adjusted to ensure entity details are distinguishable, even with glossy materials. The glossy effect is less intense for light materials and more intense for dark materials.</p>
+      </section>
+      <section id="section_kdq_hk5_r4b">
+         <title>Solids and meshes</title>
+         <p><b>Convert to mesh</b></p>
+         <p>The CONVTOMESH command is optimized to triangulate planar faces only when necessary and
+            with as few faces as possible. As an example, the original solids on the left are
+            converted to meshes in BricsCAD V20 (center) and BricsCAD V21 (right).<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling08.png" id="image_ldq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Convert to solid</b></p>
+         <p>The CONVTOSOLID command enables you to convert a mesh to an optimized 3D solid based on
+            the new SMOOTHMESHCONVERT system variable.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling09.png" id="image_mdq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>When set to optimized, coplanar and adjacent faces are merged into a single face. As an example, the original mesh on the left is converted to a solid in BricsCAD V20 (center) and BricsCAD V21 (right).<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling10.png" id="image_ndq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Mesh properties</b></p>
+         <p>The Properties panel offers access to additional properties for selected mesh entities.
+            Mesh entities now include Mesh and Geometry properties including the ability to specify smoothness.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling11.png" id="image_odq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>The Properties panel also supports mesh sub-entities including faces, edges and vertices enabling you to apply different levels of creasing.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling12.png" id="image_pdq_hk5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_qdq_hk5_r4b">
+         <title>Associative data</title>
+         <p>The new GENERATEASSOCATTRS setting controls generation of associative data on 3D solids
+            during modeling. When set to On, 3D solids contain associative data from the moment of
+            creation. This allows BIMSECTIONUPDATE command and VIEWBASE command commands to produce
+            drawings for which dimensions and tags can be automatically updated after the 3D model
+            changes.</p>
+      </section>
+      <section id="section_rdq_hk5_r4b">
+         <title>View Twist</title>
+         <p>The Twist option is added to the -VIEW command.</p>
+      </section>
+      <section id="section_sdq_hk5_r4b">
+         <title>Animation Editor</title>
+         <p>The Animation Editor is enhanced to support the animating of exploded views in model space.</p>
+      </section>
+      <section id="section_tdq_hk5_r4b">
+         <title>Point clouds</title>
+         <p>Point cloud functionality is significantly faster and more powerful in BricsCAD V21.</p>
+         <p><b>Pre-processing</b></p>
+         <p>The E57 file format is added to the supported files for pre-processing.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling30.png" id="image_udq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>When you attach a point cloud that requires pre-processing, it converts 5 to 8 times faster in BricsCAD V21 than in V20. A progress meter at the bottom of the display shows the conversion progress.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling13.png" id="image_vdq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Alignment</b></p>
+         <p>The new POINTCLOUDALIGN command automatically rotates a point cloud to optimally align
+            it with the X and Y axis. To determine the best alignment it can analyze the entire
+            point cloud or you can specify the most relevant area.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling14.png" id="image_wdq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Bubble Viewer</b></p>
+         <p>The point cloud displays bubbles at all the scan locations. It’s at those locations where you will experience the most realistic visual representations.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling15.png" id="image_xdq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>Double-click one of the bubbles in model space to open the Bubble viewer. You can press the middle mouse button and move the mouse to view the point cloud in any direction from that scan location.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling16.png" id="image_ydq_hk5_r4b" scope="external" />
+            </fig><fig id="fig_mmr_32x_54b">
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling17.png" id="image_zdq_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>Press the Tab key to cycle between three different visual modes.</p>
+         <p>The first mode displays the points as their actual colors or in greyscale, depending how
+            the data was scanned.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling18.png" id="image_a2q_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>The second mode displays the points as red, green, or blue according to their normal vectors. The colors correspond to the UCS axes.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling19.png" id="image_b2q_hk5_r4b" scope="external" />
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling20.png" id="image_c2q_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>The third mode displays the points from light to dark as the distance from the scan location increases.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling21.png" id="image_d2q_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>You can easily sync the drawing view to match the Bubble viewer by pressing Ctrl A.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling22.png" id="image_e2q_hk5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Entity snaps</b></p>
+         <p>The new Point Cloud Closest Point entity snap significantly improves your ability to select relevant point cloud points. It uses an imaginary cylinder from the current viewpoint toward the cursor.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling23.png" id="image_f2q_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>The radius of the imaginary cylinder is defined by the Entity snap aperture box setting.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling24.png" id="image_g2q_hk5_r4b" scope="external" />
+            </fig></p>
+         <p>Enable the new Point Cloud Closest Point entity snap along with other 3D entity snaps in the Entity Snap menus, toolbar, and settings.<fig>
+               <image href="https://static.bricsys.com/help/en_US/V21/BCAD/What%20is%20new/NFG_BricsCAD_Modeling25.png" id="image_h2q_hk5_r4b" scope="external" />
+            </fig></p>
+         <p><b>Export</b></p>
+         <p>The new POINTCLOUDEXPORT command allows you to export a cropped selection of a point
+            cloud to a .pts file.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_bimsectionupdate" />
+         <link keyref="CMD_convtomesh" />
+         <link keyref="CMD_convtosolid" />
+         <link keyref="CMD_dmchamfer" />
+         <link keyref="CMD_dmfillet" />
+         <link keyref="CMD_dmpushpull" />
+         <link keyref="CMD_dmthread" />
+         <link keyref="CMD_parametricblockify" />
+         <link keyref="CMD_plan" />
+         <link keyref="CMD_pointcloudalign" />
+         <link keyref="CMD_pointcloudexport" />
+         <link keyref="CMD_-view" />
+         <link keyref="CMD_viewbase" />
+         <link keyref="CMD_viewbreak" />
+         <link keyref="CMD_viewproj" />
+         <link keyref="CMD_viewsection" />
+         
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_dmpushpullsubtract" />
+         <link keyref="SV_generateassocattrs" />
+         <link keyref="SV_smoothmeshconvert" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="PNL_properties" />
+      </linklist>
+   </related-links>
+</concept>

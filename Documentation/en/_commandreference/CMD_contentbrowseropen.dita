@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_contentbrowseropen">
+   <title>CONTENTBROWSEROPEN command</title>
+   <shortdesc>Opens the Content Browser Panel.</shortdesc>
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V19/Common/command-reference-classic-pro-platinum-mechanical-bim.png" id="image_ymp_cj1_g4b" scope="external" />
+      </fig>
+      <section id="section_svs_5md_f4b">
+         <p>Open the <xref keyref="PNL_contentbrowser" /> to display it in the current workspace. The
+            Content Browser Panel appears at the same size and location that it did before it was
+            closed or collapsed. You can move, resize, and stack it with <xref keyref="UI_panels" />.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_contentbrowserclose" />
+      </linklist>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="UI_panels" />
+         <!--Workspaces (link)-->
+      </linklist>
+   </related-links>
+</concept>

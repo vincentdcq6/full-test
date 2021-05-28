@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A62B454D-35A2375-2224A73561257B5-BB3EE2">
+   <title>Modeling techniques</title>
+   <shortdesc><!--TBA--></shortdesc>
+
+   <conbody>
+      <section id="section_lc2_t3x_s4b">
+         <title>BIM Profiles</title>
+         <p><b>BIMAPPLYPROFILE / BIMLINEARSOLID</b></p>
+         <p>The composition material of a profile is now attached to the created solid in the
+            BIMAPPLYPROFILE command and BIMLINEARSOLID commands.<fig id="fig_pq2_x3x_s4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingBimApplyProfile_01_V21.png" id="image_mc2_t3x_s4b" scope="external" />
+            </fig></p>
+         <p><b>BIMPROFILES</b></p>
+         <p>When changing the Offset property of a CustomShape profile via the Profiles dialog, you can choose whether to keep the position of the solid or its axis, for linear solids using said profile.<fig id="fig_x11_y3x_s4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingBimProfiles_01_V21.png" id="image_nc2_t3x_s4b" scope="external" />
+            </fig></p>
+         <p><b>BIMPROFILESTANDARDS</b></p>
+         <p>The BIMPROFILESTANDARDS setting is no longer case sensitive. In case there are no
+            profiles matching the value of the BIMPROFILESTANDARDS setting, a warning message
+            displays.</p>
+      </section>
+      <section id="section_oc2_t3x_s4b">
+         <title>Mass Modeling tools</title>
+         <p>The first prototype of the new BIMQUICKBUILDING command has been implemented. The
+            QuickBuilding tool allows you to generate a BIM building just from one massing solid. It
+            automatically generates different levels, walls, spatial locations, etc. It can be very
+            useful in early design stages, volume studies and conceptual design. The tool will
+            assign BIM properties to each part of the new building.</p>
+         <p>Spatial Locations can now be used as input for BIMQUICKBUILDING. This workflow allows you to process different buildings simultaneously.</p>
+         <p>The command also works on solids without edges, for example, a sphere or a torus.</p>
+         <fig id="fig_bx5_djx_s4b">
+            <image href="https://static.bricsys.com/help/en_INTL/NFG_BIM_ModelingQuickBuilding_01_V21.png" id="image_qc2_t3x_s4b" scope="external" />
+            <image href="https://static.bricsys.com/help/en_INTL/NFG_BIM_ModelingQuickBuilding_02_V21.png" id="image_rc2_t3x_s4b" scope="external" />
+            <image href="https://static.bricsys.com/help/en_INTL/NFG_BIM_ModelingQuickBuilding_03_V21.png" id="image_sc2_t3x_s4b" scope="external" />
+         </fig>
+      </section>
+      <section id="section_tc2_t3x_s4b">
+         <title>Insert BIM Component</title>
+         <p>The BMINSERT command now includes a SMART insert option, which automatically adjusts
+            parts to match current and relevant parts in the model file when inserted.</p>
+         <p>You can select SMART insert by clicking the option in the command line, or toggle CTRL to the rightmost icon when prompted in the HotKey Assistant.<fig id="fig_qc3_fjx_s4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingSmartInsertHKA_01_V21.png" id="image_uc2_t3x_s4b" scope="external" />
+            </fig></p>
+         <p>By detecting and creating 3D constraints between the relevant connection points, SMART insert resizes and attaches your desired component onto the current component/s with assembly constraints and common parameters to form a bigger part of a parametric assembly. This is particularly useful in modeling parametric MEP piping systems.</p>
+         <fig id="fig_ktn_yzq_cpb">
+            <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingSmartInsert_01_V21.png" id="image_wc2_t3x_s4b" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingSmartInsert_02_V21.png" id="image_xc2_t3x_s4b" scope="external" />
+         </fig>
+         <fig id="fig_dnr_k1r_cpb">
+            <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingSmartInsert_03_V21.png" id="image_yc2_t3x_s4b" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingSmartInsert_04_V21.png" id="image_zc2_t3x_s4b" scope="external" />
+         </fig>
+      </section>
+      <section id="section_ad2_t3x_s4b">
+         <title>Disconnect</title>
+         <p>The LCONNECT and BIMSTRUCTURALCONNECT commands now include a fourth option:
+            DISCONNECTED. You can cycle through the options with the CTRL button in the HotKey
+            Assistant.</p>
+         <fig id="fig_q14_tjx_s4b">
+            <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingDisconnect_01_V21.png" id="image_cd2_t3x_s4b" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingDisconnect_02_V21.png" id="image_dd2_t3x_s4b" scope="external" />
+         </fig>
+         <fig id="fig_uyc_l1r_cpb">
+            <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingDisconnect_03_V21.png" id="image_ed2_t3x_s4b" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingDisconnect_04_V21.png" id="image_fd2_t3x_s4b" scope="external" />
+         </fig>
+      </section>
+      <section id="section_gd2_t3x_s4b">
+         <title>Quickdraw</title>
+         <p>The Quickdraw cursor now supports snapping to (double) lines inside XREFs. Walls now inherit the spatial location of the slab on which they are created.</p>
+      </section>
+      <section id="section_hd2_t3x_s4b">
+         <title>Standards Parts</title>
+         <p>Piping parts were added to the standard parts category of the Library panel.<fig id="fig_nyj_xjx_s4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_ModelingLibrary_01_V21.png" id="image_id2_t3x_s4b" scope="external" />
+            </fig></p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_bimapplyprofile" />
+         <link keyref="CMD_bimlinearsolid" />
+         <link keyref="CMD_bimquickbuilding" />
+         <link keyref="CMD_bminsert" />
+         <link keyref="CMD_lconnect" />
+         <link keyref="CMD_bimstructuralconnect" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_bimprofilestandards" />
+      </linklist>
+   </related-links>
+</concept>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dynmode" xml:lang="en-US">
+   <title id="title__Toc50995079">DYNMODE system variable</title>
+   <conbody>
+      <section><title>Dynamic input mode</title><p>Turns dynamic input features on and off. The value is stored as a bitcode using the sum of the values of all selected options.</p><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>-31 to 31</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>3</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Negative: Switch all off temporarily</p>
+                           <p>0: No dynamic input</p>
+                           <p>1: Dynamic input at pointer (not supported)</p>
+                           <p>2: Editable dynamic dimensions</p>
+                           <p>4: Tracking dynamic dimensions</p>
+                           <p>8: Nearest entity by UCS X/Y axes dynamic dimensions</p>
+                           <p>16: Nearest entity dynamic dimensions</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

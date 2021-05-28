@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_properties">
+    <title>Properties panel</title>
+    <shortdesc>The Properties panel offers a central location to access drawing, viewport, and
+        entity properties.</shortdesc>
+    <conbody>
+        <p>It includes 5 areas and can be used in either Properties mode or Quick Select mode.</p>
+        <fig id="fig_u4d_pcm_mpb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_properties_01_V21.png" id="image_sry_13g_npb" scope="external" />
+            <ol id="ol_jn3_tzl_mpb">
+                <li>Entities list</li>
+                <li>Properties/Quick Select toggle</li>
+                <li>Property Preview toggle</li>
+                <li>Selection tools (Quick Select mode only)</li>
+                <li>Properties list</li>
+            </ol>
+        </fig>
+        <p>
+            <dl>
+                <dlentry>
+                    <dt>Entities list</dt>
+                    <dd>Displays the type and number of selected entities.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Properties/Quick Select toggle</dt>
+                    <dd>Switches between Properties and Quick Select mode. </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Property Preview toggle</dt>
+                    <dd>Turns the PROPERTYPREVIEW setting on or off.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Selection tools</dt>
+                    <dd>Creates a selection set based on properties. These tools are only available
+                        in Quick Select mode.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Properties list</dt>
+                    <dd>Displays relevant property categories based on the current mode and
+                        selection set. You can expand and collapse categories by clicking on the +
+                        and – icons.</dd>
+                </dlentry>
+            </dl>
+        </p>
+        <section id="section_f2p_pqh_npb">
+            <title>Properties mode</title>
+            <p>In Properties mode, the Properties panel enables you to view and modify drawing,
+                viewport, and entity properties. Drawing and viewport properties are accessible when
+                the current selection set is empty. Entity properties are accessible when the
+                current selection set has at least one entity.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Entities list</dt>
+                        <dd>When no entities are selected in Properties mode, the entities list
+                            shows No Selection and the properties list displays drawing and viewport
+                            properties.</dd>
+                        <dd>When entities are selected in Properties mode, the entities list
+                            describes the type and number of entities in the selection set. You can
+                            filter the selection set by choosing a type of entity from the drop-down
+                            list. The types of entities in the selection set determine which
+                            properties are accessible.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Properties list (no selection set)</dt>
+                        <dd>The drawing and viewport properties list, available when no entities are
+                            selected, displays General, View, and Misc properties.<fig id="fig_hdn_4th_npb">
+                                <image href="https://static.bricsys.com/help/en_US/PNL_properties_02_V21.png" scope="external" id="image_ukn_pth_npb" />
+                            </fig></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">General Properties</dt>
+                        <dd outputclass="indent1">In Properties mode, when no entities are selected,
+                            General properties describe the current entity settings. View and
+                            modify current entity settings to specify the properties that apply to
+                            new entities as they are created. Changing the current entity settings
+                            in the Properties listhas the same effect as changing the relevant
+                            system variables.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Color</dt>
+                        <dd outputclass="indent2">Describes the current color (CECOLOR system
+                            variable). You can specify a new color from the drop-down list or choose
+                            Select color to access additional colors from the Select Color dialog
+                            box.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Layer</dt>
+                        <dd outputclass="indent2">Describes the current layer (CLAYER system
+                            variable). You can specify a new layer from the drop-down list.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Linetype</dt>
+                        <dd outputclass="indent2">Describes the current linetype (CELTYPE system
+                            variable). You can specify a new linetype from the drop-down list or
+                            choose Load to access additional linetypes from the Load Linetypes
+                            dialog box. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Linetype Scale</dt>
+                        <dd outputclass="indent2">Describes the current linetype scale (CELTSCALE
+                            system variable). You can enter a new linetype scale. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Lineweight</dt>
+                        <dd outputclass="indent2">Describes the current lineweight (CELWEIGHT system
+                            variable). You can specify a new lineweight from the drop-down
+                            list.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Transparency</dt>
+                        <dd outputclass="indent2">Describes the current transparency level
+                            (CETRANSPARENCY system variable). You can specify a new transparency
+                            level from the drop-down list or enter a value.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Elevation</dt>
+                        <dd outputclass="indent2">Describes the elevation relevant to the current
+                            UCS (ELEVATION system variable). You can enter a new elevation.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">View Properties</dt>
+                        <dd outputclass="indent1">When no entities are selected, View properties
+                            describe the current view and relevant view settings.</dd>
+                        <!--This View section should link/share data with the View article from Drawing Explorer.-->
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Camera</dt>
+                        <dd outputclass="indent2">Describes the absolute coordinates of the camera
+                            in the current UCS, based on the cartesian coordinate system (X,Y,Z).
+                            These values automatically update when you orbit or change the viewpoint
+                            in other ways. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Target</dt>
+                        <dd outputclass="indent2">Describes the absolute coordinates of the camera
+                            target in the current UCS, based on the cartesian coordinate system
+                            (X,Y,Z). These values automatically update when you orbit or change the
+                            viewpoint in other ways. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Perspective</dt>
+                        <dd outputclass="indent2">Describes the current perspective setting
+                            (PERSPECTIVE system variable). You can turn Perspective on or off from
+                            the drop-down list. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Lens Length</dt>
+                        <dd outputclass="indent2">Describes the current lens length (LENSLENGTH
+                            system variable). You can enter a new lens length. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Field of View</dt>
+                        <dd outputclass="indent2">Describes the current angle for the field of view.
+                            You can enter a new angle for the field of view.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Height (read only) </dt>
+                        <dd outputclass="indent2">Describes the height of the current view. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Width (read only)</dt>
+                        <dd outputclass="indent2">Describes the width of the current view. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Clipping</dt>
+                        <dd outputclass="indent2">Describes the clipping mode for the current view.
+                            You can specify a new clipping mode from the drop-down list. When
+                            clipping is turned on, parts of the view before the front clipping plane
+                            and/or behind the back clipping plane are hidden. This property is read
+                            only for layouts. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Front Plane</dt>
+                        <dd outputclass="indent2">Describes the location of the front clipping
+                            plane. This property is only available when the Clipping property is
+                            turned on. This property is read only for layouts. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Back Plane</dt>
+                        <dd outputclass="indent2">Describes the location of the back clipping plane.
+                            This property is only available when the Clipping property is turned on.
+                            This property is read only for layouts. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Visual Style</dt>
+                        <dd outputclass="indent2">Describes the current visual style of the drawing.
+                            You can specify a new visual style from the drop-down list. This
+                            property is read only for layouts. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Misc Properties</dt>
+                        <dd outputclass="indent1">When no entities are selected, Misc properties
+                            describe the current annotation scale and default lighting status.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Annotation Scale</dt>
+                        <dd outputclass="indent2">Describes the current annotation scale (CANNOSCALE
+                            system variable). You can specify a new annotation scale from the
+                            drop-down list. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Default Lighting</dt>
+                        <dd outputclass="indent2">Describes the default lighting status
+                            (DEFAULTLIGHTING system variable). You can turn Default Lighting on or
+                            off from the drop-down list.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Properties list (current selection set)</dt>
+                        <dd>The Properties list only displays properties that are valid for all the
+                            selected or filtered entities. The more types of entities you select,
+                            the fewer properties are available on the Properties list. Filtering the
+                            entity list enables you to view and modify properties for multiple
+                            entities of the same type with minimal effort. When two or more entities
+                            are selected, the properties show their common values. Properties that
+                            differ between the selected entities are shown as *varies*. </dd>
+                        <dd>All entities display General, 3D Visualization (Model space only), and
+                            Geometry properties. Additional properties may display for certain types
+                            of entities.<fig id="fig_i3d_s5h_npb">
+                                <image href="https://static.bricsys.com/help/en_US/PNL_properties_03_V21.png" scope="external" id="image_j3d_s5h_npb" />
+                            </fig></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">General Properties</dt>
+                        <dd outputclass="indent1">In Properties mode, when entities are selected,
+                            General properties describe properties that are applied to the selected
+                            entities and are valid for almost any type of entity.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Handle (read only)</dt>
+                        <dd outputclass="indent2">Describes the unique hexadecimal value by which
+                            the selected entity is identified in the DWG database. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Color</dt>
+                        <dd outputclass="indent2">Describes the color of the selected entity. You
+                            can specify a new color from the drop-down list or choose Select color
+                            to access additional colors from the Select Color dialog box. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Layer</dt>
+                        <dd outputclass="indent2">Describes the layer of the selected entity. You
+                            can specify a new layer from the drop-down list. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Linetype</dt>
+                        <dd outputclass="indent2">Describes the linetype of the selected entity. You
+                            can specify a new linetype from the drop-down list or choose Load to
+                            access additional linetypes from the Load Linetypes dialog box.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Linetype Scale</dt>
+                        <dd outputclass="indent2">Describes the linetype scale of the selected
+                            entity. You can enter a new linetype scale. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Plot Style</dt>
+                        <dd outputclass="indent2">Describes the plot style of the selected entity.
+                            You can specify a new plotstle from the drop-down list. Note that this
+                            property is only available when plot styles are enabled. Also see the
+                            PlotStyle command</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Lineweight</dt>
+                        <dd outputclass="indent2">Describes the lineweight of the selected entity.
+                            You can specify a new lineweight from the drop-down list. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Transparency</dt>
+                        <dd outputclass="indent2">Describes the transparency level of the selected
+                            entity. You can specify a new transparency level from the drop-down list
+                            or enter a value. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Hyperlink</dt>
+                        <dd outputclass="indent2">Describes the URL of the selected entity. You can
+                            enter a new URL or choose the Browse button to access the Edit Hyperlink
+                            dialog box. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">History</dt>
+                        <dd outputclass="indent2">Enables you to undo editing operations for a
+                            selected entity. You can specify a previous step from the drop-down list
+                            to undo the entity back to one of the previous steps without undoing all
+                            the other commands and view operations that have been executed since.
+                            The History property only displays when the selection set includes only
+                            one entity. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Thickness</dt>
+                        <dd outputclass="indent2">Describes the thickness of the selected entity.
+                            You can specify a new thickness by entering a value or selecting the
+                            picker icon and picking two points in the drawing. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">3D Visualization Properties</dt>
+                        <dd outputclass="indent1">3D Visualization properties describe the materials
+                            assigned to the selected entities.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Material</dt>
+                        <dd outputclass="indent2">Describes the current material of the selected
+                            entities. You can specify a new material from the drop-list. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Geometry Properties</dt>
+                        <dd outputclass="indent1">Geometry properties describe the geometric
+                            characteristics of the selected entities. These properties can vary for
+                            different types of entities. See Drawing Entities for more
+                            information.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_l5f_vqh_npb">
+            <title>Quick Select mode</title>
+            <p>In Quick Select mode, the Properties panel enables you to create a selection set
+                based on entity properties. It includes selection tools and a operators.</p>
+            <fig id="fig_m1k_jvh_npb">
+                <image href="https://static.bricsys.com/help/en_US/PNL_properties_04_V21.png" scope="external" id="image_n1k_jvh_npb" />
+            </fig>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Selection tools</dt>
+                        <dd>Create a selection set based on entity properties.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Apply to current selection set</dt>
+                        <dd outputclass="indent1">This option is only valid if there’s an existing
+                            selection set. When enabled, the Entities list is limited to the
+                            entities in the selection set. When disabled, the Entities list includes
+                            all entities in the current viewport or layout. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Add to current selection set</dt>
+                        <dd outputclass="indent1">Adds entities to the current selection set based
+                            on the entity types and property values you specify in the Entities and
+                            Properties lists. This option is unavailable when the Apply to current
+                            selection set is enabled since all possible entities are already
+                            included in the current selection set. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Remove from current selection set</dt>
+                        <dd outputclass="indent1">Removes entities from the current selection set
+                            based on the entity types and property values you specify in the
+                            Entities and Properties lists. This option is unavailable when the Apply
+                            to current selection set is disabled since entities can only be removed
+                            from an existing selection set. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Add to new selection set</dt>
+                        <dd outputclass="indent1">Creates a new selection set based on the entity
+                            types and property values you specify in the Entities and Properties
+                            lists. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Operators</dt>
+                        <dd>A list of operators enables you to filter properties based on values.
+                            You can click on the current operator to display the list and change it
+                            to a different operator.<fig id="fig_fx2_svh_npb">
+                                <image href="https://static.bricsys.com/help/en_US/PNL_properties_05_V21.png" scope="external" id="image_gx2_svh_npb" />
+                            </fig></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Select All</dt>
+                        <dd outputclass="indent1">Does not filter the entity list based on the
+                            property. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Equals</dt>
+                        <dd outputclass="indent1">Filters the entity list to include only those
+                            entities whose property equals the specified value. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Not Equal</dt>
+                        <dd outputclass="indent1">Filters the entity list to include only those
+                            entities whose property does not equal the specified value. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Smaller</dt>
+                        <dd outputclass="indent1">Filters the entity list to include only those
+                            entities whose property is less than the specified value. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Smaller Or Equal</dt>
+                        <dd outputclass="indent1">Filters the entity list to include only those
+                            entities whose property is less than or equal to the specified value.
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Greater</dt>
+                        <dd outputclass="indent1">Filters the entity list to include only those
+                            entities whose property is greater than the specified value. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Greater or Equal</dt>
+                        <dd outputclass="indent1">Filters the entity list to include only those
+                            entities whose property is greater than or equal to the specified value.
+                        </dd>
+                    </dlentry>
+                </dl>
+                <dl>
+                    <dlentry>
+                        <dt>Properties list</dt>
+                        <dd>The properties list displays entity properties on which you can filter.
+                            The available properties depend on the types of entities in the drawing
+                            and whether the option to Apply to current selection set is enabled.
+                            General, 3D Visualization (Model space only), and Geometry properties
+                            are available for all entities. Additional properties may display for
+                            certain types of entities.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">General Properties</dt>
+                        <dd outputclass="indent1">In Quick Select mode, General properties enable
+                            you to filter drawing entities based on their general properties. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Handle</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the
+                            unique hexadecimal value by which the entity is identified in the DWG
+                            database. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Color</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the color
+                            of the entity. You can specify a color from the drop-down list or choose
+                            Select color to access additional colors from the Select Color dialog
+                            box. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Layer</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the layer
+                            of the entity. You can specify a layer from the drop-down list. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Linetype</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the
+                            linetype of the entity. You can specify a linetype from the drop-down
+                            list or choose Load to access additional linetypes from the Load
+                            Linetypes dialog box. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Linetype Scale</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the
+                            linetype scale of the entity. You can enter a linetype scale. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Plot Style</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the plot
+                            style of the entity. You can specify a plotstle from the drop-down list.
+                                <note>This property is only available when plot styles are
+                                enabled.</note></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Lineweight</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the
+                            lineweight of the entity. You can specify a lineweight from the
+                            drop-down list. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Transparency</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the
+                            transparency level of the entity. You can specify a transparency level
+                            from the drop-down list or enter a value. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Hyperlink</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the URL
+                            of the entity. You can enter a URL or choose the Browse button to access
+                            the Edit Hyperlink dialog box. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Thickness</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the
+                            thickness of the entity. You can specify a thickness by entering a value
+                            or selecting the picker icon and picking two points in the drawing.
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">3D Visualization Properties</dt>
+                        <dd outputclass="indent1">In Quick Select mode, 3D Visualization properties
+                            enable you to filter drawing entities based on their 3D visualization
+                            properties.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent2">Material</dt>
+                        <dd outputclass="indent2">Enables you to filter entities based on the
+                            material of the entity. You can specify a material from the drop-list.
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Geometry Properties</dt>
+                        <dd outputclass="indent1">In Quick Select mode, Geometry properties enable
+                            you to filter drawing entities based on their geometric properties.
+                            These properties can vary for different types of entities. </dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_properties" />
+            <link keyref="CMD_qselect" />
+            <link keyref="CMD_plotstyle" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_propertypreview" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <!--Link to a general article about drawing entities-->
+            <link keyref="DB_selectcolor" />
+            <link keyref="DB_loadlinetypes" />
+        </linklist>
+    </related-links>
+</concept>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="drawingviewquality" xml:lang="en-US">
+   <title id="title__Toc50995066">DRAWINGVIEWQUALITY system variable</title>
+   <conbody>
+      <section><title>Quality of drawing views</title><p>Specifies the quality of drawing views. </p><p>You can significantly reduce the time needed to generate drawing views by changing the DRAWINGVIEWQUALITY setting to 0. This enables draft-quality drawing views. Such drawing views are internally represented as 3D solids, which makes it impossible to put annotations on their silhouette edges. However, they look very similar to a precise (high-quality) drawing view and you can use them to quickly create layouts.</p><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>0 to 1</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>1</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Draft quality</p>
+                           <p>1: High quality</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

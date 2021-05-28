@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_selectitemtoattachtothisdwg_0">
+    <title>Select item to attach to this DWG</title>
+    <shortdesc>The Select item to attach to this DWG dialog box enables you to attach point cloud
+        files that have already been processed and stored in the cache.</shortdesc>
+    <conbody>
+        <p>It includes 6 areas.</p>
+        <fig id="fig_c4b_tzl_mpb">
+            <image href="https://static.bricsys.com/help/en_US/DB_selectitemtoattachtothisDWG_01_V21.png" id="image_sry_13g_npb" scope="external" />
+            <ol id="ol_jn3_tzl_mpb">
+                <li>Cache used</li>
+                <li>Available </li>
+                <li>Dataset</li>
+                <li>Size</li>
+                <li>OK</li>
+                <li>Cancel</li>
+            </ol>
+        </fig>
+        <section id="section_atp_vzl_mpb">
+            <title>Cache used</title>
+            <p>Specifies the total amount of used cache.</p>
+        </section>
+        <section id="section_ikm_wzl_mpb">
+            <title>Available </title>
+            <p>Specifies the total amount of available cache. The available cache is controlled by
+                the POINTCLOUDCACHESIZE system variable. </p>
+        </section>
+        <section id="section_w5q_wzl_mpb">
+            <title>Dataset </title>
+            <p>Displays a list of cached point cloud files including their names and locations. You
+                can select a cached file from the list to attach to the current drawing. </p>
+        </section>
+        <section id="section_aj5_wzl_mpb">
+            <title>Size </title>
+            <p>Displays the amount of cache used for each point cloud file. </p>
+        </section>
+        <section id="section_sjx_wzl_mpb">
+            <title>OK </title>
+            <p>Displays the Attach point cloud dialog box where you can specify how to attach the
+                selected point cloud file to the current drawing.</p>
+        </section>
+        <section id="section_rjb_xzl_mpb">
+            <title>Cancel </title>
+            <p>Closes the dialog box without attaching a point cloud file.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_pointcloudattach" />
+            <link keyref="CMD_-pointcloudattach" />
+            <link keyref="CMD_pointclouddeleteitem" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_pointcloudcachesize" />
+            <link keyref="SV_pointcloudcachefolder" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+        </linklist>
+    </related-links>
+</concept>

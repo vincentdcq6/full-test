@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title>Drawing accurately</title>
+  <topicref href="empty%20titles/drawing_title.dita" navtitle="Drawing" keys="drawing_title">
+    <topicref href="_guides/BCAD_drawing_accurately/GD_2dentitysnaps.dita" keys="GD_2dentitysnaps" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_3dentitysnaps.dita" keys="GD_3dentitysnaps" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_adaptivegridsnap.dita" keys="GD_adaptivegridsnap" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_coordinateinput.dita" keys="GD_coordinateinput" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_coordinatereferencesystem.dita" keys="GD_coordinatereferencesystem" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_dynamicdimensions.dita" keys="GD_dynamicdimensions" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_dynamicucs.dita" keys="GD_dynamicucs" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_entitysnaptracking.dita" keys="GD_entitysnaptracking" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_measuring.dita" keys="GD_measuring" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_nearestdistance.dita" keys="GD_nearestdistance" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_nudge.dita" keys="GD_nudge" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_orthogonalmode.dita" keys="GD_orthogonalmode" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_polartracking.dita" keys="GD_polartracking" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_snapandgrid.dita" keys="GD_snapandgrid" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_unitsettings.dita" keys="GD_unitsettings" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_usercoordinatesystems.dita" keys="GD_usercoordinatesystems" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_usingdimensionalconstraints.dita" keys="GD_usingdimensionalconstraints" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_usinggeometricconstraints.dita" keys="GD_usinggeometricconstraints" />
+    <topicref href="_guides/BCAD_drawing_accurately/GD_2dconstraints.dita" navtitle="2D Constraints" keys="GD_2dconstraints" />
+    <topicref href="empty%20titles/drawing_entities_overview.dita" navtitle="Drawing Entities Overview" keys="drawingentities_overview">
+      <topicref href="_drawingentities/DE_circle.dita" keys="DE_circle" />
+      <topicref href="_drawingentities/DE_arc.dita" keys="DE_arc" />
+      <topicref href="_drawingentities/DE_ellipse.dita" keys="DE_ellipse" />
+      <topicref href="_drawingentities/DE_line.dita" keys="DE_line" />
+      <topicref href="_drawingentities/DE_polyline.dita" keys="DE_polyline" />
+      <topicref href="_drawingentities/DE_spline.dita" keys="DE_spline" />
+      <topicref href="_drawingentities/DE_mline.dita" keys="DE_mline" />
+      <topicref href="_drawingentities/DE_ray.dita" keys="DE_ray" />
+      <topicref href="_drawingentities/DE_xline.dita" keys="DE_xline" />
+      <topicref href="_drawingentities/DE_trace.dita" keys="DE_trace" />
+      <topicref href="_drawingentities/DE_wipeout.dita" keys="DE_wipeout" />
+      <topicref href="_drawingentities/DE_hatch.dita" keys="DE_hatch" />
+      <topicref href="_drawingentities/DE_helix.dita" keys="DE_helix" />
+      <topicref href="_drawingentities/DE_centerline.dita" keys="DE_centerline" />
+      <topicref href="_drawingentities/DE_centermark.dita" keys="DE_centermark" />
+      <topicref href="_drawingentities/DE_point.dita" keys="DE_point" />
+      <topicref href="_drawingentities/DE_region.dita" keys="DE_region" />
+      <topicref href="_drawingentities/DE_shape.dita" keys="DE_shape" />
+      <topicref href="_drawingentities/DE_solid.dita" keys="DE_solid" />
+      <topicref href="_drawingentities/DE_mtext.dita" keys="DE_mtext" />
+      <topicref href="_drawingentities/DE_text.dita" keys="DE_text" />
+      <topicref href="_drawingentities/DE_arcalignedtext.dita" keys="DE_arcalignedtext" />
+      <topicref href="_drawingentities/DE_textattributedefinition.dita" keys="DE_textattributedefinition" />
+      <topicref href="_drawingentities/DE_table.dita" keys="DE_table" />
+      <topicref href="_drawingentities/DE_leader.dita" keys="DE_leader" />
+      <topicref href="_drawingentities/DE_multileader.dita" keys="DE_multileader" />
+      <topicref href="_drawingentities/DE_aligneddimension.dita" keys="DE_aligneddimension" />
+      <topicref href="_drawingentities/DE_rotateddimension.dita" keys="DE_rotateddimension" />
+      <topicref href="_drawingentities/DE_radialdimension.dita" keys="DE_radialdimension" />
+      <topicref href="_drawingentities/DE_diametricdimension.dita" keys="DE_diametricdimension" />
+      <topicref href="_drawingentities/DE_angulardimension.dita" keys="DE_angulardimension" />
+      <topicref href="_drawingentities/DE_arclengthdimension.dita" keys="DE_arclengthdimension" />
+      <topicref href="_drawingentities/DE_ordinatedimension.dita" keys="DE_ordinatedimension" />
+      <topicref href="_drawingentities/DE_tolerance.dita" keys="DE_tolerance" />
+      <topicref href="_drawingentities/DE_blockreference_0.dita" keys="DE_blockreference_0" />
+      <topicref href="_drawingentities/DE_minsertblock.dita" keys="DE_minsertblock" />
+      <topicref href="_drawingentities/DE_arraypath.dita" keys="DE_arraypath" />
+      <topicref href="_drawingentities/DE_arraypolar.dita" keys="DE_arraypolar" />
+      <topicref href="_drawingentities/DE_arrayrectangular.dita" keys="DE_arrayrectangular" />
+      <topicref href="_drawingentities/DE_externalreference.dita" keys="DE_externalreference" />
+      <topicref href="_drawingentities/DE_pdfreference.dita" keys="DE_pdfreference" />
+      <topicref href="_drawingentities/DE_rasterimage.dita" keys="DE_rasterimage" />
+      <topicref href="_drawingentities/DE_dgn.dita" keys="DE_dgn" />
+      <topicref href="_drawingentities/DE_dwf.dita" keys="DE_dwf" />
+      <topicref href="_drawingentities/DE_pointcloud.dita" keys="DE_pointcloud" />
+      <topicref href="_drawingentities/DE_camera.dita" keys="DE_camera" />
+      <topicref href="_drawingentities/DE_light.dita" keys="DE_light" />
+      <topicref href="_drawingentities/DE_viewport.dita" keys="DE_viewport" />
+      <topicref href="_drawingentities/DE_sectionentity.dita" keys="DE_sectionentity" />
+      <topicref href="_drawingentities/DE_3dsolid.dita" keys="DE_3dsolid" />
+      <topicref href="_drawingentities/DE_polyfacemesh.dita" keys="DE_polyfacemesh" />
+      <topicref href="_drawingentities/DE_polygonmesh.dita" keys="DE_polygonmesh" />
+      <topicref href="_drawingentities/DE_surfaceextrusion.dita" keys="DE_surfaceextrusion" />
+      <topicref href="_drawingentities/DE_surfacerevolved.dita" keys="DE_surfacerevolved" />
+      <topicref href="_drawingentities/DE_surfaceloft.dita" keys="DE_surfaceloft" />
+      <topicref href="_drawingentities/DE_surfaceswept.dita" keys="DE_surfaceswept" />
+      <topicref href="_drawingentities/DE_3dface.dita" keys="DE_3dface" />
+      <topicref href="_drawingentities/DE_blockreference.dita" navtitle="Block Reference Entities" />
+    </topicref>
+    <topicref href="empty%20titles/entitysnaps_overview.dita" keys="entitysnaps_overview">
+      <topicref href="_entitysnaps/ES_apparentintersection.dita" keys="ES_apparentintersection" />
+      <topicref href="_entitysnaps/ES_center.dita" keys="ES_center" />
+      <topicref href="_entitysnaps/ES_centerofaface3d.dita" keys="ES_centerofaface3d" />
+      <topicref href="_entitysnaps/ES_endpoint.dita" keys="ES_endpoint" />
+      <topicref href="_entitysnaps/ES_extension.dita" keys="ES_extension" />
+      <topicref href="_entitysnaps/ES_geometriccenter.dita" keys="ES_geometriccenter" />
+      <topicref href="_entitysnaps/ES_insertion.dita" keys="ES_insertion" />
+      <topicref href="_entitysnaps/ES_intersection.dita" keys="ES_intersection" />
+      <topicref href="_entitysnaps/ES_intersection3d.dita" keys="ES_intersection3d" />
+      <topicref href="_entitysnaps/ES_knot3d.dita" keys="ES_knot3d" />
+      <topicref href="_entitysnaps/ES_midpoint.dita" keys="ES_midpoint" />
+      <topicref href="_entitysnaps/ES_midpoint3d.dita" keys="ES_midpoint3d" />
+      <topicref href="_entitysnaps/ES_nearest.dita" keys="ES_nearest" />
+      <topicref href="_entitysnaps/ES_nearest3d.dita" keys="ES_nearest3d" />
+      <topicref href="_entitysnaps/ES_node.dita" keys="ES_node" />
+      <topicref href="_entitysnaps/ES_parallel.dita" keys="ES_parallel" />
+      <topicref href="_entitysnaps/ES_perpendicular.dita" keys="ES_perpendicular" />
+      <topicref href="_entitysnaps/ES_perpendicularonaface3d.dita" keys="ES_perpendicularonaface3d" />
+      <topicref href="_entitysnaps/ES_quadrant.dita" keys="ES_quadrant" />
+      <topicref href="_entitysnaps/ES_tangent.dita" keys="ES_tangent" />
+      <topicref href="_entitysnaps/ES_vertex3d.dita" keys="ES_vertex3d" />
+    </topicref>
+    <topicref href="empty%20titles/geometric_constraints_overview.dita" navtitle="Geometric       Constraints Overview" keys="geometricconstraints_overview">
+      <topicref href="_geometricconstraints/GC_2dcoincident.dita" navtitle="2D Coincident         Constraint" keys="GC_2dcoincident" />
+      <topicref href="_geometricconstraints/GC_2dcolinear.dita" navtitle="2D Colinear Constraint" keys="GC_2dcolinear" />
+      <topicref href="_geometricconstraints/GC_2dconcentric.dita" navtitle="2D Concentric Constraint" keys="GC_2dconcentric" />
+      <topicref href="_geometricconstraints/GC_2dequal.dita" navtitle="2D Equal Constraint" keys="GC_2dequal" />
+      <topicref href="_geometricconstraints/GC_2dfix.dita" navtitle="2D Fix Constraint" keys="GC_2dfix" />
+      <topicref href="_geometricconstraints/GC_2dhorizontal.dita" navtitle="2D Horizontal Constraint" keys="GC_2dhorizontal" />
+      <topicref href="_geometricconstraints/GC_2dparallel.dita" navtitle="2D Parallel Constraint" keys="GC_2dparallel" />
+      <topicref href="_geometricconstraints/GC_2dperpendicular.dita" navtitle="2D Perpendicular         Constraint" keys="GC_2dperpendicular" />
+      <topicref href="_geometricconstraints/GC_2dsmooth.dita" navtitle="2D Smooth Constraint" keys="GC_2dsmooth" />
+      <topicref href="_geometricconstraints/GC_2dsymetric.dita" navtitle="2D Symetric Constraint" keys="GC_2dsymetric" />
+      <topicref href="_geometricconstraints/GC_2dtangent.dita" navtitle="2D Tangent Constraint" keys="GC_2dtangent" />
+      <topicref href="_geometricconstraints/GC_2dveritcal.dita" navtitle="2D Veritcal Constraint" keys="GC_2dveritcal" />
+    </topicref>
+  </topicref>
+</map>

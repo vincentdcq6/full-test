@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_browser">
+   <title>BROWSER command</title>
+   <shortdesc>Opens the default Web browser.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Open the default Web browser to browse the internet starting from a specified URL. It opens
+         in an external application window, allowing it to remain open while you work on your
+         drawings in BricsCAD. You can move and resize it with standard application window
+         controls.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_url" />
+         <link keyref="CMD_onweb" />
+         <link keyref="CMD_mail" />
+      </linklist>
+   </related-links>
+</concept>

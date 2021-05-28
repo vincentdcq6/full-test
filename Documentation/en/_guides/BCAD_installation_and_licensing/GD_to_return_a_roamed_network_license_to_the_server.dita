@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="to_return_a_roamed_network_license_to_the_server">
+   <title>Returning a roamed network license to the server</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <context id="context_ilw_rxc_cnb">If you are connected to the license server, you can return a roamed license to the server.</context>
+      <steps id="ol_jwr_wph_smb">
+         <step>
+            <cmd>click the <uicontrol>Roaming...</uicontrol> button in the Licensing information
+               dialog box.</cmd>
+            <stepresult>The <uicontrol>Roaming</uicontrol> dialog box opens.<fig id="fig_bhr_xph_smb">
+                  <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/Roaming_Checkin.png" id="image_lss_xph_smb" scope="external" />
+               </fig></stepresult>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Checkin</uicontrol> button.</cmd>
+         </step>
+         <step>
+            <cmd>Restart <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> to apply the
+               changes.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_licensemanager" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_to_use_a_network_license_on_a_client_computer" />
+         <link keyref="GD_to_roam_a_network_license_on_a_client_computer" />
+         <link keyref="DB_bricsyslicensemanager" />
+      </linklist>
+   </related-links>
+</task>

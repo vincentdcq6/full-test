@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_topdowndesign">
+    <title>Top-Down Design</title>
+    <conbody>
+        <p>With top-down approach, you can start to design a product by defining, but not detailing,
+            its first-level components. Each component is then refined in more detail by defining
+            its subcomponents. The process is continued till all low-level components are defined
+            and detailed.</p>
+        <p>Use the command <cmdname>BmForm</cmdname> to create a new subcomponent for an existing
+            component.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

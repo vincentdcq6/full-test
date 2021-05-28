@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="areaunits" xml:lang="en-US">
+   <title id="title__Toc50994804">AREAUNITS system variable</title>
+   <conbody>
+      <section><title>Area units</title><p>Specifies a list of units used for displaying areas when the area bit of PROPUNITS is on. If empty, all areas are displayed in the current drawing unit, as defined by INSUNITS. If multiple units are selected, the unit that fits best is used.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p><table id="table_svt_xfz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/string" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>in ft mi µm mm cm m km</p></entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

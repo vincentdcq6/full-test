@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="selecting_entities">
+   <title>Selecting entities</title>
+   <shortdesc />
+   <taskbody>
+      <context id="context_k1g_qw2_wmb">
+         <p>Manipulation commands, such as MOVE, COPY and MIRROR prompt you to select one or more
+            entities. If the PICKFIRST variable is ON, you can also compose the selection set before
+            launching the command.</p>
+         <p><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> provides several selection methods. You can combine selection methods to compose a selection set.</p>
+      </context>
+   </taskbody>
+   <task id="task_z5v_qw2_wmb">
+      <title>Selecting entities one by one</title>
+      <taskbody>
+         <steps id="steps_tqs_rw2_wmb">
+            <step>
+               <cmd>Move the cursor over the entity.</cmd>
+               <stepresult>
+                  <p>The entity highlights.</p>
+                  <p>The Quad appears and displays the most recently used command and a selection of
+                     the entity properties.</p>
+               </stepresult>
+            </step>
+            <step>
+               <cmd>Do one of the following:</cmd>
+               <choices id="choices_jlh_ykw_xmb">
+                  <choice>Click to select the entity.</choice>
+                  <choice>Repeatedly press the Tab key to highlight obscured entities and click when the desired entity highlights.</choice>
+               </choices>
+            </step>
+            <step>
+               <cmd>Repeat the previous steps to select more entities or launch a command.</cmd>
+            </step>
+         </steps>
+      </taskbody>
+   </task>
+   <task id="task_mch_ww2_wmb">
+      <title>Selecting multiple entities</title>
+      <taskbody>
+         <context id="context_i2b_yw2_wmb"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> uses window selection methods to select multiple entities:</context>
+         <steps id="steps_rsg_xw2_wmb">
+            <step>
+               <cmd>Click to define the corner of the selection rectangle.</cmd>
+            </step>
+            <step>
+               <cmd>Do one of the following:</cmd>
+               <choices id="choices_o2j_zw2_wmb">
+                  <choice>Move the cursor to the right. A blue rectangle displays. The <b>circle inside the rectangle</b> icon indicates all entities that lie completely within the selection rectangle will be selected.</choice>
+                  <choice>Move the cursor to the left. A green rectangle displays. The <uicontrol>circle overlapping the rectangle</uicontrol> icon indicates that all entities which either lie within or overlap the selection rectangle will be selected.</choice>
+               </choices>
+            </step>
+            <step>
+               <cmd>Click to define the opposite corner of the selection rectangle.</cmd>
+            </step>
+         </steps>
+      </taskbody>
+   </task>
+   <task id="task_vhn_cx2_wmb">
+      <title>Removing entities from a selection set</title>
+      <taskbody>
+         <context id="context_hxb_dx2_wmb">
+            <p>Hold down the Shift key when executing a selection method, to remove entities from the current selection set.</p>
+            <p>Press the Esc key to clear the current selection set.</p>
+         </context>
+      </taskbody>
+      <related-links>
+         <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_pickfirst" />
+         </linklist>
+         <linklist>
+            <title>Related information</title>
+            <link keyref="GD_the_quad_basics" />
+            <link keyref="GD_working_with_the_structure_panel" />
+            <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006529973-Selection-Methods" format="html" scope="external"><linktext>Selection Methods</linktext></link>-->
+            <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006428474-Quick-Select" format="html" scope="external"><linktext>Quick Select</linktext></link>-->
+            <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006428794-The-Structure-Panel" format="html" scope="external"><linktext>The Structure Panel</linktext></link>-->
+         </linklist>
+      </related-links>
+   </task>
+</task>
+
+

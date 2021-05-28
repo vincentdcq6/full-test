@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_whohas">
+   <title>WHOHAS command</title>
+   <shortdesc>Opens the Open Drawing Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_opendrawing" /> to select a dwg file to find out who has it open.
+         After selecting the file and choosing Open, a BricsCAD Dialog Box displays. It indicates
+         who has the file open and when they opened it.</p>
+   </conbody>
+</concept>

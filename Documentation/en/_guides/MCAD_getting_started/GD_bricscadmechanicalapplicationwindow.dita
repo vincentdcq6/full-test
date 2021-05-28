@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_bricscadmechanicalapplicationwindow">
+    <title>BricsCAD mechanical application window</title>
+    <shortdesc>Navigation in BricsCAD Mechanical</shortdesc>
+    <conbody>
+        <p>
+            <fig id="fig_mkj_hwv_3pb">
+                <image href="https://static.bricsys.com/help/en_US/GD_MCAD_BricsCADmechanicalapplicationwindow_01_V21.png" id="image_k5y_3pf_rpb" scope="external" />
+                <ol id="ol_qxl_2rf_rpb">
+                    <li>Ribbon tabs: click to switch to a particular tab.</li>
+                    <li>Ribbon panel: every tab contains several panels, which combine similar
+                        tools.</li>
+                    <li>Mechanical browser: browse through a tree-like representation of your model,
+                        with the possibility to highlight a particular node in the model area and
+                        edit its mechanical properties.</li>
+                    <li>Mechanical properties of a particular node: some are read-only. Check the
+                        properties of the root node in the tree.</li>
+                    <li>Dockable tool panels: mechanical Browser and Library.</li>
+                    <li>Quad cursor menu: apply a particular tool when you hover over an affected
+                        entity.</li>
+                    <li>Command line: type in the command.</li>
+                    <li>Status bar: status and switch hot options.</li>
+                    <li>Properties panel: Adjust non-mechanical properties of selected entities,
+                        such as color and layer.</li>
+                </ol>
+            </fig>
+        </p>
+    </conbody>
+</concept>

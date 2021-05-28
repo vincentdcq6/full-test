@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_create_an_organization">
+    <title>Create an organization</title>
+    <taskbody>
+        <context>
+            <p>You can create a new organization:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Address book</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>New</uicontrol>
+                    <image href="../IMAGES_temp/New_button.PNG" id="image_abc_vnc_x4b" scale="75" scope="external" />.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>Organization</uicontrol>.</cmd>
+                <stepresult>The <wintitle>New organization</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Enter the organization details.</cmd>
+                <info>
+                    <div>
+                        <note>The name of the organization is a required field.</note>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the organization is successfully
+                    created.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

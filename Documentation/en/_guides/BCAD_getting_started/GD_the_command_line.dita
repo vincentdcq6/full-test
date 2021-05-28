@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="the_command_line">
+   <title>The command line</title>
+   <shortdesc>The command line is an optional dockable panel that is located by default at the
+      bottom of the drawing area.</shortdesc>
+   <conbody>
+      <p>The command line is a fast and efficient method to launch commands and to set system
+         variables and user preferences.</p>
+      <p><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> prompts for user input in the
+         command line and reports the results of commands, such as  DIST, AREA or LIST here.</p>
+      <p>When the command line is closed, keyboard entries and command prompts display in the Status
+         bar.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_area" />
+         <link keyref="CMD_dist" />
+         <link keyref="CMD_list" />
+      </linklist>
+      <linklist>
+         <title>Related Information</title>
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006812433-The-BricsCAD-Application-Window#open-close-the-command-line" format="html" scope="external"><linktext>To open or close the command line</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006812433-The-BricsCAD-Application-Window#to-set-the-command-line-properties" format="html" scope="external"><linktext>To set the command line properties</linktext></link>-->
+         <link keyref="GD_the_ribbon" />
+         <link keyref="GD_toolbars" />
+         <link keyref="GD_menus" />
+         <link keyref="GD_the_quad_basics" />
+         <link keyref="GD_executing_commands" />
+      </linklist>
+   </related-links>
+</concept>
+
+

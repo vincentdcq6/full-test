@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_layuniso">
+   <title>LAYUNISO command</title>
+   <shortdesc>Restores isolated layers to their previous state. </shortdesc>
+   <conbody>
+      <p><!--<p>Insert License Level</p>--><!--<p> Insert link to Tool icon</p>--><!--<p>Alias:</p>--></p>
+      <p>Restore the Lock, On/Off, and VP Freeze properties of isolated layers as they were before you used the LAYISO command.</p>
+      <p>There are no prompts. The Command line indicates: Layers isolated by LAYISO command have been restored. </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_layer" />
+         <!---LAYER command link-->
+         <link keyref="CMD_layon" />
+         <link keyref="CMD_layoff" />
+         <link keyref="CMD_laythw" />
+         <link keyref="CMD_layfrz" />
+         <link keyref="CMD_laylck" />
+         <link keyref="CMD_layulk" />
+         <link keyref="CMD_layiso" />
+         <link keyref="CMD_layuniso" />
+         <link keyref="CMD_laycur" />
+         <link keyref="CMD_layerp" />
+         <link keyref="CMD_layerstate" />
+      </linklist>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_laylockfadectl" />
+         <link keyref="SV_layerpmode" />
+      </linklist>
+   </related-links>
+</concept>

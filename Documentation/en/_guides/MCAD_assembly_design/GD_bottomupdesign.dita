@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_bottomupdesign">
+    <title>Bottom-Up Design</title>
+    <conbody>
+        <p>With bottom-up approach, you can start to design a product by detailing its low-level
+            component. These components are then grouped into higher-level components. The process
+            is continued until the very top component is corresponding to the product itself.</p>
+        <p>The main command for bottom-up design is <cmdname>BmInsert</cmdname>. Use this command to
+            insert an existing component into the current drawing.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

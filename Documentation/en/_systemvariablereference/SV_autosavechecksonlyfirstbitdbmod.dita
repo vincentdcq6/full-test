@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="autosavechecksonlyfirstbitdbmod" xml:lang="en-US">
+   <title id="title__Toc50994800">AUTOSAVECHECKSONLYFIRSTBITDBMOD system variable</title>
+   <conbody>
+      <section><title>Ignore all but first bit of DBMOD for autosave</title><p>The first bit(1) of DBMOD means that the object database is modified. If this user preference is switched on, no autosave file will be created for files that are viewed only (DBMOD changes as soon as you pan and zoom).</p><p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p><table id="table_pqd_qgz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/boolean" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p conkeyref="system_variable_warehouse/on" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Autosave file for files that are viewed only</p>
+                           <p>On (1): No autosave file for files that are viewed only</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

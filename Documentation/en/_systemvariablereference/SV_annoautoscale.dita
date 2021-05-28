@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="annoautoscale" xml:lang="en-US">
+   <title id="title__Toc50994793">ANNOAUTOSCALE system variable</title>
+   <conbody>
+      <section><title>Annotation scaling</title><p>Synchronizes annotative entities with the current annotation scale.</p>
+         <p><table id="table_xmb_xcz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>-4</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Newly set annotation scale is not added to annotative entities.</p>
+                           <p>1: Newly set annotation scale is added to annotative entities supporting it except entities on locked, turned off, frozen or viewport-frozen layers.</p>
+                           <p>2: Newly set annotation scale is added to annotative entities supporting it except entities on turned off, frozen or viewport-frozen layers.</p>
+                           <p>3: Newly set annotation scale is added to annotative entities supporting it except entities on locked layers.</p>
+                           <p>4: Newly set annotation scale is added to all annotative entities supporting it.</p>
+                           <p>-1: Newly set annotation scale is not added to annotative entities (toggled value 1).</p>
+                           <p>-2: Newly set annotation scale is not added to annotative entities (toggled value 2).</p>
+                           <p>-3: Newly set annotation scale is not added to annotative entities (toggled value 3).</p>
+                           <p>-4: Newly set annotation scale is not added to annotative entities (toggled value 4).</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="treedepth">
+   <title>TREEDEPTH system variable</title>
+   <shortdesc />
+   <conbody>
+      <section id="section_pt2_lfj_xnb">
+         <title>Tree depth</title>
+         <p>Specifies the maximum number of times the index can be divided into branches to enhance performance. </p>
+         <p>When set to zero, entities are always processed in database order, with no performance benefit from spatial indexing. </p>
+         <p>When set to a positive value, spatial indexing is applied and supports up to five digits. The first three digits are for model space and the remaining digits are for paper space. </p>
+         <p>When set to a negative value, the Z coordinates of all entities are ignored, whether in
+            model space or paper space. Because z coordinates are ignored, a negative value is most
+            appropriate and efficient for 2D drawings.</p>
+         <p>
+            <table id="o25_dqx_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/drawing" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>3020</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Suppress spatial indexing</p>
+                           <p>&gt;0: Apply spatial indexing</p>
+                           <p>&lt;0: Ignore Z coordinates</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </conbody>
+</concept>

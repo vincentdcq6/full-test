@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="skpoly" xml:lang="en-US">
+   <title id="title__Toc50995632">SKPOLY system variable</title>
+   <conbody>
+      <section><title>Sketch poly</title><p>Specifies the entity type (lines or polylines) created by the SKETCH command.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/boolean" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Generate lines</p>
+                           <p>On (1): Generate polylines</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p>
+         <p>
+            <fig id="fig_wtp_hsh_p4b">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_skpoly_01_V21.png" id="image_xtp_hsh_p4b" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_change_the_workflow_status_to_obsolete">
+    <title>Change the workflow status to obsolete</title>
+    <taskbody>
+        <context>
+            <p>You can change the status of an active workflow to obsolete:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Workflow</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow folder in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Edit</uicontrol>
+                    <image href="../IMAGES_temp/edit_button.PNG" id="image_i2h_xk5_y4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Edit</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Update the <uicontrol>Status</uicontrol> to
+                    <uicontrol>Obsolete</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Edit</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the workflow is successfully
+                    edited.</stepresult>
+            </step>
+        </steps>
+        <postreq id="postreq_r3m_syn_z4b">
+            <note type="important">If you change the status of an active workflow to obsolete, you
+                can not use the workflow any longer.  The workflow stays active until it is canceled
+                or deleted.</note>
+        </postreq>
+    </taskbody>
+</task>

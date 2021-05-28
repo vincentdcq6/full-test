@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_set_up_a_project">
+    <title>Set up a project</title>
+    <conbody>
+        <p>This chapter informs you how to get a project up and running.</p>
+        <p>You can set up a project from the beginning:<ol id="ol_u1d_rc2_fpb">
+                <li>Create a new project</li>
+                <li>Edit the project settings</li>
+                <li>Create the folder structure</li>
+                <li>Define roles</li>
+                <li>Update access rights</li>
+                <li>Add users and send an invitation mail.</li>
+            </ol></p>
+        <p>As an alternative, you can create a copy of an existing project and select the options
+            you want to copy to the new project.<note type="important">Only the project
+                administrator can create a new project, or copy an existing project.</note><note>A
+                customer can have multiple project administrators, managed by our support
+                team.</note></p>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_copyaproject" />
+        </linklist>
+    </related-links>
+</concept>

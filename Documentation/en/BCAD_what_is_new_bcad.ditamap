@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title>What's new</title>
+  <topicref href="empty%20titles/BCAD_whats_new_in_bricscad_v21_title.dita" keys="NFG_whats_new_in_bricscad_v21_title">
+    <topicref href="_guides/BCAD_whats_new_V21/NFG_overview.dita" keys="NFG_overview" />
+    <topicref href="_guides/BCAD_whats_new_V21/NFG_user_interface.dita" keys="NFG_user_interface" />
+    <topicref href="_guides/BCAD_whats_new_V21/NFG_productivity.dita" keys="NFG_productivity" />
+    <topicref href="_guides/BCAD_whats_new_V21/NFG_drafting.dita" keys="NFG_drafting" />
+    <topicref href="_guides/BCAD_whats_new_V21/NFG_modeling.dita" keys="NFG_modeling" />
+    <topicref href="_guides/BCAD_whats_new_V21/NFG_civil_tools.dita" keys="NFG_civil_tools" />
+    <topicref href="_guides/BCAD_whats_new_V21/NFG_performance_and_compatibility.dita" keys="NFG_performance_and_compatibility" />
+  </topicref>
+</map>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="to_roam_a_network_license_on_a_client_computer">
+   <title>Roaming a network license on a client computer</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <context id="context_w1t_rvc_cnb">A network license can be roamed to use <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> without connection to the license
+         server (work outside of the office, at home, ...).<p>When a network license is used on a
+            client computer, the <uicontrol>Roaming...</uicontrol> button is displayed in the
+            Licensing information dialog box.</p><fig id="fig_ws2_qph_smb">
+            <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/LicensingInformation_Roaming.png" id="image_vzf_qph_smb" scope="external" />
+         </fig></context>
+      <steps id="ol_xv3_pph_smb">
+         <step>
+            <cmd>If your computer is connected to the license server through a proxy server, click
+               the <uicontrol>Proxy Settings</uicontrol> button to configure the proxy settings for
+               a network license.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Roaming...</uicontrol> button.</cmd>
+            <stepresult>The <uicontrol>Roaming</uicontrol> dialog box opens.<fig id="fig_m4g_rph_smb">
+                  <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/Roaming_Checkout.png" id="image_msh_rph_smb" scope="external" />
+               </fig></stepresult>
+         </step>
+         <step>
+            <cmd>Enter the number of days you want to check out the license for roaming and click the <uicontrol>Checkout</uicontrol> button.</cmd>
+         </step>
+         <step>
+            <cmd>(Optional) Tick the checkbox if you want to automatically refresh the roaming period when your computer is connected to the server.</cmd>
+         </step>
+         <step>
+            <cmd>Restart <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> to apply the
+               changes.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_licensemanager" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_proxy_settings" />
+         <link keyref="GD_to_use_a_network_license_on_a_client_computer" />
+         <link keyref="GD_to_return_a_roamed_network_license_to_the_server" />
+         <link keyref="DB_bricsyslicensemanager" />
+      </linklist>
+   </related-links>
+</task>
+

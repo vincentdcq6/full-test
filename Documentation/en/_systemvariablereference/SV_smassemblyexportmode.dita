@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A21B1A4B-4AC8339-526D610F6C54217-724505">
+  <title>SMASSEMBLYEXPORTMODE system variable</title>
+  <conbody>
+    <section id="section_gkf_zhn_dpb">
+      <title>Modification of exported assemblies</title>
+      <p>Specifies whether the original assembly is modified after running the SMASSEMBLYEXPORT
+        command.</p>
+      <p conkeyref="system_variable_warehouse/BricsCAD_only" />
+      <table id="table_hkf_zhn_dpb">
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1*" />
+          <colspec colname="c2" colnum="2" colwidth="3*" />
+          <tbody>
+            <row>
+              <entry conkeyref="system_variable_warehouse/type" />
+              <entry>
+                <p conkeyref="system_variable_warehouse/short" />
+              </entry>
+            </row>
+            <row>
+              <entry conkeyref="system_variable_warehouse/saved_in" />
+              <entry>
+                <p conkeyref="system_variable_warehouse/registry" />
+              </entry>
+            </row>
+            <row>
+              <entry conkeyref="system_variable_warehouse/possible_values" />
+              <entry>
+                <p>0: Do not change external components</p>
+                <p>1: Keep recognized features on sheet metal/poor sheet metal parts</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </conbody>
+</concept>

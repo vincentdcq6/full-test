@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="RUBBERSHEETforOSX">
+   <title>RUBBERSHEET (for OS X) system variable</title>
+   <shortdesc />
+   <conbody>
+      <section id="section_pt2_lfj_xnb">
+         <title>Rubbersheet Touchpad</title>
+         <p>Specifies whether to allow simultaneous zoom/rotate/pan by dual finger move on touchpad.</p>
+         <p>
+            <table id="o25_dqx_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/boolean" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/registry" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/on" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Dual finger touch simultaneously zooms/rotates/pans off</p>
+                           <p>On (1): Dual finger touch simultaneously zooms/rotates/pans on</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </conbody>
+</concept>

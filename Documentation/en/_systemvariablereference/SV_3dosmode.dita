@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="_3dosmode" xml:lang="en-US">
+   <title id="title__Toc50994778">3DOSMODE system variable</title>
+   <conbody>
+      <section>
+         <title>Entity 3D snap mode</title>
+         <p>The current 3D Entity Snap modes are saved through the 3DOSMODE system variable as the sum of the bitcodes of the selected snap modes.</p>
+         <p>
+            <table id="o25_dqx_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/long" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/registry" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 33023</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>11</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>1: Turn off all 3D snaps</p>
+                           <p>2: 3D Entity Vertices and Control Vertices of Splines</p>
+                           <p>4: Midpoint of edge</p>
+                           <p>8: Center of face</p>
+                           <p>16: Spline Knot</p>
+                           <p>32: Perpendicular to planar face</p>
+                           <p>64: Nearest to face</p>
+                           <p>128: Pointcloud nearest Point</p>
+                           <p>32768: Intersection with face</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </conbody>
+</concept>

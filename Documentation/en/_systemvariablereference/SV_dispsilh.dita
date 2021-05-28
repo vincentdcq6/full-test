@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dispsilh" xml:lang="en-US">
+   <title id="title__Toc50995044">DISPSILH system variable</title>
+   <conbody>
+      <section><title>Display silhouette curves</title><p>Specifies the display of silhouette curves of solid entities in Wireframe modes (2D and 3D) and whether a mesh is drawn or not when a solid entity is hidden in 2D Wireframe mode. To view changes on existing entities, perform a REGEN.</p><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/boolean" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p conkeyref="system_variable_warehouse/off" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Don’t display silhouette curves</p>
+                           <p>On (1): Display silhouette curves</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <fig id="fig_k5f_hsq_jnb">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_dispsilh_01_V21.png" id="image_l5f_hsq_jnb" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

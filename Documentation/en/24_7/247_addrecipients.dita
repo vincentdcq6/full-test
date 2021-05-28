@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta__add_recipients">
+    <title>Add recipients</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Enter the name of a project member, or enter an email list in the
+                        <uicontrol>To</uicontrol> field of a communication window.</cmd>
+                <info>
+                    <p>Email lists are set up by the project administrator.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>If applicable, edit the email list:</cmd>
+                <info>
+                    <ol id="ol_fqc_5kd_v4b">
+                        <li>Select the email list.</li>
+                        <li>Untick the checkbox next to the project member.</li>
+                    </ol>
+                </info>
+            </step>
+        </steps>
+        <postreq id="postreq_trw_5ld_v4b">
+            <note type="important">You can only add recipients who are allowed to view the
+                applicable item. The project administrator needs to give you access to communicate
+                with other project members.</note>
+        </postreq>
+    </taskbody>
+</task>

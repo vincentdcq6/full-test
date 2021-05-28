@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_account">
+    <title>Account</title>
+    <conbody>
+        <p>All users have their own Bricsys 24/7 account. An account can be created by a project
+            administrator. A new user receives an email with an invitation to a Bricsys 24/7
+            project, and login instructions.</p>
+        <p><fig>
+                <image href="../IMAGES_temp/invitation_to_Bricsys_project.PNG" id="image_qln_3st_w4b" scale="80" scope="external" />
+            </fig></p>
+        <p>
+            <note>In Bricsys 24/7, a customer can add an unlimited number of users to a project to
+                improve collaboration and traceability.</note>
+        </p>
+    </conbody>
+</concept>

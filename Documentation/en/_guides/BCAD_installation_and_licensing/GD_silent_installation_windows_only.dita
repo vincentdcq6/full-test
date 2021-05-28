@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="silent_installation_windows_only">
+   <title>Silent Installation (Windows only)</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <prereq id="prereq_npw_mgn_gnb">For silent installation, you need admin rights.</prereq>
+      <context id="section_rzx_cwg_smb" />
+      <steps>
+         <step>
+            <cmd>Open <b>PowerShell</b> or <b>Command Prompt</b><!--this is before Windows 10--> and
+               change the directory (cd) to the location of the <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> installer .msi file.</cmd>
+            <info>
+               <note>In Windows 10, you can access the <b>Open PowerShell window here</b> context
+                  menu when you shift-right-click a folder in <b>Explorer</b>. This allows you to
+                  open <b>PowerShell</b> in the current window without having to change the
+                  directory.</note>
+            </info>
+         </step>
+         <step>
+            <cmd>Type <b>msiexec /i</b> and do one of the following:</cmd>
+            <choices>
+               <choice>Type the file name of the <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> installer (e.g.
+                  BricsCAD-V20.2.09-1-en_US(x64).msi.</choice>
+               <choice>Drag the <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> installer
+                  file from the Windows Explorer dialog to the command window.</choice>
+            </choices>
+         </step>
+         <step>
+            <cmd>Type <b>/qn</b> at the command prompt.</cmd>
+         </step>
+         <step>
+            <cmd>(option) Add <b>ADDDESKTOPSHORTCUT=""</b> to suppress the addition of a desktop shortcut.</cmd>
+         </step>
+         <step>
+            <cmd>(option) Add <b>SHOWRELEASENOTES=""</b> to suppress the display of the Release Notes when the installation completes.</cmd>
+         </step>
+         <step>
+            <cmd>(option) Add <b>APPLICATIONFOLDER="your_app_folder"</b> to install <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> in a custom folder.</cmd>
+         </step>
+         <step>
+            <cmd>(option) Add <b>BRXLICENSEDESTFILE="path_to_lic_file"</b> to specify a folder for the license file if any of the properties <b>BRXLICENSEKEY</b>, <b>BRXLICENSEFILE</b> or <b>BRXLICENSESERVER</b> are defined.</cmd>
+            <info>Default is <b>APPLICATIONFOLDER\BricsCAD.lic</b>.</info>
+         </step>
+         <step>
+            <cmd>(option) Add <b>BRXLICENSEKEY="your_license_key"</b> to activate the license and store it in the folder specified by <b>BRXLICENSEDESTFILE</b>.</cmd>
+         </step>
+         <step>
+            <cmd>(option) Add <b>BRXLICENSEFILE="your_license_file" </b> to copy the license file to the folder specified by <b>BRXLICENSEDESTFILE</b>.</cmd>
+         </step>
+         <step>
+            <cmd>(option) Add <b>BRXLICENSESERVER="host"</b>, or <b>BRXLICENSESERVER="port@host"</b> (*) to create a license file in the folder specified by <b>BRXLICENSEDESTFILE</b>, containing the server host specification.</cmd>
+            <info>(*) If your license server is using a different port than default port 5053.</info>
+         </step>
+         <step>
+            <cmd>(option on 32-BIT only) Add <b>INSTALLVBA="0"</b> or <b>INSTALLVBA=""</b> to not install VBA.</cmd>
+            <info>The complete entry in the command prompt can be: <b>msiexec /i "BricsCAD-Vxx.x.xx-x-en_US(x64).msi"</b>
+               <b>/qn ADDDESKTOPSHORTCUT="" SHOWRELEASENOTES=""</b>.</info>
+         </step>
+         <step>
+            <cmd>Press <uicontrol>Enter</uicontrol> to launch the installation.</cmd>
+         </step>
+      </steps>
+      <result>
+         <note>
+            <!--waar deze note aan toevoegen? Results is niet echt geschikt...-->
+            <ul id="ul_o5d_nvg_smb">
+               <li>For more options, type: <b>msiexec /?</b> at the command prompt.</li>
+               <li>On the Microsoft website, you can find more information about the <b>msiexec</b>
+                  command.</li>
+            </ul>
+         </note>
+      </result>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related Information</title>
+         <link href="https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options" format="html" scope="external">
+            <linktext>More information about the msiexec command</linktext>
+         </link>
+         <link keyref="GD_overview_of_install_options" />
+         <link keyref="GD_interactive_installation" />
+      </linklist>
+   </related-links>
+</task>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="middleclickclose">
+   <title>MIDDLECLICKCLOSE system variable</title>
+   <shortdesc />
+   <conbody>
+      <section id="section_pt2_lfj_xnb">
+         <title>Middle click close (Mac &amp; Linux)</title>
+         <p>Allows a tab to be closed by middle button click on tab bar On/Off</p>
+         <p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p>
+            <table id="o25_dqx_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/boolean" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/preference" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/true" />
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </conbody>
+</concept>

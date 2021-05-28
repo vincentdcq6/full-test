@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_compositions">
+    <title>BIM compositions panel</title>
+    <shortdesc>The BIM composition panel allows you to assign compositions to any solid in a BIM
+        model.</shortdesc>
+    <conbody>
+        <p>It includes 4 areas.</p>
+        <fig id="fig_ovm_knk_mpb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_compositions_01_V21.png" id="image_qvj_pkk_mpb" scope="external" />
+            <ol id="ol_xsn_skk_mpb">
+                <li>Menu</li>
+                <li>Compositions types list</li>
+                <li>Search</li>
+                <li>Available compositions</li>
+            </ol>
+        </fig>
+        <section id="section_jnr_snk_mpb">
+            <title>Menu</title>
+            <div conkeyref="CM_compositionmenu/div_rhc_rtk_mpb" id="div_yr2_j5k_mpb" />
+        </section>
+        <section id="section_p12_tnk_mpb">
+            <title>Compositions types list </title>
+            <p>Displays the compositions of the selected category (all types, generic, roof, slab,
+                wall) in the Library database.</p>
+        </section>
+        <section id="section_ntv_tnk_mpb">
+            <title>Search</title>
+            <p>Filters the list of compositions. Only compositions that contain the current search
+                term are displayed.</p>
+        </section>
+        <section id="section_wzj_5nk_mpb">
+            <title>Available compositions </title>
+            <p>Displays all the available compositions. </p>
+            <p>When you double-click on a composition the Compositions dialog box will open.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_blcompositions" />
+            <link keyref="CMD_-toolpanel" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="UI_panels" />
+            <link keyref="DB_compositions" />
+        </linklist>
+    </related-links>
+</concept>

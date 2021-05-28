@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_use_of_cookies">
+    <title>Use of cookies</title>
+    <conbody>
+        <p>This website makes use of cookies to enhance the browsing experience. For more
+            information about the use of cookies, see our <xref href="https://www.bricsys.com/en-intl/cookie-statement/?" format="html" scope="external">Cookie Statement</xref>.</p>
+    </conbody>
+</concept>

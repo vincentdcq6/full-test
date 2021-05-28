@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_users">
+    <title>Users</title>
+    <conbody>
+        <p>Invite users to the project and make them a member of certain roles.</p>
+    </conbody>
+</concept>

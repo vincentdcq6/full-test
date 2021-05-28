@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="pdmode" xml:lang="en-US">
+   <title id="title__Toc50995405">PDMODE system variable</title>
+   <conbody>
+      <section>
+         <title>Point display mode</title>
+         <p>Specifies the display style for point entities. The value is stored as a bitcode using the sum of the values of all selected options.</p>
+         <p>
+            <table id="table_adg_q5t_fnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/drawing" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry />
+                        <entry><p>0 to 100</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry><p>1: none</p>
+                           <p>0: .</p>
+                           <p>2: +</p>
+                           <p>3: x</p>
+                           <p>4: '</p>
+                           <p>32: circle</p>
+                           <p>64: square</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <fig id="fig_izr_n5t_fnb">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_pdmode_01_V21.png" id="image_jzr_n5t_fnb" scope="external" />
+            </fig>
+         </p>
+      </section>
+   </conbody>
+</concept>

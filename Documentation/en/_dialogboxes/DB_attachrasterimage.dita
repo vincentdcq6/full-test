@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_attachrasterimage_0">
+    <title>Attach raster image dialog box</title>
+    <shortdesc>The Attach Image Raster dialog box allows you to attach raster images to the
+        drawing.</shortdesc>
+    <conbody>
+        <p>It includes 12 areas.</p>
+        <fig id="fig_kh3_fc3_qpb">
+            <image scope="external" id="image_rxr_b23_qpb" href="https://static.bricsys.com/help/en_US/DB_attachrasterimage_01_V21.png" />
+            <ol id="ol_ibv_xrk_qpb">
+                <li>Help</li>
+                <li>Name</li>
+                <li>Browse</li>
+                <li>Path</li>
+                <li>Path type</li>
+                <li>Geocoding Information</li>
+                <li>Use Geocoding Information</li>
+                <li>Path</li>
+                <li>Browse (image position file)</li>
+                <li>Insertion Point</li>
+                <li>Scale</li>
+                <li>Rotation</li>
+            </ol>
+        </fig>
+        <section id="section_nqp_x5k_qpb">
+            <title>Help</title>
+            <p>Opens the Bricsys Help article about the IMAGEATTACH command.</p>
+        </section>
+        <section id="section_xqz_x5k_qpb">
+            <title>Name</title>
+            <p>Specifies the name of the file to attach.</p>
+        </section>
+        <section id="section_r2m_y5k_qpb">
+            <title>Browse</title>
+            <p>Opens the Select Image File dialog box to allow you to choose a different raster
+                file.</p>
+        </section>
+        <section id="section_f5z_y5k_qpb">
+            <title>Path</title>
+            <p>Displays the path of the image file.</p>
+        </section>
+        <section id="section_yn3_z5k_qpb">
+            <title>Path type</title>
+            <p>Specifies how much of the path is stored.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Full path</dt>
+                        <dd>Stores the full path to the image file as an absolute reference such as:
+                                <filepath>C:\foldername\imagename.jpg</filepath></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Relative path</dt>
+                        <dd>Stores the path from the drawing’s location to the image’s location. For
+                            example: <filepath>..\foldername\imagename.jpg</filepath>. The .. refers
+                            to the folder above the current one. The drawing must be saved before
+                            you can use this option.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>No path</dt>
+                        <dd>Strips the drive and folder names, leaving just the image file name such
+                            as <i>imagename.jpg</i>.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_yvb_bvk_qpb">
+            <title>Geocoding Information</title>
+            <p>Position files or world files have an extension that depends on what kind of image
+                file they are associated with.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Use Geocoding Information</dt>
+                        <dd>Toggles use of a position file, which specifies the size, location and
+                            rotation of the image file. <ul id="ul_lfz_3vk_qpb">
+                                <li>Yes: uses a position file</li>
+                                <li>No: does not use a position file.</li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Path</dt>
+                        <dd>Displays the path of the position file.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Browse (image position file)</dt>
+                        <dd>Opens the Select Image Position File dialog box.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_xby_lvk_qpb">
+            <title>Insertion Point</title>
+            <p>Specifies the location of the image’s lower left corner.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Specify On-screen</dt>
+                        <dd>Determines how you specify the insertion point. <ul id="ul_fbm_nvk_qpb">
+                                <li>On: specify the insertion point in the drawing after the dialog
+                                    box is closed. <p>Off: specify the insertion point in the dialog
+                                        box using the X, Y and Z fields.</p></li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>X,Y,Z</dt>
+                        <dd>Specifies the x, y, and z coordinates for the image’s insertion point.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_bx3_pvk_qpb">
+            <title>Scale</title>
+            <p>Specifies the size of the image.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Specify On-screen</dt>
+                        <dd>Determines how you specify the scale factor. <ul id="ul_rgj_qvk_qpb">
+                                <li>On: specify the scale factors in the drawing after the dialog
+                                    box is closed. <p>Off: specify the scale factors in the dialog
+                                        box using the X and Y fields.</p></li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>XY</dt>
+                        <dd>Specifies the scale factors along the X and Y axes.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Uniform scale</dt>
+                        <dd>Makes the Y scale factor equal to X.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_gz3_tvk_qpb">
+            <title>Rotation</title>
+            <p>Specifies the rotation angle of the image.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Specify On-screen</dt>
+                        <dd>Determines how you specify the rotation angle. <ul id="ul_irh_5vk_qpb">
+                                <li>On: specify the rotation angle in the drawing after the dialog
+                                    box is closed.</li>
+                                <li>Off: specify the angle in the dialog box using the Angle field.</li>
+                            </ul></dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_gg4_vvk_qpb">
+            <title>Angle</title>
+            <p>Specifies the rotation angle of the image about the insertion point. Positive angles
+                rotate the image counterclockwise. Negative angles rotate the image clockwise. Use 0
+                to keep the image at its original orientation.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_image" />
+            <link keyref="CMD_imageadjust" />
+            <link keyref="CMD_imageattach" />
+            <link keyref="CMD_imageclip" />
+            <link keyref="CMD_imageframe" />
+            <link keyref="CMD_imagequality" />
+            <link keyref="CMD_transparency" />
+            
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="DB_selectimagefile" />
+            <link keyref="DB_selectimagepositionfile" />
+        </linklist>
+    </related-links>
+</concept>

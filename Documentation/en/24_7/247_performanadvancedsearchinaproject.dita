@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_perform_an_advanced_search_in_a_project">
+    <title>Perform an advanced search in a project</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click on the gear icon <image href="../IMAGES_temp/gear_icon.PNG" id="image_src_gz5_w4b" scope="external" /> on the right side of the search bar.</cmd>
+                <stepresult>The <wintitle>Advanced search</wintitle> window appears, including
+                    specific search criteria to narrow down the results.<div>
+                        <fig id="fig_obm_vjg_dpb">
+                            <title>Advanced search in documents</title>
+                            <image href="../IMAGES_temp/advanced_search_window.PNG" id="image_pbm_vjg_dpb" width="150mm" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Documents</uicontrol> to perform a search in the
+                    documents:</cmd>
+                <info>
+                    <ol id="ol_vs1_hkg_dpb">
+                        <li>Enter or select the appropriate search criteria.<div>You can search:<ul id="ul_dpt_jkg_dpb">
+                                    <li>by title</li>
+                                    <li>by description</li>
+                                    <li>by extension</li>
+                                    <li>by status</li>
+                                    <li>by upload date</li>
+                                    <li>by owner</li>
+                                    <li>per folder</li>
+                                </ul></div></li>
+                        <li>Click <uicontrol>Search</uicontrol>.</li>
+                        <li>Check the search results.</li>
+                        <li>If applicable, click <uicontrol>Refine search</uicontrol>
+                            <image href="../IMAGES_temp/refine_search_button.PNG" id="image_zql_bmg_dpb" scale="75" scope="external" /> in the tool menu to adjust the
+                            search criteria, and perform a new search.</li>
+                    </ol>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Communication</uicontrol> to perform a search in the
+                    communication:</cmd>
+                <info>
+                    <ol id="ol_c4r_nmg_dpb">
+                        <li>Enter or select the appropriate search criteria.<div>You can search:<ul id="ul_vkl_smg_dpb">
+                                    <li>by subject</li>
+                                    <li>by message content</li>
+                                    <li>by sender</li>
+                                    <li>by receiver</li>
+                                    <li>by type of communication</li>
+                                    <li>per folder</li>
+                                    <li>by upload date</li>
+                        </ul></div><fig id="fig_xdf_zng_dpb">
+                            <title>Advanced search in communication</title>
+                            <image href="../IMAGES_temp/advanced_search_window_communication.PNG" id="image_ydf_zng_dpb" width="150mm" scope="external" />
+                        </fig></li>
+                        <li>Click <uicontrol>Search</uicontrol>.</li>
+                        <li>Check the search results.</li>
+                        <li>If applicable, click <uicontrol>Refine search</uicontrol>
+                            <image href="../IMAGES_temp/refine_search_button.PNG" scale="75" id="image_bhh_jng_dpb" scope="external" /> in the tool menu to adjust the search
+                            criteria, and perform a new search.</li>
+                    </ol>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

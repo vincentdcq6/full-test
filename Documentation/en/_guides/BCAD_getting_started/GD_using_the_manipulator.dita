@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="using_the_manipulator">
+   <title>Using the Manipulator</title>
+   <shortdesc>The Manipulator is a versatile grip tool to swiftly move, rotate, scale and mirror
+      selected entities.</shortdesc>
+   <conbody>
+      <p>If you hold down the Ctrl key during one of these actions, the selected entities are
+            copied.<fig id="fig_xyy_5fz_tmb">
+            <image href="https://static.bricsys.com/help/en_US/V20/BCAD/Getting%20Started/Manipulator.png" id="image_f3s_5fz_tmb" scope="external" />
+         </fig></p>
+      <p>By default, the Manipulator displays when selecting an entity by a long click (keeping the left mouse button down a bit longer).</p>
+      <p>The anchor point of the Manipulator is located at the closest grip point, with respect to the selection point.</p>
+      <p>Place the cursor over one of the trigger zones, to start an action:</p>
+      <ul id="ul_g3s_5fz_tmb">
+         <li>Axes, to move along the axis:<fig id="fig_v4q_wfz_tmb">
+               <image href="https://static.bricsys.com/help/en_US/V20/BCAD/Getting%20Started/ManipulatorMove.png" id="image_wcs_wfz_tmb" scope="external" />
+            </fig></li>
+         <li>Arcs, to rotate:<fig id="fig_ql2_xfz_tmb">
+               <image href="https://static.bricsys.com/help/en_US/V20/BCAD/Getting%20Started/ManipulatorRotate.png" id="image_lsf_xfz_tmb" scope="external" />
+            </fig></li>
+         <li>Plane swatches (= squares at the anchor point), to move freely in the selected plane (XY, XZ or YZ):<fig id="fig_bmb_yfz_tmb">
+               <image href="https://static.bricsys.com/help/en_US/V20/BCAD/Getting%20Started/ManipulatorMoveFreely.png" id="image_y2d_yfz_tmb" scope="external" />
+            </fig></li>
+         <li>Arrow heads, to mirror:<fig id="fig_agf_zfz_tmb">
+               <image href="https://static.bricsys.com/help/en_US/V20/BCAD/Getting%20Started/ManipulatorMirror.png" id="image_arg_zfz_tmb" scope="external" />
+            </fig></li>
+      </ul>
+      <note>The step size of the ruler depends on the zoom factor. Zoom in to decrease the step size, zoom out to increase.</note>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006429914-Manipulator#the-location-and-orientation-of-the-manipulator" format="html" scope="external"><linktext>The location and orientation of the manipulator</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006429914-Manipulator" format="html" scope="external"><linktext>The Manipulator</linktext></link>-->
+         <link keyref="GD_how_to_draw_accurately" />
+      </linklist>
+   </related-links>
+</concept>
+

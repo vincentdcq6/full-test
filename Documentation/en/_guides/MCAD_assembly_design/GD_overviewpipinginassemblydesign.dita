@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_overviewpipinginassemblydesign">
+    <title>Overview</title>
+    <conbody>
+        <p>Use commands: <cmdname>BMINSERT</cmdname>, <cmdname>BMCONNECT</cmdname>, and
+                <cmdname>BMBOM</cmdname>.</p>
+        <p>
+            <fig id="fig_fr1_4cv_kpb">
+                <title>Piping in Assembly Design</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360017961720/New_Standard_Parts_for_piping.png" id="image_gr1_4cv_kpb" scope="external" width="120mm" />
+            </fig>
+        </p>
+        <p>Seamless and welded pipes, elbows, tees, crosses, reducers and flanges are widely used in
+            machinery, automotive, and aviation industries. They are also found in oil-and-gas,
+            chemical industry, and water supply. BricsCAD has a library of parametric piping parts
+            of different standards, such as ASME, DIN, and ISO. These standard parts are parametric.
+            You can easily adjust their parameters, link them to different global parameters, and
+            use 3D constraints to properly connect the parts. BricsCAD allows you to streamline
+            these routine operations using the <b>Smart mode</b> of command
+                <cmdname>BmInsert</cmdname> and a dedicated command
+            <cmdname>BmConnect</cmdname>.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

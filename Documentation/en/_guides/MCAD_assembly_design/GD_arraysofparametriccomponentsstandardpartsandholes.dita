@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_arraysofparametriccomponentsstandardpartsandholes">
+    <title>Arrays of parametric components, standard parts, and holes</title>
+    <conbody>
+        <p>If a parametric component is inserted as an array, its parameters are still available for
+            editing and linking with global parameters. Technically the parameters are associated
+            with the source element of an array. When this source element is edited parametrically,
+            all other elements of the array are changed after it.</p>
+        <p>Standard parts and holes are parametric components and you can edit their parameters
+            inside the arrays. You can easily create a part with many holes and you can control the
+            hole number, positions, and size parametrically plus insert a parametric bolt. This
+            technology allows you to create parametric flange assembly with multiple
+            configurations.</p>
+    </conbody>
+</concept>

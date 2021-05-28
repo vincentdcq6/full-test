@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_statbar">
+   <title>STATBAR command</title>
+   <shortdesc>Toggles the STATUSBAR system variable.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias:--></p>
+      <p>Toggle the STATUSBAR system variable to show or hide the status bar. You can launch this
+         command at the Command prompt or within another command by preceding it with an apostrophe:
+         'STATBAR.</p>
+      <p>
+         <ul id="ul_idt_pfv_3pb">
+            <li>On: turns on the STATUSBAR system variable.</li>
+            <li>Off: turns off the STATUSBAR system variable.</li>
+            <li>Toggle: changes the STATUSBAR system variable to the opposite of the current
+               setting.</li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_statusbar" />
+      </linklist>
+   </related-links>
+</concept>

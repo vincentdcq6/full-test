@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="plotrotmode" xml:lang="en-US">
+   <title id="title__Toc50995426">PLOTROTMODE system variable</title>
+   <conbody>
+      <section><title>Plot rotation mode</title><p>Specifies plot orientation.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>0 to 2</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>2</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry><p>0: Rotates the effective plotting area so the corner with the Rotation icon aligns with the paper at the lower left for 0, top left for 90, top right for 180, and lower right for 270. X and Y origin offsets are calculated relative to the lower-left corner</p>
+                           <p>1: Aligns lower-left corner of plotting area with lower-left corner of paper</p>
+                           <p>2: Same as 0 value, except that the X and Y origin offsets are calculated relative to the rotated origin position</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

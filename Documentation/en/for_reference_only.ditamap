@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" processing-role="resource-only">
+  <title>for_reference_only</title>
+  <topicref href="_contextmenus/CM_compositionsmenu.dita" navtitle="Compositions menu" keys="CM_compositionmenu" />
+  <topicref href="_contextmenus/CM_panelandtoolbarrightclickmenu.dita" navtitle="Panel and Toolbar Right-click menu" keys="CM_panelandtoolbarrightclickmenu" />
+  <topicref href="_contextmenus/CM_librarypanelmenu.dita" navtitle="Library Panel" keys="CM_librarypanelmenu" />
+  <topicref href="_contextmenus/CM_mechanicalbrowserpanelmenu.dita" keys="CM_mechanicalbrowserpanelmenu" />
+  <topicref href="_contextmenus/CM_rendermaterialspanelmenu.dita" keys="CM_rendermaterialspanelmenu" />
+  <topicref href="_contextmenus/CM_bimprojectbrowserpanelmenu.dita" keys="CM_bimprojectbrowserpanelmenu" />
+  <topicref href="_contextmenus/CM_bimprojectbrowserpanelsectionrightclickmenu.dita" keys="CM_bimprojectbrowserpanelsectionrightclickmenu" />
+  <topicref href="_contextmenus/CM_bimprojectbrowserpanelschedulerightclickmenu.dita" keys="CM_bimprojectbrowserpanelschedulerightclickmenu" />
+  <topicref href="_contextmenus/CM_bimprojectbrowserpanelsheetnamerightclickmenu.dita" keys="CM_bimprojectbrowserpanelsheetnamerightclickmenu" />
+  <topicref href="_contextmenus/CM_bimprojectbrowserpanelsheetviewrightclickmenu.dita" keys="CM_bimprojectbrowserpanelsheetviewrightclickmenu" />
+  <topicref href="_contextmenus/CM_bimprojectbrowserpanelmodelrightclickmenu.dita" keys="CM_bimprojectbrowserpanelmodelrightclickmenu" />
+  <topicref href="_contextmenus/CM_bimprofilespanelmenu.dita" keys="CM_bimprofilespanelmenu" />
+  <topicref href="_contextmenus/CM_layerpanelrightclickmenu1.dita" keys="CM_layerpanelrightclickmenu1" />
+  <topicref href="_contextmenus/CM_layerpanelrightclickmenu2.dita" keys="CM_layerpanelrightclickmenu2" />
+  <topicref href="_contextmenus/CM_toolpaletterightclickmenu1.dita" keys="CM_toolpaletterightclickmenu1" />
+  <topicref href="_contextmenus/CM_toolpaletterightclickmenu2.dita" keys="CM_toolpaletterightclickmenu2" />
+  <topicref href="_contextmenus/CM_structurepanelrightclickmenu1.dita" keys="CM_structurepanelrightclickmenu1" />
+  <topicref href="_contextmenus/CM_structurepanelrightclickmenu2.dita" keys="CM_structurepanelrightclickmenu2" />
+  <topicref href="_contextmenus/CM_mechanicalbrowserpanelrightclickmenu1.dita" keys="CM_mechanicalbrowserpanelrightclickmenu1" />
+  <topicref href="_contextmenus/CM_mechanicalbrowserpanelrightclickmenu2.dita" keys="CM_mechanicalbrowserpanelrightclickmenu2" />
+  <topicref href="_contextmenus/CM_mechanicalbrowserpanelrightclickmenu3.dita" keys="CM_mechanicalbrowserpanelrightclickmenu3" />
+  <topicref href="_contextmenus/CM_mechanicalbrowserpanelrightclickmenu4.dita" keys="CM_mechanicalbrowserpanelrightclickmenu4" />
+  <topicref href="_contextmenus/CM_mechanicalbrowserpanelrightclickmenu5.dita" keys="CM_mechanicalbrowserpanelrightclickmenu5" />
+  <topicref href="_contextmenus/CM_attachmentsmenu.dita" keys="CM_attachmentsmenu" />
+  <topicref href="_contextmenus/CM_layerrightclickmenu.dita" keys="CM_layerrightclickmenu" />
+  <topicref href="_contextmenus/CM_parametersmenu.dita" keys="CM_parametersmenu" />
+  <topicref href="_contextmenus/CM_profilespanel.dita" keys="CM_profilespanel" />
+</map>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_screenshot">
+   <title>SCREENSHOT command</title>
+   <shortdesc>Opens the Save Image File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_saveimagefile" /> to save data from the current drawing to a png
+         file. The current view specifies what data to include in the image.</p>
+   </conbody>
+</concept>

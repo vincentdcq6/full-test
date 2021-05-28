@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="pdfcache" xml:lang="en-US">
+   <title id="title__Toc50995400">PDFCACHE system variable</title>
+   <conbody>
+      <section><title>PDF cache</title><p>Enables/disables the pdf cache. A multi-resolution persistent image cache is used to display attached Pdf underlays, enabling (very) fast zoom and pan operations. The highest cached resolution is 5000 x 5000 pixels. Still, when zooming in very close, the display of the Pdf underlay will become pixelated. So a hybrid modus can be used which switches to real-time generation of crisp Pdf underlay display when zooming in very close. The initial generation of the image cache may take a few seconds, from then on processing gets (very) fast, and remains like that in subsequent sessions.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/registry" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>0 to 2</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>2</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry><p>0: No caching, always real time generation</p>
+                           <p>1: Use pdf cache, only use real time generation when zooming in close</p>
+                           <p>2: Always use pdf cache</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

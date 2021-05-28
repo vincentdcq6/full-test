@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_sketch">
+    <title>SKETCH command</title>
+    <shortdesc>Creates lines or polylines from a freehand sketch.</shortdesc>
+    <conbody>
+        <p><!--Insert License Level--></p>
+        <p><!--Insert link to Tool icon--></p>
+        <p>Alias: freehand </p>
+        <p>Create a series of individual lines or a polyline by sketching freehand. <fig id="fig_tlc_d35_kpb">
+                <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAocAAAD4CAYAAACe/0zfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABHTSURBVHhe7d3Zktu2FgXQ+D7k/7+3X3wbiUEjNElxwrxWlco9qEUMh+AWJCU/vr6+fv4FAADf/vfrXwAAEA4BAPhNOAQAYCEcAgCwEA4BAFgIhwAALIRDAAAWwiEAAAvhEACAhXAIAMBCOAQAYCEcAgCwEA4BAFgIhwAALIRDAAAWwiEAAAvhEACAhXAIAMBCOAQAYCEcAgCwEA4BAFgIhwAALIRDAAAWwiEAAAvhEACAhXAIAMBCOAQAYCEcAgCwEA4BAFgIhwAALIRDAAAWwiEAAAvhEACAhXAIAMBCOAQAYCEcAgCwEA4BAFhMGQ7//vvvX18BAJCaLhwKhgAA+7ysDADAQjgEAGAhHAIAsPjx9fX189fXU4jvOfzu9z//7mn9vYmf2g8AcIedww09fGjFB2sAgBzsHG44u7tYSxoM7SACAG+yc9ihNBDaQQQA3jTtzuEZre/K2UEEAN5m5/BA67tydhABgLd5z+GOcL8eduPO9gcA4Aw7hzuELQBgRkPuHJ55iXWU8HfUVwEXALhquJ3DM8EwOHu/ns3QRwDgXcPtHMZAtLdr9un3PQp9SvszYh8BgDK853AAQiAA8BbhEACARXcvK599H93ebtoML7l6WRkAuKurncOzwTC4ct9RGQMA4Kqudg7P7oiF+828cxikwdAOIgBw1pDvORSG/jsGdhABgLOm/UBKCEzr22gERADgKp9WToweEAEAPpkuHMawFP6Nt0iQAgBmN+XOoRAIALCt+XA48nsCAQBa03Q43AuEgiIAQB5dvKy8fn+gl4UBAPLo7j2HgiEAQD5TfiAFAIBtTf/v8+J7C3PvFpY6Ti1779G0Cwt8UvI93tYkaIOdw4n5YA9wpPQaYU2CNtg5/FbqODWFPsb+zdBf4DlrMDnE+W6VOrRzOA3FDkBtrQfDoIc25mbn8Ntsz1pn6y+w78yFsNQafId1rF1H89rqvF2txVHrz84hwKTOXgifhLfcWm7bzHoMhsHVto1af83uHKYDnruQ4rFGfQawNlt/gW1n1oJwnxJrxdXjWMfaFOclGH1uRu5rkzuHMxUXQMtKrcHW+v7Ndu1O+5j2fQTN7RzWKK54zFkWp9n6C7M6e8HqcS24cjG21pUx67XlqBZ7HYumdg7TAXYyA9x3JTxduW+PRu8fdR3llV5rr6mdwziIpYNhrePWMlt/YUZnz/Nwv17Xgp7bPqLZry3reozjsaflcfJpZYCJ9XwhFwzb9CkUjWpdj5/qs+VxqrpzuDcwpU/42I6RF5qtsR65vzAj5zm1rWtQ/f2ZMdIxanV8qu0cbi1i0dHvuG5vPI0zjMN5TguEwT+FMUnHJf261fOz+svKcdDSwUsHjvcYZxif85za1Nxn6Ri1GBCbe8+hoirDOMP4nOfQrpYDog+kAABU0GpAFA4BOhQuJOmN8ZjXObQYEKuHQ8UPcM3RumlNHYN5nMs6INae/yrhMO2098QA3BPWz/QWfwb0Jz2Pg5ohsXg4FAwB8rCmQv+2QmJpRcOhYFhOfMZRo6iA9zmnx2eOSaUhsXRNFAuHaccEw7z2isiCA31yTo/PHLOnRkAs/rKyYJhXWjzxWUccc2MPfXNOjy+d38AcE8Q6CNf4EiGxygdSyGMdDFMWGBiLcxrmUvKcFw4HcRQMgf7EHYISuwQAKeFwAIIhjGUvEAqKQAnCYecEQxhXOKfjLX4PkJtw2DHBEObhHAdKEQ47JRgCwJxyv8UkazgMjY837kvHcT2egiHAuPbWfuaUXvNz1kO2cLjXaMV93qfFQDAEmItrKCWu/dlfVg6diLf4PZ+lC0A6hukNGI+LP0Fc49frvbWfEoq+51BRn7MOhsAcnPuk1AC1/Pguvp+/vn5VXOR6KO6Sbe19V8BiBXkIhvPZuh7szX1P19Sgt/b2Jvf4+rRyQVsLQW9G6AO0Jj2vXEznsLeWWmO5Ile92Dn81lNbazFGkI/zaz5bcx5+tlcDPdZIbHOgtt+Xc3ztHAJAA0YLUAJhXun4pkHxDcIhl4QC/HQDIA9rLlvsHNI8ixVAOdZc3iYcckp8VhL+3btF6dcAPBfXVWsuJQiHnGYBAqjHGkwpwiEAQMfefmvBa+EwvjE23gDYZr2cjzknh3Q3+c26eiUcHjXISQDwm/VyPuacnHIExFdfVg4NTG/xZwD8l/VyPuac3N6qp6zvOVT0AOdYL+djzmmVD6TwurCtnd4AyMeay9uEQ7KzWAGUY83lKeGQ18SXSMK/6cslXjoBeJ81l1yEQ15lUQIox5pLDsIhQGbeDzYfc07PhEOAjPbCgdAwLnNO74RDgALi+8Liy4BeDhyfOadXwiFAYULCfMw5PREOAQBYvBoOvZ8CAOoK1+L0BlfZOSQ7ixNAPdZgrnocDtOi854KUmk9WJwA8oprbvg3XX9dm7nqUTgUDPkkrQsBESAv12LecDscCoacJSACowtrW7xB726FQ8GQqwREYFR7a5q1jl49ellZMOQOdQOMKKxt8Ra/hx49/kAKAPBfgiE9Ew4BAFgIhwAALIRDAAAWwiEAAAvhEAB4nf+UT79+fH19/fz19Wlxwkf5NNZo/WnV3XEuucA8rYHQVnVUx1adtDAX1pfxtTrHNduVno9qP7+359rOIU1LF5gSnhyvdFv5bW/szQm5qbFjgmGf7Bx+G60/rbozziXmJl3cnxxHHdWzHvuW5kJdjCtdO4LW5rhm7an7st4ebzuHTC1d3C1iwFnrtcP6wUjsHH7zDKeMO+Occ27Wi/tTvdVR2v+navR5q/2xHS3NRW91wWdp7bU8r0fneO52q/uy3h5vO4dMqZfFPZeji8Ydbz/eJ3vHK90O5jPK2uFcGdNb8yocMrXZn9WG/sdblP7syq2G9fFrtYP59FBr6XkRb1EP7eecHE9YhENgCC528Cfnxdhy7WR7z+G30frTqjvjnGtucjxua3UU23NVq+fBVn/22trSXLRWF1x391xqRVp7pepR3ZeRa5ztHMLLWriQPGlDC+1f22tTi21lLCPUmPOEq+wcfhutP626M8655ibH48bHjGrWU9q/tF1pm8LP123c+lkL0v5ER23dun8tLbWF667WXutK1aO6LyPXONs5hEziSVtT2ob14rG1mPS0kLvoUIvaY3TCIbwsvXCEcFYqJMZjbR2vt4tZ2pet/my5en+AnuVc64RDyKB0GDtaJHoMhnv2fnf15wA9S9e2HGu8cAiZ1Ahl4ZjpcXsLhqnYl7RPn/pz9f4APcu1xgmHQBeuLoKCIcA9wiEAAAvhkCmE92ekt97t9Wf9fS+2+gK1zFCPaR9H7if3CIcM72jh63FRvNLmHvq318Y7be9xPmnLm/XYkzf75zzsn3DINMJ70NJb/Fmv1n0J1j9Lf9e6u21PL0Q99Ze23a3H1qX9Sfv0Vv8Ew/xKjLFwyLRGWez39Ny/s20XDClhtNrK1Z/1+eicfF+pNU84BLq0XiTD96VuwD6hMI907ck9xsIhXXBBJrVeJEvXh3oESioZDAPhkGaVPhnoz7ouwvc5b1H6NUAu4TpY41ooHNIkwRCAmaXXwaDktVA4pDmC4TnxGeV6ARlB2retW7T+vpS0LTWOz3vM5b+MQ9tKXwuFQ5qSLkqC4XUjLOpP+lCr/y6mfTqat9nnVE23o8a1UDikSYLhZ2GM0lv82SjW/Utv0fpn6e9ySI+THiv3cckrzmc6r7PMadrftM+z9J9twiEMYvbFvFT/XTTHN9scq+m21djFFQ4BAFgIh2QVnvHE24hG719J63FMx3Z9a82ZNn76PWWYA3qQ1meNnV3hkGz2Ft9RFuXR+9eDlsf6U9vUSXnOWXqQ1mOtl/yFQ7ILxR1v8fuRjN6/UrbG8egW71NT2o60XUH6u/jv1u8pL85FnANzQStaCIaBcEhRoy/CLjLvODOOrYx1T23lT+aGFtWuS+EQKC48O443AH7vGrbwhEU4ZBqCSBv25sH8ALRBOGQaXj5qS5iPeIvfA8yopV3DQDhkaK2dcGwzP8CsWnzV5Mf3ovzz19en7XWk1wVegLjnbEF/Gtetx3k6F+ljvjmvV9v6Vm29NdYl9NTWHD7N+dH4jDomNW2Nt3He96l+jzz521ml9dnSuL26c3i06DGWK3N9dN+93z2ppfRv3zzZcrT1jCuPn7stn/TU1hYZk3ftjadxpgVpHbYWqG+Fw9iJ8G/aodY6R36xBvZu8T6f3PmbT954jC052nrG1nHT74P065rStm3d4n1mlPY/HY9g1jHJbT3WxpnaWg6Gwe2dQycXZ9ypk55qq1Zbez//Zl8/Zu9/Tcae2loPhoEPpAAAFNBDMAxufSBlLXa212dkLbc/LaSr3u7PVlueHiPH2OeazzuP+0ZbzjxGrj6vxeN8krsdLdkbkzt1sjbTOOZQ6rwYydE5/mkcjfexdGxbHyM7hw07OknPePr3qb3HevMYtO3KXM9SF0f9fGMMnF+0RD3eE8YtHbsewrNw2Kh1IV25RenXb1kfJ8cxaFtaA1u3eJ+ZPB2D9G/Sv7vyGPCGdS2qx/vWoTDoZQyFwwb18gzDQsEWdXFvDIwbrVCLz22Fwp7G1XsOv9Vs/7qAUnfbs/eYR4931I7U0zG607arzvYluHLc+Lh3/uYNJebvzOO8OVe9u1MTZ+zNg7E/ZtzyOFvnuc6H3qR12OtY2DmsaG8hC3IU1N7xjtqxduW+a0d/++Rxn6h13DveaOsbc9DTmI3G2O97o7bhqbTWeg7Jdg6/1Wp/zuOGx46P++k4Z9uRPuYde8d5+rhbPj3m2T6n7vxN8Eb/zjzG0X3OtP3sfZ72ZSRnxuyudKxzHmcUe2OkZp87W3+z1Wns75bex8DO4aByFGauYu+prXe80ZYzj1Gizy2N6+iM9TuMIzmMHAwDO4ffarW/1HGPijiVox1bx26hTs6OyZYe6/xKf3vsX0k1atr8fRbHSP2+7+zYjjgHn869tK/hvqP03c4hi08nwVV7j/f2cUrrvf2fjN6/J3qoafMH7/h0Lq2D4EihePqdw3TyS7e/5LiFY8XjbB03xzjsHadEf8+405aW2n/Vmbb33L8SwvgE6RiVGrNPx9lq20xm739OZ8d2pDmIfQnS/sxSZ1PvHO5N/og+9W+r+HNoaZzvtKXnOjnT9p77V0upMTM3UMZRNgjfz3AuThsOZwqGZ6XjkDMgAkCLZIN/TfmyciuTXzuA7fX97XbNfILRv63zocWa3jtvez7/7qxF1pv3na2teL9e5uCovmavo+l2DtNimH3yz57wTx2dgNCyvdrtqaZ7Pf/uttt6U07PtaVOjk23c9haW0N7arSl1HFr9Q/esLVetFzTadu22t6TO+1veW56d6a24s+Dq/NWg1rZ5z9lU1mt4ix1XCcfo2m5pmc/36w3+Vwd27OBr0YwDH1RK8fsHAJDevOi0+N6kfuie3VM7rbHWt2eo+uoeR7DqzuHuRcjgDPeXousbX+6MiZPxs/Y9yWEvKtBTzBszys7h0F6Arc80bGdihHGdeY8P7sWhPv1ul7kaPudNfTO3wQ9j/3ozM3YXts5DEUSCyUuBAC96/kC2PvFW/hol7kZ22s7h6k0HLZWQHefwQL9uPIE1VpwzZMn/8Ya+pDl08o9LAB2N4HAWlCOsYY+ZNk5DOIi0FpQTBcnz2JhXOFc/3SOn7kPf7ozbsYa+jFVOIxtCixSAAB/muY/gi0YAgB8NkU4FAwBAM7JHg7TYFaDYAgAcF62cJgGsVoBUTAEALgm685hzYAoGAIAXJft08qpo2CYI7gJhgAA9xT5QMpRQHt7R1EwBAC4r8jO4ZEY5t4IcoIhAMAz1f9TNjHEPd1BFAwBAJ6rvnMYPQ2HkWAIAHBf9Z3D6I1QJxgCADzTzM4hAAD1NbNzCABAfcIhAAAL4RAAgIVwCADAQjgEAGAhHAIAsBAOAQBYCIcAACyEQwAAFsIhAAAL4RAAgIVwCADAQjgEAGAhHAIAsBAOAQBYCIcAACyEQwAAFsIhAAAL4RAAgIVwCADAQjgEAGAhHAIAsBAOAQBYCIcAACyEQwAAFsIhAAAL4RAAgIVwCADAQjgEAGAhHAIA8Mtff/0fFj6UfIctX3sAAAAASUVORK5CYII=" id="image_s3p_b35_kpb" scope="external" />
+            </fig>
+        </p>
+        <section id="section_lqs_d35_kpb">
+            <title>Methods to begin a sketch</title>
+            <p>There is one method to begin creating a sketch: </p>
+            <ul id="ul_t3p_b35_kpb">
+                <li>Length of sketch line segments </li>
+            </ul>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Length of sketch line segments </dt>
+                        <dd>Begin creating a sketch by specifying the length of the sketch line
+                            segments. A small segment length creates a smoother sketch but increases
+                            the size of the drawing. The length is saved in the SKETCHINC variable.
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Press ENTER or click to toggle </dt>
+                        <dd outputclass="indent1">Press the Enter key or click the left mouse button
+                            to lower the pen. The cursor changes to a pen, automatically sketching
+                            as you move it. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Press ENTER or click to toggle</dt>
+                        <dd outputclass="indent1">Press the Enter key or click the left mouse button
+                            to raise the pen. You can move the cursor without drawing. <fig id="fig_p52_j35_kpb">
+                                <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWYAAAEgCAYAAACHJ9lnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA92SURBVHhe7d19sG11WcDxRTNexS4hFw15EcgCFBx8IUwiVBR0elEkk2msFLKJuY7lZDVD0tgdZ2joBZ3KkanRAGscByuEKZ2r+VaSGpFARAlSkgphinNHjDz+QfdZZ//OXWfftffZe5/98qy9P5+ZNXe/nX322aPf8/Db66x1yNra2qMVAGl8V+9fAJIQZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgmUPW1tYe7V0GlsSOHTt6lyazvwu9SyyCiRmWzHajHKbxHEzOxAxLoC2kk0y9w4Jsip4fEzN03LSivBVT9PyYmKHDmrGMGMf17Ua57TnmFX/WCTN0VH+UZ02c58dSBnTcvOJYvk/z+0Ws24LN9piYoSMGBXBRU6sJenZMzNABw6bSRU2sEeH+EJuep8PEDMk1Y9cWwixT6rDXyXhMzJDYVrHLFMDmazE5b4+JGZLq6gQ6LMpd+jkWycQMCXV5WWDY6zVJj8bEDMl0OcrDLOvPNQsmZkhkmePV/HlMzsMJMySxChOlOI9GmCGBVfrPfHHemjBDIsse5aI/zgK9mTADC7Eqv4QmIczAwohzO2EGSEaYYcHK+qrpkUKYAZIRZlgg0zJthBkgGWEGSEaYYUH8UQWDCDMsQDPK1pfpJ8ywQKJMG2GGObMnBlsRZoBkhBnmyLTMKIQZWBh7prQTZpgT0/Jm9kwZTJiBuRPl4YQZ5sC03M770U6Ygbmyrrw1YYYZMy23834MJszA3JiWRyPMMEOm5Xbej+GEGZgL0/LohBlmxLTczvuxNWEGZs60PB5hhhkwLbfzfoxGmIGZMi2PT5hhykzL7bwfoxNmYGZMy5MRZpgi0/IBzSh7P8YjzMBMifL4hBmmxLR8gPdie4QZmCrrytsnzDAFJsSDeS8mJ8zA1JiWp0OYYZtMywfzXmyPMANT4RfU9AgzsG2iPF3CDGyLKE+fMAMTE+XZEGbYhhKmVSTKsyPMMKFmlFctTqI8W8IM2yTKTJswAyMT5fkQZpjAKgZKlOdHmIEtifJ8CTMwlCjPnzDDmFYpVKK8GMIMHCSCLMqLI8wwhhKrZdb8GUV5MYQZJrCMwWpOyUGUF0eYYUTLPC33B1mUF0uYYUzLFC1Tck7CDCNYxmnZlJyXMMMYliVepuTchBm2sGzTsijnJ8wwxLJFTJS7QZhhBKLMPAkzrABR7hZhhiUnyt0jzLCkIsii3E3CDEuoP8ii3C3CDEvElLwchBlG0IxdVqbk5SHMMEBXJk9T8vIRZmjRpSgXpuTlIczQpwtRNiUvN2GGhq5EuTAlLydhhhZdiTLLSZihAyxdrBZhhuQsXaweYYbETMmrSZghKVFeXcIMyVhPRpghEevJBGGGJEzJFMIMPSWMi4iiKNMkzLBgokw/YYb9FjUtizJthBkWRJQZ5JD9/4N4tHcZVtI8p+VmjAtRpp+JGWYsYly2fqJMGxMzK23W07IYMwkTM8xIM8oR47LBVoSZlTXLabn53GLMuIQZpmzWyyMsP2FmJc0invGcosw0CDMrp8RzWppBDqLMdgkzK2u7Ae0PchBlpkGYYUyDgizKTIsww4gEmXkRZhiBIDNPnfnLv3u+/FD15nd9rHetqr6273+rB7/xreq0E59UXXjO06pXv/gZvXtguBLZUcLaFmSYtc5MzN985NvVjTd/vvr+Y46oXvTsE6uLXnhq9UsXnllfv/jKG6urb/yn3iNhOppRNiEzT52ZmP/5ngeq573+T6vPvPPnq+ecdHTv1nWX/clHq5v+4e7qrmt3925ZF18TTj7uyGrnoQf+Txa3x213f/nr1Wfv+kp92yt+5JTq6CMPqy/3i8fH43Zf8IO9W6rqrz99T3Xd3tur9+/5qfp6/GI474ynVu/+4Oeqe+//RrXrew6tfu2is6qTjttV308eW03MpmQWbSnWmE846vDqC195qHdtPaQ7zr+i+tkrPlD96js/Uu16+e/VIS0i8Jf8zk31/eGPbrilOuGn/7B64OvfrK/3iyi/8R17e9fWfemr++oJvoj7T7vk6vq1/MbPnF0dsfNx9fVYgqEbIsimZDLofJgffmStDuslP/qsjesR3j94w0vrCfrjb39N9Vdvvaj6ybdcf1B44/6Ygv/x6tfV1z9+2331v5OK1xDPFxP9lb/44uqCs0+pJ2jyMyWTSefCHBPwq/b8xcYW03BMy7FsEGJJIzSXHX7irJOqs5/xlOoDn1qfcCOYsU5dxDJH3Lbv4f/r3bLZ4fun363E17/gmSf0rq2L71FeDzmZksmoc2H+oacfWwevbDENP3TTr2+s5Za4xlJGc7v5zi9Vt937YH3fuJ52/JG9Swc85XsP71064NgnHrxG3VxiIRdBJqvOhfmic0+tp+GyxTTc/GCv+NdrdldrH7l80/bHb/rx3r3bF2vM/e764v/0Lq3b961v15M0uQky2SzFh39Np574pN6lzWLZo/kB4CTKXh6xjn39J+6qLzfFWnfcF+JDv7dc84l6H2tysGxBV3QmzEfv2tm7NFys88aUGntERIgjppe+7W/qPSjOOPnJvUeNJz7Mi+eMDxXLunYsqfQ76ojvru+Lx8T3f9OrnucPX5JoBhmy69Q5/2KtuG0/5n4xtf7Zh++oPva5L9bX449QXvdjz95Yh45gH/PEnZueJybcnYc+ZuC+zKFMzPFLov9xEeNY8479oR946OHqsEMfax/mBRoU4piQy32mZbJyMtYpKWFu7g3C/A0LciHMZLd0a8ysrv4oR3jLBl1iYp6SUZZCmJ1xpmATM9kJM503bmiFmeyEmc7oX6poGieywkx21phJL0I6rSjTLWWX11VjYialQSGeRoRNzINFBMuhcMN9D+6rnrDzcdXxRx1enfusE+b+Gcqq7u1kYiaNMhn3RzkCWrZpGhT/VVYOcRt/AxBbHFv81rsfqE9GMezQuEyXMI9gxxWPqTdmY54xDs3nFOd2cQKI5hYHCgvX7b2j/nccEfOYxEc5Nnk89r0fvbM+8cSgJYxY3oj7Y2s+Z9z+ydsPHLo37ouJu/8xV7735o374vGnXnz1xsHO4v4MhHkLzSAL9HQNC/KsifN4yqFxY3ouIqDNqDVP7xZRLbfFpB2H643DFMTZhgaJWMZjb/j7f6+vx4ks4lAKsZwS4i96z/2V99THVo8DhMXt5dAL4c7//Gq159pP1pfDLZ+/v/76v/y7f+vdUlVXXf/pelmmnKruHTfcUv355a+of/HEIRTiucvxbhZJmJm7RQa5SZxHF7FaP97M+mEMYtKM5Y3fvfS8+siNcaiEWAJpxjnEoXYjenHCimsvu6B62/s/M3A55Pf3RzPiHxN6rCmXE1jEckqIY5vH4Xvj+S579dn1ySjiOctJMF75/KfX95fnj9cYx2Hfe8u99fX4GeL+M085ZuPYO2+48Mz60Azxi+eNr3xufVuccm7RhHmIQdNxPTn34jLJtirafvbYmhYR5CZxbleWCmKL//R/7u5317e/9qWn1//ufvsHq7de8sL6sLsh4hbHRi+nYItzaoZLX/acjcPyvvyHT67/jWPJtLnmQ7ftf/5n9q6tT+kxxRYxScf15mF+y0HCbr37v+tj0/zAsbs2zkQUz7fn4hdsxDqm/bg/Hlc+xDzs8QeeK9MfhwnzAqxCALb6GRcd5KYsryOT8uFfbBG017zk9Oq+9/3yRrziBBDv+fAd9Tpt2WKZIEQEm/Es2m7rFwcXa4pzaDb1Xy/K8dHjdcakXNaV42iTEeMI94c++4X6/i4Q5gmsXf6djbCMuxVlepz2Ng9t37d/K9reg9jIrf/Dv1g66J8ozzn9+HopIE4+HNtVrz+/XtI47PGP7T1ifPd/bfM0HWvJTWW9uV85/VssZ8Sk/Le3/sfGeUAjxp/6l/+ql0LOOu24+rbshHmICHDXNKM4C+M8vwAvr5hCv+/JT6gn0ljGKIfQjd3tRpmM20RIr9t7e+/a+ppwTOVFnHQi1qibH87FB5Ah9rEOZTkjllTKOTgjxvF1MeX3n5czK2HeQj0dNwK93Vj3T47T3Irm5DrtLbR977aN7hnlxMPhN3/unPoMPSWMsXwRe17E0sek9rz2+fUHjLEsEmvbL3vz+3r3rIs16vgwL9a74/7YwyM+gIwz4jen+bJcUc7VWWJcJuhh4sPHOJb6ovnLvyVT4jlLyxjd5vu2yr9UYje3OFNP7GmxlYhj+bAvRPiu2n3+xsQcgf3tX3jRphNGxNfEySQGfdAW03AsOcRJleM0cSfv/9qHH/nOpueI3ePKmvJ5Zzx1030hniP2rGieCKNrhBl6xHk5orYMhBkamss1sCjWmAGSEWZoMY+1ehjEUgb0aYuypQ3mycQMfSLC/SE2QTNPwgwDNONsYmaehBlGYGJmnoQZhmhOyuLMvAgzbEGc58OJKA6wVwaMqBlla87TMyjGXTyI2LSYmGFEJuftifesbRtkladnYYYx9Md5WFjYHONWv+U/2NtYyoAJDAvyqi9zDHpv2t6XYVOxpQxgLBGZQQEeFu1l1/+zl/dp0Hu1yvEdxsQMU9QW5UFR6qJRfulM+vM2p+dVD7Yww5Qta5xnGWU2E2aYgYhYRGqrmGUK2SjhDeI7e8IMM9aFOJuGcxFmmIMSvhK3UafTWYnX0fYa+uMbjxHk+RNmWJBFx7lJfHMRZlig/kl6HhbxPRmPMAMk4w9MAJIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkgGWEGSEaYAZIRZoBkhBkglar6f/6qRG6y/BOMAAAAAElFTkSuQmCC" id="image_u3p_b35_kpb" scope="external" />
+                            </fig></dd>
+                        <dd outputclass="indent1">You can continue raising and lowering the pen to
+                            create unlimited sketches until you press X or Q to end the
+                            command.</dd>
+                        <dd outputclass="indent1">Additional options: [Erase/Connect/save and
+                            eXit/Quit no save/Record (save)] </dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_zty_m35_kpb">
+            <title>Options within the SKETCH command</title>
+            <p>After you begin creating a sketch, the following options may be available: </p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Erase</dt>
+                        <dd>Erase sketch lines sequentially by dragging the cursor along the sketch
+                            from either endpoint. Click the left mouse button to stop erasing and
+                            start sketching. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Connect</dt>
+                        <dd>Continue to the last sketch point, after raising the pen, by passing the
+                            cursor over the end of the previous segment.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Save and exit </dt>
+                        <dd>Save the sketch and end the command. Each continuous sketch is saved as
+                            a series of individual lines or a polyline based on the SKPOLY
+                            variable.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Quit no save</dt>
+                        <dd>Exit the command without saving the sketch.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Record (save) </dt>
+                        <dd>Save the current sketch without ending the command, allowing you to
+                            continue sketching. </dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_line" />
+            <link keyref="CMD_linetype" />
+            <link keyref="CMD_pedit" />
+            <link keyref="CMD_pline" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_sketchinc" />
+            <link keyref="SV_skpoly" />
+        </linklist>
+    </related-links>
+</concept>

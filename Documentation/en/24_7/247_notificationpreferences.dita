@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_notification_preferences">
+    <title>Notification preferences</title>
+    <conbody>
+        <p>You can edit your notification preferences in Profile settings.</p>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_profilesettings" />
+        </linklist>
+    </related-links>
+</concept>

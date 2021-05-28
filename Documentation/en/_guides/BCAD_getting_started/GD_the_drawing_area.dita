@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="the_drawing_area">
+   <title>The drawing area</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>When you start a drawing session, your initial working area is called <b>model space</b>. Model space is an area in which you create two-dimensional and three-dimensional entities based on either the World Coordinate System (WCS) or on a user coordinate system (UCS). <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> provides an additional work area called <b>paper space</b>. Each layout represents a sheet of paper. You can create up to 255 paper space layouts in a single drawing.</p>
+      <p>Use the <uicontrol>Model</uicontrol> tab to view and work in model space. Click one of the <uicontrol>Layout</uicontrol> tabs at the bottom of the drawing area to switch to paper space.</p>
+      <section id="section_rsg_dbx_smb">
+         <title>Model space</title>
+         <p>Model space consists of a single view that fills the screen. If needed, you can create
+            additional views called viewports, which can show different views of your drawing or 3D
+            model. You can manage drawing viewports with the VPORTS command.</p>
+         <p>Viewports are displayed as tiles. You can work in only one of these viewports at once, but all viewports are updated simultaneously. Click in a viewport to make it the current viewport.</p>
+      </section>
+      <section id="section_ssg_dbx_smb">
+         <title>Paper space</title>
+         <p>Paper space represents the paper layout of your drawing. In this work area, you can create and arrange different views of your drawing like the way you arrange drawings on a sheet of paper. In paper space you can also add keynotes, annotations, borders, title blocks and other print-related entities which you do not want to view in model space.</p>
+         <p>Each drawing has at least one <uicontrol>Layout</uicontrol> in which you can have one or more layout viewports. You can consider a layout viewport as a view window on your drawing in model space:<fig>
+               <image href="https://static.bricsys.com/help/en_US/V20/BCAD/Getting%20Started/ModelSpace_PaperSpace.png" id="image_tsg_dbx_smb" scope="external" />
+            </fig></p>
+         <p>You can place layout viewports anywhere in a paper space layout. Each layout viewport has its own scale and layer visibility. You can print all viewports in the same layout simultaneously.</p>
+         <p>You can manage layout viewports with the MVIEW command.</p>
+         <p>Paper space offers multiple advantages when printing your drawing:<ul id="ul_usg_dbx_smb">
+               <li>You can create multiple viewports to print multiple views. These views can each display a part of your drawing at the same or at different scales.</li>
+               <li>You can create multiple layouts to print the same drawing with different print settings, such as pen widths, printer configuration files, line weight settings, drawing scale...</li>
+               <li>You can add print-related entities that are not essential to the model itself, such as keynotes, annotations, title blocks...</li>
+            </ul></p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_mview" />
+         <link keyref="CMD_vports" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006512254-Layouts" format="html" scope="external"><linktext>Layouts</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006513994-Model-Space-Viewports" format="html" scope="external"><linktext>Model space viewports</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006612713-Paper-space-viewports" format="html" scope="external"><linktext>Paper space viewports</linktext></link>-->
+      </linklist>
+   </related-links>
+</concept>
+

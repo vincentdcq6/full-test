@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_manageexplodedrepresentationsteps">
+    <title>Manage exploded representation steps</title>
+    <conbody>
+        <p>Open the Mechanical Browser and open the required exploded representation for edit. All
+            steps will be listed under the corresponding node in the tree.</p>
+        <p><b>Properties of steps</b></p>
+        <p>
+            <table frame="all" id="table_unx_rcc_lpb">
+                <title>Properties of steps</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="1.56*" />
+                    <thead>
+                        <row>
+                            <entry>Property</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Name</entry>
+                            <entry>The name of the step. Must be unique for this exploded
+                                representation.</entry>
+                        </row>
+                        <row>
+                            <entry>Duration, ms</entry>
+                            <entry>The duration of the step. By default, this is equal to the Step
+                                duration set for the exploded representation.</entry>
+                        </row>
+                        <row>
+                            <entry>Duration type</entry>
+                            <entry>Specify if the duration must be taken from the exploded
+                                representation, or if it is specific for this particular
+                                step.</entry>
+                        </row>
+                        <row>
+                            <entry>Duration value (only for Absolute duration type)</entry>
+                            <entry>The duration for this step in milliseconds.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p><b>Operations on steps</b></p>
+        <p>
+            <table frame="all" id="table_yjn_cdc_lpb">
+                <title />
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="4.24*" />
+                    <thead>
+                        <row>
+                            <entry>Operation</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Apply</entry>
+                            <entry>Set the step as the current and update the parts in the exploded
+                                representation according to this step.</entry>
+                        </row>
+                        <row>
+                            <entry>Animate</entry>
+                            <entry>Animate the selected step.</entry>
+                        </row>
+                        <row>
+                            <entry>Set as previous</entry>
+                            <entry>Clear the step, so the positions of all parts will be the same as
+                                in the previous step.</entry>
+                        </row>
+                        <row>
+                            <entry>Merge with previous</entry>
+                            <entry>Merge this and the previous step. The previous step is
+                                removed.</entry>
+                        </row>
+                        <row>
+                            <entry>Split</entry>
+                            <entry>Split the step to a sequence of steps, each of them corresponding
+                                to exactly one part.</entry>
+                        </row>
+                        <row>
+                            <entry>Move step up</entry>
+                            <entry>Move the step one position up in the tree.</entry>
+                        </row>
+                        <row>
+                            <entry>Move step down</entry>
+                            <entry>Move the step one position down in the tree.</entry>
+                        </row>
+                        <row>
+                            <entry>Delete</entry>
+                            <entry>Completely remove the step as well as the associated movements of
+                                parts. After that, the positions of parts are updated in the
+                                exploded representation.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </conbody>
+</concept>

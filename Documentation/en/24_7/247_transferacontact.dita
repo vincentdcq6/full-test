@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_transfer_a_contact">
+    <title>Transfer a contact</title>
+    <taskbody>
+        <context>
+            <p>You can transfer a contact to another address book:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Address book</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select an address book in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Select a contact in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Move contact</uicontrol>
+                    <image href="../IMAGES_temp/move_contact.PNG" id="image_gkf_g1j_x4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Move</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the address book where you want to transfer the contact to.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Move</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the contact is successfully
+                    moved.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

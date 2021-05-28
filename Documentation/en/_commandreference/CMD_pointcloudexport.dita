@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_pointcloudexport">
+   <title>POINTCLOUDEXPORT command</title>
+   <shortdesc>Opens the X Dialog Box<!--Give Name For Exported Point Cloud File-->.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the X Dialog Box<!--link--> Dialog Box to save data from the current drawing to a pts file.</p>
+   </conbody>
+   <related-links><!--Dialog Box Name Dialog Box link--></related-links>
+</concept>

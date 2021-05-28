@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_oops">
+   <title>OOPS command</title>
+   <shortdesc>Restores the last erased entity.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Restore the last erased entity, including those erased by the Block command. If there are
+         no erased entities in the drawing, BricsCAD indicates: There is nothing to un-erase.</p>
+      <p>This command displays no prompts and has no options.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_erase" />
+         <link keyref="CMD_redo" />
+         <link keyref="CMD_u" />
+         <link keyref="CMD_undo" />
+      </linklist>
+   </related-links>
+</concept>

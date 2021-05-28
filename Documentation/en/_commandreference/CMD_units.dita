@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_units">
+   <title>UNITS command</title>
+   <shortdesc>Opens the Settings Dialog Box with the <uicontrol>Drawing Units</uicontrol> category expanded.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> with the <uicontrol>Drawing Units</uicontrol>
+         category expanded to view and modify relevant system variables.</p>
+
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_insunits" />
+         <link keyref="SV_insunitsscaling" />
+         <link keyref="SV_measurement" />
+         <link keyref="SV_propunits" />
+         <link keyref="SV_luprec" />
+         <link keyref="SV_areaprec" />
+         <link keyref="SV_volumeprec" />
+         <link keyref="SV_massprec" />
+         <link keyref="SV_lengthunits" />
+         <link keyref="SV_areaunits" />
+         <link keyref="SV_volumeunits" />
+         <link keyref="SV_massunits" />
+         <link keyref="SV_unitmode" />
+         <link keyref="SV_dimzin" />
+         <link keyref="SV_lunits" />
+         <link keyref="SV_aunits" />
+         <link keyref="SV_auprec" />
+         <link keyref="SV_angbase" />
+         <link keyref="SV_angdir" />
+      </linklist>
+   </related-links>
+</concept>

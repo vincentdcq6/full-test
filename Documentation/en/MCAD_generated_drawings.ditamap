@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title>Generated Drawings</title>
+  <topicref href="empty%20titles/MCAD_generated_drawings_title.dita" navtitle="Generated Drawings" keys="MCAD_generated_drawings_title">
+    <topicref href="_guides/MCAD_generated_drawings/GD_drawingviews.dita" navtitle="Drawing Views" keys="GD_drawingviews">
+      <topicref href="_guides/MCAD_generated_drawings/GD_overviewdrawingviews.dita" navtitle="Overview" keys="GD_overviewdrawingviews" />
+      <topicref href="_guides/MCAD_generated_drawings/GD_draftqualitydrawingviews.dita" navtitle="Draft-quality drawing views" keys="GD_draftqualitydrawingviews" />
+    </topicref>
+    <topicref href="_guides/MCAD_generated_drawings/GD_drawingannotations.dita" navtitle="Drawing Annotations" keys="GD_drawingannotations" />
+  </topicref>
+</map>

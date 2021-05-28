@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_commandline">
+    <title>Commandline panel</title>
+    <shortdesc>The Commandline panel allows you to launch commands or modify system variables by
+        typing the command or variable name.</shortdesc>
+    <conbody>
+        <p>It includes 2 areas.</p>
+        <fig id="fig_ik1_fqg_npb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_commandline_01_V21.png" id="image_w4j_s1h_npb" scope="external" />
+            <ol id="ol_bq5_wpg_npb">
+                <li>Command line</li>
+                <li>Command history</li>
+            </ol>
+        </fig>
+        <section id="section_lpx_hqg_npb">
+            <title>Command line</title>
+            <p>Displays the current command prompt. If no command is active, it prompts you to Enter
+                Command. If a command is active, it displays prompts and options relevant to the
+                current command. Prompt shortcuts are highlighted. You may enter the shortcut
+                characters in the Command line or click on them with the left mouse button. </p>
+            <p>A right-click menu offers relevant tools.</p>
+            <fig id="fig_ms5_l5g_npb">
+                <image href="https://static.bricsys.com/help/en_US/PNL_commandline_02_V21.png" id="image_zrh_v1h_npb" scope="external" />
+            </fig>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>AutoComplete</dt>
+                        <dd>Hover over the AutoComplete option. Another context menu displays:<fig id="fig_rnl_n5g_npb">
+                                <image href="https://static.bricsys.com/help/en_US/PNL_commandline_03_V21.png" id="image_dlg_w1h_npb" scope="external" />
+                            </fig></dd>
+                        <dd>
+                            <ul id="ul_cnm_nwg_npb">
+                                <li>If <uicontrol>Auto-Append</uicontrol> is checked, the entry is
+                                    automatically completed if only one possible command is
+                                    left.</li>
+                                <li>If <uicontrol>Suggestion List</uicontrol> is checked, the list
+                                    of possible commands is displayed when typing in the command
+                                    bar.</li>
+                                <li>If <uicontrol>Display System Variables</uicontrol> is checked,
+                                    the system variables are included in the suggestion list.</li>
+                                <li>The <uicontrol>Delay Time</uicontrol> option sets the time in
+                                    seconds before automated keyboard features display.</li>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Copy</dt>
+                        <dd>This option copies the selected text to the clipboard.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Clear</dt>
+                        <dd>This option clears complete prompt history.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Select All</dt>
+                        <dd>This option selects all the completed content of the prompt
+                            history.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Paste</dt>
+                        <dd>This option pastes the text from the clipboard to the command line.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Options</dt>
+                        <dd>This option displays the Settings dialog box at the command line
+                            section.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_knz_4qg_npb">
+            <title>Command History</title>
+            <p>Displays the history of command line input for the current BricsCAD session.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_commandlinehide" />
+            <link keyref="CMD_textscr" />
+        </linklist>
+    </related-links>
+</concept>

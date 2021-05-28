@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gcfix">
+   <title>GCFIX command</title>
+   <shortdesc>Creates a fixed geometric constraint on 2D entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a fixed constraint on a point or entity to maintain its position in the drawing.</p>
+      <section id="section_zyz_rw1_x4b">
+         <title>Methods to create a fixed constraint</title>
+         <p>There are two methods to create a fixed constraint:</p>
+         <ul id="ul_v5k_4w1_x4b">
+            <li>Select point</li>
+            <li>Entity</li>
+         </ul>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select point</dt>
+                  <dd>Create a fixed constraint by specifying a point on an entity. The point maintains its position while other geometry moves, as necessary, to maintain other constraints.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Entity</dt>
+                  <dd>Create a fixed constraint by selecting an entity. The entity maintains its position while other geometry moves, as necessary, to maintain other constraints.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

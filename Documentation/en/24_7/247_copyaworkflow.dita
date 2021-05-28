@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_copy_a_workflow">
+    <title>Copy a workflow</title>
+    <taskbody>
+        <context>
+            <p>You can copy a workflow:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Workflow</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow folder in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click the ellipsis button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_qbw_2b5_y4b" scale="75" scope="external" /> at the top of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Copy</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Copy</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the workflow folder where you want to copy the workflow to.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, edit the file name, define the role, and enter a
+                    description.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Copy</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the workflow is successfully
+                    copied.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

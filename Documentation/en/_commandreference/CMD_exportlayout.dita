@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_exportlayout">
+   <title>EXPORTLAYOUT command</title>
+   <shortdesc>Opens the Export Layout to Drawing Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_exportlayouttodrawing" /> to save data from the current drawing to
+         a dwg file. The current layout specifies what data to include in the drawing. After the
+         drawing is created, a <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> Dialog Box
+         allows you to choose if you want to open the new drawing.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="roamablerootfolder" xml:lang="en-US">
+   <title id="title__Toc50995601">ROAMABLEROOTFOLDER system variable</title>
+   <conbody>
+      <section><title>Roamable root folder</title><p>Specifies the full path to the root folder where roamable files for the current user, such as menus and plotstyles, were installed. This setting is the source for ROAMABLEROOTPREFIX.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>Read-only</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/string_standard" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

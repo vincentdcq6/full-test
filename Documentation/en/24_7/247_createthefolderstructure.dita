@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_create_the_folder_structure">
+    <title>Create the folder structure</title>
+    <taskbody>
+        <context id="context_tqq_1zw_2pb">
+            <p>You can create the folder structure for the project:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Select the project.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_d4m_bgn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Project setup</uicontrol> in the tool menu.</cmd>
+                <info>
+                    <div>All folders, subfolders, and binders are displayed per tool.</div>
+                </info>
+                <info>
+                    <div>
+                        <fig id="fig_wr4_lkx_2pb">
+                            <title>Project setup</title>
+                            <image href="../IMAGES_temp/project_setup_pane.PNG" id="image_xr4_lkx_2pb" scope="external" />
+                        </fig>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add folder</uicontrol>
+                    <image href="../IMAGES_temp/add_folder_action.PNG" id="image_arf_wrx_2pb" scope="external" /> to
+                    add a folder.</cmd>
+                <stepresult>The <wintitle>Add subfolder</wintitle> window appears.<div>
+                        <fig id="fig_y5w_4yx_2pb">
+                            <title>Add folder</title>
+                            <image href="../IMAGES_temp/add_subfolder_window.PNG" id="image_z5w_4yx_2pb" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Enter a folder name.</cmd>
+            </step>
+            <step>
+                <cmd>Click on the different access type icons, or use the top and right handles to
+                    toggle between the access rights for all roles.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the folder is successfully added. The
+                    new folder appears in the content pane.</stepresult>
+            </step>
+            <step>
+                <cmd>If applicable, click <uicontrol>Add binder</uicontrol>
+                    <image href="../IMAGES_temp/add_binder_action.PNG" id="image_avl_bsx_2pb" scope="external" /> to
+                    add a binder.</cmd>
+                <stepresult>The <wintitle>Add binder</wintitle> window appears.<div>
+                        <fig id="fig_oct_21y_2pb">
+                            <title>Add binder</title>
+                            <image href="../IMAGES_temp/add_binder_window.PNG" id="image_pct_21y_2pb" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Enter a name for the binder.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, enable <uicontrol>Show only documents with status</uicontrol>,
+                    and select the applicable statuses.</cmd>
+                <info>
+                    <div>
+                        <note>The available document statuses correspond to the project
+                            settings.</note>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Click on the different access type icons, or use the top and right handles to
+                    toggle between the access rights for all roles.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the binder is successfully added. The
+                    new binder appears in the content pane.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_projectsetup" />
+            <link keyref="247_projectsettings" />
+        </linklist>
+    </related-links>
+</task>

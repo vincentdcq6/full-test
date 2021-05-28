@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_references">
+    <title>References</title>
+    <conbody>
+        <p>This paragraph provides references to other information you may need to use Bricsys
+                24/7:<ul id="ul_icv_t25_r4b">
+                <li><xref href="https://blog.bricsys.com/category/247/" format="html" scope="external">Bricsys Blog</xref></li>
+                <li><xref href="https://www.youtube.com/c/BricsysOfficial" format="html" scope="external">Official Bricsys YouTube channel</xref></li>
+            </ul></p>
+    </conbody>
+</concept>

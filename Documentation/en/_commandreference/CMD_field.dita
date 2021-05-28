@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_field">
+   <title>FIELD command</title>
+   <shortdesc>Opens the Field Dialog Box.</shortdesc>
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V19/Common/command-reference-all.png" id="image_grw_xxf_ynb" scope="external" />
+      </fig>
+      <fig id="fig_ffx_yxf_ynb"><!--command icon--></fig>
+      <!--<p>Alias:</p>-->
+      <p>Open the <xref keyref="DB_field" /> to create a field in the current drawing. After you
+         select the field and choose <uicontrol>OK</uicontrol>, you are prompted at the Command
+         line:</p>
+      <p>
+         <dl>
+            <dlentry>
+               <dt>Specify start point</dt>
+               <dd>Specify a point in the current drawing where the field will be inserted.</dd>
+               <dd>Additional options: [Height/Justify]</dd>
+            </dlentry>
+            <dlentry>
+               <dt outputclass="indent1">Height</dt>
+               <dd outputclass="indent1">Specify the height of the field text.</dd>
+            </dlentry>
+            <dlentry>
+               <dt outputclass="indent1">Justify</dt>
+               <dd outputclass="indent1">Specify a justification for the field text.</dd>
+            </dlentry>
+         </dl>
+      </p>
+   </conbody>
+</concept>

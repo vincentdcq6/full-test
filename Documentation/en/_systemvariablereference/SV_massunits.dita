@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="massunits">
+   <title>MASSUNITS system variable</title>
+   <shortdesc />
+   <conbody>
+      <section id="section_pt2_lfj_xnb">
+         <title>Mass units</title>
+         <p>Specifies a list of units used for displaying mass when the mass bit of PROPUNITS is on. If empty, all masses are displayed without units.</p>
+         <p>The MASSUNITS setting affects the mass values only. Other mass properties such as density or moments of inertia are formatted in SI units for the metric system and in imperial units for the imperial system, regardless of the MASSUNITS setting.</p>
+         <p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p>
+            <table id="o25_dqx_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/string" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/registry" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>oz lb st mg g kg t</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </conbody>
+</concept>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_toolpalettes">
+    <title>Tool palettes panel</title>
+    <shortdesc>The Tool Palettes panel offers a central location to access blocks, hatches, and
+        command tools.</shortdesc>
+    <conbody>
+        <p>It includes default tabs with sample tools. You can easily create and customize your own
+            tabs and tools using the right-click menu.</p>
+        <!--This article should import/link CM (context menu) and CL (Content library) warehouse content when it's available-->
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_toolpalettes" />
+            <link keyref="CMD_toolpalettesclose" />
+            <link keyref="CMD_tpnavigate" />
+            <link keyref="CMD_-toolpanel" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_toolpalettepath" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="UI_panels" />
+            <!--link to User Guide articles that describe how to create/customize tools-->
+        </linklist>
+    </related-links>
+</concept>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_dgnimportoptions">
+   <title>DGNIMPORTOPTIONS command</title>
+   <shortdesc>Opens the Settings Dialog Box with the <uicontrol>DGNIMPORT</uicontrol> category expanded.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> with the <uicontrol>DGNIMPORT</uicontrol> category
+         expanded to view and modify relevant system variables.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_dgnimpimportactivemodeltomodelspace" />
+         <link keyref="SV_dgnimpimportpaperspacemodels" />
+         <link keyref="SV_dgnimpxrefimportmode" />
+         <link keyref="SV_dgnimpexplodetextnodes" />
+         <link keyref="SV_dgnimprecomputedimensionsafterimport" />
+         <link keyref="SV_dgnimpsymbolresourcefiles" />
+         <link keyref="SV_dgnimpimportinvisibleelements" />
+         <link keyref="SV_dgnimpimportviewindex" />
+         <link keyref="SV_dgnimp3dellipseimportmode" />
+         <link keyref="SV_dgnimp2dellipseimportmode" />
+         <link keyref="SV_dgnimp3dshapeimportmode" />
+         <link keyref="SV_dgnimp2dshapeimportmode" />
+         <link keyref="SV_dgnimp3dclosedbsplinecurveimportmode" />
+         <link keyref="SV_dgnimp2dclosedbsplinecurveimportmode" />
+         <link keyref="SV_dgnimpconvertdgncolorindicestotruecolors" />
+         <link keyref="SV_dgnimpconvertemptydatafieldstospaces" />
+         <link keyref="SV_dgnimpbreakdimensionassociation" />
+         <link keyref="SV_dgnimp3dobjectimportmode" />
+         <link keyref="SV_dgnimperaseunusedresources" />
+      </linklist>
+   </related-links>
+</concept>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="projectiontype" xml:lang="en-US">
+   <title id="title__Toc50995449">PROJECTIONTYPE system variable</title>
+   <conbody>
+      <section><title>Drawing views position scheme</title><p>Switches between first and third angle projection types. These angle projections are a way to represent 3D entities in 2D drawing views. These projection types will show the same views but the difference between the two types is the position of these views (top, right, left, bottom). See Generated Drawing Views<!--link--> to learn more about it. </p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 1</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: First angle projection type (Europe).</p>
+                           <p>1: Third angle projection type (United States, Canada, Australia).</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p>
+         <p>
+            <fig id="fig_j1v_yph_p4b">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_projectiontype_01_V21.png" id="image_k1v_yph_p4b" scope="external" />
+               <image href="https://static.bricsys.com/help/en_INTL/SV_projectiontype_02_V21.png" id="image_snt_2pm_knb" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

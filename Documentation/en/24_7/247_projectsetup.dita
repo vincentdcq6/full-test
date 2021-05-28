@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_project_setup">
+    <title>Project setup</title>
+    <conbody>
+        <p><uicontrol>Project setup</uicontrol>:<ul id="ul_wmy_llx_2pb">
+                <li>displays all folders, subfolders, and binders of a project, as set up by the
+                    project administrator</li>
+                <li>allows to give access rights to roles.<div>You can select a folder and set the
+                        access rights per role.</div></li>
+            </ul></p>
+    </conbody>
+</concept>

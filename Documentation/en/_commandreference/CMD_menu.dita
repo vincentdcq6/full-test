@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_menu">
+   <title>MENU command</title>
+   <shortdesc>Opens the Choose A Customization File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_chooseacustomizationfile" /> to select a cui, cuix, mnu, mns, or
+         icm file to load. These customization files modify the BricsCAD user interface.</p>
+   </conbody>
+</concept>

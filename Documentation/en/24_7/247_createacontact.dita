@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_create_a_contact">
+    <title>Create a contact</title>
+    <taskbody>
+        <context>
+            <p>You can create a new contact:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Address book</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>New</uicontrol>
+                    <image href="../IMAGES_temp/New_button.PNG" id="image_abc_vnc_x4b" scale="75" scope="external" />.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>Contact</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Add contact</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Enter the contact details.</cmd>
+                <info>
+                    <div>
+                        <note>First name, last name and email address are required fields.</note>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>If applicable, select an address book and organization.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the contact is successfully
+                    created.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

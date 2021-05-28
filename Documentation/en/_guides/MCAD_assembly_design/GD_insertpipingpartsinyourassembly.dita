@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "concept.dtd"[]>
+<topic id="insert_piping_parts_in_your_assembly">
+    <title>Insert piping parts in your assembly</title>
+    <body>
+        <p>Drag and drop any piping standard part from the Library panel into your assembly.</p>
+        <p>By default, all parts from the Piping category are inserted in Smart mode, which means
+            that if you hover over a previously inserted piping part, BricsCAD:<ul id="ul_xjk_ytz_kpb">
+                <li>Copies parameter expressions of that part to the corresponding parameters of the
+                    part being inserted.</li>
+                <li>Adds a set of 3D constraints to connect the parts.</li>
+            </ul></p>
+        <note>Press the Ctrl key to switch between Smart mode and Regular mode, in which 3D
+            constraints with other parts are not generated.</note>
+    </body>
+</topic>

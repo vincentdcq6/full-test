@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_createanarrayofcomponents">
+    <title>Create an array of components</title>
+    <conbody>
+        <p>Use one of the array tools in the <uicontrol>Assembly</uicontrol> panel of Mechanical
+                    profile:<div><image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/ArraysComponent_ArrayRibbon.png" id="image_a3x_gzz_kpb" scope="external" /></div><ul id="ul_b5z_bzz_kpb">
+                <li><uicontrol>Rectangular Array</uicontrol></li>
+                <li><uicontrol>Polar Array</uicontrol></li>
+                <li><uicontrol>Path Array</uicontrol>.</li>
+            </ul></p>
+        <p>Another way to create an array of component is to use the Multiple/Array option of  the
+            Insert Component tool <image href="https://static.bricsys.com/help/en_US/V19/Common/BmInsert.png" id="image_qjv_yyz_kpb" scope="external" />.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_laycur">
+   <title>LAYCUR command</title>
+   <shortdesc>Moves selected entities to the current layer. </shortdesc>
+   <conbody>
+      <p><!--<p>Insert License Level</p>--><!--<p> Insert link to Tool icon</p>--><!--<p>Alias:</p>--></p>
+      <p>Move selected entities to the current layer without having to specify the name of the current layer. </p>
+      <p>You are prompted:</p>
+      <p><b>Select entities to be moved to the current layer </b></p>
+      <p>Select one or more entities you want to move to the current layer. You can continue selecting entities until you press Enter to end the command. The Command line indicates how many entities were moved and to what layer: </p>
+      <p><b># entities were moved to the current layer ("LayerName1").</b></p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_layer" />
+         <!---LAYER command link-->
+         <link keyref="CMD_layon" />
+         <link keyref="CMD_layoff" />
+         <link keyref="CMD_laythw" />
+         <link keyref="CMD_layfrz" />
+         <link keyref="CMD_laylck" />
+         <link keyref="CMD_layulk" />
+         <link keyref="CMD_layiso" />
+         <link keyref="CMD_layuniso" />
+         <link keyref="CMD_laycur" />
+         <link keyref="CMD_layerp" />
+         <link keyref="CMD_layerstate" />
+      </linklist>
+      <linklist>
+         <title>Related Variables</title>
+         <!--LAYERLOCKFADECTL System Variable link-->
+         <link keyref="SV_layerpmode" />
+      </linklist>
+   </related-links>
+</concept>

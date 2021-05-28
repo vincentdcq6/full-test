@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="offsetgaptype" xml:lang="en-US">
+   <title id="title__Toc50995383">OFFSETGAPTYPE system variable</title>
+   <conbody>
+      <section><title>Offset gap type</title><p>Specifies how possible gaps in parallel copies of closed polylines are filled.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 2</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Extend polyline segments</p>
+                           <p>1: Filleted arc segments</p>
+                           <p>2: Chamfered line segments</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p>
+         <p>
+            <fig id="fig_jbp_gkh_p4b">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_offsetgaptype_01_V21.png" id="image_kbp_gkh_p4b" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

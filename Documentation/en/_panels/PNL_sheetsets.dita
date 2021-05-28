@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_sheetsets">
+    <title>Sheet sets panel</title>
+    <shortdesc>The Sheet Sets panel offers a central location to create and manage sheet
+        sets.</shortdesc>
+    <conbody>
+        <p>It includes 14 areas.</p>
+        <fig id="fig_pjz_f4v_3pb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_sheetsets_01_V21.png" id="image_uvl_g4v_3pb" scope="external" />
+            <ol id="ul_zhj_l4v_3pb">
+                <li>New sheet set…</li>
+                <li>Open sheet set…</li>
+                <li>Import from XML…</li>
+                <li>Export to XML…</li>
+                <li>Plot</li>
+                <li>Publish…</li>
+                <li>eTransmit…</li>
+                <li>Sheet selections sets…</li>
+                <li>Custom properties…</li>
+                <li>View categories</li>
+                <li>Sheet set options…</li>
+                <li>Sheets</li>
+                <li>Sheet properties</li>
+                <li>Sheet preview</li>
+            </ol>
+        </fig>
+        <section id="section_hq4_54v_3pb">
+            <title>New sheet set…</title>
+            <p>Opens the Create New Sheet Set dialog box.</p>
+        </section>
+        <section id="section_rlg_v4v_3pb">
+            <title>Open sheet set…</title>
+            <p>Opens the Select a Sheet Set File dialog box.</p>
+        </section>
+        <section id="section_klb_w4v_3pb">
+            <title>Import from XML…</title>
+            <p>Allows you to import an XML file that was created in BricsCAD with <uicontrol>Export
+                    to XML...</uicontrol>. Opens the Import Sheet Set dialog box.</p>
+        </section>
+        <section id="section_j5w_w4v_3pb">
+            <title>Export to XML…</title>
+            <p>Exports a sheet set in XML format. Opens the Export sheet set as dialog box.</p>
+        </section>
+        <section id="section_w5p_x4v_3pb">
+            <title>Plot</title>
+            <p>Plots the currently selected sheet set(s), subset(s) or sheet(s).</p>
+        </section>
+        <section id="section_oxf_y4v_3pb">
+            <title>Publish…</title>
+            <p>Publishes the currently selected sheet set(s), subset(s) or sheet(s). Opens the
+                Publish dialog box.</p>
+        </section>
+        <section id="section_q55_y4v_3pb">
+            <title>eTransmit…</title>
+            <p>Launches the eTransmit command. The currently selected sheet set(s), subset(s) or
+                sheet(s) are included in the eTransmit procedure. Opens the eTransmit dialog box.
+            </p>
+        </section>
+        <section id="section_xyk_z4v_3pb">
+            <title>Sheet selections sets…</title>
+            <p>Opens the Sheet selection sets dialog box.</p>
+            <fig id="fig_edd_1pv_3pb">
+                <image href="https://static.bricsys.com/help/en_US/PNL_sheetsets_02_V21.png" id="image_wpt_s4v_3pb" scope="external" />
+            </fig>
+        </section>
+        <section id="section_hbx_1pv_3pb">
+            <title>Custom properties…</title>
+            <p>Allows you to add custom properties for sheet sets and sheets. Opens the Custom
+                properties dialog box.</p>
+        </section>
+        <section id="section_sqm_bpv_3pb">
+            <title>View categories</title>
+            <p>Expands and collapses the currently loaded sheet sets.</p>
+        </section>
+        <section id="section_tzd_cpv_3pb">
+            <title>Sheet set options…</title>
+            <p>Opens the Sheet Sets options in the Settings dialog box.</p>
+        </section>
+        <section id="section_klw_cpv_3pb">
+            <title>Sheets</title>
+            <p>Displays the opened and created sheet sets.</p>
+        </section>
+        <section id="section_a2r_dpv_3pb">
+            <title>Sheet properties</title>
+            <p>Displays the properties and variables of the selected sheet set, subset or sheet.
+            </p>
+        </section>
+        <section id="section_tkf_2pv_3pb">
+            <title>Sheet preview</title>
+            <p>Displays a thumbnail of the currently selected sheet set without opening it.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_opensheetset" />
+            <link keyref="CMD_sheetsethide" />
+            <link keyref="CMD_sheetset" />
+            <link keyref="CMD_etransmit" />
+            <link keyref="CMD_newsheetset" />
+            <link keyref="CMD_-toolpanel" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_sheetsetautobackup" />
+            <link keyref="SV_sheetsettemplatepath" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="DB_createnewsheetset" />
+            <link keyref="DB_selectasheetsetfile" />
+            <link keyref="DB_importsheetset" />
+            <link keyref="DB_exportsheetsetas" />
+            <link keyref="DB_publish" />
+            <link keyref="DB_etransmit" />
+            <link keyref="DB_sheetselectionsets" />
+            <link keyref="DB_customproperties" />
+            <link keyref="DB_settings" />
+            <link keyref="UI_panels" />
+        </linklist>
+    </related-links>
+</concept>

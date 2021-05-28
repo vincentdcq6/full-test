@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="menus">
+   <title>Menus</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <context id="context_crt_342_wmb">
+         <p>The menu bar is hidden in all workspaces by default.</p>
+         <p>The content of the menu is defined in the current workspace.</p>
+      </context>
+   </taskbody>
+   <task id="task_uf2_bp2_wmb">
+      <title class="- topic/title ">Controlling the display of the menu bar</title>
+      <taskbody>
+         <steps id="steps_mhh_dp2_wmb">
+            <step>
+               <cmd>Move the cursor over a toolbar or ribbon panel.</cmd>
+            </step>
+            <step>
+               <cmd>Right click and choose <uicontrol>Menu Bar</uicontrol> in the context menu.</cmd>
+            </step>
+         </steps>
+      </taskbody>
+      <related-links>
+         <linklist>
+            <title>Related information</title>
+            <link keyref="GD_choosing_the_workspace" />
+            <link keyref="GD_the_ribbon" />
+            <link keyref="GD_toolbars" />
+            <link keyref="GD_the_quad_basics" />
+            <link keyref="GD_the_command_line" />
+            <link keyref="GD_executing_commands" />
+         </linklist>
+      </related-links>
+   </task>
+</task>

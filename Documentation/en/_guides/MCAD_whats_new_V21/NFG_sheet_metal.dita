@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="AE2414D5-24A4DE3-D3B353DC22773EA-A6231C">
+   <title>Sheet metal</title>
+   <shortdesc>Sheet metal tools in BricsCAD Mechanical V21 offer more flexibility and faster
+      workflows.</shortdesc>
+
+   <conbody>
+      <p>For example, a specific bend table can be assigned to each solid and arts with a different
+         thickness can exist in the same block.</p>
+      <section id="section_wtm_bbw_54b">
+         <title>Bevels</title>
+         <p>The newly added Bevel feature is supported in the SMCONVERT command, the SMREPAIR
+            command and the SMUNFOLD command.</p>
+      </section>
+      <section id="section_xtm_bbw_54b">
+         <title>Zero Radius Bends</title>
+         <p>A new feature ZeroBend allows for the creation of a bend with no internal radius for sheet metal components.<fig id="fig_tmn_zbw_54b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_MCAD_SMZeroRBend_01_V21.png" id="image_ytm_bbw_54b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_ztm_bbw_54b">
+         <title>T-Junction</title>
+         <p>A new feature T-Junction can be created using SMEXTRUDE on a single segment poly line lying on a flange to create a new flange orthogonal to the existing. Using the T-Junction feature we can then convert it to a T-Tab which will automatically add tabs to the orthogonal flange and remove the necessary material from the original.<fig id="fig_df1_ccw_54b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_MCAD_SMTjunction_01_V21.png" id="image_a5m_bbw_54b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_b5m_bbw_54b">
+         <title>Updated Smart Features</title>
+         <p>You may now create sheet metal drawings even faster by utilizing the upgraded
+            SMSMARTFEATURES command which allows you to automatically create junctions when
+            utilizing the bend tool.<fig id="fig_uqw_qdc_v4b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_MCAD_SMJunction_01_V21.png" scope="external" id="image_vqw_qdc_v4b" />
+            </fig><fig id="fig_kjm_sdc_v4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_MCAD_SMSmartFeature_01_V21.png" scope="external" id="image_ljm_sdc_v4b" />
+            </fig></p>
+      </section>
+      <section id="section_c5m_bbw_54b">
+         <title>Tabs</title>
+         <p>The SMTABCREATE command now has an option to create a curved tab on a curved hard edge,
+            connecting a flange and a bend, including lofted bends.<fig id="fig_xky_fcw_54b">
+               <image href="https://static.bricsys.com/help/en_INTL/NFG_MCAD_SMCurveTabs_01_V21.png" id="image_d5m_bbw_54b" scope="external" />
+            </fig></p>
+         <p>The SMUNFOLD command offers improved behavior for conical lofted bends. They can now be
+            unfolded analytically, to avoid splitting them into a specified number of bends and
+               flanges.<fig id="fig_b34_3cw_54b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_MCAD_SMAnalyticUnfolding_01_V21.png" id="image_e5m_bbw_54b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_f5m_bbw_54b">
+         <title>Assembly Export</title>
+         <p>The SMASSEMBLYEXPORTMODE system variable allows you to keep recognized features for
+            sheet metal and poorly modeled sheet metal parts when using the SMASSEMBLYEXPORT
+               command.<fig id="fig_gfb_mcw_54b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_MCAD_SMAssemblyExport_01_V21.png" id="image_g5m_bbw_54b" scope="external" />
+            </fig></p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_smassemblyexport" />
+         <link keyref="CMD_smconvert" />
+         <link keyref="CMD_smextrude" />
+         <link keyref="CMD_smrepair" />
+         <link keyref="CMD_smsmartfeatures" />
+         <link keyref="CMD_smtabcreate" />
+         <link keyref="CMD_smunfold" />
+         
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_smassemblyexportmode" />
+      </linklist>
+   </related-links>
+</concept>

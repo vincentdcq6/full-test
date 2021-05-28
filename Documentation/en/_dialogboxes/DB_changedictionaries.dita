@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_changedictionaries_0">
+    <title>Change dictionaries dialog box</title>
+    <shortdesc>The Change Dictionaries dialog box allows you to change dictionaries.</shortdesc>
+    <conbody>
+        <p>It includes 5 areas.</p>
+        <fig id="fig_kh3_fc3_qpb">
+            <image scope="external" id="image_rxr_b23_qpb" href="https://static.bricsys.com/help/en_US/DB_changedictionaries_01_V21.png" />
+            <ol id="ol_ibv_xrk_qpb">
+                <li>Main dictionary</li>
+                <li>Custom dictionary</li>
+                <li>Custom dictionary words</li>
+                <li>Apply &amp; Close</li>
+                <li>Cancel</li>
+            </ol>
+        </fig>
+        <section id="section_scw_xlp_qpb">
+            <title>Help</title>
+            <p>Opens the Bricsys Help article for the SPELL command.</p>
+        </section>
+        <section id="section_y3h_ylp_qpb">
+            <title>Main dictionary</title>
+            <p>Specifies the main dictionary to use for spell checking.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>File name</dt>
+                        <dd>Specify the dictionary file to use as the main dictionary. Available
+                            files are displayed in the drop-down list.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Download</dt>
+                        <dd>Download additional dictionaries from OpenOffice.org. Opens the Web
+                            browser at: <xref href="https://extensions.openoffice.org/dictionaries" format="html" scope="external" /></dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_eqb_zlp_qpb">
+            <title>Custom dictionary</title>
+            <p>Specifies a custom dictionary to use for spell checking. Use custom dictionaries for
+                discipline-specific words, such as medical or mechanical terms.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>File location</dt>
+                        <dd>Specifies the file name and location of a custom dictionary to use in
+                            addition to the main dictionary.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Browse</dt>
+                        <dd>Open the Select Custom Dictionary dialog box to select a custom
+                            dictionary file.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_jxr_zlp_qpb">
+            <title>Custom dictionary words</title>
+            <p>Specifies words to be included in the custom dictionary.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Word field</dt>
+                        <dd>Allows you to enter a word to be included in the custom dictionary.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Add</dt>
+                        <dd>Add the word you entered in the word field to the custom dictionary.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Words list</dt>
+                        <dd>Displays all the words included in the custom dictionary.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Delete</dt>
+                        <dd>Delete a selected word from the custom dictionary.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_dff_1mp_qpb">
+            <title>Apply &amp; Close</title>
+            <p>Apply your changes and close the dialog box. The custom dictionary file is only
+                updated with added or deleted words after you choose Apply and Close.</p>
+        </section>
+        <section id="section_jtp_kmp_qpb">
+            <title>Cancel</title>
+            <p>Close the dialog box without applying changes.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_attdef" />
+            <link keyref="CMD_ddedit" />
+            <link keyref="CMD_find" />
+            <link keyref="CMD_leader" />
+            <link keyref="CMD_mleader" />
+            <link keyref="CMD_mtext" />
+            <link keyref="CMD_properties" />
+            <link keyref="CMD_spell" />
+            <link keyref="CMD_table" />
+            <link keyref="CMD_text" />
+            
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="DB_selectcustomdictionary" />
+        </linklist>
+    </related-links>
+</concept>

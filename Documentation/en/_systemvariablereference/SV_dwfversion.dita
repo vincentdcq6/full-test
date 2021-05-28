@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dwfversion" xml:lang="en-US">
+   <title id="title__Toc50995111">DWFVERSION system variable</title>
+   <conbody>
+      <section><title>DWF version</title><p>Specifies the dwf version for export in dwf format.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>1 to 10</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>2</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>1: 3D DWF v6.01</p>
+                           <p>2: Binary DWF v6.0</p>
+                           <p>3: Zipped Ascii Encoded 2D Stream DWF v6.0</p>
+                           <p>4: Compressed DWF v5.5</p>
+                           <p>5: Binary DWF v5.5</p>
+                           <p>6: Ascii DWF v5.5</p>
+                           <p>7: Compressed DWF v4.2</p>
+                           <p>8: Binary DWF v4.2</p>
+                           <p>9: Ascii DWF v4.2</p>
+                           <p>10: XPS DWFx</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

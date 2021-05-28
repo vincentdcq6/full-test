@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="lookfromdirectionmode" xml:lang="en-US">
+   <title id="title__Toc50995326">LOOKFROMDIRECTIONMODE system variable</title>
+   <conbody>
+      <section><title>LookFrom direction mode</title><p>Specifies how many view directions can be selected in isometric mode. Holding the Ctrl (Windows) or Cmd (Mac) key switches from top-down to bottom-up directions.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 3</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>1</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: orthogonal only (6 directions)</p>
+                           <p>1: no flat view at corners (14 directions)</p>
+                           <p>2: 4 top/down corners(18 directions)</p>
+                           <p>3: 8 top/down corners(26 directions)</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p>
+         <p>
+            <fig id="fig_ovx_4my_jnb">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_lookfromdirectionmode_01_V21.png" id="image_pvx_4my_jnb" scope="external" />
+               <image href="https://static.bricsys.com/help/en_INTL/SV_lookfromdirectionmode_02_V21.png" id="image_yb1_wmy_jnb" scope="external" />
+               <image href="https://static.bricsys.com/help/en_INTL/SV_lookfromdirectionmode_03_V21.png" id="image_zb1_wmy_jnb" scope="external" />
+               <image href="https://static.bricsys.com/help/en_INTL/SV_lookfromdirectionmode_04_V21.png" id="image_ac1_wmy_jnb" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

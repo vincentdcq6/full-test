@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_StandardMechanicalComponentsoverview">
+    <title>Overview</title>
+    <conbody>
+        <p>Use command <cmdname>ComponentsPanelOpen</cmdname>.</p>
+        <p><object width="891" height="315" data="https://www.youtube.com/embed/NgZWAhRsVnk" outputclass="iframe">
+                <param name="allowfullscreen" />
+            </object></p>
+        <p>BricsCAD comes with a library of more than 1,000 standard mechanical parts available in
+            more than 170,000 different sizes. They are available in the Library panel, and can be
+            drag-and-dropped from the library into your assembly. You can adjust the parameters in
+            the Properties panel, which temporarily lists parameters of the component being
+            inserted. After insertion, parameters can be edited in Mechanical Browser and the
+            Properties panel.</p>
+        <p>In the Mechanical workspace, the Library panel contains 3 categories:<ul id="ul_ngh_cyb_jpb">
+                <li>Standard Parts</li>
+                <li>Holes</li>
+                <li>Sheet Metal</li>
+            </ul></p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

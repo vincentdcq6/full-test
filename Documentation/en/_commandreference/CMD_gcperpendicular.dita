@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gcperpendicular">
+   <title>GCPERPENDICULAR command</title>
+   <shortdesc>Creates a perpendicular geometric constraint on 2D entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a perpendicular constraint to ensure linear entities remain perpendicular to each other.</p>
+      <section id="section_dty_mnc_x4b">
+         <title>Methods to create a perpendicular constraint</title>
+         <p>There is one method to begin creating a perpendicular constraint:<ul id="ul_vb3_mnc_x4b">
+               <li>Select first entity</li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select First Entity</dt>
+                  <dd>Begin creating a perpendicular constraint by selecting a linear entity then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select Second Entity</dt>
+                  <dd outputclass="indent1">Select a second linear entity to make perpendicular to the first. The first entity maintains its position while the second entity moves, as necessary, to become perpendicular to the first entity.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

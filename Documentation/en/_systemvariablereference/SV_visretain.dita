@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="visretain" xml:lang="en-US">
+   <title id="title__Toc50995807">VISRETAIN system variable</title>
+   <conbody>
+      <section><title>Visibility retain</title><p>Specifies the visibility, color, linetype, lineweight, and, if PSTYLEPOLICY is set to OFF (0), plotstyles of xref-dependent layers. It also specifies whether nested xref path changes are saved.</p><p>If Off (0): Changes made to xref-dependent layers in the current drawing are valid in the current session only and are Not saved with the drawing. When the current drawing is reopened, the layer table is reloaded from the reference drawing and the current drawing reflects those settings. The layer settings affected are: On, Off, Freeze, Thaw, Color, Ltype, LWeight, and PStyle (if PSTYLEPOLICY is set to 0).</p><p>If On (1): Layer settings are saved with the current drawing's layer table and persist from session to session.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 1</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>1</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Off, the layer table, as stored in the reference drawing (Xref) takes precedence</p>
+                           <p>1: On, Xref-dependent layer changes made in the current drawing take precedence</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

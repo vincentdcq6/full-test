@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_sketching">
+    <title>Sketching</title>
+    <conbody>
+        <p>The Sketching toolset allows you to draw 2D profiles, which can be extruded or revolved
+            to create 3D solids and surfaces, or to add/subtract volume to/from existing entities.
+            The sketching tools are available on the <uicontrol>Sketch</uicontrol> tab of the
+            Mechanical workspace ribbon:</p>
+        <p><fig id="fig_vf5_psn_kpb">
+                <title>Mechanical workspace ribbon</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360017870680/mceclip1.png" id="image_wf5_psn_kpb" scope="external" />
+            </fig>Sketches are created in the XY plane of the current User Coordinate System (UCS).
+            Since the dynamic UCS is enabled by default, you can create 2D entities on the 3D solid
+            face under the cursor. Use the Align UCS tool to position the UCS according to your
+            needs.</p>
+        <p>The drawing tools include familiar 2D primitives, such as a rectangle/polygon, a
+            circle/arc/ellipse, a polyline, and a spline.</p>
+        <p>Use the Move, Copy, 2D Rotate, 2D Mirror and Array tools to manipulate the sketches.</p>
+        <p>Use commands <cmdname>Offset</cmdname>, <cmdname>Stretch</cmdname>,
+                <cmdname>Trim</cmdname>, <cmdname>Extend</cmdname>,
+                <cmdname>Fillet</cmdname>/<cmdname>Chamfer</cmdname>, and <cmdname>Break</cmdname>
+            to edit the sketches.</p>
+        <p>Use 2D constraints to make the sketches parametric.</p>
+        <p>
+            <note>The value of the <cmdname>DELOBJ</cmdname> (Delete Entity) system variable
+                controls whether sketching entities are deleted when used by
+                    <cmdname>DMEXTRUDE</cmdname> or <cmdname>DMREVOLVE</cmdname> to create 3D solids
+                or surfaces.</note>
+        </p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

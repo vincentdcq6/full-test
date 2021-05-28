@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_create_a_new_project">
+    <title>Create a new project</title>
+    <taskbody>
+        <context id="context_npl_jqs_1pb">
+            <p>You can create a project:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Log into Bricsys 24/7 on the <xref href="https://my.bricsys247.com/app/" format="html" scope="external">login page</xref>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>New Project</uicontrol>
+                    <image href="../IMAGES_temp/new_project_button.PNG" id="image_zn3_3ts_1pb" scale="75" scope="external" /> to create a new project.</cmd>
+                <stepresult>The <wintitle>New Project</wintitle> window appears.<div>
+                        <fig id="fig_rzt_cws_1pb">
+                            <title>New Project</title>
+                            <image href="../IMAGES_temp/new_project_window.PNG" id="image_g15_cws_1pb" width="150mm" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Enter the project details:</cmd>
+                <info>
+                    <ul id="ul_hfk_nws_1pb">
+                        <li>project picture: you can upload an image file</li>
+                        <li>project name</li>
+                        <li>project description</li>
+                        <li>country in which the project will be carried out<div>
+                                <note>Name and country are required fields.</note>
+                            </div></li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the project is successfully
+                    created.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_bricsys_24_7_viewer">
+    <title>Bricsys 24/7 Viewer</title>
+    <shortdesc>Overview</shortdesc>
+    <conbody>
+        <p>The Bricsys 24/7 Viewer allows you to view more than 70 file formats without additional
+            software.</p>
+        <p>The supported file formats are:</p><table frame="all" rowsep="1" colsep="1" id="table_jb1_35s_t4b">
+                <title>Supported file formats</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="3.76*" />
+                    <thead>
+                        <row>
+                            <entry>Format</entry>
+                            <entry>File extension</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Text</entry>
+                            <entry>asm, bat, c, css, cpp, cxx, gene, h, hxx, idh, idl, inl, java,
+                                log, lsp, rss, sql, tpl, text, txt, xml</entry>
+                        </row>
+                        <row>
+                            <entry>Image</entry>
+                            <entry>bmp, gif, jpg, jpeg, pcx, pgm, pict, png, ppm, tga, tif, tiff,
+                                xbm, xpm, xwd, ai , psd</entry>
+                        </row>
+                        <row>
+                            <entry>Office</entry>
+                            <entry>doc, docx, dot, dotx, mpp, odf, odg, odp, ods, odt, potx, pps,
+                                ppsx, ppt, pptx, rtf, xls, xlsb, xlsx, xlt, xltx, vsd</entry>
+                        </row>
+                        <row>
+                            <entry>CAD</entry>
+                            <entry>dwg, dwf, dwfx, dxf, dgn, plt, hp, hpg, hpg</entry>
+                        </row>
+                        <row>
+                            <entry>other</entry>
+                            <entry>htm, html, pdf, ps, zip</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+    </conbody>
+</concept>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
+<map xml:lang="en-US" processing-role="resource-only">
+  <title>Warehouses</title>
+  <topicmeta>
+    <author>Evy Ceustermans</author>
+    <metadata />
+  </topicmeta>
+  <keydef href="co_command_references_warehouse.dita" keys="co_command_references_warehouse" />
+  <keydef href="product_names.dita" keys="product_names_warehouse" />
+  <keydef href="System_variable_warehouse.dita" keys="system_variable_warehouse" />
+</map>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_notes_and_tips">
+    <title>Notes and tips</title>
+    <conbody>
+        <p>There are 3 levels of advisory statements that may be used in this guide. In descending
+            order of importance, they are:</p><note type="important">Gives important information about
+                the described subject.</note>
+        <note>Gives additional information about the described subject.</note>
+        <note class="- topic/note " type="tip">Gives extra advice about the described
+            subject.</note>
+    </conbody>
+</concept>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_redraw">
+   <title>REDRAW command</title>
+   <shortdesc>Redraws entities in the current viewport.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Redraw entities in the current viewport to remove graphic debris such as blip or drag
+         marks.</p>
+      <p>This command displays no prompts and has no options.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_redrawall" />
+         <link keyref="CMD_regen" />
+         <link keyref="CMD_regenall" />
+      </linklist>
+   </related-links>
+</concept>

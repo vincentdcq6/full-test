@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_standardpartshardware">
+    <title>Standard Parts (Hardware)</title>
+    <conbody>
+        <p>The Standard Parts category contains parametric standard hardware grouped into 4
+                subcategories:<ul id="ul_f2v_hzb_jpb">
+                <li>Fasteners, such as bolts, nuts, and washers.</li>
+                <li>Machine Parts, such as bearings, and sprockets.</li>
+                <li>Piping, such as pipes, elbows, and flanges.</li>
+                <li>Structural Shapes, such as beams, channels, and bars.</li>
+            </ul></p>
+        <p>The content of each subcategory is structured by type, subtype, and standards.
+                <div>Example: Standard Parts / Fasteners / Bolts / Hex Head Bolts / ISO / ISO
+                4017.</div></p>
+        <p>
+            <fig id="fig_fv4_2zb_jpb">
+                <title>Library</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360017870340/______________2020-10-23___14.31.02.png" id="image_gv4_2zb_jpb" scope="external" scale="50" />
+            </fig>
+        </p>
+        <p>
+            <note>There are 2 specific settings you can configure for Standard Parts in the
+                    <wintitle>Settings</wintitle> dialog box:<ul id="ul_fvj_fbc_jpb">
+                    <li><uicontrol>Thread representation (THREADDISPLAY)</uicontrol> is used to
+                        represent (or not to represent) a 3D thread for bolts and nuts. This setting
+                        allows to decrease the memory consumption and increase the performance for
+                        large assemblies</li>
+                    <li><uicontrol>Maximum number of sprocket teeth (GEARTEETHNUMBER)</uicontrol> is
+                        used to limit the number of teeth for sprocket wheels (available under
+                            <uicontrol>Standard Parts / SPROCKET)</uicontrol>. This setting allows
+                        to decrease memory consumption and increase the performance.</li>
+                </ul><div>By default, these settings are set at <varname>Off</varname>, in order to
+                    optimize the performance of the model. When changed, the settings apply to all
+                    new documents.</div></note>
+        </p>
+    </conbody>
+</concept>

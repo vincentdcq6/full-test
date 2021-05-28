@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_online_help">
+    <title>Online help</title>
+    <taskbody>
+        <context>
+            <p>Help pages are available for you:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click on the profile icon/picture on the right side of the project bar.</cmd>
+            </step>
+            <step>
+                <cmd>Click on <uicontrol>Online help</uicontrol>.</cmd>
+                <stepresult>The Bricsys 24/7 Support and Help Center appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Consult the help articles, or perform a search.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

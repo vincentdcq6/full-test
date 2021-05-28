@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_edit_administrator_permissions">
+    <title>Edit permissions for one administrator</title>
+    <taskbody>
+        <context>
+            <p>You can allow or remove administrator permissions:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_tx5_twn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Administrators</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select an administrator in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Permissions</uicontrol>
+                    <image href="../IMAGES_temp/permissions_button.PNG" id="image_ejs_vhq_gpb" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Set permissions</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Edit the applicable permissions:</cmd>
+                <info>
+                    <ul id="ul_qjf_h3q_gpb">
+                        <li>Enable or disable <uicontrol>Project settings</uicontrol>.</li>
+                        <li>Enable or disable <uicontrol>Project setup</uicontrol>.</li>
+                        <li>Enable or disable <uicontrol>manage users &amp; roles</uicontrol>.</li>
+                        <li>Enable or disable <uicontrol>Manage administrators</uicontrol>.</li>
+                        <li>Enable or disable <uicontrol>Recycle bin</uicontrol>.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_hff_g3q_gpb">A pop up window informs you that the admin rights are
+            successfully edited.</result>
+    </taskbody>
+</task>

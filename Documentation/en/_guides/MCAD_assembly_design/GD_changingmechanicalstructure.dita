@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_changingmechanicalstructure">
+    <title>Changing Mechanical Structure</title>
+    <conbody>
+        <p>During design process, you can realize that a particular component must be moved up or
+            down in the component hierarchy.</p>
+        <p>Use command <cmdname>BmForm</cmdname> to form a new subcomponent for the current drawing
+            that will contain a selected set of a component.</p>
+        <p>Use command <cmdname>BmDissolve</cmdname> to delete a component and move all its
+            subcomponents to the level of the dissolved component.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

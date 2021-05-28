@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_license_pooling">
+   <title>License pooling</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <section id="section_ktv_pms_t4b">
+         <title>Editing the options</title>
+         <p>You can edit the options in 2 ways:</p>
+         <ul id="ul_ltv_pms_t4b">
+            <li>In the bricsys.opt file, located in the Network License Manager installation folder.</li>
+            <li>On the web interface of the Network License Manager.<ul id="ul_mtv_pms_t4b">
+                  <li>Browse to <filepath>http://localhost:5054</filepath> on the license server.</li>
+                  <li>Click <uicontrol>Status</uicontrol> in the menu on the left side.</li>
+                  <li>Click <uicontrol>bricsys</uicontrol> in the OPTIONS column for the bricsys ISV row.</li>
+               </ul></li>
+         </ul>
+         <p>Once edited, Reread/Restart the license server.</p>
+      </section>
+      <section id="section_ntv_pms_t4b">
+         <title>Commonly used options</title>
+         <p>Groups can be used to define a list of usernames, hostnames or IP-addresses.</p>
+         <p>The name can later be used to apply rules for that group.</p>
+         <table id="table_hrt_24s_t4b">
+            <tgroup cols="4">
+               <colspec colname="c1" colnum="1" colwidth="1*" colsep="1" rowsep="1" />
+               <colspec colname="c2" colnum="2" colwidth="1*" rowsep="1" colsep="1" />
+               <colspec colname="c3" colnum="3" colwidth="1*" rowsep="1" colsep="1" />
+               <colspec colname="newCol4" colnum="4" colwidth="1*" rowsep="1" colsep="1" />
+               <thead>
+                  <row>
+                     <entry />
+                     <entry />
+                     <entry>Syntax</entry>
+                     <entry>Example</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>GROUP</entry>
+                     <entry>Defines a group of usernames.</entry>
+                     <entry>GROUP name list-of-usernames</entry>
+                     <entry>GROUP engineers userA userB userC</entry>
+                  </row>
+                  <row>
+                     <entry>HOST_GROUP</entry>
+                     <entry>Defines a group of hostnames.</entry>
+                     <entry>HOST_GROUP name list-of-hostnames</entry>
+                     <entry>HOST_GROUP firstFloor machineA machineB machineC</entry>
+                  </row>
+                  <row>
+                     <entry>INTERNET_GROUP</entry>
+                     <entry>Defines a group of IP-addresses.</entry>
+                     <entry>INTERNET_GROUP name list-of-ip-addresses</entry>
+                     <entry>INTERNET_GROUP networkGhent 192.168.1.* 192.168.2.*<p>The wildcard character (*) can be used in IP addresses.</p></entry>
+                  </row>
+                  <row>
+                     <entry>RESERVE</entry>
+                     <entry>Reserve a number of licenses to a specific (group of) user(s).</entry>
+                     <entry>RESERVE num product user|host|group|host_group|internet|internet_group|project who [id=nnn]</entry>
+                     <entry>RESERVE 20 bricscad GROUP engineers</entry>
+                  </row>
+                  <row>
+                     <entry>MAX</entry>
+                     <entry>Limit the number of licenses available to a specific (group of) user(s).</entry>
+                     <entry>MAX num product user|host|group|host_group|internet|internet_group|project who [id=nnn]</entry>
+                     <entry>MAX 5 bricscad HOST_GROUP firstFloor</entry>
+                  </row>
+                  <row>
+                     <entry>INCLUDE</entry>
+                     <entry>Only allow licenses for a product to a specific (group of) user(s). Anyone not specified by the INCLUDE line is not allowed to use the product.</entry>
+                     <entry>INCLUDE product userhost|group|host_group|internet|internet_group|project who [id=nnn]</entry>
+                     <entry>INCLUDE bricscad GROUP bricscadusers</entry>
+                  </row>
+                  <row>
+                     <entry>EXCLUDE</entry>
+                     <entry>Disallow licenses for a product to a specific (group of) user(s).</entry>
+                     <entry>EXCLUDE product user|host|group|host_group|internet|internet_group|project who [id=nnn]</entry>
+                     <entry>EXCLUDE bricscad INTERNET_GROUP 1.1.*.*</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>More options can be found in the RLM end user manual, under the paragraph <b>The ISV Options File</b>.</p>
+      </section>
+      <section id="section_otv_pms_t4b">
+         <title>Identifying a license file</title>
+         <p>Since V15, a new feature in the Reprise license manager allows you to add an '_id' field in your license file.</p>
+         <p>With this '_id', you can identify each license file as a separate license pool.</p>
+         <p>When specifying an [id=nnn] parameter for an added OPTION, that OPTION will only have effect on the corresponding license file.</p>
+         <p>Usage Example: You have 2 licenses, one with 10 seats for<b conkeyref="product_names_warehouse/b_hkm_wl2_1nb" />, and one with 10 seats for <b conkeyref="product_names_warehouse/b_umt_wl2_1nb" />, and want to specify which users
+            can use which level.</p>
+         <p><b>THE LICENSE FILES</b></p>
+         <p>Lite License</p>
+         <p>HOST host_name ethernet_mac 5053</p>
+         <p>ISV bricsys</p>
+         <p>LICENSE bricsys bricscad 15 permanent 10 share=uh</p>
+         <p>contract=1 options="LA:xx_XX TY:FCO LE:PRO"</p>
+         <p>_ck=6a06665467 sig=""</p>
+         <p>HOST host_name ethernet_mac 5053</p>
+         <p>ISV bricsys</p>
+         <p>LICENSE bricsys bricscad 15 permanent 10 share=uh</p>
+         <p>contract=1 options="LA:xx_XX TY:FCO LE:PRO" _id=1</p>
+         <p>_ck=6a06665467 sig=""</p>
+         <p />
+         <p>Pro License</p>
+         <p>HOST host_name ethernet_mac 5053</p>
+         <p>ISV bricsys</p>
+         <p>LICENSE bricsys bricscad 15 permanent 10 share=uh</p>
+         <p>contract=1 options="LA:xx_XX TY:FCO LE:PLA"</p>
+         <p>_ck=6a06665467 sig=""</p>
+         <p>HOST host_name ethernet_mac 5053</p>
+         <p>ISV bricsys</p>
+         <p>LICENSE bricsys bricscad 15 permanent 10 share=uh</p>
+         <p>contract=1 options="LA:xx_XX TY:FCO LE:PLA" _id=2</p>
+         <p>_ck=6a06665467 sig=""</p>
+         <p>Now the Lite license is defined by id=1, and the Pro license by id=2.</p>
+         <p />
+         <p><b>THE OPTIONS</b></p>
+         <p>If now, for example, you would like to only allow engineers in your firm to use the Pro version, this can be done by adding the following to the options.</p>
+         <p>GROUP engineers userA userB userC</p>
+         <p>INCLUDE bricscad GROUP engineers id=2</p>
+         <p />
+         <p>Symptoms</p>
+         <p>I want to adjust the way my licenses are pooled.</p>
+         <p>More information: <xref href="http://www.reprisesoftware.com/RLM_Enduser.html" format="html" scope="external">http://www.reprisesoftware.com/RLM_Enduser.html</xref></p>
+      </section>
+      <section id="section_ptv_pms_t4b">
+         <title>License pooling by RLM_PROJECT</title>
+         <p>The following applies to cases where multiple levels of network licenses are activated
+            on the same RLM server. Consequently, the users are able to decide what license level to
+            acquire when activating <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />.</p>
+         <p>The user can obtain a specific <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />
+            license level, based on the RLM_PROJECT environment variable which should match the ISV
+            server options. The license seats will be reserved on the ISV server for the specific
+            PROJECT users by an IDentifer.<note>Please be aware that the following actions are to be
+               executed by an IT department person.</note></p>
+         <p><b>1. RLM server actions</b><ol id="ol_qtv_pms_t4b">
+               <li>
+                  <p>Add _id=&lt;number&gt; identifier to license files, just before the _ck=xxxxxxx string:</p>
+                  <p>……contract=999-9999-9999-8888 options="LA:xx_XX TY:NFR LE:PRO _id=1 _ck=4b07efdd90….</p>
+                  <p>……contract=999-9999-9999-9999 options="LA:xx_XX TY:NFR LE:LIT _id=2 _ck=4b07efdd90…..</p>
+               </li>
+               <li>
+                  <p>Add RESERVE option for PROJECTs and license IDs to ISV server, for all the seats of the licenses:</p>
+                  <p>RESERVE 5 bricscad PROJECT bc_pro id=1</p>
+                  <p>RESERVE 5 bricscad PROJECT bc_lite id=2</p>
+               </li>
+            </ol></p>
+         <p><b>2. BricsCAD user actions</b><ol id="ol_stv_pms_t4b">
+               <li>Create a script that SETs a temporary environment variable RLM_PROJECT on the user machine, which will allow BricsCAD to negociate with the RLM server the PROJECT license pool.</li>
+               <li>
+                  <p>Executing a specific script will allow BricsCAD to pull the desired license level</p>
+                  <p>It can be *.CMD (command prompt) files: <ul id="ul_ttv_pms_t4b">
+                        <li>
+                           <p>@echo off</p>
+                           <p>set RLM_PROJECT=bc_lite</p>
+                           <p>call "C:\Program Files\Bricsys\BricsCAD V21 en_US\bricscad.exe"</p>
+                        </li>
+                        <li>
+                           <p>@echo off</p>
+                           <p>set RLM_PROJECT=bc_pro</p>
+                           <p>call "C:\Program Files\Bricsys\BricsCAD V21 en_US\bricscad.exe"</p>
+                        </li>
+                        <li>
+                           <p>or *.PS1 (powershell) files:</p>
+                           <p>$env:RLM_PROJECT = "bc_pro"</p>
+                           <p>Start-Process -FilePath "C:\Program Files\Bricsys\BricsCAD V21 en_US\bricscad.exe"</p>
+                        </li>
+                        <li>
+                           <p>$env:RLM_PROJECT = "bc_lite"</p>
+                           <p>Start-Process -FilePath "C:\Program Files\Bricsys\BricsCAD V21 en_US\bricscad.exe"</p>
+                        </li>
+                     </ul></p>
+               </li>
+            </ol></p>
+         <p>Since all license seats are RESERVED in the RLM options, <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> will not be able to acquire a
+            license when the RLM_PROJECT variable does not exist, or when it has a value which does
+            not match the ISV server options.</p>
+         <p>Raising the available seats above 5 or lowering the RESERVE count below 5 would let some licenses be available freely.</p>
+         <p>The RLM_PROJECT also works with the other (EXCLUDE/INCLUDE/…) options so a lot of configurations are possible.</p>
+      </section>
+   </conbody>
+</concept>

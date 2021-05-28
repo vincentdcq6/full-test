@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="choosing_the_workspace">
+   <title>Choosing the workspace</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>Default workspaces are:<ul id="ul_nfn_q1x_smb">
+            <li><uicontrol>Drafting</uicontrol>: uses the ribbon.</li>
+            <li><uicontrol>Drafting (toolbars)</uicontrol>: uses menus and toolbars.</li>
+            <li><uicontrol>Modeling</uicontrol>: requires a <b conkeyref="product_names_warehouse/b_umt_wl2_1nb" /> or higher license level; uses
+               the ribbon.</li>
+            <li><uicontrol>Modeling (toolbars)</uicontrol>: requires a <b conkeyref="product_names_warehouse/b_umt_wl2_1nb" /> or higher license level; uses
+               menus and toolbars.</li>
+            <li><uicontrol>Mechanical</uicontrol>: requires a <b conkeyref="product_names_warehouse/b_erh_bm2_1nb" /> or <b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" /> license level.</li>
+            <li><uicontrol>BIM</uicontrol>: requires a <b conkeyref="product_names_warehouse/b_vtd_bm2_1nb" /> or <b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" /> license level.</li>
+         </ul></p>
+      <p>The current workspace configures the overall layout of the <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> application window.</p>
+      <p>A workspace defines the content of:</p>
+      <ul id="ul_ofn_q1x_smb">
+         <li>Menus</li>
+         <li>Toolbars</li>
+         <li>Panels</li>
+         <li>The ribbon</li>
+         <li>The Quad basics</li>
+      </ul>
+      <p>You can set the current workspace in:<ul id="ul_pfn_q1x_smb">
+         <li>The BricsCAD Launcher.</li>
+            <li>The Current Workspace field in the Status bar.</li>
+            <li>The Workspaces toolbar.</li>
+            <li>The WORKSPACE command.</li>
+         </ul></p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_workspace" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006564754" format="html" scope="external"><linktext>Customize the user interface of BricsCAD</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006439214-Workspaces" format="html" scope="external"><linktext>Workspaces</linktext></link>-->
+         <link keyref="GD_menus" />
+         <link keyref="GD_toolbars" />
+         <link keyref="GD_panels" />
+         <link keyref="GD_the_ribbon" />
+         <link keyref="GD_the_quad_basics" />
+         <link keyref="GD_the_bricscad_launcher" />
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360015517219-The-Status-Bar" format="html" scope="external"><linktext>Status bar</linktext></link>-->
+      </linklist>
+   </related-links>
+</concept>
+
+

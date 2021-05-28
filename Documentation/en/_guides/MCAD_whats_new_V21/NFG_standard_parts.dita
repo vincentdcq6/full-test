@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A321476A-A3A2C7D-B753D224C7D2152-752AA7">
+   <title>Standard parts</title>
+   <shortdesc><!--TBA--></shortdesc>
+
+   <conbody>
+      <p>Constraints are now automatically restored after changing the parameters of a standard part.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_addplotstyletable">
+    <title>Add plot style table dialog box</title>
+    <shortdesc>The Add Plot Style Table Dialog Box allows you to create new plot styles.</shortdesc>
+    <conbody>
+        <p>If the drawing uses named plot styles, the wizard creates a new named plot style table
+            (STB file). If the current drawing does not use named plot styles, the wizard creates a
+            new color-dependent table (CTB file). </p>
+        <p>It includes 3 areas.</p>
+        <fig id="fig_kh3_fc3_qpb">
+            <image scope="external" id="image_rxr_b23_qpb" href="https://static.bricsys.com/help/en_US/DB_addplotstyletable_01_V21.png" />
+            <ol id="ol_pmt_fc3_qpb">
+                <li>Table name</li>
+                <li>Launch Editor</li>
+                <li>Use this Plotstyle for the current drawing</li>
+            </ol>
+        </fig>
+        <section id="section_g12_hc3_qpb">
+            <title>Table name</title>
+            <p>Enter the name you want to give to the plot style table.</p>
+        </section>
+        <section id="section_rv4_hc3_qpb">
+            <title>Launch Editor</title>
+            <p>Opens the Plot style table editor dialog box after you enter the name and press the
+                OK button.</p>
+        </section>
+        <section id="section_kcs_hc3_qpb">
+            <title>Use this Plotstyle for the current drawing</title>
+            <p>If you do not check the Launch Editor option, it saves and sets the table name you
+                have entered as current plot style table in the current layout.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_print" />
+            <link keyref="CMD_plot" />
+            <link keyref="CMD_qprint" />
+            <link keyref="CMD_stylesmanager" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="DB_plotstyletableeditor" />
+        </linklist>
+    </related-links>
+</concept>

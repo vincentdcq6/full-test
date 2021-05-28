@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CM_parametersmenu">
+    <title>Parameters menu</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <div id="div_vgm_r1l_mpb">
+            <p><!--description TBA--></p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Units</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Geometry-driven</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Create design table</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Animate</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Show dependent parameters</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Show defining parameters</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Exposed</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Off</dt>
+                        <dd outputclass="indent1" />
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">On</dt>
+                        <dd outputclass="indent1" />
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Reset</dt>
+                        <dd outputclass="indent1" />
+                    </dlentry>
+                    <dlentry>
+                        <dt>New</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Delete</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Clean unused variables</dt>
+                        <dd />
+                    </dlentry>
+                </dl>
+            </p>
+        </div>
+    </conbody>
+</concept>

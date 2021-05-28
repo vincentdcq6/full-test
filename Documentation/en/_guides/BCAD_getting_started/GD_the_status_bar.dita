@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="the_status_bar">
+   <title>The status bar</title>
+   <shortdesc>The status bar is located at the bottom of the drawing area.</shortdesc>
+   <conbody>
+      <p>
+         <ul id="ul_f5g_3hx_smb">
+            <li>It shows tool tips when you hover over a tool button on the status bar.</li>
+            <li>It allows to enter command names and prompts command options when the command window
+               is closed.</li>
+            <li>It displays the current state of entity settings: layer, color, line style... and
+               allows to edit these settings.<note>These are turned off in any workspace by
+                  default.</note></li>
+            <li>It displays the current dim style and text style and allows to set them.</li>
+            <li>It displays the current state of drawing aids, such as entity snap, and allows to
+               toggle them on/off.</li>
+            <li>...</li>
+         </ul>
+      </p>
+      <p>Click the small black down arrow at the right side of the status bar to manage the display of the fields.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Information</title>
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006812433-The-BricsCAD-Application-Window#open-close-the-status-bar" format="html" scope="external"><linktext>Open/close the status bar</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006812433-The-BricsCAD-Application-Window#working-with-the-status-bar" format="html" scope="external"><linktext>Working in the status bar</linktext></link>-->
+      </linklist>
+   </related-links>
+</concept>
+

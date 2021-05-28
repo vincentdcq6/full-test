@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_draftqualitydrawingviews">
+    <title>Draft-quality drawing views</title>
+    <conbody>
+        <p>By default, BricsCAD generates precise (high-quality) drawing views for any 3D model. The
+            edges of such views (including silhouette edges) are represented by 2D entities; lines,
+            circles, arcs and splines. The generation of precise views for a large number of 3D
+            entities can take a significant amount of time. This is because every silhouette edge
+            must be approximated with an analytical 2D curve.</p>
+        <p>You can reduce the time needed to generate drawing views by changing the
+                <varname>DRAWINGVIEWQUALITY</varname> setting to <varname>0</varname>. This enables
+            draft-quality drawing views. Such drawing views are internally represented as 3D solids,
+            which makes it impossible to put annotations on their silhouette edges. However, they
+            look very similar to a precise (high-quality) drawing view and you can use them to
+            quickly create layouts. </p>
+        <p>A draft-quality drawing view can be switched to a high-quality drawing view using its
+                <varname>Geometry</varname> property (change it from <varname>Draft</varname> to
+                <varname>2D</varname>).</p>
+    </conbody>
+</concept>

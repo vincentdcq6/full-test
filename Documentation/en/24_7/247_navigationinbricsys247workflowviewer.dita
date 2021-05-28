@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_navigation_in_bricsys_24_7_workflow_viewer">
+    <title>Navigation in Bricsys 24/7 Workflow Viewer</title>
+    <conbody>
+        <p>
+            <fig id="fig_pnx_rvg_z4b">
+                <title>Navigation in Bricsys 24/7 Workflow Viewer</title>
+                <image href="../IMAGES_temp/navigation_in_Bricsys_24_7_workflow_viewer.PNG" id="image_qnx_rvg_z4b" width="150mm" scope="external" />
+            </fig>
+        </p>
+        <p>The Bricsys 24/7 Workflow Viewer contains:<ol id="ol_syb_rxg_z4b">
+                <li>Menu bar</li>
+                <li>Toolbar</li>
+                <li>Grid</li>
+            </ol></p>
+        <p>The menu bar contains:<table frame="all" rowsep="1" colsep="1" id="table_tpy_pzg_z4b">
+                <title>Bricsys 24/7Workflow Viewer menu bar</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="1*" />
+                    <colspec colname="newCol3" colnum="3" colwidth="1*" />
+                    <thead>
+                        <row>
+                            <entry>Icon</entry>
+                            <entry>Description</entry>
+                            <entry>Keyboard shortcut</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><image href="../IMAGES_temp/save_in_workflow_viewer.PNG" id="image_ajf_k2h_z4b" scope="external" /></entry>
+                            <entry>Save</entry>
+                            <entry />
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/undo_all_in_workflow_viewer.PNG" id="image_myx_qfh_z4b" scope="external" /></entry>
+                            <entry>Undo all</entry>
+                            <entry />
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/refresh_in_workflow_viewer.PNG" id="image_ldf_kgh_z4b" scope="external" /></entry>
+                            <entry>Refresh</entry>
+                            <entry />
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/zoom_in_workflow_viewer.PNG" id="image_hzl_xhh_z4b" scope="external" /></entry>
+                            <entry>Zoom in</entry>
+                            <entry>I, +</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/zoom_out_workflow_viewer.PNG" id="image_dlc_b3h_z4b" scope="external" /></entry>
+                            <entry>Zoom out</entry>
+                            <entry>O, -</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/fit_width_workflow_viewer.PNG" id="image_njy_k3h_z4b" scope="external" /></entry>
+                            <entry>Fit width</entry>
+                            <entry>W</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/fit_heigth_in_workflow_viewer.PNG" id="image_hz4_wkh_z4b" scope="external" /></entry>
+                            <entry>Fit height</entry>
+                            <entry>0</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/fit_page_workflow_viewer.PNG" id="image_azp_1lh_z4b" scope="external" /></entry>
+                            <entry>Fit page</entry>
+                            <entry>F</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/grid_in_workflow_viewer.PNG" id="image_kcr_kmh_z4b" scope="external" /></entry>
+                            <entry>Grid</entry>
+                            <entry>G</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/help_in_workflow_viewer.PNG" id="image_esd_4mh_z4b" scope="external" /></entry>
+                            <entry>Help</entry>
+                            <entry>H</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        <p>The toolbar contains:<table frame="all" rowsep="1" colsep="1" id="table_kzm_szg_z4b">
+                <title>Bricsys 24/7Workflow Viewer toolbar</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="1*" />
+                    <colspec colname="newCol3" colnum="3" colwidth="1*" />
+                    <thead>
+                        <row>
+                            <entry>Icon</entry>
+                            <entry>Description</entry>
+                            <entry>Keyboard shortcut</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><image href="../IMAGES_temp/add_activity_workflow_viewer.PNG" id="image_afq_vmh_z4b" scope="external" /></entry>
+                            <entry>Add activity</entry>
+                            <entry>Enter</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/add_transition_in_workflow_viewer.PNG" id="image_n5n_wph_z4b" scope="external" /></entry>
+                            <entry>Add transition</entry>
+                            <entry />
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/insert_transition_point_in_workflow_viewer.PNG" id="image_ohl_bqh_z4b" scope="external" /></entry>
+                            <entry>Insert transition point</entry>
+                            <entry />
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/start_parallel_paths_in_workflow_viewer.PNG" id="image_k53_yqh_z4b" scope="external" /></entry>
+                            <entry>Start parallel paths</entry>
+                            <entry />
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/synchronize_parallel_paths_in_workflow_viewer.PNG" id="image_s4r_hrh_z4b" scope="external" /></entry>
+                            <entry>Synchronize parallel paths</entry>
+                            <entry />
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/edit_in_workflow_viewer.PNG" id="image_fm3_4rh_z4b" scope="external" /></entry>
+                            <entry>Edit</entry>
+                            <entry>E</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/move_in_workflow_viewer.PNG" id="image_vsx_dth_z4b" scope="external" /></entry>
+                            <entry>Move</entry>
+                            <entry>M</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../IMAGES_temp/erase_in_workflow_viewer.PNG" id="image_d4q_gth_z4b" scope="external" /></entry>
+                            <entry>Erase</entry>
+                            <entry>Del</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+    </conbody>
+</concept>

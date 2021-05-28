@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_administrators">
+    <title>Administrators</title>
+    <conbody>
+        <p>Manage the project administrators and define the categories a project administrator has
+            access to.<note type="important">The project owner always has access to all
+                categories.</note></p>
+    </conbody>
+</concept>

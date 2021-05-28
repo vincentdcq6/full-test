@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_search_for_a_project">
+    <title>Search for a project</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click on the arrow icon <image href="../IMAGES_temp/V_next_to_project_name.PNG" id="image_kwz_dcv_w4b" scope="external" /> next to the selected project in the project
+                    bar.</cmd>
+                <stepresult>A window pops up.<div>
+                        <fig id="fig_mfd_c3h_dpb">
+                            <title>Example of a search for a project</title>
+                            <image href="../IMAGES_temp/search_for_a_project.PNG" id="image_nfd_c3h_dpb" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Click on <uicontrol>Project list</uicontrol>
+                    <image href="../IMAGES_temp/project_list_icon.PNG" id="image_cmt_qlv_w4b" scope="external" />.</cmd>
+                <stepresult>A list of all your projects appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select a project in the list to open the project.</cmd>
+                <info>
+                    <p>
+                        <note>You can open only one project at the same time.</note>
+                    </p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

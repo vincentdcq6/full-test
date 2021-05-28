@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_library_panel">
+   <title>Library panel</title>
+   <shortdesc>The Library panel offers a central location to access 2D and 3D block libraries. </shortdesc>
+   <conbody id="conbody_wr3_wt4_znb">
+      <p>It includes 6 areas.</p>
+      <fig id="fig_ydk_txm_dpb">
+         <image href="https://static.bricsys.com/help/en_US/PNL_Library_01_V21.png" id="image_jmg_gb3_znb" scope="external" />
+         <ol id="ol_krg_jld_f4b">
+            <li>Block library</li>
+            <li>Search</li>
+            <li>Menu</li>
+            <li>View</li>
+            <li>Home</li>
+            <li>Add</li>
+         </ol>
+      </fig>
+      <section id="section_ujy_dz1_g4b">
+         <title>Block library</title>
+         <p>The block library is organized by categories. Select a category to view its blocks.
+            Categories and blocks may be user-defined or pre-defined by BricsCAD. You can scroll
+            through the categories and blocks using the mouse wheel or the scroll bar. The
+            availability of pre-defined blocks depends on your license level.</p>
+         <p>
+            <fig id="fig_rgj_cmd_f4b">
+               <image href="https://static.bricsys.com/help/en_US/PNL_Library_02_V21.png" scope="external" id="image_ks1_4d3_znb" />
+            </fig>
+         </p>
+      </section>
+      <section id="section_bjl_r2w_gpb">
+         <title>Menu</title>
+         <div conkeyref="CM_librarypanelmenu/div_krm_zrs_1pb" />
+      </section>
+      <section id="section_emy_dz1_g4b">
+         <title>Search</title>
+         <p>Searches the library for words you enter in the search box.</p>
+      </section>
+      <section id="section_fmy_dz1_g4b">
+         <title>View</title>
+         <p>Toggles between grid and list views of the block content.</p>
+      </section>
+      <section id="section_gmy_dz1_g4b">
+         <title>Home</title>
+         <p>Returns the block library to the home screen.</p>
+      </section>
+      <section id="section_hmy_dz1_g4b">
+         <title>Add</title>
+         <p>Opens the Add Block to Library dialog box.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_librarypanelclose" />
+         <link keyref="CMD_librarypanelopen" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="UI_panels" />
+         <link keyref="DB_addblocktolibrary" />
+      </linklist>
+   </related-links>
+</concept>

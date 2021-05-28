@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_3dpoly">
+   <title>3DPOLY command</title>
+   <shortdesc>Creates a 3D polyline.</shortdesc>
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V19/Common/command-reference-all.png" id="image_grw_xxf_ynb" scope="external" outputclass="icon" />
+      </fig>
+      <fig id="fig_ffx_yxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V19/Common/3dpoly.png" id="image_tyn_zxf_ynb" scope="external" outputclass="icon" />
+      </fig>
+      <p>Alias: 3P</p>
+      <p>
+         <fig id="fig_dc5_wbf_ynb">
+            <image href="https://static.bricsys.com/help/en_US/CMD_3DPOLY_01_V21.png" id="image_ld3_xbf_ynb" scope="external" />
+         </fig>
+      </p>
+      <p id="p_mcv_pj1_xmb">Create a single 3D polyline entity with multiple line segments by specifying the start and end point of each segment. Options allow you to undo and close the geometry.</p>
+      <section id="section_axm_vh2_ynb">
+         <title>Methods to create a 3D polyline</title>
+         <p id="p_h1l_rj1_xmb">There are three methods to begin creating a 3D polyline:<ul id="ul_tl2_sj1_xmb">
+               <li>Start of polyline</li>
+               <li>Last point</li>
+               <li>Follow</li>
+            </ul></p>
+         <p>You can continue adding unlimited segments until you press Enter to end the command.</p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Start of polyline</dt>
+                  <dd id="dd_e44_wj1_xmb">Begin creating a 3D polyline by specifying a start point then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Set next point</dt>
+                  <dd outputclass="indent1">Specify the next vertex of the polyline.</dd>
+                  <dd outputclass="indent1">Additional options: [Close/Undo]</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Last point</dt>
+                  <dd>Begin creating a 3D polyline from the last point picked then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Next point</dt>
+                  <dd outputclass="indent1">Specify the next vertex of the polyline.</dd>
+                  <dd outputclass="indent1">Additional options: [Close/Undo]</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Follow</dt>
+                  <dd>Begin creating a 3D polyline from the last drawn arc or line segment, following its angle, then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Next point</dt>
+                  <dd outputclass="indent1">Specify the length of the segment. Picking a point only determines the length since the angle follows the last segment.</dd>
+                  <dd outputclass="indent1">Additional options: [Close/Undo]</dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <fig id="fig_qcn_3lf_ynb">
+               <image href="https://static.bricsys.com/help/en_US/CMD_3DPOLY_02_V21.png" id="image_rcn_3lf_ynb" scope="external" />
+            </fig>
+         </p>
+      </section>
+      <section id="section_nwr_vh2_ynb">
+         <title>Options within the 3DPOLY command</title>
+         <p>After you begin creating a 3D polyline, the following options may be available:</p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Undo</dt>
+                  <dd>Undo the last 3D polyline segment and continue drawing from its previous start point. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Close</dt>
+                  <dd>Automatically draw a 3D polyline segment from the end point of the last segment to the start point of the first segment. This ends the command.</dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <fig id="fig_icw_nlf_ynb">
+               <image href="https://static.bricsys.com/help/en_US/CMD_3DPOLY_03_V21.png" id="image_jcw_nlf_ynb" scope="external" />
+            </fig>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Information</title>
+         <!--TBA-->
+      </linklist>
+   </related-links>
+</concept>

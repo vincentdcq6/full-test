@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dimsah" xml:lang="en-US">
+   <title id="title__Toc50995009">DIMSAH system variable</title>
+   <conbody>
+      <section><title>Arrowheads</title><p>Specifies whether dimension line arrowhead blocks are set by DIMBLK or by DIMBLK1 and DIMBLK2. If=0: use the same block for the first and the second arrowhead. The arrowhead block is then defined by DIMBLK. If=1: use different blocks for the first and the second arrowhead. The arrowhead blocks are defined by DIMBLK1 and DIMBLK2</p><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/boolean" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>0</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Arrowhead blocks set by DIMBLK</p>
+                           <p>On (1): Arrowhead blocks set by DIMBLK1 and DIMBLK2</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

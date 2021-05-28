@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_saveall">
+   <title>SAVEALL command</title>
+   <shortdesc><!--add short desc-->.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p><!--add info-->The dialog is displayed for each open drawing that has been modified since the previous save.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_freeformmodeling">
+    <title>Freeform Surface Modeling</title>
+    <conbody>
+        <p>Add complex distortions to your solid or surface models by using BricsCAD Mechanical
+            deform tools. You can create smooth, or organic shapes. Deform your solids and surfaces
+            by moving, rotating and twisting their edges to change the geometry independently with
+            no design history.</p>
+        <p>History-free approach allows you to focus on your design, instead of thinking about how
+            it can be changed in the future.</p>
+        <p>
+            <fig id="fig_hqy_q5s_kpb">
+                <title>Freeform Surface Modeling</title>
+                <image href="https://static.bricsys.com/help/en_US/V19/Mechanical/FreeformModeling.png" id="image_iqy_q5s_kpb" scope="external" width="120mm" />
+            </fig>
+        </p>
+    </conbody>
+</concept>

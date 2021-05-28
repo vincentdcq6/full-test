@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_vslide">
+   <title>VSLIDE command</title>
+   <shortdesc>Opens the View Snapshot Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_viewsnaptshot" /> to select an sld, slb, emf, or wmf file to view
+         in the current viewport. You can use the REDRAW command to removew the slide.</p>
+   </conbody>
+</concept>

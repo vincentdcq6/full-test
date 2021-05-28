@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="product_names">
+   <title>Product names</title>
+   <shortdesc />
+   <conbody>
+      <table>
+         <title>BricsCAD</title>
+         <tgroup cols="1">
+            <colspec colname="c1" colnum="1" colwidth="1*" />
+            <tbody>
+               <row>
+                  <entry><b id="b_lhg_1q1_cnb">BricsCAD<tm tmtype="reg" /></b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_hkm_wl2_1nb">BricsCAD<tm tmtype="reg" /> Lite</b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_umt_wl2_1nb">BricsCAD<tm tmtype="reg" /> Pro</b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_vtd_bm2_1nb">BricsCAD<tm tmtype="reg" /> BIM</b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_erh_bm2_1nb">BricsCAD<tm tmtype="reg" /> Mechanical</b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_kyk_bm2_1nb">BricsCAD<tm tmtype="reg" /> Ultimate</b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_eyq_bm2_1nb">Bricsys 24/7</b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_dlt_bm2_1nb">Bricsys 24/7 for BricsCAD</b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_czf_4n2_1nb">BricsCAD<tm tmtype="reg" /> Shape</b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_wl1_bq1_cnb">Communicator for BricsCAD<tm tmtype="reg" /></b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_x54_ddd_cnb">Bricsys Network License Manager</b></entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table>
+         <title>AutoCAD</title>
+         <tgroup cols="1">
+            <colspec colname="c1" colnum="1" colwidth="1*" />
+            <tbody>
+               <row>
+                  <entry><b id="b_erz_gtb_cnb">AutoCAD LT<tm tmtype="reg" /></b></entry>
+               </row>
+               <row>
+                  <entry><b id="b_dcm_4xb_2nb">AutoCAD<tm tmtype="reg" /></b></entry>
+               </row>
+               <row>
+                  <entry />
+               </row>
+               <row>
+                  <entry />
+               </row>
+               <row>
+                  <entry />
+               </row>
+               <row>
+                  <entry />
+               </row>
+               <row>
+                  <entry />
+               </row>
+               <row>
+                  <entry />
+               </row>
+               <row>
+                  <entry />
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </conbody>
+</concept>

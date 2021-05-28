@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_create_a_snapshot">
+    <title>Create a snapshot</title>
+    <taskbody>
+        <context>
+            <p>You can create a snapshot to backup the current state of access rights.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_lps_hwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Project setup</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Create snapshot</uicontrol>
+                    <image href="../IMAGES_temp/create_snapshot_button.PNG" id="image_mxy_krn_dpb" scope="external" />
+                    at the top of the content pane.</cmd>
+                <stepresult>The <wintitle>Create snapshot</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Enter a snapshot name.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add snapshot</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_m3j_trn_dpb">A pop up window informs you that the snapshot is
+            created.</result>
+    </taskbody>
+</task>

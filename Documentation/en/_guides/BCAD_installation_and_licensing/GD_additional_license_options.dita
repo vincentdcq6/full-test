@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="additional_license_options">
+   <title>Additional license options</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>Additional license options include academic, single-user, network, and volume licensing.</p>
+      <section id="section_ich_twg_smb">
+         <title>Academic license</title>
+         <p>Students, faculties, instructors, and educational institutions have free access to all
+            BricsCAD software for 12 months. You can renew it yearly with a current student ID.
+            Register as a student or school/teacher with your academic information.</p>
+      </section>
+      <section id="section_kch_twg_smb">
+         <title>Single-user-license</title>
+         <p>The single-user-license agreement is for a single user. Each single-user-license allows 2 activations. You can install it on 2 machines, for example on a workstation in the office and on a laptop in the field. However, only 1 license can be in use at once. Single-user-licensing is available for perpetual or rental licensing. Academic licenses are always single-user-licenses.</p>
+      </section>
+      <section id="section_lch_twg_smb">
+         <title>Network license</title>
+         <p>The network licensing agreement enables multiple users to access <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> within a LAN (Local Area Network). The number of available network licenses defines the number of users who can concurrently use the software. The network license option is available for perpetual or rental licensing and includes a 1-year maintenance contract. Network licensing is also available to institutions that use an academic license.</p>
+      </section>
+      <section id="section_mch_twg_smb">
+         <title>Volume license</title>
+         <p>The volume licensing agreement allows you to use <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> within a defined user base. You can install the software using a single license key valid for every user. The volume license option is available for perpetual or rental licensing and includes a 1-year maintenance contract. It is default for institutional academic licenses.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_feature_comparison" />
+         <link keyref="GD_activate_a_single_or_volume_license_automatically_online" />
+         <link keyref="GD_activate_a_single_or_volume_license_manually_offline" />
+         <link keyref="GD_activate_a_trial_license_automatically_online" />
+         <link keyref="GD_activate_a_trial_license_manually_offline" />
+         <link keyref="GD_to_use_a_network_license_on_a_client_computer" />
+         <link keyref="GD_to_roam_a_network_license_on_a_client_computer" />
+         <link keyref="GD_to_return_a_roamed_network_license_to_the_server" />
+      </linklist>
+   </related-links>
+</concept>
+

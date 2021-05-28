@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gcsmooth">
+   <title>GCSMOOTH command</title>
+   <shortdesc>Creates a smooth geometric constraint on 2D entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a smooth constraint to ensure two splines maintain fluid geometric continuity between them.  </p>
+      <section id="section_pcw_2pc_x4b">
+         <title>Methods to create a smooth constraint</title>
+         <p>There is one method to begin creating a smooth constraint:<ul id="ul_zh5_dpc_x4b">
+               <li>Select first spline entity</li>
+            </ul></p>
+         <dl>
+            <dlentry>
+               <dt>Select first spline curve  </dt>
+               <dd>Begin creating a smooth constraint by selecting a spline curve then: </dd>
+            </dlentry>
+            <dlentry>
+               <dt outputclass="indent1">Select second curve</dt>
+               <dd outputclass="indent1">Select a second spline entity. The first spline maintains its position while the second spline stretches, as necessary, to smoothly connect to the first spline.</dd>
+            </dlentry>
+         </dl>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

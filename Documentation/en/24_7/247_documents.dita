@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_documents">
+    <title>Documents</title>
+    <conbody>
+        <p>The <uicontrol>Documents</uicontrol>
+            <image href="../IMAGES_temp/documents_icon.PNG" id="image_az2_vg2_fpb" scope="external" /> section displays
+            the statuses and details of all items in a project.</p>
+    </conbody>
+</concept>

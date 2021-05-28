@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dgnimpconvertdgncolorindicestotruecolors" xml:lang="en-US">
+   <title id="title__Toc50995093">DGNIMPCONVERTDGNCOLORINDICESTOTRUECOLORS system variable</title>
+   <conbody>
+      <section><title>Convert DGN color indices to true colors</title><p>Specifies how Microstation colors are mapped to BricsCAD colors. Microstation assigns color numbers to colors that are different from BricsCAD. If on, then BricsCAD converts dgn color indexes to RGB true colors. Otherwise it tries to convert dgn color indices to dwg color indices. BricsCAD gets the color from the dgn color table and tries to find the same color in dwg color table. If it is not possible, then the color will be saved as an RGB true color to the dwg file.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/boolean" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p conkeyref="system_variable_warehouse/off" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Convert DGN color indices to DWG color indices</p>
+                           <p>On (1): Convert DGN color indices to RGB true colors</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

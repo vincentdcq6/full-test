@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_set_up_a_workflow">
+    <title>Set up a workflow</title>
+    <conbody>
+        <p>This chapter informs you how to create a workflow in the Workflow Viewer, edit it,
+            release it, and attach it to a document or a folder if you want to start a workflow
+            automatically when a new document is uploaded.</p>
+    </conbody>
+</concept>

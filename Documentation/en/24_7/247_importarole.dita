@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_import_a_role">
+    <title>Import a role</title>
+    <taskbody>
+        <context>
+            <p>You can import a role from another project:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_lps_hwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Roles</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Import role</uicontrol>
+                    <image href="../IMAGES_temp/import_role_button.PNG" id="image_hcv_r1m_dpb" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Import role</wintitle> window appears.<div>
+                        <fig id="fig_hlk_1cm_dpb">
+                            <title>Import role</title>
+                            <image href="../IMAGES_temp/import_role_window.PNG" id="image_ilk_1cm_dpb" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Enter the name of an existing role in another project.</cmd>
+                <stepresult>The roles appear.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the role you want to import.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, enable <uicontrol>Import members</uicontrol> to import members
+                    with the role.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Import</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_v12_x2n_dpb">A pop up window informs you that the role is successfully
+            imported.</result>
+        <postreq id="postreq_mcx_42m_dpb">
+            <note>Folder access rights are not copied while importing a role/member.</note>
+        </postreq>
+    </taskbody>
+</task>

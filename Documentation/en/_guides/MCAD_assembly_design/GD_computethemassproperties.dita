@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_computethemassproperties">
+    <title>Compute the mass properties</title>
+    <conbody>
+        <p>Use command: <cmdname>BmMassProp</cmdname>.</p>
+        <p>You can compute mass properties for the entire model or for a selection of 3D solids
+            and/or subcomponents. The values of mass, volume, centroid, moments of inertia, products
+            of inertia, radii of gyration, principal moments, and X-Y-Z directions about centroid
+            are reported in the command bar.</p>
+        <p>Optionally you can align the User Coordinate System with the inertia axes. As a result,
+            the center of mass or centroid of the component lies at the origin of UCS, which can be
+            useful to investigate the behavior of a product under gravity force.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

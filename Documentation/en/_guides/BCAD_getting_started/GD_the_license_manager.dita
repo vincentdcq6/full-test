@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="the_license_manager">
+   <title>The License Manager</title>
+   <shortdesc>The LICENSEMANAGER command summarizes your <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> licenses in a dialog box.</shortdesc>
+   <conbody>
+      <p />
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_licensemanager" />
+      </linklist>
+   </related-links>
+</concept>

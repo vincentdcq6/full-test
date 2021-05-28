@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_keyboard_shortcut_overview">
+    <title>Keyboard shortcut overview</title>
+    <conbody>
+        <p>Keyboard shortcuts that you can use in the content pane:<table frame="all" rowsep="1" colsep="1" id="table_zsr_nyh_x4b">
+                <title>Keyboard shortcut overview</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="2.23*" />
+                    <thead>
+                        <row>
+                            <entry>Keyboard shortcut</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Ctrl + A</entry>
+                            <entry morerows="1">Click on the content pane, and use <userinput>Ctrl +
+                                    A</userinput> to select all items in a window.</entry>
+                        </row>
+                        <row>
+                            <entry>Command + A</entry>
+                        </row>
+                        <row>
+                            <entry>Shift + click</entry>
+                            <entry>Click on a checkbox in a list, hold down the Shift key, and
+                                select a second checkbox. The checkboxes that are between the 2
+                                checkboxes will also be selected.</entry>
+                        </row>
+                        <row>
+                            <entry>Esc</entry>
+                            <entry>Deselect all selected items in a window.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+    </conbody>
+</concept>

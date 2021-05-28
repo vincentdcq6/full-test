@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_recscript">
+   <title>RECSCRIPT command</title>
+   <shortdesc>Opens the Record Script Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_recordscript" /> to save data from the current drawing to an scr
+         file. After choosing Save in the Dialog Box, the commands and pick point you specify in the
+         drawing editor are recorded in the scr file until you run the <xref keyref="CMD_stopscript" />.</p>
+   </conbody>
+</concept>

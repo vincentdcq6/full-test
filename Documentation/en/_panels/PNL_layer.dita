@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_layer">
+    <title>Layers panel</title>
+    <shortdesc>The Layers panel allows you to edit layer names and properties in the current
+        drawing, as well as create, delete, edit, apply layers, layers states and layer
+        filters.</shortdesc>
+    <conbody>
+        <p>It includes 11 areas.</p>
+        <fig id="fig_okt_h4l_dpb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_Layer_01_V21.png" id="image_yp3_53v_gpb" scope="external" outputclass="big" />
+            <ol id="ol_ivl_dgv_gpb">
+                <li>Layer list</li>
+                <li>New layer</li>
+                <li>Delete</li>
+                <li>Purge</li>
+                <li>Settings</li>
+                <li>Search</li>
+                <li>Layer States Explorer</li>
+                <li>Layer State Control</li>
+                <li>Layers Explorer</li>
+                <li>Filter used</li>
+                <li>Invert filter</li>
+            </ol>
+        </fig>
+        <section id="section_tcf_w3v_gpb">
+            <title>Layer list</title>
+            <p>Displays a list of layers and their properties. The list may include all layers in
+                the current drawing or a subset of those layers based on selected layer states or
+                filters. Column headers describe the properties of each layer. You may sort the
+                layer list in order or reverse order for any of the properties by clicking once or
+                twice on the column header. A right-click menu on the column headers enables you to
+                customize them. And, a right click menu on the layers offers additional
+                tools.<!--Link to future CM (Contextual Menu) warehouse content?--></p>
+        </section>
+        <section id="section_okj_tqm_dpb">
+            <title>Current</title>
+            <p>Specifies the current working layer. Only one layer can be current at a time.</p>
+        </section>
+        <section id="section_pkj_tqm_dpb">
+            <title>Name</title>
+            <p>Specifies the layer name. To rename a layer, double-click the layer name or select
+                Rename from the right-click menu.</p>
+        </section>
+        <section id="section_qkj_tqm_dpb">
+            <title>Description (optional)</title>
+            <p>Specifies the content or purpose of the layer. To create or edit a description,
+                select one or more layers and then double-click the description field for one of the
+                selected layers. The text you enter is applied to all selected layers.</p>
+        </section>
+        <section id="section_rkj_tqm_dpb">
+            <title>On/Off</title>
+            <p>Specifies the On/Off status of the layers. Entities on layers are turned off are not
+                visible in the drawing. However, they are processed during operations that require a
+                regeneration of the drawing. Turning a layer on and off does not require the drawing
+                to regenerate. Therefore, this toggle is most useful when you want entities on a
+                layer to be hidden for only a short time while you edit the drawing. To change the
+                status, select one or more layers and then click a lightbulb icon for one of the
+                selected layers. The status is applied to all selected layers.</p>
+            <p>To change the status, select one or more layers and then click a light bulb icon:</p>
+            <ul id="ul_i1m_ky4_spb">
+                <li>
+                    <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_on.png" id="image_t1d_rsm_dpb" scope="external" outputclass="icon" />
+                        <uicontrol>On</uicontrol>: Displays entities that are on that layer.</p>
+                </li>
+                <li>
+                    <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_off.png" id="image_rjk_5sm_dpb" scope="external" outputclass="icon" />
+                        <uicontrol>Off</uicontrol>: Hides entities that are on that layer.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="section_ukj_tqm_dpb">
+            <title>Freeze</title>
+            <p>Specifies the Thaw/Freeze status of the layers. Entities on frozen layers are not
+                visible in the drawing and are not processed during operations that require a
+                regeneration of the drawing. This can save processing time if the layer includes
+                many entities. However, the process of freezing and thawing a layer requires the
+                drawing to regenerate. Therefore, this toggle is most useful when you want entities
+                on a layer to be hidden for an extended time while you edit the drawing. To change
+                the status, select one or more layers, and then click a sun/snowflake icon for one
+                of the selected layers. The status is applied to all selected layers.<ul id="ul_hjp_3vm_dpb">
+                    <li>
+                        <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_thaw.png" scope="external" id="image_vyb_ysm_dpb" outputclass="icon" />
+                            <uicontrol>Thaw</uicontrol>: Displays entities that are on that
+                            layer.</p>
+                    </li>
+                    <li>
+                        <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_freeze.png" scope="external" id="image_e1y_ysm_dpb" outputclass="icon" />
+                            <uicontrol>Freeze</uicontrol>: Hides entities that are on that
+                            layer.</p>
+                    </li>
+                </ul></p>
+        </section>
+        <section id="section_xkj_tqm_dpb">
+            <title>Locked</title>
+            <p>Specifies the lock status of the layers. Entities on locked layers cannot be edited.
+                They remain visible; however, they are dimmed based on the LAYLOCKFADECTL System
+                Variable. To change the status, select one or more layers, and then click a padlock
+                icon for one of the selected layers. The status is applied to all selected
+                    layers.<ul id="ul_hfk_jvm_dpb">
+                    <li>
+                        <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_unlock.png" scope="external" id="image_ihy_1tm_dpb" outputclass="icon" />
+                            <uicontrol>Unlocked</uicontrol>: Allows entities on that layer to be
+                            edited.</p>
+                    </li>
+                    <li>
+                        <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_lock.png" scope="external" id="image_jzl_dtm_dpb" outputclass="icon" />
+                            <uicontrol>Locked</uicontrol>: Prevents entities on that layer from
+                            being edited.</p>
+                    </li>
+                </ul></p>
+        </section>
+        <section id="section_alj_tqm_dpb">
+            <title>Color</title>
+            <p>Specifies the color of the layers. To change the color, select one or more layers and
+                then click the current color for one of the selected layers. The Select Color dialog
+                box is displayed. The color you select is applied to all selected layers.</p>
+        </section>
+        <section id="section_blj_tqm_dpb">
+            <title>Linetype</title>
+            <p>Specifies the linetype of the layers. To change the linetype, select one or more
+                layers and then double-click the linetype for one of the selected layers. If the
+                linetype you want is not displayed in the drop-down list, choose Load to display the
+                Load Linetypes dialog box. The linetype you select is applied to all selected
+                layers.</p>
+        </section>
+        <section id="section_clj_tqm_dpb">
+            <title>Lineweight</title>
+            <p>Specifies the Lineweight of the layers. To change the lineweight, select one or more
+                layers and then double-click the lineweight for one of the selected layers. The
+                lineweight you select is applied to all selected layers.</p>
+        </section>
+        <section id="section_dlj_tqm_dpb"><title>Transparency</title>Specifies the transparency of
+            the layers. To change the amount of transparency, select one or more layers and then
+            double-click the transparency for one of the selected layers. You can enter a value
+            between 0 (fully opaque) and 90 (almost fully transparent) or select a predefined value
+            from the drop-down list. The value you specify is applied to all selected
+            layers.</section>
+        <section id="section_hvh_fvv_gpb">The TRANSPARENCYDISPLAY System Variable must be turned on
+            to experience transparency. </section>
+        <section id="section_elj_tqm_dpb"><title>Plot style</title>Specifies the plot style of the
+            layers. If plot style mode (PSTYLEMODE system variable) for the current drawing is set
+            to color dependent plot styles, the layers’ plot styles use the layers’ colors and are
+            read-only. If plot style mode for the current drawing is set to named plot styles, you
+            can change the plot style. To specify a different named plot style, select one or more
+            layers and then click the current plot style for one of the selected layers. The Select
+            Plot Style dialog box is displayed. The plot style you select is applied to all selected
+            layers.</section>
+        <section id="section_flj_tqm_dpb">
+            <title>Plot</title>
+            <p>Specifies the print status of the layers. Entities on No Print layers remain visible
+                in the drawing but are not printed. To change the status, select one or more layers,
+                and then click the printer icon for one of the selected layers. The status is
+                applied to all selected layers.<ul id="ul_glj_tqm_dpb">
+                    <li>
+                        <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_plot.png" scope="external" id="image_zwz_ktm_dpb" outputclass="icon" />
+                            <uicontrol>Print</uicontrol>: Prints the layer.</p>
+                    </li>
+                    <li>
+                        <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_noplot.png" scope="external" id="image_c5b_z5m_dpb" outputclass="icon" />
+                            <uicontrol>No Print</uicontrol>: Does not print the layer.</p>
+                    </li>
+                </ul></p>
+            <p>Some layers created by <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />, such
+                as Defpoints, are set to No Print by default and cannot be changed.</p>
+        </section>
+        <section id="section_jlj_tqm_dpb">
+            <title>New VP</title>
+            <p>Specifies the default Thaw/Freeze status of layers for new layout viewports. To
+                change the status, select one or more layers and then click the sun/snowflake icon
+                for one of the selected layers. The status is applied to all selected layers.<ul id="ul_klj_tqm_dpb">
+                    <li>
+                        <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_thaw.png" scope="external" id="image_pjk_dvm_dpb" outputclass="icon" />
+                            <uicontrol>Thaw</uicontrol>: Displays entities that are on that layer
+                            when a new viewport is created.</p>
+                    </li>
+                    <li>
+                        <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_freeze.png" scope="external" id="image_vhf_2vm_dpb" outputclass="icon" />
+                            <uicontrol>Freeze</uicontrol>: Hides entities that are on that layer
+                            when a new viewport is created.</p>
+                    </li>
+                </ul></p>
+        </section>
+        <section id="section_nlj_tqm_dpb"><title>Material</title>Specifies the material of the
+            layers. To change the material, select one or more layers and then double-click the
+            material for one of the selected layers. The material you select is applied to all
+            selected layouts. If the material you want is not displayed in the drop-down list, you
+            can add it to the current drawing using the MATERIALS command.</section>
+        <section id="section_plj_tqm_dpb">
+            <title>VP Freeze</title>
+            <p>Specifies the Thaw/Freeze status of layers for the current layout tab or viewport.
+                This property is not available from the Model tab and it overrides the model space
+                Thaw/Freeze status. To change the status, select one or more layers and then click
+                the sun/snowflake icon for one of the selected layers. The status is applied to all
+                selected layers.<ul id="ul_f51_qrv_gpb">
+                    <li>
+                        <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_thaw.png" scope="external" id="image_g51_qrv_gpb" outputclass="icon" />
+                            <uicontrol>Thaw</uicontrol>: Displays entities that are on that layer in
+                            the current layout or viewport.</p>
+                    </li>
+                    <li>
+                        <p><image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/toggle_freeze.png" scope="external" id="image_h51_qrv_gpb" outputclass="icon" />
+                            <uicontrol>Freeze</uicontrol>: entities that are on that layer in the
+                            current layout or viewport.</p>
+                    </li>
+                </ul></p>
+        </section>
+        <section id="section_qlj_tqm_dpb">
+            <title>VP Color</title>
+            <p>Specifies the color of layers for the current layout tab or viewport. This property
+                is not available from the Model tab and it overrides the model space color.</p>
+            <p>To change the color, select one or more layers and then click the current vp color
+                for one of the selected layers. The Select Color dialog box is displayed. The color
+                you select is applied to all selected layers.</p>
+        </section>
+        <section id="section_rlj_tqm_dpb">
+            <title>VP Linetype</title>
+            <p>Specifies the linetype of the layers for the current layout tab or viewport. This
+                property is not available from the Model tab and it overrides the model space
+                linetype.</p>
+            <p>To change the linetype, select one or more layers and then double-click the vp
+                linetype for one of the selected layers. If the linetype you want is not displayed
+                in the drop-down list, choose Load to display the Load Linetypes dialog box. The
+                linetype you select is applied to all selected layers. </p>
+        </section>
+        <section id="section_slj_tqm_dpb">
+            <title>VP Lineweight</title>
+            <p>Specifies the Lineweight of the layers for the current layout tab or viewport. This
+                property is not available from the Model tab and it overrides the model space
+                lineweight. </p>
+            <p>To change the lineweight, select one or more layers and then double-click the vp
+                lineweight for one of the selected layers. The lineweight you select is applied to
+                all selected layers. </p>
+        </section>
+        <section id="section_tlj_tqm_dpb">
+            <title>VP Transparency</title>
+            <p>Specifies the transparency of the layers for the current layout tab or viewport. This
+                property is not available from the Model tab and it overrides the model space
+                transparency.</p>
+            <p>To change the amount of transparency, select one or more layers and then double-click
+                the transparency for one of the selected layers. You can enter a value between 0
+                (fully opaque) and 90 (almost fully transparent) or select a predefined value from
+                the drop-down list. The value you specify is applied to all selected layers.</p>
+            <p>The TRANSPARENCYDISPLAY system variable must be turned on to experience transparency.
+            </p>
+        </section>
+        <section id="section_ulj_tqm_dpb">
+            <title>VP Plotstyle</title>
+            <p>Specifies the plot style of the layers for the current layout tab or viewport. This
+                property is not available from the Model tab and it overrides the model space plot
+                style. If plot style mode (PSTYLEMODE system variable) for the current drawing is
+                set to color dependent plot styles, the layers’ plot styles use the layers’ colors
+                and are read-only.</p>
+            <p>If plot style mode for the current drawing is set to named plot styles, you can
+                change the plot style. To specify a different named plot style, select one or more
+                layers and then click the current plot style for one of the selected layers. The
+                Select Plot Style dialog box is displayed. The plot style you select is applied to
+                all selected layers. </p>
+        </section>
+        <section id="section_dkj_tqm_dpb">
+            <title>New layer</title>
+            <p>Creates new layer with the generic name <b>NewLayer1</b>. The new layer that is
+                created copies the properties of the currently selected layer.</p>
+        </section>
+        <section id="section_ekj_tqm_dpb">
+            <title>Delete</title>
+            <p>Deletes layers, except for the layer with the name <b>0</b> and any layer with
+                entities, which cannot be deleted.</p>
+        </section>
+        <section id="section_fkj_tqm_dpb">
+            <title>Purge</title>
+            <p>Purges layers from the current drawing, except for the following ones, which cannot
+                be purged:</p>
+            <ul id="ul_err_wqm_dpb">
+                <li>The layer 0.</li>
+                <li>The current layer.</li>
+                <li>Any layer with entities.</li>
+            </ul>
+        </section>
+        <section id="section_gkj_tqm_dpb">
+            <title>Settings</title>
+            <p>Displays the Layer Settings dialog box.</p>
+        </section>
+        <section id="section_ikj_tqm_dpb">
+            <title>Layer States Explorer</title>
+            <p>Displays the Drawing Explorer dialog box with the Layer States category selected.</p>
+        </section>
+        <section id="section_jkj_tqm_dpb">
+            <title>Layer State Control</title>
+            <p>Displays the current layer state if there are any defined in the drawing. Click the
+                down-arrow button to choose a different layer state.</p>
+        </section>
+        <section id="section_kkj_tqm_dpb">
+            <title>Layers Explorer</title>
+            <p>Displays the Drawing Explorer dialog box with the Layers category selected.</p>
+        </section>
+        <section id="section_lkj_tqm_dpb">
+            <title>Filter used</title>
+            <p>Displays the current layer filter if there are any defined in the drawing. Click the
+                down-arrow button to choose a different layer filter. Some filters are automatically
+                created by BricsCAD: All, All Used Layers.</p>
+        </section>
+        <section id="section_mkj_tqm_dpb">
+            <title>Invert filter</title>
+            <p>Inverts the content of the current filter so that the dialog box displays all layers
+                not included in the filter.</p>
+        </section>
+        <section id="section_hkj_tqm_dpb">
+            <title>Search</title>
+            <p>Allows you to search for specific layer names. The list is shortened to display only
+                the layers that contain the entered sequence of characters, regardless of where they
+                are located in the layer name.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_layer" />
+            <link keyref="CMD_layerspanelopen" />
+            <link keyref="CMD_layerspanelclose" />
+            <link keyref="CMD_layerstate" />
+            <link keyref="CMD_laymcur" />
+            <link keyref="CMD_layfrz" />
+            <link keyref="CMD_laythw" />
+            <link keyref="CMD_layiso" />
+            <link keyref="CMD_laylck" />
+            <link keyref="CMD_layulk" />
+            <link keyref="CMD_layoff" />
+            <link keyref="CMD_layon" />
+            <link keyref="CMD_color" />
+            <link keyref="CMD_linetype" />
+            <link keyref="CMD_lweight" />
+            <link keyref="CMD_materials" />
+            <link keyref="CMD_plotstyle" />
+            <link keyref="CMD_mview" />
+            <link keyref="CMD_-toolpanel" />
+            <link keyref="CMD_wblock" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_laylockfadectl" />
+            <link keyref="SV_pstylemode" />
+            <link keyref="SV_transparencydisplay" />
+        </linklist>
+        <linklist>
+            <title>Related Information</title>
+            <link keyref="UI_panels" />
+            <link keyref="DB_drawingexplorer" />
+            <link keyref="DB_layersettings" />
+            <link keyref="DB_loadlinetypes" />
+            <link keyref="DB_selectcolor" />
+            <link keyref="DB_selectplotstyle" />
+        </linklist>
+    </related-links>
+</concept>

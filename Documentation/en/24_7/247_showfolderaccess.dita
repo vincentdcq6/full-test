@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_show_folder_access">
+    <title>Show folder access</title>
+    <taskbody>
+        <context>
+            <p>You can view the folder access: </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_lps_hwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Roles</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select a role in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Show folder access</uicontrol>
+                    <image href="../IMAGES_temp/show_folder_access_button.PNG" id="image_snm_xjn_dpb" scale="75" scope="external" />.</cmd>
+            </step>
+        </steps>
+        <result id="result_s3w_zjn_dpb">The Project setup content pane displays the permissions by
+            folder for the selected role.<note>For more information about permissions, see <xref keyref="247_editfolderaccess" />.</note></result>
+    </taskbody>
+</task>

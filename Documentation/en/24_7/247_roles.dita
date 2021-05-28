@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_roles">
+    <title>Roles</title>
+    <conbody>
+        <p>View, add, edit, or delete roles.</p>
+        <p>You can categorize specific project members into a role and manage the access rights.</p>
+        <p>Different roles can be set up per project. Typical examples of roles are:<ul id="ul_f55_bpy_2pb">
+                <li>Administrators</li>
+                <li>Architects</li>
+                <li>Engineers</li>
+                <li>Contractors.</li>
+            </ul></p>
+    </conbody>
+</concept>

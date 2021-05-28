@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_Createyourownstandardcomponent">
+    <title>Create your own standard component</title>
+    <conbody>
+        <p>Use command <cmdname>BmCreateComponent</cmdname> to create your own standard parts and
+            add them to Components panel.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

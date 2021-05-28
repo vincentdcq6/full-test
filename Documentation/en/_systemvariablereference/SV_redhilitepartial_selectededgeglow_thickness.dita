@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="redhilitepartial_selectededgeglow_thickness" xml:lang="en-US">
+   <title id="title__Toc50995580">REDHILITEPARTIAL_SELECTEDEDGEGLOW_THICKNESS system variable</title>
+   <conbody>
+      <section><title>Glow thickness</title><p>Specifies the thickness of the glow (in pixels).</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/real" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0.0 to 20.0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>3.0</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p>
+         <p>
+            <fig id="fig_txm_344_nnb">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_redhilitepartialselectededgeglowcolor_01_V21.png" id="image_m2h_grh_p4b" scope="external" />
+               <image href="https://static.bricsys.com/help/en_INTL/SV_redhilitepartialselectededgeglowcolor_02_V21.png" id="image_n5s_sn4_nnb" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

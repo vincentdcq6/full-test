@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="toolbars">
+   <title>Toolbars</title>
+   <shortdesc>Toolbars are used by default in the Drafting (toolbars) and Modeling (toolbars)
+      workspaces, but can be used in any workspace.</shortdesc>
+   <conbody>
+      <p>
+         <ul id="ul_fb5_s2x_smb">
+            <li>You can choose small (16 x 16), large (32 x 32) or extra-large (64 x 64) icons on
+               toolbars.</li>
+            <li>On some tool buttons, a small black arrow at the bottom right corner of the icon
+               indicates a flyout is available. A flyout holds a group of related tools. Press and
+               hold the left mouse button to expand the flyout and choose one of the flyout tools.
+               The tool that was last chosen remains visible in the collapsed toolbar.</li>
+            <li>You can open or close toolbars at any time.</li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="UI_toolbars" />
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006812013-Toolbars#to-set-the-icon-size" format="html" scope="external"><linktext>Setting the toolbar icon size</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006812013-Toolbars#toolbar-flyouts" format="html" scope="external"><linktext>Toolbar flyouts</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006812013-Toolbars#to-tear-off-a-flyout-toolbar" format="html" scope="external"><linktext>To tear off a flyout toolbar</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006812013-Toolbars#opening-a-toolbar" format="html" scope="external"><linktext>Opening a toolbar</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006812013-Toolbars#closing-a-toolbar" format="html" scope="external"><linktext>Closing a toolbar</linktext></link>-->
+         <link keyref="GD_choosing_the_workspace" />
+         <link keyref="GD_the_ribbon" />
+         <link keyref="GD_menus" />
+         <link keyref="GD_the_quad_basics" />
+         <link keyref="GD_the_command_line" />
+         <link keyref="GD_executing_commands" />
+      </linklist>
+   </related-links>
+</concept>

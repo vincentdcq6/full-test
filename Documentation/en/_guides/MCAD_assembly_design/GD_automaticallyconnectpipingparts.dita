@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"[]>
+<topic id="GD_automaticallyconnectpipingparts">
+    <title>Automatically connect piping parts</title>
+    <body>
+        <p>The set of constraints is created automatically using the Smart mode of command
+                <cmdname>BmInsert</cmdname> or the dedicated command <cmdname>BmConnect</cmdname> to
+            connect 2 standard parts.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </body>
+</topic>

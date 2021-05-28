@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_layer">
+   <title>LAYER command</title>
+   <shortdesc>Opens the Layers Panel.</shortdesc>
+   <conbody>
+      <fig id="fig_ykr_bkz_j4b">
+         <image href="https://static.bricsys.com/help/en_US/V21/Common/command-reference-lite-pro-mechanical-bim.png" scope="external" id="image_zkr_bkz_j4b" />
+      </fig>
+      <fig id="fig_alr_bkz_j4b"><!--image icon--></fig>
+      <section id="section_blr_bkz_j4b">
+         <p>Open the <xref keyref="PNL_layer" /> to display it in the current workspace. The Layers
+            Panel appears at the same size and location that it did before it was closed or
+            collapsed. You can move, resize, and stack it with <xref keyref="UI_panels" />.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_layerspanelopen" />
+         <link keyref="CMD_layerspanelclose" />
+      </linklist>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="UI_panels" />
+         <!--Workspaces (link)-->
+      </linklist>
+   </related-links>
+</concept>

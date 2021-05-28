@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_structure">
+    <title>Structure panel</title>
+    <shortdesc>The Structure panel enables you to view and select drawing content from a structured
+        tree.</shortdesc>
+    <conbody>
+        <p>It includes 4 areas.</p>
+        <fig id="fig_cz1_wsv_3pb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_structure_01_V21.png" id="image_k1h_ysv_3pb" scope="external" />
+            <ol id="ol_xjb_1tv_3pb">
+                <li>Menu</li>
+                <li>Configure Structure Tree</li>
+                <li>Search</li>
+                <li>Content tree</li>
+            </ol>
+        </fig>
+        <section id="section_i2s_dtv_3pb">
+            <title>Menu</title>
+            <p>Displays the Structure panel main menu.</p>
+        </section>
+        <section id="section_skh_2tv_3pb">
+            <title>Configure Structure Tree </title>
+            <p>Displays the Configure structure tree dialog box.</p>
+        </section>
+        <section id="section_fwt_2tv_3pb">
+            <title>Search</title>
+            <p>Searches the structure tree for character strings that match what you enter.</p>
+        </section>
+        <section id="section_ep2_ftv_3pb">
+            <title>Content tree </title>
+            <p>Displays a structured tree view of the drawing content. The configuration of the
+                structure tree is defined in a .CST file and specified by the STRUCTURETREECONFIG
+                system variable. The location of CST files is specified by the SRCHPATH system
+                variable. You can create custom CST files to meet your needs.</p>
+            <p>A right-click menu on a tree node or on an entity offers relevant
+                tools.<!--CM_StructurePanel_Right-clickMenu1.docs and CM_StructurePanel_Right-clickMenu2.docs--></p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_structurepanel" />
+            <link keyref="CMD_supportfolder" />
+            <link keyref="CMD_isolateobjects" />
+            <link keyref="CMD_hideobjects" />
+            <link keyref="CMD_qselect" />
+            <link keyref="CMD_-toolpanel" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="DB_configurestructuretree" />
+            <link keyref="UI_panels" />
+        </linklist>
+    </related-links>
+</concept>

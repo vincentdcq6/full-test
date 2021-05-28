@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_download_and_lock_a_document">
+    <title>Download and lock a document</title>
+    <taskbody>
+        <context>
+            <p>You can download and lock a document:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Dashboard</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the folder you want to download from.</cmd>
+            </step>
+            <step>
+                <cmd>Select the document you want to download and lock.</cmd>
+            </step>
+            <step>
+                <cmd>Click the ellipsis button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_fmp_5vj_jpb" scope="external" /> at the top of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Download and lock</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_azq_gwj_jpb">The file is saved to your download folder and is displayed
+            as locked in the content pane.<div>Example: <image href="../IMAGES_temp/locked_file_example.PNG" id="image_y5p_rwj_jpb" scope="external" />.<div>The
+                    file can not be edited or moved by other project members.</div></div></result>
+    </taskbody>
+</task>

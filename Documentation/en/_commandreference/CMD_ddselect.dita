@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_ddselect">
+   <title>DDSELECT command</title>
+   <shortdesc>Opens the Settings Dialog Box with the <uicontrol>Entity selection</uicontrol>category expanded.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> with the <uicontrol>Entity selection</uicontrol>
+         category expanded to view and modify relevant system variables.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_pickauto" />
+         <link keyref="SV_pickbox" />
+         <link keyref="SV_pickdrag" />
+         <link keyref="SV_pickfirst" />
+         <link keyref="SV_ltgapselection" />
+      </linklist>
+   </related-links>
+</concept>

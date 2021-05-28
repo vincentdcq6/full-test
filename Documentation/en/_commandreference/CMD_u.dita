@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_u">
+   <title>U command</title>
+   <shortdesc>Reverses the action of the previous command.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Reverse the action of the previous command to restore entities to their prior state.</p>
+      <p>This command displays no prompts and has no options.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_u" />
+         <link keyref="CMD_undo" />
+         <link keyref="CMD_redo" />
+         <link keyref="CMD_oops" />
+      </linklist>
+   </related-links>
+</concept>

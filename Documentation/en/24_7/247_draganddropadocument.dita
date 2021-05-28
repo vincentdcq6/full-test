@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_drag_and_drop_a_document">
+    <title>Drag and drop a document</title>
+    <taskbody>
+        <context>
+            <p>You can drag and drop one or more documents:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Dashboard</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the folder you want to upload to.</cmd>
+            </step>
+            <step>
+                <cmd>Drag and drop the document(s) from your local device to the content pane.</cmd>
+                <stepresult>The <wintitle>Uploading</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>If applicable, add a description and a status per document.</cmd>
+                <info>
+                    <div>
+                        <note type="tip">The available document statuses are: draft, proposal, in
+                            preparation, revised, and approved with remarks.</note>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+                <stepresult>A pop up window shows the upload progress and informs you that the
+                    documents are successfully uploaded.</stepresult>
+            </step>
+        </steps>
+        <postreq id="postreq_ipx_yvr_x4b">
+            <p>
+                <note type="tip">If you want to upload a lot of documents simultaneously, you can
+                    use the Bricsys 24/7 Transfer Tool.</note>
+            </p>
+        </postreq>
+    </taskbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_bricsys247transfertool" />
+        </linklist>
+    </related-links>
+</task>

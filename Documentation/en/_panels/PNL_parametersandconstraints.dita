@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_parametersandconstraints">
+    <title>Parameters and constraints panel</title>
+    <shortdesc>The Parameters and Constraints panel offers a central location to view and modify
+        parameters and constraints in the current drawing.</shortdesc>
+    <conbody>
+        <p>It includes 7 areas.</p>
+        <fig id="fig_ydk_txm_dpb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_parametersandconstraints_01_V21.png" id="image_tpl_jlw_gpb" scope="external" />
+            <ol id="ol_lm3_pww_gpb">
+                <li>Parameter list</li>
+                <li>Properties </li>
+                <li>Group by entity</li>
+                <li>Group by type</li>
+                <li>Sort</li>
+                <li>Settings</li>
+                <li>Show search</li>
+            </ol>
+        </fig>
+        <section id="section_f43_rww_gpb">
+            <title>Parameter list</title>
+            <p>Displays a list of all the parameters and constraints in the drawing. They are
+                organized in expandable categories which may include user parameters, 2D dimensional
+                constraints, 3D dimensional constraints, 3D geometric constraints, block parameters
+                and array
+                parameters.<!--Eventually these should link to articles explaining each of these types of parameters-->
+                Right-click menus<!--Import/link relevant CM (Context Menus).--> offer additional
+                tools for some parameters and constraints.</p>
+            <p> </p>
+        </section>
+        <section id="section_g43_rww_gpb">
+            <title>Name</title>
+            <p>Specifies the name of the parameter.</p>
+        </section>
+        <section id="section_h43_rww_gpb">
+            <title>Expression</title>
+            <p>Specifies the mathematical expression of the parameter.</p>
+        </section>
+        <section id="section_i43_rww_gpb">
+            <title>Value</title>
+            <p>Specifies the value resulting from the parameter’s expression.</p>
+            <p> </p>
+        </section>
+        <section id="section_j43_rww_gpb">
+            <title>New user parameter</title>
+            <p>Inserts a new user parameter with default values for the Expression and Value.</p>
+        </section>
+        <section id="section_k43_rww_gpb">
+            <title>Delete a user parameter </title>
+            <p>Removes selected parameter and constraints from the drawing.</p>
+        </section>
+        <section id="section_l43_rww_gpb">
+            <title>Show dependent parameters</title>
+            <p>Toggles the display of dependent parameters on or off.</p>
+        </section>
+        <section id="section_m43_rww_gpb">
+            <title>Show defining parameters</title>
+            <p>Toggles the display of defining parameters on or off.</p>
+        </section>
+        <section id="section_n43_rww_gpb">
+            <title>Hide geometrical constraints</title>
+            <p>Toggles the display of geometrical constraints on or off.</p>
+        </section>
+        <section id="section_o43_rww_gpb">
+            <title>Search</title>
+            <p>Filters the parameter list to display only the parameter names that match the
+                character string you enter.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related Commands</title>
+            <link keyref="CMD_parameterspanelopen" />
+            <link keyref="CMD_parameterspanelclose" />
+            <link keyref="CMD_-parameters" />
+            <link keyref="CMD_parametrize" />
+            <link keyref="CMD_parametercopymode" />
+            <link keyref="CMD_-bmparameters" />
+            <link keyref="CMD_-toolpanel" />
+        </linklist>
+        <linklist>
+            <title>Related Information</title>
+            <link keyref="UI_panels" />
+        </linklist>
+    </related-links>
+</concept>

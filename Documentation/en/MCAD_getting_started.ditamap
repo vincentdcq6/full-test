@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title>Getting Started</title>
+  <topicref href="empty%20titles/MCAD_getting_started_title.dita" navtitle="Getting Started" keys="getting_started_MCAD_title">
+    <topicref href="_guides/MCAD_getting_started/GD_mechanicalworkspace.dita" navtitle="Mechanical Workspace" keys="GD_mechanicalworkspace" chunk="to-content">
+      <topicref href="_guides/MCAD_getting_started/GD_startamechanicaldesignproject.dita" navtitle="Start a mechanical design project" keys="GD_startamechanicaldesignproject" />
+      <topicref href="_guides/MCAD_getting_started/GD_bricscadmechanicalapplicationwindow.dita" navtitle="BricsCAD Mechanical Application Window" keys="GD_bricscadmechanicalapplicationwindow" />
+    </topicref>
+    <topicref href="_panels/PNL_mechanicalbrowser.dita" navtitle="Mechanical browser panel" keys="PNL_mechanicalbrowser" />
+    <topicref href="_guides/MCAD_getting_started/GD_3dcomparison.dita" navtitle="3D Comparison" keys="GD_3dcomparison" />
+  </topicref>
+</map>

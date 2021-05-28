@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CM_attachmentsmenu">
+    <title>Attachments menu</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <div id="div_r2x_ywk_mpb">
+            <p><!--description TBA--></p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Grid View</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Tree View</dt>
+                        <dd />
+                    </dlentry>
+                </dl>
+            </p>
+        </div>
+    </conbody>
+</concept>

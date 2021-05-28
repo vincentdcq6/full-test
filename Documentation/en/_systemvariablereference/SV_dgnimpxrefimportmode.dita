@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dgnimpxrefimportmode" xml:lang="en-US">
+   <title id="title__Toc50995103">DGNIMPXREFIMPORTMODE system variable</title>
+   <conbody>
+      <section><title>External references import mode</title><p>Specifies how to import dgn reference attachments. The options are "Omit" - don't import dgn reference attachments; "Retain" - convert attached dgn files to dwg and create dwg Xref; "Merge to cell" - create block definition and import attached dgn file to it, then create block reference to dgn attachment block; "Create DGN Underlay" - create DGN Underlay object.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>0 to 3</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>2</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Omit</p>
+                           <p>1: Retain</p>
+                           <p>2: Merge to cell</p>
+                           <p>3: Create DGN Underlay</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

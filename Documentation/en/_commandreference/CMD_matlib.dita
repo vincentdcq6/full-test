@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_matlib">
+   <title>MATLIB command</title>
+   <shortdesc>Opens the Render materials panel.</shortdesc>
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V21/Common/command-reference-lite-pro-mechanical-bim.png" id="image_rsx_tpl_f4b" scope="external" />
+      </fig>
+      <fig id="fig_ffx_yxf_ynb"><!--image icon--></fig>
+      <section id="section_svs_5md_f4b">
+         <p>Open the Render materials panel to display it in the current workspace. The Render
+            materials panel appears at the same size and location that it did before it was closed
+            or collapsed. Like any other dockable panel, the Render materials panel can be either
+            floating, docked or stacked.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_matbrowseropen" />
+         <link keyref="CMD_matbrowserclose" />
+      </linklist>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="PNL_rendermaterials" />
+         <link keyref="UI_panels" />
+         <!--Workspaces (link)-->
+      </linklist>
+   </related-links>
+</concept>

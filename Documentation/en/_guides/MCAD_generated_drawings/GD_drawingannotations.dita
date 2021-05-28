@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_drawingannotations">
+    <title>Drawing Annotations</title>
+    <conbody>
+        <p>Creating and editing annotations, review Dimensioning Tools Overview.</p>
+        <p>Dimensions and Multileader that are in the drawing view are updated upon change of the
+            underlying 3D model.</p>
+        <p>Assembly drawings can be annotated with BOM balloons. Every balloon refers to a row in a
+            BOM table generated from the assembly.</p>
+        <p>The BOM table can be placed in paper space (layouts) with the drawing view of an
+            assembly.</p>
+        <p>Exploded Representations of assemblies can be used to generate drawing views and annotate
+            them with balloons.</p>
+    </conbody>
+</concept>

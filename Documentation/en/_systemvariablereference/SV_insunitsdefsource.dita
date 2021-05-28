@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="insunitsdefsource" xml:lang="en-US">
+   <title id="title__Toc50995263">INSUNITSDEFSOURCE system variable</title>
+   <conbody>
+      <section><title>Insertion units default source</title><p>Specifies the source content units value. If INSUNITS in the source drawing is Unspecified, INSUNITSDEFSOURCE is used instead.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 24</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Unspecified (No units)</p>
+                           <p>1: Inches</p>
+                           <p>2: Feet</p>
+                           <p>3: Miles</p>
+                           <p>4: Millimeters</p>
+                           <p>5: Centimeters</p>
+                           <p>6: Meters</p>
+                           <p>7: Kilometers</p>
+                           <p>8: Microinches</p>
+                           <p>9: Mils</p>
+                           <p>10: Yards</p>
+                           <p>11: Ångströms</p>
+                           <p>12: Nanometers</p>
+                           <p>13: Microns</p>
+                           <p>14: Decimeters</p>
+                           <p>15: Decameters</p>
+                           <p>16: Hectometers</p>
+                           <p>17: Gigameters</p>
+                           <p>18: Astronomical Units</p>
+                           <p>19: Light-years</p>
+                           <p>20: Parsecs</p>
+                           <p>21: US Survey Feet</p>
+                           <p>22: US Survey Inch</p>
+                           <p>23: US Survey Yard</p>
+                           <p>24: US Survey Mile</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_pdfoptions">
+   <title>PDFOPTIONS command</title>
+   <shortdesc>Opens the Settings Dialog Box with the <uicontrol>PDF export</uicontrol> category
+      expanded.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> with the <uicontrol>PDF export</uicontrol> category
+         expanded to view and modify relevant system variables.</p>
+
+
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_pdfembeddedttf" />
+         <link keyref="SV_pdfttftextasgeometry" />
+         <link keyref="SV_pdfshxtextasgeometry" />
+         <link keyref="SV_pdfsimplegeomoptimization" />
+         <link keyref="SV_pdfzoomtoextentsmode" />
+         <link keyref="SV_pdfmergecontrol" />
+         <link keyref="SV_pdflayerssetting" />
+         <link keyref="SV_pdflayoutstoexport" />
+         <link keyref="SV_pdfpapersizeoverride" />
+         <link keyref="SV_pdfpaperwidth" />
+         <link keyref="SV_pdfpaperheight" />
+         <link keyref="SV_pdfuseplotstyles" />
+         <link keyref="SV_pdfexporthyperlinks" />
+         <link keyref="SV_pdfimageantialias" />
+         <link keyref="SV_pdfimagecompression" />
+         <link keyref="SV_pdfvectorresolutiondpi" />
+         <link keyref="SV_pdfimagedpi" />
+         <link keyref="SV_pdfprcexportproductstructuremode" />
+         <link keyref="SV_pdfprcexport" />
+         <link keyref="SV_pdfprcsingleviewmode" />
+         <link keyref="SV_pdfprccompression" />
+      </linklist>
+   </related-links>
+</concept>

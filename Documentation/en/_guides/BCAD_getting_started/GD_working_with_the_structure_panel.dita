@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="working_with_the_structure_panel">
+   <title>Working with the Structure panel</title>
+   <shortdesc>The Structure panel displays a structured tree view of the drawing
+      content.</shortdesc>
+   <conbody>
+      <p><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> provides 3 configure structure tree
+         (CST) definitions:<ul id="ul_ahh_tgz_tmb">
+            <li><uicontrol>Default</uicontrol> displays a layer-based structure.</li>
+            <li><uicontrol>BIM</uicontrol> displays a BIM entity-based structure.</li>
+            <li><uicontrol>Mechanical</uicontrol> displays an entity-based structure.</li>
+         </ul></p>
+      <p>Click the hamburger menu (<image href="https://static.bricsys.com/help/en_US/V20/Common/HamburgerMenu_Icon.png" id="image_zgh_tgz_tmb" scope="external" />) to select a definition.</p>
+      <p>In the Structure panel you can:<ul id="ul_bhh_tgz_tmb">
+            <li>Click the expand (<b>+</b>) icon to expand a node.</li>
+            <li>Click the collapse icon (<b>-</b>) to collapse a node.</li>
+            <li>Select a node, right-click and choose <uicontrol>Expand All</uicontrol> to expand all subnodes of the selected node.<p>Select the drawing name and use this option to expand all nodes in the entire tree.</p></li>
+            <li>Select a node, right-click and choose <uicontrol>Collapse All</uicontrol> to collapse all subnodes of the selected node.<p>Select the drawing name and use this option to collapse the entire tree.</p></li>
+            <li>Click a node or entity in the Structure panel to select it in the drawing.<note>
+                  This depends on the settings in the <uicontrol>Structure Tree</uicontrol>. To
+                  configure the Structure tree, right-click in <menucascade>
+                     <uicontrol>Structure Panel </uicontrol>
+                     <uicontrol>Configure</uicontrol>
+                     <uicontrol>Options</uicontrol>
+                  </menucascade>.</note><p>Hold down the Ctrl key to compose a selection
+               set.</p></li>
+            <li>Right-click to display a context menu, which allows to:<ul id="ul_chh_tgz_tmb">
+                  <li><uicontrol>Show</uicontrol>: displays the selection when previously hidden.</li>
+                  <li><uicontrol>Hide</uicontrol>: hides the selection.</li>
+                  <li><uicontrol>Isolate</uicontrol>: isolates the selection, hides all the rest.</li>
+                  <li><uicontrol>Zoom</uicontrol>: zooms onto the selection.</li>
+               </ul></li>
+         </ul></p>
+      <note>Select the drawing name. Next, right-click and choose <uicontrol>Show</uicontrol> in the
+         context menu to display the entire drawing, or choose <uicontrol>Show Entities</uicontrol>
+         in the <uicontrol>General</uicontrol> tab of the No Selection Quad.</note>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_structurepanel" />
+         <link keyref="CMD_hideobjects" />
+         <link keyref="CMD_isolateobjects" />
+         <link keyref="CMD_unisolateobjects" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="PNL_structure" />
+         <link keyref="GD_selecting_entities">
+            
+         </link>
+         <link keyref="GD_the_quad_basics" />
+      </linklist>
+   </related-links>
+</concept>
+

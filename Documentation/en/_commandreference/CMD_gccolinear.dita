@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gccolinear">
+   <title>GCCOLINEAR command</title>
+   <shortdesc>Creates a colinear geometric constraint on 2D entities. </shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a colinear constraint to ensure two or more linear entities remain colinear.</p>
+      <section id="section_ndq_1lc_x4b">
+         <title>Methods to create a colinear constraint</title>
+         <p>There are two methods to begin creating a colinear constraint:<ul id="ul_ivf_1lc_x4b">
+               <li>Select first entity</li>
+               <li>Multiple</li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select first entity</dt>
+                  <dd>Begin creating a colinear constraint by selecting a linear entity then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select second entity</dt>
+                  <dd outputclass="indent1">Select a linear entity to make colinear to the first one. The first entity maintains its position while the second entity adjusts, as necessary, to become colinear.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Multiple</dt>
+                  <dd>Begin creating more than one colinear constraint by specifying the Multiple option then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select first entity</dt>
+                  <dd outputclass="indent1">Select a linear entity then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select entity to make collinear to the first</dt>
+                  <dd outputclass="indent1">Select a linear entity to make colinear to the first one. You can continue adding colinear constraints to other entities until you press Enter to end the command. The first entity maintains its position while subsequent entities adjust, as necessary, to become colinear.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

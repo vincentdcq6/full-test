@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_download_a_document">
+    <title>Download a document</title>
+    <taskbody>
+        <context>
+            <p>You can download one or more documents:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Dashboard</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the folder you want to download from.</cmd>
+            </step>
+            <step>
+                <cmd>Select the document(s) you want to download.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Download</uicontrol>
+                    <image href="../IMAGES_temp/download_button.PNG" id="image_ay4_4x3_jpb" scale="75" scope="external" />.</cmd>
+            </step>
+        </steps>
+        <result id="result_yqb_p43_jpb">The file is saved to your download folder. If you selected
+            multiple files, a zip file is saved to your download folder.<note>The maximum download
+                size for multiple files is 4 GB. There is no maximum download file size for a single
+                file.</note></result>
+    </taskbody>
+</task>

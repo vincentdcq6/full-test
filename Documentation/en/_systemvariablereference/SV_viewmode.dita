@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="viewmode" xml:lang="en-US">
+   <title id="title__Toc50995803">VIEWMODE system variable</title>
+   <conbody>
+      <section><title>View mode</title><p>Specifies the current viewport's View mode. The value is stored as a bitcode using the sum of the values of all selected options. If 'Front clip not at eye' (16) is on, the front clip distance (FRONTZ) sets the front clipping plane. If off, the front clipping plane passes through the camera point (vectors behind the camera are not displayed). This flag is ignored if the front-clipping bit (2) is off.</p><p>Read-only</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 31</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Turned off</p>
+                           <p>1: Perspective view active</p>
+                           <p>2: Front clipping on</p>
+                           <p>4: Back clipping on</p>
+                           <p>8: UCS Follow mode on</p>
+                           <p>16: Front clip not at eye</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

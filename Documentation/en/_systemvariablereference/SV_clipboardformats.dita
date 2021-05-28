@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="clipboardformats" xml:lang="en-US">
+   <title id="title__Toc50994871">CLIPBOARDFORMATS system variable</title>
+   <conbody>
+      <section><title>Clipboard Formats</title><p>Types of data that are supported when copying to the clipboard. Flags can be unchecked to improve performance. The value is stored as a bitcode using the sum of the values of all selected options.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 127</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>127</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>1: Bitmap</p>
+                           <p>2: Metafile Picture Format</p>
+                           <p>4: Enhanced Metafile</p>
+                           <p>8: AutoCAD.r14</p>
+                           <p>16: BricsCAD</p>
+                           <p>32: OLE Embed Source and Object Descriptor</p>
+                           <p>64: CVS and XMLSS table data</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

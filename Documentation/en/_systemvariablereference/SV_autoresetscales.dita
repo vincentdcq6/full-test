@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="autoresetscales" xml:lang="en-US">
+   <title id="title__Toc50994817">AUTORESETSCALES system variable</title>
+   <conbody>
+      <section><title>Purge unused scales</title><p>Unneeded annotation scales are deleted automatically when drawing contains a large number of annotation scales. Storing a large number of annotation scales decreases performance. Scales are purged when drawing is being loaded.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p><table id="table_xfc_pgz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>0</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Ask in dialog box</p>
+                           <p>1: Always purge unneeded scales</p>
+                           <p>2: Don't purge scales and don't show dialog box when drawing contains a large number of scales</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

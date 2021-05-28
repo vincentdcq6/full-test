@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_report">
+    <title>Report panel</title>
+    <shortdesc>The Report panel offers feedback for relevant commands including DMAUDIT, DMSTITCH,
+        and all sheet metal (SM*) commands.</shortdesc>
+    <conbody>
+        <p>The appearance of the Report panel is determined by the REPORTPANELMODE system
+            variable.</p>
+        <p>
+            <fig id="fig_pkk_lml_hpb">
+                <image href="https://static.bricsys.com/help/en_US/PNL_Report_01_V21.png" id="image_h3d_nml_hpb" scope="external" />
+                <ol id="ol_isg_sml_hpb">
+                    <li>Display grouping</li>
+                    <li>Report output</li>
+                    <li>Detailed items output</li>
+                </ol>
+            </fig>
+        </p>
+        <section id="section_dl3_5ml_hpb">
+            <title>Display grouping</title>
+            <p>Specifies how information is grouped for the report.<ul id="ul_ufk_zml_hpb">
+                    <li>Sort by Structure/Message/Subentity</li>
+                    <li>Group by Message/Structure/Subentity</li>
+                    <li>Group by Structure/Subentity/Message</li>
+                </ul><!--add some image examples showing the output for each of the three grouping options.--></p>
+        </section>
+        <section id="section_gl3_5ml_hpb">
+            <title>Report output</title>
+            <p>Displays command output.</p>
+        </section>
+        <section id="section_hl3_5ml_hpb">
+            <title>Detailed items output</title>
+            <p>Shows detailed command output for selected item in the report output.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_dmaudit" />
+            <link keyref="CMD_dmstitch" />
+            <link keyref="CMD_reportpanelclose" />
+            <link keyref="CMD_reportpanelopen" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_reportpanelmode" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="UI_panels" />
+        </linklist>
+    </related-links>
+</concept>

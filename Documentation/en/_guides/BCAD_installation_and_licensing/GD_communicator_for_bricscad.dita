@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="communicator_for_bricscad">
+   <title>Communicator for <b id="b_lhg_1q1_cnb">BricsCAD<tm tmtype="reg" /></b></title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>If you are a designer for the manufacturing industry and you need to exchange data with other manufacturing applications, you should consider adding<!--too sales-->
+         <b conkeyref="product_names_warehouse/b_wl1_bq1_cnb" /> to your <b conkeyref="product_names_warehouse/b_umt_wl2_1nb" />, <b conkeyref="product_names_warehouse/b_vtd_bm2_1nb" />, <b conkeyref="product_names_warehouse/b_erh_bm2_1nb" /> or <b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" /> license. When running one of these versions, <b conkeyref="product_names_warehouse/b_wl1_bq1_cnb" /> imports full assemblies with embedded PMI (Product and Manufacturing Information).</p>
+      <p><b conkeyref="product_names_warehouse/b_wl1_bq1_cnb" /> is installed and licensed separately.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="CMD_communicatorinfo" />
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006621253-BricsCAD-Communicator" format="html" scope="external"/>-->
+      </linklist>
+   </related-links>
+</concept>

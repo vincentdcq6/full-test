@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_regen">
+   <title>REGEN command</title>
+   <shortdesc>Regenerates entities in the current viewport.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Regenerate entities in the current viewport for optimal display
+         and selection performance.</p>
+      <p>REGEN does the following:<ul id="ul_asy_ykv_3pb">
+            <li>Recalculates the location and visibility of all entities in the current
+               viewport.</li>
+            <li>Reindexes the drawing database.</li>
+            <li>Updates the area available for zooming and panning.</li>
+         </ul></p>
+      <p>This command displays no prompts and has no options.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_redraw" />
+         <link keyref="CMD_redrawall" />
+         <link keyref="CMD_regenall" />
+      </linklist>
+   </related-links>
+</concept>

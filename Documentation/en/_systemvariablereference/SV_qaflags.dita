@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="qaflags" xml:lang="en-US">
+   <title id="title__Toc50995522">QAFLAGS system variable</title>
+   <conbody>
+      <section><title>Quality Assurance flags</title><p>Internal system variable with flags for Quality Assurance and testing. The value is stored as a bitcode using the sum of the values of all selected options.</p><p>Attention: this is subject to change, and not intended for regular use. Some of these options could have unpredictable or unwanted side-effects.</p><p><table id="table_r32_ncz_hnb">
+   <tgroup cols="2">
+      <colspec colname="c1" colnum="1" colwidth="1*" />
+      <colspec colname="c2" colnum="2" colwidth="3*" />
+      <tbody>
+         <row>
+            <entry conkeyref="system_variable_warehouse/type" />
+            <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+         </row>
+         <row>
+            <entry conkeyref="system_variable_warehouse/saved_in" />
+            <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+         </row>
+         <row>
+            <entry conkeyref="system_variable_warehouse/range" />
+            <entry>
+                           <p>0 to 32767</p>
+                        </entry>
+         </row>
+         <row>
+            <entry conkeyref="system_variable_warehouse/default_value" />
+            <entry>
+                           <p>0</p>
+                        </entry>
+         </row>
+         <row>
+            <entry conkeyref="system_variable_warehouse/possible_values" />
+            <entry>
+                           <p>1: Red device: no low quality draw</p>
+                           <p>2: No pause during text screen listings</p>
+                           <p>4: No 'alert' dialogs (text display instead)</p>
+                           <p>8: Have Warnings act as Errors and stop scripts</p>
+                           <p>16: Minimal audit report</p>
+                           <p>32: Disable window recreation on switch between 2d and rendered visual styles.</p>
+                           <p>64: Enable various performance measurements printed as info prompts</p>
+                           <p>128: Parallel vectorization: EnableSchedulerLogOutput</p>
+                           <p>256: Cmd message enable</p>
+                           <p>512: Dcl take screenshot</p>
+                           <p>1024: Print time on statusbar</p>
+                           <p>2048: No crash dump file</p>
+                           <p>4096: Create assert log file</p>
+                           <p>8192: Create RED files during rendering</p>
+                           <p>16384: Parallel vectorization performance measurement</p>
+                        </entry>
+         </row>
+      </tbody>
+   </tgroup>
+</table></p></section>
+   </conbody>
+</concept>

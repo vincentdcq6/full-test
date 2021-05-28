@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_attachexternalreference">
+    <title>Attach external reference</title>
+    <shortdesc>The Attach External Reference dialog box allows you to attach externally - referenced
+        drawings to the current drawing.</shortdesc>
+    <conbody>
+        <p>It includes 10 areas.</p>
+        <fig id="fig_kh3_fc3_qpb">
+            <image scope="external" id="image_rxr_b23_qpb" href="https://static.bricsys.com/help/en_US/DB_attachexternalreference_01_V21.png" />
+            <ol id="ol_ibv_xrk_qpb">
+                <li>Help</li>
+                <li>Name</li>
+                <li>Browse</li>
+                <li>Path</li>
+                <li>Path type</li>
+                <li>External reference</li>
+                <li>Insertion Point</li>
+                <li>Scale</li>
+                <li>Rotation</li>
+                <li>Block Unit</li>
+            </ol>
+        </fig>
+        <section id="section_ngm_bsk_qpb">
+            <title>Help</title>
+            <p>Opens the Bricsys Help article about the XATTACH command.</p>
+        </section>
+        <section id="section_x1r_bsk_qpb">
+            <title>Name</title>
+            <p>Specifies the name of the DWG file attached to the current drawing.</p>
+        </section>
+        <section id="section_hfs_bsk_qpb">
+            <title>Browse</title>
+            <p>Opens the Select Reference File dialog box to allow you to choose a different *.dwg
+                file</p>
+        </section>
+        <section id="section_yrs_bsk_qpb">
+            <title>Path</title>
+            <p>Displays the path of the drawing file.</p>
+        </section>
+        <section id="section_v2t_bsk_qpb">
+            <title>Path type</title>
+            <p>Determines how much of the path is stored:</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Full path</dt>
+                        <dd>Stores the drive and folder names of the DWG file as an absolute
+                            reference, such as <i>c:\cad\dwg\filename.dwg</i>
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Relative path</dt>
+                        <dd>Stores the path from the parent drawing’s location to the referenced
+                            drawing's location, such as <filepath>..\filename.dwg</filepath>. The ..
+                            refers to the folder above the current one. The drawing must be saved
+                            before you can use this option.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>No path</dt>
+                        <dd>Strips the drive and folder names, leaving just the DWG file name, such
+                            as <i>filename.dwg</i>. </dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_zpt_bsk_qpb">
+            <title>External reference</title>
+            <p>Specifies how the external reference is to be attached.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Attachment</dt>
+                        <dd>Attaches the xref and nested xrefs.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Overlay</dt>
+                        <dd>Attaches only the first level of xref.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_h45_bsk_qpb">
+            <title>Insertion Point</title>
+            <p>Specifies the location of the xref's lower-left corner:</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Specify On-screen</dt>
+                        <dd>Determines how you specify the insertion point. <ul id="ul_k3d_qsk_qpb">
+                                <li>On: specify the insertion point in the drawing after the dialog
+                                    box is closed.</li>
+                                <li>Off: specify the insertion point in the dialog box using the X,
+                                    Y, and Z fields.</li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>X, Y, or Z</dt>
+                        <dd>Specifies the x, y, and/or z coordinates for the xref's insertion point.
+                            Use 0,0,0 to insert the xref at the drawing's origin.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_u1v_bsk_qpb">
+            <title>Scale</title>
+            <p>Specifies the size of the xref.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Specify On-screen</dt>
+                        <dd>Determines how you specify the scale factors. <ul id="ul_h2v_5sk_qpb">
+                                <li>On: specify the scale factors in the drawing after the dialog
+                                    box is closed.</li>
+                                <li>Off: specify the scale factors in the dialog box using the X, Y,
+                                    and Z fields.</li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>X, Y, or Z</dt>
+                        <dd>Specifies the x, y, and/or z scale factors of the xref in the x, y, and
+                            z directions. Use 1,1,1 to keep the xref at its original size.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Uniform Scale</dt>
+                        <dd>Makes the y and z scale factors equal to x.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_ylv_bsk_qpb">
+            <title>Rotation</title>
+            <p>Specifies the rotation angle of the xref.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Specify On-screen</dt>
+                        <dd>Determines how you specify the rotation angle. <ul id="ul_pp1_zsk_qpb">
+                                <li>On: specify the angle in the drawing after the dialog box is
+                                    closed.</li>
+                                <li>Off: specify the angle in the dialog box using the Angle field.</li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Angle</dt>
+                        <dd>Specifies the rotation angle about the insertion point. Positive angles
+                            rotate the xref counterclockwise. Negative angles rotate the xref
+                            clockwise. Use 0 to keep the xref at its original orientation.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_zpz_btk_qpb">
+            <title>Block Unit</title>
+            <p>Specifies the units with which the drawing will be inserted, usually a form of
+                Imperial or metric units, such as inches or mm:</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Unit</dt>
+                        <dd>Reports the INSUNITS setting of the drawing being attached.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Factor</dt>
+                        <dd>Reports the calculated scaling factor with respect to the INSUNITS
+                            setting of the drawing being attached and the current drawing.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_xattach" />
+            <link keyref="CMD_xref" />
+            <link keyref="CMD_expxref" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_xdwgfadectl" />
+            <link keyref="SV_insunits" />
+        </linklist>
+    </related-links>
+</concept>

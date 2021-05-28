@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CM_bimprojectbrowserpanelmenu">
+    <title>BIM project browser panel menu</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <div id="div_rnz_ttw_gpb">
+            <p><!--Description TBA--></p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Refresh</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Project Setup</dt>
+                        <dd>Opens the Project setup dialog box.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Sheetset Setup</dt>
+                        <dd>Opens the Sheetset setup dialog box.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Enable Background Update</dt>
+                        <dd />
+                    </dlentry>
+                </dl>
+            </p>
+        </div>
+    </conbody>
+</concept>

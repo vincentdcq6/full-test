@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="to_use_a_network_license_on_a_client_computer">
+   <title>Using a network license on a client computer</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <context id="context_fbq_v5c_cnb">Once the network license is activated on the license server, it can be used on client computers.</context>
+      <steps id="ol_bnm_3ph_smb">
+         <step>
+            <cmd>Do one of the following:</cmd>
+            <choices id="choices_u4h_shy_vmb">
+               <choice>If you start <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> for the
+                  first time, click the <uicontrol>Activate License</uicontrol> button in the
+                  BricsCAD Launcher dialog box.</choice>
+               <choice>If you replace or upgrade an existing license, launch the LICENSEMANAGER
+                  command, click <uicontrol>Manage License</uicontrol> and click
+                     <uicontrol>Modify</uicontrol>.</choice>
+            </choices>
+         </step>
+         <step>
+            <cmd>Check the <uicontrol>Network License</uicontrol> option in the <uicontrol>Activate BricsCAD</uicontrol> dialog box.</cmd>
+         </step>
+         <step>
+            <cmd>Type the host name or IP address of the license server in the <uicontrol>Server name or address</uicontrol> field.</cmd>
+            <info>
+               <fig id="fig_pv5_yhy_vmb">
+                  <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/LicenseManager_ActivateNetworkLicense.png" scope="external" id="image_qv5_yhy_vmb" />
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>(optional) Type the port number in the <uicontrol>Port Number</uicontrol> field.</cmd>
+         </step>
+         <step>
+            <cmd>If your computer is connected to the license server through a proxy server, click
+               the <uicontrol>Proxy Settings</uicontrol> button to configure the proxy settings for
+               a network license.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>OK</uicontrol> button.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_licensemanager" />
+      </linklist>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="GD_to_roam_a_network_license_on_a_client_computer" />
+         <link keyref="GD_to_return_a_roamed_network_license_to_the_server" />
+         <link keyref="GD_the_bricscad_launcher" />
+         <link keyref="GD_proxy_settings" />
+      </linklist>
+   </related-links>
+</task>
+

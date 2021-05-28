@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_create_an_annotation">
+    <title>Create an annotation</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Add annotation</uicontrol> in the menu bar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the type of annotation:</cmd>
+                <info>
+                    <ul id="ul_d2m_3gv_54b">
+                        <li>rectangle</li>
+                        <li>ellipse</li>
+                        <li>line</li>
+                        <li>arrow</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Draw the shape in the area you want the annotation to cover.</cmd>
+            </step>
+            <step>
+                <cmd>Enter a comment in the <uicontrol>Subject</uicontrol> field.</cmd>
+                <info>
+                    <p><image placement="inline" href="../IMAGES_temp/Subject_field.PNG" id="image_ljz_jyw_54b" width="80mm" scope="external" /></p>
+                </info>
+            </step>
+            <step>
+                <cmd>If applicable, click <uicontrol>More text...</uicontrol> to enter a more
+                    elaborate comment.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, click on <uicontrol>Public</uicontrol> and select
+                        <uicontrol>Private</uicontrol> if you want to send the annotation only to
+                    selected users.</cmd>
+                <stepresult><uicontrol>Select contacts</uicontrol> is displayed.<fig><image placement="break" href="../IMAGES_temp/Annotation_public_to_private.PNG" id="image_esn_fzw_54b" width="80mm" scope="external" /></fig><p>Select the applicable project
+                    members.</p></stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Post</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the annotation is uploaded.<image placement="break" href="../IMAGES_temp/annotation_uploaded.PNG" id="image_msr_dlw_54b" scale="60" scope="external" /><note>Click <uicontrol>Send
+                            notification</uicontrol> in the pop up window to inform users about
+                        changes in your project.</note></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_sendanotification" />
+        </linklist>
+    </related-links>
+</task>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_delete_a_user">
+    <title>Delete a user</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_kdr_4wn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Users</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select a user.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>ellipsis</uicontrol> button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_u1c_fbs_v4b" scale="75" scope="external" />
+                    at the top of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Delete</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Delete user</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Delete</uicontrol> to delete this user.</cmd>
+            </step>
+        </steps>
+        <result id="result_rp3_v2n_dpb">A pop up window informs you that the user is successfully
+            removed.</result>
+    </taskbody>
+</task>

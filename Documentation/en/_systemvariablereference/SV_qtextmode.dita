@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="qtextmode" xml:lang="en-US">
+   <title id="title__Toc50995523">QTEXTMODE system variable</title>
+   <conbody>
+      <section><title>Quick text mode</title><p>Specifies how text entities are displayed. When On: this turns on quick text mode, rendering all text – text, mtext, attributes, dimension text, and zo on—as rectangles. When Off (0): this turns off quick text mode, returning text to its normal display. This is useful when drawings contain much text, thereby slowing down the display of the drawing, but you still need to see the location of the text. The rectangles display the color of the text as well. To view changes on existing entities, perform a REGEN. </p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/boolean" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p conkeyref="system_variable_warehouse/off" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Don’t display box in place of text</p>
+                           <p>On (1): Display box in place of text</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p>
+         <p>
+            <fig id="fig_ssl_2qh_p4b">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_qtextmode_01_V21.png" id="image_tsl_2qh_p4b" scope="external" />
+               <image href="https://static.bricsys.com/help/en_INTL/SV_qtextmode_02_V21.png" id="image_y3b_2qh_p4b" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

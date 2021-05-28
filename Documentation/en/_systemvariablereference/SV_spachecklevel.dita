@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="spachecklevel" xml:lang="en-US">
+   <title id="title__Toc50995873">SPACHECKLEVEL system variable</title>
+   <conbody>
+      <section><title>Check level</title><p>Check level used in AUDIT and SOLIDEDIT for checking ACIS entities. Value 10 is the lowest, used for fast checking. Value 70 is the maximum, used for comprehensive time consuming check. Audit is used to repair drawings that are open. SolidEdit edits the faces, edges and bodies of 3D solids and 2D regions. Spa is short for Spatial, the maker of ACIS.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 70</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>10</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Basic transformation consistency, basic pointer and fatal topology checks.</p>
+                           <p>10: Basic geometry checks. Cellular topology checks.</p>
+                           <p>20: Data sharing checks. Face area and loop orientation check. Medium checks of curve geometry.</p>
+                           <p>30: General surface checks. Check for sliver faces.</p>
+                           <p>40: Degenerate spline surface check. Compatibility check between surface and pcurve's surface. Check that COEDGE has a partner on a single-sided face.</p>
+                           <p>50: Body containment checks. Compatibility check between pcurve location and (non-tolerant) coedge location.</p>
+                           <p>60: Convexity points check.</p>
+                           <p>70: Lump and shell containment checks. Face-face intersection checks. Curve parametrization check.</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

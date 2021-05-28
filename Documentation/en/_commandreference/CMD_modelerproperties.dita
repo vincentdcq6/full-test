@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_modelerproperties">
+   <title>MODELERPROPERTIES command</title>
+   <shortdesc>Opens the Settings Dialog Box with the <uicontrol>Modeler properties for ACIS</uicontrol> category expanded.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> with the <uicontrol>Modeler properties for
+            ACIS</uicontrol> category expanded to view and modify relevant system variables.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_spausefacetres" />
+         <link keyref="SV_facetres" />
+         <link keyref="SV_spanormaltol" />
+         <link keyref="SV_spasurfacetol" />
+         <link keyref="SV_spagridmode" />
+         <link keyref="SV_spamaxnumgridlines" />
+         <link keyref="SV_spaminugridlines" />
+         <link keyref="SV_spaminvgridlines" />
+         <link keyref="SV_spagridaspectratio" />
+         <link keyref="SV_spatriangmode" />
+         <link keyref="SV_spamaxfacetedgelength" />
+         <link keyref="SV_spaadjustmode" />
+         <link keyref="SV_acishlrresolution" />
+         <link keyref="SV_masspropaccuracy" />
+         <link keyref="SV_spachecklevel" />
+      </linklist>
+   </related-links>
+</concept>

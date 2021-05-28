@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_profiles">
+    <title>BIM profiles panel</title>
+    <shortdesc>The BIM Profiles panel offers a central location to access standard and custom
+        profiles.</shortdesc>
+    <conbody>
+        <p>It includes 4 areas.</p>
+        <fig id="fig_uqg_mrl_mpb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_profiles_01_V21.png" id="image_own_gtk_mpb" scope="external" />
+            <ol id="ol_mrs_prl_mpb">
+                <li>Menu</li>
+                <li>Domains</li>
+                <li>Standards</li>
+                <li>Search bar</li>
+            </ol>
+        </fig>
+        <section id="section_lyl_xjl_mpb">
+            <title>Menu</title>
+            <div conkeyref="CM_profilespanel/div_k4w_fhl_mpb" id="div_dxl_tjl_mpb" />
+        </section>
+        <section id="section_ccj_srl_mpb">
+            <title>Domains</title>
+            <p>Filter profiles based on the domain. </p>
+        </section>
+        <section id="section_wmc_trl_mpb">
+            <title>Standards</title>
+            <p>Filter profiles based on the country standard.</p>
+        </section>
+        <section id="section_rxm_trl_mpb">
+            <title>Search bar</title>
+            <p>Search for specific profiles using the search bar.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_bimapplyprofile" />
+            <link keyref="CMD_bimlinearsolid" />
+            <link keyref="CMD_bimstructuralconnect" />
+            <link keyref="CMD_bimaddeccentricity" />
+            <link keyref="CMD_bimrecalculateaxis" />
+            <link keyref="CMD_-toolpanel" />
+            <link keyref="CMD_drag" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="UI_panels" />
+        </linklist>
+    </related-links>
+</concept>

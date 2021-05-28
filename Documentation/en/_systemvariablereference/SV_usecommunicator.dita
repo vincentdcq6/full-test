@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="usecommunicator" xml:lang="en-US">
+   <title id="title__Toc50995795">USECOMMUNICATOR system variable</title>
+   <conbody>
+      <section><title>Use Communicator</title><p>Indicates that a Communicator license was activated. If the license is changed, the new level comes into effect after restarting the program.</p>
+         <ul id="ul_cyq_3hw_nnb">
+            <li>0: no license, Communicator import and export formats are not available.</li>
+            <li>1: trial, runs Communicator in trial mode, expiring after 30 days.</li>
+            <li>2: full, runs the full communicator import-export set.</li>
+         </ul><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 2</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>1</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Not using Communicator</p>
+                           <p>1: Using Communicator Trial</p>
+                           <p>2: Using Communicator</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="MM_insert">
+   <title>Insert menu</title>
+   <shortdesc><!--all links to commands--></shortdesc>
+   <conbody>
+      <p>
+         <fig id="fig_v1t_zpd_h4b">
+            <image href="https://static.bricsys.com/help/en_US/MM_insert_01_V21.png" scope="external" id="image_w1t_zpd_h4b" />
+         </fig>
+      </p>
+      <section id="section_x1t_zpd_h4b">
+         <title>Insert Block</title>
+         <p>Command: INSERT</p>
+      </section>
+      <section id="section_y1t_zpd_h4b">
+         <title>Insert Aligned Block</title>
+         <p>Command: INSERTALIGNED</p>
+      </section>
+      <section id="section_z1t_zpd_h4b">
+         <title>Insert block in cell</title>
+         <p>Command: TINSERT</p>
+      </section>
+      <section id="section_abt_zpd_h4b">
+         <title>Insert Field</title>
+         <p>Command: FIELD</p>
+      </section>
+      <section id="section_bbt_zpd_h4b">
+         <title>Insert Object</title>
+         <p>Command: INSERTOBJ</p>
+      </section>
+      <section id="section_cbt_zpd_h4b">
+         <title>Attach Xref </title>
+         <p>Command: XATTACH</p>
+      </section>
+      <section id="section_dbt_zpd_h4b">
+         <title>Attach Raster Image</title>
+         <p>Command: IMAGEATTACH</p>
+      </section>
+      <section id="section_ebt_zpd_h4b">
+         <title>Attach PDF</title>
+         <p>Command: PDFATTACH</p>
+      </section>
+      <section id="section_fbt_zpd_h4b">
+         <title>Attach Pointcloud</title>
+         <p>Command: POINTCLOUDATTACH</p>
+      </section>
+      <section id="section_gbt_zpd_h4b">
+         <title>Layout</title>
+         <p>Command: LAYOUT </p>
+      </section>
+      <section id="section_hbt_zpd_h4b">
+         <title>New Layout</title>
+         <p>Command: LAYOUT</p>
+         <p>Option: New </p>
+      </section>
+      <section id="section_ibt_zpd_h4b">
+         <title>Geographic Location</title>
+         <p>Command: GEOGRAPHICLOCATION</p>
+      </section>
+      <section id="section_jbt_zpd_h4b">
+         <title>Map Connect</title>
+         <p>Command: MAPCONNECT</p>
+      </section>
+      <section id="section_kbt_zpd_h4b">
+         <title>Acis In</title>
+         <p>Command: ACISIN</p>
+      </section>
+      <section id="section_lbt_zpd_h4b">
+         <title>Acis Out</title>
+         <p>Command: ACISOUT</p>
+      </section>
+      <section id="section_mbt_zpd_h4b">
+         <title>Hyperlink</title>
+         <p>Command: HYPERLINK</p>
+      </section>
+   </conbody>
+</concept>

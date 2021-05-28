@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_opensheetset">
+   <title>OPENSHEETSET command</title>
+   <shortdesc>Opens the Select a Sheet Set File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_selectasheetsetfile" /> to select a dst file to open in the Sheet
+         Sets panel.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="document_tabs">
+   <title>Document tabs</title>
+   <shortdesc>For each currently open drawing, a document tab is located on top of the drawing
+      area.</shortdesc>
+   <conbody>
+      <p>Document tabs allow you to:<ul id="ul_ckw_h1x_smb">
+            <li>Easily switch between all open drawings.</li>
+            <li>Create a new drawing: click the <b>+</b> button on the right of the tabs.</li>
+            <li>Close a drawing: click the <b>X</b> in the document tab.</li>
+         </ul></p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006812433-The-BricsCAD-Application-Window#working-with-document-tabs" format="html" scope="external"/>-->
+         <link keyref="GD_the_start_tab" />
+      </linklist>
+   </related-links>
+</concept>
+
+

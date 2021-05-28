@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_saveasr12">
+   <title>SAVEASR12 Command</title>
+   <shortdesc>Opens the Save Drawing As Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_savedrawingas" /> to save data from the current drawing to an
+         R11/12 dwg file.</p>
+   </conbody>
+</concept>

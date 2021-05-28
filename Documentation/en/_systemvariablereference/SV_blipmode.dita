@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="blipmode" xml:lang="en-US">
+   <title id="title__Toc50994831">BLIPMODE system variable</title>
+   <conbody>
+      <section>
+         <title>Blip mode</title>
+         <p>Toggles the display of blips that are made as you pick points in the drawing.</p>
+         <table id="table_x3m_jzy_fnb">
+            <tgroup cols="2">
+               <colspec colname="c1" colnum="1" colwidth="1*" />
+               <colspec colname="c2" colnum="2" colwidth="3*" />
+               <tbody>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/type" />
+                     <entry>
+                        <p conkeyref="system_variable_warehouse/boolean" />
+                     </entry>
+                  </row>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/saved_in" />
+                     <entry>
+                        <p conkeyref="system_variable_warehouse/registry" />
+                     </entry>
+                  </row>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/default_value" />
+                     <entry><p conkeyref="system_variable_warehouse/off" /></entry>
+                  </row>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/possible_values" />
+                     <entry>
+                        <p>Off (0): Don’t display marker blips</p>
+                        <p>On (1): Display marker blips</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <fig id="fig_ggr_3zy_fnb">
+            <image href="https://static.bricsys.com/help/en_INTL/SV_blipmode_01_V21.png" id="image_hgr_3zy_fnb" scope="external" />
+         </fig>
+      </section>
+   </conbody>
+</concept>

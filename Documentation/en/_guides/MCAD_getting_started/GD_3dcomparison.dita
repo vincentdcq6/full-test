@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_3dcomparison">
+    <title>3D comparison</title>
+    <conbody>
+        <p>Command: <cmdname>3DCOMPARE</cmdname>.</p>
+        <p>You can compare two 3D models, for example 3D solids and surfaces stored in two DWG
+            files, including models imported in BricsCAD from other file formats. The tool can
+            process large models and reports the differences in the Mechanical Browser. Multiple
+            visualization modes are supported.</p>
+        <section id="section_a4q_qtf_rpb">
+            <title>Definitions</title>
+            <p>A 3D model is a DWG file with one or more 3D solids or surfaces. When comparing two
+                3D models, BricsCAD first tries to automatically align them in 3D space to obtain
+                the maximal similarity. Next, all faces of these 3D solids and surfaces are compared
+                geometrically with a given tolerance. If for every face in the first file an equal
+                face in the second file exists and vice versa, such models are considered as equal.
+                However, if for a particular face in one file there is no equal face found in
+                another file, or if only part of this face is equal to a part of a face in the other
+                file, a difference is detected. Therefore, a difference is a full face or a part of
+                a face of a 3D solid or a surface, for which there are no equal parts of full faces
+                found in the other file. Two or more differences are grouped together if they are
+                geometrically adjacent to each other.</p>
+            <p>A difference node is created in the Mechanical Browser for every group of adjacent
+                differences. If you expand this node, you can see the particular differences it
+                consists of. When you select the difference in the Mechanical Browser, the
+                corresponding feature is highlighted in the drawing.<fig id="fig_gz3_g45_kpb">
+                    <image href="https://static.bricsys.com/help/en_US/GD_MCAD_3dcomparison_01_V21.png" id="image_k5y_3pf_rpb" scope="external" />
+                </fig></p>
+        </section>
+        <section id="section_vym_stf_rpb">
+            <title>Toolbars</title>
+            <p>You can access the 3D Comparison procedure by using the tools on the
+                    <uicontrol>Compare 3D</uicontrol> panel on the <uicontrol>Tools</uicontrol>
+                    tab.<fig id="fig_hvm_kp5_kpb">
+                    <image href="https://static.bricsys.com/help/en_US/GD_MCAD_3dcomparison_02_V21.png" scope="external" id="image_vhg_r5f_rpb" />
+                </fig></p>
+        </section>
+        <section id="section_evl_vtf_rpb">
+            <title>Visualization</title>
+            <p>Use command <cmdname>3DCOMPARE</cmdname> to create a new DWG document named
+                    <b>Compare_&lt;File_1&gt;_&lt;File_2&gt;.dwg</b>. The compared models are
+                attached as external references to this drawing, A special layout named
+                    <b>Comparison</b> is created automatically with 2 viewports, one for each
+                drawing, illustrating the differences between the drawings by using colors.<fig id="fig_fqv_1q5_kpb">
+                    <image href="https://static.bricsys.com/help/en_US/GD_MCAD_3dcomparison_03_V21.png" scope="external" id="image_r12_t5f_rpb" />
+                </fig></p>
+            <p>The display is controlled via the <cmdname>3DCOMPAREMODE</cmdname> system variable.
+                If the value of <cmdname>3DCOMPAREMODE</cmdname> is different from 0 (zero), the
+                corresponding model becomes semi-transparent, while the differences are displayed
+                using different colors. Each difference is painted in its individual color. You can
+                zoom in on a particular difference using the Mechanical Browser context menu.</p>
+            <p>To display the differences, do one of the following: <ol id="ol_dhn_w5f_rpb">
+                    <li>Click the <uicontrol>Left Viewport</uicontrol> tool button (<image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/acis_leftviewport.png" id="image_ssw_yvf_rpb" outputclass="icon" scope="external" />) and/or the <uicontrol>Right
+                            Viewport</uicontrol> tool button (<image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/acis_rightviewport.png" outputclass="icon" id="image_w4c_1wf_rpb" scope="external" />).<fig id="fig_ijj_dwf_rpb">
+                            <image href="https://static.bricsys.com/help/en_US/GD_MCAD_3dcomparison_04_V21.png" scope="external" id="image_jjj_dwf_rpb" />
+                        </fig></li>
+                    <li>Double-click in one of the viewports.</li>
+                    <li>
+                        <p>Use the mouse/keyboard shortcuts to manipulate the display.</p>
+                        <p>Example: Zoom in/out or rotate.</p>
+                        <p>The display in the other viewport is synchronized automatically. This
+                            allows you to compare the same part in both models in detail.</p>
+                    </li>
+                </ol><ol id="ol_ek5_fwf_rpb">
+                    <li>
+                        <p>Click the <uicontrol>Single</uicontrol> tool button (<image href="https://static.bricsys.com/help/en_INTL/Icons/toolicons/64/light/acis_singleviewport.png" outputclass="icon" id="image_cy3_gwf_rpb" scope="external" />).</p>
+                        <p>The differences in model space are displayed.</p>
+                        <fig id="fig_blk_3wf_rpb">
+                            <image href="https://static.bricsys.com/help/en_US/GD_MCAD_3dcomparison_05_V21.png" scope="external" id="image_clk_3wf_rpb" />
+                        </fig>
+                    </li>
+                </ol></p>
+        </section>
+    </conbody>
+</concept>

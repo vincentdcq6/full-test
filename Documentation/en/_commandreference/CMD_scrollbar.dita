@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_scrollbar">
+   <title>SCROLLBAR command</title>
+   <shortdesc>Toggles the WNDLSCRL system variable.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias:--></p>
+      <p>Toggle the WNDLSCRL system variable to show or hide the drawing window scroll bars. You can
+         launch this command at the Command prompt or within another command by preceding it with an
+         apostrophe: ' WNDLSCRL.</p>
+      <p>
+         <ul id="ul_rzx_3fv_3pb">
+            <li>On: turns on the WNDLSCRL system variable.</li>
+            <li>Off: turns off the WNDLSCRL system variable.</li>
+            <li>Toggle: changes the WNDLSCRL system variable to the opposite of the current
+               setting.</li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_wndlscrl" />
+      </linklist>
+   </related-links>
+</concept>

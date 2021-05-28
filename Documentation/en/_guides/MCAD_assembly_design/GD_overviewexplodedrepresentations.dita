@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_overviewexplodedrepresentations">
+    <title>Overview</title>
+    <conbody>
+        <p>Use commands <cmdname>BMEXPLODE</cmdname>, <cmdname>BMEXPLODEMOVE</cmdname>,
+                <cmdname>BMTRAILINGLINES</cmdname>, and <cmdname>VIEWBASE</cmdname>.</p>
+        <p>The exploded representation functionality creates associative exploded representations of
+            assemblies and does not modify the assembly itself. Exploded representations are stored
+            in dedicated blocks, which can be edited and inserted according to your needs. You can
+            also generate drawing views from the exploded representations.</p>
+        <p>Exploded representations are associative. Each part in an exploded representation is
+            linked with the corresponding part in the assembly. Use command
+                <cmdname>BMBALLOON</cmdname> to update exploded representations to the current state
+            of the assembly, as well as place balloon annotations on the corresponding drawing
+            view(s).</p>
+        <p>
+            <fig id="fig_nxw_3m1_lpb">
+                <title>Example of Exploded Representation</title>
+                <image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/ExplodedRepresentation_DriveAssembly_ExplodedView.png" id="image_oxw_3m1_lpb" scope="external" width="120mm" />
+            </fig>
+        </p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

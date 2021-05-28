@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="sheetnumberleadingzeroes" xml:lang="en-US">
+   <title id="title__Toc50995675">SHEETNUMBERLEADINGZEROES system variable</title>
+   <conbody>
+      <section><title>Sheet number leading zeroes</title><p>Specifies how to format the 'Number' value of new sheets.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>1 to 8</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>1</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>1: 1 (1, 2, 3, ...)</p>
+                           <p>2: 2 (01, 02, 03, ...)</p>
+                           <p>3: 3 (001, 002, 003, ...)</p>
+                           <p>4: 4 (0001, 0002, 0003, ...)</p>
+                           <p>5: 5 (00001, 00002, 00003, ...)</p>
+                           <p>6: 6 (000001, 000002, 000003, ...)</p>
+                           <p>7: 7 (0000001, 0000002, 0000003, ...)</p>
+                           <p>8: 8 (00000001, 00000002, 00000003, ...)</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

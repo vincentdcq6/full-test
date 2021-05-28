@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_componentvisibility">
+    <title>Component Visibility</title>
+    <conbody>
+        <p>A component within a complex assembly may seem invisible due to other components
+            surrounding it. <div>Example: a piston is invisible inside a cylinder block. To make
+                such a component visible, you may need to hide the other components surrounding
+                it.</div></p>
+        <p>You can hide any subcomponent inserted into the current drawing or any subcomponents, on
+            any level of nesting.</p>
+        <p>You can also make a component transparent and/or visualize it as a wireframe model.</p>
+        <p>Use command <cmdname>BmHide</cmdname> to hide a particular subcomponent.</p>
+        <p>Use command <cmdname>BmShow</cmdname> to make a hidden subcomponent visible.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

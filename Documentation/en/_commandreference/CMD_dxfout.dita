@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<?xml-stylesheet type="text/css" href="../../../../OPE/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen.css"?>
+<?xml-stylesheet type="text/css" href="../../../../OPE/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css"?>
+<concept id="CMD_dxfout">
+   <title>DXFOUT command</title>
+   <shortdesc>Opens the Select DXF File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the Select <xref keyref="DB_loaddxffile" /> to save data from the current drawing to a
+         dxf file.</p>
+      <p>After choosing Save in the Dialog Box, you are prompted at the Command line:</p>
+      <p>
+         <dl>
+            <dlentry>
+               <dt>Enter decimal places of accuracy (0-16) </dt>
+               <dd>Specify the accuracy of real numbers in the dxf file. <!--exported entities? See comment in All File access Save Dialog Box commands.docx--> Some CNC (computerized numerical control) machines require 4 decimal places in dxf files.</dd>
+               <dd>Alternate options: [Entities/Binary/Version]</dd>
+            </dlentry>
+            <dlentry>
+               <dt outputclass="indent1">Entities</dt>
+               <dd outputclass="indent1">Specifies the entities to export. If unspecified, all entities are exported.</dd>
+            </dlentry>
+            <dlentry>
+               <dt outputclass="indent1">Binary</dt>
+               <dd outputclass="indent1">Specifies binary format for the dxf file. If unspecified, the dxf file is exported to ASCII (text) format.</dd>
+            </dlentry>
+            <dlentry>
+               <dt outputclass="indent1">Version</dt>
+               <dd outputclass="indent1">Specifies the DXF version number. If unspecified, the dxf file is exported to the most current version. Exporting to an older version can cause some entities or properties to be lost.</dd>
+            </dlentry>
+         </dl>
+      </p>
+   </conbody>
+</concept>

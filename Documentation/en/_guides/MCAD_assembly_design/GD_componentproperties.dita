@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_componentproperties">
+    <title>Component Properties</title>
+    <conbody>
+        <p>Component properties and context menus are located in the Mechanical Browser panel.</p>
+        <p>Component context menus display when you right-click the component. Component properties
+            display automatically when selecting one or more components in the Mechanical Browser
+            panel.</p>
+        <p>
+            <fig id="fig_ysv_rjd_jpb">
+                <title>Mechanical Browser</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360017887859/mceclip0.png" id="image_zsv_rjd_jpb" scope="external" />
+            </fig>
+        </p>
+        <p>Components can be: <b>Main</b>, <b>Insert</b> and <b>Subcomponent</b>.</p>
+        <p>
+            <table frame="all" id="table_rnh_rkd_jpb">
+                <title>Components</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="1*" />
+                    <colspec colname="c3" colnum="3" colwidth="1*" />
+                    <colspec colname="c4" colnum="4" colwidth="1*" />
+                    <thead>
+                        <row>
+                            <entry>Type of component</entry>
+                            <entry>Rendered visual style</entry>
+                            <entry>Wireframe visual style</entry>
+                            <entry>Hidden</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Component without subcomponents</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/Component_Icon.png" id="image_j5b_zkd_jpb" scope="external" /> *</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/Component_Wireframe_Icon.png" id="image_t1t_fld_jpb" scope="external" /> *</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/Component_Hidden_Icon.png" id="image_xz1_kld_jpb" scope="external" /> *</entry>
+                        </row>
+                        <row>
+                            <entry>Component with subcomponents</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/Subcomponent_Icon.png" id="image_dn3_bld_jpb" scope="external" /> *</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/Subcomponent_Wireframe_Icon.png" id="image_enh_hld_jpb" scope="external" /> *</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/Subcomponent_Hidden_Icon.png" id="image_kng_lld_jpb" scope="external" /> *</entry>
+                        </row>
+                        <row>
+                            <entry>Standard part component</entry>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/StandardPart_Icon.png" id="image_g5m_2ld_jpb" scope="external" /></entry>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/StandardPart_Wireframe_Icon.png" id="image_jq4_3ld_jpb" scope="external" /></entry>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/StandardPart_Hidden_Icon.png" id="image_xsc_nld_jpb" scope="external" /></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>* External components contain a green arrow: <image href="https://static.bricsys.com/help/en_US/V19/Common/ComponentExternal_Icon.png" id="image_zd2_2kd_jpb" scope="external" /> or <image href="https://static.bricsys.com/help/en_US/V19/Common/SubcomponentExternal_Icon.png" id="image_zkh_gkd_jpb" scope="external" />.</p>
+        <p>
+            <table frame="all" id="table_hck_fml_kpb">
+                <title>Component Properties</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="2.75*" />
+                    <thead>
+                        <row>
+                            <entry align="left">Context menus</entry>
+                            <entry />
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Main Component context menu</entry>
+                            <entry>Right-click the main component name:<p>
+                                    <fig id="fig_qvy_mcn_kpb">
+                                        <title>Main Component context menu</title>
+                                        <image href="https://help.bricsys.com/hc/article_attachments/360017890039/mceclip2.png" id="image_rvy_mcn_kpb" scope="external" />
+                                    </fig>
+                                </p><p>
+                                    <ul id="ul_cb5_kcn_kpb">
+                                        <li><uicontrol>Update</uicontrol>: update the hierarchy of
+                                            mechanical components for the current drawing in case
+                                            referenced drawing files of sub-components have been
+                                            modified.</li>
+                                        <li><uicontrol>Visual Style</uicontrol>: <uicontrol>All by
+                                                Viewport</uicontrol>: apply the current
+                                                <uicontrol>Visual Style</uicontrol> to all
+                                            components in the assembly (see command
+                                                <cmdname>ShadeMode</cmdname>).</li>
+                                        <li><uicontrol>Insert standard hardware</uicontrol>: insert
+                                            a standard hardware part as a mechanical component in
+                                            the current drawing.</li>
+                                        <li><uicontrol>Switch all to local</uicontrol>: switch all
+                                            components to internal components (see command
+                                                <cmdname>BmLocalize</cmdname>).</li>
+                                        <li><uicontrol>Switch all to external</uicontrol>: switch
+                                            all components to external components (see command
+                                                <cmdname>BmExternalize</cmdname>).</li>
+                                        <li><uicontrol>Add new parameter</uicontrol>: create a new
+                                            parameter in the assembly.</li>
+                                        <li><uicontrol>Select all</uicontrol>: select all components
+                                            with the same definition.</li>
+                                        <li><uicontrol>Select same</uicontrol>: select all
+                                            components with the same name and the same parameter
+                                            values.</li>
+                                        <li><uicontrol>Highlight all</uicontrol>: highlight all
+                                            components with the same definition.</li>
+                                        <li><uicontrol>Highlight same</uicontrol>: highlight all
+                                            components with the same name and the same parameter
+                                            values.</li>
+                                        <li><uicontrol>Create exploded view</uicontrol>: create a
+                                            block with an exploded representation of the current
+                                            assembly.</li>
+                                        <li><uicontrol>Collapse all</uicontrol>: collapse the main
+                                            component and all components and subcomponents.</li>
+                                        <li><uicontrol>Expand all</uicontrol>: expand the main
+                                            component and all components and subcomponents.</li>
+                                    </ul>
+                                </p></entry>
+                        </row>
+                        <row>
+                            <entry>Component context menu</entry>
+                            <entry>Right-click a component name.<p>External components context menu
+                                    (left), local components context menu (right):</p><p><image href="https://help.bricsys.com/hc/article_attachments/360017891259/mceclip4.png" id="image_r5h_z2n_kpb" scope="external" /><image href="https://help.bricsys.com/hc/article_attachments/360017891819/mceclip7.png" id="image_zcv_1fn_kpb" scope="external" /></p><p>
+                                    <ul id="ul_okb_w2n_kpb">
+                                        <li><uicontrol>Open</uicontrol>: opens the referenced
+                                            drawing (see command <cmdname>BmOpen</cmdname>).</li>
+                                        <li><uicontrol>Open a copy</uicontrol>: open a copy of a
+                                            component insert as a new drawing (see command
+                                                <cmdname>BmOpenCopy</cmdname>).</li>
+                                        <li><uicontrol>Update</uicontrol>: reload all referenced
+                                            components from external files and update BOM tables
+                                            (see command <cmdname>BmUpdate</cmdname>).</li>
+                                        <li><uicontrol>Replace</uicontrol>: replace a component
+                                            insert (see command <cmdname>BmReplace</cmdname>).
+                                            Replacing a local insert turns it into an external
+                                            insert.</li>
+                                        <li><uicontrol>Replace all inserts</uicontrol>: replace all
+                                            inserts that refer to the same source (see command
+                                                <cmdname>BmReplace</cmdname>). Replacing local
+                                            inserts turns them into external inserts.</li>
+                                        <li><uicontrol>Switch to local</uicontrol>: switch an
+                                            external component to an internal component (see command
+                                                <cmdname>BmLocalize</cmdname>).</li>
+                                        <li><uicontrol>Switch to external</uicontrol>: switch an
+                                            internal component to an external component (see command
+                                                <cmdname>BmExternalize</cmdname>).</li>
+                                        <li><uicontrol>Set material to component</uicontrol>: assign
+                                            a physical material to a local component.</li>
+                                        <li><uicontrol>Remove material from component</uicontrol>:
+                                            remove the physical material definition from a local
+                                            component.</li>
+                                        <li><uicontrol>BOM status</uicontrol>: parameter to control
+                                            the appearance of the component in BOM tables.</li>
+                                        <li><uicontrol>Dissolve</uicontrol>: dissolve a mechanical
+                                            component inserted in the current drawing (see command
+                                                <cmdname>BmDissolve</cmdname>).</li>
+                                        <li><uicontrol>Unlink</uicontrol>: break the connection
+                                            between a component insert (for example a Window) and a
+                                            3D solid (for example a Wall) retaining the
+                                            opening.</li>
+                                        <li><uicontrol>Hide</uicontrol> (<image href="https://static.bricsys.com/help/en_US/V19/Common/Hide_Button.png" id="image_sj3_bhn_kpb" scope="external" />) /
+                                                <uicontrol>Show</uicontrol> (<image href="https://static.bricsys.com/help/en_US/V19/Common/Show_Button.png" id="image_i3c_dhn_kpb" scope="external" />): hide or
+                                            show the selected component.</li>
+                                        <li><uicontrol>Exclude all inserts from section</uicontrol>:
+                                            set the <uicontrol>Sectionable</uicontrol> property of
+                                            all similar inserts to <varname>NO</varname>. Define
+                                            whether an insert is affected by command
+                                                <cmdname>ViewSection</cmdname>.</li>
+                                        <li><uicontrol>Visual Style</uicontrol>: display the
+                                                <uicontrol>Visual Style</uicontrol> menu. All Visual
+                                            Styles that are saved in the current drawing are
+                                                available.<ul id="ul_ysv_43n_kpb">
+                                                <li><uicontrol>By parent component</uicontrol>:
+                                                  render the selected component according to the
+                                                  shademode of the parent component (see command
+                                                  <cmdname>ShadeMode</cmdname>).</li>
+                                                <li><uicontrol>All by Viewport</uicontrol>: render
+                                                  all components according to the current viewport
+                                                  shademode (see command
+                                                  <cmdname>ShadeMode</cmdname>).</li>
+                                            </ul></li>
+                                        <li><uicontrol>Zoom to</uicontrol>: zoom to the selection
+                                            set.</li>
+                                        <li><uicontrol>Select all</uicontrol>: select all components
+                                            with the same definition.</li>
+                                        <li><uicontrol>Select same</uicontrol>: select all
+                                            components with the same definition and the same
+                                            parameter values.</li>
+                                        <li><uicontrol>Highlight all</uicontrol>: highlight all
+                                            components with the same definition.</li>
+                                        <li><uicontrol>Highlight same</uicontrol>: highlight all
+                                            components with the same definition and the same
+                                            parameter values.</li>
+                                        <li><uicontrol>Delete</uicontrol>: remove the selected
+                                            component and its subcomponents from the assembly.</li>
+                                        <li><uicontrol>Collapse all</uicontrol>: collapse the main
+                                            component and all components and subcomponents.</li>
+                                        <li><uicontrol>Expand all</uicontrol>: expand the main
+                                            component and all components and subcomponents.</li>
+                                    </ul>
+                                </p></entry>
+                        </row>
+                        <row>
+                            <entry>Subcomponent context menu</entry>
+                            <entry>External subcomponents context menu (left), local subcomponents
+                                context menu (right):<p>
+                                    <fig id="fig_lw1_tpl_kpb">
+                                        <image href="https://help.bricsys.com/hc/article_attachments/360017877240/mceclip5.png" id="image_mw1_tpl_kpb" scope="external" />
+                                        <image href="https://help.bricsys.com/hc/article_attachments/360017891499/mceclip6.png" id="image_nl3_1ql_kpb" scope="external" />
+                                    </fig>
+                                </p><p>
+                                    <ul id="ul_wvh_1rl_kpb">
+                                        <li><uicontrol>Open</uicontrol>: open the referenced drawing
+                                            (see command <cmdname>BmOpen</cmdname>).</li>
+                                        <li><uicontrol>Open a copy</uicontrol>: open a copy of a
+                                            component insert as a new drawing (see command
+                                                <cmdname>BmOpenCopy</cmdname>)</li>
+                                        <li><uicontrol>Hide</uicontrol> (<image href="https://static.bricsys.com/help/en_US/V19/Common/Hide_Button.png" id="image_nnx_2wl_kpb" scope="external" />) /
+                                                <uicontrol>Show</uicontrol> (<image href="https://static.bricsys.com/help/en_US/V19/Common/Show_Button.png" id="image_c2d_hwl_kpb" scope="external" />): hide or
+                                            show the selected subcomponent.</li>
+                                        <li><uicontrol>Exclude all inserts from section</uicontrol>:
+                                            sets the <b>Sectionable</b> property of all similar
+                                            inserts to <varname>NO</varname>. Define whether an
+                                            insert is affected by command
+                                                <cmdname>ViewSection</cmdname>.</li>
+                                        <li><uicontrol>Visual Style</uicontrol>: see Component
+                                            Visual Style.</li>
+                                        <li><uicontrol>Zoom to</uicontrol>: zoom to the selection
+                                            set.</li>
+                                        <li><uicontrol>Select all</uicontrol>: select all components
+                                            with the same definition.</li>
+                                        <li><uicontrol>Select same</uicontrol>: select all
+                                            components with the same definition and the same
+                                            parameter values.</li>
+                                        <li><uicontrol>Highlight all</uicontrol>: highlight all
+                                            components with the same definition.</li>
+                                        <li><uicontrol>Highlight same</uicontrol>: highlight all
+                                            components with the same definition and the same
+                                            parameter values.</li>
+                                        <li><uicontrol>Collapse all</uicontrol>: collapse the main
+                                            component and all components and subcomponents.</li>
+                                        <li><uicontrol>Expand all</uicontrol>: expand the main
+                                            component and all components and subcomponents.</li>
+                                    </ul>
+                                </p></entry>
+                        </row>
+                        <row>
+                            <entry>Component parameter context menu</entry>
+                            <entry>Right-click a parameter:<p>
+                                    <ul id="ul_jmj_5ml_kpb">
+                                        <li><uicontrol>Link to parameter</uicontrol>: create a link
+                                            between one or more component parameters and assembly
+                                            parameters.</li>
+                                        <li><uicontrol>Collapse all</uicontrol>: collapse the main
+                                            component and all components and subcomponents.</li>
+                                        <li><uicontrol>Expand all</uicontrol>: expand the main
+                                            component and all components and subcomponents.</li>
+                                    </ul>
+                                </p></entry>
+                        </row>
+                        <row>
+                            <entry><b>Properties</b></entry>
+                            <entry />
+                        </row>
+                        <row>
+                            <entry>Main component properties</entry>
+                            <entry>Click the main component name:<p>
+                                    <fig id="fig_pj3_rnm_kpb">
+                                        <title>Main component properties</title>
+                                        <image href="https://help.bricsys.com/hc/article_attachments/360017918020/mceclip2.png" id="image_qj3_rnm_kpb" scope="external" />
+                                    </fig>
+                                </p><p>
+                                    <ul id="ul_m1k_snm_kpb">
+                                        <li><uicontrol>Name</uicontrol>: type a name for the main
+                                            component. By default, the name of the main component
+                                            equals the file name.</li>
+                                        <li><uicontrol>Description</uicontrol>: optional description
+                                            of the main component.</li>
+                                        <li><uicontrol>File</uicontrol>: show the path and name of
+                                            the drawing.</li>
+                                        <li><uicontrol>Extension type</uicontrol>: identify the
+                                            component as a BIM Component or a Sheet Metal
+                                            Feature.</li>
+                                        <li><uicontrol>Insert as</uicontrol>: select
+                                                <uicontrol>Internal Component</uicontrol> or
+                                                <uicontrol>External Component</uicontrol>.</li>
+                                        <li><uicontrol>Sectionable</uicontrol>: define whether the
+                                            component is affected by command
+                                                <cmdname>ViewSection</cmdname>.</li>
+                                        <li><uicontrol>Standard component</uicontrol>: define
+                                            whether this component is a standard component or
+                                            not.</li>
+                                        <li><uicontrol>BOM status</uicontrol>: define the behavior
+                                            of this component in a BOM table.</li>
+                                        <li><uicontrol>Material</uicontrol>: material of the main
+                                                component.<div>The <uicontrol>Name</uicontrol>,
+                                                  <uicontrol>Density</uicontrol>, and the optional
+                                                  <uicontrol>Description</uicontrol> are defined in
+                                                the Physical Materials dialog box.<div>Select the
+                                                  <uicontrol>Material</uicontrol> node and perform
+                                                  one of the following:<ul id="ul_h3r_kzm_kpb">
+                                                  <li>
+                                                  <p>Click the <uicontrol>Browse</uicontrol> button
+                                                  (<image href="https://static.bricsys.com/help/en_US/V19/Common/browse.png" id="image_mc3_qzm_kpb" scope="external" />) to open
+                                                  the Physical Materials dialog and choose a
+                                                  material in the Project or Library list. <div>The
+                                                  Density property of the selected material is used
+                                                  by command
+                                                  <cmdname>BmMassProp</cmdname>.</div></p>
+                                                  </li>
+                                                  <li>Click the <uicontrol>Delete</uicontrol> button
+                                                  (<image href="https://static.bricsys.com/help/en_US/V19/Common/DeleteBrowse_Button.png" id="image_iqs_szm_kpb" scope="external" />).
+                                                  <div>The <uicontrol>Material</uicontrol> field now
+                                                  reads &lt;<varname>Inherit</varname>&gt;. When the
+                                                  component is inserted in an assembly, the
+                                                  <uicontrol>Material</uicontrol> definition is
+                                                  copied from the main component of the
+                                                  assembly.</div></li>
+                                                  </ul></div></div></li>
+                                    </ul>
+                                </p></entry>
+                        </row>
+                        <row>
+                            <entry>Component insert properties</entry>
+                            <entry>Click the component name:<p>
+                                    <fig id="fig_u55_y2m_kpb">
+                                        <title>Component insert properties</title>
+                                        <image href="https://help.bricsys.com/hc/article_attachments/360017931239/mceclip6.png" id="image_v55_y2m_kpb" scope="external" />
+                                    </fig>
+                                </p><p>
+                                    <ul id="ul_rfn_1fm_kpb">
+                                        <li><uicontrol>Name</uicontrol>: type a name for the
+                                            component. By default, the name of the component equals
+                                            the source file name.</li>
+                                        <li><uicontrol>Component name</uicontrol>: name of the
+                                            component as defined in the source file.</li>
+                                        <li><uicontrol>Description</uicontrol>: description of the
+                                            component as defined in the source file.</li>
+                                        <li><uicontrol>Visible</uicontrol>: show or hide the
+                                            component in the assembly.<div>
+                                                <div>Choose between:</div>
+                                                <ul id="ul_i4x_ngm_kpb">
+                                                  <li>Click the <uicontrol>Visible</uicontrol>
+                                                  field, click the down arrow button and choose
+                                                  <varname>Yes</varname> or
+                                                  <varname>No</varname>.</li>
+                                                  <li>Double-click the
+                                                  <uicontrol>Visible</uicontrol> field to toggle the
+                                                  visibility of the component.</li>
+                                                </ul>
+                                            </div></li>
+                                        <li><uicontrol>Sectionable</uicontrol>: define whether the
+                                            component is affected by command
+                                                <cmdname>ViewSection</cmdname>.</li>
+                                        <li><uicontrol>Standard component</uicontrol>: define
+                                            whether this component is standard or not.</li>
+                                        <li><uicontrol>BOM status</uicontrol>: define the behavior
+                                            of this component in a BOM table.</li>
+                                        <li><uicontrol>Visual style</uicontrol>: allow to control
+                                            the visual style for the component. By default, the
+                                            visual style is inherited from the viewport.<div>Click
+                                                the <uicontrol>Visual style</uicontrol> field, click
+                                                the down arrow button, and choose a visual style in
+                                                the list.</div></li>
+                                        <li><uicontrol>File</uicontrol>: show the path and name of
+                                            the referenced drawing.</li>
+                                        <li><uicontrol>Material</uicontrol>: show the material of
+                                            the component.<div>If set to
+                                                  <varname>&lt;Inherit&gt;</varname>, the material is
+                                                copied from the main component.</div><div>If the
+                                                material is defined explicitly in the source file,
+                                                this material is used.</div></li>
+                                    </ul>
+                                </p></entry>
+                        </row>
+                        <row>
+                            <entry>Subcomponent properties</entry>
+                            <entry>Click the subcomponent name:<p>
+                                    <fig id="fig_lz3_jcm_kpb">
+                                        <title>Subcomponent properties</title>
+                                        <image href="https://help.bricsys.com/hc/article_attachments/360017931199/mceclip5.png" id="image_mz3_jcm_kpb" scope="external" />
+                                    </fig>
+                                </p><p>
+                                    <ul id="ul_qb2_lcm_kpb">
+                                        <li><uicontrol>Name</uicontrol>: name of the component as
+                                            defined in the source file of the parent component.</li>
+                                        <li><uicontrol>Component name</uicontrol>: name of the
+                                            component as defined in the source file.</li>
+                                        <li><uicontrol>Description</uicontrol>: description of the
+                                            component as defined in the source file.</li>
+                                        <li><uicontrol>Visible</uicontrol>: show or hide the
+                                            component in the assembly.<div>Choose between:</div><ul id="ul_jps_vdm_kpb">
+                                                <li>Click the <uicontrol>Visible</uicontrol> field,
+                                                  click the down arrow button and choose
+                                                  <varname>Yes</varname> or
+                                                  <varname>No</varname>.</li>
+                                                <li>Double-click the <uicontrol>Visible</uicontrol>
+                                                  field to toggle the visibility of the
+                                                  component.</li>
+                                            </ul></li>
+                                        <li><uicontrol>Sectionable</uicontrol>: define whether the
+                                            component is affected by command
+                                                <cmdname>ViewSection</cmdname>.</li>
+                                        <li><uicontrol>Standard component</uicontrol>: define
+                                            whether this component is standard or not.</li>
+                                        <li><uicontrol>BOM status</uicontrol>: define the behavior
+                                            of this component in a BOM table.</li>
+                                        <li><uicontrol>Visual style</uicontrol>: control the visual
+                                            style for the component. By default, the visual style is
+                                            inherited from the viewport.<div>Click the
+                                                  <uicontrol>Visual style</uicontrol> field, click
+                                                the down arrow button, and choose a visual style in
+                                                the list.</div></li>
+                                        <li><uicontrol>File</uicontrol>: show the path and name of
+                                            the referenced drawing.</li>
+                                        <li><uicontrol>Material</uicontrol>: show the material of
+                                            the subcomponent.<div>If set to
+                                                  <varname>&lt;Inherit&gt;</varname>, the material is
+                                                copied from the main component.</div><div>If the
+                                                material is defined explicitly in the source file,
+                                                this material is used.</div></li>
+                                    </ul>
+                                </p></entry>
+                        </row>
+                        <row>
+                            <entry><b>Selection methods</b></entry>
+                            <entry />
+                        </row>
+                        <row>
+                            <entry>Select component(s) in the model</entry>
+                            <entry>The component(s) highlights in the Mechanical Browser.</entry>
+                        </row>
+                        <row>
+                            <entry>Click a component in the Mechanical Browser panel</entry>
+                            <entry>The component highlights in the drawing. Press the space bar to
+                                select the component.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

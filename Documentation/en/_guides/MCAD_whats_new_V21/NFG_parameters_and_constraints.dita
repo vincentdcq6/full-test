@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="AFF17A2A-33B4DDB-7C4123C5A024A45-B76EF0">
+   <title>Parameters and constraints</title>
+   <shortdesc><!--TBA--></shortdesc>
+
+   <conbody>
+      <section id="section_tlw_v1w_54b">
+         <title>Piping</title>
+         <p>Along with the release of the piping standardized parts, a new BMCONNECT command will
+            automatically constrain the selected pieces based on their proximity to each other.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_bmconnect" />
+      </linklist>
+   </related-links>
+</concept>

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DE_blockreference">
+   <title>Block reference entities</title>
+   <shortdesc>A Block Reference is an entity that references a block definition within the current
+      drawing.</shortdesc>
+   <conbody>
+      <p> It can contain any combination of entities including 2D and 3D. You can create Block
+         Reference entities using several methods including the INSERT command. Modify Block
+         Reference entities with relevant grips and properties in addition to general editing
+         tools.</p>
+      <section id="section_ob5_2z1_g4b">
+         <title>Block Reference Grips</title>
+         <p>A selected Block Reference entity displays a grip at its insertion point. The grip
+            allows you to move the Block Reference. Grip Settings
+            <!--link to Grips System Variable?-->enable you to control the appearance and behavior
+            of grips.</p>
+         <p>
+            <fig id="fig_tqp_1b2_f4b">
+               <image href="https://static.bricsys.com/help/en_US/DE_blockreference_01_V21.png" id="image_vfx_gyd_f4b" scope="external" />
+            </fig>
+         </p>
+      </section>
+      <section id="section_rd5_2z1_g4b">
+         <title>Block Reference Properties </title>
+         <p>A selected Block Reference entity displays Geometry and Misc properties in addition to General and 3D Visualization properties. Extra properties may be displayed for dynamic and parametric blocks.</p>
+         <p>
+            <fig id="fig_wd1_fb2_f4b">
+               <image href="https://static.bricsys.com/help/en_US/DE_blockreference_02_V21.png" scope="external" id="image_xd1_fb2_f4b" />
+            </fig>
+         </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Geometry</dt>
+                  <dd>Geometry properties describe the geometric characteristics of the entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Position</dt>
+                  <dd outputclass="indent1">Describes the absolute coordinates of the insertion point in the UCS, based on
+                     the cartesian coordinate system (X,Y,Z).</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Scale X</dt>
+                  <dd outputclass="indent1">Describes the scale factor along the X axis.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Scale Y</dt>
+                  <dd outputclass="indent1">Describes the scale factor along the Y axis.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Scale Z</dt>
+                  <dd outputclass="indent1">Describes the scale factor along the Z axis.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">UCS Elevation (read only)</dt>
+                  <dd outputclass="indent1">Describes the lowest (minimum) and highest (maximum) elevations of the entity
+                     in the current UCS. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Slope (read only)</dt>
+                  <dd outputclass="indent1">Describes the angle of the entity from the XY-plane.</dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Misc</dt>
+                  <dd>Misc properties describe additional characteristics of the entity.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Annotative (read only) </dt>
+                  <dd outputclass="indent1">Describes whether the entity is annotative.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Name (read only) </dt>
+                  <dd outputclass="indent1">Describes the entity name.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Path</dt>
+                  <dd outputclass="indent1"><!--TBA--></dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Rotation</dt>
+                  <dd outputclass="indent1">Describes the rotation of the entity in the XY plane.
+                  </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Block unit (read only) </dt>
+                  <dd outputclass="indent1">Describes the insertion units of the block as defined by
+                     the <xref keyref="SV_insunits" /> in the block definition.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Unit factor (read only) </dt>
+                  <dd outputclass="indent1">Describes the ratio of the block insertion units to the
+                     drawing insertion units as defined by the <xref keyref="SV_insunits" /> in the
+                     block definition and the current drawing.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Explodable (read only)</dt>
+                  <dd outputclass="indent1">Describes whether the block can be exploded.</dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Custom</dt>
+                  <dd>Custom properties describe the available options for a dynamic block. </dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>BIM</dt>
+                  <dd>BIM properties describe the available options for a BIM block. </dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt><b>Mechanical component </b></dt>
+                  <dd>Mechanical component properties describe the available options for a
+                     mechanical block.</dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Instance properties </dt>
+                  <dd>Instance properties describe the name of the block as a variation from the
+                     original block name. Typically this is the name of the block followed by an
+                     incremental number.</dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Standard part</dt>
+                  <dd>Standard part properties describe the entity if it came from the Bricsys
+                     Standard Parts library.</dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Parameters</dt>
+                  <dd>Parameters properties describe the editable characteristics of the
+                     entity.</dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Component’s material</dt>
+                  <dd>Component’s materials properties describe the materials of the entity.</dd>
+               </dlentry>
+            </dl>
+         </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Mass</dt>
+                  <dd>Mass properties describe the volume and mass of the entity.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+</concept>

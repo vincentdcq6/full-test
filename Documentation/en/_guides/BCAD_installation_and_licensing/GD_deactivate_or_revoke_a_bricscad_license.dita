@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="deactivate_or_revoke_a_bricscad_license">
+   <title>Deactivating or revoking a <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />
+      license</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <context id="context_gtq_332_wmb">Use this procedure to:<ul id="ul_j5x_m32_wmb">
+            <li>Migrate a license to another computer.</li>
+            <li>Permanently remove <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> from a
+               computer.</li>
+            <li>Reactivate <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> after installing a
+               new hard disk, changing partitions, or upgrading the operating system.</li>
+         </ul><p>To deactivate a <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> license, an
+            internet connection is required. You cannot manually deactivate a license via another
+            computer that is connected to the internet.</p><p>You cannot deactivate:<ul id="ul_bpz_yfp_x4b">
+               <li>Single and volume licenses that are manually activated.</li>
+               <li>Network licenses.</li>
+               <li>Trial licenses.</li>
+            </ul></p><p>The chart explains how to deactivate a <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> license. If it is not possible to
+            deactivate a <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> license, you can
+            revoke the license.<fig id="fig_blk_dvh_smb">
+               <image href="https://static.bricsys.com/help/en_US/V18/BricsCAD/source/ART/DeactivationRevocation.png" id="image_f2k_cvh_smb" scope="external" />
+            </fig></p></context>
+   </taskbody>
+   <task id="task_qgt_p32_wmb">
+      <title>Deactivating a license</title>
+      <taskbody>
+         <steps id="steps_aqp_q32_wmb">
+            <step>
+               <cmd>Launch the LICENSEMANAGER command. Click the <uicontrol>Manage
+                     License</uicontrol> option on the <uicontrol>Bricsys License
+                     Manager</uicontrol> dialog box.</cmd>
+               <stepresult>The <uicontrol>Licensing Information</uicontrol> dialog box
+                  displays.</stepresult>
+            </step>
+            <step>
+               <cmd>If your computer connects to the license server through a proxy server, click
+                     <uicontrol>Proxy Settings...</uicontrol> to configure the proxy settings.</cmd>
+            </step>
+            <step>
+               <cmd>Click <uicontrol>Deactivate...</uicontrol></cmd>
+               <info>
+                  <fig id="fig_nf4_532_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V18/BricsCAD/source/ART/DeactivateLicenseWarning.png" scope="external" id="image_of4_532_wmb" />
+                  </fig>
+               </info>
+            </step>
+            <step>
+               <cmd>Click the <uicontrol>Yes</uicontrol> button on the confirmation dialog box to deactivate the license.</cmd>
+               <stepresult>The license is deactivated and can be activated on another computer.</stepresult>
+            </step>
+         </steps>
+      </taskbody>
+   </task>
+   <task id="task_td4_y32_wmb">
+      <title>Revoking a license</title>
+      <taskbody>
+         <context id="context_apt_z32_wmb">Only revoke a license if deactivation is not possible.<p>Use this procedure to:<ul id="ul_hlp_1j2_wmb">
+                  <li>Deactivate a network license or a single or volume license manually that is manually activated.</li>
+                  <li>Reactivate <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> after a hard
+                     disk crash.</li>
+                  <li>Reactivate <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> after
+                     installing a new hard disk, changing partitions, or upgrading the operating
+                     system.</li>
+                  <li>Migrate a license to another computer.</li>
+                  <li>Permanently remove <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> from
+                     a computer.</li>
+               </ul></p></context>
+         <steps id="steps_tpy_y32_wmb">
+            <step>
+               <cmd>Log in to the Bricsys website.</cmd>
+               <info>Make sure you log in with the Bricsys account containing your licenses.</info>
+            </step>
+            <step>
+               <cmd>Click the <uicontrol>My Account</uicontrol> icon (<image href="https://static.bricsys.com/help/en_US/V20/Common/MyAccount_Icon.png" scope="external" id="image_kkz_hj2_wmb" />) and select <uicontrol>Manage Licenses</uicontrol> in the menu.</cmd>
+               <info>
+                  <fig id="fig_qwp_3j2_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/MyAccount_Menu_ManageLicenses.png" scope="external" id="image_rwp_3j2_wmb" />
+                  </fig>
+               </info>
+            </step>
+            <step>
+               <cmd>Hover over the license key of the license you want to revoke and click on the pencil icon (<image href="https://static.bricsys.com/help/en_US/V20/Common/Pencil_Icon.png" scope="external" id="image_u1z_jj2_wmb" />).</cmd>
+               <info>
+                  <fig id="fig_jkg_51g_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V19/BCAD/Installation%20%26%20Settings/LicenseDetails_Icon.png" id="image_rpx_dk2_wmb" scope="external"><!--link genereert error in Miramo--></image>
+                  </fig>
+               </info>
+            </step>
+            <step>
+               <cmd>Scroll down and click the <uicontrol>X</uicontrol> icon to revoke the license.</cmd>
+               <info>
+                  <fig id="fig_uqr_kj2_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V19/BCAD/Installation%20%26%20Settings/RevokeLicense.png" scope="external" id="image_vqr_kj2_wmb"><!-- link genereert error in Miramo--></image>
+                  </fig>
+               </info>
+            </step>
+         </steps>
+      </taskbody>
+      <related-links>
+         <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_licensemanager" />
+         </linklist>
+         <linklist>
+            <title>Related information</title>
+            <link keyref="GD_proxy_settings" />
+            <link keyref="GD_modify_a_bricscad_license" />
+            <link keyref="GD_migrate_my_license_to_another_computer" />
+         </linklist>
+      </related-links>
+   </task>
+</task>
+

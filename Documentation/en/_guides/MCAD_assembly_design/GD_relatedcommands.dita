@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_relatedcommands">
+    <title>Related commands</title>
+    <conbody>
+        <p>
+            <table frame="all" id="table_xng_qc1_lpb">
+                <title>Related commands</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="2.71*" />
+                    <thead>
+                        <row>
+                            <entry>Command</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><cmdname>3dArray</cmdname>
+                            </entry>
+                            <entry>Create 3D arrays.</entry>
+                        </row>
+                        <row>
+                            <entry><cmdname>Array</cmdname></entry>
+                            <entry>Create a polar or rectangular array of entities; display prompts
+                                at the command bar.</entry>
+                        </row>
+                        <row>
+                            <entry><cmdname>ArrayClassic</cmdname></entry>
+                            <entry>Create a static polar or rectangular array of entities through a
+                                dialog box.</entry>
+                        </row>
+                        <row>
+                            <entry><cmdname>ArrayEdit</cmdname></entry>
+                            <entry>Edit associative array entities and their source
+                                entities.</entry>
+                        </row>
+                        <row>
+                            <entry><cmdname>ArrayPath</cmdname></entry>
+                            <entry>Associatively distribute entity copies evenly along a path into
+                                multiple rows and levels.</entry>
+                        </row>
+                        <row>
+                            <entry><cmdname>ArrayPolar</cmdname></entry>
+                            <entry>Associatively distribute entity copies evenly in a circular
+                                pattern about a center point or axis of rotation, using multiple
+                                rows and levels.</entry>
+                        </row>
+                        <row>
+                            <entry><cmdname>ArrayRect</cmdname></entry>
+                            <entry>Associatively distribute entity copies into any number of rows,
+                                columns, and levels.</entry>
+                        </row>
+                        <row>
+                            <entry><cmdname>MInsert</cmdname></entry>
+                            <entry>Insert arrays of blocks.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

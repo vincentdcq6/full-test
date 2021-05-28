@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="license_type">
+   <title>License types</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>There are 2 license types for <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />:<ul id="ul_c3s_bfc_cnb">
+            <li>Perpetual license.</li>
+            <li>Rental license.</li>
+         </ul></p>
+      <section id="section_gch_twg_smb">
+         <title>Perpetual license</title>
+         <p>When you purchase a perpetual license, you own the software. <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> editions run on Microsoft
+            Windows, macOS and Linux.</p>
+         <p>There are 2 maintenance options:<ul id="ul_g4v_wfc_cnb">
+               <li>The maintenance option includes automatic upgrades and support.</li>
+               <li>You can purchase upgrades at your discretion.</li>
+            </ul></p>
+      </section>
+      <section id="section_hch_twg_smb">
+         <title>Rental license</title>
+         <p>When you choose the rental option, you have access to the latest version of <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> for 1 year. It includes Priority
+            Support and access to all new versions that are released during the time your
+            subscription is active.</p>
+      </section>
+   </conbody>
+</concept>
+

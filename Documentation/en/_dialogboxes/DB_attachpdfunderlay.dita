@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_attachpdfunderlay">
+    <title>Attach PDF underlay dialog box</title>
+    <shortdesc>The Attach PDF underlay dialog box allows you to attach a PDF file as an underlay
+        into the current drawing.</shortdesc>
+    <conbody>
+        <p>It includes 9 areas.</p>
+        <fig id="fig_lvp_35j_qpb">
+            <image href="https://static.bricsys.com/help/en_US/DB_attachpdfunderlay_01_V21.png" id="image_zcb_2vj_qpb" scope="external" />
+            <ol id="ol_skf_j5j_qpb">
+                <li>Help</li>
+                <li>Name</li>
+                <li>Page</li>
+                <li>Browse</li>
+                <li>Path</li>
+                <li>Path type</li>
+                <li>Insertion Point</li>
+                <li>Scale</li>
+                <li>Rotation</li>
+            </ol>
+        </fig>
+        <section id="section_ttx_fvj_qpb">
+            <title>Help</title>
+            <p>Opens the Bricsys Help article about the -PDFATTACH command.</p>
+        </section>
+        <section id="section_ihj_gvj_qpb">
+            <title>Name</title>
+            <p>Displays the file name of the PDF file to attach. When more than one PDF file has
+                been attached to the drawing, their names are listed in the drop-down list.</p>
+        </section>
+        <section id="section_sfm_gvj_qpb">
+            <title>Page</title>
+            <p>Allows you to display the page you want from the whole PDF file. You can change the
+                number of the page from the drop-down arrow list.</p>
+        </section>
+        <section id="section_gbq_gvj_qpb">
+            <title>Browse</title>
+            <p>Opens the Select PDF Underlay File dialog Box from where you can select another PDF
+                file than the one already selected.</p>
+        </section>
+        <section id="section_rbt_gvj_qpb">
+            <title>Path</title>
+            <p>Displays the path of the file according to the path type you choose.</p>
+        </section>
+        <section id="section_jkw_gvj_qpb">
+            <title>Path type</title>
+            <p>Choose the way the program remembers the path to the PDF file. You can select from
+                the Path drop-down list one of the following options:</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Full path</dt>
+                        <dd>Stores the drive and the folder(s) name to the PDF file as an absolute
+                            reference such as: C:\Users\user\PDFATTACH\filename.pdf</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Relative path</dt>
+                        <dd>Stores the part of the path to PDF file’s folder, such as
+                            .\filename.pdf. This option does not work until the drawing has been
+                            saved at least once. (..\ means one folder higher)</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>No path</dt>
+                        <dd>Strips the drive and folder names, leaving just the PDF file name, such
+                            as filename.pdf.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_src_nvj_qpb">
+            <title>Insertion Point</title>
+            <p>Specifies the location of the underlay’s lower-left corner.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Specify On-screen</dt>
+                        <dd>Determines how the insertion point is specified. <ul id="ul_ibr_pvj_qpb">
+                                <li>On: specify the insertion point in the drawing after the dialog
+                                    box is closed.</li>
+                                <li>Off: specify the insertion point in the dialog box, using the X,
+                                    Y and Z fields.</li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>X, Y, Z</dt>
+                        <dd>Specifies the x, y, z coordinates for the PDF underlay’s insertion
+                            point. Use 0,0,0 to insert the underlay at the drawing’s origin.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_n5r_rvj_qpb">
+            <title>Scale</title>
+            <p>Specifies the size of the PDF underlay:</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Specify On-screen</dt>
+                        <dd>Determines how the scale factors are specified:<ul id="ul_ivn_tvj_qpb">
+                                <li>On: specify the scale factor in the drawing after the dialog box
+                                    is closed.</li>
+                                <li>Off: specify the scale factor in the dialog box using the X and
+                                    Y fields.</li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>X,Y</dt>
+                        <dd>Specifies the scale factors along the X and Y axes.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Uniform scale</dt>
+                        <dd>Makes the Y scale factor equal to X.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_ykj_xvj_qpb">
+            <title>Rotation</title>
+            <p>Specifies the rotation angle of the PDF underlay:</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Specify On-screen</dt>
+                        <dd>Determines how the rotation angle is specified:<ul id="ul_hrg_yvj_qpb">
+                                <li>On: specify the rotation angle in the drawing after the dialog
+                                    box is closed.</li>
+                                <li>Off: specify the rotation angle in the dialog in Angle field.</li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Angle</dt>
+                        <dd>Specifies the rotation angle about the insertion point. Positive angles
+                            rotate the underlay counterclockwise. Negative angles rotate the image
+                            clockwise. Use 0 to keep the underlay at its original orientation.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_pdfadjust" />
+            <link keyref="CMD_pdfattach" />
+            <link keyref="CMD_-pdfattach" />
+            <link keyref="CMD_pdfclip" />
+            <link keyref="CMD_pdflayers" />
+            <link keyref="CMD_xref" />
+            <!--to add:
+To control the PDF underlay caching 
+To attach a PDF underlay 
+To insert a PDF underlay 
+To control the display of a PDF underlay 
+To set the layer display in a PDF underlay 
+To clip a PDF underlay -->
+            
+        </linklist>
+    </related-links>
+</concept>

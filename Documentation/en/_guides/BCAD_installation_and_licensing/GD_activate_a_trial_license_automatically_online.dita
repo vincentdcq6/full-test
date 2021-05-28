@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="activate_a_trial_license_automatically_online">
+   <title>Activating a trial license automatically (online)</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <prereq>The <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> trial license activation requires an internet connection.</prereq>
+      <steps id="ol_icp_5nh_smb">
+         <step>
+            <cmd>Launch <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Start Trial</uicontrol> in the <uicontrol>BricsCAD Launcher</uicontrol> dialog box.</cmd>
+         </step>
+      </steps>
+      <result id="result_c2q_mhy_vmb">The trial license is activated over the internet.</result>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_setting_the_license_level" />
+         <link keyref="GD_overview_of_licensing_options" />
+         <link keyref="GD_activate_a_trial_license_manually_offline" />
+         <link keyref="GD_activate_a_single_or_volume_license_automatically_online" />
+         <link keyref="GD_activate_a_single_or_volume_license_manually_offline" />
+      </linklist>
+   </related-links>
+</task>

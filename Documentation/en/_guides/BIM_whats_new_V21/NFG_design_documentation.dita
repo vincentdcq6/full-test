@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A2F276B4-3A4DA52-375261874425551-B7E4C9">
+   <title>Design documentation</title>
+   <shortdesc><!--TBA--></shortdesc>
+
+   <conbody>
+      <section id="section_nz1_3dy_s4b">
+         <title>Sections</title>
+         <p><b>Activate SectionView</b></p>
+         <p>This new command allows you to look at the model from a section plane's perspective, without generating the section. This view allows you to manipulate the 3D model from a 2D point of view. To exit the active view, just orbit around the model.</p>
+         <p><b>Open BimSections</b></p>
+         <p>When switching to the model from a sheet view using the BIMSECTIONOPEN command, the
+            model is rotated and zoomed in to the same zoom level as the sheet view.</p>
+         <p>Available properties and property values display in the filter parameters form.</p>
+         <p>The BIMSECTIONOPEN command now allows you to transition between the sheet viewport and drawing model seamlessly at the same zoom level, without the need to re-orientate yourself and the model to where you have been working earlier on the sheet.</p>
+         <p>When you switch between a sheet viewport to the drawing model using the updated BIMSECTIONOPEN command, the drawing model displays and orientates itself to the same zoom level as in the sheet viewport, regardless of the scale of the Standard Scale or Annotation Scale of the drawing or viewport.</p>
+         <p><b>Update BimSections</b></p>
+         <p>The associative data for 3D solids, needed for section generation and tagging of the
+            section results by the BIMTAG command, are generated automatically in BricsCAD BIM V21
+            as you model, unless the new GENERATEASSOCATTRS (Generate Associative Attributes) system
+            variable is set to Off.</p>
+         <p><b>Interior Elevations</b></p>
+         <p>Since Rooms in V20 and older are now deprecated and replaced by Spaces, the Interior
+            option of the BIMSECTION command now supports Spaces.</p>
+      </section>
+      <section id="section_oz1_3dy_s4b">
+         <title>Tags</title>
+         <p>The BIM Tags tool now includes options of tagging load-bearing directions and spot elevations on viewports on Paper Space. Both tag types work on plan and section drawings. Spot elevation tags also work on elevation drawings.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_TagIcons_01_V21.png" id="image_pz1_3dy_s4b" scope="external" />
+            </fig></p>
+         <p>Automatically generated tags can have an offset, which is defined through the Offset attribute in TagTypeToStyle.xml found in the <menucascade>
+               <uicontrol>SUPPORTFOLDER</uicontrol>
+               <uicontrol>Bim</uicontrol>
+               <uicontrol>Sections</uicontrol>
+            </menucascade> folder. If the offset is not specified, the center of the tag block will be used.</p>
+         <p>Similarly, automatic and manually placed tags can be rotated if the autoRotation attribute is set to <uicontrol>true</uicontrol> in TagTypeToStyle.xml.</p>
+         <p><b>Tag Load-bearing</b></p>
+         <p>Load-bearing tags is only applicable if the load-bearing direction of the slab has
+            already been set. Refer to the BIMSETLOADBEARINGDIRECTION command for more
+            information.</p>
+         <p><b>Tag Spot-elevation</b></p>
+         <p>The spot elevation level tag displays the actual elevation of a selected point of a BIM object in a section view. The height is measured relative to level 0.</p>
+         <p><b>Tags in general</b></p>
+         <p>On Paper Space, click <uicontrol>Tag Load-bearing</uicontrol> from the ribbon and pick point on a sectioned BIM element as prompted. You will be prompted to pick a point on your desired sectioned BIM element or to change the current mleader style settings, like how you set BIMTAG in V20.</p>
+         <p>For example, you can have a two-way load-bearing span graphic tag on structural drawing plans.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_Tags_01_V21.png" id="image_qz1_3dy_s4b" scope="external" />
+            </fig></p>
+         <p>Or you can have spot elevations displaying elevation levels relative to the WCS.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_SpotElevation_01_V21.png" id="image_rz1_3dy_s4b" scope="external" />
+            </fig></p>
+         <p>Like all other BIM tags, they are customizable multileader blocks. Therefore, for
+            example, Spot Elevation tags can be further adjusted to suit your graphic and
+            information preferences.</p>
+      </section>
+      <section id="section_sz1_3dy_s4b">
+         <title>Data Extraction</title>
+         <p>The DATAEXTRACTION command now allows you to include all blocks and also extract from
+            layouts in the new filter rule settings. You can now extract composition and physical
+            material data.</p>
+         <fig id="fig_zvc_ryb_v4b">
+            <image href="https://static.bricsys.com/help/en_US/NFG_BIM_DataExtraction_01_V21.png" scope="external" id="image_awc_ryb_v4b" />
+         </fig>
+         <p>You can now extract and schedule quantity data based on IFC2x3 Element Types.<fig id="fig_tnr_syb_v4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_DataExtraction_02_V21.png" scope="external" id="image_unr_syb_v4b" />
+            </fig></p>
+      </section>
+      <section id="section_tz1_3dy_s4b">
+         <title>Drawing Customizations</title>
+         <p>Drawing Customization is a new tool that is available and only accessible from the panel. All the controls of Drawing Customizations are represented as graphic icons within the User Interface panel, such as the <b>+</b> symbol in a blue circle to create a new template. You can duplicate, rename or delete your customization templates.</p>
+         <p>It allows you to create view templates to control and customize the visibility settings of your drawings on layouts. The Drawing Customizations tool in BricsCAD is operated by 3 principles – Entity Customizations, Styles and Filter Rules.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_Customization_01_V21.png" id="image_uz1_3dy_s4b" scope="external" />
+            </fig></p>
+         <p>Drawing Customization templates are stored within the Customization folder located in the SUPPORTFOLDER, under <menucascade>
+               <uicontrol>Bim folder</uicontrol>
+               <uicontrol>Sections subfolder</uicontrol>
+            </menucascade>.</p>
+         <p>Each customization template is saved as an individual folder which contains in its basic form Settings.dwg, a Filter.json and a New customization.json files. The folder will also contain any external symbol sources which you have created new using the Create New buttons.</p>
+         <p>Settings.dwg contains the values created in the Style tab in the form of layers and if you have created any custom properties that you wish to use as a Filter parameter, you have to ensure they are also reflected in the Settings.dwg.<fig id="fig_orw_5yb_v4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_Customization_02_V21.png" scope="external" id="image_prw_5yb_v4b" />
+            </fig></p>
+         <p><b>Entity Customizations</b></p>
+         <p>Entity Customizations refer to the visibility settings of how you would like to have your elements in your model drawing to look like.</p>
+         <p>One level deeper within one of those entity customization tabs brings you to its settings tab, where you can choose how the element should look like as a section result, or how a center line type representation should overlap, or how an external symbol representation should replace the original asset. You can further modify and customize a specific ply layer of your desired entity composition, but only if appropriate.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_Customization_03_V21.png" id="image_vz1_3dy_s4b" scope="external" />
+            </fig></p>
+         <p>The section result customization displays a series of controls with drop-down values from the Styles tab for more specific control of the section result graphics. You can override the entities’ hatches via the Appearance Override with preset or custom Physical Materials available in your project.</p>
+         <p>For the Symbol Customization settings, you can find an input dialog to specify your desired external symbol drawing in .dwg format. There are additional buttons to allow you to edit the selected symbol drawing or to create a new .dwg symbol.</p>
+         <p>You can further apply your saved Styles to specific layers within your external symbol source, thereby allowing you to retain a general symbol drawing across several customization templates with different output results.</p>
+         <p><b>Styles</b></p>
+         <p>This is where your desired style options like Lineweight, line colors, etc, are stored and will appear as drop-down options in the Entity Customizations and Center Customizations settings as shown in the previous section above.</p>
+         <p>The operation of the Styles tabs is like how Entity Customization tabs can be controlled.</p>
+         <p>To edit any of the styles available, click the relevant tab to enter the styles settings, where you can specify your desired values for the style’s colour, linetype, lineweight and linetype scale.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_Customization_04_V21.png" id="image_wz1_3dy_s4b" scope="external" />
+            </fig></p>
+         <p><b>Filter Rules</b></p>
+         <p>To be able to apply the right customization styles to specific entities, you have to set the appropriate filter rules to target those entities correctly in the Filter Rules tab.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_Customization_05_V21.png" id="image_xz1_3dy_s4b" scope="external" />
+            </fig></p>
+         <p>Filter rules can be further classed into sub-rules, which falls as a sub-set of the parent rule, ie. Fire Equipment as a Filter Rule, whereas Fire Extinguisher is classed as a sub-rule. The blue <b>+</b> symbol also appears respectively and accordingly at each rule level, where at the end of each rule, regardless of it being a subset or otherwise, has to end with an Entity Customization.<fig>
+               <image href="https://static.bricsys.com/help/en_US/NFG_BIM_Customization_06_V21.png" id="image_yz1_3dy_s4b" scope="external" />
+            </fig></p>
+         <p>Adding and editing a filter parameter will lead you to a prompt, where the options of filter property is determined by the BIMPROPERTIES imported in the namespace settings.</p>
+         <p>To end and legitimize a filter rule, the entity customization value must be added and filled in. The options available in the drop-down selection reflects the existing customizations tab available in the Entity Customization page.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_bimsectionopen" />
+         <link keyref="CMD_bimtag" />
+         <link keyref="CMD_bimsection" />
+         <link keyref="CMD_dataextraction" />
+         <link keyref="CMD_bimsetloadbearingdirection" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_generateassocattrs" />
+      </linklist>
+   </related-links>
+</concept>

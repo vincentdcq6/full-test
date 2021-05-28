@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_multi_user_setup">
+    <title>Multi-user setup</title>
+    <taskbody>
+        <context>
+            <p>You can set up a multi-user environment:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_lps_hwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Multi-user setup</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add environment</uicontrol>
+                    <image href="../IMAGES_temp/add_environment_button.PNG" id="image_kln_r4n_dpb" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>New environment</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Enter a name.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>@@@ Unable to add environment</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

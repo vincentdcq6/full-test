@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="GD_createanexplodedrepresentation">
+    <title>Create an exploded representation</title>
+    <taskbody>
+        <context>
+            <p>Use command <cmdname>BMEXPLODE</cmdname> to create an exploded representation of the
+                current assembly.<note>You must have at least one insert of a part in the assembly
+                    for the command to work.</note></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Choose one of the following actions to launch command
+                        <cmdname>BMEXPLODE</cmdname>:</cmd>
+                <info>
+                    <ul id="ul_d14_fpb_lpb">
+                        <li>Click the <uicontrol>Explode</uicontrol> tool button <image href="https://static.bricsys.com/help/en_US/V19/Common/BmExplode_Button.png" id="image_j5t_1tb_lpb" scope="external" /> on the
+                                <uicontrol>Tools</uicontrol> panel of the
+                                <uicontrol>Assembly</uicontrol> tab.</li>
+                        <li>Click the <uicontrol>Explode</uicontrol> tool button <image href="https://static.bricsys.com/help/en_US/V19/Common/BmExplode_Button.png" id="image_mln_ctb_lpb" scope="external" /> on the
+                                <uicontrol>Assembly</uicontrol> toolbar.</li>
+                        <li>Select <uicontrol>Explode</uicontrol> in the
+                                <uicontrol>Assembly</uicontrol> menu.</li>
+                        <li>Type <varname>bmexplode</varname> in the command bar.</li>
+                    </ul>
+                </info>
+                <stepresult>You are prompted: Select explosion algorithm [Table by
+                    types/Linear/Manual/Settings]:</stepresult>
+            </step>
+            <step>
+                <cmd>If applicable, set the <varname>Level</varname> and the <varname>Name</varname>
+                    of the exploded representation using the <uicontrol>Settings</uicontrol>
+                    option.</cmd>
+            </step>
+            <step>
+                <cmd>Select the algorithm.</cmd>
+                <stepresult>You are prompted: Select exploded view behavior [Edit/Generate drawing
+                    views/Finish]:</stepresult>
+            </step>
+            <step>
+                <cmd>Perform one of the following actions:</cmd>
+                <info>
+                    <ul id="ul_cl1_g5b_lpb">
+                        <li>Select <uicontrol>Edit</uicontrol> to edit the exploded
+                            representation.</li>
+                        <li>Select <uicontrol>Generate drawing views</uicontrol> to generate drawing
+                            views of the exploded representation.</li>
+                        <li>Select <uicontrol>Finish</uicontrol> to finish the command.</li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

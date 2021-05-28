@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_delete_an_item">
+    <title>Delete an item</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_ncx_5wn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Recycle bin</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select an item in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Delete forever</uicontrol>
+                    <image href="../IMAGES_temp/delete_forever_button.PNG" id="image_f3r_sjq_v4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Delete forever</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Delete</uicontrol> to delete the item.</cmd>
+                <stepresult>The item is <b>permanently</b> deleted.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

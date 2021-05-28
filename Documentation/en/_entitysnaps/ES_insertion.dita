@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="ES_insertion">
+   <title>Insertion entity snap</title>
+   <shortdesc>The Insertion entity snap enables the cursor to snap to the insertion points of
+      entities.</shortdesc>
+   <conbody>
+      <p>Including:<ul id="ul_s5k_tgs_v4b">
+            <li>Text</li>
+            <li>Mtext</li>
+            <li>Tables</li>
+            <li>Attribute text</li>
+            <li>Blocks</li>
+            <li>External References</li>
+            <li>PDF References</li>
+            <li>Raster images</li>
+         </ul></p>
+      <p>
+         <fig id="fig_jyc_sbs_v4b">
+            <image href="https://static.bricsys.com/help/en_US/ES_insertion_01_V21.png" id="image_ijh_v2s_v4b" scope="external" />
+         </fig>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_osmode" />
+         <link keyref="SV_3dosmode" />
+      </linklist>
+   </related-links>
+</concept>

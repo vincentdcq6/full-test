@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A5F13434-735352C-7CBC10EF1557792-42321B">
+   <title>User interface</title>
+   <shortdesc>BricsCAD V21 offers a variety of user interface enhancements to help increase your
+      productivity without disrupting your existing workflow.</shortdesc>
+
+   <conbody>
+      <section id="section_mwz_w3t_r4b">
+         <title>BricsCAD Launcher</title>
+         <p>The redesigned BricsCAD Launcher enables you to launch BricsCAD in an environment that is most relevant for your design tasks and license level.</p>
+         <p>The available environment options depend on your license level. You can change the
+            license level using the new SETLICENSELEVEL command which controls the RUNASLEVEL system
+            variable. If you are using a trial license, you may choose any environment. Otherwise,
+            you may choose any environment supported by the license level you purchased. For
+            example, an Ultimate license supports all environments. Whereas, a Lite license supports
+            only the 2D Drafting environment.</p>
+         <p>The new Units option enables you to set the measurement units (MEASUREINIT system
+            variable) that determine which hatch pattern and linetype definition files to use. This
+            control also specifies the drawing units for new drawings created with no template
+               file.<fig id="fig_emz_535_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_UserInterface_01_V21.png" id="image_nwz_w3t_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_owz_w3t_r4b">
+         <title>Commands</title>
+         <p>The Command window now supports clickable command options enabling you to select options at the command line without having to type at the keyboard.<fig id="fig_ixm_v35_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_UserInterface_02_V21.png" id="image_pwz_w3t_r4b" scope="external" />
+            </fig></p>
+         <p>The COMMANDS command allows you to look up available commands. In BricsCAD V21 it’s
+            updated to list only the commands that are available with your current license
+            level.</p>
+      </section>
+      <section id="section_qwz_w3t_r4b">
+         <title>Ribbon</title>
+         <p>The ribbon enables you to scroll through ribbon tabs using the mouse wheel. Simply place the cursor anywhere on the ribbon and roll the wheel.</p>
+         <p>The RIBBONTOOLSIZE system variable sets the size of the tool buttons in the ribbon. The
+            options are <uicontrol>Small</uicontrol>, <uicontrol>Large</uicontrol> and
+               <uicontrol>Extra Large</uicontrol>.</p>
+      </section>
+      <section id="section_rwz_w3t_r4b">
+         <title>Toolbars</title>
+         <p>New UCS and UCS Options toolbars offer easy access to UCS commands and options. You an
+            access these toolbars by right-clicking on a toolbar, a panel, or the ribbon and
+            expanding the <menucascade>
+               <uicontrol>Toolbars</uicontrol>
+               <uicontrol>BricsCAD</uicontrol>
+            </menucascade> menu.</p>
+         <fig id="fig_bpr_bbr_cpb">
+            <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_UserInterface_03_V21.png" id="image_swz_w3t_r4b" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_UserInterface_04_V21.png" id="image_twz_w3t_r4b" scope="external" />
+         </fig>
+         <fig id="fig_gwt_x35_r4b">
+            <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_UserInterface_05_V21.png" id="image_uwz_w3t_r4b" scope="external" />
+         </fig>
+         <p>The TOOLBUTTONSIZE system variable applies to toolbars only, no longer to ribbon tool
+            buttons (see above).</p>
+      </section>
+      <section id="section_vwz_w3t_r4b">
+         <title>Menus</title>
+         <p>The menu that displays when you drag and drop a dwg file into BricsCAD, using the right mouse button, offers a new option to <uicontrol>Open as Read-only</uicontrol>.<fig id="fig_ess_fj5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_UserInterface_06_V21.png" id="image_wwz_w3t_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_xwz_w3t_r4b">
+         <title>Layouts</title>
+         <p>The Layout Manager is extended to enable publishing of multiple layouts.<fig id="fig_hky_y35_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_UserInterface_07_V21.png" id="image_ywz_w3t_r4b" scope="external" />
+            </fig></p>
+         <p>When you set a layout current in the Layout Manager, the active layout tab automatically scrolls to remain visible in the layout tab list.<fig id="fig_p1f_z35_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_UserInterface_08_V21.png" id="image_zwz_w3t_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_axz_w3t_r4b">
+         <title>Entity Snaps</title>
+         <p>The <uicontrol>Snap to Point</uicontrol> option in the Entity Snaps<!--link--> toolbar and menu is renamed to <uicontrol>Snap to Node</uicontrol>.</p>
+         <fig id="fig_fsh_hbr_cpb">
+            <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_UserInterface_10_V21.png" id="image_cgd_fdx_54b" scope="external" />
+            <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_UserInterface_09_V21.png" id="image_ow3_kdx_54b" scope="external" />
+         </fig>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_commands" />
+         <link keyref="CMD_setlicenselevel" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_measureinit" />
+         <link keyref="SV_ribbontoolsize" />
+         <link keyref="SV_runaslevel" />
+         <link keyref="SV_toolbuttonsize" />
+      </linklist>
+   </related-links>
+</concept>

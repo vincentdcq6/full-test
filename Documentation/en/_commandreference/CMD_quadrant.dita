@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_quadrant">
+   <title>QUADRANT command</title>
+   <shortdesc>Toggles the Quadrant Entity Snap.</shortdesc>
+   <conbody>
+      <!--<p>Insert License Level</p>-->
+      <!--<p>Insert link to Tool icon</p>-->
+      <p>Toggle the Quadrant Entity Snap to enable or disable snapping to quadrant. You can launch this command at the Command prompt to toggle a running entity snap. Doing so changes the value of the <xref keyref="SV_osmode" /> accordingly. You can also launch this command within another command to turn off the entity snap only for the current operation. This does not change the value of the OSMODE system variable.</p>
+   </conbody>
+</concept>

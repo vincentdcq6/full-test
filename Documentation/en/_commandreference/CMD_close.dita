@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_close">
+   <title>CLOSE command</title>
+   <shortdesc>Closes the current drawing.</shortdesc>
+   <conbody>
+      <fig id="fig_ock_f1r_v4b">
+         <image href="https://static.bricsys.com/help/en_US/V19/Common/command-reference-all.png" scope="external" id="image_pck_f1r_v4b" />
+      </fig>
+      <p>Close the current drawing after it has been saved. If changes have been made since the last save, a BricsCAD dialog box offers you the opportunity to save the drawing before closing it.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_wclose" />
+         <link keyref="CMD_wcloseall" />
+      </linklist>
+   </related-links>
+</concept>

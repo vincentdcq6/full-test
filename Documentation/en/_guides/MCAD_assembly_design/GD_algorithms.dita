@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_algorithms">
+    <title>Algorithms</title>
+    <conbody>
+        <p>BricsCAD provides 3 algorithms to automatically create exploded representations and a
+            manual algorithm.</p>
+        <p>
+            <table frame="all" id="table_dlz_bs1_lpb">
+                <title>Algorithms</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="4.26*" />
+                    <thead>
+                        <row>
+                            <entry>Algorithm</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Table by Type </entry>
+                            <entry>Create a table-like explosion where components of the same type
+                                are grouped in rows.</entry>
+                        </row>
+                        <row>
+                            <entry>Linear</entry>
+                            <entry>Find the disassembly sequence of components in a given direction
+                                and order the components.<note>This considers possible physical
+                                    collisions between components. The components can be moved by
+                                    the algorithm only if there are no other components (not yet
+                                    moved), that block them.</note></entry>
+                        </row>
+                        <row>
+                            <entry>Automatic</entry>
+                            <entry>Find the disassembly sequence of components with respect to the
+                                assembly hierarchy. <note>This considers all possible physical
+                                    collisions. For each part or subassembly, the direction of
+                                    movement is identified automatically.</note></entry>
+                        </row>
+                        <row>
+                            <entry>Manual</entry>
+                            <entry>Create an exact copy of the assembly ready for custom edit. In
+                                this mode, you can create a custom exploded representation without
+                                changing the main assembly.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>
+            <fig id="fig_vjv_nr1_lpb">
+                <title>Example: The main drive shaft assembly</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360005913539/drive_shaft_assembly.png" id="image_wjv_nr1_lpb" scope="external" />
+            </fig>
+        </p>
+        <p>
+            <table frame="all" id="table_mrs_rw1_lpb">
+                <title>Example: main drive shaft assembly</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="2.57*" />
+                    <colspec colname="c3" colnum="3" colwidth="1.79*" />
+                    <colspec colname="c4" colnum="4" colwidth="1.79*" />
+                    <thead>
+                        <row>
+                            <entry />
+                            <entry>Table by Type</entry>
+                            <entry>Linear</entry>
+                            <entry>Automatic</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="middle">Top level</entry>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360005913459/drive_shaft_assembly_table_top.png" id="image_d3g_2x1_lpb" scale="25" scope="external" /></entry>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360005878760/drive_shaft_assembly_linear_top.png" id="image_u3j_hx1_lpb" scale="20" scope="external" /></entry>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360005878860/drive_shaft_assembly_automatic_top.png" id="image_rbz_mx1_lpb" scale="20" scope="external" /></entry>
+                        </row>
+                        <row>
+                            <entry valign="middle">Bottom level</entry>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360005878960/drive_shaft_assembly_table_bottom.png" id="image_mt4_zw1_lpb" scale="25" scope="external" /></entry>
+                            <entry valign="top"><image href="https://help.bricsys.com/hc/article_attachments/360005913879/drive_shaft_assembly_linear_bottom.png" id="image_g35_qx1_lpb" scale="20" scope="external" /></entry>
+                            <entry valign="top"><image href="https://help.bricsys.com/hc/article_attachments/360005879240/drive_shaft_assembly_automatic_bottom.png" id="image_qbj_tx1_lpb" scale="20" scope="external" /></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </conbody>
+</concept>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A221647A-CB11226-6B276741E11AE15-C3EC8F">
+  <title>DEFAULTCURVETYPEVA system variable</title>
+  <conbody>
+    <section id="section_gkf_zhn_dpb">
+      <title>Default curve for vertical alignments</title>
+      <p>Specifies the curve type to be used when create a new vertical alignment or adding new
+        PVI.</p>
+      <p conkeyref="system_variable_warehouse/BricsCAD_only" />
+      <table id="table_hkf_zhn_dpb">
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1*" />
+          <colspec colname="c2" colnum="2" colwidth="3*" />
+          <tbody>
+            <row>
+              <entry conkeyref="system_variable_warehouse/type" />
+              <entry>
+                <p conkeyref="system_variable_warehouse/short" />
+              </entry>
+            </row>
+            <row>
+              <entry conkeyref="system_variable_warehouse/saved_in" />
+              <entry>
+                <p conkeyref="system_variable_warehouse/drawing" />
+              </entry>
+            </row>
+            <row>
+              <entry conkeyref="system_variable_warehouse/possible_values" />
+              <entry>
+                <p>-1: None</p>
+                <p>0: Auto Arc</p>
+                <p>1: Free Arc</p>
+                <p>2: Auto Parabola</p>
+                <p>3: Free Parabola</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </conbody>
+</concept>

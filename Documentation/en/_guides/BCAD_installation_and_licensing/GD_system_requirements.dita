@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="system_requirements">
+   <title>Minimum system requirements and recommendations</title>
+   <shortdesc>System requirements and recommendations for Intel and AMD-based Microsoft Windows
+      &amp; Linux PCs, and Intel-based Apple Macs.</shortdesc>
+   <conbody>
+      <p>
+         <table id="simpletable_tcf_qng_gmb">
+            <tgroup cols="3">
+               <colspec colname="c1" colsep="1" rowsep="1" colnum="1" colwidth="1*" />
+               <colspec colname="c2" rowsep="1" colsep="1" colnum="2" colwidth="1*" />
+               <colspec colname="c3" rowsep="1" colsep="1" colnum="3" colwidth="2*" />
+               <tbody>
+                  <row valign="top">
+                     <entry><b>Supported Operating Systems</b></entry>
+                     <entry>
+                        <ul id="ul_v1d_4sl_hpb">
+                           <li>Windows 10 (x64)</li>
+                           <li>Windows 8.1 (x64)</li>
+                           <li>Ubuntu V18.04 or higher</li>
+                           <li>openSUSE builds, later than April 2018</li>
+                           <li>Fedora builds, later than April 2018</li>
+                           <li>Mac OSX 10.13 or higher</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <note>Windows 8.1 will reach the end of Microsoft’s Extended Support program
+                           on 10 January 2023.</note>
+                        <note>Mac OSX is supported only on Intel-based hardware at this time.</note>
+                     </entry>
+                  </row>
+                  <row valign="top">
+                     <entry><b>Deprecated Operating Systems</b></entry>
+                     <entry>
+                        <ul id="ul_vjh_wsl_hpb">
+                           <li>Windows Server 2008 R2</li>
+                           <li>Windows Server 2008 (with SP2 or higher)</li>
+                           <li>Windows 7 (x64)</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <note>we do not recommend running mission-critical CAD software on
+                           unsupported operating systems, as your PC may become more vulnerable to
+                           security risks.</note>
+                        <ul id="ul_cyl_zsl_hpb">
+                           <li>On 14 January 2020, Microsoft ended support for Windows Server 2008
+                              and 2008 R2. </li>
+                           <li>On 14 January 2020, Microsoft ended the Windows 7 Extended Support
+                              initiative.</li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>
+         <table id="table_dmx_hxg_gmb">
+            <tgroup cols="3">
+               <colspec colname="c1" rowsep="1" colnum="1" colwidth="1*" colsep="1" />
+               <colspec colname="c2" rowsep="1" colsep="1" colnum="2" colwidth="1*" />
+               <colspec colname="c3" rowsep="1" colsep="1" colnum="3" colwidth="2*" />
+               <tbody>
+                  <row valign="top">
+                     <entry><b>Minimum CPU:</b><ul id="ul_x3x_jtl_hpb">
+                           <li>Intel<tm tmtype="reg" /> Core<tm tmtype="tm" /> i5</li>
+                           <li>AMD Ryzen<tm tmtype="tm" /> 5</li>
+                           <li>2.5 GHz or higher</li>
+                        </ul></entry>
+                     <entry><b>Recommended CPU:</b><ul id="ul_b1s_bxl_hpb">
+                           <li>Intel<tm tmtype="reg" /> Core<tm tmtype="tm" /> i7</li>
+                           <li>Intel<tm tmtype="reg" /> Core<tm tmtype="tm" /> i9</li>
+                           <li>AMD Ryzen<tm tmtype="tm" /> 7</li>
+                           <li>AMD Ryzen<tm tmtype="tm" /> 9</li>
+                           <li>3.0 GHz or higher</li>
+                        </ul></entry>
+                     <entry>
+                        <p>The CPU with the highest single-thread performance rating will always
+                           excel with BricsCAD.</p>
+                        <p>Additional CPU cores can be a bonus, because BricsCAD supports the
+                           concept of ‘helper threads’ for many data- and calculation-intensive
+                           tasks.</p>
+                        <p><b>Note about Intel<tm tmtype="reg" /> Xeon<tm tmtype="reg" /> and AMD
+                                 Ryzen<tm tmtype="tm" /> Threadripper<tm tmtype="tm" /> CPUs</b>:
+                           these top-tier workstation CPUs support large on-chip memory cache, more
+                              PCIe<tm tmtype="reg" /> I/O lanes and multi-channel, high speed memory
+                           architectures. Will they help BricsCAD run faster? Maybe. You will need
+                           to do testing in your specific environment, to determine if the
+                           additional cost of these systems is justifiable.</p>
+                     </entry>
+                  </row>
+                  <row valign="top">
+                     <entry><b>Minimum System Memory:</b><p>8 GB</p></entry>
+                     <entry><b>Recommended System Memory:</b><ul id="ul_jmb_3xl_hpb">
+                           <li>16 GB</li>
+                           <li>32 GB</li>
+                        </ul></entry>
+                     <entry>
+                        <p>For maximum performance, determine the memory configuration of your PC
+                           and ensure that each memory channel on the motherboard is populated with
+                           at least one memory module (SIMMs/DIMMs).</p>
+                        <p>
+                           <note>the number of available memory channels may not correlate 1:1 with
+                              the number of RAM sockets on your PC’s motherboard. Questions? Please
+                              check with your hardware supplier before you buy system memory.</note>
+                        </p>
+                     </entry>
+                  </row>
+                  <row valign="top">
+                     <entry><b>Minimum Disk Space:</b><p>2 GB for <b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" />,
+                        installed</p></entry>
+                     <entry><b>Recommended Disk Space:</b><p>(As needed)</p></entry>
+                     <entry>
+                        <p>We recommend Solid-State Drives (SSDs) as system drives, for both
+                           BricsCAD and Windows. Drawings and support files can reside on slower
+                           mechanical hard disk drives, if necessary.</p>
+                        <p>
+                           <note>solid-state disks can be up to 10x faster reading and 20x faster
+                              writing data than a mid-range hard disk drive (for example Seagate
+                              Barracuda 5.4k RPM, SATA 6.0).</note>
+                        </p>
+                     </entry>
+                  </row>
+                  <!--<row><entry><b>GPU</b></entry><entry>High-end GPU when using the RENDER command to generate images.</entry><entry>The GPU's on most graphic cards in today's computers handle editing tasks of 3D models using a rendered visual style with satisfactory performance. The bottleneck to update views of 3D models during editing usually is at CPU side, not at GPU side.</entry></row>-->
+                  <row valign="top">
+                     <entry><b><b>Minimum Display System:</b></b><ul id="ul_edv_pxl_hpb">
+                           <li>1920 x 1080 True Color display and a graphics card with 1 GB
+                              VRAM</li>
+                           <li>Apple Mac Displays</li>
+                        </ul></entry>
+                     <entry><b>Recommended Display System:</b><ul id="ul_e34_qxl_hpb">
+                           <li>Multiple 3840 x 2160 (4k) True Color displays, with a PCIe<tm tmtype="reg" /> graphics card w/GPUs and 4 GB VRAM</li>
+                           <li>Apple Mac Retina (4K and 5K) Displays</li>
+                        </ul></entry>
+                     <entry>
+                        <p>On Microsoft Windows systems, most graphics cards &amp; GPUs from NVIDIA,
+                           AMD and Intel<tm tmtype="reg" /> are supported.</p>
+                        <p>On Linux systems, most graphics cards and GPUs from NVIDIA and AMD are
+                           supported.</p>
+                        <p>On Mac systems, native Apple display hardware is supported.</p>
+                        <p>BricsCAD’s non-wireframe display modes are generated by RedSDK technology
+                           from Redway3D<tm tmtype="reg" />. For maximum RedSDK performance in these
+                           modes, a GPU is required.</p>
+                        <p><b>Note:</b> We suggest that you install the latest drivers available for
+                           your display hardware, as recommended by the manufacturer.</p>
+                        <p><b>Note to Linux users:</b> Hardware acceleration of 3D graphics on Linux
+                           systems is NOT supported on:</p>
+                        <ul id="ul_ozy_qxl_hpb">
+                           <li>Intel<tm tmtype="reg" /> graphics chipsets / cards</li>
+                           <li>
+                              <p>Laptops with dual graphics adaptors.</p>
+                              <p>However, recent driver developments by NVIDIA show promise in this
+                                 area.</p>
+                           </li>
+                        </ul>
+                        <p>For more information about supported graphics hardware for BricsCAD, see
+                           the Redway3D GPU chipset reference page.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link href="http://www.downloads.redway3d.com/downloads/public/documentation/bk_ba_gpu_chipset_reference.html" format="html" scope="external">
+            <linktext>Redway3D GPU chipset reference page</linktext>
+         </link>
+      </linklist>
+   </related-links>
+</concept>
+

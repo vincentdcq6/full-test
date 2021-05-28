@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="entity_creation_settings">
+   <title>Entity creation settings</title>
+   <shortdesc>New entities are created on the current layer, using the current entity creation
+      settings.</shortdesc>
+   <conbody>
+      <p>
+         <ul id="ul_yws_zr1_2nb">
+            <li>Color</li>
+            <li>Linetype</li>
+            <li>Linetype Scale</li>
+            <li>Lineweight</li>
+            <li>Transparency</li>
+         </ul>
+      </p>
+      <p>You can define entity creation settings in the <uicontrol>General</uicontrol> section of
+         the Properties panel.</p>
+      <p>You can define all entity creation settings <uicontrol>ByLayer</uicontrol>. This means that the corresponding setting of the current layer is used.</p>
+      <p>You can define layer properties in the Layer section in the Drawing Explorer dialog
+         box.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006531853-Entity-Color" format="html" scope="external"><linktext>Color</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006534813-Entity-Linetype" format="html" scope="external"><linktext>Linetype</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006534813-Entity-Linetype#setting-the-global-linetype-scale" format="html" scope="external"><linktext>Linetype Scale</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006430474-Lineweight" format="html" scope="external"><linktext>Lineweight</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006535013-Transparency" format="html" scope="external"><linktext>Transparency</linktext></link>-->
+         <link keyref="PNL_properties" />
+         <link keyref="DB_drawingexplorer" />
+      </linklist>
+   </related-links>
+</concept>

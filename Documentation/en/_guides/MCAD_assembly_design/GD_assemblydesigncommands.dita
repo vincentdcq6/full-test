@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_AssemblyDesigncommands">
+    <title>Commands</title>
+    <conbody>
+        <p>
+            <table frame="all" id="table_pbz_vx1_jpb">
+                <title>Assembly Design Commands</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="1.37*" />
+                    <colspec colname="c3" colnum="3" colwidth="2.99*" />
+                    <thead>
+                        <row>
+                            <entry>Icon</entry>
+                            <entry>Command</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007255000/mcad_comp_new.png" id="image_z3z_2cd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmNew</cmdname></entry>
+                            <entry>Create a new mechanical component as a new drawing file.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007280079/mcad_mechit.png" id="image_cd5_hcd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmMech</cmdname></entry>
+                            <entry>Convert the current drawing into a mechanical main
+                                component.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007255620/mcad_comp_insert.png" id="image_xbp_jcd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmInsert</cmdname></entry>
+                            <entry>Insert an existing mechanical component into the current
+                                drawing.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360017930459/mcad_comp_insert_smart.png" id="image_l5d_lcd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmInsert</cmdname></entry>
+                            <entry>Insert an existing mechanical component into the current drawing
+                                with automatic resizing of the new part and connecting it to the
+                                parent part.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007280039/mcad_insert_standard_part.png" id="image_qv5_xcd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmHardware</cmdname></entry>
+                            <entry>Open the Components Panel with the Standard Mechanical
+                                Components</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007279859/mcad_comp_make.png" id="image_a22_zcd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmForm</cmdname></entry>
+                            <entry>Create a new mechanical component and insert it into the current
+                                drawing.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360017964540/mcad_connect.png" id="image_tqz_1dd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmConnect</cmdname></entry>
+                            <entry>Connect 2 Piping standard parts by creation of 3D constraints
+                                between their connection entities.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007255180/mcad_replace.png" id="image_bj1_ddd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmReplace</cmdname></entry>
+                            <entry>Replace a component insert.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007255240/mcad_switch.png" id="image_ljt_2dd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmLocalize</cmdname></entry>
+                            <entry>Switch external components to local components.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007279939/mcad_externalize.png" id="image_a43_gdd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmExternalize</cmdname></entry>
+                            <entry>Switch local components to external components.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007255560/open.png" id="image_uw1_3dd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmOpen</cmdname></entry>
+                            <entry>Open the source drawing of an external mechanical
+                                component.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007255080/mcad_open_copy.png" id="image_dqf_lfd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmOpenCopy</cmdname></entry>
+                            <entry>Open a copy of a component insert as a new drawing.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007255040/mcad_dissolve.png" id="image_d2z_mfd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmDissolve</cmdname></entry>
+                            <entry>Dissolve a mechanical component inserted into the current
+                                drawing.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007281119/link.png" id="image_hv4_4fd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmLink</cmdname></entry>
+                            <entry>Change target 3D solids of component-based features.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007255960/bmunlink.png" id="image_pfb_qfd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmUnlink</cmdname></entry>
+                            <entry>Break the connection between a component insert (e.g. a Window)
+                                and a 3D solid (e.g. a Wall) retaining the opening.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007279999/mcad_hide.png" id="image_sxv_rfd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmHide</cmdname></entry>
+                            <entry>Hide a mechanical component or subcomponent in the current
+                                drawing.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007280239/mcad_show.png" id="image_y4j_tfd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmShow</cmdname></entry>
+                            <entry>Show a previously hidden mechanical component or subcomponent in
+                                the current drawing.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007280199/mcad_part_wire.png" id="image_owt_5fd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmVStyle</cmdname></entry>
+                            <entry>Apply a visual style to a mechanical component.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007260500/balloon.png" id="image_fxm_wfd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmBalloon</cmdname></entry>
+                            <entry>Create associative balloon entities for assembly components in
+                                Model Space and for their generated views in a Paper Space
+                                layout.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007285619/balloonauto.png" id="image_k4q_xfd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmBalloon</cmdname></entry>
+                            <entry>Allow automatic placement of associative balloons on all
+                                components in a particular drawing view in a Paper Space
+                                layout.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007279799/mcad_bom.png" id="image_ayg_zfd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmBom</cmdname></entry>
+                            <entry>Insert the Bill-of-Materials (BOM) table in the current
+                                drawing.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007280059/mcad_mass_properties.png" id="image_tt2_bgd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmMassProp</cmdname></entry>
+                            <entry>Compute mass properties for the current model using densities
+                                assigned to its components.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007280359/mcad_update.png" id="image_u5y_jgd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmUpdate</cmdname></entry>
+                            <entry>Reload all referenced components from external files and update
+                                BOM tables.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007280399/mcad_update_selected.png" id="image_nml_cgd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmUpdate</cmdname></entry>
+                            <entry>Reload all selected referenced components from external files and
+                                update BOM tables.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007254860/mcad_explode.png" id="image_adn_lgd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmExplode</cmdname></entry>
+                            <entry>Create an exploded representation for an assembly by moving
+                                components to make them all visible, store it in a new block, and
+                                insert the block in Model Space.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007279919/mcad_explode_move.png" id="image_ej3_ngd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmExplodeMove</cmdname></entry>
+                            <entry>Move selected parts to form an exploded representation in a given
+                                direction, taking into account possible physical collisions between
+                                components (similar to the Linear option of command
+                                    <cmdname>BmExplode</cmdname>).</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007285479/trail.png" id="image_m43_4gd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmTrailingLines</cmdname></entry>
+                            <entry>Create all necessary trailing lines for the selected
+                                parts.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007279819/mcad_browser.png" id="image_vvt_qgd_jpb" scope="external" /></entry>
+                            <entry><cmdname>MechanicalBrowserOpen</cmdname></entry>
+                            <entry>Display the Mechanical Browser.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/ParametersPanel.png" id="image_wxb_sgd_jpb" scope="external" /></entry>
+                            <entry><cmdname>ParametersPanelOpen</cmdname></entry>
+                            <entry>Display the Parameters Manager.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://static.bricsys.com/help/en_US/V19/Common/BmDependencies_Button.png" id="image_ucj_wgd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmDependencies</cmdname></entry>
+                            <entry>List all files in the command window, containing component
+                                definitions inserted in the assembly.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007280219/mcad_recover.png" id="image_ipy_bhd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmRecover</cmdname></entry>
+                            <entry>Recover a broken mechanical structure.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="https://help.bricsys.com/hc/article_attachments/360007281259/acis_body_clean.png" id="image_u5s_dhd_jpb" scope="external" /></entry>
+                            <entry><cmdname>BmUnmech</cmdname></entry>
+                            <entry>Convert the current mechanical component into a plain
+                                drawing.</entry>
+                        </row>
+                        <row>
+                            <entry>@@@ icon missing</entry>
+                            <entry><cmdname>BmXConvert</cmdname></entry>
+                            <entry>Convert X-Hardware solids in the current drawing into mechanical
+                                components.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

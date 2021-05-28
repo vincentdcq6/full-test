@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title>BricsCAD</title>
+  <topicref href="empty%20titles/bricscad_title.dita" navtitle="BricsCAD" type="topic">
+    <topicref href="BCAD_what_is_new_bcad.ditamap" navtitle="What's new" format="ditamap" />
+    <topicref href="BCAD_installation_and_licensing.ditamap" navtitle="Installation and licensing" format="ditamap" />
+    <topicref href="BCAD_getting_started.ditamap" navtitle="Getting Started with BricsCAD" format="ditamap" />
+    <topicref href="BCAD_user_interface.ditamap" navtitle="User Interface" format="ditamap" />
+    <topicref href="BCAD_drawing.ditamap" navtitle="Drawing Accurately" format="ditamap" />
+  </topicref>
+</map>

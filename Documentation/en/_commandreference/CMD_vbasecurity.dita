@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_vbasecurity">
+   <title>VBASECURITY command</title>
+   <shortdesc>Opens the Security dialog box.</shortdesc>
+
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V19/Common/command-reference-all.png" id="image_grw_xxf_ynb" scope="external" />
+      </fig>
+      <fig id="fig_ffx_yxf_ynb"><!--command icon--></fig>
+      <!--<p>Alias:</p>-->
+      <p>Open the Security dialog box to specify if VBA macros are allowed to run automatically.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_security" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="DB_security1" />
+      </linklist>
+   </related-links>
+</concept>

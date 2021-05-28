@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_reportpanelclose">
+   <title>REPORTPANELCLOSE command</title>
+   <shortdesc>Closes the Report Panel.</shortdesc>
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V21/Common/command-reference-lite-pro-mechanical-bim.png" id="image_rsx_tpl_f4b" scope="external" />
+      </fig>
+      <p>Close the <xref keyref="PNL_report" /> to hide it from the current workspace. If the Report
+         Panel is stacked when you close it, the Report tab or icon is removed from the stack.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_reportpanelopen" />
+      </linklist>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="UI_panels" />
+         <!--Workspaces (link)-->
+      </linklist>
+   </related-links>
+</concept>

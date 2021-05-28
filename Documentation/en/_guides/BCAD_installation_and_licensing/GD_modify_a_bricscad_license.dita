@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="modify_a_bricscad_license">
+   <title>Modifying a <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> license</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <context id="context_cnv_132_wmb">Use this procedure to upgrade or replace a license.</context>
+      <steps id="ol_dsc_t5h_smb">
+         <step>
+            <cmd>Launch the LICENSEMANAGER command.</cmd>
+            <stepresult>The Bricsys License Manager dialog displays.</stepresult>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Manage License</uicontrol>.</cmd>
+            <stepresult>The <uicontrol>Licensing Information</uicontrol> dialog box displays.</stepresult>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Modify</uicontrol> button.</cmd>
+            <stepresult>The <uicontrol>BricsCAD License Manager</uicontrol> - <uicontrol>Activate BricsCAD</uicontrol> dialog box displays.<fig id="fig_lnn_cr1_34b">
+                  <image href="https://static.bricsys.com/help/en_US/V19/Commands/L/LicenseManager_Activate.png" id="image_kzl_dr1_34b" scope="external" />
+               </fig></stepresult>
+         </step>
+         <step>
+            <cmd>Paste your license key in the <uicontrol>License Key</uicontrol> field.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>OK</uicontrol> button.</cmd>
+            <stepresult>
+               <ul id="ul_vpd_hr1_34b">
+                  <li>Your license key is registered over the internet.</li>
+                  <li>A dialog displays when the license key is successfully activated.</li>
+               </ul>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Read the text on the dialog box and click the <uicontrol>I understand</uicontrol> button.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="CMD_licensemanager" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_deactivate_or_revoke_a_bricscad_license" />
+         <link keyref="GD_overview_of_licensing_options" />
+      </linklist>
+   </related-links>
+</task>

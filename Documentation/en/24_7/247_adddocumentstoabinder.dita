@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_add_documents_to_a_binder">
+    <title>Add documents to a binder</title>
+    <taskbody>
+        <context>
+            <p>You can add one or more documents to a binder:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Dashboard</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the binder you want to add the document(s) to.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add to binder</uicontrol>
+                    <image href="../IMAGES_temp/add_to_binder_button.PNG" id="image_ybd_nwr_x4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Add items</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the document(s) you want to add to the binder.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add documents</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_hvs_kmd_fpb">A pop up window informs you that the items are added to the
+            binder.</result>
+    </taskbody>
+</task>

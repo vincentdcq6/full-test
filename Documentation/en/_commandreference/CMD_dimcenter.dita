@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_dimcenter">
+   <title>DIMCENTER command</title>
+   <shortdesc>Creates a center mark.</shortdesc>
+   <conbody>
+      <fig id="fig_its_x2v_y4b"><!--Insert License Level--></fig>
+      <fig id="fig_jts_x2v_y4b">
+         <image outputclass="indent1" scope="external" id="image_kts_x2v_y4b"><!--Insert link to Tool icon--></image>
+      </fig>
+      <p><!--Alias: --></p>
+      <p>Create a center mark at the center of a circle, arc or polyarc. See the <xref keyref="CMD_centermark" /> to create associative center marks. <fig id="fig_wtq_rc1_z4b">
+            <image href="data:image/png;base64,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" id="image_jjl_syz_y4b" scope="external" />
+         </fig>
+      </p>
+      <section id="section_rwz_1c1_z4b">
+         <title>Methods to create a center dimension </title>
+         <p>There is one method to begin creating a center mark. </p>
+         <ul id="ul_gsd_bc1_z4b">
+            <li>Select arc or circle to dimension </li>
+         </ul>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select arc or circle to dimension </dt>
+                  <dd>Begin creating a center dimension by selecting an arc, polyline arc segment, or circle. The DIMCEN system variable controls the length and appearance of the center mark lines.</dd>
+                  <dd>Additional options: [selection options (?)] </dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+      <section id="section_fjp_dc1_z4b">
+         <title>Options within the DIMCENTER command </title>
+         <p>After you begin creating a center dimension, the following options may be available: <dl>
+               <dlentry>
+                  <dt><!--TBA--></dt>
+                  <dd />
+               </dlentry>
+            </dl></p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         
+<link keyref="CMD_centermark" />
+<link keyref="CMD_dim" /> 
+<link keyref="CMD_dim1" /> 
+<link keyref="CMD_dimaligned" /> 
+<link keyref="CMD_dimangular" /> 
+<link keyref="CMD_dimbaseline" /> 
+<link keyref="CMD_dimcenter" /> 
+<link keyref="CMD_dimcontinue" /> 
+<link keyref="CMD_dimdiameter" /> 
+<link keyref="CMD_dimlinear" /> 
+<link keyref="CMD_dimleader" /> 
+<link keyref="CMD_dimordinate" /> 
+<link keyref="CMD_dimradius" /> 
+<link keyref="CMD_dimstyle" /> 
+<link keyref="CMD_-dimstyle" /> 
+<link keyref="CMD_dimoverride" /> 
+<link keyref="CMD_tolerance" /> 
+      </linklist>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="CMD_dimcenter" />
+         <link keyref="SV_centerlayer" />
+      </linklist>
+      <linklist><!--<title>Related Procedures</title>--><!--TBA--></linklist>
+   </related-links>
+</concept>

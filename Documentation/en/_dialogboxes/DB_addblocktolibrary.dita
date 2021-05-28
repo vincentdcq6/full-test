@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_addblocktolibrary">
+   <title>Add block to library dialog box</title>
+   <shortdesc>The Add block to library dialog box creates a block definition and adds it to the
+      Library. </shortdesc>
+   <conbody>
+      <p>It includes 10 areas.</p>
+      <fig id="fig_wkv_mc4_znb">
+         <image href="https://static.bricsys.com/help/en_US/DB_addblocktolibrary_01_V21.png" id="image_ghz_jc4_znb" scope="external" />
+         <ol id="ol_hhz_jc4_znb">
+            <li>Selection set</li>
+            <li>Name</li>
+            <li>Category</li>
+            <li>Location</li>
+            <li>Options</li>
+            <li>Change current</li>
+            <li>Insertion units</li>
+            <li>Base point</li>
+            <li>Create</li>
+            <li>Cancel</li>
+         </ol>
+      </fig>
+      <section id="section_c4z_wy1_g4b">
+         <title>Selection set</title>
+         <p>Specifies which entities are included in the block definition. You can select entities in the drawing or use the entire drawing.</p>
+      </section>
+      <section id="section_wzk_xy1_g4b">
+         <title>Name</title>
+         <p>Specifies the name of the block.</p>
+      </section>
+      <section id="section_xzk_xy1_g4b">
+         <title>Category</title>
+         <p>Specifies a category for the block. You can choose from a list of existing categories or enter a new category name.</p>
+      </section>
+      <section id="section_mnk_yy1_g4b">
+         <title>Location</title>
+         <p>Specifies the location where the block dwg will be saved. Available locations are
+            controlled by the Library directory path setting (COMPONENTSPATH system variable).</p>
+      </section>
+      <section id="section_nnk_yy1_g4b">
+         <title>Show/Hide Options</title>
+         <p>Shows or hides additional options. The available options depend on the selection set.</p>
+      </section>
+      <section id="section_onk_yy1_g4b">
+         <title>Change current</title>
+         <p>Species what happens to selected entities after the block is created. You can choose to retain the individual entities, convert them to a block insertion using the new definition, or delete them. This option is only available if you define the selection set by choosing to Select entities in drawing.</p>
+      </section>
+      <section id="section_pnk_yy1_g4b">
+         <title>Insertion units</title>
+         <p>Specifies the units for the block insertion. You can choose from the following list of standard units:</p>
+         <ul id="ul_itc_md4_znb">
+            <li>Inches</li>
+            <li>Feet</li>
+            <li>Miles</li>
+            <li>Millimeters</li>
+            <li>Centimeters</li>
+            <li>Meters</li>
+            <li>Kilometers</li>
+            <li>Microinches</li>
+            <li>Mils</li>
+            <li>Yards</li>
+            <li>Angstroms</li>
+            <li>Microns</li>
+            <li>Decimeters</li>
+            <li>Dekameters</li>
+            <li>Hectometers</li>
+            <li>Gigameters</li>
+            <li>Astronomical Units</li>
+            <li>Light-years</li>
+            <li>Parsecs</li>
+            <li>US Survey Feet</li>
+            <li>Us Survey Inch</li>
+            <li>US Survey Yard</li>
+            <li>US Survey Mile</li>
+            <li> Base point</li>
+         </ul>
+         <p>Specifies the base point for block definition. You can pick a point in the drawing or enter X,Y,Z coordinates. This option is only available if you define the selection set by choosing to Select entities in drawing.</p>
+      </section>
+      <section id="section_qnk_yy1_g4b">
+         <title>Create</title>
+         <p>Creates a DWG file for the block definition in the specified location, adds the block to the library panel under the specified category, and closes the dialog box.</p>
+      </section>
+      <section id="section_rnk_yy1_g4b">
+         <title>Cancel</title>
+         <p>Closes the dialog box without creating the block definition.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_librarypanelopen" />
+         <link keyref="CMD_librarypanelclose" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_componentspath" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="UI_panels" />
+      </linklist>
+   </related-links>
+</concept>

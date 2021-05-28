@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title>BricsCAD</title>
+  <topicref href="empty%20titles/bricscad_title.dita" keys="bricscad_title">
+    <topicref href="bricscad.ditamap" navtitle="BricsCAD" format="ditamap" />
+    <topicref href="bricscad_bim.ditamap" navtitle="BRICSCAD BIM" format="ditamap" />
+    <topicref href="MCAD_bricscad_mechanical.ditamap" navtitle="BricsCAD Mechanical" format="ditamap" />
+    <topicref href="communicator_for_bricscad.ditamap" navtitle="Communicator for BricsCAD" format="ditamap" />
+    <topicref href="bricscad_shape.ditamap" navtitle="BricsCAD Shape" format="ditamap" />
+    <topicref href="command_reference.ditamap" navtitle="Command Reference" format="ditamap" />
+    <topicref href="system_variable_reference.ditamap" navtitle="System variable reference" format="ditamap" />
+  </topicref>
+</map>

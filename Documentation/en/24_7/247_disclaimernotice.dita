@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_disclaimer_notice">
+    <title>Disclaimer notice</title>
+    <conbody>
+        <p>Although every attempt has been made to achieve technical accuracy in this document, we
+            assume no responsibility for errors that may be found. Our goal is to provide you with
+            the most accurate and usable documentation possible; if you discover errors, please
+            inform us.</p>
+    </conbody>
+</concept>

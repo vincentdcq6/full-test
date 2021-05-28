@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gchorizontal">
+   <title>GCHORIZONTAL command</title>
+   <shortdesc>Creates a horizontal geometric constraint on 2D entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a horizontal constraint to ensure a linear entity or pair of points remains parallel to the x-axis.</p>
+      <section id="section_ayk_lmc_x4b">
+         <title>Methods to create a horizontal constraint</title>
+         <p>There are two methods to begin creating a horizontal constraint:<ul id="ul_jl2_kmc_x4b">
+               <li>Select an entity</li>
+               <li>2 Points</li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select an entity</dt>
+                  <dd>Create a horizontal constraint by selecting a linear entity to make parallel to the x-axis. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt>2 Points</dt>
+                  <dd>Begin creating a horizontal constraint by specifying the first point to make parallel to the x-axis then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select Second Point:</dt>
+                  <dd outputclass="indent1">Specify the second point to make horizontal to the x-axis. The first point maintains its position while the second point moves to become horizontal with the first point.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

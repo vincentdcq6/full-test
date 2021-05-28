@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A2212AA3-5B4DB3C-5C1231515711B5F-CD6AD6">
+   <title>Overview</title>
+   <shortdesc>BricsCAD V21 offers a plethora of new and improved tools to help maximize your
+      productivity.</shortdesc>
+
+   <conbody>
+      <p>This section gives an overview of all the new features and improvements in <b>BricsCAD V21
+            BIM</b>:</p>
+      <p><xref keyref="NFG_modeling_techniques" /></p>
+      <p><xref keyref="NFG_building_data" /></p>
+      <p><xref keyref="NFG_project_collaboration" /></p>
+      <p><xref keyref="NFG_design_documentation" /></p>
+      <p><xref keyref="NFG_point_clouds" /></p>
+      <p> </p>
+      <p>For information about the new features and improvements in <b>BricsCAD V21 Core and Civil tools</b>, go to the What's new in BricsCAD V21 section. It contains the following articles:</p>
+      <p><xref keyref="NFG_overview" /></p>
+      <p><xref keyref="NFG_user_interface" /></p>
+      <p><xref keyref="NFG_productivity" /></p>
+      <p><xref keyref="NFG_drafting" /></p>
+      <p><xref keyref="NFG_modeling" /></p>
+      <p><xref keyref="NFG_civil_tools" /></p>
+      <p><xref keyref="NFG_performance_and_compatibility" /></p>
+      <p> </p>
+      <p>For information about the new features and improvements in <b>BricsCAD V21 Mechanical tools</b>, go to the What's new in BricsCAD V21 Mechanical section. It contains the following articles:</p>
+      <p><xref keyref="NFG_overview_mechanical" /></p>
+      <p><xref keyref="NFG_bom_manager" /></p>
+      <p><xref keyref="NFG_parts_libraries" /></p>
+      <p><xref keyref="NFG_parameters_and_constraints" /></p>
+      <p><xref keyref="NFG_standard_parts" /></p>
+      <p><xref keyref="NFG_sheet_metal" /></p>
+      <p> </p>
+      <section id="section_llw_5w5_r4b">
+         <title>Release notes</title>
+         <p><xref href="https://www.bricsys.com/common/releasenotes.jsp" format="html" scope="external">Click here</xref> for an overview of the release notes.</p>
+      </section>
+      <section id="section_mlw_5w5_r4b">
+         <title>Diagnostics and Usage Data Collection</title>
+         <p>Many of the improvements were inspired by requests and suggestions from you, BricsCAD users. At Bricsys, we continue to expand our methods of gathering user feedback with new data collection tools. When you launch BricsCAD for the second time, a dialog box displays, inviting you to participate in the <xref href="https://help.bricsys.com/hc/en-us/articles/360016780820" format="html" scope="external">Diagnostics and Usage Data Collection program</xref>. The data collection process enables you to share anonymous diagnostic and usage data with Bricsys to help improve BricsCAD. You can withdraw your consent and have your data removed from our databases at any time.</p>
+      </section>
+   </conbody>
+</concept>

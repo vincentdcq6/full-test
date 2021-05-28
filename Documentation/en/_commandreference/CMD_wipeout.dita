@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_wipeout">
+    <title>WIPEOUT command</title>
+    <shortdesc>Creates a wipeout.</shortdesc>
+    <conbody>
+        <p><!--Insert License Level--></p>
+        <p><!--Insert link to Tool icon--></p>
+        <p><!--Alias: --></p>
+        <p>Create a wipeout to mask parts a drawing. Options allow you to convert a polyline to a
+            wipeout and control the display of wipeout frames.<fig id="fig_b4p_vn5_kpb">
+                <image href="https://static.bricsys.com/help/en_US/V18/CmdRef/source/WipeOut.png" id="image_yyr_rn5_kpb" scope="external" />
+            </fig><!--image TBA-->
+        </p>
+        <section id="section_vfm_wn5_kpb">
+            <title>Methods to create a wipeout </title>
+            <p>There are two methods to begin creating a wipeout:</p>
+            <ul id="ul_dbz_hn5_kpb">
+                <li>Specify start point </li>
+                <li>Polyline </li>
+            </ul>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Specify start point </dt>
+                        <dd>Begin creating a wipeout by specifying a start point then: </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Specify next point </dt>
+                        <dd outputclass="indent1">Specify the next vertex of the wipeout. You can
+                            continue adding vertices until you press Enter to end the command.</dd>
+                        <dd outputclass="indent1">Additional options: [Undo/Close]</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Polyline</dt>
+                        <dd>Begin creating a wipeout by selecting an existing closed polyline then:
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Delete selected polyline? [Yes/No] </dt>
+                        <dd outputclass="indent1">
+                            <p>Choose whether to erase or retain the original polyline. </p>
+                            <ul id="ul_ebz_hn5_kpb">
+                                <li><uicontrol>Yes</uicontrol>: Erases the polyline.</li>
+                                <li><uicontrol>No</uicontrol>: Retains the polyline in addition to
+                                    the wipeout.</li>
+                            </ul>
+                        </dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_up3_d45_kpb">
+            <title>Options within the WIPEOUT command </title>
+            <p>After you begin creating a wipeout, the following options may be available: </p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Frames</dt>
+                        <dd>Specify whether to display wipeout frames. This is saved in the
+                            WIPEOUTFRAME system variable and applies to all wipeout entities in the
+                                drawing.<ul id="ul_fbz_hn5_kpb">
+                                <li><uicontrol>On</uicontrol>: Display and plot wipeout frames.</li>
+                                <li><uicontrol>Off</uicontrol>: Hide wipeout frames.</li>
+                                <li><uicontrol>Display but not plot</uicontrol>: Display but do not
+                                    plot wipeout frames.</li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Undo</dt>
+                        <dd>Undo the last wipeout vertex and continue drawing from the previous
+                            one.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Close</dt>
+                        <dd>Automatically draw a wipeout segment from the last vertex to the first
+                            one. This ends the command. </dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_draworder" />
+            <link keyref="CMD_pedit" />
+            <link keyref="CMD_pline" />
+            <link keyref="CMD_revcloud" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_wipeoutframe" />
+        </linklist>
+    </related-links>
+</concept>

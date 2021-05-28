@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_flatshot">
+   <title>FLATSHOT command</title>
+   <shortdesc>Opens the Flatshot Dialog Box.</shortdesc>
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V19/Common/command-reference-all.png" id="image_grw_xxf_ynb" scope="external" />
+      </fig>
+      <fig id="fig_ffx_yxf_ynb"><!--command icon--></fig>
+      <!--<p>Alias:</p>-->
+      <p>Open the <xref keyref="CMD_flatshot" /> to create a flattened, hidden line representation of
+         a 3D model as a block or a new drawing.</p>
+   </conbody>
+</concept>

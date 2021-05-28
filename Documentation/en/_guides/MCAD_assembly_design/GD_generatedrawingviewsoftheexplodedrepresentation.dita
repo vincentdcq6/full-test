@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="GD_generatedrawingviewsoftheexplodedrepresentation">
+    <title>Generate drawing views of the exploded representation</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Launch command <cmdname>VIEWBASE</cmdname>.</cmd>
+                <stepresult>You are prompted: Select objects or [Entire model/preseTs/Special views]
+                    &lt;Entire model&gt;:</stepresult>
+            </step>
+            <step>
+                <cmd>Select the <uicontrol>Special views</uicontrol> option.</cmd>
+                <stepresult>You are prompted: Select view [Exploded view/Back]
+                    &lt;Back&gt;:</stepresult>
+            </step>
+            <step>
+                <cmd>Select the <uicontrol>Exploded view</uicontrol> option.</cmd>
+                <stepresult>A dialog box to select the exploded representation appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the exploded representation.</cmd>
+                <stepresult>You are prompted: Enter new or existing layout name to make current
+                    &lt;Layout1&gt;:</stepresult>
+            </step>
+            <step>
+                <cmd>If applicable, enter the <varname>Layout name</varname> of the layout for the
+                    exploded representation.</cmd>
+            </step>
+            <step>
+                <cmd>Position the generated drawing views of the exploded representation in the
+                    paper space layout.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_krg_vwb_lpb">
+            <note>To use balloons (see command <cmdname>BMBALLOON</cmdname>) with drawing views of
+                exploded representations, the <varname>GENERATEASSOCVIEWS</varname> system variable
+                must be <varname>ON</varname>.</note>
+        </postreq>
+    </taskbody>
+</task>

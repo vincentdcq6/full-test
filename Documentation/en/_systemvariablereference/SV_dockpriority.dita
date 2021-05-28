@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dockpriority" xml:lang="en-US">
+   <title id="title__Toc50995108">DOCKPRIORITY system variable</title>
+   <conbody>
+      <section><title>Docking Priority</title><p>Specifies the docking priority of top, left, right and bottom docking bars. Changing this preference will take effect only after restarting the application.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>1 to 14</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>1</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>1: Top, Left, Right, Bottom</p>
+                           <p>2: Top, Bottom, Left, Right</p>
+                           <p>3: Top, Left, Bottom, Right</p>
+                           <p>4: Top, Right, Bottom, Left</p>
+                           <p>5: Left, Right, Top, Bottom</p>
+                           <p>6: Left, Top, Bottom, Right</p>
+                           <p>7: Left, Top, Right, Bottom</p>
+                           <p>8: Left, Bottom, Right, Top</p>
+                           <p>9: Right, Top, Left, Bottom</p>
+                           <p>10: Right, Bottom, Left, Top</p>
+                           <p>11: Right, Top, Bottom, Left</p>
+                           <p>12: Bottom, Left, Right, Top</p>
+                           <p>13: Bottom, Left, Top, Right</p>
+                           <p>14: Bottom, Right, Top, Left</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

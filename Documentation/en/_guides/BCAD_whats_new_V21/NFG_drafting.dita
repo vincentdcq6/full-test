@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A221D243-C3D75C5-53C12286011525B-23A04B">
+   <title>Drafting</title>
+   <shortdesc>BricsCAD V21 offers drafting enhancements to help increase your 2D drawing
+      productivity.</shortdesc>
+   <conbody>
+      <section id="section_vgr_lj5_r4b">
+         <title>Combine Text to Mtext.</title>
+         <p>The new TXT2MTXT command (alias COMBINETEXT) enables you to combine single- and
+            multi-line text into a single MText entity. You can control the behavior for combining
+            text in the Result MText Settings dialog box.<fig id="fig_kp2_5j5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Drafting_01_V21.png" id="image_wgr_lj5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_xgr_lj5_r4b">
+         <title>Arc Aligned Text</title>
+         <p>The Properties panel enables you to view and edit properties for selected Arc Aligned
+            Text entities.<fig id="fig_fw4_5j5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Drafting_02_V21.png" id="image_ygr_lj5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_zgr_lj5_r4b">
+         <title>Find and Replace Text</title>
+         <p>The Find and Replace Text dialog box includes new buttons <uicontrol>Zoom In</uicontrol> and <uicontrol>Zoom Out </uicontrol>buttons. These enable you to take a closer look at the text within the context of the drawing without having to end the Find and Replace operation.<fig id="fig_xzv_5j5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Drafting_03_V21.png" id="image_ahr_lj5_r4b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_bhr_lj5_r4b">
+         <title>Field</title>
+         <p>The Field dialog box supports nested formula fields. When you right-click in the Formula
+            field of the Field dialog box, new options enable you to Insert, Edit and Update a
+            field. You can also convert a field to text.<fig id="fig_axb_vj5_r4b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_BricsCAD_Drafting_04_V21.png" id="image_chr_lj5_r4b" scope="external" />
+            </fig></p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_txt2mtxt" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="DB_field" />
+         <link keyref="PNL_properties" />
+      </linklist>
+   </related-links>
+</concept>

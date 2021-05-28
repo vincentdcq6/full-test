@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_addingmechanicalstructuretoexistinggeometry">
+    <title>Adding Mechanical Structure to Existing Geometry</title>
+    <conbody>
+        <p>You can add component hierarchy to any existing drawing, created in BricsCAD, or imported
+            from a different CAD format.</p>
+        <p>Use the command <cmdname>BmForm</cmdname> to convert a selected set of geometric entities
+            to a subcomponent of the current drawing.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

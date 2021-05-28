@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="network_license_server_administration">
+   <title>Network license server administration</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <context id="context_jxz_1d2_wmb">When the Network license server (also named RLM License server) is running, you can configure it in the Reprise License Server Administration web interface.</context>
+   </taskbody>
+   <task id="task_ix5_bd2_wmb">
+      <title>Opening the web interface</title>
+      <taskbody>
+         <steps id="steps_m5b_dd2_wmb">
+            <step>
+               <cmd>If the network license server is not running, click the <uicontrol>License Server</uicontrol> shortcut in the Start menu (on Windows Vista or higher: right-click &gt; Run as administrator).</cmd>
+               <stepresult>A console window opens.</stepresult>
+            </step>
+            <step>
+               <cmd>Browse to <b>http://localhost:5054</b>.</cmd>
+               <stepresult>The Reprise License Server Administration web interface opens.<fig id="fig_nkh_ld2_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V18/BricsCAD/source/ART/RLM-Home.png" scope="external" id="image_okh_ld2_wmb" />
+                  </fig><note>
+                     <ul id="ul_dth_qd2_wmb">
+                        <li>Do not use the <b>Activate License</b> button!</li>
+                        <li>To get an overview of all options, click the <uicontrol>RLM Manual...</uicontrol> button on the left or go to the <xref href="http://www.reprisesoftware.com/RLM_License_Administration.pdf" format="html" scope="external">RLM License Administration Manual</xref>.</li>
+                     </ul>
+                  </note></stepresult>
+            </step>
+         </steps>
+      </taskbody>
+   </task>
+   <task id="task_tn5_td2_wmb">
+      <title>Checking the license and server status</title>
+      <taskbody>
+         <context id="context_hxt_vd2_wmb">You can check the status of all network licenses on the server.</context>
+         <steps id="steps_lyf_5d2_wmb">
+            <step>
+               <cmd>Click the <uicontrol>Status</uicontrol> button on the left.</cmd>
+               <stepresult>The <b>Status for "rlm" on LicenseServer (port 5053)</b> page opens.<fig id="fig_g5s_xd2_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/RLM-ServerStatus.png" scope="external" id="image_h5s_xd2_wmb" />
+                  </fig></stepresult>
+            </step>
+            <step>
+               <cmd>Click the <uicontrol>bricsys</uicontrol> button in the <b>Server Status</b> column of the ISV Servers table to view the status of the Bricsys Network license.</cmd>
+               <info>
+                  <fig id="fig_or5_b22_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/RLM-ISVStatus.png" id="image_pmw_b22_wmb" scope="external" />
+                  </fig>
+               </info>
+            </step>
+         </steps>
+      </taskbody>
+   </task>
+   <task id="task_onj_f22_wmb">
+      <title>Rereading the license / Restarting the server</title>
+      <taskbody>
+         <context id="context_xcb_g22_wmb">After activating a network license while the server was running, you must reread the license / restart the server.</context>
+         <steps id="steps_cs5_h22_wmb">
+            <step>
+               <cmd>Click the <uicontrol>Reread/Restart Servers</uicontrol> button on the left.</cmd>
+               <stepresult>The <b>Reread/Restart Servers</b> page opens.<fig id="fig_v3r_ldg_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/RLM-RereadRestart.png" id="image_vst_ldg_wmb" scope="external" />
+                  </fig></stepresult>
+            </step>
+            <step>
+               <cmd>Click the <uicontrol>Reread/Restart Servers</uicontrol> button.</cmd>
+               <stepresult> The server restarts and rereads the Network license.</stepresult>
+            </step>
+         </steps>
+      </taskbody>
+      <related-links>
+         <linklist>
+            <title>Related information</title>
+            <link keyref="GD_network_license_server" />
+            <link keyref="GD_set_up_a_windows_network_license_server" />
+            <link keyref="GD_set_up_a_linux_network_license_server" />
+         </linklist>
+      </related-links>
+   </task>
+</task>
+

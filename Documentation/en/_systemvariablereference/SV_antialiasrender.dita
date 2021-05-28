@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="antialiasrender" xml:lang="en-US">
+   <title id="title__Toc50994796">ANTIALIASRENDER system variable</title>
+   <conbody>
+      <section><title>Anti-alias amount for render</title><p>Specifies the smoothness of the output from RENDER command. For values higher than 1, an anti-aliased output is calculated. High anti-alias values incur a high calculation cost.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p><table id="table_epp_dfz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>1 to 5</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>2</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>1: 1x1 (no anti-aliasing)</p>
+                           <p>2: 2x2</p>
+                           <p>3: 3x3</p>
+                           <p>4: 4x4</p>
+                           <p>5: 5x5 (maximum anti-aliasing)</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

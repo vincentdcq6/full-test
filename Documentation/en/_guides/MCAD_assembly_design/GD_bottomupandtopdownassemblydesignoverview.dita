@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_Bottom-upandTopdownAssemblyDesignoverview">
+    <title>Overview</title>
+    <conbody>
+        <p>Assembly modeling represents the structure of a designed product and consists of using
+            components to group geometric entities in hierarchies. Assembly modeling is commonly
+            used in Mechanical Computer-Aided Design (MCAD) applications, it simplifies the design
+            of complex products containing thousands or millions of geometric entities.</p>
+        <p>The following terms are used in this guide:<ul id="ul_qb5_hdc_jpb">
+                <li>An <term>assembly</term> is a component that contains inserts of other
+                    components</li>
+                <li>A <term>subassembly</term> is a separate assembly that is inserted into another
+                    assembly</li>
+                <li>A <term>part</term> is a component that does not contain inserts of another
+                    component.</li>
+            </ul></p>
+        <p>An assembly with inserted components (which in turn can be assembled with other inserted
+            components) forms a tree that is called a mechanical structure of the 3D model. This
+            tree is displayed in the Mechanical Browser.</p>
+        <p>There are 2 main ways to design mechanical products: <b>top-down</b> and <b>bottom-up</b>
+            approaches. You can also add mechanical structure to existing geometry, designed in
+            BricsCAD or imported from another source.</p>
+        <p>Use command <cmdname>BmNew</cmdname> to create a new document for a new mechanical
+            component.</p>
+        <p>Use command <cmdname>BmMech</cmdname> to convert existing blocks and external references
+            to components. Use command <cmdname>BmUnmech</cmdname> to do the opposite.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

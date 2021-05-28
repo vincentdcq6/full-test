@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_usingstandardcomponents">
+    <title>Using Standard Components</title>
+    <conbody>
+        <p>A few standard components are: <ul id="ul_ffm_ttc_jpb">
+                <li>screws</li>
+                <li>nuts</li>
+                <li>washers</li>
+                <li>bearings</li>
+                <li>holes.</li>
+            </ul></p>
+        <p>BricsCAD provides a huge library of standard components, more than 30,000 details in a
+            variety of sizes. You can significantly increase design performance by using standard
+            parts.</p>
+        <p>Use the Components panel to insert standard components into your parts and
+            assemblies.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="right_click_menus">
+   <title>Right-click menus</title>
+   <shortdesc>Context menus or right-click menus display a list of commands next to the cursor when
+      you right-click.</shortdesc>
+   <conbody>
+      <p>When the Quad is active, hold the right mouse button a bit longer (= long right-click).</p>
+      <p>The content of a context menu depends on the current entity or selection set.</p>
+      <p>When the Quad is not active and nothing is selected, a right-click repeats the most recent command. Hold down the right mouse button a bit longer to display the context menu.</p>
+   </conbody>
+</concept>
+

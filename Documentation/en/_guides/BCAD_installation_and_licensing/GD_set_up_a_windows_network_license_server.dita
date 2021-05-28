@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="set_up_a_windows_network_license_server">
+   <title>Setting up a Windows network license server</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <task id="task_nkf_rry_vmb">
+      <title>Installing the <b conkeyref="product_names_warehouse/b_x54_ddd_cnb" /></title>
+      <taskbody>
+         <steps id="steps_lzq_try_vmb">
+            <step>
+               <cmd>Download Bricsys Network License Manager (Windows)</cmd>
+            </step>
+            <step>
+               <cmd>Double-click the installation MSI file to start the installation.</cmd>
+            </step>
+            <step>
+               <cmd>Accept the terms of the <uicontrol>End User License Agreement</uicontrol>.</cmd>
+            </step>
+            <step>
+               <cmd>Accept the <uicontrol>Destination</uicontrol> folder or click <uicontrol>Change...</uicontrol> to change the destination folder.</cmd>
+            </step>
+            <step>
+               <cmd>Click the <uicontrol>Install</uicontrol> button.</cmd>
+            </step>
+            <step>
+               <cmd>Select the checkboxes next to the <uicontrol>Additional Tasks</uicontrol> that should be performed after the installation.</cmd>
+               <info>
+                  <fig id="fig_ejy_1sy_vmb">
+                     <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/AdditionalTasks.png" scope="external" id="image_fjy_1sy_vmb" />
+                  </fig>
+               </info>
+               <choices id="choices_ewc_bsy_vmb">
+                  <choice>
+                     <p><b>Activate a network license</b></p>
+                     <p>After the installation, the <b conkeyref="product_names_warehouse/b_x54_ddd_cnb" /> opens and asks to
+                        activate a network license. You can open the <b conkeyref="product_names_warehouse/b_x54_ddd_cnb" /> later by clicking the
+                        License activation shortcut in the Start menu.</p>
+                  </choice>
+                  <choice>
+                     <p><b>Setup as Windows service</b></p>
+                     <p>Each time you start Windows, the license server is automatically started as a service. You can do this later with the following command in the elevated command prompt: <codeph>rlm.exe-dlog rlm.log-install_service</codeph>.</p>
+                  </choice>
+                  <choice>
+                     <p><b>Open Reprise License Server Administration (web interface)</b></p>
+                     <p>After the installation, the Reprise License Server Administration web interface opens. It allows you to manage the network license. You can open the Reprise License Server Administration later by clicking the License Server Administration shortcut in the Start menu.</p>
+                  </choice>
+               </choices>
+            </step>
+            <step>
+               <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+            </step>
+         </steps>
+      </taskbody>
+   </task>
+   <task id="task_rfb_gsy_vmb">
+      <title>New installation of <b conkeyref="product_names_warehouse/b_x54_ddd_cnb" /></title>
+      <taskbody>
+         <context id="context_xzg_jsy_vmb">In the <uicontrol>Additional Tasks</uicontrol> dialog box, make sure to tick all the checkboxes (see image Bricsys Network License Manager Setup).</context>
+      </taskbody>
+   </task>
+   <task id="task_s1z_ksy_vmb">
+      <title>Upgrading <b conkeyref="product_names_warehouse/b_x54_ddd_cnb" /></title>
+      <taskbody>
+         <steps id="steps_zlh_msy_vmb">
+            <step>
+               <cmd>Download and install the Bricsys Network License Manager on the computer used as network license server.</cmd>
+            </step>
+            <step>
+               <cmd>Make sure to untick all the checkboxes next to the <uicontrol>Additional Tasks</uicontrol>.</cmd>
+            </step>
+         </steps>
+         <result id="result_fst_nsy_vmb">The installation restarts the license server. </result>
+      </taskbody>
+   </task>
+   <task id="task_fqv_psy_vmb">
+      <title>Installation from the command line</title>
+      <taskbody>
+         <context id="context_uc5_qsy_vmb">
+            <p>You can also start the Network License Manager from a command window.</p>
+            <p>By default, the options <b>Activate a Network license</b>, <b>Setup as Windows
+                  service</b>, and <b>Open Reprise License Server Administration</b> (web interface)
+               are disabled when installing via the command line. To enable these options, use the
+               respective parameters ACTIVATELICENSE, INSTALLSERVICE and OPENWEBINTERFACE.</p>
+            <p>For example, <b>msiexec /qb /i Bricsys-NetworkLicenseManager.msi ACTIVATELICENSE=1 INSTALLSERVICE=1</b> will show the activation dialog and install as a service without showing the web interface.</p>
+            <note>
+               <ul id="ul_b3c_4qh_smb">
+                  <li>For more options, type <b>msiexec /?</b> at the command prompt.</li>
+                  <li>On the Microsoft website, you can find more information about the
+                        <b>msiexec</b> command.</li>
+               </ul>
+            </note>
+         </context>
+      </taskbody>
+   </task>
+   <task id="task_h2w_rsy_vmb">
+      <title>Starting the network license server</title>
+      <taskbody>
+         <context id="context_h5l_tsy_vmb">
+            <p>The Network license server is automatically started/restarted after the installation. To check if the server has started, open Windows Services and check if the service <b>RLM</b> is running. If needed, you can manually start/stop/restart the service.</p>
+            <p>You can configure the server via the Network license server administration.</p>
+            <p>Once the network license is activated and the server is started, the server is ready
+               to serve licenses. It is now possible to use the Network license in BricsCAD on a
+               client computer.</p>
+         </context>
+      </taskbody>
+      <related-links>
+         <linklist>
+            <title>Related information</title>
+            <link href="https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options" format="html" scope="external">
+               <linktext>More information about the msiexec command</linktext>
+            </link>
+            <link href="https://www.bricsys.com/bricscad/tools/Bricsys-NetworkLicenseManager.msi" format="html" scope="external">
+               <linktext>Download Bricsys Network License Manager (Windows)</linktext>
+            </link>
+            <link keyref="GD_network_license_server" />
+            <link keyref="GD_set_up_a_linux_network_license_server" />
+            <link keyref="GD_network_license_server_administration">
+               
+            </link>
+            <link keyref="GD_to_use_a_network_license_on_a_client_computer">
+               
+            </link>
+         </linklist>
+      </related-links>
+   </task>
+</task>

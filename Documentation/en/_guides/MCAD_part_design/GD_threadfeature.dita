@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_threadfeature">
+    <title>Thread feature</title>
+    <conbody>
+        <p>Use the DMTHREAD command to create a thread feature.</p>
+        <p>The following picture shows the thread structure:<fig id="fig_plf_2kn_kpb">
+                <image href="https://static.bricsys.com/help/en_US/GD_MCAD_threadfeature_01_V21.png" id="image_vqw_myf_rpb" scope="external" />
+            </fig></p>
+        <p>A thread feature has the following parameters:<ul id="ul_e2r_tqv_3pb">
+                <li>
+                    <p><b>Thread standard</b></p>
+                    <p>It is a set of standard threads. This list can be extended with a custom
+                        thread. When you change the standard, the geometry will be rebuilt
+                        automatically.</p>
+                </li>
+                <li><b>Pitch</b> of the thread.</li>
+                <li><b>Length</b> of the thread.</li>
+                <li><b>Diameter</b> of the thread.</li>
+                <li><b>Type</b> of the thread: male or female. If the type is set as auto, the type
+                    will be determined automatically.</li>
+            </ul></p>
+        <section id="section_y5x_2yf_rpb">
+            <title>Adding a thread configuration</title>
+            <p>
+                <ol id="ol_ihk_gyf_rpb">
+                    <li>Right-click on the feature in the mechanical browser.<fig id="fig_q54_pyf_rpb">
+                            <image href="https://static.bricsys.com/help/en_US/GD_MCAD_threadfeature_02_V21.png" scope="external" id="image_r54_pyf_rpb" />
+                        </fig></li>
+                    <li>Select the Replace Table option.</li>
+                    <li>Select a CSV file with the following
+                        configuration:<codeblock>Size,Diameter,Pitch
+Name1, Diameter_value1, Pitch_value1
+Name2, Diameter_value2, Pitch_value2
+Name3, Diameter_value3, Pitch_value3</codeblock></li>
+                </ol>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_dmthread" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+        </linklist>
+    </related-links>
+</concept>

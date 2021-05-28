@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A1416A72-1766252-1041A3DA178A454-FAE819">
+  <title>GENERATEASSOCATTRS system variable</title>
+
+  <conbody>
+    <section id="section_pt2_lfj_xnb">
+      <title>Generate associative attributes</title>
+      <p>Specifies whether associative attributes are generated for 3D entities.</p>
+      <p conkeyref="system_variable_warehouse/BricsCAD_only" />
+      <p>
+        <table id="o25_dqx_hnb">
+          <tgroup cols="2">
+            <colspec colname="c1" colnum="1" colwidth="1*" />
+            <colspec colname="c2" colnum="2" colwidth="3*" />
+            <tbody>
+              <row>
+                <entry conkeyref="system_variable_warehouse/type" />
+                <entry>
+                  <p conkeyref="system_variable_warehouse/boolean" />
+                </entry>
+              </row>
+              <row>
+                <entry conkeyref="system_variable_warehouse/saved_in" />
+                <entry>
+                  <p conkeyref="system_variable_warehouse/workspace" />
+                </entry>
+              </row>
+              <row>
+                <entry conkeyref="system_variable_warehouse/possible_values" />
+                <entry>
+                  <p>Off (0): Do not generate associative attributes for 3D entities</p>
+                  <p>On (1): Generate associative attributes for 3D entities</p>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </section>
+  </conbody>
+</concept>

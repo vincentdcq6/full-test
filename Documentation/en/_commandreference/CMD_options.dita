@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_options">
+   <title>OPTIONS command</title>
+   <shortdesc>Opens the Settings Dialog Box with the <uicontrol>Program options</uicontrol> category expanded.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> with the <uicontrol>Program options</uicontrol>
+         category expanded to view and modify relevant system variables.</p>
+   </conbody>
+   <related-links><!--link to sys var, to be filled in because there are too many--></related-links>
+</concept>

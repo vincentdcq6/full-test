@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="auprec" xml:lang="en-US">
+   <title id="title__Toc50994814">AUPREC system variable</title>
+   <conbody>
+      <section><title>Angular unit precision</title><p>Specifies the number of decimal places for angular units.</p>
+         <p><table id="table_zcp_kgz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>0</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: 0</p>
+                           <p>1: 0.0</p>
+                           <p>2: 0.00</p>
+                           <p>3: 0.000</p>
+                           <p>4: 0.0000</p>
+                           <p>5: 0.00000</p>
+                           <p>6: 0.000000</p>
+                           <p>7: 0.0000000</p>
+                           <p>8: 0.00000000</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

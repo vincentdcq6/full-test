@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_dashboard">
+    <title>Dashboard</title>
+    <conbody>
+        <p>The document management tool <uicontrol>Dashboard</uicontrol>
+            <image href="../IMAGES_temp/dashboard_icon.PNG" id="image_a1r_j1h_dpb" scale="80" scope="external" />:<ul id="ul_y1f_n2q_x4b">
+                <li>is the central hub of a project in Bricsys 24/7</li>
+                <li>displays your recent files</li>
+                <li>displays all project folders in a tree structure</li>
+                <li>contains a <uicontrol>Documents</uicontrol>
+                    <image href="../IMAGES_temp/documents_icon.PNG" id="image_h3s_4pr_x4b" scope="external" /> section </li>
+                <li>contains a <uicontrol>Binders</uicontrol>
+                    <image href="../IMAGES_temp/binder_icon.PNG" id="image_bjy_rpr_x4b" scope="external" /> section, if
+                    set up by the project administrator.<div>
+                        <note>For more information about adding a binder, see <xref keyref="247_createthefolderstructure" />.</note>
+                    </div></li>
+            </ul></p>
+    </conbody>
+</concept>

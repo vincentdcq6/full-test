@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_surfacemodeling">
+    <title>Surface Modeling</title>
+    <conbody>
+        <p>BricsCAD Mechanical provides a powerful toolset for surface modeling and conversion of 3D
+            solids to surfaces and vice versa.</p>
+        <p>Surface Modeling tools are available on the <uicontrol>Surface</uicontrol> tab of the
+            Mechanical workspace ribbon:</p>
+        <p>
+            <fig id="fig_vnr_prs_kpb">
+                <title>Surface</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360017870860/mceclip1.png" id="image_wnr_prs_kpb" scope="external" width="120mm" />
+            </fig>
+        </p>
+        <p>Surface Modeling and Solid Modeling are similar tools concerning editing and applying 3D
+            constraints. The only difference is that surface Extrude/Revolve/Loft/Sweep tools can
+            create surface entities from closed 2D profiles and also accept non-cloned profiles.</p>
+        <p>The Region tool can create a region entity from a closed 2D profile and regions can be
+            stitched together to create a larger surface.</p>
+        <p>Other methods to create a surface are to extract one or more adjacent faces of a 3D
+            solid/surface, and to explode a 3D solid into a set of surfaces and regions.</p>
+    </conbody>
+</concept>

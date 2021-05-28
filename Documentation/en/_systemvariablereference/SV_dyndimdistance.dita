@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dyndimdistance" xml:lang="en-US">
+   <title id="title__Toc50995116">DYNDIMDISTANCE system variable</title>
+   <conbody>
+      <section><title>Dynamic dimension distance</title><p>Specifies a factor for the distance between the dynamic dimension line and the grip points being dimensioned (default: 0.0).</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/real" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>0.0 to 10.0</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>1.0</p></entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <fig id="fig_ms3_l5q_jnb">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_dyndimdistance_01_V21.png" id="image_ns3_l5q_jnb" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

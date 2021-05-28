@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_promote_major_version">
+    <title>Promote major version</title>
+    <taskbody>
+        <context>
+            <p>You can promote the last revision to a major version:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Dashboard</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the applicable folder.</cmd>
+            </step>
+            <step>
+                <cmd>Select the document you want to promote.</cmd>
+            </step>
+            <step>
+                <cmd>Click the ellipsis button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_fmp_5vj_jpb" scope="external" /> at the top of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Promote major version</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_pgx_dkk_jpb">A pop up window informs you that the major revision is
+            promoted. The updated file is displayed in the content pane.<div>Example: <image href="../IMAGES_temp/promote_major_version_example.PNG" id="image_e33_lkk_jpb" scope="external" />.</div></result>
+    </taskbody>
+</task>

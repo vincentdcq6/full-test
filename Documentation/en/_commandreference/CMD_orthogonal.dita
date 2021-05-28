@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_orthogonal">
+   <title>ORTHOGONAL command</title>
+   <shortdesc>Toggles the ORTHOMODE system variable.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+--></p>
+      <p>Alias: OR</p>
+      <p>Toggle the ORTHOMODE system variable to specify if the cursor is constrained to dragging at
+         90 degree angles. You can launch this command at the Command prompt or within another
+         command by preceding it with an apostrophe: 'ORTHOGONAL. </p>
+      <p>
+         <ul id="ul_qjl_h2v_3pb">
+            <li>On: turns on the ORTHOMODE system variable.</li>
+            <li>Off: turns off the ORTHOMODE system variable.</li>
+            <li>Toggle: changes the ORTHOMODE system variable to the opposite of the current
+               setting.</li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_orthomode" />
+      </linklist>
+   </related-links>
+</concept>

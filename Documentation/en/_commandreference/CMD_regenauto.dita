@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_regenauto">
+   <title>REGENAUTO command</title>
+   <shortdesc>Toggles the REGENMODE system variable.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias:--></p>
+      <p>Toggle the REGENMODE system variable to specify if the display automatically regenerates
+         when needed. You can launch this command at the Command prompt or within another command by
+         preceding it with an apostrophe: 'REGENMODE. </p>
+      <p>
+         <ul id="ul_fvh_1fv_3pb">
+            <li>On: turns on the REGENMODE system variable.</li>
+            <li>Off: turns off the REGENMODE system variable.</li>
+            <li>Toggle: changes the REGENMODE system variable to the opposite of the current
+               setting.</li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_regen" />
+         <link keyref="CMD_regenall" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_regenmode" />
+      </linklist>
+   </related-links>
+</concept>

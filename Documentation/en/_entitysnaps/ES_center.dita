@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="ES_center">
+   <title>Center entity snap</title>
+   <shortdesc>The Center entity snap enables the cursor to snap to the center point of circular or
+      elliptical entities.</shortdesc>
+   <conbody>
+      <p>Including:<ul id="ul_h4d_xbs_v4b">
+            <li>Circles</li>
+            <li>Arcs</li>
+            <li>Polyline arcs</li>
+            <li>Ellipses</li>
+            <li>Elliptical arcs</li>
+            <li>Circular 3D faces</li>
+            <li>Elliptical 3D faces</li>
+         </ul></p>
+      <p>
+         <fig id="fig_jyc_sbs_v4b">
+            <image href="https://static.bricsys.com/help/en_US/ES_center_01_V21.png" id="image_upv_rbs_v4b" scope="external" />
+         </fig>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_osmode" />
+         <link keyref="SV_3dosmode" />
+      </linklist>
+   </related-links>
+</concept>

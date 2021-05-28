@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_manageexplodedrepresentations">
+    <title>Manage exploded representations</title>
+    <conbody>
+        <p>
+            <fig id="fig_cv3_pyb_lpb">
+                <title>Manage exploded representations</title>
+                <image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/ExplodedRepresentation_ExplodedViewsBrowser.png" id="image_dv3_pyb_lpb" scope="external" />
+            </fig>
+        </p>
+        <p>Open the Mechanical Browser to see all exploded representations in the document. All
+            exploded representations will be listed under the <uicontrol>Exploded
+                representations</uicontrol> group. Open the context menu for the selected exploded
+            representations to see all supported operations in this context.</p>
+        <p><b>Properties of exploded representations</b></p>
+        <p>Each exploded representation has a set of properties. You can edit some of the
+            properties</p>
+        <p>
+            <table frame="all" id="table_eyb_czb_lpb">
+                <title>Properties of exploded representations</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="6.14*" />
+                    <thead>
+                        <row>
+                            <entry>Property</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Algorithm</entry>
+                            <entry>The name of the algorithm used to create this exploded
+                                representation.</entry>
+                        </row>
+                        <row>
+                            <entry>Name</entry>
+                            <entry>Name of the exploded representation. This must be unique for all
+                                exploded representations, as well as for all the blocks in the
+                                model.</entry>
+                        </row>
+                        <row>
+                            <entry>Type</entry>
+                            <entry>Type of the exploded representation: <varname>Top</varname> or
+                                    <varname>Bottom</varname>.</entry>
+                        </row>
+                        <row>
+                            <entry>Animation</entry>
+                            <entry>The direction of animation. Choose 1 of 2 values:
+                                    <varname>Direct</varname> (from start to end) or
+                                    <varname>Reverse</varname> (from end to start).</entry>
+                        </row>
+                        <row>
+                            <entry>Auto hide</entry>
+                            <entry>If set to <varname>Yes</varname>, all unimportant parts for a
+                                particular step will be hidden during the animation.</entry>
+                        </row>
+                        <row>
+                            <entry>Step duration</entry>
+                            <entry>Default duration of each step during the animation (in
+                                milliseconds). The default value is 1000, which is equal to 1s
+                                duration.</entry>
+                        </row>
+                        <row>
+                            <entry>Current step</entry>
+                            <entry>The current step that corresponds to the state of the exploded
+                                representation.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p><b>Operations on exploded representations</b></p>
+        <p>The supported operations depend on whether or not the exploded representation is opened
+            for edit.</p>
+        <p>If the exploded representation is <b>not opened for edit</b>, the following operations
+            are possible:</p>
+        <p>
+            <table frame="all" id="table_q34_n1c_lpb">
+                <title>Operations on exploded representations</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="5.25*" />
+                    <thead>
+                        <row>
+                            <entry>Operation</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Edit</entry>
+                            <entry>Open the exploded representation for edit. <note type="tip">You
+                                    can also edit the exploded representation with command
+                                        <cmdname>Bedit</cmdname>.</note></entry>
+                        </row>
+                        <row>
+                            <entry>Delete</entry>
+                            <entry>Remove the exploded representation and the associated block from
+                                the document.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>If the exploded representation is <b>opened for edit</b>, the following operations are
+            possible:</p>
+        <p>
+            <table frame="all" id="table_s3y_z1c_lpb">
+                <title>Operations on exploded representations</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="5.06*" />
+                    <thead>
+                        <row>
+                            <entry>Operation</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Animate</entry>
+                            <entry>Animate the entire sequence of steps.</entry>
+                        </row>
+                        <row>
+                            <entry>Save current state</entry>
+                            <entry>Save the current positions of parts in the current step.</entry>
+                        </row>
+                        <row>
+                            <entry>Add a new step</entry>
+                            <entry>Add a new step after the last one.<note>The new step will be
+                                    automatically set as <varname>current</varname>. All unsaved
+                                    modifications of the exploded representation will be
+                                    lost.</note></entry>
+                        </row>
+                        <row>
+                            <entry>Delete</entry>
+                            <entry>Remove the exploded representation and the associated block from
+                                the document.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>In addition, all steps will be listed in the Mechanical Browser for this exploded
+            representation.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

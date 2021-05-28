@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_cancel_a_workflow">
+    <title>Cancel a workflow</title>
+    <taskbody>
+        <context id="context_cm4_vvs_y4b">
+            <p>If you cancel a workflow, the workflow is put on hold. It is possible to activate the
+                workflow again if necessary.</p>
+            <p>You  can cancel a workflow:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Workflow</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow folder in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>@@@ steps to be added: feature not yet implemented in the new interface</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_zb4_vyt_y4b">
+            <note type="important">You need the appropriate permission to access the
+                document.</note>
+        </postreq>
+    </taskbody>
+</task>

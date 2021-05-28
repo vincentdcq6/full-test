@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dxeval" xml:lang="en-US">
+   <title id="title__Toc50995075">DXEVAL system variable</title>
+   <conbody>
+      <section><title>Data extraction update mode</title><p>Specifies the notification for data extraction tables. The value is stored as a bitcode using the sum of the values of all selected options.</p><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>0 to 511</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>12</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: No notification</p>
+                           <p>1: Notification on open</p>
+                           <p>2: Notification on save</p>
+                           <p>4: Notification on plot</p>
+                           <p>8: Notification on publish</p>
+                           <p>16: Notification on ETRANSMIT or ARCHIVE</p>
+                           <p>32: Notification on save + automatic update</p>
+                           <p>64: Notification on plot + automatic update</p>
+                           <p>128: Notification on publish + automatic update</p>
+                           <p>256: Notification on ETRANSMIT or ARCHIVE + automatic update</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

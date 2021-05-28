@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_partdesignmethods">
+    <title>Part Design Methods</title>
+    <shortdesc>BricsCAD Mechanical allows you to create and modify 3D models.</shortdesc>
+    <conbody>
+        <p>Ways to create a 3D model:<ul id="ul_bk1_rnn_kpb">
+                <li>Create a 3D solid primitive, such as a box and a cylinder.</li>
+                <li>Sketch a 2D profile and extrude or revolve it to make a 3D solid.</li>
+                <li>Model a 3D surface and thicken it to make a 3D solid, or stitch several surfaces
+                    together to create a watertight 3D solid.</li>
+                <li>Import existing 3D solid and surface geometry from other CAD programs.</li>
+            </ul></p>
+        <p>Ways to edit and add more details to your 3D models:<ul id="ul_afq_vnn_kpb">
+                <li>By pushing/pulling, moving and rotating faces.</li>
+                <li>By creating Fillets or Chamfers on the model edges.</li>
+                <li>By applying Holes.</li>
+                <li>By adding protrusion and depressions, and by using Boolean operations, Direct
+                    Editing and Deformable Modeling tools.</li>
+            </ul></p>
+        <p><b>No parent-child dependencies = history-free approach</b></p>
+        <p>BricsCAD Mechanical does not create parent-child dependencies between geometric
+            primitives and features. All changes made to your part are local; they do not force
+            geometry regeneration. This history-free approach allows you to focus on your design
+            instead of thinking about how it can be changed in the future.</p>
+        <p><b>3D Constraints = Parametric</b></p>
+        <p>BricsCAD Mechanical provides a powerful toolset to make your part parametric by adding 3D
+            constraints to its faces and edges and link them with global parameters using
+            expressions and design tables.</p>
+    </conbody>
+</concept>

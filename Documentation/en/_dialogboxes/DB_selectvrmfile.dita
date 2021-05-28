@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_selectvrmfile_0">
+    <title>Select VRM file dialog box</title>
+    <shortdesc>The Select VRM File dialog box enables you to select a point cloud VRM file to import
+        into the current cache folder.</shortdesc>
+    <conbody>
+        <p>It includes 18 areas.</p>
+        <fig id="fig_ktn_5dm_mpb">
+            <image href="https://static.bricsys.com/help/en_US/DB_selectVRMfile_01_V21.png" id="image_sry_13g_npb" scope="external" />
+            <ol id="ol_tch_vdm_mpb">
+                <li>Navigation pane</li>
+                <li> Look in</li>
+                <li> Go to last folder visited </li>
+                <li>Up one level </li>
+                <li>Create new folder </li>
+                <li>View menu </li>
+                <li>Name </li>
+                <li>Date modified </li>
+                <li>Type </li>
+                <li>Size </li>
+                <li>Description </li>
+                <li>Open as read-only </li>
+                <li>Use preview </li>
+                <li>Preview </li>
+                <li>File name </li>
+                <li>File type </li>
+                <li>Open </li>
+                <li>Cancel </li>
+            </ol>
+        </fig>
+        <section id="section_rxq_ydm_mpb">
+            <title>Navigation pane</title>
+            <p>Enables you to easily navigate to frequently used locations. </p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Quick access</dt>
+                        <dd>Displays links to your most requently used file locations. These change
+                            based on your behavior.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Desktop</dt>
+                        <dd>Displays links to locations on your desktop. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Libraries</dt>
+                        <dd>Displays links to your libraries. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>This PC </dt>
+                        <dd>Displays links to root locations on the computer including the Desktop,
+                            Documents folder, Downloads folder, drives, and network locations.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Network</dt>
+                        <dd>Displays links to network locations.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_nrm_f2m_mpb">
+            <title>Look in</title>
+            <p>Specifies the current location in which to select a VRM file. </p>
+        </section>
+        <section id="section_elb_g2m_mpb">
+            <title>Go to last folder visited</title>
+            <p>Changes the current location to the last folder visited. </p>
+        </section>
+        <section id="section_jwm_g2m_mpb">
+            <title>Up one level</title>
+            <p>Changes the current location to one level up from its current location. </p>
+        </section>
+        <section id="section_lmx_g2m_mpb">
+            <title>Create new folder</title>
+            <p>Creates a new subfolder in the current location. </p>
+        </section>
+        <section id="section_fj5_h2m_mpb">
+            <title>View menu </title>
+            <p>Opens the view menu. </p>
+        </section>
+        <section id="section_d32_32m_mpb">
+            <title>Name</title>
+            <p>Displays a list of items in the current location. The list may be limited by the
+                specified file type. </p>
+        </section>
+        <section id="section_czb_j2m_mpb">
+            <title>Date modified </title>
+            <p>Displays the date and time for the most recent change to each item in the current
+                location. </p>
+        </section>
+        <section id="section_rdg_j2m_mpb">
+            <title>Type </title>
+            <p>Displays the file type or folder for each item in the current location. </p>
+        </section>
+        <section id="section_xhm_j2m_mpb">
+            <title>Size </title>
+            <p>Displays the file size for each item in the current location. </p>
+        </section>
+        <section id="section_hmp_j2m_mpb">
+            <title>Description </title>
+            <p>Displays information about a selected file in the list. </p>
+        </section>
+        <section id="section_ews_j2m_mpb">
+            <title>Size </title>
+            <p>Displays the file size of the selected file. </p>
+        </section>
+        <section id="section_zrv_j2m_mpb">
+            <title>Created </title>
+            <p>Displays the creation date and time of the selected file. </p>
+        </section>
+        <section id="section_wjy_j2m_mpb">
+            <title>Modified </title>
+            <p>Displays the date and time of the most recent modification to the selected file. </p>
+        </section>
+        <section id="section_lhb_k2m_mpb">
+            <title>Accessed </title>
+            <p>Displays the date and time of the most recent access to the selected file. </p>
+        </section>
+        <section id="section_wzg_k2m_mpb">
+            <title>Open as read-only </title>
+            <p>Specifies if the file should be open as read-only </p>
+        </section>
+        <section id="section_p4j_k2m_mpb">
+            <title>Use preview </title>
+            <p>Enables a preview of the selected file. </p>
+        </section>
+        <section id="section_o1m_k2m_mpb">
+            <title>Preview </title>
+            <p>Displays a preview of the selected file if one is available. </p>
+        </section>
+        <section id="section_xp4_k2m_mpb">
+            <title>File name </title>
+            <p>Specifies the name of the selected file. </p>
+        </section>
+        <section id="section_edr_k2m_mpb">
+            <title>File type </title>
+            <p>Specifies the file type(s) to display in the list. </p>
+        </section>
+        <section id="section_t15_k2m_mpb">
+            <title>Open </title>
+            <p>Imports the selected VRM file to the current cache location as specified by the
+                POINTCLOUDCACHEFOLDER system variable. This can be especially useful for sharing
+                point cloud datasets between users. </p>
+        </section>
+        <section id="section_mjy_k2m_mpb">
+            <title>Cancel</title>
+            <p>Cancels the operation without importing the selected VRM file. </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_pointcloudattach" />
+            <link keyref="CMD_-pointcloudattach" />
+            <link keyref="CMD_pointclouddeleteitem" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_pointcloudcachesize" />
+            <link keyref="SV_pointcloudcachefolder" />
+        </linklist>
+    </related-links>
+</concept>

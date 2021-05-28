@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="quadiconspace" xml:lang="en-US">
+   <title id="title__Toc50995533">QUADICONSPACE system variable</title>
+   <conbody>
+      <section><title>Quad icon space</title><p>Specifies the margin around the icons.</p>
+         <fig id="fig_ihm_jyn_nnb">
+            <title>Narrow</title>
+            <image href="https://static.bricsys.com/help/en_US/SV_quadiconspace_01_V21.png" id="image_k5v_wj4_nnb" scope="external" />
+         </fig>
+         <fig id="fig_bkn_yj4_nnb">
+            <title>Normal</title>
+            <image href="https://static.bricsys.com/help/en_US/SV_quadiconspace_02_V21.png" id="image_vrw_yj4_nnb" scope="external" />
+         </fig>
+         <fig id="fig_uk4_yj4_nnb">
+            <title>Wide</title>
+            <image href="https://static.bricsys.com/help/en_US/SV_quadiconspace_03_V21.png" id="image_g5h_zj4_nnb" scope="external" />
+         </fig><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 2</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>1</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Narrow</p>
+                           <p>1: Normal</p>
+                           <p>2: Wide</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

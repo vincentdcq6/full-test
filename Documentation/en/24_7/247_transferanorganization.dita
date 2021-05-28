@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_transfer_an_organization">
+    <title>Transfer an organization</title>
+    <taskbody>
+        <context>
+            <p>You can transfer an organization to another address book.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Address book</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select an address book in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Select an organization in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Move organization</uicontrol>
+                    <image href="../IMAGES_temp/move_organization.PNG" id="image_ggk_f1k_x4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Move</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the address book where you want to transfer the organization to.</cmd>
+            </step>
+            <step>
+                <cmd>Enable <uicontrol>Include all organization members</uicontrol> if you also want
+                    to transfer the contacts of the selected organization.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Move</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the organization is successfully
+                    moved.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

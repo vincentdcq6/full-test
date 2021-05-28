@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="table">
+   <title>System Variable warehouse</title>
+   <shortdesc />
+   <conbody>
+      <table id="table_kbl_kpx_hnb">
+         <tgroup cols="2">
+            <colspec colname="c1" colnum="1" colwidth="1*" />
+            <colspec colname="c2" colnum="2" colwidth="3*" />
+            <tbody>
+               <row>
+                  <entry id="type">Type:</entry>
+                  <entry>
+                     <p id="boolean">Boolean</p>
+                     <p id="short">Short</p>
+                     <p id="string">String</p>
+                     <p id="long">Long</p>
+                     <p id="real">Real</p>
+                     <p id="string_standard">String Standard</p>
+                     <p id="3dpoint">3D point</p>
+                     <p id="2dpoint">2D point</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry id="saved_in">Saved in:</entry>
+                  <entry>
+                     <p id="registry">Registry</p>
+                     <p id="drawing">Drawing</p>
+                     <p id="preference">Preference</p>
+                     <p id="workspace">Workspace</p>
+                     <p id="not_saved">Not saved</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry id="range">Range:</entry>
+                  <entry>
+                     <p />
+                  </entry>
+               </row>
+               <row>
+                  <entry id="default_value">Default value:</entry>
+                  <entry>
+                     <p id="on">On</p>
+                     <p id="off">Off</p>
+                     <p id="bylayer">ByLayer</p>
+                     <p id="white">White</p>
+                     <p id="standard">Standard</p>
+                     <p id="none">None</p>
+                     <p id="true">true</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry id="unit">Unit</entry>
+                  <entry>
+                     <p id="pixels">pixels</p>
+                     <p id="degrees">degrees</p>
+                     <p id="mm">mm</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry id="possible_values">Possible values:</entry>
+                  <entry>
+                     <p />
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p id="BricsCAD_only">BricsCAD only</p>
+   </conbody>
+</concept>

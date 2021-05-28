@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_editexplodedrepresentations">
+    <title>Edit exploded representations</title>
+    <conbody>
+        <p>Each exploded representation is stored as a block. This allows you to edit the exploded
+            representation with the block editor.</p>
+        <p>
+            <note type="important">Do not use command <cmdname>REFEDIT</cmdname> to edit exploded
+                representations. This command is incompatible with exploded representation
+                steps.</note>
+        </p>
+        <p>To open the exploded representation for edit:<ol id="ol_dgw_d1b_lpb">
+                <li>Right-click the required exploded representation in the Mechanical Browser.</li>
+                <li>Select <uicontrol>Edit</uicontrol> from the context menu.<div>The block editor
+                        will open automatically.</div></li>
+            </ol></p>
+        <p>
+            <note type="tip">As an alternative, you can open the exploded representation for edit at
+                the end of command <cmdname>BMEXPLODE</cmdname>.</note>
+        </p>
+        <p>When the exploded representation is open for edit, you can change the state of the
+            current step. By default, this is the last step made by the algorithm. However, you can
+            change this in two ways:<ul id="ul_hq4_ycb_lpb">
+                <li>Use the <b>Current step</b> property of the exploded representation in the
+                    browser.</li>
+                <li>Right-click the desired step in the Mechanical Browser and select
+                        <uicontrol>Apply</uicontrol> from the context menu.</li>
+            </ul></p>
+        <p>
+            <note>If you change the current step, you will discard all unsaved modifications, as
+                well as any operation on steps. Make sure that all modifications are saved before
+                you change the current step or perform any other operation.</note>
+        </p>
+        <p>Use commands <cmdname>DMMOVE</cmdname>, <cmdname>MOVE</cmdname>,
+                <cmdname>DMROTATE</cmdname>, and <cmdname>BMEXPLODEMOVE</cmdname> to move
+            components, inside the exploded representations, to the required positions. Command
+                <cmdname>BMEXPLODEMOVE</cmdname> automatically adds all necessary steps after the
+            current step. For other operations, save the current step after the edit is complete.
+            Only the difference between the current step and the previous one is stored.</p>
+        <p>It is also possible to change the exploded representation by performing operations on
+            steps. <div>Example: if you remove a step, all components moved at this step will be
+                returned to their respective positions before that step.</div><div>Save the current
+                step once you have finished the edit. If not, changes will be discarded.</div></p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

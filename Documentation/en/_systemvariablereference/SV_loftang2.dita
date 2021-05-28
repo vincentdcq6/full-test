@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="loftang2" xml:lang="en-US">
+   <title id="title__Toc50995305">LOFTANG2 system variable</title>
+   <conbody>
+      <section><title>Loft angle 2</title><p>Specifies the draft angle through a loft operation's ending cross section. </p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/real" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0.0 to 360.0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>90.0</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p>
+         <p>
+            <fig id="fig_nxv_slx_jnb">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_loftang1_02_V21.png" id="image_vwb_plx_jnb" scope="external" />
+            </fig>
+         </p>
+         <p>
+            <fig id="fig_pxv_slx_jnb">
+               <image href="https://static.bricsys.com/help/en_INTL/SV_loftang1_01_V21.png" id="image_twb_plx_jnb" scope="external" />
+            </fig>
+         </p></section>
+   </conbody>
+</concept>

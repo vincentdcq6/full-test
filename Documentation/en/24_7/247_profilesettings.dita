@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_profile_settings">
+    <title>Profile settings</title>
+    <conbody>
+        <p>You can edit the following settings:<ul id="ul_jmv_12m_t4b">
+                <li>Change your details (profile picture, name, email address, language, address,
+                    and contact details)</li>
+                <li>Subscribe to a daily overview (a daily notification email informs you about
+                    added documents)<div>
+                        <fig id="fig_vy1_qfk_jpb">
+                            <title>Profile settings: Subscriptions</title>
+                            <image href="../IMAGES_temp/profile_settings_subscriptions.PNG" id="image_wy1_qfk_jpb" width="120mm" scope="external" />
+                        </fig>
+                    </div></li>
+                <li>Subscribe to a folder overview (a notification email is sent when a folder is
+                        updated)<note>Only available if you are logged into a project.</note></li>
+                <li>Change your password<div>
+                        <fig id="fig_gqm_wfk_jpb">
+                            <title>Profile settings: Password</title>
+                            <image href="../IMAGES_temp/profile_settings_password.PNG" id="image_hqm_wfk_jpb" width="120mm" scope="external" />
+                        </fig>
+                    </div></li>
+            </ul></p>
+    </conbody>
+</concept>

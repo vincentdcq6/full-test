@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="expert" xml:lang="en-US">
+   <title id="title__Toc50995123">EXPERT system variable</title>
+   <conbody>
+      <section><title>Expert</title><p>Specifies the display of certain prompts. If prompts are suppressed by EXPERT, the operation proceeds as though you entered y(es) at the suppressed prompt. EXPERT can affect scripts, menu macros, LISP and command functions.</p>
+         <p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/not_saved" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry><p>0 to 5</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p>0</p></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: Issue all prompts normally</p>
+                           <p>1: Suppress 'regen' and 'layer off' prompts</p>
+                           <p>2: Also suppress 'block already defined' (BLOCK) and 'file already exists' (SAVE and WBLOCK) prompts</p>
+                           <p>3: Also suppress 'linetype already loaded' prompt</p>
+                           <p>4: Also suppress 'file already exists' (UCS and VPORTS Save) prompts</p>
+                           <p>5: Also suppress 'dimstyle already exists' prompt</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

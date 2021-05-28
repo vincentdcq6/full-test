@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="how_to_draw_accurately">
+   <title>How to draw accurately</title>
+   <shortdesc><!--tba--></shortdesc>
+   <conbody>
+      <p>New entities are created in the XY-plane of the current coordinate system. By default, this
+         is the World Coordinate System (WCS). All dimensions in a DWG file are expressed in drawing
+         units (DU). The INSUNITS system variable (Insertion Units) sets the value of 1 DU.</p>
+      <p>For new drawings, INSUNITS system variable is defined in the template drawing that you
+         selected to create the drawing. <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />
+         provides a series of template drawings for decimal and imperial units.</p>
+      <p>To draw accurately, <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> provides several
+         drawing aids:<ul id="ul_fwt_gmx_smb">
+            <li>2D entity snaps: you can use key points on existing 2D entities, such as endpoint,
+               midpoint or center and the intersection. You can also draw perpendicularly, parallel,
+               or tangentially to an entity.</li>
+            <li>3D entity snaps: you can use key points on 3D entities, such as solids.</li>
+            <li>Dynamic dimensions. When dynamic dimensions are switched <b>ON</b>, you can enter
+               distances and angles in dynamic dimension fields. When multiple dynamic dimension
+               fields display, for example when drawing a rectangle, press the Tab key to switch to
+               the next field. When you enter a value and press the Tab key, the field turns red,
+               which indicates that the value is fixed.<fig id="fig_bkd_w2g_wmb">
+                  <image href="https://static.bricsys.com/help/en_US/V20/BCAD/Getting%20Started/DynamicDimensions.png" id="image_tjf_w2g_wmb" scope="external" />
+               </fig></li>
+            <li>Polar tracking forces the drawing direction to specified angles with respect to the
+               axes (X, Y, Z) of the current coordinate system.</li>
+            <li>Entity snap tracking combines entity snaps and polar tracking.</li>
+            <li>Coordinate input allows you to enter XYZ coordinates to specify points.</li>
+            <li>Snap and grid. A grid is a set of evenly spaced lines or dots that serve as a visual
+               distance reference. The cursor snaps to the grid points, which allows you to draw
+               fast at fixed intervals.</li>
+            <li>Drawing limits allows you to limit the drawing area, which prevents entity creation
+               outside the drawing limits.</li>
+            <li>Ortho mode forces the cursor to move parallel to either the X- or Y-axis of the
+               current coordinate system.</li>
+            <li>User coordinate systems. You can define named user coordinate systems (UCS) located
+               anywhere in three-dimensional space. You can restore a named UCS at any time.</li>
+            <li>Direct distance entry allows you to enter lengths, radii, diameters, and movement
+               vectors.</li>
+            <li>Nearest distance allows you to dynamically view and modify the distance between 2
+               selected entities or sub entities.</li>
+            <li>The Manipulator is a versatile grip tool to swiftly move, rotate, scale and mirror
+               selected entities.</li>
+         </ul></p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_insunits" />
+      </linklist>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_template_drawings" />
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006739434-Entity-Snaps" format="html" scope="external"><linktext>2D entity snaps</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360020753494" format="html" scope="external"><linktext>3D entity snaps</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006810213-Dynamic-Dimensions" format="html" scope="external"><linktext>Dynamic dimensions</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006738774-Polar-Tracking" format="html" scope="external"><linktext>Polar tracking</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006808593-Entity-Snap-Tracking" format="html" scope="external"><linktext>Entity snap tracking</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006810013-Coordinate-Input" format="html" scope="external"><linktext>Coordinate input</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006809913-Using-Snap-and-Grid" format="html" scope="external"><linktext>Snap and grid</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006809913" format="html" scope="external"><linktext>Drawing limits</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006642893" format="html" scope="external"><linktext>Ortho mode</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006808353-User-Coordinate-Systems" format="html" scope="external"><linktext>User Coordinate Systems</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006642953-Direct-Distance-Entry" format="html" scope="external"><linktext>Direct distance entry</linktext></link>-->
+         <!--<link href="https://help.bricsys.com/hc/en-us/articles/360011368453" format="html" scope="external"><linktext>Nearest distance</linktext></link>-->
+         <link keyref="GD_using_the_manipulator">
+            <linktext>Using the Manipulator</linktext>
+         </link>
+      </linklist>
+   </related-links>
+</concept>

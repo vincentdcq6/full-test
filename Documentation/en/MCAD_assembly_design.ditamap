@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title>Assembly Design</title>
+  <topicref href="empty%20titles/MCAD_assembly_design_title.dita" navtitle="Assembly Design" keys="MCAD_assembly_design_title">
+    <topicref href="_guides/MCAD_assembly_design/GD_bottomupandtopdownassemblydesign.dita" navtitle="Bottom-up and Top-down Assembly Design" keys="GD_bottomupandtopdownassemblydesign">
+      <topicref href="_guides/MCAD_assembly_design/GD_bottomupandtopdownassemblydesignoverview.dita" navtitle="Overview" keys="GD_bottomupandtopdownassemblydesignoverview" />
+      <topicref href="_guides/MCAD_assembly_design/GD_bottomupdesign.dita" navtitle="Bottom-Up Design" keys="GD_bottomupdesign" />
+      <topicref href="_guides/MCAD_assembly_design/GD_topdowndesign.dita" navtitle="Top-Down Design" keys="GD_topdowndesign" />
+      <topicref href="_guides/MCAD_assembly_design/GD_addingmechanicalstructuretoexistinggeometry.dita" navtitle="Adding Mechanical Structure to Existing Geometry" keys="GD_addingmechanicalstructuretoexistinggeometry" />
+      <topicref href="_guides/MCAD_assembly_design/GD_changingmechanicalstructure.dita" navtitle="Changing Mechanical Structure" keys="GD_changingmechanicalstructure" />
+      <topicref href="_guides/MCAD_assembly_design/GD_usingstandardcomponents.dita" navtitle="Using Standard Components" keys="GD_usingstandardcomponents" />
+      <topicref href="_guides/MCAD_assembly_design/GD_assemblyconstraints.dita" navtitle="Assembly Constraints" keys="GD_assemblyconstraints" />
+      <topicref href="_guides/MCAD_assembly_design/GD_componentvisibility.dita" navtitle="Component Visibility" keys="GD_componentvisibility" />
+    </topicref>
+    <topicref href="_guides/MCAD_assembly_design/GD_assemblydesigncommandsandtools.dita" navtitle="Assembly Design Commands and Tools" keys="GD_assemblydesigncommandsandtools">
+      <topicref href="_guides/MCAD_assembly_design/GD_assemblydesigncommands.dita" navtitle="Commands" keys="GD_commands" />
+      <topicref href="_guides/MCAD_assembly_design/GD_assemblydesigntools.dita" navtitle="Tools" keys="GD_tools" />
+    </topicref>
+    <topicref href="_guides/MCAD_assembly_design/GD_componentproperties.dita" navtitle="_guides/MCAD_assembly_design/GD_componentproperties.dita" keys="GD_componentproperties" />
+    <topicref href="_guides/MCAD_assembly_design/GD_assemblymassproperties.dita" navtitle="Assembly mass properties" keys="GD_assemblymassproperties">
+      <topicref href="_guides/MCAD_assembly_design/GD_assemblymasspropertiesoverview.dita" navtitle="Overview" keys="GD_overview" />
+      <topicref href="_guides/MCAD_assembly_design/GD_setthemassunits.dita" navtitle="Set the mass units" keys="GD_setthemassunits" />
+      <topicref href="_guides/MCAD_assembly_design/GD_computethemassproperties.dita" navtitle="Compute the mass properties" keys="GD_computethemassproperties" />
+    </topicref>
+    <topicref href="_guides/MCAD_assembly_design/GD_standardmechanicalcomponents.dita" navtitle="Standard Mechanical Components" keys="GD_standardmechanicalcomponents">
+      <topicref href="_guides/MCAD_assembly_design/GD_standardmechanicalcomponentsoverview.dita" navtitle="Overview" keys="GD_standardmechanicalcomponentsoverview" />
+      <topicref href="_guides/MCAD_assembly_design/GD_standardpartshardware.dita" navtitle="Standard Parts (Hardware)" keys="GD_standardpartshardware">
+        <topicref href="_guides/MCAD_assembly_design/GD_standardrepresentationofthreadindrawingviews.dita" navtitle="Standard representation of thread in drawing views" keys="GD_standardrepresentationofthreadindrawingviews" />
+      </topicref>
+      <topicref href="_guides/MCAD_assembly_design/GD_holes.dita" navtitle="Holes" keys="GD_holes" />
+      <topicref href="_guides/MCAD_assembly_design/GD_sheetmetalformfeatures.dita" navtitle="Sheet Metal Form Features" keys="GD_sheetmetalformfeatures" />
+      <topicref href="_guides/MCAD_assembly_design/GD_placeastandardcomponentintothecurrentdrawing.dita" navtitle="Place a standard component into the current drawing" keys="GD_placeastandardcomponentintothecurrentdrawing" />
+      <topicref href="_guides/MCAD_assembly_design/GD_createyourownstandardcomponent.dita" navtitle="Create your own standard component" keys="GD_createyourownstandardcomponent" />
+      <topicref href="_guides/MCAD_assembly_design/GD_controlthedisplayofthreads.dita" navtitle="Control the display of threads" keys="GD_controlthedisplayofthreads" />
+      <topicref href="_guides/MCAD_assembly_design/GD_controlthenumberofsprocketteeth.dita" navtitle="Control the number of sprocket teeth" keys="GD_controlthenumberofsprocketteeth" />
+    </topicref>
+    <topicref href="_guides/MCAD_assembly_design/GD_pipinginassemblydesign.dita" navtitle="Piping in Assembly Design" keys="GD_pipinginassemblydesign">
+      <topicref href="_guides/MCAD_assembly_design/GD_overviewpipinginassemblydesign.dita" navtitle="Overview" keys="GD_overviewpipinginassemblydesign" />
+      <topicref href="_guides/MCAD_assembly_design/GD_insertpipingpartsinyourassembly.dita" navtitle="Insert piping parts in your assembly" keys="GD_insertpipingpartsinyourassembly" />
+      <topicref href="_guides/MCAD_assembly_design/GD_create3dconstraintsbetweenpipingstandardpartsmanually.dita" navtitle="Create 3D constraints between piping standard parts manually" keys="GD_create3dconstraintsbetweenpipingstandardpartsmanually" />
+      <topicref href="_guides/MCAD_assembly_design/GD_automaticallyconnectpipingparts.dita" navtitle="Automatically connect piping parts" keys="GD_automaticallyconnectpipingparts" />
+      <topicref href="_guides/MCAD_assembly_design/GD_createabillofmaterialsforapipingassembly.dita" navtitle="Create a Bill of Materials for a piping assembly" keys="GD_createabillofmaterialsforapipingassembly" />
+    </topicref>
+    <topicref href="_guides/MCAD_assembly_design/GD_arraysofcomponents.dita" navtitle="Arrays of Components" keys="GD_arraysofcomponents">
+      <topicref href="_guides/MCAD_assembly_design/GD_overviewarraysofcomponents.dita" navtitle="Overview" keys="GD_overviewarraysofcomponents" />
+      <topicref href="_guides/MCAD_assembly_design/GD_createanarrayofcomponents.dita" navtitle="Create an array of components" keys="GD_createanarrayofcomponents" />
+      <topicref href="_guides/MCAD_assembly_design/GD_arraysofcomponentsinthemechanicalbrowser.dita" navtitle="Arrays of components in the Mechanical Browser" keys="GD_arraysofcomponentsinthemechanicalbrowser" />
+      <topicref href="_guides/MCAD_assembly_design/GD_arraysofcomponentsandbillofmaterials.dita" navtitle="Arrays of components and Bill of Materials" keys="GD_arraysofcomponentsandbillofmaterials" />
+      <topicref href="_guides/MCAD_assembly_design/GD_arraysofparametriccomponentsstandardpartsandholes.dita" navtitle="Arrays of parametric components, standard parts, and holes" keys="GD_arraysofparametriccomponentsstandardpartsandholes" />
+    </topicref>
+    <topicref href="_guides/MCAD_assembly_design/GD_arrayproperties.dita" navtitle="Array Properties" keys="GD_arrayproperties">
+      <topicref href="_guides/MCAD_assembly_design/GD_overviewarrayproperties.dita" navtitle="Overview" keys="GD_overviewarrayproperties" />
+      <topicref href="_guides/MCAD_assembly_design/GD_relatedcommands.dita" navtitle="Related commands" keys="GD_relatedcommands" />
+    </topicref>
+    <topicref href="_guides/MCAD_assembly_design/GD_explodedrepresentations.dita" navtitle="Exploded Representations" keys="GD_explodedrepresentations">
+      <topicref href="_guides/MCAD_assembly_design/GD_overviewexplodedrepresentations.dita" navtitle="Overview" keys="GD_overviewexplodedrepresentations" />
+      <topicref href="_guides/MCAD_assembly_design/GD_levelsoftheexplodedrepresentation.dita" navtitle="Levels of the exploded representation" keys="GD_levelsoftheexplodedrepresentation" />
+      <topicref href="_guides/MCAD_assembly_design/GD_algorithms.dita" navtitle="Algorithms" keys="GD_algorithms" />
+      <topicref href="_guides/MCAD_assembly_design/GD_stepsandanimations.dita" navtitle="Steps and animations" keys="GD_stepsandanimations" />
+      <topicref href="_guides/MCAD_assembly_design/GD_editexplodedrepresentations.dita" navtitle="Edit exploded representations" keys="GD_editexplodedrepresentations" />
+      <topicref href="_guides/MCAD_assembly_design/GD_trailinglines.dita" navtitle="Trailing lines" keys="GD_trailinglines" />
+      <topicref href="_guides/MCAD_assembly_design/GD_createanexplodedrepresentation.dita" navtitle="Create an exploded representation" keys="GD_createanexplodedrepresentation" />
+      <topicref href="_guides/MCAD_assembly_design/GD_generatedrawingviewsoftheexplodedrepresentation.dita" navtitle="Generate drawing views of the exploded representation" keys="GD_generatedrawingviewsoftheexplodedrepresentation" />
+      <topicref href="_guides/MCAD_assembly_design/GD_updateanexplodedrepresentation.dita" navtitle="Update an exploded representation" keys="GD_updateanexplodedrepresentation" />
+      <topicref href="_guides/MCAD_assembly_design/GD_manageexplodedrepresentations.dita" navtitle="Manage exploded representations" keys="GD_manageexplodedrepresentations" />
+      <topicref href="_guides/MCAD_assembly_design/GD_manageexplodedrepresentationsteps.dita" navtitle="Manage exploded representation steps" keys="GD_manageexplodedrepresentationsteps" />
+      <topicref href="_guides/MCAD_assembly_design/GD_editexplodedrepresentations2.dita" navtitle="Edit exploded representations" keys="GD_editexplodedrepresentations2" />
+      <topicref href="_guides/MCAD_assembly_design/GD_addtrailinglines.dita" navtitle="Add trailing lines" keys="GD_addtrailinglines" />
+    </topicref>
+    <topicref href="_guides/MCAD_assembly_design/GD_billofmaterialsmanager.dita" navtitle="Bill of Materials Manager" keys="GD_billofmaterialsmanager" />
+    <topicref href="_guides/MCAD_assembly_design/GD_billofmaterials.dita" navtitle="Bill of Materials" keys="GD_billofmaterials" />
+    <topicref href="_guides/MCAD_assembly_design/GD_multiparametric3danimations.dita" navtitle="Multi-parametric 3D animations" keys="GD_multiparametric3danimations" />
+  </topicref>
+</map>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="the_bricscad_launcher">
+   <title>BricsCAD Launcher</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>If the GETSTARTED system variable is ON, the <uicontrol>BricsCAD Launcher</uicontrol>
+         dialog box displays when you launch <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />.
+         Here you can choose the Workspace for the current session. The available workspaces depend
+         on the license level.<fig>
+            <image href="https://static.bricsys.com/help/en_US/V21/BCAD/Getting%20Started/BricscadLauncher_V21-Upgrade.png" id="image_tll_cjd_1nb" scope="external" />
+         </fig></p>
+      <ul id="ul_pvp_zjv_smb">
+         <li><uicontrol>2D Drafting</uicontrol>: launches the Drafting workspace. <b conkeyref="product_names_warehouse/b_hkm_wl2_1nb" /> license or higher is required.</li>
+         <li><uicontrol>3D Modeling</uicontrol>: launches the Modeling workspace. <b conkeyref="product_names_warehouse/b_umt_wl2_1nb" /> license or higher is required.</li>
+         <li><uicontrol>Mechanical design</uicontrol>: launches the Mechanical workspace. <b conkeyref="product_names_warehouse/b_erh_bm2_1nb" /> or <b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" /> license is required.</li>
+         <li><uicontrol>BIM</uicontrol>: launches the BIM workspace. <b conkeyref="product_names_warehouse/b_vtd_bm2_1nb" /> or <b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" /> license is required.</li>
+         <li><uicontrol>Launch BricsCAD Shape</uicontrol>: launches <b conkeyref="product_names_warehouse/b_czf_4n2_1nb" />. No license is required.</li>
+         <li><uicontrol>Last used</uicontrol>: launches the last used workspace.</li>
+         <li><uicontrol>Don't show again</uicontrol>: sets the GETSTARTED system variable to 0. To
+            reset the display of the BricsCAD Launcher dialog box, type
+               <uicontrol>getstarted</uicontrol> in the command line and choose <uicontrol>1 for
+               ON</uicontrol>.</li>
+         <li><uicontrol>Units</uicontrol>: sets the units for the default template drawing. Defines
+            the BASEFILE system variable.</li>
+      </ul>
+      <note>The free solid modeling tool, <b conkeyref="product_names_warehouse/b_czf_4n2_1nb" />, is built into the single <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> installer. When the <b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" /> 30-day trial expires, it reverts to a perpetual <b conkeyref="product_names_warehouse/b_czf_4n2_1nb" /> license, which can be converted to a full commercial license by purchasing a license key. You do not need to uninstall <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> first.</note>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_getstarted" />
+         <link keyref="SV_basefile" />
+      </linklist>
+   </related-links>
+</concept>
+

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="ES_perpendicular">
+   <title>Perpendicular entity snap</title>
+   <shortdesc>The Perpendicular entity snap enables the cursor to snap to a point perpendicular to
+      an existing entity.</shortdesc>
+   <conbody>
+      <p>
+         <fig id="fig_jyc_sbs_v4b">
+            <image href="https://static.bricsys.com/help/en_US/ES_perpendicular_01_V21.png" id="image_ijh_v2s_v4b" scope="external" />
+         </fig>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_osmode" />
+         <link keyref="SV_3dosmode" />
+      </linklist>
+   </related-links>
+</concept>

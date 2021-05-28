@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="activate_a_trial_license_manually_offline">
+   <title>Activating a trial license manually (offline)</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <context id="context_v4b_mdy_vmb">If your computer is not connected to the internet, you can activate the license manually via another computer that is connected to the internet.</context>
+      <steps id="ol_pqf_s4h_smb">
+         <step>
+            <cmd>Launch <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Activate License</uicontrol> in the BricsCAD Launcher dialog
+               box.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Activate Manually...</uicontrol> in the <uicontrol>Bricsys License Manager</uicontrol> dialog box.</cmd>
+            <stepresult>The <uicontrol>Manual Activation</uicontrol> dialog box opens.<fig id="fig_v5l_ydw_5mb">
+                  <image href="https://static.bricsys.com/help/en_US/V18/BricsCAD/source/ART/LicenseManager_ManualActivation.png" id="image_qqf_s4h_smb" scope="external" />
+               </fig></stepresult>
+         </step>
+         <step>
+            <cmd>Copy the full content of the <uicontrol>Computer Hostid</uicontrol> field.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to the Bricsys website with the computer connected to internet.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>My Account</uicontrol> icon (<image href="https://static.bricsys.com/help/en_US/V20/Common/MyAccount_Icon.png" id="image_rqf_s4h_smb" scope="external" />) and select <uicontrol>Manage Licenses</uicontrol> from the menu.</cmd>
+            <info>
+               <fig id="fig_px3_zdw_5mb">
+                  <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/MyAccount_Menu_ManageLicenses.png" id="image_sqf_s4h_smb" scope="external" />
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Choose <uicontrol>Activate BricsCAD Manually</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Host ID</uicontrol> field, paste the computer host ID of the
+               computer you want to install <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />
+               on and click the <uicontrol>Activate</uicontrol> button.</cmd>
+            <info>
+               <fig id="fig_dvj_12w_5mb">
+                  <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/ActivateBricsCADManually.png" id="image_tqf_s4h_smb" scope="external" />
+               </fig>
+            </info>
+            <stepresult>A license file is generated and made available for download.</stepresult>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Download License File</uicontrol> button.</cmd>
+            <stepresult>The license file is downloaded to your default download folder.</stepresult>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Manual Activation</uicontrol> dialog box, click the <uicontrol>browse</uicontrol> button (<image href="https://static.bricsys.com/help/en_US/V19/Common/browse.png" id="image_uqf_s4h_smb" scope="external" />).</cmd>
+         </step>
+         <step>
+            <cmd>Open the folder where you copied the license file to and select the file.</cmd>
+            <info>
+               <fig id="fig_l3p_5l2_wmb">
+                  <image href="https://static.bricsys.com/help/en_US/V19/BCAD/Installation%20%26%20Settings/BrowseForLicenseFile.png" id="image_vqf_s4h_smb" scope="external"><!--link genereert error in Miramo--></image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>OK</uicontrol> button.</cmd>
+            <stepresult><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> is
+               launched.</stepresult>
+         </step>
+      </steps>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="GD_the_bricscad_launcher" />
+         <link keyref="GD_setting_the_license_level" />
+         <link keyref="GD_overview_of_licensing_options" />
+         <link keyref="GD_activate_a_trial_license_automatically_online" />
+         <link keyref="GD_activate_a_single_or_volume_license_manually_offline" />
+         <link keyref="GD_activate_a_single_or_volume_license_automatically_online" />
+      </linklist>
+   </related-links>
+</task>

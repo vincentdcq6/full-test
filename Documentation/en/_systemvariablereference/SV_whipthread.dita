@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="whipthread" xml:lang="en-US">
+   <title id="title__Toc50995819">WHIPTHREAD system variable</title>
+   <conbody>
+      <section><title>Whip thread</title><p>Specifies whether regen and redraw will be done multithreaded, if the machine has multiple processors. Not supported yet. <ph>When multithreaded processing is used for redraw operations (value 2 or 3), the order of entities specified with the DRAWORDER command is not guaranteed to be preserved for display but is preserved for plotting. </ph>The value is stored as a bitcode using the sum of the values of all selected options.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 3</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>0: No multithreaded processing</p>
+                           <p>1: Regeneration multithreaded processing</p>
+                           <p>2: Redraw multithreaded processing</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

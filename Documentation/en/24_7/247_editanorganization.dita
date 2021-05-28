@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_edit_an_organization">
+    <title>Edit an organization</title>
+    <taskbody>
+        <context>
+            <p>You can edit an organization:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Address book</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select an address book in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Select an organization in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Edit organization</uicontrol>
+                    <image href="../IMAGES_temp/edit_organization.PNG" id="image_ow4_hzj_x4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Edit organization</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Edit the organization details.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the organization is successfully
+                    edited.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

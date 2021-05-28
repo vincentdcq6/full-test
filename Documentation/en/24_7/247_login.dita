@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_login">
+    <title>Login</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Browse to <xref href="https://my.bricsys247.com/app/" format="html" scope="external" />.</cmd>
+                <stepresult>The login page appears.<fig id="fig_xjq_f1w_s4b">
+                        <title>Login page</title>
+                    <image href="../IMAGES_temp/login_new_interface.png" id="image_yjq_f1w_s4b" width="150mm" scope="external" />
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>Enter your email address and password.</cmd>
+                <info>
+                    <p>
+                        <note type="tip">Tick the <uicontrol>Remember me</uicontrol> checkbox to
+                            remain logged in until you manually log out.</note>
+                        <note type="note">If you forgot your password, click the corresponding <xref href="https://auth.bricsys.com/auth/realms/bricsys-account/login-actions/reset-credentials?client_id=B247&amp;tab_id=5qdmJcCsGvk" format="html" scope="external">link</xref> on the login page and
+                            submit your email address. Bricsys does not have the ability to change
+                            your password.</note>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Log in</uicontrol>.</cmd>
+                <stepresult>The Bricsys 24/7 page appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select your preferred language in <uicontrol>Profile
+                    settings</uicontrol>.</cmd>
+                <info>
+                    <div>
+                        <note>For more information, see <xref keyref="247_edityourprofile" />.</note>
+                    </div>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

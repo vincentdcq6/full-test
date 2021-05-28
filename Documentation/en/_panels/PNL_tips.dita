@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_tips">
+    <title>Tips panel</title>
+    <shortdesc>The Tips panel offers relevant advice based on the context in which you are
+        working.</shortdesc>
+    <conbody>
+        <fig id="fig_zlp_51w_3pb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_tips_01_V21.png" id="image_gbf_v1w_3pb" scope="external" />
+        </fig>
+        <p>When you start certain commands, the panel displays a short animation and additional
+            information about the command.</p>
+        <fig id="fig_id2_y1w_3pb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_tips_02_V21.png" scope="external" id="image_jd2_y1w_3pb" />
+        </fig>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_help" />
+        </linklist>
+    </related-links>
+</concept>

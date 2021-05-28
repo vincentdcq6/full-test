@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_dynamicucs">
+    <title>Dynamic UCS</title>
+    <shortdesc>With the Dynamic UCS feature enabled, the coordinate system is aligned automatically
+        with the entity under the cursor.</shortdesc>
+    <conbody>
+        <p>The UCSDETECT system variable controls the supported entity types:</p>
+        <ul id="ul_zfr_yyr_qpb">
+            <li>1: faces of 3d Solids (the default) </li>
+            <li>2 : other entity types: point, line, polyline, 2D polyline, 3D polyline, ray, xline,
+                arc, circle, ellipse, spline, text, mtext, solid, 3Dface, trace, block insert,
+                viewport, mline, leader, mleader, hatch, helix, camera, light, section, shape, pdf
+                underlay and image.</li>
+        </ul>
+        <p>Right click the DUCS field in the status bar to select the supported entity types.</p>
+        <p>This feature is controlled by user preferences.</p>
+        <ul id="ul_agr_yyr_qpb">
+            <li>RedHilite_DUCSLocked_Face_Color controls the highlight color for the face to which
+                the Dynamic UCS has been locked by pressing the Shift key.</li>
+            <li>RedHilite_DUCSLocked_Face_Alpha controls the highlight transparency for the face to
+                which the Dynamic UCS has been locked by pressing the Shift key.</li>
+        </ul>
+        <p>
+            <note>It is recommended to set UCSFOLLOW = Off when using the dynamic UCS
+                feature.</note>
+        </p>
+        <section id="section_wlm_bzr_qpb">
+            <title>Toggling the dynamic UCS</title>
+            <p>Do one of the following: <ul id="ul_sxl_czr_qpb">
+                    <li>Press the <b>F6</b> function key.</li>
+                    <li>Click the <uicontrol>DUCS</uicontrol> field in the status bar.</li>
+                </ul></p>
+        </section>
+        <section id="section_kc4_dzr_qpb">
+            <title>Using the Dynamic UCS</title>
+            <p>
+                <ol id="ol_dpy_dzr_qpb">
+                    <li>With the Dynamic UCS feature active, launch an entity creation command, for
+                        example Draw.</li>
+                    <li>
+                        <p>Move the cursor over an entity or 3D solid face.</p>
+                        <p>The entity or face highlights.</p>
+                        <p>If GRIDMODE is On, the grid is aligned with the hovered entity or face.</p>
+                    </li>
+                    <li>If UCSICON = 3 (On at Origin), the UCS icon displays.<p>
+                            <table id="table_fys_vzr_qpb">
+                                <tgroup cols="2">
+                                    <colspec colnum="1" colname="col1" colsep="1" rowsep="1" align="center" />
+                                    <colspec colnum="2" colname="col2" rowsep="1" colsep="1" align="center" />
+                                    <tbody>
+                                        <row>
+                                            <entry namest="col1" nameend="col2">Dynamice UCS on
+                                                other entities</entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="https://static.bricsys.com/help/en_INTL/GD_dynamicUCS_01_V21.png" id="image_ujv_xzr_qpb" scope="external" />
+                                            </entry>
+                                            <entry><image href="https://static.bricsys.com/help/en_INTL/GD_dynamicUCS_02_V21.png" scope="external" id="image_i4y_yzr_qpb" />
+                                            </entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="https://static.bricsys.com/help/en_INTL/GD_dynamicUCS_03_V21.png" scope="external" id="image_ft3_zzr_qpb" />
+                                            </entry>
+                                            <entry><image href="https://static.bricsys.com/help/en_INTL/GD_dynamicUCS_04_V21.png" scope="external" id="image_yzy_zzr_qpb" />
+                                            </entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="https://static.bricsys.com/help/en_INTL/GD_dynamicUCS_05_V21.png" scope="external" id="image_zml_11s_qpb" />
+                                            </entry>
+                                            <entry><image href="https://static.bricsys.com/help/en_INTL/GD_dynamicUCS_06_V21.png" scope="external" id="image_qqx_11s_qpb" />
+                                            </entry>
+                                        </row>
+                                    </tbody>
+                                </tgroup>
+                            </table>
+                        </p><p>
+                            <table id="table_pkn_h1s_qpb">
+                                <tgroup cols="2">
+                                    <colspec colnum="1" colname="col1" colsep="1" rowsep="1" align="center" />
+                                    <colspec colnum="2" colname="col2" rowsep="1" colsep="1" align="center" />
+                                    <tbody>
+                                        <row>
+                                            <entry namest="col1" nameend="col2">Dynamic UCS on 3D
+                                                solid faces</entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="https://static.bricsys.com/help/en_INTL/GD_dynamicUCS_07_V21.png" scope="external" id="image_ds2_31s_qpb" />
+                                            </entry>
+                                            <entry><image href="https://static.bricsys.com/help/en_INTL/GD_dynamicUCS_08_V21.png" scope="external" id="image_obx_31s_qpb" />
+                                            </entry>
+                                        </row>
+                                        <row>
+                                            <entry>
+                                                <image href="https://static.bricsys.com/help/en_INTL/GD_dynamicUCS_09_V21.png" scope="external" id="image_z5l_j1s_qpb" /></entry>
+                                            <entry><image href="https://static.bricsys.com/help/en_INTL/GD_dynamicUCS_10_V21.png" scope="external" id="image_f3g_k1s_qpb" />
+                                            </entry>
+                                        </row>
+                                    </tbody>
+                                </tgroup>
+                            </table>
+                        </p><p>The dynamic UCS is oriented depending on how the cursor touches the
+                            hovered entity or face, thus providing users a way to manipulate the
+                            orientation of the DUCS. On 3D solid faces the origin of the DUCS is set
+                            to the start point of the solid edge and the X-axis is chosen
+                            co-directional to the tangent at the start point of the edge. On curved
+                            faces, the X-axis is tangent to the face, the Y-axis lies in the face
+                            and the Z-axis is perpendicular to the face.</p>
+                    </li>
+                    <li>(option) Tap the Shift key to lock the DUCS, which allows you to start
+                        drawing outside the hovered entity or face. Tap the Shift key again to
+                        unlock the DUCS.</li>
+                    <li>Execute the entity creation command. <note>When bitcode 2 of the OSOPTIONS
+                            system variable is selected, entity snap ignores negative
+                            Z-values.</note></li>
+                    <li>When the command concludes, the current coordinate system (WCS or UCS) is
+                        restored.</li>
+                </ol>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_gridmode" />
+            <link keyref="SV_osoptions" />
+            <link keyref="SV_ucsdetect" />
+            <link keyref="SV_ucsfollow" />
+            <link keyref="SV_redhilite_ducslocked_face_color" />
+            <link keyref="SV_redhilite_ducslocked_face_alpha" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="GD_usercoordinatesystems" />
+        </linklist>
+    </related-links>
+</concept>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_open_a_document">
+    <title>Open, edit and revise a document</title>
+    <taskbody>
+        <context>
+            <p>The Bricsys 24/7 Transfer Tool allows you to open a document from the Bricsys 24/7
+                Service on your device. This allows you to change the document immediately and
+                upload it directly to Bricsys 24/7 as a revision.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Double-click on a document in the Bricsys 24/7 screen to save and open a copy
+                    on your local device.</cmd>
+                <stepresult>A green dot appears next to the file name.<p>
+                        <fig id="fig_h5s_f4l_t4b">
+                            <title>Open a document</title>
+                            <image href="../IMAGES_temp/open_a_document.png" id="image_i5s_f4l_t4b" width="150mm" scope="external" />
+                        </fig>
+                    </p></stepresult>
+            </step>
+            <step>
+                <cmd>Edit and save the document on your local device.</cmd>
+                <stepresult>An orange dot appears next to the file name.</stepresult>
+            </step>
+            <step>
+                <cmd>Right-click on the edited document and select the <menucascade>
+                        <uicontrol>upload as revision</uicontrol>
+                    </menucascade> action to upload the edited document as a revision of the
+                    original document in Bricsys 24/7.</cmd>
+            </step>
+        </steps>
+        </taskbody>
+</task>

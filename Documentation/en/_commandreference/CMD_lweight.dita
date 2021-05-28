@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_lweight">
+   <title>LWEIGHT command</title>
+   <shortdesc>Opens the Settings Dialog Box with the <uicontrol>Lineweights</uicontrol> category expanded.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> with the <uicontrol>Lineweights</uicontrol> category
+         expanded to view and modify relevant system variables.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_celweight" />
+         <link keyref="SV_lwdefault" />
+         <link keyref="SV_lwdisplay" />
+         <link keyref="SV_lwunits" />
+         <link keyref="SV_lwdispscale" />
+      </linklist>
+   </related-links>
+</concept>

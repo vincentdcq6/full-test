@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="hpgaptol" xml:lang="en-US">
+   <title id="title__Toc50995234">HPGAPTOL system variable</title>
+   <conbody>
+      <section><title>Hatch pattern gap tolerance</title><p>Specifies a tolerance to be used when entities are not completely closed when generating a boundary for BHATCH or BOUNDARY. The Tolerance setting from the Hatch and Gradient dialog is saved here. The default value is 0: the tolerance is set by the application, based on the current view size. When zoomed in closely, boundary detection will fail; when zooming out further so the contour 'looks' closed, the boundary will become detected. Values greater than 0 define the maximum gap in drawing units.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/real" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 or greater</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0.0</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

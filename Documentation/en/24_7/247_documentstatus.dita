@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_document_status">
+    <title>Document status</title>
+    <conbody>
+        
+            <table frame="all" rowsep="1" colsep="1" id="table_njx_k2l_t4b">
+                <title>Document status</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="4.69*" />
+                    <thead>
+                        <row>
+                            <entry>Item</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>A dot</entry>
+                            <entry>A copy of the document from Bricsys 24/7 is available on your
+                                local device.</entry>
+                        </row>
+                        <row>
+                            <entry>A green dot</entry>
+                            <entry>The document stored on your local device is identical to the
+                                document on Bricsys 24/7.</entry>
+                        </row>
+                        <row>
+                            <entry>An orange dot</entry>
+                            <entry>The document stored on your local device is different from the
+                                document on Bricsys 24/7.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        
+    </conbody>
+</concept>

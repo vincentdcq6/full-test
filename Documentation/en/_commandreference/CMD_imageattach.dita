@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_imageattach">
+   <title>IMAGEATTACH command</title>
+   <shortdesc>Opens the Select Image File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_selectimagefile" /> to select an image file to reference into the
+         current drawing. After selecting the file and choosing <uicontrol>Open</uicontrol>, the
+         Attach Raster Image file Dialog Box displays. It enables you to specify where and how to
+         attach the image.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_dgnimport">
+   <title>DGNIMPORT command</title>
+   <shortdesc>Opens the Import File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_importfile" /> to select a dgn file to import into the current
+         drawing.</p>
+   </conbody>
+</concept>

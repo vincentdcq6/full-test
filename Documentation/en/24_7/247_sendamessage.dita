@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_send_a_message">
+    <title>Send a message</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Message</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>New message</uicontrol>
+                    <image href="../IMAGES_temp/new_message_icon.PNG" id="image_rc3_fl2_v4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Choose message folder</wintitle> window
+                    appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the applicable message folder.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Select</uicontrol>.</cmd>
+                <stepresult>A <wintitle>Message</wintitle> window appears.<fig id="fig_tv3_gn2_v4b">
+                        <title>New message</title>
+                    <image placement="break" href="../IMAGES_temp/communication_messages.PNG" id="image_uv3_gn2_v4b" scale="60" scope="external" />
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>Add the recipients in the <uicontrol>To</uicontrol> field.</cmd>
+                <info>
+                    <p>
+                        <note>You can only add users with access to the
+                                <uicontrol>Message</uicontrol> tool.</note>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>Enter a subject in the <uicontrol>Subject</uicontrol> field.</cmd>
+            </step>
+            <step>
+                <cmd>Write a message.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, click the cloud icon <image href="../IMAGES_temp/cloud_icon.PNG" id="image_zcy_qm2_v4b" scope="external" /> to attach a document from your project in Bricsys
+                    24/7.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, click the paperclip icon <image href="../IMAGES_temp/paperclip_icon.PNG" id="image_osp_nm2_v4b" scope="external" /> to attach a
+                    document from your local device.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Send</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the message is sent. The recipients
+                    receive an email with a direct link to the <uicontrol>Message</uicontrol> tool
+                    where they can read the content of the message.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

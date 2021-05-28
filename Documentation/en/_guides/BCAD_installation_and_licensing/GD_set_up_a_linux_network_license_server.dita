@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="set_up_a_linux_network_license_server">
+   <title>Setting up a Linux network license server</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <prereq>Download and install the Bricsys Network License Manager on the computer that will be used as network license server.</prereq>
+      <steps id="ol_nnq_nth_smb">
+         <step>
+            <cmd>Download Bricsys Network License Manager (Linux)</cmd>
+         </step>
+         <step>
+            <cmd>Extract <b>Bricsys-NetworkLicenseManager.tgz</b> to any folder (command line: <codeph>tar xvzf Bricsys-NetworkLicenseManager.tgz</codeph>).</cmd>
+         </step>
+         <step>
+            <cmd>Start the application RLM in that folder (command line in that folder: ./rlm).</cmd>
+         </step>
+         <step>
+            <cmd>Browse to the webpage <b>http://localhost:5054</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>System Info</uicontrol> button on the left on the webpage. Copy an Ethernet host ID and use this to activate your license on the <uicontrol>My Account</uicontrol> page on the Bricsys website.</cmd>
+         </step>
+         <step>
+            <cmd>When you download a license file from the Bricsys website, store it in the folder where you extracted Bricsys-NetworkLicenseManager.tgz.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Reread/Restart Servers</uicontrol> button.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Status</uicontrol> button to see the server status, on the next page click the <uicontrol>bricsys</uicontrol> button in the table to view Bricsys licenses.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>RLM Manual...</uicontrol> button to learn how to configure the license server in detail. Among other things, the page explains how to start RLM automatically when the server boots.</cmd>
+         </step>
+      </steps>
+      <result id="result_axv_tc2_wmb">Once the network license is activated and the server is
+         started, the server is ready to serve licenses. It is now possible to use the Network
+         license in <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> on a client
+         computer.</result>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link href="https://www.bricsys.com/bricscad/tools/Bricsys-NetworkLicenseManager.tgz" format="html" scope="external">
+            <linktext>Download Bricsys Network License Manager (Linux)</linktext>
+         </link>
+         <link keyref="GD_network_license_server" />
+         <link keyref="GD_set_up_a_windows_network_license_server" />
+      </linklist>
+   </related-links>
+</task>
+

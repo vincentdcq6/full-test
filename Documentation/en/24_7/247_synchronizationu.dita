@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_synchronization_u">
+    <title>Synchronization</title>
+    <taskbody>
+        <context>
+            <p>The Bricsys 24/7 Transfer Tool allows you to save your transfers as synchs. </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Tick the <menucascade>
+                        <uicontrol>Save this transfer as synch</uicontrol>
+                    </menucascade> checkbox to synchronize the folder you want to upload or
+                    download. </cmd>
+                <info>
+                    <p>
+                        <fig id="fig_wtr_lrl_t4b">
+                            <title>Synchronization</title>
+                            <image href="../IMAGES_temp/synchronization.png" id="image_xtr_lrl_t4b" width="150mm" scope="external" />
+                        </fig>
+                    </p>
+                </info>
+                <stepresult>The synch is saved.</stepresult>
+            </step>
+            <step>
+                <cmd>Revise the synchs in the <menucascade>
+                        <uicontrol>Synchs &gt; Synchs overview</uicontrol>
+                    </menucascade> menu.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <menucascade>
+                        <uicontrol>Synchs &gt; Start synch</uicontrol>
+                    </menucascade> action to automatically transfer the changes between Bricsys 24/7
+                    and your local device.</cmd>
+            </step>
+        </steps>
+        <postreq><note>For more information, see the <xref href="http://static.bricsys247.com/tools/transferToolDownloads/Quick_guide_Chapoo_synchronisation.pdf" format="pdf" scope="external">Quick-reference guide for using
+            synchronization</xref>. @@@ content in PDF outdated, Chapoo is the
+            old name for Bricsys 24/7</note></postreq>
+    </taskbody>
+</task>

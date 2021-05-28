@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_blade">
+   <title>BLADE command</title>
+   <shortdesc>Opens the BricsCAD LISP Advanced Development Environment (BLADE).</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Open the BricsCAD LISP Advanced Development Environment (BLADE) to interactively edit and
+         debug LISP applications. It opens in an external application window, allowing it to remain
+         open while you work on your drawings in BricsCAD. You can move and resize it with standard
+         application window controls.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_vlide" />
+         <link keyref="CMD_addinman" />
+         <link keyref="CMD_appload" />
+         <link keyref="CMD_netload" />
+         <link keyref="CMD_vbaload" />
+         <link keyref="CMD_vbaman" />
+         <link keyref="CMD_vbanew" />
+         <link keyref="CMD_vbarun" />
+         <link keyref="CMD_-vbarun" />
+         <link keyref="CMD_vbaide" />
+         <link keyref="CMD_vbaunload" />
+         <link keyref="CMD_vbasecurity" />
+      </linklist>
+   </related-links>
+</concept>

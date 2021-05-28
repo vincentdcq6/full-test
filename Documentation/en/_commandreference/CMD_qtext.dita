@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_qtext">
+   <title>QTEXT command</title>
+   <shortdesc>Toggles the QTEXTMODE system variable.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+--></p>
+      <p>Alias: QT</p>
+      <p>Toggle the QTEXTMODE system variable to display text entities as rectangles or text. You
+         must use REGEN or REGENALL to see the change.</p>
+      <p>
+         <ul id="ul_jxq_s2v_3pb">
+            <li>On: turns on the QTEXTMODE system variable.</li>
+            <li>Off: turns off the QTEXTMODE system variable.</li>
+            <li>Toggle: changes the QTEXTMODE system variable to the opposite of the current
+               setting.</li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_regen" />
+         <link keyref="CMD_regenall" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_qtextmode" />
+      </linklist>
+   </related-links>
+</concept>

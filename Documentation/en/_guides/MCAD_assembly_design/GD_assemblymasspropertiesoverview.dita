@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_Assemblymasspropertiesoverview">
+    <title>Overview</title>
+    <conbody>
+        <p>Use command <cmdname>BmMassProp</cmdname>.</p>
+        <p>An assembly can consist of multiple parts made from different materials. To correctly
+            compute the mass, center of gravity (centroid), and inertia of such assemblies, BricsCAD
+            supports individual densities for components.</p>
+        <p>A physical material for a mechanical component is defined in the Material property in the
+            Mechanical Browser.</p>
+        <p>By default, a component inherits the density of the assembly, into which it was inserted,
+            or formed from.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

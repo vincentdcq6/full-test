@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_levelsoftheexplodedrepresentation">
+    <title>Levels of the exploded representation</title>
+    <conbody>
+        <p>Exploded representations contain references to the components. </p>
+        <p>Two levels of exploded representations are supported: Top and Bottom.</p>
+        <p>
+            <ul id="ul_qn1_nq1_lpb">
+                <li><b>Top level</b>:<div>The exploded representation contains references to the
+                        top-level components only. Top-level components are components inserted
+                        directly into the main assembly. A top-level component in an exploded
+                        representation is not exploded further - all its parts and subassemblies
+                        remain assembled. A top-level exploded representation allows you to see the
+                        basic composition of your assembly.</div></li>
+                <li><b>Bottom level</b>:<div>The exploded representation contains references to the
+                        bottom-level components only. Bottom-level components are terminal parts,
+                        which do not contain other parts or subassemblies. Bottom-level exploded
+                        representations allow you to view all parts in isolation.</div></li>
+            </ul>
+        </p>
+        <p>
+            <note>If <b>Bottom level</b> is selected and there are some middle-level components
+                containing not only inserts of components, but also other entities, these entities
+                will be lost in the exploded representation because it is not possible to reference
+                them correctly. Those entities must be converted into corresponding bottom-level
+                components first.</note>
+        </p>
+    </conbody>
+</concept>

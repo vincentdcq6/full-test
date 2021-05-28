@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_bimpropagatefromfile">
+   <title>BIMPROPAGATEFROMFILE command</title>
+   <shortdesc>Opens the Select Source File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_selectsourcefile" /> to select a dwg file to propagate in the
+         current drawing.</p>
+      <p>After selecting the file and choosing <uicontrol>Open</uicontrol>, you are prompted at the Command line. The prompt sequence depends on the type of detail you selected: <uicontrol>Planar</uicontrol>, <uicontrol>Linear</uicontrol>, <uicontrol>Pattern</uicontrol>, <uicontrol>Edge</uicontrol> or <uicontrol>Corner</uicontrol>. For more information see the relevant BIMPROPAGATE commands.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_bimpropagatecorner" />
+         <link keyref="CMD_bimpropagateedges" />
+         <!--BIMPROPAGATELINEAR link-->
+         <link keyref="CMD_bimpropagatepattern" />
+         <link keyref="CMD_bimpropagateplanar" />
+         <link keyref="CMD_bimcreatedetail" />
+         <link keyref="CMD_bimpropagatefromfile" />
+      </linklist>
+   </related-links>
+</concept>

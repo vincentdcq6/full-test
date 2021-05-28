@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<map xml:lang="en-us" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title>Sheet Metal</title>
+  <topicref href="empty%20titles/MCAD_sheet_metal_title.dita" navtitle="Sheet Metal" type="topic" keys="MCAD_sheet_metal_title" />
+</map>

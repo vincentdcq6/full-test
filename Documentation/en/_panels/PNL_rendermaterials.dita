@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_rendermaterials">
+    <title>Render materials panel</title>
+    <shortdesc>The Render Materials panel offers access to materials used for
+        renderings.</shortdesc>
+    <conbody>
+        <p>Material definitions are saved in the drawing. Each drawing contains the Global material.
+            It is not possible to delete or rename the Global material, however you can edit the
+            properties of the Global material.</p>
+        <p>It includes 4 areas.</p>
+        <fig id="fig_ydk_txm_dpb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_rendermaterials_01_V21.png" id="image_tpl_jlw_gpb" scope="external" />
+            <ol id="ol_vrr_4kx_gpb">
+                <li>Material library </li>
+                <li>Home</li>
+                <li>Search</li>
+                <li>Menu</li>
+            </ol>
+        </fig>
+        <section id="section_f5z_qkx_gpb">
+            <title>Material library</title>
+            <p>The material library is organized by categories. You can select a material from a
+                category and then apply it to an entity using the brush that appears. You can scroll
+                through the materials using the mouse wheel or the scroll
+                bar.<!--Link to future materials CL (Content Library) article.--></p>
+        </section>
+        <section id="section_g5z_qkx_gpb">
+            <title>Home</title>
+            <p>Returns the material library to the home screen.</p>
+        </section>
+        <section id="section_h5z_qkx_gpb">
+            <title>Search</title>
+            <p>Searches the library for words you enter in the search box.</p>
+            <p> </p>
+        </section>
+        <section id="section_i5z_qkx_gpb">
+            <title>Menu </title>
+            <div conkeyref="CM_rendermaterialspanelmenu/div_hqk_ttw_gpb" id="div_ns3_1lx_gpb" />
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related Commands</title>
+            <link keyref="CMD_matbrowserclose" />
+            <link keyref="CMD_matbrowseropen" />
+            <link keyref="CMD_matlib" />
+            <link keyref="CMD_-toolpanel" />
+        </linklist>
+        <linklist>
+            <title>Related Information</title>
+            <link keyref="UI_panels" />
+        </linklist>
+    </related-links>
+</concept>

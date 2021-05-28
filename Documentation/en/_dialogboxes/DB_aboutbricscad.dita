@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="DB_aboutbricscad_0">
+   <title>About BricsCAD dialog box</title>
+   <shortdesc>The About BricsCAD dialog box displays copyright and product information.</shortdesc>
+   <conbody>
+      <p>The product information includes the license type, version and revision number.</p>
+      <fig id="fig_r25_5mg_npb">
+         <image href="https://static.bricsys.com/help/en_US/DB_aboutBricsCAD_01_V21.png" id="image_sry_13g_npb" scope="external" />
+      </fig>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_about" />
+         <link keyref="CMD_licensemanager" />
+      </linklist>
+   </related-links>
+</concept>

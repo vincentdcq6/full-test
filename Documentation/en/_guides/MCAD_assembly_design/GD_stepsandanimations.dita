@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_stepsandanimations">
+    <title>Steps and animations</title>
+    <conbody>
+        <p>Exploded views may contain one or several steps, which describe a particular assembly or
+            disassembly sequence. Each step corresponds to a set of components that must be moved at
+            this particular stage in order to assemble or disassemble the main assembly. All
+            exploded representation algorithms automatically create all the required steps. You can
+            also delete, merge, split, move, or add extra steps.</p>
+        <p>Each step has a unique name that can be used to describe the step.</p>
+        <p>It is possible to animate a particular step, as well as the entire sequence of steps,
+            both indirect and reverse directions (to get disassembly and assembly animations). In
+            order for the animation to work properly, an initial step that defines the initial state
+            of the assembly must be present in the exploded representation. Use the <b>Auto hide</b>
+            property of the exploded representation to automatically hide components that are not
+            important for a particular step during the animation.</p>
+    </conbody>
+</concept>

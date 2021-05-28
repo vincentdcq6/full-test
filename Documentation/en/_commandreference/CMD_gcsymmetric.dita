@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gcsymmetric">
+   <title>GCSYMMETRIC command</title>
+   <shortdesc>Constrains a symmetric geometric constraint on 2D entities. </shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a symmetric constraint to ensure two entities remain symmetric with respect to a selected line.  </p>
+      <section id="section_dty_mnc_x4b">
+         <title>Methods to create a symmetric constraint</title>
+         <p>There are two methods to begin creating a symmetric constraint:<ul id="ul_vb3_mnc_x4b">
+               <li>Select first entity  </li>
+               <li>2Points </li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select First Entity</dt>
+                  <dd>Begin creating a symmetric constraint by selecting a 2D entity then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select Second Entity</dt>
+                  <dd outputclass="indent1">Select an entity to make symmetric to the first entity then:  </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select Line of symmetry:  </dt>
+                  <dd outputclass="indent1">Select a line to act as a mirror line between the two entities. The first entity maintains its position while the second entity adjusts, as necessary, to become symmetric about that line.  </dd>
+               </dlentry>
+               <dlentry>
+                  <dt>2Points</dt>
+                  <dd>Begin creating a symmetric constraint by selecting a valid point on a 2D entity then:  </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select second point  </dt>
+                  <dd outputclass="indent1">Select a second valid point on a 2D entity to make symmetric with the first point. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select line of symmetry  </dt>
+                  <dd outputclass="indent1">Select a line to act as a mirror line between the two entities. The first point maintains its position while the second point adjusts, as necessary, to become symmetric about that line.  </dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

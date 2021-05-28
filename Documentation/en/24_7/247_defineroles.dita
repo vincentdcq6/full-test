@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_define_roles">
+    <title>Define roles</title>
+    <taskbody>
+        <context id="context_pby_2ny_2pb">
+            <p>You must define roles:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Create a new role, or import a role from another project by searching existing
+                    roles.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, edit the role.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+    <related-links>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="247_createarole" />
+            <link keyref="247_importarole" />
+        </linklist>
+    </related-links>
+</task>

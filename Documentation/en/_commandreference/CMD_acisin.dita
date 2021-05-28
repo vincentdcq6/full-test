@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_acisin">
+   <title>ACISIN command</title>
+   <shortdesc>Opens the Open an ACIS File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_openanacisfile" /> to select an sat or sab file to import into the
+         current drawing.</p>
+   </conbody>
+</concept>

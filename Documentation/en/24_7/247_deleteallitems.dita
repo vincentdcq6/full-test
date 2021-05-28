@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_delete_all_items">
+    <title>Delete all items</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_ttt_swn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Recycle bin</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Empty bin</uicontrol>
+                    <image href="../IMAGES_temp/empty_bin_button.PNG" id="image_j25_3hq_v4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Empty bin</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol> to empty the recycle bin.</cmd>
+                <stepresult>The items are <b>permanently</b> deleted.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

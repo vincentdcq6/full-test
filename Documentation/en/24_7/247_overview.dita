@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_overview">
+    <title>Overview</title>
+    <conbody>
+        <p>The <uicontrol>Admin</uicontrol>
+            <image href="../IMAGES_temp/admin_icon.PNG" id="image_f5y_v1h_dpb" scale="80" scope="external" /> tool
+            allows project administrators to set up and manage the project environment. Only project
+            administrators can see and use this tool.</p>
+        <p>The <uicontrol>Admin</uicontrol> tool is divided into different categories:<ul id="ul_ogp_kjj_v4b">
+                                <li>Project settings <image href="../IMAGES_temp/project_settings_icon.PNG" id="image_qwg_34j_v4b" scope="external" /><div>Enter or edit the basic
+                                                information of a project, and change project
+                                                settings.</div></li>
+            <li>Project setup <image href="../IMAGES_temp/project_setup_icon.PNG" id="image_wrg_j4j_v4b" scope="external" /><div>View, add or edit the
+                                                project structure and access rights to roles per
+                                                folder.</div></li>
+            <li>Multi-user setup <image href="../IMAGES_temp/multi-user_setup_icon.PNG" id="image_qwj_nnn_dpb" scope="external" /><div>Set up a multi-user environment.</div></li>
+            <li>Users <image href="../IMAGES_temp/users_icon.PNG" id="image_h4h_m4j_v4b" scope="external" /><div>View, invite, or delete
+                                                users and assign roles to users.</div></li>
+            <li>Roles <image href="../IMAGES_temp/roles_icon.PNG" id="image_s22_n4j_v4b" scope="external" /><div>View, import, copy,
+                                                edit, or delete roles.</div></li>
+                                <li>Administrators <image href="../IMAGES_temp/administrators_icon.PNG" id="image_bsy_44j_v4b" scope="external" /><div>Specify to which
+                                                sections an administrator has access.</div></li>
+            <li>Recycle bin <image href="../IMAGES_temp/recycle_bin_icon.PNG" id="image_mxt_p4j_v4b" scope="external" /><div>Restore files and
+                                                folders from the recycle bin to your project, or
+                                                permanently delete the items.</div></li>
+                        </ul></p>
+    </conbody>
+</concept>

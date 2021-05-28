@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_overviewarraysofcomponents">
+    <title>Overview</title>
+    <conbody>
+        <p>Use commands <cmdname>ARRAY</cmdname>, <cmdname>ARRAYRECT</cmdname>,
+                <cmdname>ARRAYPOLAR</cmdname>, <cmdname>ARRAYPATH</cmdname>, and
+                <cmdname>BMINSERT</cmdname>.</p>
+        <p>BricsCAD allows you to insert the same component multiple times in a regular way. All
+            inserts can be distributed uniformly (at the same distance) along a line, a circle, or
+            an arbitrary curve. Higher-order patterns (for example: rectangular or cylindrical) are
+            also supported. This is achieved by using the technology of <term>associative
+                arrays</term>: rectangular, polar, and path.</p>
+        <p><term>Associative arrays</term> are persistent entities, which can be edited (manually or
+            automatically) at any moment after creation - to change the number of elements or
+            distance between them. All arrays in your model are listed in the Mechanical Browser,
+            where they can be edited.</p>
+        <p>All components can be arrayed - including parts, subassemblies, standard parts, and
+            holes.</p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

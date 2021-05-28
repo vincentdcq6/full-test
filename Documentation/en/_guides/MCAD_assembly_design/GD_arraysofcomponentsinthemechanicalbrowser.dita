@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_arraysofcomponentsinthemechanicalbrowser">
+    <title>Arrays of components in the Mechanical Browser</title>
+    <conbody>
+        <p><image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/ArraysComponent_ArrayModel.png" id="image_r3f_4zz_kpb" scope="external" /></p>
+        <p>Arrays of components are represented as special nodes in the Mechanical Browser. They are
+            named after the array type (Rectangular, Polar, or Path) followed with semicolon and the
+            index of the array (for example, Rectangular:1, Polar:2, Path:3). These nodes have the
+            same properties as regular associative arrays. The properties can be used to change the
+            number of elements in the array, distance/angle between them, and other array
+            parameters. You can also assign a persistent expression to any property. It will be used
+            to automatically recompute the value of the property upon changing its driving
+            parameters.</p>
+        <p>Each array node has 2 child nodes; Source and Elements: <ul id="ul_vmf_h11_lpb">
+                <li>Under Source node you can find the inserted component and its parameters. </li>
+                <li>Elements node can be expanded into a list of array elements, with the
+                    possibility to hide or change the visual style of a particular element inside
+                    the array.</li>
+            </ul></p>
+    </conbody>
+</concept>

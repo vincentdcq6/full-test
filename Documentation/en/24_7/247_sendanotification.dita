@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_send_a_notification">
+    <title>Send a notification</title>
+    <taskbody>
+        <context>
+            <p>Inform project members about an update by sending a notification.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Add the recipients in the <uicontrol>To</uicontrol> field.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, edit the <uicontrol>Subject</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Write a message.</cmd>
+                <info>
+                    <fig id="fig_f2w_slw_54b">
+                        <title>Send notification</title>
+                        <image placement="break" href="../IMAGES_temp/Send_notification.PNG" id="image_g2w_slw_54b" scale="40" scope="external" />
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <menucascade>
+                        <uicontrol>Send</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>A pop up window informs you that the notification is sent. The
+                    recipients will receive an email with your message.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

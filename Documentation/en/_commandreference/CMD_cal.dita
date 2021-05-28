@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_cal">
+   <title>CAL command</title>
+   <shortdesc>Opens the BricsCAD Calculator.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Open the BricsCAD Calculator to perform common calculation and conversion operations. It
+         opens in an external application window, allowing it to remain open while you work on your
+         drawings in BricsCAD. You can move and resize it with standard application window
+         controls.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_shell" />
+         <link keyref="CMD_files" />
+      </linklist>
+   </related-links>
+</concept>

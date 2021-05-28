@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_pointcloudcrop">
+    <title>POINTCLOUDCROP command</title>
+    <shortdesc>Creates a crop boundary on a point cloud. </shortdesc>
+    <conbody>
+        <p><!--Insert License Level--></p>
+        <p><!--Insert link to Tool icon--></p>
+        <p><!--Alias:--></p>
+        <p>Create a crop boundary on an attached point cloud to limit the displayed points to a
+            specific area. If the current drawing has only one point cloud attached, it is
+            automatically selected for the crop operation. If the current drawing has more than one
+            point cloud attached, you are prompted so select which point cloud to crop.</p>
+        <section id="section_nsl_11v_kpb">
+            <title>Method to create a crop boundary on a point cloud </title>
+            <p>Begin creating a crop boundary by selecting a point cloud then: </p>
+            <p>Additional options: [Invert/showToggle/removeLast/removeAll] </p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Rectangular</dt>
+                        <dd>Specify a rectangular crop boundary. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">First corner point </dt>
+                        <dd outputclass="indent1">Specify the first corner of the rectangular crop
+                            boundary. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Specify opposite corner </dt>
+                        <dd outputclass="indent1">Specify the opposite corner of the rectangular
+                            crop boundary.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Inside? </dt>
+                        <dd outputclass="indent1">Press Enter to keep the points inside the crop
+                                boundary.<fig id="fig_rmp_h1v_kpb">
+                                <image href="https://static.bricsys.com/help/en_INTL/CMD_POINTCLOUDCROP_01_V21.png" id="image_fkc_x4h_lpb" scope="external" />
+                            </fig></dd>
+                        <dd outputclass="indent1">The crop boundary creates a rectangular volume of
+                            points perpendicular to the view in which you defined it.<fig id="fig_x54_j1v_kpb">
+                                <image href="https://static.bricsys.com/help/en_INTL/CMD_POINTCLOUDCROP_02_V21.png" scope="external" id="image_gm4_1ph_lpb" />
+                            </fig></dd>
+                        <dd outputclass="indent1">Additional option: [Outside]</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Circular</dt>
+                        <dd>Specify a circular crop boundary.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Circle center point </dt>
+                        <dd outputclass="indent1">Specify the center of the circular crop boundary
+                        </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Point on circle circumference</dt>
+                        <dd outputclass="indent1">Specify a point on the circumference of the
+                            circular crop boundary. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Inside?</dt>
+                        <dd outputclass="indent1">Press Enter to keep the points inside the crop
+                            boundary. <fig id="fig_xfg_n1v_kpb">
+                                <image href="https://static.bricsys.com/help/en_INTL/CMD_POINTCLOUDCROP_03_V21.png" scope="external" id="image_j1v_bph_lpb" />
+                            </fig></dd>
+                        <dd outputclass="indent1">The crop boundary creates a circular volume of
+                            points perpendicular to the view in which you defined it. <fig id="fig_fqc_p1v_kpb">
+                                <image href="https://static.bricsys.com/help/en_INTL/CMD_POINTCLOUDCROP_04_V21.png" scope="external" id="image_tdl_dph_lpb" />
+                            </fig></dd>
+                        <dd outputclass="indent1">Additional option: [Outside] </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Polygonal</dt>
+                        <dd>Specify a polygonal crop boundary.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Specify first point </dt>
+                        <dd outputclass="indent1">Specify the start point of the polygonal crop
+                            boundary. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Specify next point </dt>
+                        <dd outputclass="indent1">Specify the end point of the first polygonal
+                            segment. You can continue adding unlimited segments until you press
+                            Enter to end the command. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">Inside?</dt>
+                        <dd outputclass="indent1">Press Enter to keep the points inside the crop
+                                boundary.<fig id="fig_wxc_t1v_kpb">
+                                <image href="https://static.bricsys.com/help/en_INTL/CMD_POINTCLOUDCROP_05_V21.png" scope="external" id="image_rwq_2ph_lpb" />
+                            </fig></dd>
+                        <dd outputclass="indent1">The crop boundary creates a polygonal volume of
+                            points perpendicular to the view in which you defined it. <fig id="fig_fct_51v_kpb">
+                                <image href="https://static.bricsys.com/help/en_INTL/CMD_POINTCLOUDCROP_06_V21.png" scope="external" id="image_rpc_gph_lpb" />
+                            </fig></dd>
+                        <dd outputclass="indent1">Additional option: [Outside] </dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+        <section id="section_w43_w1v_kpb">
+            <title>Options within the POINTCLOUDCROP command </title>
+            <p>After you begin cropping the point cloud, the following options may be available. </p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Invert</dt>
+                        <dd>Display points in the inverted crop (Outside/Inside)<fig id="fig_omh_y1v_kpb">
+                                <image href="https://static.bricsys.com/help/en_INTL/CMD_POINTCLOUDCROP_07_V21.png" scope="external" id="image_nwl_hph_lpb" />
+                            </fig><fig id="fig_mmr_z1v_kpb">
+                                <image href="https://static.bricsys.com/help/en_INTL/CMD_POINTCLOUDCROP_08_V21.png" scope="external" id="image_th3_3ph_lpb" />
+                            </fig></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Show toggle </dt>
+                        <dd>Display points the uncropped point cloud model. <fig id="fig_lgb_bbv_kpb">
+                                <image href="https://static.bricsys.com/help/en_INTL/CMD_POINTCLOUDCROP_07_V21.png" scope="external" id="image_olh_jph_lpb" />
+                            </fig><fig id="fig_iyt_bbv_kpb">
+                                <image href="https://static.bricsys.com/help/en_INTL/CMD_POINTCLOUDCROP_09_V21.png" scope="external" id="image_o5r_jph_lpb" />
+                            </fig></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Remove last</dt>
+                        <dd>Remove the last crop. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Remove all </dt>
+                        <dd>Remove all crops.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_pointcloud" />
+            <link keyref="CMD_pointcloudalign" />
+            <link keyref="CMD_pointcloudattach" />
+            <link keyref="CMD_-pointcloudattach" />
+            <link keyref="CMD_pointcloudcolormap" />
+            <link keyref="CMD_pointcloudcrop" />
+            <link keyref="CMD_pointclouddeleteitem" />
+            <link keyref="CMD_pointclouddetectfloors" />
+            <link keyref="CMD_pointcloudexport" />
+            <link keyref="CMD_pointcloudfitplanar" />
+            <link keyref="CMD_pointcloudimport" />
+            <link keyref="CMD_pointcloudpointsizeminus" />
+            <link keyref="CMD_pointcloudpointsizeplus" />
+            <link keyref="CMD_pointcloudprojectsection" />
+            <link keyref="CMD_pointcloudreference" />
+            <link keyref="CMD_pointclouduncrop" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_pointcloud2dvsdisplay" />
+            <link keyref="SV_pointcloudboundary" />
+            <link keyref="SV_pointcloudpointmax" />
+            <link keyref="SV_pointcloudpointsize" />
+        </linklist>
+    </related-links>
+</concept>

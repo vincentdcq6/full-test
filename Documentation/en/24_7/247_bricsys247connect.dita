@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_bricsys_24_7_connect">
+    <title>Bricsys 24/7 Connect</title>
+    <conbody>
+        <p>24/7 Connect allows you to upload and download your office documents to the Bricsys 24/7
+            cloud storage space. The tool is available for Microsoft Word, Excel and Autodesk
+            AutoCAD®.</p>
+        <p>You can download the tool <xref href="https://www.bricsys.com/en-intl/247/applications/" format="html" scope="external">here</xref>.</p>
+        <p>
+            <fig id="fig_v33_w3n_r4b">
+                <title>Bricsys 24/7 Connect</title>
+                <image href="../IMAGES_temp/247-connect.png" id="image_w33_w3n_r4b" scale="25" scope="external" />
+            </fig>
+        </p>
+    </conbody>
+</concept>

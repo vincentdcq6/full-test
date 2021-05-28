@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_imagequality">
+   <title>IMAGEQUALITY command</title>
+   <shortdesc>Specifies the display quality of attached images.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Specify the display quality of attached images to increase performance or image
+         resolution.</p>
+      <p>
+         <ul id="ul_ws5_gjv_3pb">
+            <li>Draft: increases performance by reducing color resolution, image size, and memory
+               usage. This does not affect the quality of plotted images.</li>
+            <li>High: increases image quality resulting in decreased performance for large
+               images.</li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_imageattach" />
+         <link keyref="CMD_image" />
+      </linklist>
+   </related-links>
+</concept>

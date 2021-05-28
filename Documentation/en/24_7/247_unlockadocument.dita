@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_unlock_a_document">
+    <title>Unlock a document</title>
+    <taskbody>
+        <context>
+            <p>You can unlock one or more documents:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Dashboard</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the applicable folder.</cmd>
+            </step>
+            <step>
+                <cmd>Select the document(s) you want to unlock.</cmd>
+            </step>
+            <step>
+                <cmd>Click the ellipsis button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_fmp_5vj_jpb" scope="external" /> at the top of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Unlock</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_mkt_3yj_jpb">A pop up window informs you that the documents are unlocked.
+            The files are displayed as unlocked in the content pane.<div>Example: <image href="../IMAGES_temp/unlocked_document_example.PNG" id="image_z53_1zj_jpb" scope="external" />.</div></result>
+    </taskbody>
+</task>

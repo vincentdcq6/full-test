@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gcparallel">
+   <title>GCPARALLEL command</title>
+   <shortdesc>Creates a parallel geometric constraint on 2D entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a parallel constraint to ensure linear entities remain parallel to each other. </p>
+      <section id="section_dty_mnc_x4b">
+         <title>Methods to create a parallel constraint</title>
+         <p>There is one method to create a parallel constraint:<ul id="ul_vb3_mnc_x4b">
+               <li>Select first entity</li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select First Entity</dt>
+                  <dd>Begin creating a parallel constraint by selecting a linear entity then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select Second Entity</dt>
+                  <dd outputclass="indent1">Select a second linear entity to make parallel to the first. The first entity maintains its position while the second entity moves, as necessary, to become parallel to the first entity.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist>
+   </related-links>
+</concept>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="Library_Panel_Menu">
+   <title>Library panel menu</title>
+   <conbody>
+      <div id="div_krm_zrs_1pb">
+         <p>The Library panel menu enables you to control what is displayed in the block
+            library.</p>
+         <fig id="fig_y5n_snp_znb">
+            <image href="https://static.bricsys.com/help/en_US/CM_librarypanel_01_V21.png" id="image_p22_tkq_znb" scope="external" />
+         </fig>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Generate thumbnails</dt>
+                  <dd>Creates thumbnail images for any items in the block library that are missing
+                     preview images.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Manage libraries</dt>
+                  <dd>Opens the Settings dialog box enabling you to set the Library directory path
+                     (COMPONENTSPATH variable).</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Bricsys BIM library</dt>
+                  <dd>Displays content from the BricsCAD BIM library. This content is only available
+                     with a BricsCAD BIM or BricsCAD Ultimate license.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Bricsys Mechanical library</dt>
+                  <dd>Displays content from the BricsCAD Mechanical library. This content is only
+                     available with a BricsCAD Mechanical or Ultimate license.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Bricsys 2D library</dt>
+                  <dd>Displays content from the Bricsys 2D library.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>User library</dt>
+                  <dd>Displays content from the User library. This is user-created content.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </div>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_componentspath" />
+      </linklist>
+   </related-links>
+</concept>

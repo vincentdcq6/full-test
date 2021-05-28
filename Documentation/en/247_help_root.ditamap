@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
+<map>
+  <title>Bricsys 24/7 Help Center</title>
+  <topicref href="empty%20titles/bricsys247_documentation_title.dita" navtitle="Bricsys 24/7" keys="bricsys247_documentation_title">
+    <topicref href="24_7/247_welcome.dita" keys="247_welcome">
+      <topicref href="24_7/247_aboutthisguide.dita" keys="247_aboutthisguide">
+        <topicref href="24_7/247_introduction.dita" keys="247_introduction" />
+        <topicref href="24_7/247_abouttheproduct.dita" keys="247_abouttheproduct" />
+        <topicref href="24_7/247_notesandtips.dita" keys="247_notesandtips" />
+      </topicref>
+      <topicref href="24_7/247_references.dita" keys="247_references" />
+      <topicref href="24_7/247_termsofuse.dita" keys="247_termsofuse" />
+    </topicref>
+    <topicref href="24_7/247_setup.dita" keys="247_setup">
+      <topicref href="24_7/247_systemrequirements.dita" keys="247_systemrequirements" />
+      <topicref href="24_7/247_account.dita" keys="247_account" />
+      <topicref href="24_7/247_login.dita" keys="247_login" />
+      <topicref href="24_7/247_edityourprofile.dita" keys="247_edityourprofile">
+        <topicref href="24_7/247_profilesettings.dita" keys="247_profilesettings" />
+      </topicref>
+      <topicref href="24_7/247_logoff.dita" keys="247_logoff" />
+    </topicref>
+    <topicref href="24_7/247_navigation.dita" keys="247_navigation">
+      <topicref href="24_7/247_mainwindow.dita" keys="247_mainwindow" />
+      <topicref href="24_7/247_search.dita" keys="247_search">
+        <topicref href="24_7/247_searchforaproject.dita" keys="247_searchforaproject" />
+        <topicref href="24_7/247_searchinaproject.dita" keys="247_searchinaproject" />
+        <topicref href="24_7/247_performanadvancedsearchinaproject.dita" keys="247_performanadvancedsearchinaproject" />
+      </topicref>
+      <topicref href="24_7/247_keyboardshortcutoverview.dita" keys="247_keyboardshortcutoverview" />
+    </topicref>
+    <topicref href="24_7/247_dailyoperation.dita" keys="247_dailyoperation">
+      <topicref href="24_7/247_bricsys247viewer.dita" keys="247_bricsys247viewer">
+        <topicref href="24_7/247_openthebricsys247viewer.dita" keys="247_openthebricsys247viewer" />
+        <topicref href="24_7/247_navigationinbricsys247viewer.dita" keys="247_navigationinbricsys247viewer" />
+        <topicref href="24_7/247_annotations.dita" keys="247_annotations">
+          <topicref href="24_7/247_createanannotation.dita" keys="247_createanannotation" />
+          <topicref href="24_7/247_viewannotations.dita" keys="247_viewannotations" />
+        </topicref>
+      </topicref>
+      <topicref href="24_7/247_communication.dita" keys="247_communication">
+        <topicref href="24_7/247_sendanotification.dita" keys="247_sendanotification">
+          <topicref href="24_7/247_notificationpreferences.dita" keys="247_notificationpreferences" />
+        </topicref>
+        <topicref href="24_7/247_notes.dita" keys="247_notes" />
+        <topicref href="24_7/247_messages.dita" keys="247_messages">
+          <topicref href="24_7/247_sendamessage.dita" keys="247_sendamessage" />
+        </topicref>
+        <topicref href="24_7/247_addrecipients.dita" keys="247_addrecipients" />
+      </topicref>
+      <topicref href="24_7/247_tasks.dita" keys="247_tasks">
+        <topicref href="24_7/247_dashboardintasks.dita" keys="247_dashboardintasks" />
+        <topicref href="24_7/247_mytasks.dita" keys="247_mytasks" />
+        <topicref href="24_7/247_documentdetails.dita" keys="247_documentdetails" />
+      </topicref>
+    </topicref>
+    <topicref href="24_7/247_tools.dita" keys="247_tools">
+      <topicref href="24_7/247_dashboard.dita" keys="247_dashboard">
+        <topicref href="24_7/247_documents.dita" keys="247_documents">
+          <topicref href="24_7/247_uploadadocument.dita" keys="247_uploadadocument" />
+          <topicref href="24_7/247_draganddropadocument.dita" keys="247_draganddropadocument" />
+          <topicref href="24_7/247_downloadadocument.dita" keys="247_downloadadocument" />
+          <topicref href="24_7/247_downloadandlockadocument.dita" keys="247_downloadandlockadocument" />
+          <topicref href="24_7/247_unlockadocument.dita" keys="247_unlockadocument" />
+          <topicref href="24_7/247_promotemajorversion.dita" keys="247_promotemajorversion" />
+          <topicref href="24_7/247_editdocumentdetails.dita" keys="247_editdocumentdetails" />
+          <topicref href="24_7/247_showorhidecolumns.dita" keys="247_showorhidecolumns" />
+          <topicref href="24_7/247_exportdocumentdetailsandrevisions.dita" keys="247_exportdocumentdetailsandrevisions" />
+        </topicref>
+        <topicref href="24_7/247_binders.dita" keys="247_binders">
+          <topicref href="24_7/247_adddocumentstoabinder.dita" keys="247_adddocumentstoabinder" />
+          <topicref href="24_7/247_removeadocumentfromabinder.dita" keys="247_removeadocumentfromabinder" />
+        </topicref>
+      </topicref>
+      <topicref href="24_7/247_addressbook.dita" keys="247_addressbook">
+        <topicref href="24_7/247_createacontact.dita" keys="247_createacontact" />
+        <topicref href="24_7/247_importacontact.dita" keys="247_importacontact" />
+        <topicref href="24_7/247_editacontact.dita" keys="247_editacontact" />
+        <topicref href="24_7/247_transferacontact.dita" keys="247_transferacontact" />
+        <topicref href="24_7/247_createanorganization.dita" keys="247_createanorganization" />
+        <topicref href="24_7/247_importanorganization.dita" keys="247_importanorganization" />
+        <topicref href="24_7/247_editanorganization.dita" keys="247_editanorganization" />
+        <topicref href="24_7/247_transferanorganization.dita" keys="247_transferanorganization" />
+      </topicref>
+      <topicref href="24_7/247_admin.dita" keys="247_admin">
+        <topicref href="24_7/247_overview.dita" keys="247_overview" />
+        <topicref href="24_7/247_projectsettings.dita" keys="247_projectsettings" />
+        <topicref href="24_7/247_projectsetup.dita" keys="247_projectsetup">
+          <topicref href="24_7/247_editfolderaccess.dita" keys="247_editfolderaccess" />
+          <topicref href="24_7/247_createasnapshot.dita" keys="247_createasnapshot" />
+          <topicref href="24_7/247_reverttosnapshot.dita" keys="247_reverttosnapshot" />
+        </topicref>
+        <topicref href="24_7/247_multiusersetup.dita" keys="247_multiusersetup" />
+        <topicref href="24_7/247_users.dita" keys="247_users">
+          <topicref href="24_7/247_exportauserlist.dita" keys="247_exportauserlist" />
+          <topicref href="24_7/247_assignaroletoauser.dita" keys="247_assignaroletoauser" />
+          <topicref href="24_7/247_addausertoanaddressbook.dita" keys="247_addausertoanaddressbook" />
+          <topicref href="24_7/247_resendaninvitationemail.dita" keys="247_resendaninvitationemail" />
+          <topicref href="24_7/247_deleteauser.dita" keys="247_deleteauser" />
+        </topicref>
+        <topicref href="24_7/247_roles.dita" keys="247_roles">
+          <topicref href="24_7/247_createarole.dita" keys="247_createarole" />
+          <topicref href="24_7/247_importarole.dita" keys="247_importarole" />
+          <topicref href="24_7/247_editarole.dita" keys="247_editarole" />
+          <topicref href="24_7/247_showfolderaccess.dita" keys="247_showfolderaccess" />
+          <topicref href="24_7/247_copyarole.dita" keys="247_copyarole" />
+          <topicref href="24_7/247_deletearole.dita" keys="247_deletearole" />
+        </topicref>
+        <topicref href="24_7/247_administrators.dita" keys="247_administrators">
+          <topicref href="24_7/247_managetheprojectadministrators.dita" keys="247_managetheprojectadministrators" />
+          <topicref href="24_7/247_editadministratorpermissions.dita" keys="247_editadministratorpermissions" />
+          <topicref href="24_7/247_editpermissionsformultipleadministrators.dita" keys="247_editpermissionsformultipleadministrators" />
+        </topicref>
+        <topicref href="24_7/247_recyclebin.dita" keys="247_recyclebin">
+          <topicref href="24_7/247_restoreanitem.dita" keys="247_restoreanitem" />
+          <topicref href="24_7/247_deleteanitem.dita" keys="247_deleteanitem" />
+          <topicref href="24_7/247_deleteallitems.dita" keys="247_deleteallitems" />
+        </topicref>
+      </topicref>
+      <topicref href="24_7/247_reports.dita" keys="247_reports" />
+      <topicref href="24_7/247_mytasks.dita" keys="247_mytasks" />
+      <topicref href="24_7/247_forms.dita" keys="247_forms" />
+      <topicref href="24_7/247_bimmodelmanager.dita" keys="247_bimmodelmanager" />
+      <topicref href="24_7/247_workwithrelations.dita" keys="247_workwithrelations" />
+      <topicref href="24_7/247_bricsys247transfertool.dita" keys="247_bricsys247transfertool">
+        <topicref href="24_7/247_transferfolderstructures.dita" keys="247_transferfolderstructures" />
+        <topicref href="24_7/247_transferdocuments.dita" keys="247_transferdocuments" />
+        <topicref href="24_7/247_openadocument.dita" keys="247_openadocument">
+          <topicref href="24_7/247_documentstatus.dita" keys="247_documentstatus" />
+        </topicref>
+        <topicref href="24_7/247_synchronizationu.dita" keys="247_synchronizationu" />
+      </topicref>
+      <topicref href="24_7/247_bricsys247connect.dita" keys="247_bricsys247connect" />
+      <topicref href="24_7/247_bricsys247mobileapp.dita" keys="247_bricsys247mobileapp" />
+      <topicref href="24_7/247_thirdpartyapps.dita" keys="247_thirdpartyapps" />
+    </topicref>
+    <topicref href="24_7/247_projectmanagement.dita" keys="247_projectmanagement">
+      <topicref href="24_7/247_setupaproject.dita" keys="247_setupaproject">
+        <topicref href="24_7/247_createanewproject.dita" keys="247_createanewproject" />
+        <topicref href="24_7/247_edittheprojectsettings.dita" keys="247_edittheprojectsettings" />
+        <topicref href="24_7/247_createthefolderstructure.dita" keys="247_createthefolderstructure" />
+        <topicref href="24_7/247_defineroles.dita" keys="247_defineroles" />
+        <topicref href="24_7/247_updateaccessrights.dita" keys="247_updateaccessrights" />
+        <topicref href="24_7/247_addusers.dita" keys="247_addusers" />
+        <topicref href="24_7/247_copyaproject.dita" keys="247_copyaproject" />
+      </topicref>
+      <topicref href="24_7/247_manageaproject.dita" keys="247_manageaproject">
+        <topicref href="24_7/247_archiveaproject.dita" keys="247_archiveaproject" />
+        <topicref href="24_7/247_restoreanarchivedproject.dita" keys="247_restoreanarchivedproject" />
+        <topicref href="24_7/247_deleteanarchivedproject.dita" keys="247_deleteanarchivedproject" />
+      </topicref>
+      <topicref href="24_7/247_setupaworkflow.dita" keys="247_setupaworkflow">
+        <topicref href="24_7/247_overviewworkflow.dita" keys="247_overviewworkflow" />
+        <topicref href="24_7/247_addaworkflow.dita" keys="247_addaworkflow" />
+        <topicref href="24_7/247_navigationinbricsys247workflowviewer.dita" keys="247_navigationinbricsys247workflowviewer" />
+        <topicref href="24_7/247_designaworkflow.dita" keys="247_designaworkflow" />
+        <topicref href="24_7/247_editaworkflow.dita" keys="247_editaworkflow" />
+        <topicref href="24_7/247_edittheworkflowinfo.dita" keys="247_edittheworkflowinfo" />
+        <topicref href="24_7/247_releaseaworkflow.dita" keys="247_releaseaworkflow" />
+        <topicref href="24_7/247_changetheworkflowstatustoobsolete.dita" keys="247_changetheworkflowstatustoobsolete" />
+        <topicref href="24_7/247_reassignatask.dita" keys="247_reassignatask" />
+        <topicref href="24_7/247_copyaworkflow.dita" keys="247_copyaworkflow" />
+        <topicref href="24_7/247_cancelaworkflow.dita" keys="247_cancelaworkflow" />
+        <topicref href="24_7/247_deleteaworkflow.dita" keys="247_deleteaworkflow" />
+      </topicref>
+      <topicref href="24_7/247_setupmetadata.dita" keys="247_setupmetadata">
+        <topicref href="24_7/247_createaformfolder.dita" keys="247_createaformfolder" />
+        <topicref href="24_7/247_createaform.dita" keys="247_createaform" />
+        <topicref href="24_7/247_setaccess.dita" keys="247_setaccess" />
+        <topicref href="24_7/247_attachaform.dita" keys="247_attachaform" />
+        <topicref href="24_7/247_workwithreservations.dita" keys="247_workwithreservations" />
+      </topicref>
+    </topicref>
+    <topicref href="24_7/247_troubleshooting.dita" keys="247_troubleshooting">
+      <topicref href="24_7/247_onlinehelp.dita" keys="247_onlinehelp" />
+    </topicref>
+    <topicref href="24_7/247_glossary.dita" keys="247_glossary" />
+    <topicref href="24_7/247_importantinformation.dita" keys="247_importantinformation">
+      <topicref href="24_7/247_legaldisclaimer.dita" keys="247_legaldisclaimer">
+        <topicref href="24_7/247_disclaimernotice.dita" keys="247_disclaimernotice" />
+        <topicref href="24_7/247_intellectualpropertyownership.dita" keys="247_intellectualpropertyownership" />
+        <topicref href="24_7/247_trademarks.dita" keys="247_trademarks" />
+      </topicref>
+      <topicref href="24_7/247_privacy.dita" keys="247_privacy">
+        <topicref href="24_7/247_processingofpersonaldata.dita" keys="247_processingofpersonaldata" />
+        <topicref href="24_7/247_useofcookies.dita" keys="247_useofcookies" />
+      </topicref>
+      <topicref href="24_7/247_cybersecurityincidents.dita" keys="247_cybersecurityincidents" />
+    </topicref>
+  </topicref>
+</map>

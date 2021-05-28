@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="safe_mode">
+   <title>Safe mode</title>
+   <shortdesc>Since V20, you can launch the program in Safe mode, using the SAFEMODE system
+      variable.</shortdesc>
+   <conbody>
+      <p>This temporarily prevents all third-party plug-in code, enablers, and user lisp files from
+         loading in the current session. Starting in a clean environment can prevent potential crash
+         causes.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_safemode" />
+      </linklist>
+      <!--<linklist><title>Related information</title><link href="https://help.bricsys.com/hc/en-us/articles/360013746579#more-information" format="html" scope="external"><linktext>Safe mode</linktext></link></linklist>-->
+   </related-links>
+</concept>
+

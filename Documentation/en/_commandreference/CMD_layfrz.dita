@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_layfrz">
+   <title>LAYFRZ command</title>
+   <shortdesc>Freezes layers of selected entities.</shortdesc>
+   <conbody>
+      <p><!--<p>Insert License Level</p>--><!--<p> Insert link to Tool icon</p>--><!--<p>Alias:</p>--></p>
+      <p>Freeze layers of selected entities to hide all entities that are on the same layers as the selected entities. </p>
+      <p>You are prompted:</p>
+      <p><b>Select an entity on the layer to be frozen</b></p>
+      <p>Select one or more entities on layers you want to freeze. You can continue selecting entities until you press Enter to end the command. The Command line indicates which layers have been frozen:<ul id="ul_yg3_jvc_x4b">
+            <li><b>This layer has been frozen: LayerName1 </b></li>
+            <li><b>This layer has been frozen: LayerName2 </b></li>
+         </ul></p>
+      <p>If any of the selected entities are on the current layer, the command line indicates that layer can’t be frozen:</p>
+      <p><b>Cannot freeze layer: LayerName3. It is the current layer. </b></p>
+      <p>Additional options: [Settings/Undo/selection options (?)]</p>
+      <section id="section_qqb_qvc_x4b">
+         <title>Options within the LAYFRZ command</title>
+         <p>After you begin the LAYFRZ command, the following options may be available: </p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Settings</dt>
+                  <dd>Choose to modify viewport or block selection settings. </dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Viewports</dt>
+                  <dd outputclass="indent1">Specify the behavior for layout viewports. <ul id="ul_jkc_dwc_x4b">
+                        <li><uicontrol>Off</uicontrol>: Freezes layers in all viewports. This is the default option.</li>
+                        <li><uicontrol>VPFreeze</uicontrol>: Freezes layers in the current viewport. </li>
+                     </ul></dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Block selection</dt>
+                  <dd outputclass="indent1">Specify the behavior for blocks and external references. <ul id="ul_dkl_gwc_x4b">
+                        <li><uicontrol>Selection</uicontrol>: Freezes the layer of selected entities including blocks and external references. It ignores layers of entities within the block or external reference regardless of where you pick the block. This is the default option. </li>
+                        <li><uicontrol>Block</uicontrol>: Freezes the layer of the selected block/xref or nested block/xref. This option requires you to select entities by picking each one individually. Where you pick, on a parent or nested block/xref, determines which layer is frozen. </li>
+                        <li><uicontrol>Entity</uicontrol>: Freezes the layer of the selected entity within a block/xref or nested block/xref. This option requires you to select entities by picking each one individually. Where you pick, on a parent or nested block/xref, determines which layer is frozen. </li>
+                        <li><uicontrol>None</uicontrol>: This option behaves the same as the Selection option. </li>
+                     </ul></dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Undo</dt>
+                  <dd>Undo the previous LAYFRZ operation.</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Selection options</dt>
+                  <dd><!--link to article about selection options--></dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_layer" />
+         <!---LAYER command link-->
+         <link keyref="CMD_layon" />
+         <link keyref="CMD_layoff" />
+         <link keyref="CMD_laythw" />
+         <link keyref="CMD_layfrz" />
+         <link keyref="CMD_laylck" />
+         <link keyref="CMD_layulk" />
+         <link keyref="CMD_layiso" />
+         <link keyref="CMD_layuniso" />
+         <link keyref="CMD_laycur" />
+         <link keyref="CMD_layerp" />
+         <link keyref="CMD_layerstate" />
+      </linklist>
+      <linklist>
+         <title>Related Variables</title>
+         <!--LAYERLOCKFADECTL System Variable link-->
+         <link keyref="SV_layerpmode" />
+      </linklist>
+   </related-links>
+</concept>

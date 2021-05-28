@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd"[]>
+<bookmap>
+  <booktitle>
+    <mainbooktitle>Bricsys Help</mainbooktitle>
+  </booktitle>
+  <frontmatter>
+    <topicref href="_warehouse/_warehouse.ditamap" keys="warehouse" format="ditamap" processing-role="resource-only" navtitle="Warehouses" />
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter href="for_reference_only.ditamap" navtitle="for_reference_only" format="ditamap" keys="for_reference_only" print="no" toc="no" processing-role="resource-only" />
+  <chapter href="bricscad_help_root.ditamap" navtitle="BricsCAD" format="ditamap" />
+  <chapter href="247_help_root.ditamap" navtitle="Bricsys 24/7 Help Center" format="ditamap" />
+  <!--<chapter href="command_reference.ditamap" navtitle="Command Reference" format="ditamap"/>-->
+</bookmap>

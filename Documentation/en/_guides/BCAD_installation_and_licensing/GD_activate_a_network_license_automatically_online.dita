@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="activate_a_network_license_automatically_online">
+   <title>Activating a network license automatically (online)</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <prereq>The <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> license activation requires an internet connection.</prereq>
+      <steps id="ol_dhk_tlh_smb">
+         <step>
+            <cmd>Click the <uicontrol>License activation</uicontrol> shortcut in the operating system <uicontrol>Start</uicontrol> menu.</cmd>
+            <stepresult>The <uicontrol>Bricsys License Manager - Activate Network License</uicontrol> dialog box opens.</stepresult>
+         </step>
+         <step>
+            <cmd>Enter the new network license in the <uicontrol>License Key</uicontrol> field and click <uicontrol>OK</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>License server administration</uicontrol> shortcut in the operating system <uicontrol>Start</uicontrol> menu to open the <uicontrol>Reprise License Server Administration</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Reread/Restart Servers</uicontrol> option in the left menu.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_activate_a_network_license_manually_offline" />
+         <link keyref="GD_set_up_a_windows_network_license_server" />
+      </linklist>
+   </related-links>
+</task>
+

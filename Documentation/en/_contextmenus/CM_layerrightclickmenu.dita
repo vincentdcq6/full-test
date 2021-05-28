@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CM_layerrightclickmenu">
+    <title>Layer right-click menu</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <div id="div_yst_1yk_mpb">
+            <p><!--Description TBA--></p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>New</dt>
+                        <dd>Creates new layers with the generic name "NewLayer1". The new layer that
+                            is created copies the properties of the currently selected layer.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Delete</dt>
+                        <dd>Deletes layers. You cannot delete the following layers:<ul id="ul_xft_fyk_mpb">
+                                <li>0</li>
+                                <li>Any layer with entities.</li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Merge to...</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Purge</dt>
+                        <dd>Purges layers from the current drawing. You cannot purge the following
+                                layers:<ul id="ul_jkp_lyk_mpb">
+                                <li>0</li>
+                                <li>The current layer.</li>
+                                <li>Any layer with entities.</li>
+                            </ul></dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Remove From Group</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Set Current</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Rename</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Select All</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Invert Selection</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Remove Viewport Overrides</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">From Selected Layers</dt>
+                        <dd outputclass="indent1" />
+                    </dlentry>
+                    <dlentry>
+                        <dt outputclass="indent1">From All Layers</dt>
+                        <dd outputclass="indent1" />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Isolate Selected Layers</dt>
+                        <dd />
+                    </dlentry>
+                </dl>
+            </p>
+        </div>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_purge" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="DB_layersettings" />
+        </linklist>
+    </related-links>
+</concept>

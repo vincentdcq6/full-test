@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="GD_controlthedisplayofthreads">
+    <title>Control the display of threads</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Open the <wintitle>Settings</wintitle> dialog box.</cmd>
+            </step>
+            <step>
+                <cmd>Find the <varname>Thread representation</varname> variable
+                        (<uicontrol>THREADDISPLAY</uicontrol>).</cmd>
+            </step>
+            <step>
+                <cmd>Enable the setting.</cmd>
+            </step>
+            <step>
+                <cmd>If applicable, update the document to make threads appear on existing
+                    parts:</cmd>
+                <info>
+                    <ul id="ul_v52_1mb_jpb">
+                        <li>Temporarily set the <uicontrol>Assembly components updating mode
+                                (BMUPDATEMODE)</uicontrol> to <uicontrol>[1] Update all
+                                components</uicontrol>.</li>
+                        <li>Use command <cmdname>BmUpdate</cmdname> to update the document.</li>
+                        <li>If applicable, return the <uicontrol>Assembly components updating mode
+                                (BMUPDATEMODE)</uicontrol> to the previous value.</li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

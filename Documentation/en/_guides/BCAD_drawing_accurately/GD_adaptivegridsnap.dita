@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_adaptivegridsnap">
+    <title>Adaptive grid snap</title>
+    <shortdesc>The adaptive grid snap feature lets you create, edit, nudge and manipulate entities
+        using concise values without keyboard entry.</shortdesc>
+    <conbody>
+        <p>The snap step size is adapted according to the current screen zoom factor. The adaptive
+            grid snap is active if SNAPTYPE = 2. This system variable overrides the SNAPMODE system
+            variable.</p>
+        <p>The AdaptiveGridStepSize user preference controls the smallest available step size;
+            default = 4 pixels.</p>
+        <section id="section_e41_ddq_qpb">
+            <title>Using adaptive grid snap with the Manipulator</title>
+            <ol id="ol_a3y_ddq_qpb">
+                <li>
+                    <p>Move the cursor over an entity or subentity, then hold down the left mouse
+                        button a little bit longer to select the entity (= long left click).</p>
+                    <p>The Manipulator widget displays:<fig id="fig_h5l_pdq_qpb">
+                            <image href="https://static.bricsys.com/help/en_INTL/GD_adaptivegridsnap_01_V21.png" id="image_vfy_4dq_qpb" scope="external" />
+                        </fig></p>
+                </li>
+                <li>Move the cursor over the axis in the direction you want to move the entity. The
+                    selected axis highlights; the other parts of the Manipulator are faded.<fig id="fig_vtn_rdq_qpb">
+                        <image href="https://static.bricsys.com/help/en_INTL/GD_adaptivegridsnap_02_V21.png" scope="external" id="image_wtn_rdq_qpb" />
+                    </fig></li>
+                <li>
+                    <p>Click to select the axis, then move the cursor.</p>
+                    <p>The Ruler displays.</p>
+                    <p>The current displacement distance displays in a dynamic field.</p>
+                    <p>The grid snap resolution automatically adapts according to the zoom
+                        factor.</p>
+                    <fig id="fig_wxz_tdq_qpb">
+                        <title>Ruler divisions at 2 mm</title>
+                        <image href="https://static.bricsys.com/help/en_INTL/GD_adaptivegridsnap_03_V21.png" scope="external" id="image_xxz_tdq_qpb" />
+                    </fig>
+                    <fig id="fig_fyv_c2q_qpb">
+                        <title>Ruler divisions at 5 mm</title>
+                    </fig>
+                    <fig id="fig_blb_wdq_qpb">
+                        <image href="https://static.bricsys.com/help/en_INTL/GD_adaptivegridsnap_04_V21.png" scope="external" id="image_etr_5dq_qpb" />
+                    </fig>
+                </li>
+                <li>(option) Zoom in or out to adjust the dynamic grid.</li>
+                <li>Do one of the following: <ul id="ul_dcn_xdq_qpb">
+                        <li>Click to accept the current value in the Ruler.</li>
+                        <li>Type a value in the dynamic field, then press Enter.</li>
+                    </ul></li>
+            </ol>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_manipulate" />
+        </linklist>
+        <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_snaptype" />
+            <link keyref="SV_snapmode" />
+            <link keyref="SV_adaptivegridstepsize" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="GD_nudge" />
+            <link keyref="GD_snapandgrid" />
+        </linklist>
+    </related-links>
+</concept>

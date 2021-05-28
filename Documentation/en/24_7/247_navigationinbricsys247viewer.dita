@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_navigation_in_bricsys_24_7_viewer_">
+    <title>Navigation in Bricsys 24/7 Viewer</title>
+    <conbody>
+        <p>
+            <fig id="fig_vsb_r45_54b">
+                <title>Bricsys 24/7 Viewer</title>
+                <image href="../IMAGES_temp/docviewer_overview.png" id="image_wsb_r45_54b" width="150mm" scope="external" />
+            </fig>
+        </p>
+        <p>The Bricsys 24/7 Viewer contains:<ol id="ol_gl3_hjt_t4b">
+                <li>Menu bar<ul id="ul_bmj_vp5_54b">
+                        <li>Thumbnails: show or hide thumbnails</li>
+                        <li>Add annotation</li>
+                        <li>Download</li>
+                        <li>Print to PDF</li>
+                        <li>View, zoom and rotation buttons</li>
+                        <li>Annotations: show or hide annotations<div>A counter indicates the number
+                                of annotations in a document.</div></li>
+                    </ul></li>
+                <li>Thumbnail pane<div>A thumbnail is displayed for each available page. Click on a
+                        thumbnail to open the corresponding page.</div></li>
+                <li>Current view of the document<div>The selected thumbnail is highlighted and the
+                        viewed area is indicated. </div></li>
+                <li>Status bar<div>The available layouts or sheets of a document are displayed via
+                        tabs. </div></li>
+                <li>Annotation pane</li>
+            </ol></p>
+    </conbody>
+</concept>

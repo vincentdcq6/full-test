@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="download_an_old_release_of_bricscad_0">
+   <title>Downloading an old release of <b id="b_lhg_1q1_cnb">BricsCAD<tm tmtype="reg" /></b></title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <context />
+      <steps>
+         <step>
+            <cmd>If you have not already done so, browse to the Bricsys website, register and log
+               in.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Download BricsCAD</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Show old releases</uicontrol> link.</cmd>
+         </step>
+         <step>
+            <cmd>Select the platform and language.</cmd>
+         </step>
+         <step>
+            <cmd>Select the <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> release.</cmd>
+         </step>
+         <step>
+            <cmd>Select the version (32-bit or 64-bit).</cmd>
+         </step>
+         <step>
+            <cmd>Tick the <uicontrol>I agree with the terms of use</uicontrol> checkbox.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Download</uicontrol> button.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>
+

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_psetupin">
+   <title>PSETUPIN command</title>
+   <shortdesc>Opens the Select Page Setup From File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the Select <xref keyref="DB_selectpagesetupfromfile" /> to select a dwg, dwt, or dxf
+         file from which to import page setups. After selecting the file and choosing
+            <uicontrol>Open</uicontrol>, the Import Page Setups Dialog Box displays. It enables you
+         to choose which page setups from the selected file you wish to import into the current
+         drawing.</p>
+   </conbody>
+</concept>

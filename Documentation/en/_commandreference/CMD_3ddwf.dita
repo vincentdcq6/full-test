@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_3ddwf">
+   <title>3DDWF command</title>
+   <shortdesc>Opens the Export 3D DWF Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_export3ddwf" /> to save data from the current drawing to a 3D dwf
+         or dwfx file. The default file format is specified by the <xref keyref="SV_dwfformat" />.</p>
+   </conbody>
+</concept>

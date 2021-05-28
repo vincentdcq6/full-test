@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_contentbrowser">
+    <title>Content browser panel</title>
+    <shortdesc>The Content Browser panel offers you a quick and convenient way to open drawings,
+        manage your block libraries, copy dimension styles, place views for your entire .dwg files
+        stored on your computer. </shortdesc>
+    <conbody>
+        <p>It includes 6 areas.</p>
+        <fig id="fig_u4d_pcm_mpb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_contentbrowser_01_V21.png" id="image_sry_13g_npb" scope="external" />
+            <ol id="ol_jn3_tzl_mpb">
+                <li>Add Folder…</li>
+                <li>Refresh</li>
+                <li>Definitions in the selected drawing</li>
+                <li>Local Folders tree</li>
+                <li>Definitions’ preview</li>
+                <li>Description</li>
+            </ol>
+        </fig>
+        <section id="section_ktx_3ch_npb">
+            <title>Add folder…</title>
+            <p>Displays the Choose a folder dialog box. </p>
+        </section>
+        <section id="section_jgw_jch_npb">
+            <title>Refresh</title>
+            <p>Select a drawing and press the Refresh button to expand its content (Blocks,
+                Dimension Styles, Model Views). </p>
+        </section>
+        <section id="section_gl3_kch_npb">
+            <title>Definitions in the selected drawing </title>
+            <p>Select Blocks/Dimension styles/Model views to see the definitions used within the
+                drawing. </p>
+            <p>You can drag &amp; drop a block onto the current drawing and an Insert Block dialog
+                box will appear.</p>
+            <p>If you drag &amp; drop a dimension style to your drawing a Copy / Paste dialog box
+                will appear.</p>
+        </section>
+        <section id="section_rjk_kch_npb">
+            <title>Local Folders tree</title>
+            <p>Displays the content of a drawing/project. Right-click menus enable you to add or
+                remove folders from within the Folders tree.</p>
+        </section>
+        <section id="section_vdp_kch_npb">
+            <title>Definitions’ preview</title>
+            <p>Shows a preview of your drawing/block/dimension style.</p>
+        </section>
+        <section id="section_o2t_kch_npb">
+            <title>Description</title>
+            <p>Displays a description of your selected definition.</p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_contentbrowserclose" />
+            <link keyref="CMD_contentbrowseropen" />
+            <link keyref="CMD_-toolpanel" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="DB_chooseafolder" />
+            <link keyref="DB_copypaste" />
+            <link keyref="DB_insertblock" />
+            <link keyref="UI_panels" />
+        </linklist>
+    </related-links>
+</concept>

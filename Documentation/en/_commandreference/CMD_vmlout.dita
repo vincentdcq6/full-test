@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_vmlout">
+   <title>VMLOUT command</title>
+   <shortdesc>Opens the Create HTML File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_createhtmlfile" /> to save data from the current drawing to an htm
+         file. The data is stored in VML format and embedded in an HTML file. You can view the file
+         in a Web browser. However, you may need to install a VML plug-in.</p>
+   </conbody>
+</concept>

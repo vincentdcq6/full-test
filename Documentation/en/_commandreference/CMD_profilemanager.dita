@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_profilemanager_command">
+   <title>PROFILEMANAGER command</title>
+   <shortdesc>Opens the User Profile Manager Dialog Box.</shortdesc>
+   <conbody>
+      <fig id="fig_okr_xxf_ynb">
+         <image href="https://static.bricsys.com/help/en_US/V19/Common/command-reference-all.png" id="image_grw_xxf_ynb" scope="external" />
+      </fig>
+      <fig id="fig_ffx_yxf_ynb"><!--command icon--></fig>
+      <p><!--<p>Alias:</p>--></p>
+      <p>Open the <xref keyref="DB_userprofilemanger" /> to create and manage user profiles.</p>
+   </conbody>
+</concept>

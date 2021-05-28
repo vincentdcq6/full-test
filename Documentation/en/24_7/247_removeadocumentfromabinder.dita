@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_remove_a_document_from_a_binder">
+    <title>Remove a document from a binder</title>
+    <taskbody>
+        <context>
+            <p>You can remove one or more documents from a binder:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Dashboard</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the binder you want to remove the document(s) from.</cmd>
+            </step>
+            <step>
+                <cmd>Select the document(s) you want to remove from the binder.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Remove from binder</uicontrol>
+                    <image href="../IMAGES_temp/remove_from_binder_button.PNG" id="image_ihv_lqd_fpb" scale="75" scope="external" />.</cmd>
+            </step>
+        </steps>
+        <result id="result_obt_4qd_fpb">A pop up window informs you that the items are removed from
+            the binder.</result>
+    </taskbody>
+</task>

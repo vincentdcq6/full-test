@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_address_book">
+    <title>Address book</title>
+    <conbody>
+        <p>The <uicontrol>Address book</uicontrol>
+            <image href="../IMAGES_temp/address_book_icon.PNG" id="image_tmr_s1h_dpb" scale="80" scope="external" />
+            tool allows you to:<ul id="ul_zwf_gqc_x4b">
+                <li>manage all your project contacts</li>
+                <li>categorize contacts into organizations</li>
+                <li>use different address books in a project</li>
+            </ul></p>
+    </conbody>
+</concept>

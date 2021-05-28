@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_mechanicalbrowser">
+    <title>Mechanical browser panel</title>
+    <shortdesc>The Mechanical browser panel offers a central location to view and modify parametric
+        properties of mechanical parts and assemblies.</shortdesc>
+    <conbody>
+        <p>It includes 7 areas.</p>
+        <fig id="fig_ydk_txm_dpb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_mechanicalbrowser_01_V21.png" id="image_tpl_jlw_gpb" scope="external" />
+            <ol id="ol_qzj_kmw_gpb">
+                <li>Parameter list</li>
+                <li>Properties </li>
+                <li>Group by entity</li>
+                <li>Group by type</li>
+                <li>Sort</li>
+                <li>Settings</li>
+                <li>Show search</li>
+            </ol>
+        </fig>
+        <section id="section_rvm_mmw_gpb">
+            <title>Parameter list</title>
+            <p>Displays a list of all the parameters and constraints in the drawing. They are
+                organized in expandable categories which may include user parameters, 2D dimensional
+                constraints, 3D dimensional constraints, 3D geometric constraints, block parameters
+                and array parameters. Right-click menus offer additional tools for some parameters
+                and constraints.<!--Link to CM (Context Menus) for the Mechanical Browser--></p>
+        </section>
+        <section id="section_svm_mmw_gpb">
+            <title>Properties</title>
+            <p>Specifies the properties of the selected item.</p>
+        </section>
+        <section id="section_tvm_mmw_gpb">
+            <title>Group by entity</title>
+            <p>Groups 3D constraints by entity. Expand an entity to view its associated
+                constraints.</p>
+        </section>
+        <section id="section_uvm_mmw_gpb">
+            <title>Group by type</title>
+            <p>Groups 3D constraints by type. Expand a constraint to view the affected entities.</p>
+        </section>
+        <section id="section_vvm_mmw_gpb">
+            <title>Sort Alphabetically</title>
+            <p>Lists mechanical components and 3D constraints alphabetically. Otherwise, they are
+                listed in the order they are added to the assembly.</p>
+        </section>
+        <section id="section_wvm_mmw_gpb">
+            <title>Settings</title>
+            <div conkeyref="CM_mechanicalbrowserpanelmenu/div_jqg_4tw_gpb" id="div_gmm_b5w_gpb" />
+        </section>
+        <section id="section_xvm_mmw_gpb">
+            <title>Show search</title>
+            <p>Toggles the search field and associated tools on and off. You can also press CTRL+F
+                to toggle Search.</p>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Search field</dt>
+                        <dd>Searches the parameter list for the character string you enter. The
+                            arrow tools to the right of the search field enable you find the next or
+                            previous occurrence of the text string.</dd>
+                    </dlentry>
+                </dl>
+                <fig id="fig_tph_35w_gpb">
+                    <image href="https://static.bricsys.com/help/en_US/PNL_mechanicalbrowser_02_V21.png" scope="external" id="image_usf_g5w_gpb" />
+                </fig>
+            </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_mechanicalbrowseropen" />
+            <link keyref="CMD_mechanicalbrowserclose" />
+            <link keyref="CMD_-toolpanel" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="UI_panels" />
+        </linklist>
+    </related-links>
+</concept>

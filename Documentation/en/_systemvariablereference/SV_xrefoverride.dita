@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="xrefoverride" xml:lang="en-US">
+   <title id="title__Toc50995857">XREFOVERRIDE system variable</title>
+   <conbody>
+      <section><title>Xref override</title><p>Specifies the display of entity visual properties (such as color, linetype, lineweight, transparency, or plot style) on referenced layers.</p><p>If Off (0): When the properties of the entities on the XREF drawing are set to ByLayer, any changes to the xref layer properties are displayed in the current drawing.</p><p>If On (1): When the properties of the entities on the XREF drawing are not set to ByLayer, entities on xref layers are treated as if their properties are set to ByLayer. And every external reference layer can have its own set of layer overrides.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/drawing" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 1</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>0</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Only ByLayer properties of the entities in the XREF drawing can be changed</p>
+                           <p>On (1): All properties of entities in the XREF drawing can be changed by its original layer property</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

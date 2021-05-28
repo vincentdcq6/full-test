@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_trailinglines">
+    <title>Trailing lines</title>
+    <conbody>
+        <p>Trailing lines help explain the relationship between parts. It is a 3D polyline that
+            represents a trajectory and displays the movement of a part during the disassembly
+            process.</p>
+        <p>
+            <fig id="fig_fqx_3mb_lpb">
+                <title>Example of trailing lines</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360005878240/drive_shaft_trailing_lines.png" id="image_gqx_3mb_lpb" width="120mm" scope="external" />
+            </fig>
+        </p>
+        <p>Use command <cmdname>BMTRAILINGLINES</cmdname> to add trailing lines to an exploded
+            representation that is open for edit. This tool creates all trailing lines. The
+            information from the exploded view steps is used to do this.</p>
+        <p>You can generate trailing lines for all parts or for a subset of parts. For a subset,
+            trailing lines will be built for parts from that subset only, although only necessary
+            trailing lines will be added. Some parts may not have trailing lines at all. You can
+            also manually select 2 parts to add a trailing line between.</p>
+        <p>When a trailing line is computed, the algorithm automatically determines the location of
+            the part and the location from where the part was removed to compute the trajectory. It
+            considers the movements of both parts.</p>
+        <p>Each trailing line is displayed in the mechanical browser. With the mechanical browser,
+            you can see all trailing lines in the model; highlight, select and zoom to parts
+            connected with the selected line; rename or remove the trailing line.</p>
+        <p>You can edit the trailing line(s) with the standard 3D polyline edit tools.</p>
+        <p>
+            <fig id="fig_jmy_rlb_lpb">
+                <title>Exploded view trailing line properties</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360005880960/trailing_lines_interface.png" id="image_kmy_rlb_lpb" width="120mm" scope="external" />
+            </fig>
+        </p>
+    </conbody>
+</concept>

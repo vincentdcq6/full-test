@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="saveformat_844" xml:lang="en-US">
+   <title id="title__Toc50995672">SAVEFORMAT system variable</title>
+   <conbody>
+      <section><title>Save format</title><p>Specifies the default save format for a drawing.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>1 to 39</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>4</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>1: DWG 2018</p>
+                           <p>2: DXF 2018</p>
+                           <p>3: Binary DXF 2018</p>
+                           <p>4: DWG 2013</p>
+                           <p>5: DXF 2013</p>
+                           <p>6: Binary DXF 2013</p>
+                           <p>7: DWG 2010</p>
+                           <p>8: DXF 2010</p>
+                           <p>9: Binary DXF 2010</p>
+                           <p>10: DWG 2007</p>
+                           <p>11: DXF 2007</p>
+                           <p>12: Binary DXF 2007</p>
+                           <p>13: DWG 2004</p>
+                           <p>14: DXF 2004</p>
+                           <p>15: Binary DXF 2004</p>
+                           <p>16: DWG 2000</p>
+                           <p>17: DXF 2000</p>
+                           <p>18: Binary DXF 2000</p>
+                           <p>19: DWG R14</p>
+                           <p>20: DXF R14</p>
+                           <p>21: Binary DXF R14</p>
+                           <p>22: DWG R13</p>
+                           <p>23: DXF R13</p>
+                           <p>24: Binary DXF R13</p>
+                           <p>25: DWG R11/R12</p>
+                           <p>26: DXF R11/R12</p>
+                           <p>27: Binary DXF R11/R12</p>
+                           <p>28: DXF R10</p>
+                           <p>29: Binary DXF R10</p>
+                           <p>30: DXF R9</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

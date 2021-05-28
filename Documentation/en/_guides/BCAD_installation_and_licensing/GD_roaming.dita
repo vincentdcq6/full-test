@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="roaming">
+   <title>Roaming</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>With a network license, you can set a floating license to roam to a system which will subsequently be disconnected from the network. The resulting license can be used for the number of days specified when the license was set to roam. After this period, the license is checked back in automatically. If needed, you can return the roamed license to the license pool early.</p>
+      <p>The license file(s) on the network license server contain(s) a parameter
+            <parmname>max_roam_count</parmname>. This is set to the total number of seats on a
+         network license by default.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_to_roam_a_network_license_on_a_client_computer" />
+      </linklist>
+   </related-links>
+</concept>

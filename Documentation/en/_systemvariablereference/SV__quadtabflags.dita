@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="_quadtabflags" xml:lang="en-US">
+   <title id="title__Toc50995863">_QUADTABFLAGS system variable</title>
+   <conbody>
+      <section><title>Quad tab flags</title><p>Temporary setting used while new quad tab layout is being implemented. The value is stored as a bitcode using the sum of the values of all selected options.</p><p conkeyref="system_variable_warehouse/BricsCAD_only" />
+         <p>
+            <table id="table_bzg_nyy_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry>
+                           <p conkeyref="system_variable_warehouse/short" />
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>0 to 31</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>12</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>1: Fixed width tabs</p>
+                           <p>2: Center tab labels</p>
+                           <p>4: Tab borders</p>
+                           <p>8: Double tab height</p>
+                           <p>16: Show 3D Solid mass properties</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

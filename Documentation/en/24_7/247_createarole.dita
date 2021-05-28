@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_create_a_role">
+    <title>Create a role</title>
+    <taskbody>
+        <context>
+            <p>You can create a new role:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_lps_hwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Roles</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>New role</uicontrol>
+                    <image href="../IMAGES_temp/new_role_button.PNG" id="image_g1c_ngm_dpb" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Create a new role</wintitle> window appears.<div>
+                        <fig id="fig_skg_vgm_dpb">
+                            <title>Create a new role</title>
+                            <image href="../IMAGES_temp/create_a_new_role_window.PNG" id="image_tkg_vgm_dpb" width="150mm" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>Enter a name for the new role.</cmd>
+            </step>
+            <step>
+                <cmd>Click <image href="../IMAGES_temp/choose_role_color_icon.PNG" id="image_ikx_khm_dpb" scale="75" scope="external" /> and select a color.</cmd>
+                <info>
+                    <note type="tip">Selecting different colors for different roles, makes it easier
+                        to distinguish annotations from different roles.</note>
+                </info>
+            </step>
+            <step>
+                <cmd>Enable or disable the settings:</cmd>
+                <info>
+                    <ul id="ul_mxh_d3m_dpb">
+                        <li>Use as mail list<div>This allows to send messages to all project members
+                                with the role.</div></li>
+                        <li>Users can see other members of this role<div>This allows to send
+                                notifications to other project members.</div></li>
+                        <li>Users have access to document revisions<div>Project members can view the
+                                revisions of a document.</div></li>
+                        <li>Users can change their profile<div>Project members can edit their
+                                profile settings.<note>This setting is
+                            recommended.</note></div></li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Assign users</wintitle> window appears.<div>
+                        <fig id="fig_vyt_xmm_dpb">
+                            <title>Assign users</title>
+                            <image href="../IMAGES_temp/assign_users_window.PNG" id="image_wyt_xmm_dpb" width="150mm" scope="external" />
+                        </fig>
+                    </div></stepresult>
+            </step>
+            <step>
+                <cmd>If applicable, assign existing or new users to the role:</cmd>
+                <info>
+                    <ul id="ul_sp4_2mm_dpb">
+                        <li>Select the option button next to <uicontrol>Create user from
+                                contact</uicontrol>, if you want to assign an existing user:<ol id="ol_hdf_lmm_dpb">
+                                <li>Enter the name of an existing contact.</li>
+                                <li>Select the contact name.<div>The contact appears in the contact
+                                        pane.</div></li>
+                            </ol></li>
+                        <li>Select the option button next to <uicontrol>Add new contact</uicontrol>,
+                            if you want to assign a new user:<ol id="ol_j3f_cvm_dpb">
+                                <li>Enter the contact details.<div>
+                                        <note>First name, last name and email address are required
+                                            fields.</note>
+                                    </div></li>
+                                <li>Click <image href="../IMAGES_temp/plus_icon.PNG" id="image_q2q_rvm_dpb" scope="external" />.<div>The contact appears in the
+                                        contact pane.</div></li>
+                            </ol></li>
+                        <li>If applicable, enable <uicontrol>Send invitation mail</uicontrol>.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add users</uicontrol> to confirm, or click <uicontrol>Skip
+                        this step</uicontrol> if you do not want to assign users to the role.</cmd>
+            </step>
+        </steps>
+        <result id="result_mpg_jxm_dpb">The new role is displayed in the content pane.</result>
+    </taskbody>
+</task>

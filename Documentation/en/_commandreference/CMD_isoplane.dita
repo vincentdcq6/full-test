@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_isoplane">
+   <title>ISOPLANE command</title>
+   <shortdesc>Toggles the SNAPISOPAIR system variable.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+--></p>
+      <p>Alias: IS</p>
+      <p>Toggle the SNAPISOPAIR system variable to specify the drafting plane for isometric
+         drawings. You can launch this command at the Command prompt or within another command by
+         preceding it with an apostrophe: 'ISOPLANE. </p>
+      <p>
+         <ul id="ul_qkp_zdv_3pb">
+            <li>Left: sets the SNAPISOPAIR system variable to Left.</li>
+            <li>Right: sets the SNAPISOPAIR system variable to Right.</li>
+            <li>Top: sets the SNAPISOPAIR system variable to Top.</li>
+            <li>Toggle: changes the SNAPISOPAIR system variable to the next setting. It cycles in
+               order from the current setting (left-top-right-left). </li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_snap" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_snapisopair" />
+         <link keyref="SV_snapstyl" />
+      </linklist>
+   </related-links>
+</concept>

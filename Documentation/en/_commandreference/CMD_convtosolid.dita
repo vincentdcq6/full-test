@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_convtosolid">
+   <title>CONVTOSOLID command</title>
+   <shortdesc>Converts entities to solid entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Convert valid 2D and 3D entities to 3D Solid entities<!--link to DE-->. Valid entities include:<ul id="ul_wjy_5dr_v4b">
+            <li>Watertight 3D Mesh<!--link to DE--></li>
+            <li>Watertight 3D Surface<!--link to DE--></li>
+            <li>3D Polygon Mesh<!--link to DE--></li>
+            <li>3D Polyface Mesh<!--link to DE--></li>
+            <li>Circle<!--link to DE--> with thickness</li>
+            <li>Closed Polyline<!--link to DE--> of non-zero thickness and uniform width</li>
+         </ul></p>
+      <section id="section_wcw_pdr_v4b">
+         <title>Method to convert to solid</title>
+         <p>There is one method to convert entities to 3D Solid entities:<ul id="ul_xcw_pdr_v4b">
+               <li>Select entities</li>
+            </ul></p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select Entities</dt>
+                  <dd>Begin converting an entity to a 3D Solid entity by selecting a valid entity then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select entities</dt>
+                  <dd outputclass="indent1">Select another valid entity or press Enter to complete the command.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_convtosurface" />
+         <link keyref="CMD_convtomesh" />
+      </linklist></related-links>
+</concept>

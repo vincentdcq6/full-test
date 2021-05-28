@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="the_quad_basics">
+   <title>The Quad basics</title>
+   <shortdesc>The <uicontrol>Quad</uicontrol> is a complete command system located directly at the
+      mouse cursor.</shortdesc>
+   <taskbody>
+      <context id="context_bd3_1r2_wmb">
+         <p>When you move the cursor across the screen or when a selection set exists, the Quad
+            detects the entity type and presents commands that work on this entity or selection of
+            entities. When no entity is detected or selected, you can use the Quad to create
+            entities, insert blocks, attach underlays, or open the <uicontrol>Settings</uicontrol>
+            and <uicontrol>Drawing Explorer</uicontrol> dialog boxes.</p>
+         <p>
+            <ul id="ul_vym_sgx_smb">
+               <li>To toggle the display of the <uicontrol>Quad</uicontrol>, click the Quad field in
+                  the Status bar at the bottom of the <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> application window.<fig id="fig_u1v_xkz_tmb">
+                     <image href="https://static.bricsys.com/help/en_US/V20/BCAD/Getting%20Started/StatusBar_Quad.png" id="image_j4w_xkz_tmb" scope="external" />
+                  </fig></li>
+               <li>Right-click the <uicontrol>Quad</uicontrol> field to define the Quad settings in a context menu.<fig id="fig_tpw_ykz_tmb">
+                     <image href="https://static.bricsys.com/help/en_US/V19/BCAD/Interface/00_QuadSettings_Context.png" id="image_jf3_zkz_tmb" scope="external" />
+                  </fig></li>
+            </ul>
+         </p>
+      </context>
+   </taskbody>
+   <task id="task_i54_cr2_wmb">
+      <title>Basic procedure to edit entities using the Quad</title>
+      <taskbody>
+         <steps id="steps_rgj_2r2_wmb">
+            <step>
+               <cmd>Move the cursor over the entity. The entity highlights and the Quad displays the most recently used commands with this entity type.</cmd>
+               <info>
+                  <fig id="fig_h2z_fr2_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V19/BCAD/Interface/Quad_Single.png" scope="external" id="image_i2z_fr2_wmb" />
+                  </fig>
+               </info>
+               <info>If the ROLLOVERTIPS system variable = ON, the properties of the entity under
+                  the cursor display in the Quad.<fig id="fig_z2z_qr2_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V19/BCAD/Interface/QuadRollOverTips.png" scope="external" id="image_afz_qr2_wmb" />
+                  </fig></info>
+            </step>
+            <step>
+               <cmd>Move the cursor to the Quad to display the most recently used commands with this entity type.</cmd>
+               <stepresult>A few command category tabs display at the bottom.<fig id="fig_a3d_vr2_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V19/BCAD/Interface/Quad_Expanded-1.png" scope="external" id="image_b3d_vr2_wmb" />
+                  </fig></stepresult>
+            </step>
+            <step>
+               <cmd>Move the cursor over the tabs to expand the command group under the cursor.</cmd>
+               <info>
+                  <fig id="fig_yyt_wr2_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V19/BCAD/Interface/Quad_Expanded-2.png" scope="external" id="image_zyt_wr2_wmb" />
+                  </fig>
+               </info>
+            </step>
+            <step>
+               <cmd>Click an icon to launch the command.</cmd>
+            </step>
+         </steps>
+      </taskbody>
+   </task>
+   <task id="task_vjc_yr2_wmb">
+      <title>Using the No Selection Quad</title>
+      <taskbody>
+         <prereq id="prereq_sml_zr2_wmb">Make sure the <uicontrol>Display the Quad on right click</uicontrol> option is set.</prereq>
+         <steps id="steps_wts_bs2_wmb">
+            <step>
+               <cmd>Do one of the following:</cmd>
+               <choices id="choices_sq4_cs2_wmb">
+                  <choice>Move the cursor to a void area of the drawing window and right-click.</choice>
+                  <choice>When the cursor is on an entity, hold down the right mouse button longer.</choice>
+               </choices>
+               <stepresult>The <uicontrol>No Selection</uicontrol> Quad displays, showing the icons of the most recently used commands.<fig id="fig_nbt_gs2_wmb">
+                     <image href="https://static.bricsys.com/help/en_US/V19/BCAD/Interface/Quad_NoSelection.png" scope="external" id="image_obt_gs2_wmb" />
+                  </fig></stepresult>
+            </step>
+            <step>
+               <cmd>Do one of the following:</cmd>
+               <choices id="choices_jsv_hs2_wmb">
+                  <choice>Click one of the most recently used commands.</choice>
+                  <choice>Move the cursor over a command tab and select a command when it expands.</choice>
+               </choices>
+            </step>
+            <step>
+               <cmd>Execute the command.</cmd>
+            </step>
+         </steps>
+      </taskbody>
+      <related-links>
+         <linklist>
+            <title>Related variables</title>
+            <link keyref="SV_rollovertips" />
+         </linklist>
+         <linklist>
+            <title>Related information</title>
+            <!--<link href="https://help.bricsys.com/hc/en-us/articles/360006741394-The-Quad-cursor-menu" format="html" scope="external"><linktext>The Quad cursor menu</linktext></link>-->
+            <link keyref="GD_the_ribbon" />
+            <link keyref="GD_toolbars" />
+            <link keyref="GD_menus" />
+            <link keyref="GD_the_command_line" />
+            <link keyref="GD_executing_commands" />
+         </linklist>
+      </related-links>
+   </task>
+</task>
+
+

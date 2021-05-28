@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="dragsnap" xml:lang="en-US">
+   <title id="title__Toc50995060">DRAGSNAP system variable</title>
+   <conbody>
+      <section><title>Snap dragged entities</title><p>Switches entity snapping of dragged entities on or off.</p><p>The DRAGSNAP system variable controls the snap behavior while 'dragging', providing an increased WYSIWIG experience. DRAGSNAP controls whether rubberband dynamics are displayed at the current cursor location or at the current entity snap location. DRAGSNAP applies to all modify commands that display dynamics, such as COPY, PASTECLIP, PASTEBLOCK, MOVE, ROTATE, MIRROR, SCALE and STRETCH. </p><p>When DRAGSNAP is off, snap is only in effect during drawing and editing commands; when DRAGSNAP is on, the cursor also snaps when no command is active.</p><p>
+            <table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/boolean" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry><p conkeyref="system_variable_warehouse/off" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>Off (0): Don’t snap dragged entities</p>
+                           <p>On (1): Snap dragged entities</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p></section>
+   </conbody>
+</concept>

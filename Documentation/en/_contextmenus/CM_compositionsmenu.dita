@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A272AC24-E5E2027-234EB13449653C1-1B7C9B">
+  <title>Compositions menu</title>
+  <shortdesc />
+
+  <conbody>
+    <div id="div_rhc_rtk_mpb">
+      <p><!--description TBA--></p>
+      <fig id="fig_dsw_2tk_mpb">
+        <image href="https://static.bricsys.com/help/en_US/CM_compositions_01_V21.png" id="image_own_gtk_mpb" scope="external" />
+      </fig>
+      <p>
+        <dl>
+          <dlentry>
+            <dt>Open material dialog...</dt>
+            <dd>Opens the Physical materials dialog box.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>Open composition dialog...</dt>
+            <dd>Opens the Compositions dialog box.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>Open project dialog...</dt>
+            <dd>Opens the BIM project info dialog box.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>Show only compositions in project</dt>
+            <dd>Only displays the existing compositions in your drawing.</dd>
+          </dlentry>
+        </dl>
+      </p>
+    </div>
+  </conbody>
+</concept>

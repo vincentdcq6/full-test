@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_archive_a_project">
+    <title>Archive a project</title>
+    <taskbody>
+        <context>
+            <p>You can archive a project:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Log into Bricsys 24/7 on the <xref href="https://my.bricsys247.com/app/" format="html" scope="external">login page</xref>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>My projects</uicontrol>
+                    <image href="../IMAGES_temp/my_projects.PNG" id="image_nqm_13t_1pb" scale="75" scope="external" />.</cmd>
+            </step>
+            <step>
+                <cmd>Select a project in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Archive project</uicontrol>
+                    <image href="../IMAGES_temp/archive_project_button.PNG" id="image_d1h_hzf_bpb" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Archive project(s)</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the project is successfully
+                    archived.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

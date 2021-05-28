@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_upload_a_document">
+    <title>Upload a document</title>
+    <taskbody>
+        <context>
+            <p>You can upload one or more documents:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Dashboard</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Upload</uicontrol>
+                    <image href="../IMAGES_temp/upload_button.PNG" id="image_tlt_f5q_x4b" scale="75" scope="external" /> in the tool menu.</cmd>
+                <stepresult>The <wintitle>Choose a folder to upload to...</wintitle> window
+                    appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the folder you want to upload to.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
+                <stepresult>A modal window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Select the document(s) you want to upload.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Open</uicontrol> (Windows) or <uicontrol>Choose for
+                        Upload</uicontrol> (Mac).</cmd>
+                <stepresult>The <wintitle>Uploading</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>If applicable, add a description and a status per document.</cmd>
+                <info>
+                    <div>
+                        <note type="tip">The available document statuses correspond to the <xref href="247_edittheprojectsettings.dita">project
+                            settings</xref>.</note>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_vv4_dqj_jpb">A pop up window shows the upload progress and informs you
+            that the documents are successfully uploaded.</result>
+        <postreq id="postreq_iv2_3rr_x4b">
+            <note>As an alternative, you can first select a folder in the tool menu, before you
+                click on <uicontrol>Upload</uicontrol>.</note>
+            <note>The maximum upload size is 20 GB.</note>
+            <note type="tip">If you want to upload a lot of documents simultaneously, you can use
+                the <xref href="247_bricsys247transfertool.dita">Bricsys 24/7 Transfer
+                    Tool</xref>.</note>
+        </postreq>
+    </taskbody>
+</task>

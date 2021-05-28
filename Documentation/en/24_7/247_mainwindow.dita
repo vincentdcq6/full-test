@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_main_window">
+    <title>Main window</title>
+    <conbody>
+        <p>
+                        <fig id="fig_sr5_kqr_v4b">
+                                <title>Bricsys 24/7 main window</title>
+                                <image placement="break" href="../IMAGES_temp/Bricsys_24_7_main_window_incl_indications.PNG" id="image_tr5_kqr_v4b" scale="60" width="150mm" scope="external" />
+                        </fig>
+                </p>
+    <p>Legend:<ol id="ol_c1b_vpl_dpb">
+        <li>Project bar</li>
+        <li>Toolbar</li>
+        <li>Tool menu</li>
+        <li>Content pane</li>
+        <li>View buttons</li>
+      </ol></p>
+        <p>The Bricsys 24/7 main window contains:<ol id="ol_lwg_2sk_v4b">
+                <li><b>Project bar</b><div>
+            <fig id="fig_q1m_v5l_dpb">
+              <title>Bricsys 24/7 project bar</title>
+              <image href="../IMAGES_temp/Bricsys24_7_Project_bar.PNG" id="image_r1m_v5l_dpb" width="150mm" scope="external" />
+            </fig>
+          </div><div>The horizontal project bar is located at the top of the Bricsys 24/7 screen.
+            </div><div>The project bar contains:<ul id="ul_icb_m25_w4b">
+              <li>the selected project</li>
+              <li>the search bar</li>
+              <li>the profile/icon picture</li>
+            </ul></div></li>
+                <li><b>Toolbar</b><div>
+            <fig id="fig_zhl_prz_y4b">
+              <title>Bricsys 24/7 toolbar</title>
+              <image href="../IMAGES_temp/toolbar_light.PNG" id="image_a3l_prz_y4b" scale="75" scope="external" />
+            </fig>
+          </div><div>The vertical toolbar is located at the top left corner of the Bricsys 24/7
+            screen. </div><div>The toolbar contains the different tools you have access to:<table frame="all" rowsep="1" colsep="1" id="table_a52_fhp_x4b">
+              <title>Toolbar</title>
+              <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*" />
+                <colspec colname="newCol2" colnum="2" colwidth="1.82*" />
+                <colspec colname="c2" colnum="3" colwidth="5.38*" />
+                <thead>
+                  <row>
+                    <entry>Icon</entry>
+                    <entry>Tool</entry>
+                    <entry>Description</entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry><image href="../IMAGES_temp/dashboard_icon.PNG" id="image_ebm_ljp_x4b" scope="external" /></entry>
+                    <entry><uicontrol>Dashboard</uicontrol></entry>
+                    <entry>Allows you to monitor all your project related activities.</entry>
+                  </row>
+                  <row>
+                    <entry><image href="../IMAGES_temp/address_book_icon.PNG" id="image_ybf_njp_x4b" scope="external" /></entry>
+                    <entry><uicontrol>Address book</uicontrol></entry>
+                    <entry>Allows you to manage and categorize all your project contacts.</entry>
+                  </row>
+                  <row>
+                    <entry><image href="../IMAGES_temp/message_icon.PNG" id="image_qvd_4jp_x4b" scope="external" /></entry>
+                    <entry><uicontrol>Message</uicontrol></entry>
+                    <entry>Allows you to send messages to other project members.</entry>
+                  </row>
+                  <row>
+                    <entry><image href="../IMAGES_temp/workflow_icon.PNG" id="image_q5b_pjp_x4b" scope="external" /></entry>
+                    <entry><uicontrol>Workflow</uicontrol></entry>
+                    <entry>Allows you to design and edit workflows using an intuitive drag and drop
+                      editor.</entry>
+                  </row>
+                  <row>
+                    <entry><image href="../IMAGES_temp/relations_icon.PNG" id="image_vqs_rjp_x4b" scope="external" /></entry>
+                    <entry><uicontrol>Relations</uicontrol> @@@ is in development</entry>
+                    <entry>@@@</entry>
+                  </row>
+                  <row>
+                    <entry><image href="../IMAGES_temp/admin_icon.PNG" id="image_z2y_sjp_x4b" scope="external" /></entry>
+                    <entry><uicontrol>Admin</uicontrol></entry>
+                    <entry>Allows project administrators to manage a project.</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table></div><div>
+            <note type="tip">To expand the toolbar, click <uicontrol>Collapse menu</uicontrol>
+              <image href="../IMAGES_temp/collapse_menu_icon.PNG" id="image_sld_fgr_v4b" scale="60" scope="external" />
+              at the bottom left corner of the Bricsys 24/7 screen.</note>
+          </div><fig id="fig_zxh_xrz_y4b">
+            <title>Bricsys 24/7 expanded toolbar</title>
+            <image href="../IMAGES_temp/toolbar.PNG" id="image_ayh_xrz_y4b" scope="external" />
+          </fig></li>
+                <li><b>Tool menu</b><div>The vertical tool menu corresponds to the selected
+            tool.</div><div>
+            <fig id="fig_hpx_jrz_y4b">
+              <title>Example of a tool menu</title>
+              <image href="../IMAGES_temp/tool_menu_example.PNG" id="image_ipx_jrz_y4b" scale="80" scope="external" />
+            </fig>
+          </div><div>
+            <note type="tip">To expand a menu item, click on the arrow icon <image href="../IMAGES_temp/arrow_right.PNG" id="image_ucz_q5z_y4b" scope="external" /> next to the
+              item.</note>
+          </div></li>
+                <li><b>Content pane</b><div>The objects in the selected folder are displayed in the
+            content pane. The content pane corresponds to the selected tool.</div></li>
+                <li><b>View buttons</b>:<ul id="ul_wm2_n5r_v4b">
+            <li>correspond to the selected tool and folder</li>
+            <li>are located at the top, or at the top right corner of the content pane</li>
+          </ul><div>
+            <table frame="all" rowsep="1" colsep="1" id="table_rqh_wvp_z4b">
+              <title>View buttons</title>
+              <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*" />
+                <colspec colname="c2" colnum="2" colwidth="1.72*" />
+                <colspec colname="newCol3" colnum="3" colwidth="5.16*" />
+                <thead>
+                  <row>
+                    <entry>Icon</entry>
+                    <entry>View button</entry>
+                    <entry>Description</entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry>
+                      <image placement="break" href="../IMAGES_temp/change_view_icon.PNG" id="image_y1p_j1m_v4b" scope="external" />
+                    </entry>
+                    <entry>Change view</entry>
+                    <entry>Allows you to change the view of the content to thumbnail view.</entry>
+                  </row>
+                  <row>
+                    <entry><image href="../IMAGES_temp/list_view_icon.PNG" id="image_zqg_bpl_dpb" scope="external" /></entry>
+                    <entry>Change view</entry>
+                    <entry>Allows you to change the view of the content to list view.</entry>
+                  </row>
+                  <row>
+                    <entry><image href="../IMAGES_temp/change_view_icon_2.PNG" id="image_ndf_nhr_v4b" scope="external" /></entry>
+                    <entry />
+                    <entry>Allows you to view Activity and Details.</entry>
+                  </row>
+                  <row>
+                    <entry><image href="../IMAGES_temp/info_icon.PNG" id="image_prx_pwp_z4b" scope="external" /></entry>
+                    <entry>Information</entry>
+                    <entry>Allows you to view extra information, such as Roles with access.</entry>
+                  </row>
+                  <row>
+                    <entry><image href="../IMAGES_temp/filter_icon.PNG" id="image_jh2_nvp_z4b" scope="external" /></entry>
+                    <entry>Filter</entry>
+                    <entry>Allows you to filter the objects in the selected folder.</entry>
+                  </row>
+                  <row>
+                    <entry><image href="../IMAGES_temp/show_or_hide_columns.PNG" id="image_rlb_pt2_fpb" scope="external" /></entry>
+                    <entry />
+                    <entry>Allows you to show or hide columns.</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </div></li>
+            </ol></p>
+    </conbody>
+  <related-links>
+    <linklist>
+      <title>Related information</title>
+      <link keyref="247_dashboard" />
+      <link keyref="247_addressbook" />
+      <link keyref="247_messages" />
+      <link keyref="247_setupaworkflow" />
+      <link keyref="247_admin" />
+    </linklist>
+  </related-links>
+</concept>

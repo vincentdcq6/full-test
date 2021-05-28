@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="masspropaccuracy" xml:lang="en-US">
+   <title id="title__Toc50995367">MASSPROPACCURACY system variable</title>
+   <conbody>
+      <section><title>Mass properties calculation relative accuracy</title><p>Specifies the accuracy to be used for mass properties calculations. This accuracy is relative: the accuracy of the result depends on the magnitude of the calculated value. Acceptable value Range: 2 - 12 (0.01 to 0.000000000001, or 1.e-2 to 1.e-12).</p><p conkeyref="system_variable_warehouse/BricsCAD_only" /><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/short" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/preference" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/range" />
+                        <entry>
+                           <p>2 to 12</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>2</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/possible_values" />
+                        <entry>
+                           <p>2: 0.01</p>
+                           <p>3: 0.001</p>
+                           <p>4: 0.0001</p>
+                           <p>5: 0.00001</p>
+                           <p>6: 0.000001</p>
+                           <p>7: 0.0000001</p>
+                           <p>8: 0.00000001</p>
+                           <p>9: 0.000000001</p>
+                           <p>10: 0.0000000001</p>
+                           <p>11: 0.00000000001</p>
+                           <p>12: 0.000000000001</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

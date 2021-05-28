@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_copy_a_role">
+    <title>Copy a role</title>
+    <taskbody>
+        <context>
+            <p>You can copy a role:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_lps_hwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Roles</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select a role in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>ellipsis</uicontrol> button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_u1c_fbs_v4b" scale="75" scope="external" />
+                    at the top of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Copy role</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Copy role</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Enter a role name.</cmd>
+            </step>
+            <step>
+                <cmd>Edit the applicable role details:</cmd>
+                <info>
+                    <ul id="ul_xdn_m3n_dpb">
+                        <li>Enable or disable <uicontrol>Use as mail list</uicontrol>.</li>
+                        <li>Enable or disable <uicontrol>Users can see other members of this
+                                role</uicontrol>.</li>
+                        <li>Enable or disable <uicontrol>Users have access to document
+                                revisions</uicontrol>.</li>
+                        <li>Enable or disable <uicontrol>Users can change their
+                            profile</uicontrol>.</li>
+                        <li>Enable or disable <uicontrol>Copy role access rights</uicontrol>.</li>
+                        <li>Enable or disable <uicontrol>Copy role members</uicontrol>.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Copy</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_zgx_t3n_dpb">A pop up window informs you that the role is successfully
+            copied.</result>
+    </taskbody>
+</task>

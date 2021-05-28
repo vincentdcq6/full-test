@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CM_rendermaterialspanelmenu">
+    <title>Render materials panel menu</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <div id="div_hqk_ttw_gpb">
+            <p><!--description TBA--></p>
+            <fig id="fig_qhj_blx_gpb">
+                <image href="https://static.bricsys.com/help/en_US/PNL_rendermaterials_02_V21.png" id="image_tpl_jlw_gpb" scope="external" />
+            </fig>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Grid View</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>List View</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Manage libraries</dt>
+                        <dd />
+                    </dlentry>
+                    <dlentry>
+                        <dt>Get more materials</dt>
+                        <dd />
+                    </dlentry>
+                </dl>
+            </p>
+        </div>
+    </conbody>
+</concept>

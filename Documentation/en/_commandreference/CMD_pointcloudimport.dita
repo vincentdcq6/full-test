@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_pointcloudimport">
+   <title>POINTCLOUDIMPORT command</title>
+   <shortdesc>Opens the Select VRM File Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the <xref keyref="DB_selectvrmfile" /> to select a vrm file to import into the current
+         point cloud cache location.</p>
+   </conbody>
+</concept>

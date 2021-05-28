@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_arraysofcomponentsandbillofmaterials">
+    <title>Arrays of components and Bill of Materials</title>
+    <conbody>
+        <p>Arrays of components are transparent for product structure. Components inside arrays are
+            considered as inserted directly into the same assembly. So, in top‐level BOM, components
+            inserted into top‐level arrays are listed as top‐level components.</p>
+        <p>The <b>Quantity</b> column in BOM is filled with the total number of inserts of the same
+            component including the components inside arrays.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,2547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="feature_comparison">
+   <title class="- topic/title ">Feature comparison</title>
+   <shortdesc><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> versus <b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /> feature comparison.</shortdesc>
+   <conbody>
+      
+         <p>
+            <table id="table_mmk_bnv_smb">
+               <tgroup cols="8">
+                  <colspec colname="newCol1" colnum="1" colsep="1" rowsep="1" />
+                  <colspec colname="c1" colnum="2" rowsep="1" colsep="1" />
+                  <colspec colname="c2" colnum="3" colsep="1" rowsep="1" />
+                  <colspec colname="c3" colnum="4" rowsep="1" colsep="1" />
+                  <colspec colname="c4" colnum="5" rowsep="1" colsep="1" />
+                  <colspec colname="c5" colnum="6" rowsep="1" colsep="1" />
+                  <colspec colname="c6" colnum="7" rowsep="1" colsep="1" />
+                  <colspec colname="c7" colnum="8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="newCol1" nameend="c7" align="center">Drawings</entry>
+                     </row>
+                     <row>
+                        <entry namest="newCol1" nameend="c5" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="c6" nameend="c7" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Native DWG file format (thru AutoCAD 2021)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Password Protection</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>eTransmit</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Sheet Set Manager</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Geographic Location</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Drawing Compare</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Cloud Collaboration</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_m5q_24v_smb">
+               <tgroup cols="8">
+                  <colspec colname="newCol1" colnum="1" colsep="1" rowsep="1" />
+                  <colspec colname="c1" colnum="2" rowsep="1" colsep="1" />
+                  <colspec colname="c2" colnum="3" colsep="1" rowsep="1" />
+                  <colspec colname="c3" colnum="4" rowsep="1" colsep="1" />
+                  <colspec colname="c4" colnum="5" rowsep="1" colsep="1" />
+                  <colspec colname="c5" colnum="6" rowsep="1" colsep="1" />
+                  <colspec colname="c6" colnum="7" rowsep="1" colsep="1" />
+                  <colspec colname="c7" colnum="8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="newCol1" nameend="c7" align="center">Interface</entry>
+                     </row>
+                     <row>
+                        <entry namest="newCol1" nameend="c5" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="c6" nameend="c7" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead><tbody>
+                     <row>
+                        <entry>Dark and Light Color Themes</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Industry standard commands, aliases, and variables</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Command Line (Autocomplete, Midstring,</p>
+                           <p> Clickable options)</p>
+                        </entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Start tab</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>File (Drawing) tabs</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Model and Layout tabs</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Layout Manager</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Menu bar</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Toolbars</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Ribbon</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Tool Palettes</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Contextual Right-click Menus</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Contextual Quad Menu</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Status Bar</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Workspaces</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Searchable Settings (Variables) Dialog Box</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Lockable Interface</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Clean Screen Mode</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Drawing Explorer</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Customizable User Interface (CUI)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Structure Browser</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_izg_kpv_smb">
+               <tgroup cols="8">
+                  <colspec colname="newCol1" colnum="1" colsep="1" rowsep="1" />
+                  <colspec colname="c1" colnum="2" rowsep="1" colsep="1" />
+                  <colspec colname="c2" colnum="3" colsep="1" rowsep="1" />
+                  <colspec colname="c3" colnum="4" rowsep="1" colsep="1" />
+                  <colspec colname="c4" colnum="5" rowsep="1" colsep="1" />
+                  <colspec colname="c5" colnum="6" rowsep="1" colsep="1" />
+                  <colspec colname="c6" colnum="7" rowsep="1" colsep="1" />
+                  <colspec colname="c7" colnum="8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="newCol1" nameend="c7" align="center">Selection, snap &amp; track</entry>
+                     </row>
+                     <row>
+                        <entry namest="newCol1" nameend="c5" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="c6" nameend="c7" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Selection Filtering (QSELECT)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Add Selected</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Select Similar</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Selection Cycling</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Entity Snaps (Osnaps)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Polar Tracking</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Zintersection 3D snap</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Nearest Distance</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Adaptive Gridsnap</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Real-time boundary detection</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>2D Dynamic UCS</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>3D Dynamic UCS</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_azk_mfw_smb">
+               <tgroup cols="8">
+                  <colspec colname="newCol1" colnum="1" colsep="1" rowsep="1" />
+                  <colspec colname="c1" colnum="2" rowsep="1" colsep="1" />
+                  <colspec colname="c2" colnum="3" colsep="1" rowsep="1" />
+                  <colspec colname="c3" colnum="4" rowsep="1" colsep="1" />
+                  <colspec colname="c4" colnum="5" rowsep="1" colsep="1" />
+                  <colspec colname="c5" colnum="6" rowsep="1" colsep="1" />
+                  <colspec colname="c6" colnum="7" rowsep="1" colsep="1" />
+                  <colspec colname="c7" colnum="8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="newCol1" nameend="c7" align="center">Drawing tools</entry>
+                     </row>
+                     <row>
+                        <entry namest="newCol1" nameend="c5" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="c6" nameend="c7" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Line, Polyline, 3D Polyline, Spline, Ray, Xline</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Multiline and Multiline Styles</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Circle, Arc, Ellipse, Elliptical Arc</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Polygon, Rectangle, Region, Donut, Point</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Helix</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>2D Parameters, Constraints</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>2D Autoconstrain</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>2</entry>
+                        <entry>2</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_t1s_lhw_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" colsep="1" rowsep="1" />
+                  <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                  <colspec colnum="3" colname="col3" rowsep="1" colsep="1" />
+                  <colspec colnum="4" colname="col4" rowsep="1" colsep="1" />
+                  <colspec colnum="5" colname="col5" rowsep="1" colsep="1" />
+                  <colspec colnum="6" colname="col6" rowsep="1" colsep="1" />
+                  <colspec colnum="7" colname="col7" rowsep="1" colsep="1" />
+                  <colspec colnum="8" colname="col8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Annotation tools</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Dimensions, Dimension Styles</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Multi-leaders, Multi-leader Styles</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Single and Multi-line text, Text Styles, Text Editor</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Hatches, Gradients, Hatch/Gradient Editor</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Wipeouts</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Revision Clouds</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Attributes, Attribute Editor</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Tables, Table Styles</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Fields</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Date Extraction</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Data Linking</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Annotation Scaling</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Spell Check</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_ibl_h3w_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" rowsep="1" colsep="1" />
+                  <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                  <colspec colnum="3" colname="col3" rowsep="1" colsep="1" />
+                  <colspec colnum="4" colname="col4" rowsep="1" colsep="1" />
+                  <colspec colnum="5" colname="col5" rowsep="1" colsep="1" />
+                  <colspec colnum="6" colname="col6" rowsep="1" colsep="1" />
+                  <colspec colnum="7" colname="col7" rowsep="1" colsep="1" />
+                  <colspec colnum="8" colname="col8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Editing tools</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Move, Copy, Rotate, Scale, Stretch, Mirror, Align</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Trim, Extend, Lengthen, Break, Join</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Fillet, Chamfer</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>CopyGuided</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>MoveGuided</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Grip Edit</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Properties Panel</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Manipulator (3D Gizmo)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Draworder</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Undo Per Entity (Property History)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Optimize</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Simplify</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_ez2_pjw_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" colsep="1" rowsep="1" />
+                  <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                  <colspec colnum="3" colname="col3" rowsep="1" colsep="1" />
+                  <colspec colnum="4" colname="col4" rowsep="1" colsep="1" />
+                  <colspec colnum="5" colname="col5" rowsep="1" colsep="1" />
+                  <colspec colnum="6" colname="col6" rowsep="1" colsep="1" />
+                  <colspec colnum="7" colname="col7" rowsep="1" colsep="1" />
+                  <colspec colnum="8" colname="col8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Reference tools</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Blocks, Block Editor</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Dynamic Blocks</entry>
+                        <entry>1</entry>
+                        <entry>1</entry>
+                        <entry>1</entry>
+                        <entry>1</entry>
+                        <entry>1</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Block Face Camera</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Blockify</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Associative Arrays</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Dwg (Xref) Attach, Clip, Bind, Edit</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>PDF Attach, Clip</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Image Attach, Clip, Adjust, Transparency</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Point Clouds Colormap</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_afn_wjw_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" colsep="1" rowsep="1" />
+                  <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                  <colspec colnum="3" colname="col3" rowsep="1" colsep="1" />
+                  <colspec colnum="4" colname="col4" rowsep="1" colsep="1" />
+                  <colspec colnum="5" colname="col5" rowsep="1" colsep="1" />
+                  <colspec colnum="6" colname="col6" rowsep="1" colsep="1" />
+                  <colspec colnum="7" colname="col7" rowsep="1" colsep="1" />
+                  <colspec colnum="8" colname="col8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Visualization tools</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Layers, Layer States</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Transparency</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Visual Styles</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>LookFrom (ViewCube™)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Match Perspective</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Lights</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Sun Properties</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Materials</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Render</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Animation Editor</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Walkthrough navigation</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>ANIPATH command</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_hfn_dkw_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" colsep="1" rowsep="1" />
+                  <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                  <colspec colnum="3" colname="col3" rowsep="1" colsep="1" />
+                  <colspec colnum="4" colname="col4" rowsep="1" colsep="1" />
+                  <colspec colnum="5" colname="col5" rowsep="1" colsep="1" />
+                  <colspec colnum="6" colname="col6" rowsep="1" colsep="1" />
+                  <colspec colnum="7" colname="col7" rowsep="1" colsep="1" />
+                  <colspec colnum="8" colname="col8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Modeling tools</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>ACIS Modeling</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Solid and Surface Modeling</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Solid Primitives</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Mesh Primitives</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Polysolid</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Union, Subtract, Intersect, Interfere</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Extrude, Revolve, Loft, Sweep, Thicken</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Twist</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Fillet, Chamfer</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Slice</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Multi-slice</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>T Connect, L Connect, Connect with Nearest</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Extract Edges</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Direct modeling</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Deformable (Freeform) Modeling</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Audit, Simplify</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Stitch</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>3D Parameters, Constraints</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>3D Autoparametrize</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>3D Blockify and ParametricBlockify</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>3D Parametric Design Tables</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Section planes</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Drawing Views</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>3D Threads</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Point Cloud Align</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Point Cloud Bubble Viewer</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_bzh_hkw_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" colsep="1" rowsep="1" />
+                  <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                  <colspec colnum="3" colname="col3" rowsep="1" colsep="1" />
+                  <colspec colnum="4" colname="col4" rowsep="1" colsep="1" />
+                  <colspec colnum="5" colname="col5" rowsep="1" colsep="1" />
+                  <colspec colnum="6" colname="col6" rowsep="1" colsep="1" />
+                  <colspec colnum="7" colname="col7" rowsep="1" colsep="1" />
+                  <colspec colnum="8" colname="col8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Civil tools</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>TIN Surface Modeling</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>TIN Volume Surface</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Grading</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Alignments</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Corridors</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Civil 3D Object Enabler</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Architectural Desktop Object Enabler</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>CADWorx Object Enabler</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_arg_lkw_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" colsep="1" rowsep="1" />
+                  <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                  <colspec colnum="3" colname="col3" rowsep="1" colsep="1" />
+                  <colspec colnum="4" colname="col4" rowsep="1" colsep="1" />
+                  <colspec colnum="5" colname="col5" rowsep="1" colsep="1" />
+                  <colspec colnum="6" colname="col6" rowsep="1" colsep="1" />
+                  <colspec colnum="7" colname="col7" rowsep="1" colsep="1" />
+                  <colspec colnum="8" colname="col8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Architectural tools</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>BIM features</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Structural Modeling Toolset</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Project Database</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Library Database</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Site, Building and Stories</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Windows and Doors</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Fully Parametric BIM Component Creation</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>3D Spaces</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Quickdraw</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Quickbuilding</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Point Cloud Floor Detection</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Point Cloud Projection</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Point Cloud Geometry Detection</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Point Cloud FitPlanar (geometry detection)</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Propagate</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Custom BIM Properties</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Drawing Customizations</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Analytical Model</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Python Scripts (Beta)</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_sbp_4kw_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" rowsep="1" colsep="1" />
+                  <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                  <colspec colnum="3" colname="col3" colsep="1" rowsep="1" />
+                  <colspec colnum="4" colname="col4" colsep="1" rowsep="1" />
+                  <colspec colnum="5" colname="col5" colsep="1" rowsep="1" />
+                  <colspec colnum="6" colname="col6" colsep="1" rowsep="1" />
+                  <colspec colnum="7" colname="col7" colsep="1" rowsep="1" />
+                  <colspec colnum="8" colname="col8" colsep="1" rowsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Mechanical tools</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Mechanical Browser</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Parts Library</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Piping</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Assembly Modeling</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Exploded Views</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Kinematic Analysis</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Bill of Materials</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Sheet Metal Design</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>3D Solids to Sheet Metal Parts Conversion</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Corner Relief for Adjacent Edge Flanges</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Lofted Bends</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Coloring</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Diagnostic for Invalid Sheet Metal Features</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Batch Processing</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_pr1_skw_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" rowsep="1" colsep="1" />
+                  <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                  <colspec colnum="3" colname="col3" rowsep="1" colsep="1" />
+                  <colspec colnum="4" colname="col4" rowsep="1" colsep="1" />
+                  <colspec colnum="5" colname="col5" rowsep="1" colsep="1" />
+                  <colspec colnum="6" colname="col6" rowsep="1" colsep="1" />
+                  <colspec colnum="7" colname="col7" rowsep="1" colsep="1" />
+                  <colspec colnum="8" colname="col8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Import, export, output</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Print/Plot</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Publish/Batch Plot</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>CTB &amp; STB Table Files</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>PC3 Printer Configuration Files</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Named Page Setups</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>PDF Import, Export</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>DAE Import, Export</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>IFC Import, Export</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>3DM Import, Export</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>LandXML Import, Export</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>RFA Import</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>SKP Import</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>DGN Import</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>RVT Import</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>DWF Export</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>SVG Export</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>FBX Export</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>STL Export</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Point Cloud Export</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Additional formats available with BricsCAD Communicator</p>
+                        </entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table id="table_wms_vkw_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" colsep="1" rowsep="1" />
+                  <colspec colnum="2" colname="col2" colsep="1" rowsep="1" />
+                  <colspec colnum="3" colname="col3" colsep="1" rowsep="1" />
+                  <colspec colnum="4" colname="col4" colsep="1" rowsep="1" />
+                  <colspec colnum="5" colname="col5" colsep="1" rowsep="1" />
+                  <colspec colnum="6" colname="col6" colsep="1" rowsep="1" />
+                  <colspec colnum="7" colname="col7" colsep="1" rowsep="1" />
+                  <colspec colnum="8" colname="col8" colsep="1" rowsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Programming</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>ActiveX</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Entity data editor</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Script Recorder</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Full LISP Support (vl, vlr, vla and vlax)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Solutions Development System (SDS/ADS)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>DCL engine</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>COM API</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Visual Basic for Applications (VBA)</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>VBA DVB projects support</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>.NET</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>BRX (ARX)</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>TX (Teigha eXtensions)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>CUI menu files support, with Diesel expressions</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p><table id="table_nwq_1lw_smb">
+               <tgroup cols="8">
+                  <colspec colnum="1" colname="col1" rowsep="1" colsep="1" />
+                  <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+                  <colspec colnum="3" colname="col3" colsep="1" rowsep="1" />
+                  <colspec colnum="4" colname="col4" rowsep="1" colsep="1" />
+                  <colspec colnum="5" colname="col5" colsep="1" rowsep="1" />
+                  <colspec colnum="6" colname="col6" rowsep="1" colsep="1" />
+                  <colspec colnum="7" colname="col7" colsep="1" rowsep="1" />
+                  <colspec colnum="8" colname="col8" rowsep="1" colsep="1" />
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col8" align="center">Licensing</entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col6" align="center"><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /></entry>
+                        <entry namest="col7" nameend="col8" align="center"><b conkeyref="product_names_warehouse/b_dcm_4xb_2nb" /></entry>
+                     </row>
+                     <row>
+                        <entry align="center" />
+                        <entry align="center">Lite</entry>
+                        <entry align="center">Pro</entry>
+                        <entry align="center">BIM</entry>
+                        <entry align="center">Mechanical</entry>
+                        <entry align="center">Ultimate</entry>
+                        <entry align="center">LT</entry>
+                        <entry align="center">Full</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Multi-platform Licenses</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Perpetual</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Perpetual + Maintenance</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Subscription</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                     <row>
+                        <entry>Network Multi-user</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Volume (Perpetual)</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>o</entry>
+                        <entry>o</entry>
+                     </row>
+                     <row>
+                        <entry>Academic</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                        <entry>✓</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p>
+         <p id="fn">(1) You can manipulate dynamic block insertions but you cannot create dynamic
+            block definitions. </p>
+         <p>(2) You can automatically apply geometric constraints but you cannot automatically apply
+            a combination of geometric and dimensional constraints.</p>
+      
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_overview_of_licensing_options" />
+      </linklist>
+   </related-links>
+</concept>

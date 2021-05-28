@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="license_levels">
+   <title>License levels</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>There are 5 license levels for <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />:<ul id="ol_qw3_vrb_cnb">
+            <li><b conkeyref="product_names_warehouse/b_hkm_wl2_1nb" /></li>
+            <li><b conkeyref="product_names_warehouse/b_umt_wl2_1nb" /></li>
+            <li><b conkeyref="product_names_warehouse/b_vtd_bm2_1nb" /></li>
+            <li><b conkeyref="product_names_warehouse/b_erh_bm2_1nb" /></li>
+            <li><b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" /></li>
+         </ul></p>
+      <section id="section_ach_twg_smb">
+         <title><b conkeyref="product_names_warehouse/b_hkm_wl2_1nb" /></title>
+         <p>If you only create general 2D designs, <b conkeyref="product_names_warehouse/b_hkm_wl2_1nb" /> may be the right choice for you.
+            Compared to <b conkeyref="product_names_warehouse/b_erz_gtb_cnb" />, it also allows to
+            view, move, copy, or mirror 3D models. However, it is not possible to edit the model or
+            create new 3D entities. <b conkeyref="product_names_warehouse/b_hkm_wl2_1nb" /> also runs
+            Lisp routines. Lisp allows <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> users
+            to load customized routines or small applications that will run in <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />.</p>
+      </section>
+      <section id="section_bch_twg_smb">
+         <title><b conkeyref="product_names_warehouse/b_umt_wl2_1nb" /></title>
+         <p><b conkeyref="product_names_warehouse/b_umt_wl2_1nb" /> includes direct 3D modeling with
+            a full 3D constraint system, rendering with materials and lighting and access to third
+            party applications.</p>
+      </section>
+      <section id="section_cch_twg_smb">
+         <title><b conkeyref="product_names_warehouse/b_vtd_bm2_1nb" /></title>
+         <p><b conkeyref="product_names_warehouse/b_vtd_bm2_1nb" /> includes all <b conkeyref="product_names_warehouse/b_umt_wl2_1nb" /> features. You can use your
+            current CAD skills to smoothly move to creating real Building Information Models in
+            record time. One product, one workflow, all in industry-standard DWG.</p>
+      </section>
+      <section id="section_dch_twg_smb">
+         <title><b conkeyref="product_names_warehouse/b_erh_bm2_1nb" /></title>
+         <p>On top of all <b conkeyref="product_names_warehouse/b_umt_wl2_1nb" /> features, <b conkeyref="product_names_warehouse/b_erh_bm2_1nb" /> includes a complete mechanical
+            design toolkit, all in industry-standard DWG, including sheet metal functionality.</p>
+      </section>
+      <section id="section_ech_twg_smb">
+         <title><b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" /></title>
+         <p><b conkeyref="product_names_warehouse/b_kyk_bm2_1nb" /> combines the <b conkeyref="product_names_warehouse/b_vtd_bm2_1nb" /> and <b conkeyref="product_names_warehouse/b_erh_bm2_1nb" /> features.</p>
+      </section>
+   </conbody>
+</concept>
+

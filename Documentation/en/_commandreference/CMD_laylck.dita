@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_laylck">
+   <title>LAYLCK command</title>
+   <shortdesc>Locks the layer of a selected entity. </shortdesc>
+   <conbody>
+      <p><!--<p>Insert License Level</p>--><!--<p> Insert link to Tool icon</p>--><!--<p>Alias:</p>--></p>
+      <p>Lock the layer of a selected entity to prevent entities on that layer from being edited. </p>
+      <p>You are prompted: </p>
+      <p><b>Select an entity on the layer to be locked</b>
+      </p>
+      <p>Select an entity on the layer you want to lock. </p>
+      <p>The Command line indicates which layers have been locked: <ul id="ul_dzx_qzc_x4b">
+            <li><b>This layer has been locked: LayerName1</b></li>
+            <li><b>This layer has been locked: LayerName2</b></li>
+         </ul></p>
+      <p>Entities on locked layers are faded by default. You can change layer fading with the <xref keyref="SV_laylockfadectl" />.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_layer" />
+         <!---LAYER command link-->
+         <link keyref="CMD_layon" />
+         <link keyref="CMD_layoff" />
+         <link keyref="CMD_laythw" />
+         <link keyref="CMD_layfrz" />
+         <link keyref="CMD_laylck" />
+         <link keyref="CMD_layulk" />
+         <link keyref="CMD_layiso" />
+         <link keyref="CMD_layuniso" />
+         <link keyref="CMD_laycur" />
+         <link keyref="CMD_layerp" />
+         <link keyref="CMD_layerstate" />
+      </linklist>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_laylockfadectl" />
+         <link keyref="SV_layerpmode" />
+      </linklist>
+   </related-links>
+</concept>

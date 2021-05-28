@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="GD_startamechanicaldesignproject">
+    <title>Start a mechanical design project</title>
+    <taskbody>
+        <context>
+            <p>You can start a mechanical design project:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Launch BricsCAD.</cmd>
+                <stepresult>The <wintitle>BricsCAD Launcher</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Start</uicontrol> in the <uicontrol>Mechanical
+                        design</uicontrol> section.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

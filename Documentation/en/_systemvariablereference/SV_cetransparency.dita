@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="cetransparency" xml:lang="en-US">
+   <title id="title__Toc50994861">CETRANSPARENCY system variable</title>
+   <conbody>
+      <section>
+         <title>Transparency for new entities</title>
+         <p>Specifies the transparency level for new entities.</p>
+         <table id="table_k2z_ntt_fnb">
+            <tgroup cols="2">
+               <colspec colname="c1" colnum="1" colwidth="1*" />
+               <colspec colname="c2" colnum="2" colwidth="3*" />
+               <tbody>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/type" />
+                     <entry>
+                        <p conkeyref="system_variable_warehouse/string" />
+                     </entry>
+                  </row>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/saved_in" />
+                     <entry>
+                        <p conkeyref="system_variable_warehouse/drawing" />
+                     </entry>
+                  </row>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/default_value" />
+                     <entry><p conkeyref="system_variable_warehouse/bylayer" /></entry>
+                  </row>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/possible_values" />
+                     <entry>
+                        <p>ByLayer: Apply the layer’s transparency</p>
+                        <p>ByBlock: Apply the block’s transparency</p>
+                        <p>0: Apply no transparency (fully opaque)</p>
+                        <p>1-90: Apply transparency percentage from least (1) to most (90) transparent</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </conbody>
+</concept>

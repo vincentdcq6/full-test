@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_transfer_documents">
+    <title>Transfer documents</title>
+    <conbody>
+        <p>The Bricsys 24/7 Transfer Tool allows you to transfer multiple documents between your
+            local file system and the Bricsys 24/7 service. The split screen user interface allows
+            you to upload or download files via drag and drop.</p>
+        
+            <note>For more information, see the guide <xref href="http://static.bricsys247.com/tools/transferToolDownloads/Chapoo_Transfer.pdf" format="pdf" scope="external">How to upload documents with metadata</xref> and
+                the <xref href="http://static.bricsys247.com/tools/transferToolDownloads/metadata.xlsx" format="html" scope="external">Metadata template</xref>. @@@ content in PDF
+                outdated, Chapoo is the old name for Bricsys 24/7</note>
+        
+    </conbody>
+</concept>

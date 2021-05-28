@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="GD_editexplodedrepresentations2">
+    <title>Edit exploded representations</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Select the exploded representation in the Mechanical Browser.</cmd>
+            </step>
+            <step>
+                <cmd>Right-click the exploded representation and select <uicontrol>Edit</uicontrol>
+                    from the context menu.</cmd>
+                <info>
+                    <div>
+                        <note>As an alternative, you can execute command <cmdname>Bedit</cmdname>
+                            and select the block with the exploded representation.</note>
+                    </div>
+                </info>
+            </step>
+            <step>
+                <cmd>Perform the necessary operations to get the desired exploded
+                    representation.</cmd>
+            </step>
+            <step>
+                <cmd>Save the current step.</cmd>
+            </step>
+            <step>
+                <cmd>Save changes using command <cmdname>Bclose</cmdname> with the option
+                        <varname>Save</varname>.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_c3h_kgc_lpb">
+            <note>Do not use the <varname>Discard</varname> option of command
+                    <cmdname>Bclose</cmdname>, as it can lead to an inconsistent state of the block
+                and exploded representation steps. Use <varname>Undo</varname> instead.</note>
+        </postreq>
+    </taskbody>
+</task>

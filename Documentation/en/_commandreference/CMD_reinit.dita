@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="reinit">
+   <title>REINIT command</title>
+   <shortdesc>Reloads the alias (PGP) file.</shortdesc>
+   <conbody>
+      <fig id="fig_ock_f1r_v4b">
+         <image href="https://static.bricsys.com/help/en_US/V19/Common/command-reference-all.png" scope="external" id="image_pck_f1r_v4b" />
+      </fig>
+      <p>Reload the alias (PGP) file after it has been edited externally. A BricsCAD dialog box confirms if you want to reload the file.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="DB_customize" />
+      </linklist></related-links>
+</concept>

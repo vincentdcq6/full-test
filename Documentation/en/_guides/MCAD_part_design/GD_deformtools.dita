@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_deformtools">
+    <title>Deform tools</title>
+    <conbody>
+        <p>You can use the following deform tools:</p>
+        <p>
+            <fig id="fig_mwn_nvs_kpb">
+                <title>Deform</title>
+                <image href="https://help.bricsys.com/hc/article_attachments/360017885659/mceclip0.png" id="image_nwn_nvs_kpb" scope="external" />
+            </fig>
+        </p>
+        <p>
+            <table frame="all" id="table_sm2_rvs_kpb">
+                <title>Deform tools</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="1.03*" />
+                    <colspec colname="c3" colnum="3" colwidth="2.19*" />
+                    <thead>
+                        <row>
+                            <entry>Tool</entry>
+                            <entry>Command</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Move Edge</entry>
+                            <entry><cmdname>DmDeformMove</cmdname></entry>
+                            <entry>Deform faces by moving and rotating their edges.</entry>
+                        </row>
+                        <row>
+                            <entry>Move Point</entry>
+                            <entry><cmdname>DmDeformPoint</cmdname></entry>
+                            <entry>Deform the selected set of faces by moving a point.</entry>
+                        </row>
+                        <row>
+                            <entry>Transform Curve</entry>
+                            <entry><cmdname>DmDeformCurve</cmdname></entry>
+                            <entry>Deform faces by changing the geometry of their edges.</entry>
+                        </row>
+                        <row>
+                            <entry>Twist</entry>
+                            <entry><cmdname>DmTwist</cmdname></entry>
+                            <entry>Deform 3D object by twisting a portion around a given
+                                axis.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>
+            <note type="tip">Watch the tutorial: Use surface modeling and deformable
+                modeling.</note>
+        </p>
+        <p><object width="560" height="315" data="https://www.youtube.com/embed/ejZmFdjtBBA" outputclass="iframe">
+                <param name="allowfullscreen" />
+            </object></p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

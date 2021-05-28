@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_gccoincident">
+   <title>GCCOINCIDENT command</title>
+   <shortdesc>Creates a coincident geometric constraint on 2D entities.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level--></p>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias:--></p>
+      <p>Create a coincident constraint to ensure a point on an entity remains coincident with a specified point or entity.</p>
+      <section id="section_zyz_rw1_x4b">
+         <title>Methods to create a coincident constraint</title>
+         <p>There are three methods to begin creating a coincident constraint:</p>
+         <ul id="ul_mwl_3x1_x4b">
+            <li>Select first point</li>
+            <li>Entity</li>
+            <li>Autoconstrain</li>
+         </ul>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Select first point</dt>
+                  <dd>Begin creating a coincident constraint by specifying a point on an entity then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select second point</dt>
+                  <dd outputclass="indent1">Specify a point on an entity to make coincident with the first point. The point on the first entity maintains its position while the second entity adjusts, as necessary, to become coincident.</dd>
+                  <dd outputclass="indent1">Additional Options: [Entity] </dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Entity</dt>
+                  <dd>Begin creating a coincident contraint by selecting an entity then:</dd>
+               </dlentry>
+               <dlentry>
+                  <dt outputclass="indent1">Select a point</dt>
+                  <dd outputclass="indent1">Specify a point on an entity to make coincident with the first entity. The first entity maintains its position while the point on the second entity adjusts, as necessary, to become coincident.</dd>
+                  <dd outputclass="indent1">Additional Options: [Multiple]</dd>
+               </dlentry>
+               <dlentry>
+                  <dt>Autoconstrain</dt>
+                  <dd>Create coincident constraints by selecting all entities to which you want to apply relevant coincident constraints.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+      <section id="section_jq2_vx1_x4b">
+         <title>Options within the GCCOINCIDENT command</title>
+         <p>After you begin creating a coincident constraint, the following option may be available:</p>
+         <p>
+            <dl>
+               <dlentry>
+                  <dt>Multiple</dt>
+                  <dd>Create multiple coincident constraints until you press Enter to end the command.</dd>
+               </dlentry>
+            </dl>
+         </p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_geomconstraint" />
+      </linklist></related-links>
+</concept>

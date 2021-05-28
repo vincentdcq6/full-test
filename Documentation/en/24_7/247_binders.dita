@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="co_binders">
+    <title>Binders</title>
+    <conbody>
+        <p>A binder <image href="../IMAGES_temp/binder_icon.PNG" id="image_x5k_zg2_fpb" scope="external" /> is a folder
+            that contains a specific collection of documents.</p>
+    </conbody>
+</concept>

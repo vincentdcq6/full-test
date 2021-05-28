@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A6621A52-C3353CE-24C73DB2C51151E-63A0E5">
+   <title>Parts libraries</title>
+   <shortdesc>The launch of BricsCAD V21 has seen a significant increase in the number of
+      standardized parts available to you.</shortdesc>
+
+   <conbody>
+      <section id="section_b11_v1w_54b">
+         <title>Holes</title>
+         <p>A library of threaded hole components has been added.<fig id="fig_gpy_5bw_54b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_MCAD_ThreadedHoles_01_V21.png" id="image_c11_v1w_54b" scope="external" />
+            </fig></p>
+      </section>
+      <section id="section_d11_v1w_54b">
+         <title>Pipes</title>
+         <p>A library of piping components has been added.<fig id="fig_lz3_vbw_54b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_MCAD_Piping_01_V21.png" id="image_e11_v1w_54b" scope="external" />
+            </fig></p>
+      </section>
+   </conbody>
+</concept>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_blipmode">
+   <title>BLIPMODE command</title>
+   <shortdesc>Toggles the BLIPMODE system variable.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+--></p>
+      <p>Alias: BM </p>
+      <p>Toggle the BLIPMODE system variable to show or hide marker blips that indicate where you
+         picked in the drawing. You can launch this command at the Command prompt or within another
+         command by preceding it with an apostrophe: 'BLIPMODE.</p>
+      <p>
+         <ul id="ul_d4m_mbv_3pb">
+            <li>On: turns on the BLIPMODE system variable</li>
+            <li>Off: turns off the BLIPMODE system variable</li>
+            <li>Toggle: changes the BLIPMODE system variable to the opposite of the current setting
+            </li>
+         </ul>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_blipmode" />
+      </linklist>
+   </related-links>
+</concept>

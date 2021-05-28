@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_civil3dimport">
+   <title>CIVIL3DIMPORT command</title>
+   <shortdesc>Opens the Select Civil 3D Files Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Insert link to Tool icon--></p>
+      <p><!--Alias: --></p>
+      <p>Open the Select Civil 3D Files Dialog Box<!--link--> to select a dwg file to import into the current drawing.</p>
+   </conbody>
+</concept>

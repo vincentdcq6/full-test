@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_AssemblyDesigntools">
+    <title>Tools</title>
+    <conbody>
+        <p>You can use the following tools to work with mechanical components:<ol id="ol_tl1_phd_jpb">
+                <li>On the <uicontrol>Assembly</uicontrol> toolbars:<ul id="ul_urq_l3d_jpb">
+                        <li><uicontrol>Assembly</uicontrol><div>
+                                <fig id="fig_xcj_53d_jpb">
+                                    <title>Assembly</title>
+                                    <image href="https://help.bricsys.com/hc/article_attachments/360017886679/mceclip4.png" id="image_ycj_53d_jpb" scope="external" width="120mm" />
+                                </fig>
+                            </div></li>
+                        <li><uicontrol>Assembly Insert</uicontrol><fig id="fig_tvh_w3d_jpb">
+                                <title>Assembly Insert</title>
+                                <image href="https://help.bricsys.com/hc/article_attachments/360017886139/mceclip0.png" id="image_uvh_w3d_jpb" scope="external" />
+                            </fig></li>
+                        <li><uicontrol>Assembly Explode</uicontrol><div>
+                                <fig id="fig_grx_y3d_jpb">
+                                    <title>Assembly Explode</title>
+                                    <image href="https://help.bricsys.com/hc/article_attachments/360017886639/mceclip3.png" id="image_hrx_y3d_jpb" scope="external" />
+                                </fig>
+                            </div></li>
+                        <li><uicontrol>Assembly Visualization</uicontrol><div>
+                                <fig id="fig_jg2_bjd_jpb">
+                                    <title>Assembly Visualization</title>
+                                    <image href="https://help.bricsys.com/hc/article_attachments/360017871760/mceclip2.png" id="image_kg2_bjd_jpb" scope="external" />
+                                </fig>
+                            </div></li>
+                    </ul></li>
+                <li>In the <uicontrol>Assembly</uicontrol> menu (Mechanical Workspace only):<div>
+                        <fig id="fig_avd_j3d_jpb">
+                            <title>Assembly menu</title>
+                            <image href="https://help.bricsys.com/hc/article_attachments/360017872400/mceclip5.png" id="image_bvd_j3d_jpb" scope="external" />
+                        </fig>
+                    </div></li>
+                <li>On the <uicontrol>Assembly</uicontrol> tab of the Mechanical Workspace Ribbon:<div>
+                        <fig id="fig_fd2_zhd_jpb">
+                            <title>Assembly</title>
+                            <image href="https://help.bricsys.com/hc/article_attachments/360017886959/mceclip6.png" id="image_gd2_zhd_jpb" scope="external" width="120mm" />
+                        </fig>
+                    </div><div>
+                        <fig id="fig_g5q_d3d_jpb">
+                            <title>Tools</title>
+                            <image href="https://help.bricsys.com/hc/article_attachments/360017886999/mceclip7.png" id="image_h5q_d3d_jpb" scope="external" width="120mm" />
+                        </fig>
+                    </div></li>
+            </ol></p>
+    </conbody>
+</concept>

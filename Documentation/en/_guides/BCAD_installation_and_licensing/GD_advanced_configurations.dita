@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="advanced_configurations">
+   <title>Advanced configurations</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p>Once the network license server is set up, <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> may report error -17 when trying to
+         connect to the server.</p>
+      <p>The reasons can be due to the presence of anti-virus software, and/or a firewall, and/or a proxy server.</p>
+      <section id="section_n2g_k5h_smb">
+         <title>Anti-virus</title>
+         <p>If anti-virus software is running on the server and blocking the license server program (<b>rlm.exe</b> on Windows, <b>rlm</b> on Linux/Mac), you need to unblock the RLM service in the anti-virus configuration.</p>
+         <p>See your anti-virus configuration on how to unblock services.</p>
+      </section>
+      <section id="section_o2g_k5h_smb">
+         <title>Firewall</title>
+         <p>If a firewall is installed between the server and <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />, 2 port numbers need to be opened
+            in the firewall: the port number 5053 and the port number assigned to the Bricsys
+            license server.</p>
+         <p>This port number is dynamically assigned when the license server starts. To open this port in the firewall, it must be first set in the Bricsys.lic file on the server:</p>
+         <p>
+            <ol id="ol_p2g_k5h_smb">
+               <li>Open the License Server Administration web interface at <b>http://localhost:5054</b>.</li>
+               <li>Click the <uicontrol>Status</uicontrol> button on the left. The <b>Status for "rlm" on [LicenseServer] (port 5053)</b> page opens.</li>
+               <li>Look up the port number in the ISV Servers table. The port number is displayed in the bricsys row in the 2nd column.</li>
+               <li>Copy this port number.</li>
+               <li>
+                  <p>Open the Bricsys.lic file in a text editor (e.g. Notepad, Gedit, ...). The default location of the file is C:\Program Files (x86)\Bricsys\Bricsys Network License Manager.</p>
+                  <p>You can fix the port number by modifying the line ISV bricsys into: <codeph>ISV bricsys port=[port number]</codeph>, where [port number] must be replaced by port number copied from the ISV Servers table.<fig id="fig_lnr_n5h_smb">
+                        <image href="https://static.bricsys.com/help/en_US/V18/BricsCAD/source/ART/Firewall.png" id="image_uct_n5h_smb" scope="external" />
+                     </fig></p>
+               </li>
+               <li>In the firewall, open both numbers 5053 and the port number you added to the Bricsys.lic file.</li>
+               <li>Shut down and restart the license server program.</li>
+            </ol>
+         </p>
+         <note>If this does not solve the problem, add the license server program (rlm.exe on Windows, rlm on Linux/Mac) as an exception onto the firewall exceptions and restart the license server again.</note>
+      </section>
+      <section id="section_q2g_k5h_smb">
+         <title>Proxy server</title>
+         <p>If a proxy server exists between <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />
+            and the license server, proxy settings should be configured in <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" />.</p>
+         <p>See the Proxy settings how to configure the proxy settings permanently for Network
+            License use.</p>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related information</title>
+         <link keyref="GD_proxy_settings" />
+      </linklist>
+   </related-links>
+</concept>
+

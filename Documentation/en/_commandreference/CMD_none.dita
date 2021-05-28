@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_none">
+   <title>NONE command</title>
+   <shortdesc>Disables all 2D entity snaps.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Disable all 2D entity snaps to prevent the cursor from snapping to 2D entities. You can
+         launch this command at the Command prompt to turn off running entity snaps. Doing so
+         changes the value of the OSMODE system variable to zero. You can also launch this command
+         within another command to turn off entity snaps only for the current operation. This does
+         not change the value of the OSMODE system variable.</p>
+      <p>This command displays no prompts and has no options.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_znone" />
+      </linklist>
+      <linklist>
+         <title>Related variables</title>
+         <link keyref="SV_osmode" />
+      </linklist>
+   </related-links>
+</concept>

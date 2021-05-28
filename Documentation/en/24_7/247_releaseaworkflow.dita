@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_release_a_workflow">
+    <title>Release a workflow</title>
+    <taskbody>
+        <context id="context_mbr_5db_z4b">
+            <p>You need to release a workflow in order to activate it:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Workflow</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow folder in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Edit</uicontrol>
+                    <image href="../IMAGES_temp/edit_button.PNG" id="image_i2h_xk5_y4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Edit</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Update the <uicontrol>Status</uicontrol> to
+                    <uicontrol>Released</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Edit</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the workflow is successfully
+                    edited.</stepresult>
+            </step>
+        </steps>
+        <postreq id="postreq_gy2_hgb_z4b">
+            <note type="important">Once a workflow is released and in use, you can not edit the
+                workflow any longer. If you want to edit the workflow, you first need to create a
+                copy of the workflow.</note>
+        </postreq>
+    </taskbody>
+</task>

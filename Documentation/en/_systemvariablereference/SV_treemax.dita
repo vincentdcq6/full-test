@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="treemax" xml:lang="en-US">
+   <title id="title__Toc50995751">TREEMAX system variable</title>
+   <conbody>
+      <section><title>Tree maximum</title><p>When regenerating a drawing TREEMAX limits the use of memory by limiting the number of nodes in the spatial index (oct-tree). By imposing a fixed limit with TREEMAX, you can load drawings created on systems with more memory than your system and with a larger TREEDEPTH than your system can handle. These drawings, if left unchecked, have an oct-tree large enough to eventually consume more memory than is available to your computer. TREEMAX also provides a safeguard against experimentation with inappropriately high TREEDEPTH values.</p><p><table id="table_r32_ncz_hnb">
+               <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="3*" />
+                  <tbody>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/type" />
+                        <entry><p conkeyref="system_variable_warehouse/long" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/saved_in" />
+                        <entry><p conkeyref="system_variable_warehouse/registry" /></entry>
+                     </row>
+                     <row>
+                        <entry conkeyref="system_variable_warehouse/default_value" />
+                        <entry>
+                           <p>10000000</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table></p></section>
+   </conbody>
+</concept>

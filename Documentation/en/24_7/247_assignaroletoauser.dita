@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_assign_a_role_to_a_user">
+    <title>Assign a role to a user</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_v2y_jwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Users</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select a user.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Assign roles</uicontrol>
+                    <image href="../IMAGES_temp/Assign_roles_button.PNG" id="image_n31_nyr_v4b" scale="75" scope="external" />.</cmd>
+                <stepresult>The <wintitle>Edit roles</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Tick or untick the role(s) you want to apply to the user.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Assign</uicontrol>.</cmd>
+                <stepresult>A pop up window informs you that the roles are successfully
+                    edited.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

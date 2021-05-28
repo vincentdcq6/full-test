@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="PNL_projectbrowser">
+    <title>BIM project browser panel</title>
+    <shortdesc>The BIM project browser panel offers a central location to manage your BIM projects. </shortdesc>
+    <conbody>
+        <p>It includes 5 areas.</p>
+        <fig id="fig_rsd_ttl_mpb">
+            <image href="https://static.bricsys.com/help/en_US/PNL_projectbrowser_01_V21.png" id="image_qvj_pkk_mpb" scope="external" />
+            <ol id="ol_tgv_wtl_mpb">
+                <li>Menu</li>
+                <li>Sections</li>
+                <li>Schedules</li>
+                <li>Sheets</li>
+                <li>Models</li>
+            </ol>
+        </fig>
+        <section id="section_yfn_ytl_mpb">
+            <title>Menu</title>
+            <p>
+                <div conkeyref="CM_bimprojectbrowserpanelmenu/div_rnz_ttw_gpb" id="div_dln_j5l_mpb" />
+            </p>
+        </section>
+        <section id="section_vdr_l5l_mpb">
+            <title>Sections</title>
+            <p>Displays a list of project sections organized by type: floor plans and elevations.
+                You can expand a section type to see its sections.</p>
+            <p>A context menu displays when you right-click on a
+                section.<!--Import/Link from CM_BIMProjectBrowserPanel_Section_Right-clickMenu.dita--></p>
+        </section>
+        <section id="section_a5x_m5l_mpb">
+            <title>Schedules</title>
+            <p>Displays a list of project schedules.</p>
+            <p>A context menu displays when you right-click on a
+                schedule.<!--Import/Link from CM_BIMProjectBrowserPanel_Schedule_Right-clickMenu.dita--></p>
+        </section>
+        <section id="section_bmg_n5l_mpb">
+            <title>Sheets</title>
+            <p>Displays a list of project sheets. You can expand a sheet name to see its sheet
+                views.</p>
+            <p>A context menu displays when you right-click on a sheet
+                name.<!--Import/Link from CM_BIMProjectBrowserPanel_Sheet_name_Right-clickMenu.dita--></p>
+            <p>A context menu displays when you right-click on a sheet
+                view.<!--Import/Link from CM_BIMProjectBrowserPanel_Sheet_view_Right-clickMenu.dita--></p>
+        </section>
+        <section id="section_kds_n5l_mpb">
+            <title>Models</title>
+            <p>Displays a list of project models.</p>
+            <p>A context menu displays when you right-click on a
+                model.<!--Import/Link from CM_BIMProjectBrowserPanel_Model_Right-clickMenu.dita--></p>
+        </section>
+    </conbody>
+    <related-links>
+        <linklist>
+            <title>Related commands</title>
+            <link keyref="CMD_dataextraction" />
+            <link keyref="CMD_bimsectionopen" />
+            <link keyref="CMD_bimsectionupdate" />
+            <link keyref="CMD_-toolpanel" />
+        </linklist>
+        <linklist>
+            <title>Related information</title>
+            <link keyref="UI_panels" />
+        </linklist>
+    </related-links>
+</concept>

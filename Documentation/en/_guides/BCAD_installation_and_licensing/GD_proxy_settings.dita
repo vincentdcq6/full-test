@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="proxy_settings">
+   <title>Proxy settings</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <taskbody>
+      <prereq id="prereq_ztf_gyc_cnb">Some computers are connected to a network or to the internet via a proxy server. Therefore, the proxy settings should be configured before activating or deactivating a license.</prereq>
+   </taskbody>
+   <task id="task_fvl_54y_vmb">
+      <title>Configuring the proxy settings</title>
+      <taskbody>
+         <steps id="steps_sv2_x4y_vmb">
+            <step>
+               <cmd>Click the <uicontrol>Proxy Settings...</uicontrol> button in the <uicontrol>Activate BricsCAD</uicontrol> or the <uicontrol>Licensing Information</uicontrol> dialog box.</cmd>
+               <info>
+                  <fig id="fig_kcw_bpy_vmb">
+                     <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/LicenseManager_ActivateLicense.png" id="image_gxm_dpy_vmb" scope="external" />
+                  </fig>
+                  <fig id="fig_ym3_y4y_vmb">
+                     <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/LicenseManager_Information.png" id="image_cn5_1qh_smb" scope="external" />
+                  </fig>
+               </info>
+               <stepresult>The <uicontrol>Proxy</uicontrol> dialog box opens.</stepresult>
+            </step>
+            <step>
+               <cmd>Complete the necessary fields in the <uicontrol>Proxy</uicontrol> dialog box.</cmd>
+               <info>
+                  <fig id="fig_gwv_fpy_vmb">
+                     <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/LicenseManager_Proxy.png" id="image_dn5_1qh_smb" scope="external" />
+                  </fig>
+               </info>
+            </step>
+            <step>
+               <cmd>Click the <uicontrol>OK</uicontrol> button to continue.</cmd>
+            </step>
+         </steps>
+         <result id="result_bqw_bqy_vmb">
+            <note><!--waar deze note?-->The proxy settings configuration remains active for the
+               current <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> session only. If you
+               need to reactivate or deactivate a license in a future session, you will have to
+               reconfigure the proxy settings.</note>
+         </result>
+      </taskbody>
+   </task>
+   <task id="task_vbk_v4y_vmb">
+      <title>Configuring the proxy settings permanently for network license use</title>
+      <taskbody>
+         <prereq id="prereq_zzk_ryc_cnb">If you use a network license, <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> needs to connect to the license
+            server each time a session is opened. Therefore, the proxy settings must be configured
+            permanently.</prereq>
+         <context id="context_fty_mpy_vmb">
+            <p>Proceed as follows on the computer where <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> is running:</p>
+         </context>
+         <steps id="steps_oqy_lpy_vmb">
+            <step>
+               <cmd>Create the <b>HTTP_PROXY</b> System Variable<!-- (needs link)-->:
+                     <codeph>HTTP_PROXY=[LicenseServer]:[PortNumber]</codeph></cmd>
+            </step>
+            <step>
+               <cmd>(Optional) If the proxy server supports basic authentication, create the
+                     <b>HTTP_PROXY_CREDENTIALS</b>
+                  variable<!-- (needs link) also a system variable?-->:
+                     <codeph>HTTP_PROXY_CREDENTIALS=[UserName]:[Password]</codeph></cmd>
+            </step>
+         </steps>
+      </taskbody>
+   </task>
+</task>
+

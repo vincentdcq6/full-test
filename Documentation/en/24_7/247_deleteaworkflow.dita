@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_delete_a_workflow">
+    <title>Delete a workflow</title>
+    <taskbody>
+        <context id="context_utm_gws_y4b">
+            <p>If you delete a workflow, the workflow is moved to the recycle bin.</p>
+            <p>You can delete a workflow:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Workflow</uicontrol> tool in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow folder in the tool menu.</cmd>
+            </step>
+            <step>
+                <cmd>Select a workflow in the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click the ellipsis button <image href="../IMAGES_temp/ellipsis_button.PNG" id="image_qbw_2b5_y4b" scale="75" scope="external" /> at the top of the content pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Delete</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Delete workflows</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Delete</uicontrol> to delete this workflow.</cmd>
+                <stepresult>A pop up window informs you that the workflow is successfully
+                    deleted.</stepresult>
+            </step>
+        </steps>
+        <postreq id="postreq_vfh_xzt_y4b">
+            <note>You need the appropriate permission to be able to delete a workflow.</note>
+        </postreq>
+    </taskbody>
+</task>

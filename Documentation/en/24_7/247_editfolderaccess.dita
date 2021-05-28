@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="ta_edit_folder_access">
+    <title>Edit folder access</title>
+    <taskbody>
+        <context>
+            <p>You can toggle between the access rights:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Admin</uicontrol>
+                    <image href="../IMAGES_temp/admin_icon.PNG" id="image_lps_hwn_bpb" scale="80" scope="external" />
+                    in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Project setup</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Set the permissions by folder or role.</cmd>
+                <info>
+                    <div><image href="../IMAGES_temp/set_permissions.PNG" id="image_r5v_v5n_dpb" scope="external" /></div>
+                </info>
+            </step>
+            <step>
+                <cmd>Click on the different access type icons to set a specific access type. </cmd>
+                <info>
+                    <div>As an alternative, use the top and right handles to toggle between the
+                        access rights.</div>
+                </info>
+                <info>
+                    <div>
+                        <fig id="fig_fhs_2xn_dpb">
+                            <title>Example of access rights</title>
+                            <image href="../IMAGES_temp/access_rights.PNG" id="image_ghs_2xn_dpb" scope="external" />
+                        </fig>
+                    </div>
+                </info>
+                <info>
+                    <div>
+                        <table frame="all" id="table_pjb_qvn_dpb">
+                            <title>Folder access</title>
+                            <tgroup cols="3">
+                                <colspec colname="c1" colnum="1" colwidth="1*" />
+                                <colspec colname="newCol2" colnum="2" colwidth="1.39*" />
+                                <colspec colname="c2" colnum="3" colwidth="3.06*" />
+                                <thead>
+                                    <row>
+                                        <entry>Icon</entry>
+                                        <entry>Access type</entry>
+                                        <entry>Description</entry>
+                                    </row>
+                                </thead>
+                                <tbody>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/no_access.png" id="image_xhg_xvn_dpb" scope="external" /></entry>
+                                        <entry>no access</entry>
+                                        <entry />
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/access_own.png" id="image_yr5_yvn_dpb" scope="external" /></entry>
+                                        <entry>access own</entry>
+                                        <entry>rights to objects created or uploaded by the user in
+                                            the specific folder</entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/access_all.png" id="image_t41_1wn_dpb" scope="external" /></entry>
+                                        <entry>access all</entry>
+                                        <entry>rights to all objects in the specific folder</entry>
+                                    </row>
+                                </tbody>
+                            </tgroup>
+                        </table>
+                    </div>
+                    <p>
+                        <table frame="all" id="table_s31_1dw_2pb">
+                            <title>Types of permission</title>
+                            <tgroup cols="2">
+                                <colspec colname="c1" colnum="1" colwidth="1*" />
+                                <colspec colname="c2" colnum="2" colwidth="1*" />
+                                <thead>
+                                    <row>
+                                        <entry>Icon</entry>
+                                        <entry>Description</entry>
+                                    </row>
+                                </thead>
+                                <tbody>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/view_icon.PNG" id="image_r2r_l2w_2pb" scope="external" /></entry>
+                                        <entry><uicontrol>View</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/print_icon.PNG" id="image_ojv_bfw_2pb" scope="external" /></entry>
+                                        <entry><uicontrol>Print</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/download_icon.PNG" id="image_gvl_2fw_2pb" scope="external" /></entry>
+                                        <entry><uicontrol>Download</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/add_icon.PNG" id="image_shc_fgw_2pb" scope="external" /></entry>
+                                        <entry><uicontrol>Add</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/add_revision_icon.PNG" id="image_vhb_13w_2pb" scope="external" /></entry>
+                                        <entry><uicontrol>Add revision</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/annotate_icon.PNG" id="image_ktm_d3w_2pb" scope="external" /></entry>
+                                        <entry><uicontrol>Annotate</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/edit_icon.PNG" id="image_zbp_g3w_2pb" scope="external" /></entry>
+                                        <entry><uicontrol>Edit</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/delete_icon.PNG" id="image_ufk_j3w_2pb" scope="external" /></entry>
+                                        <entry><uicontrol>Delete</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/add_subfolder_icon.PNG" id="image_itd_m3w_2pb" scope="external" /></entry>
+                                        <entry><uicontrol>Add subfolder</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../IMAGES_temp/share_icon.PNG" id="image_svp_43w_2pb" scope="external" /></entry>
+                                        <entry><uicontrol>Share</uicontrol></entry>
+                                    </row>
+                                </tbody>
+                            </tgroup>
+                        </table>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save changes</uicontrol>
+                    <image href="../IMAGES_temp/save_changes_button.PNG" id="image_y2c_spf_fpb" scale="75" scope="external" /> in the tool menu.</cmd>
+                <stepresult>A pop up window informs you that the folder access changes are
+                    saved.</stepresult>
+            </step>
+        </steps>
+        <postreq id="postreq_jvb_hpf_fpb">
+            <note>Depending on the type of folder, not all access types might be available.</note>
+        </postreq>
+    </taskbody>
+</task>

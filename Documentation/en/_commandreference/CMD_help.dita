@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_help">
+   <title>HELP command</title>
+   <shortdesc>Opens the BricsCAD Help Center.</shortdesc>
+   <conbody>
+      <p><!--Insert License Level 
+Insert link to Tool icon 
+Alias: --></p>
+      <p>Open the BricsCAD Help Center Description to learn more about BricsCAD commands, system
+         variables, and workflows. It opens in an external application window, using the default Web
+         browser, allowing it to remain open while you work on your drawings in BricsCAD. You can
+         move and resize it with standard application window controls.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related commands</title>
+         <link keyref="CMD_questionmark" />
+         <link keyref="CMD_helpsearch" />
+      </linklist>
+   </related-links>
+</concept>

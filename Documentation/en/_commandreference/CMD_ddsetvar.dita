@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_ddsetvar">
+   <title>DDSETVAR command</title>
+   <shortdesc>Opens the Settings Dialog Box.</shortdesc>
+   <conbody>
+      <p><!--Alias--></p>
+      <p>
+         <fig id="fig_okr_xxf_ynb"><!--license level image--></fig>
+      </p>
+      <p>Open the <xref keyref="DB_settings" /> to view and modify system variables. Most, but not
+         all, system variables are available in the Settings Dialog Box. You can modify all system
+         variables using the <xref keyref="CMD_setvar" />.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Information</title>
+         <link keyref="SV_system_variable_reference_title" />
+      </linklist>
+   </related-links>
+</concept>

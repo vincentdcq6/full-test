@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="GD_overviewarrayproperties">
+    <title>Overview</title>
+    <conbody>
+        <p>Component array is an associative array made of a parametric component. Component arrays
+            have a special representation in the Mechanical Browser.</p>
+        <p>Component array have 2 main subnodes:<ul id="ul_bbx_wd1_lpb">
+                <li>Source: node that contains source object and its parameters. Source object can
+                    be presented as a component or subassembly with specific properties.</li>
+                <li>Elements: node that contains all instances of source object.</li>
+            </ul></p>
+        <p>
+            <fig id="fig_gh1_h21_lpb">
+                <title>Mechanical Browser</title>
+                <image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/ArrayProperties_MechBrowser.png" id="image_hh1_h21_lpb" scope="external" />
+            </fig>
+        </p>
+        <p>Component array context menu is displayed by a right click on the array node, while array
+            properties are displayed automatically when selecting an array in the Mechanical
+            Browser.</p>
+        <p>
+            <table frame="all" id="table_ngk_p21_lpb">
+                <title>Context Menu</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*" />
+                    <colspec colname="c2" colnum="2" colwidth="4.89*" />
+                    <thead>
+                        <row>
+                            <entry>Context menu</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Component array context menu</entry>
+                            <entry>Right-click an array:<p><image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/ArrayProperites_RightClickMenu.png" id="image_mvd_3f1_lpb" scope="external" /></p><ul id="ul_hmh_nf1_lpb">
+                                    <li><uicontrol>Dissolve</uicontrol>: Dissolve an array created
+                                        in the current drawing (See command
+                                            <cmdname>BmDissolve</cmdname>).</li>
+                                    <li><uicontrol>Unlink</uicontrol>: Unlink an array from 3D solid
+                                        by dissolving the underlying component-based feature.</li>
+                                    <li><uicontrol>Hide</uicontrol>
+                                        <image href="https://static.bricsys.com/help/en_US/V19/Common/Hide_Button.png" id="image_czm_hg1_lpb" scope="external" /> /
+                                            <uicontrol>Show</uicontrol>
+                                        <image href="https://static.bricsys.com/help/en_US/V19/Common/Show_Button.png" id="image_p42_jg1_lpb" scope="external" /> : Hide or show
+                                        the selected array.</li>
+                                    <li><uicontrol>Exclude all inserts from section</uicontrol>: Set
+                                        the <varname>Sectionable</varname> property of all similar
+                                        inserts to <varname>NO</varname>. Define whether an insert
+                                        is affected by command <cmdname>ViewSection</cmdname>.</li>
+                                    <li><uicontrol>Visual Style</uicontrol>: Display the
+                                            <uicontrol>Visual Style</uicontrol> menu. Visual Styles
+                                        that are saved in the current drawing are available.</li>
+                                </ul><p><image href="https://static.bricsys.com/help/en_US/V19/Mechanical/Assembly%20Design/ArrayProperties_VisualStyleMenu.png" id="image_lhm_jf1_lpb" scope="external" /></p><p>
+                                    <ul id="ul_zfm_pf1_lpb">
+                                        <li><uicontrol>By Viewport</uicontrol>: Render the selected
+                                            array according to the current viewport shademode (see
+                                            command <cmdname>ShadeMode</cmdname>).</li>
+                                        <li><uicontrol>All by Viewport</uicontrol>: Render all
+                                            arrays according to the current viewport shademode (see
+                                            command <cmdname>ShadeMode</cmdname>).</li>
+                                        <li><uicontrol>Zoom to</uicontrol>: Zoom to the selection
+                                            set.</li>
+                                        <li><uicontrol>Select</uicontrol>: Select the array.</li>
+                                        <li><uicontrol>Delete</uicontrol>: Remove the selected array
+                                            from the assembly.</li>
+                                        <li><uicontrol>Collapse all</uicontrol>: Collapse the main
+                                            component and all components and subcomponents.</li>
+                                        <li><uicontrol>Expand all</uicontrol>: Expand the main
+                                            component and all components and subcomponents.</li>
+                                    </ul>
+                                </p></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>For more information, see Command Reference (@@@ add link).</p>
+    </conbody>
+</concept>

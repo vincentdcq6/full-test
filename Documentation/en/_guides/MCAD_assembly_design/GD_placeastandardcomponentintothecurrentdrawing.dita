@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="GD_placeastandardcomponentintothecurrentdrawing">
+    <title>Place a standard component into the current drawing</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Choose a category.</cmd>
+            </step>
+            <step>
+                <cmd>Choose a standard.</cmd>
+            </step>
+            <step>
+                <cmd>Select a type.</cmd>
+            </step>
+            <step>
+                <cmd>Click on the desired standard component.</cmd>
+            </step>
+            <step>
+                <cmd>Edit the parameters in the properties panel.</cmd>
+            </step>
+            <step>
+                <cmd>Click in the drawing area to insert the selected component.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

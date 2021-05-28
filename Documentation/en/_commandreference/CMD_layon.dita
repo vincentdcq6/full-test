@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CMD_layon">
+   <title>LAYON command</title>
+   <shortdesc>Turns on all layers in the drawing.</shortdesc>
+   <conbody>
+      <!--<p>Insert License Level</p>-->
+      <!--<p> Insert link to Tool icon</p>-->
+      <!--<p>Alias:</p>-->
+      <p>Turn on all layers in the drawing to view and edit entities on those layers. </p>
+      <p>There are no prompts. The Command line indicates: All layers have been turned on.</p>
+      <p>
+         <note> Entities on frozen layers are only visible if you also thaw the layer. Entities on locked layers are only editable if you also unlock the layer.</note>
+      </p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Related Commands</title>
+         <link keyref="CMD_layer" />
+         <!---LAYER command link-->
+         <link keyref="CMD_layon" />
+         <link keyref="CMD_layoff" />
+         <link keyref="CMD_laythw" />
+         <link keyref="CMD_layfrz" />
+         <link keyref="CMD_laylck" />
+         <link keyref="CMD_layulk" />
+         <link keyref="CMD_layiso" />
+         <link keyref="CMD_layuniso" />
+         <link keyref="CMD_laycur" />
+         <link keyref="CMD_layerp" />
+         <link keyref="CMD_layerstate" />
+      </linklist>
+      <linklist>
+         <title>Related Variables</title>
+         <link keyref="SV_laylockfadectl" />
+         <link keyref="SV_layerpmode" />
+      </linklist>
+   </related-links>
+</concept>

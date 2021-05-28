@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="CM_profilespanel">
+    <title>Profiles panel</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <div id="div_k4w_fhl_mpb">
+            <p><!--description TBA--></p>
+            <fig id="fig_dsw_2tk_mpb">
+                <image href="https://static.bricsys.com/help/en_US/CM_profiles_01_V21.png" id="image_own_gtk_mpb" scope="external" />
+            </fig>
+            <p>
+                <dl>
+                    <dlentry>
+                        <dt>Open material dialog...</dt>
+                        <dd>Opens the Physical materials dialog box.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Open profile dialog...</dt>
+                        <dd>Opens the Profiles dialog box.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Open project dialog...</dt>
+                        <dd>Opens the BIM project info dialog box.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>Show only profiles in project</dt>
+                        <dd>Only displays the existing profiles in your drawing.</dd>
+                    </dlentry>
+                </dl>
+            </p>
+        </div>
+    </conbody>
+</concept>

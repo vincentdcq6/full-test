@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="topic_53" xml:lang="en-US">
+   <title id="title__Toc50994826">BIMOSMODE system variable</title>
+   <conbody>
+      <section>
+         <title>BIM snap mode</title>
+         <p>Overrules entity snap modes for BIM entities using bitcodes.</p>
+         <p conkeyref="system_variable_warehouse/BricsCAD_only" /><table>
+            <tgroup cols="2">
+               <colspec colname="c1" colnum="1" colwidth="1*" />
+               <colspec colname="c2" colnum="2" colwidth="3*" />
+               <tbody>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/type" />
+                     <entry>
+                        <p conkeyref="system_variable_warehouse/short" />
+                     </entry>
+                  </row>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/saved_in" />
+                     <entry>
+                        <p conkeyref="system_variable_warehouse/registry" />
+                     </entry>
+                  </row>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/range" />
+                     <entry><p>0 to 3</p></entry>
+                  </row>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/default_value" />
+                     <entry><p>3</p></entry>
+                  </row>
+                  <row>
+                     <entry conkeyref="system_variable_warehouse/possible_values" />
+                     <entry><p>0: Entity snap modes are not overruled for BIM entities</p><p>1: Axis of linear solid</p><p>2: Axis of BIM grid</p></entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></section>
+   </conbody>
+</concept>
