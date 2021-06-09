@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
 <concept id="A926AA43-C4353C5-B371E2D47523815-E72635">
    <title>Overview</title>
    <shortdesc>BricsCAD Mechanical V21 offers all the new and improved tools available in BricsCAD
-      V21 plus additional enhancements specifically for mechanical workflows.</shortdesc>
+      V21 plus additional enhancements specifically for mechanical workflows. I added this string
+      through oxygen to test the integration.</shortdesc>
 
    <conbody>
       <p>This section gives an overview of all the new features and improvements in <b>BricsCAD V21
