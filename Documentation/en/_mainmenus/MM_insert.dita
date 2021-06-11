@@ -17,6 +17,9 @@
       <section id="section_y1t_zpd_h4b">
          <title>Insert Aligned Block</title>
          <p>Command: INSERTALIGNED</p>
+         <?oxy_insert_start author="vdeclerc" timestamp="20210611T110204+0200"?>
+         <p>tracking a change</p>
+         <?oxy_insert_end?>
       </section>
       <section id="section_z1t_zpd_h4b">
          <title>Insert block in cell</title>
@@ -77,3 +80,4 @@
       </section>
    </conbody>
 </concept>
+<?oxy_options track_changes="on"?>
