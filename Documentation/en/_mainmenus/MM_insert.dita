@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
 <concept id="MM_insert">
    <title>Insert menu</title>
@@ -17,9 +17,6 @@
       <section id="section_y1t_zpd_h4b">
          <title>Insert Aligned Block</title>
          <p>Command: INSERTALIGNED</p>
-         <?oxy_insert_start author="vdeclerc" timestamp="20210611T110204+0200"?>
-         <p>tracking a change</p>
-         <?oxy_insert_end?>
       </section>
       <section id="section_z1t_zpd_h4b">
          <title>Insert block in cell</title>
