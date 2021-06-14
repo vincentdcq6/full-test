@@ -4,7 +4,8 @@
     <title>Part Design Methods</title>
     <shortdesc>BricsCAD Mechanical allows you to create and modify 3D models.</shortdesc>
     <conbody>
-        <p>Ways to create a 3D model:<ul id="ul_bk1_rnn_kpb">
+        <p>Ways to create a 3D model:</p>
+        <p>oxygen author edit<ul id="ul_bk1_rnn_kpb">
                 <li>Create a 3D solid primitive, such as a box and a cylinder.</li>
                 <li>Sketch a 2D profile and extrude or revolve it to make a 3D solid.</li>
                 <li>Model a 3D surface and thicken it to make a 3D solid, or stitch several surfaces
