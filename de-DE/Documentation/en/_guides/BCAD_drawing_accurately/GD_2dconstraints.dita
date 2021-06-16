@@ -12,9 +12,9 @@
       <li><b>Dimensional</b> constraints are used to control the dimensions of an entity, such as
         length, angle, radius or diameter. </li>
     </ul>
-    <p>A similar constraint can use a value or a formula, (oxygen edit) with other dimension
-      constraints or parameters. Dimensional constraints can be edited in the Parameters and
-      Constraints panel and in the Mechanical Browser panel. </p>
+    <p>Eine ähnliche Einschränkung kann einen Wert oder eine Formel verwenden, (Sauerstoffbearbeitung) mit anderen Einschränkungen oder Parametern der Dimension
+. Abmessungsbeschränkungen können im Bereich Parameter und
+ Beschränkungen und im Bereich Mechanik-Browser bearbeitet werden. </p>
     <p>
       <note>
         <ul id="ul_rfl_1tk_4pb">
