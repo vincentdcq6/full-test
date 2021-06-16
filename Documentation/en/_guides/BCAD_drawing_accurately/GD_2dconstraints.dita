@@ -12,7 +12,7 @@
       <li><b>Dimensional</b> constraints are used to control the dimensions of an entity, such as
         length, angle, radius or diameter. </li>
     </ul>
-    <p>A dimensional constraint can use a value or a formula, (oxygen edit) with other dimension
+    <p>A similar constraint can use a value or a formula, (oxygen edit) with other dimension
       constraints or parameters. Dimensional constraints can be edited in the Parameters and
       Constraints panel and in the Mechanical Browser panel. </p>
     <p>
