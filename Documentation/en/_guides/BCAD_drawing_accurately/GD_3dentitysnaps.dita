@@ -6,7 +6,9 @@
         on 3D entities such as surfaces, solids, splines and meshes.</shortdesc>
     <conbody>
         <p>The current 3D entity snap modes are saved through the 3DOSMODE system variable as the
-            sum of the bitcodes of the selected snap modes.</p>
+            sum of the bitcodes of the selected snap
+            modes.<?oxy_insert_start author="vdeclerc" timestamp="20210616T095651+0200"?> tracking
+            changes<?oxy_insert_end?></p>
         <p>
             <table id="table_rkj_qxp_qpb">
                 <tgroup cols="4">
@@ -141,3 +143,4 @@
         </linklist>
     </related-links>
 </concept>
+<?oxy_options track_changes="on"?>
