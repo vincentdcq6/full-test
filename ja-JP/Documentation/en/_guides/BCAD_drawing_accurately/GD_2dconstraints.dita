@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A82BA1AA-4DC2AB4-7E394C5821B1200-72D50C">
+  <title>2D constraints</title>
+  <shortdesc>Parametric constraints are used to maintain relationships and control dimensions of 2D
+    geometry.</shortdesc>
+
+  <conbody>
+    <p>There are two types of constraints: </p>
+    <ul id="ul_gz2_zsk_4pb">
+      <li><b>Geometrical</b> constraints control relationships between entities.</li>
+      <li><b>Dimensional</b> constraints are used to control the dimensions of an entity, such as
+        length, angle, radius or diameter. </li>
+    </ul>
+    <p>同様の制約では、値または式 (酸素編集) を他の寸法とともに使用できます。
+ 制約またはパラメータ。寸法拘束は、[パラメータ] および [
+ [拘束] パネルと [メカニカルブラウザ] パネル。 </p>
+    <p>
+      <note>
+        <ul id="ul_rfl_1tk_4pb">
+          <li>It is recommended to first apply geometric constraints, then dimensional
+            constraints.</li>
+          <li>The PARAMETERCOPYMODE system variable controls how constraints and related parameters
+            are processed when constrained entities are copied.</li>
+          <li>The PARAMETRIZE2D command automatically creates geometrical and dimensional
+            parameters.</li>
+        </ul>
+      </note>
+    </p>
+    <p>When using constraints a drawing can be in one of three states: <ul id="ul_rkn_dtk_4pb">
+        <li><b>Underconstrained</b>: some entities are constrained. It might be impossible to apply
+          some changes using modification commands and procedures. </li>
+        <li><b>Fully constrained</b>: all possible and relevant geometric and dimensional
+          constraints are applied to the design geometry. The drawing can be modified only by
+          changing the values of the dimensional constraints. </li>
+        <li><b>Overconstrained</b>: one or more constraints violate or contradicts other
+          constraints. </li>
+      </ul></p>
+    <p>Parametric constraints allow to: <ul id="ul_smp_ftk_4pb">
+        <li>Maintain geometric design intent.</li>
+        <li>Make multiple versions of a design by applying different values to dimensional
+          constrains.</li>
+      </ul></p>
+    <fig id="fig_wdc_k5k_4pb">
+      <title>Two versions of the same fully constrained drawing representing a roundabout</title>
+      <image href="https://static.bricsys.com/help/en_US/GD_2dconstraints_01_V21.png" id="image_t2r_k5k_4pb" scope="external" />
+      <image href="https://static.bricsys.com/help/en_US/GD_2dconstraints_02_V21.png" scope="external" id="image_bzr_m5k_4pb" />
+    </fig>
+    <section id="section_b2t_45k_4pb">
+      <title>Commands and toolbars</title>
+      <p>2D parametric constraints tools are located on the <uicontrol>2D
+        Constraints</uicontrol> toolbar and the <uicontrol>Parametric</uicontrol> ribbon tab.</p>
+      <p>Tools to control the display of constraint bars and geometrical constraints are located on
+        two flyout toolbars: <uicontrol>Dimensional Constraint</uicontrol> and <uicontrol>Geometric
+          Constraint</uicontrol>.</p>
+      <p>
+        <table id="table_xbw_ngl_4pb">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="col1" colsep="1" rowsep="1" />
+            <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+            <thead>
+              <row>
+                <entry><b>Command</b>
+                </entry>
+                <entry><b>Description</b>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry><xref keyref="CMD_dcdisplay" /></entry>
+                <entry>Allows to set dimensional constraints to be displayed or hidden.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_geomconstraint" />
+                </entry>
+                <entry>Applies geometric relationships between entities and/or valid constraint
+                  points on entities.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcfix" /></entry>
+                <entry>Constrains points and entities at a fixed position.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gccoincident" /></entry>
+                <entry>
+                  <p>Applies a coincident geometrical constraint to two points or constraints a
+                    point to an entity.</p>
+                </entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcconcentric" /></entry>
+                <entry>Constrains the center points of circles, arcs, ellipses or elliptical arcs to
+                  coincide.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gccolinear" /></entry>
+                <entry>Forces lines or polyline segments to be collinear.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcparallel" /></entry>
+                <entry>Forces two lines or linear polyline segments to be parallel to each
+                  other.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcperpendicular" /></entry>
+                <entry>Constrains two lines or polyline segments to lie perpendicularly to each
+                  other.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gctangent" /></entry>
+                <entry>
+                  <p>Constrains two entities to maintain a point of tangency to each other or their
+                    extensions.</p>
+                  <p>The following entities are accepted: lines, polyline segments, circles, arcs,
+                    ellipses or elliptical arcs.</p>
+                </entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gchorizontal" /></entry>
+                <entry>Constrains lines, linear polyline segments or pairs of points to lie parallel
+                  to the X-axis of the current coordinate system.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcvertical" /></entry>
+                <entry>Constrains lines, linear polyline segments or pairs of points to lie parallel
+                  to the Y-axis of the current coordinate system.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcsmooth" /></entry>
+                <entry>Forces a spline to maintain fluid geometric continuity with another spline,
+                  line, arc or polyline.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcsymmetric" /></entry>
+                <entry>Constrains two entities or points to lie symmetrically with respect to a
+                  selected line.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcequal" /></entry>
+                <entry>Constrains arcs and circles to the same radius, or lines and polyline
+                  segments to the same length.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_constraintbar" /></entry>
+                <entry>
+                  <p>Controls the display of the constraint bar of entities.</p>
+                  <p>Constraint bars are always hidden when opening a drawing.</p>
+                </entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_dimconstraint" /></entry>
+                <entry>
+                  <p>Applies a dimensional constraint to an entity or between constraint points on
+                    entities.</p>
+                  <p>Converts associative dimensions to dynamic dimensions.</p>
+                </entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dchorizontal" /></entry>
+                <entry>Constrains the horizontal distance (X-distance) between two points with
+                  respect to the current coordinate system.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcvertical" /></entry>
+                <entry>Constrains the vertical distance (Y-distance) between two points with respect
+                  to the current coordinate system.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dclinear" /></entry>
+                <entry>Constrains the horizontal distance (X-distance) or vertical distance
+                  (Y-distance) between two points with respect to the current coordinate
+                  system.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcaligned" /></entry>
+                <entry>Constrains the distance between two points or the length of a line or
+                  polyline segment.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcradius" /></entry>
+                <entry>Constrains the radius of a circle, an arc or an arc polyline segment.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcdiameter" /></entry>
+                <entry>Constrains the diameter of a circle, an arc or an arc polyline
+                  segment.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcangular" /></entry>
+                <entry>Constrains the angle between two lines or linear polyline segments; the total
+                  angle of an arc or an arc polyline segment; or the angle between three points on
+                  entities.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcconvert" /></entry>
+                <entry>Converts an associative dimension to a dimensional constraint.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_delconstraint" /></entry>
+                <entry>Removes all dimensional and geometrical constraints from an entity.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </section>
+  </conbody>
+  <related-links>
+    <linklist>
+      <title>Related commands</title>
+      <link keyref="CMD_-parameters" />
+      <link keyref="CMD_parametrize2d" />
+    </linklist>
+    <linklist>
+      <title>Related variables</title>
+      <link keyref="SV_parametercopymode" />
+    </linklist>
+    <linklist>
+      <title>Related information</title>
+      <!--2D Constraints toolbar-->
+      <!--Dimensional Constraint toolbar -->
+      <!--Geometric Constraint toolbar-->
+      <link keyref="PNL_mechanicalbrowser" />
+      <link keyref="PNL_parametersandconstraints" />
+      <link keyref="GD_usingdimensionalconstraints" />
+      <link keyref="GD_usinggeometricconstraints" />
+      <!--Design Tables-->
+    </linklist>
+  </related-links>
+</concept>
