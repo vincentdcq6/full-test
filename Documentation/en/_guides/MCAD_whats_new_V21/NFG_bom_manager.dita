@@ -7,8 +7,11 @@
    <conbody>
       <section id="section_vql_pxv_54b">
          <title>Grouping</title>
-         <p>With the addition of the grouping property, you can now quickly group the contents of your BOM table into condensed rows by common properties of the existing columns.<fig id="fig_yqf_2bw_54b">
-               <image href="https://static.bricsys.com/help/en_US/NFG_MCAD_BOMGrouping_01_V21.png" id="image_wql_pxv_54b" scope="external" />
+         <p>With the addition of the grouping property, you can now quickly group the contents of
+            your BOM table into condensed rows by properties of the existing columns.<fig
+               id="fig_yqf_2bw_54b">
+               <image href="https://static.bricsys.com/help/en_US/NFG_MCAD_BOMGrouping_01_V21.png"
+                  id="image_wql_pxv_54b" scope="external"/>
             </fig></p>
       </section>
       <section id="section_xql_pxv_54b">
