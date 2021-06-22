@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
 <concept id="GD_adaptivegridsnap">
     <title>Adaptive grid snap</title>
     <shortdesc>The adaptive grid snap feature lets you create, edit, nudge and manipulate entities
         using concise values without keyboard
-        entry.<?oxy_insert_start author="vdeclerc" timestamp="20210622T162219+0200"?> no
-        u<?oxy_insert_end?></shortdesc>
+        entry.<?oxy_insert_start author="vdeclerc" timestamp="20210622T162219+0200" id="jfp_zgm_1qb"?><?oxy_comment_start author="Vincent De Clercq" timestamp="20210622T165635+0200" parentID="jfp_zgm_1qb" comment="what is this? please explain"?>
+        no u<?oxy_comment_end?><?oxy_insert_end?></shortdesc>
     <conbody>
         <p>The snap step size is adapted according to the current screen zoom factor. The adaptive
             grid snap is active if SNAPTYPE = 2. This system variable overrides the SNAPMODE system
