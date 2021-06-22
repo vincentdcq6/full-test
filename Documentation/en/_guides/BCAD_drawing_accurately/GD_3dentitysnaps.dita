@@ -1,14 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
 <concept id="GD_3dentitysnaps">
     <title>3D entity snaps</title>
     <shortdesc>In addition to the 2D entity snaps, a series of 3D entity snap modes apply to points
-        on 3D entities such as solids, surfaces, splines and meshes.
-        <?oxy_delete author="vdeclerc" timestamp="20210622T162157+0200" content="hello"?><?oxy_insert_start author="vdeclerc" timestamp="20210622T162157+0200"?>hello<?oxy_insert_end?></shortdesc>
+        on 3D entities such as solids, surfaces, splines and meshes. </shortdesc>
     <conbody>
-        <p>The cu<?oxy_delete author="vdeclerc" timestamp="20210622T162202+0200" content="r"?>rent
-            3D entity snap modes are saved through the 3DOSMODE system variable as the sum of the
-            bitcodes of the selected snap modes.</p>
+        <p>The current 3D entity snap modes are saved through the 3DOSMODE system variable as the
+            sum of the bitcodes of the selected snap modes.</p>
         <p>
             <table id="table_rkj_qxp_qpb">
                 <tgroup cols="4">
