@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
 <concept id="GD_2dentitysnaps">
     <title>2D entity snaps</title>
     <shortdesc>Entity snaps enable you to quickly select exact geometric points on existing entities
         without having to know the exact coordinates of those
-        points.<?oxy_insert_start author="vdeclerc" timestamp="20210622T162035+0200"?>
-        bla<?oxy_insert_end?></shortdesc>
+        points.<?oxy_insert_start author="vdeclerc" timestamp="20210622T162035+0200" id="jdc_t2m_1qb"?><?oxy_comment_start author="Vincent De Clercq" timestamp="20210622T163927+0200" parentID="jdc_t2m_1qb" comment="what does this mean"?>
+        bla<?oxy_comment_end?><?oxy_insert_end?></shortdesc>
     <conbody>
         <p>With entity snaps, you can select the end point of a line or arc, the center point of a
             circle, the intersection of any two entities, or any other geometrically significant
@@ -22,7 +22,9 @@
         </ul>
         <p>When using entity snaps, the program recognizes only visible entities or visible portions
             of entities. You cannot snap to entities on layers that have been turned off or to the
-            blank portions of dashed lines.</p>
+            blank portions of dashed
+            lines.<?oxy_insert_start author="Vincent De Clercq" timestamp="20210622T163931+0200"?>
+            zever gezever<?oxy_insert_end?></p>
         <p>If the APBOX system variable is on, the entity Snap Aperture Box is added to the
             crosshairs when one or more entity snaps are active.</p>
         <p>When you move the cross hairs, the program snaps to the snap point closest to the center
