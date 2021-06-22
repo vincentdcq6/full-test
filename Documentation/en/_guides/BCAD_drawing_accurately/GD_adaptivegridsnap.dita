@@ -3,7 +3,9 @@
 <concept id="GD_adaptivegridsnap">
     <title>Adaptive grid snap</title>
     <shortdesc>The adaptive grid snap feature lets you create, edit, nudge and manipulate entities
-        using concise values without keyboard entry.</shortdesc>
+        using concise values without keyboard
+        entry.<?oxy_insert_start author="vdeclerc" timestamp="20210622T162219+0200"?> no
+        u<?oxy_insert_end?></shortdesc>
     <conbody>
         <p>The snap step size is adapted according to the current screen zoom factor. The adaptive
             grid snap is active if SNAPTYPE = 2. This system variable overrides the SNAPMODE system
@@ -67,3 +69,4 @@
         </linklist>
     </related-links>
 </concept>
+<?oxy_options track_changes="on"?>

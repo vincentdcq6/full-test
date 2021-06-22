@@ -3,7 +3,9 @@
 <concept id="GD_2dentitysnaps">
     <title>2D entity snaps</title>
     <shortdesc>Entity snaps enable you to quickly select exact geometric points on existing entities
-        without having to know the exact coordinates of those points.</shortdesc>
+        without having to know the exact coordinates of those
+        points.<?oxy_insert_start author="vdeclerc" timestamp="20210622T162035+0200"?>
+        bla<?oxy_insert_end?></shortdesc>
     <conbody>
         <p>With entity snaps, you can select the end point of a line or arc, the center point of a
             circle, the intersection of any two entities, or any other geometrically significant
@@ -545,3 +547,4 @@
         </linklist>
     </related-links>
 </concept>
+<?oxy_options track_changes="on"?>
