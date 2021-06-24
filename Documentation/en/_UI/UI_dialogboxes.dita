@@ -4,6 +4,9 @@
     <title>Dialog boxes</title>
     <shortdesc></shortdesc>
     <conbody>
-        <p>TBA: introduction on Dialog Boxes</p>
+        <p>TBA: introduction on Dialog
+            Boxes<?oxy_insert_start author="vdeclerc" timestamp="20210624T091858+0200"?> small
+            edit<?oxy_insert_end?></p>
     </conbody>
 </concept>
+<?oxy_options track_changes="on"?>
