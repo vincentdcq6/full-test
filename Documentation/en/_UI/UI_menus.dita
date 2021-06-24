@@ -5,5 +5,8 @@
     <shortdesc></shortdesc>
     <conbody>
         <p>TBA: introduction on Menus</p>
+        <p><?oxy_insert_start author="vdeclerc" timestamp="20210624T091924+0200"?>large edit in need
+            of translation<?oxy_insert_end?></p>
     </conbody>
 </concept>
+<?oxy_options track_changes="on"?>
