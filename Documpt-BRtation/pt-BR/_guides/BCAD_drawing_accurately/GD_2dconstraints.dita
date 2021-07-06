@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="A82BA1AA-4DC2AB4-7E394C5821B1200-72D50C">
+  <title>Restrições 2D</title>
+  <shortdesc>Restrições paramétricas são usadas para manter relações e controlar dimensões da geometria 2D.</shortdesc>
+
+  <conbody>
+    <p>Existem dois tipos de restrições: </p>
+    <ul id="ul_gz2_zsk_4pb">
+      <li><b>Geométricas</b>restrições controlam as relações entre as entidades.</li>
+      <li><b>Dimensionais</b>restrições são usadas para controlar as dimensões de uma entidade como comprimento, ângulo, raio ou diâmetro. </li>
+    </ul>
+    <p>Uma restrição dimensional pode usar um valor ou uma fórmula, com outras restrições de dimensão ou
+ parâmetros. Restrições dimensionais podem ser editadas no painel Parâmetros e Restrições e
+ no painel Navegador de Mecânica. </p>
+    <p>
+      <note>
+        <ul id="ul_rfl_1tk_4pb">
+          <li>Recomenda-se primeiro aplicar restrições geométricas, e então as restrições dimensionais.</li>
+          <li>A  variável de sistema PARAMETERCOPYMODE controla copia de restrições e parâmetros relacionados quando entidades são copiadas.</li>
+          <li>O comando PARAMETRIZE2D cria automaticamente geométrico e dimensional
+ parâmetros.</li>
+        </ul>
+      </note>
+    </p>
+    <p>Quando se usam restrições um desenho pode estar em um de três estados: <ul id="ul_rkn_dtk_4pb">
+        <li><b>Sub-restrito</b>: algumas entidades são restritas. Pode ser impossível aplicar
+ algumas alterações usando comandos e procedimentos de modificação. </li>
+        <li><b>Totalmente restrito</b>: todos os geométricos e dimensionais possíveis e relevantes
+ restrições são aplicadas à geometria do projeto. O desenho só pode ser modificado por
+ alterando os valores das restrições dimensionais. </li>
+        <li><b>Superrestrito</b>: uma ou mais restrições violam ou contradiz outras
+ restrições. </li>
+      </ul></p>
+    <p>Restrições paramétricas permitem: <ul id="ul_smp_ftk_4pb">
+        <li>Manter a intenção geométrica do projeto.</li>
+        <li>Fazer múltiplas versões de um projeto aplicando  diferentes valores às restrições dimensionais.</li>
+      </ul></p>
+    <fig id="fig_wdc_k5k_4pb">
+      <title>Duas versões do mesmo desenho totalmente parametrizado representando uma rótula</title>
+      <image href="https://static.bricsys.com/help/en_US/GD_2dconstraints_01_V21.png" id="image_t2r_k5k_4pb" scope="external" />
+      <image href="https://static.bricsys.com/help/en_US/GD_2dconstraints_02_V21.png" scope="external" id="image_bzr_m5k_4pb" />
+    </fig>
+    <section id="section_b2t_45k_4pb">
+      <title>Barras de  ferramentas e comandos</title>
+      <p>As ferramentas de restrições paramétricas 2D estão localizadas no <uicontrol>2D
+ Barra de ferramentas Restrições</uicontrol> e a guia Faixa <uicontrol>paramétrica</uicontrol>.</p>
+      <p>Ferramentas para controlar a exibição de barras de restrição e restrições geométricas estão localizadas em
+ duas barras de ferramentas flyout: <uicontrol>Restrição Dimensional</uicontrol> e <uicontrol>Geométrico
+ Restrição</uicontrol>.</p>
+      <p>
+        <table id="table_xbw_ngl_4pb">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="col1" colsep="1" rowsep="1" />
+            <colspec colnum="2" colname="col2" rowsep="1" colsep="1" />
+            <thead>
+              <row>
+                <entry><b>Comando</b>
+                </entry>
+                <entry><b>Descrição</b>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry><xref keyref="CMD_dcdisplay" /></entry>
+                <entry>Permite definir restrições dimensionais para ser exibidas ou ocultas.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_geomconstraint" />
+                </entry>
+                <entry>Aplica relacões geométricas entre entidades e/ou pontos de restrição válidos em entidades.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcfix" /></entry>
+                <entry>Restringe pontos e entidades a uma posição fixa.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gccoincident" /></entry>
+                <entry>
+                  <p>Aplica uma restrição geométrica de coincidência entre dois pontos  ou restringe um ponto a uma entidade.</p>
+                </entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcconcentric" /></entry>
+                <entry>Restringe os pontos centrais de círculos, arcos, elipses ou arcos elípticos para coincidirem.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gccolinear" /></entry>
+                <entry>Força linhas ou segmentos de polilinha para serem co-lineares.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcparallel" /></entry>
+                <entry>Força duas linhas ou segmentos de polilinha linear para que fiquem paralelas entre si.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcperpendicular" /></entry>
+                <entry>Restringe duas linhas ou segmentos de polilinha a encontrarem-se perpendicularmente um ao outro.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gctangent" /></entry>
+                <entry>
+                  <p>Restringe duas entidades para manterem um ponto de tangência entre si, ou em suas extensões.</p>
+                  <p>As seguintes entidades são aceitas: linhas, segmentos de polilinha, círculos, arcos, elipses ou arcos elípticos.</p>
+                </entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gchorizontal" /></entry>
+                <entry>Restringe linhas ou pares de pontos a ficar em paralelo ao eixo-X do sistema de coordenadas atual.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcvertical" /></entry>
+                <entry>Restringe linhas ou pares de pontos a ficar em paralelo ao eixo-Y do sistema de coordenadas atual.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcsmooth" /></entry>
+                <entry>Força uma spline a manter continuidade geométrica fluída com outra spline, linha, arco ou polilinha.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcsymmetric" /></entry>
+                <entry>Restringe duas entidades ou pontos para que respeitem a simetria em relação a uma linha selecionada.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_gcequal" /></entry>
+                <entry>Restringe arcos e círculos ao mesmo raio, ou linhas e segmentos  de polilinha ao mesmo comprimento.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_constraintbar" /></entry>
+                <entry>
+                  <p>Controla a exibição da barra de restrição das entidades.</p>
+                  <p>Barras de restrições estão sempre ocultas ao abrir um desenho.</p>
+                </entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_dimconstraint" /></entry>
+                <entry>
+                  <p>Aplica uma restrição dimensional a uma entidade ou entre pontos restritos em entidades.</p>
+                  <p>Converte as cotas associativas em dimensões dinâmicas.</p>
+                </entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dchorizontal" /></entry>
+                <entry>- restringe a distância horizontal (distância- X) entre dois pontos em relação ao sistema de coordenadas atual.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcvertical" /></entry>
+                <entry>- restringe a distância horizontal (distância- X) entre dois pontos em relação ao sistema de coordenadas atual.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dclinear" /></entry>
+                <entry>Restringe a distância horizontal (distância X) ou a distância vertical (distância Y) entre dois pontos em relação ao sistema de coordenadas atual.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcaligned" /></entry>
+                <entry>Restringe a distância entre dois pontos ou o comprimento de um  segmento de linha ou polilinha.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcradius" /></entry>
+                <entry>Restringe o raio de um círculo de um arco ou um segmento de arco de polilinha.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcdiameter" /></entry>
+                <entry>Restringe o diâmetro de um círculo de um arco ou um segmento de arco de polilinha.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcangular" /></entry>
+                <entry>- restringe o ângulo entre duas linhas ou segmentos lineares de polilinha; o ângulo total de um arco ou um segmento de arco de polilinha; ou o ângulo entre três pontos em entidades.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CM_dcconvert" /></entry>
+                <entry>Converte uma dimensão associativa de uma restrição de dimensão.</entry>
+              </row>
+              <row>
+                <entry><xref keyref="CMD_delconstraint" /></entry>
+                <entry>Remove todas as restrições geométricas e dimensionais de uma entidade.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </section>
+  </conbody>
+  <related-links>
+    <linklist>
+      <title>Comandos Relacionados</title>
+      <link keyref="CMD_-parameters" />
+      <link keyref="CMD_parametrize2d" />
+    </linklist>
+    <linklist>
+      <title>Variáveis relacionadas</title>
+      <link keyref="SV_parametercopymode" />
+    </linklist>
+    <linklist>
+      <title>Informações relacionadas</title>
+      <!--2D Constraints toolbar-->
+      <!--Dimensional Constraint toolbar -->
+      <!--Geometric Constraint toolbar-->
+      <link keyref="PNL_mechanicalbrowser" />
+      <link keyref="PNL_parametersandconstraints" />
+      <link keyref="GD_usingdimensionalconstraints" />
+      <link keyref="GD_usinggeometricconstraints" />
+      <!--Design Tables-->
+    </linklist>
+  </related-links>
+</concept>
