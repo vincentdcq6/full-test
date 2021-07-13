@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
 <concept id="GD_adaptivegridsnap">
     <title>Adaptive grid snap</title>
@@ -67,3 +67,4 @@
         </linklist>
     </related-links>
 </concept>
+<?oxy_options track_changes="on"?>

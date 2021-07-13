@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
 <concept id="GD_2dentitysnaps">
     <title>2D entity snaps</title>
@@ -20,7 +20,7 @@
         </ul>
         <p>When using entity snaps, the program recognizes only visible entities or visible portions
             of entities. You cannot snap to entities on layers that have been turned off or to the
-            blank portions of dashed lines.</p>
+            blank portions of dashed lines. zever gezever</p>
         <p>If the APBOX system variable is on, the entity Snap Aperture Box is added to the
             crosshairs when one or more entity snaps are active.</p>
         <p>When you move the cross hairs, the program snaps to the snap point closest to the center
@@ -545,3 +545,4 @@
         </linklist>
     </related-links>
 </concept>
+<?oxy_options track_changes="on"?>
