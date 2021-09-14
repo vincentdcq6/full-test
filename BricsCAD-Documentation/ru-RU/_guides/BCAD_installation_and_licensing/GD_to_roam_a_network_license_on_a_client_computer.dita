@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- smartling.force_inline_for_tags = term, uicontrol, cmdname, image, filepath, wintitle, div, varname -->
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="to_roam_a_network_license_on_a_client_computer">
+   <title>Перемещение сетевой лицензии на компьютер пользователя</title>
+   <shortdesc/>
+   <taskbody>
+      <context id="context_w1t_rvc_cnb">Сетевая лицензия может быть перемещена для использования <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> без подключения к серверу лицензий (например, для работы дома или за пределами офиса).<p>Если сетевая лицензия используется на компьютере пользователя, в диалоговом окне Информация о лицензии отображается кнопка <uicontrol>Роуминг...</uicontrol></p><fig id="fig_ws2_qph_smb">
+            <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/LicensingInformation_Roaming.png" id="image_vzf_qph_smb" scope="external" />
+         </fig></context>
+      <steps id="ol_xv3_pph_smb">
+         <step>
+            <cmd>Если Ваш компьютер подключен к серверу лицензий через прокси-сервер, нажмите кнопку <uicontrol>Параметры прокси-сервера</uicontrol> для настройки конфигурации прокси-сервера сетевой лицензии.</cmd>
+         </step>
+         <step>
+            <cmd>Нажмите кнопку <uicontrol>Роуминг...</uicontrol>.</cmd>
+            <stepresult>Откроется диалоговое окно <uicontrol>Роуминг</uicontrol>.<fig id="fig_m4g_rph_smb">
+                  <image href="https://static.bricsys.com/help/en_US/V20/BCAD/InstallationAndSettings/Roaming_Checkout.png" id="image_msh_rph_smb" scope="external" />
+               </fig></stepresult>
+         </step>
+         <step>
+            <cmd>Введите количество дней для роуминга лицензии и нажмите кнопку <uicontrol>Checkout</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Выберите опцию сохранения значения количества дней, если Вам необходимо автоматически обновлять период роуминга при каждом подключении Вашего компьютера к серверу.</cmd>
+         </step>
+         <step>
+            <cmd>Перезапустите <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> для применения изменений.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <title>Связанные команды</title>
+         <link keyref="CMD_licensemanager" />
+      </linklist>
+      <linklist>
+         <title>Связанная информация</title>
+         <link keyref="GD_proxy_settings" />
+         <link keyref="GD_to_use_a_network_license_on_a_client_computer" />
+         <link keyref="GD_to_return_a_roamed_network_license_to_the_server" />
+         <link keyref="DB_bricsyslicensemanager" />
+      </linklist>
+   </related-links>
+</task>
+
