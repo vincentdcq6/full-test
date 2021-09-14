@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="trial_mode">
+   <title>Modalità di prova</title>
+   <shortdesc><!--TBA--></shortdesc>
+   <conbody>
+      <p><b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> può essere eseguito in modalità di prova per 30 giorni.
+ Dopo questo periodo, è necessario attivare una licenza commerciale valida.</p>
+      <section id="section_b1w_jng_smb">
+         <title>Esecuzione di BricsCAD in modalità di prova</title>
+         <p>Ogni volta che si avvia <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> in modalità trial
+, si aprirà la finestra di dialogo <uicontrol>BricsCAD - Prova gratuita</uicontrol> con indicato i giorni di prova
+ rimasti.</p>
+         <p>Effettuare una delle seguenti operazioni:</p>
+         <ul id="ul_c1w_jng_smb">
+            <li>Clicca sul pulsante <uicontrol>Continua</uicontrol> per aprire <b conkeyref="product_names_warehouse/b_lhg_1q1_cnb" /> in modalità di prova.</li>
+            <li>Clicca sul pulsante <uicontrol>Inserisci licenza...</uicontrol> per attivare una licenza Singola o
+ Volume o per utilizzare una licenza di Rete.</li>
+         </ul>
+      </section>
+   </conbody>
+   <related-links>
+      <linklist>
+         <title>Informazioni correlate</title>
+         <link keyref="GD_activate_a_trial_license_automatically_online" />
+         <link keyref="GD_activate_a_trial_license_manually_offline" />
+         <link keyref="GD_activate_a_single_or_volume_license_automatically_online" />
+         <link keyref="GD_activate_a_network_license_automatically_online" />
+         <link keyref="GD_setting_the_license_level" />
+      </linklist>
+   </related-links>
+</concept>
+
